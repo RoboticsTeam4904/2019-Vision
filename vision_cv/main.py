@@ -103,9 +103,10 @@ if(__name__ == "__main__"):
     while True:
         box_scores = []
         contours, mask, image = findContours()
+        
         #contours = filterContours(contours)
         #cv2.drawContours(mask, contours, -1, (0,0,255), 5)
-        print("LENGTH OF COUNTOURS: {}\n\n".format(len(contours)))
+        print("LENGTH OF CONTOURS: {}\n\n".format(len(contours)))
         for i in range(len(contours)):
             rect = cv2.minAreaRect(contours[i])
             box = cv2.boxPoints(rect)
@@ -119,7 +120,7 @@ if(__name__ == "__main__"):
         cv2.drawContours(mask, contours, 0, (0,0,255), 2)
         if len(contours) > 1:
     #        try:
-            print("1 LENGTH OF COUNTOURS: {}".format(len(contours)))
+            print("1 LENGTH OF CONTOURS: {}".format(len(contours)))
             # findTarget(contours)
             cv2.circle(mask, findTarget(contours), 1, (0,255,0), -1)
             # cv2.rectangle(mask, (0,0), (1000,1000), (100,100,100),-1)
