@@ -45,11 +45,9 @@ def slope(point1, point2):
     m = (point2[1]-point1[1])/(point2[0]-point1[0])
     return m
 
-def findOutside(right, bottom, tolerance):
+def findOutside(right, bottom, weight):
     slopePoints = slope(right, bottom)
     angle = math.atan(slopePoints)
     angle = 90-angle
-    if angle > (14.5-tolerance) and angle<(14.5 + tolerance):
-        return True
-    else:
-        return False
+    num = (14.5-angle)**2
+    return -num/(num+weight)+1
