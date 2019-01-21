@@ -16,7 +16,7 @@ def analyzeInsideAnglesRectangle(points, tolerance):
 
 def analyzeInsideAnglesParallelogram(points, tolerance):
     angles = []
-    for i in range (-2,len(points)-2):
+    for i in range (-2,len(points)-2): #Negative indices index from the back of the list
         angles.append(findInsideAngle(points[i], points[i+1], points[i+2]))
     if None in angles:
         print angles
