@@ -4,6 +4,7 @@ import WebCam
 import numpy as np
 from PIL import Image
 import math
+import AngleFinding 
 
 #WebCam.set(exposure = 0.1)
 
