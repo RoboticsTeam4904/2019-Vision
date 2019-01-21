@@ -5,6 +5,7 @@ import numpy as np
 from PIL import Image
 import math
 import AngleFinding 
+import ScoringMechanism
 
 #WebCam.set(exposure = 0.1)
 
@@ -48,35 +49,6 @@ def detect(c):
     # Now we create bounding boxes around contours, etc. for filtering by ratio even more.
 
     return True
-
-def dist2d(p1, p2):
-        return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
-
-def score(bb):
-    point_score = 0 
-    print(bb)
-    bb = sorted(bb, key=lambda x: x[1])[::-1]
-    top = bb.pop(0)
-    bb = sorted(bb, key=lambda x: x[1])
-    bottom = bb.pop(0)
-    bb = sorted(bb, key=lambda x: x[0])
-    left = bb.pop(0)
-    bb = sorted(bb, key=lambda x: x[0])[::-1]
-    right = bb.pop(0)
-
-    print(top, bottom, left, right)
-    if(len(set([tuple(top), tuple(bottom), tuple(left), tuple(right)])) < 4):
-        return ()
-
-    top_side = dist2d(top, right)
-    left_side = dist2d(top, left)
-    print(top_side, left_side)
-
-    return (top, bottom, left, right)
-    
-    
-    # First, we can figure out the ratio between the two sides and score that way.
-   
    
     """sizeScores = [size(area)for area in areas]
 	ratioScores = ratios(widths, heights)
