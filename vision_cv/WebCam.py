@@ -2,7 +2,7 @@ import cv2
 import subprocess
 import numpy as np
 from PIL import Image
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(1)
 
 def getImage():
 	retval, image = camera.read()
