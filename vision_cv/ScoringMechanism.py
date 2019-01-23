@@ -53,7 +53,6 @@ def scoring_rectangle(points, weight):
     for i in range (-2,len(points)-2):
         angles.append(findInsideAngle(points[i], points[i+1], points[i+2]))
     if None in angles:
-        print(angles)
         return False
     angles = [elem/math.pi * 180 for elem in angles]
     angles = [(90-elem)**2 for elem in angles] #Squared error of angles
@@ -65,12 +64,10 @@ def scoring_parallelogram(points, weight):
     for i in range (-2,len(points)-2): #Negative indices index from the back of the list
         angles.append(findInsideAngle(points[i], points[i+1], points[i+2]))
     if None in angles:
-        print(angles)
         return False
     angles = [elem/math.pi * 180 for elem in angles]
     
     sumTotal = 0
-    print(angles,'ANGLES')
     for i in range(2):
         sumTotal += (angles[i+2]-angles[i])**2
     return -sumTotal/(sumTotal+weight) +1

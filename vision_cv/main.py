@@ -78,7 +78,8 @@ def findContours():
             a_.append(file_obj.getpixel((x, y)))
         data.append(a_)
     image = np.array(data, dtype=np.uint8)
-    
+    image = np.rot90(image, k=3)
+    image = np.fliplr(image)
     #thresh = rgbThreshold(image,(0,78.4),(114.7,255.0),(98.6,255.0))
     thresh = rgbThreshold(image, (0,100), (100,255), (0,255))
 
@@ -98,8 +99,6 @@ def findContours():
         print('yeet')
     if(cv2.__version__[0] == "3"):
         im2, contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
-        print('yeet')
-    print(contours)
 
     return contours, mask, image
 
@@ -129,12 +128,9 @@ if(__name__ == "__main__"):
     weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, threshold)))
             #print(box, score(box))
             cv2.drawContours(mask,[box],0,(0,255,0),2)
-        for i in box_scores:
-            print(i[1])
         # Now we draw boxes;
         box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
         print(box_scores[0][1], box_scores[1][1])
-        print(box_scores)
         for point in box_scores[0][0]:
             print(point)
             cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
