@@ -94,7 +94,7 @@ def findContours():
     contours = None
     if(cv2.__version__[0] == "4"):
         contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
-    if(cv2.__version__[0] == "2"):
+    if(cv2.__version__[0] == "4"):
         contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
     #print(contours)
 
