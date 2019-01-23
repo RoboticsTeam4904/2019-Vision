@@ -1,5 +1,5 @@
 import cv2
-import WebCam
+#import WebCam
 #from gripCode import Grip
 import numpy as np
 from PIL import Image
@@ -8,7 +8,7 @@ from ScoringMechanism import *
 
 #WebCam.set(exposure = 0.1)
 
-min_area = 0.0
+min_area = 30
 min_perimeter = 0.0
 min_width = 0
 max_width = 100000
@@ -69,15 +69,15 @@ def findTarget(contours):
     return (int(x + w/2), int(y + h/2))
 
 def findContours():
-    image = WebCam.getImage()
-    '''file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg")
+    #image = WebCam.getImage()
+    file_obj = Image.open("../vision_cv/TestImages/TEST30.jpg")
     data = []
     for x in range(640):
         a_ = []
         for y in range(480):
             a_.append(file_obj.getpixel((x, y)))
         data.append(a_)
-    image = np.array(data, dtype=np.uint8)'''
+    image = np.array(data, dtype=np.uint8)
     
     #thresh = rgbThreshold(image,(0,78.4),(114.7,255.0),(98.6,255.0))
     thresh = rgbThreshold(image, (0,100), (100,255), (0,255))
@@ -92,11 +92,14 @@ def findContours():
     mode = cv2.RETR_LIST
     method = cv2.CHAIN_APPROX_SIMPLE
     contours = None
+
     if(cv2.__version__[0] == "4"):
         contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
-    if(cv2.__version__[0] == "4"):
-        contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
-    #print(contours)
+        print('yeet')
+    if(cv2.__version__[0] == "3"):
+        im2, contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
+        print('yeet')
+    print(contours)
 
     return contours, mask, image
 
@@ -109,12 +112,12 @@ if(__name__ == "__main__"):
         #print("LENGTH OF CONTOURS: {}\n\n".format(len(contours)))
         threshold_contours = 5  # This is the threshold that defines "How good" something needs to be a 
         # contour... Start with high values, and increment down as necessary...
-        weight_ratio = 100
-        weight_area = 10
-        weight_parallelogram_infunc = 10
-        weight_parallelogram_outfunc = 1 
-        weight_rotation_angle_infunc = 10 
-        weight_rotation_angle_outfunc = 1 
+        weight_ratio = 1
+        weight_area = 0
+        weight_parallelogram_infunc = 1 #If small, more important
+        weight_parallelogram_outfunc = 0
+        weight_rotation_angle_infunc = 1 #If small, more important
+        weight_rotation_angle_outfunc = 1
         threshold = 2
         for i in range(len(contours)):
             bb = contours[i]
@@ -126,10 +129,12 @@ if(__name__ == "__main__"):
     weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, threshold)))
             #print(box, score(box))
             cv2.drawContours(mask,[box],0,(0,255,0),2)
-        
+        for i in box_scores:
+            print(i[1])
         # Now we draw boxes;
-        box_scores = sorted(box_scores, key=lambda x: x[1])[::-1][:2]
+        box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
         print(box_scores[0][1], box_scores[1][1])
+        print(box_scores)
         for point in box_scores[0][0]:
             print(point)
             cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
