@@ -3,9 +3,8 @@ import WebCam
 #from gripCode import Grip
 import numpy as np
 from PIL import Image
-import math
-import AngleFinding 
-import ScoringMechanism
+import math 
+from ScoringMechanism import *
 
 #WebCam.set(exposure = 0.1)
 
@@ -20,6 +19,7 @@ max_vertices = 1000000.0
 min_vertices = 0
 min_ratio = 0
 max_ratio = 100000
+
 
 def rgbThreshold(inp, red, green, blue):
     out = cv2.cvtColor(inp, cv2.COLOR_BGR2RGB)
@@ -44,7 +44,7 @@ def detect(c):
     ratio = (float)(w) / h
     if (ratio < min_ratio or ratio > max_ratio):
         return False
-    print(contours)
+    #print(contours)
     
     # Now we create bounding boxes around contours, etc. for filtering by ratio even more.
 
@@ -69,14 +69,15 @@ def findTarget(contours):
     return (int(x + w/2), int(y + h/2))
 
 def findContours():
-    file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg")
+    image = WebCam.getImage()
+    '''file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg")
     data = []
     for x in range(640):
         a_ = []
         for y in range(480):
             a_.append(file_obj.getpixel((x, y)))
         data.append(a_)
-    image = np.array(data, dtype=np.uint8)
+    image = np.array(data, dtype=np.uint8)'''
     
     #thresh = rgbThreshold(image,(0,78.4),(114.7,255.0),(98.6,255.0))
     thresh = rgbThreshold(image, (0,100), (100,255), (0,255))
@@ -91,11 +92,11 @@ def findContours():
     mode = cv2.RETR_LIST
     method = cv2.CHAIN_APPROX_SIMPLE
     contours = None
-    if(cv2.__version__[0] == "3"):
-        im2, contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
+    if(cv2.__version__[0] == "4"):
+        contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
     if(cv2.__version__[0] == "2"):
         contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
-    print(contours)
+    #print(contours)
 
     return contours, mask, image
 
@@ -103,19 +104,38 @@ if(__name__ == "__main__"):
     while True:
         box_scores = []
         contours, mask, image = findContours()
-        
-        #contours = filterContours(contours)
+        contours = filterContours(contours)
         #cv2.drawContours(mask, contours, -1, (0,0,255), 5)
-        print("LENGTH OF CONTOURS: {}\n\n".format(len(contours)))
+        #print("LENGTH OF CONTOURS: {}\n\n".format(len(contours)))
+        threshold_contours = 5  # This is the threshold that defines "How good" something needs to be a 
+        # contour... Start with high values, and increment down as necessary...
+        weight_ratio = 100
+        weight_area = 10
+        weight_parallelogram_infunc = 10
+        weight_parallelogram_outfunc = 1 
+        weight_rotation_angle_infunc = 10 
+        weight_rotation_angle_outfunc = 1 
+        threshold = 2
+        for i in range(len(contours)):
+            bb = contours[i]
         for i in range(len(contours)):
             rect = cv2.minAreaRect(contours[i])
             box = cv2.boxPoints(rect)
             box = np.int0(box)
-            box_scores.append((box, score(box)))
+            box_scores.append((box, score(box, weight_ratio, weight_area, weight_parallelogram_infunc, 
+    weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, threshold)))
             #print(box, score(box))
             cv2.drawContours(mask,[box],0,(0,255,0),2)
-            for point in score(box):
-                cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
+        
+        # Now we draw boxes;
+        box_scores = sorted(box_scores, key=lambda x: x[1])[::-1][:2]
+        print(box_scores[0][1], box_scores[1][1])
+        for point in box_scores[0][0]:
+            print(point)
+            cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
+        for point in box_scores[1][0]:
+            print(point)
+            cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
 
         cv2.drawContours(mask, contours, 0, (0,0,255), 2)
         if len(contours) > 1:
