@@ -37,7 +37,7 @@ def score_side_ratio(dimension):
     h,w = dimension
     target_ratio = 2.75
     # 5.5 / 2 = 2.75
-    return (1/(((h/w)-target_ratio)**2 + 1)) # Witch of Agnesi curve.
+    return max((1/(((h/w)-target_ratio)**2 + 1)),(1/(((w/h)-target_ratio)**2 + 1))) # Witch of Agnesi curve.
 
 def score_area_ratio(dimension, points):
     t,r,b,l = points
@@ -68,7 +68,9 @@ def scoring_parallelogram(points, weight):
         print(angles)
         return False
     angles = [elem/math.pi * 180 for elem in angles]
+    
     sumTotal = 0
+    print(angles,'ANGLES')
     for i in range(2):
         sumTotal += (angles[i+2]-angles[i])**2
     return -sumTotal/(sumTotal+weight) +1
@@ -76,7 +78,7 @@ def scoring_parallelogram(points, weight):
 def scoring_rotation_angle(right, bottom, weight):
     slopePoints = slope(right, bottom)
     angle = math.atan(slopePoints)
-    angle = angle
+    angle = angle/math.pi*180
     num = min((14.5-angle)**2, (14.5+angle-90)**2)
     return -num/(num+weight)+1
 
