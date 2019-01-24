@@ -1,9 +1,12 @@
 import numpy as np
 
-import GripRunner, Printing, WebCam
+import GripRunner
+import Printing
+import WebCam
 from config import debug, display, resolution
-import cv2, time
-from ContourFinding import *
+import cv2
+import time
+import ContourFinding
 
 minExposure = 1
 maxExposure = 50
@@ -57,8 +60,8 @@ def oldDecrepidAndFrailCalibrate():
 		image = WebCam.getImage()
 		contours = GripRunner.run(image)
 		numContours = len(contours)
-#		print numContours, exposure, WebCam.getExposure()
-		if i%50 == 0:
+		# print numContours, exposure, WebCam.getExposure()
+		if i % 50 == 0:
 			print ("iteration #", i, "  Number of contours seen: ", numContours)
 		if numContours != 0:
 			if tooLarge(contours):
@@ -74,7 +77,7 @@ def oldDecrepidAndFrailCalibrate():
 		else:
 			numGoodFrames = 0
 		randomVar = np.random.random_sample()
-		scaleBy = np.true_divide(2+randomVar, numContours+randomVar)/3
+		scaleBy = np.true_divide(2 + randomVar, numContours + randomVar) / 3
 		print ("old exposure: ", exposure)
 		exposure = np.minimum(np.maximum(np.multiply(exposure, scaleBy), minExposure), maxExposure)
 		print ("new exposure: ", exposure)
@@ -82,21 +85,20 @@ def oldDecrepidAndFrailCalibrate():
 		if display:
 			Printing.drawContours(image, contours)
 			Printing.display(image)
-	if debug: 
+	if debug:
 		print ("Failed grip", time.clock() - s)
 	return False
 
+
 def calibrate():
 	maxScore = 0
-	maxScoreExposure = 0
 	for exposure in range(1, 60):
 		WebCam.set(exposure=exposure)
 		image = WebCam.getImage()
 		contours = GripRunner.run(image)
-		averageScore = filterContoursAutocalibrate(contours, image)
+		averageScore = ContourFinding.filterContoursAutocalibrate(contours, image)
 		if averageScore > maxScore:
 			maxScore = averageScore
-			maxScoreExposure = exposure
 	WebCam.set(exposure=exposure)
 	return True
 
@@ -109,6 +111,7 @@ def tooLarge(contours):
 	else:
 		return False
 
+
 def displace():
 	WebCam.set(exposure=2000)
 
@@ -116,7 +119,7 @@ def displace():
 def test():
 	displace()
 	start = time.clock()
-	newCalibrate()
+	ContourFinding.newCalibrate()
 	exposure = WebCam.getExposure()
 	print (time.clock() - start, "TOTAL TIME")
 

@@ -1,11 +1,11 @@
 import cv2
 import numpy as np
 from PIL import Image
-import math 
-from ScoringMechanism import *
-#WebCam.set(exposure = 0.1)
-#import WebCam
-#from gripCode import Grip
+from ScoringMetric import score
+import sys
+# WebCam.set(exposure = 0.1)
+# import WebCam
+# from gripCode import Grip
 
 min_area = 80
 min_perimeter = 0.0
@@ -22,11 +22,12 @@ max_ratio = 15
 
 def rgbThreshold(inp, red, green, blue):
     out = cv2.cvtColor(inp, cv2.COLOR_BGR2RGB)
-    return cv2.inRange(out, (red[0], green[0], blue[0]),  (red[1], green[1], blue[1]))
+    return cv2.inRange(out, (red[0], green[0], blue[0]), (red[1], green[1], blue[1]))
+
 
 def detect(c):
     # initialize the shape name and approximate the contour
-    x,y,w,h = cv2.boundingRect(c)
+    x, y, w, h = cv2.boundingRect(c)
     if (w < min_width or w > max_width):
         return False
     if (h < min_height or h > max_height):
@@ -48,21 +49,22 @@ def detect(c):
     return True
    
     """sizeScores = [size(area)for area in areas]
-	ratioScores = ratios(widths, heights)
-	rotationScores = [rotation(rect) for rect in rotatedRects]
-	rectangularScores = [distToPolygon(contour, poly) for contour,poly in zip(contours, rotatedBoxes)]
-	areaScores = polygonAreaDiff(areas, rotatedAreas)
+    ratioScores = ratios(widths, heights)
+    rotationScores = [rotation(rect) for rect in rotatedRects]
+    rectangularScores = [distToPolygon(contour, poly) for contour,poly in zip(contours, rotatedBoxes)]
+    areaScores = polygonAreaDiff(areas, rotatedAreas)
     quadScores = [Quadrify(contour) for contour in contours]
-    
     """
 
 
 def filterContours(contours):
     return [x for x in contours if (cv2.contourArea(x) > 0 and detect(x))]
 
+
 def findTarget(contours):
-    x,y,w,h = cv2.boundingRect(np.concatenate((contours[0], contours[1])))
+    x, y, w, h = cv2.boundingRect(np.concatenate((contours[0], contours[1])))
     return (int(x + w/2), int(y + h/2))
+
 
 def findContours():
     #image = WebCam.getImage()
