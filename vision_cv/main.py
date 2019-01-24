@@ -66,7 +66,7 @@ def findTarget(contours):
 
 def findContours():
     #image = WebCam.getImage()
-    file_obj = Image.open("../vision_cv/TestImages/TEST7.jpg")
+    file_obj = Image.open("../vision_cv/TestImages/TEST90.jpg")
     data = []
     for x in range(640):
         a_ = []
@@ -78,7 +78,7 @@ def findContours():
     image = np.fliplr(image)
     thresh = rgbThreshold(image, (40,130), (90,180), (0,60))
 
-    #Working RGB Threshold 
+    #Working RGB Threshold: (40,130), (90,180), (0,60))
     mask = cv2.bitwise_and(image, image, mask=thresh)
 
     mode = cv2.RETR_LIST
