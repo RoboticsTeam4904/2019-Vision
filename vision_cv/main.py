@@ -1,24 +1,23 @@
 import cv2
-#import WebCam
-#from gripCode import Grip
 import numpy as np
 from PIL import Image
 import math 
 from ScoringMechanism import *
-
 #WebCam.set(exposure = 0.1)
+#import WebCam
+#from gripCode import Grip
 
-min_area = 30
+min_area = 80
 min_perimeter = 0.0
 min_width = 0
-max_width = 100000
+max_width = 500
 min_height = 0
-max_height = 100000
+max_height = 500
 solidity = [0, 100.0]
 max_vertices = 1000000.0
 min_vertices = 0
 min_ratio = 0
-max_ratio = 100000
+max_ratio = 15
 
 
 def rgbThreshold(inp, red, green, blue):
@@ -44,8 +43,6 @@ def detect(c):
     ratio = (float)(w) / h
     if (ratio < min_ratio or ratio > max_ratio):
         return False
-    #print(contours)
-    
     # Now we create bounding boxes around contours, etc. for filtering by ratio even more.
 
     return True
@@ -55,22 +52,21 @@ def detect(c):
 	rotationScores = [rotation(rect) for rect in rotatedRects]
 	rectangularScores = [distToPolygon(contour, poly) for contour,poly in zip(contours, rotatedBoxes)]
 	areaScores = polygonAreaDiff(areas, rotatedAreas)
-	quadScores = [Quadrify(contour) for contour in contours]"""
+    quadScores = [Quadrify(contour) for contour in contours]
+    
+    """
 
 
 def filterContours(contours):
     return [x for x in contours if (cv2.contourArea(x) > 0 and detect(x))]
 
 def findTarget(contours):
-    # contour1 = contours[0]
-    # for i in contours[1]:
-    #     contour1.append(i)
     x,y,w,h = cv2.boundingRect(np.concatenate((contours[0], contours[1])))
     return (int(x + w/2), int(y + h/2))
 
 def findContours():
     #image = WebCam.getImage()
-    file_obj = Image.open("../vision_cv/TestImages/TEST30.jpg")
+    file_obj = Image.open("../vision_cv/TestImages/TEST7.jpg")
     data = []
     for x in range(640):
         a_ = []
@@ -80,14 +76,9 @@ def findContours():
     image = np.array(data, dtype=np.uint8)
     image = np.rot90(image, k=3)
     image = np.fliplr(image)
-    #thresh = rgbThreshold(image,(0,78.4),(114.7,255.0),(98.6,255.0))
-    thresh = rgbThreshold(image, (0,100), (100,255), (0,255))
+    thresh = rgbThreshold(image, (40,130), (90,180), (0,60))
 
-    """
-        self.__rgb_threshold_red = [0.0, 78.41669583131537]
-        self.__rgb_threshold_green = [114.65827338129496, 255.0]
-        self.__rgb_threshold_blue = [98.60611510791367, 255.0]
-    """
+    #Working RGB Threshold 
     mask = cv2.bitwise_and(image, image, mask=thresh)
 
     mode = cv2.RETR_LIST
@@ -114,7 +105,7 @@ if(__name__ == "__main__"):
         weight_ratio = 1
         weight_area = 0
         weight_parallelogram_infunc = 1 #If small, more important
-        weight_parallelogram_outfunc = 0
+        weight_parallelogram_outfunc = 1
         weight_rotation_angle_infunc = 1 #If small, more important
         weight_rotation_angle_outfunc = 1
         threshold = 2

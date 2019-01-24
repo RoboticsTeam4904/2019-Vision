@@ -12,13 +12,11 @@ def score(bb, weight_ratio, weight_area, weight_parallelogram_infunc,
 
     
     bb = sorted(bb, key=lambda x: x[1])[::-1]
-    top = bb.pop(0)
-    bb = sorted(bb, key=lambda x: x[1])
-    bottom = bb.pop(0)
+    top = bb[0]
+    bottom = bb[-1]
     bb = sorted(bb, key=lambda x: x[0])
-    left = bb.pop(0)
-    bb = sorted(bb, key=lambda x: x[0])[::-1]
-    right = bb.pop(0)
+    left = bb[0]
+    right = bb[-1]
 
     points = (top, right, bottom, left)
     if(len(set([tuple(top), tuple(bottom), tuple(left), tuple(right)])) < 4):
@@ -73,28 +71,25 @@ def scoring_parallelogram(points, weight):
     return -sumTotal/(sumTotal+weight) +1
 
 def scoring_rotation_angle(right, bottom, weight):
-    slopePoints = slope(right, bottom)
-    angle = math.atan(slopePoints)
+    angle = slope(right, bottom)
     angle = angle/math.pi*180
-    num = min((14.5-angle)**2, (14.5+angle-90)**2)
+    num = min(((90-14.5)-angle)**2, (14.5+90-angle)**2)
     return -num/(num+weight)+1
 
 def findInsideAngle(first, main, third):
     
     try:
-        slope1 = slope(main, first)
+        angle1 = slope(main, first)
     except ZeroDivisionError:
         return None
-    angle1 = math.atan(slope1)
     try:
-        slope2 = slope(main, third)
+        angle2 = slope(main, third)
     except ZeroDivisionError:
         return None
-    angle2 = math.atan(slope2)
     return abs(angle2-angle1)
 
 def slope(point1, point2):
     point1 = [float(elem) for elem in point1]
     point2 = [float(elem) for elem in point2]
     m = (point2[1]-point1[1])/(point2[0]-point1[0]+0.0001)
-    return m
+    return math.atan(m)
