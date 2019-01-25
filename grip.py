@@ -27,25 +27,9 @@ class GripPipeline:
 
         self.cv_erode_output = None
 
-        self.__find_contours_input = self.cv_erode_output
-        self.__find_contours_external_only = False
+        self.__find_lines_input = self.cv_erode_output
 
-        self.find_contours_output = None
-
-        self.__filter_contours_contours = self.find_contours_output
-        self.__filter_contours_min_area = 1000.0
-        self.__filter_contours_min_perimeter = 500.0
-        self.__filter_contours_min_width = 0
-        self.__filter_contours_max_width = 1000
-        self.__filter_contours_min_height = 0
-        self.__filter_contours_max_height = 1000
-        self.__filter_contours_solidity = [66.54676258992806, 100]
-        self.__filter_contours_max_vertices = 1000000
-        self.__filter_contours_min_vertices = 0
-        self.__filter_contours_min_ratio = 0
-        self.__filter_contours_max_ratio = 1000
-
-        self.filter_contours_output = None
+        self.find_lines_output = None
 
 
     def process(self, source0):
@@ -60,13 +44,9 @@ class GripPipeline:
         self.__cv_erode_src = self.rgb_threshold_output
         (self.cv_erode_output) = self.__cv_erode(self.__cv_erode_src, self.__cv_erode_kernel, self.__cv_erode_anchor, self.__cv_erode_iterations, self.__cv_erode_bordertype, self.__cv_erode_bordervalue)
 
-        # Step Find_Contours0:
-        self.__find_contours_input = self.cv_erode_output
-        (self.find_contours_output) = self.__find_contours(self.__find_contours_input, self.__find_contours_external_only)
-
-        # Step Filter_Contours0:
-        self.__filter_contours_contours = self.find_contours_output
-        (self.filter_contours_output) = self.__filter_contours(self.__filter_contours_contours, self.__filter_contours_min_area, self.__filter_contours_min_perimeter, self.__filter_contours_min_width, self.__filter_contours_max_width, self.__filter_contours_min_height, self.__filter_contours_max_height, self.__filter_contours_solidity, self.__filter_contours_max_vertices, self.__filter_contours_min_vertices, self.__filter_contours_min_ratio, self.__filter_contours_max_ratio)
+        # Step Find_Lines0:
+        self.__find_lines_input = self.cv_erode_output
+        (self.find_lines_output) = self.__find_lines(self.__find_lines_input)
 
 
     @staticmethod
@@ -98,66 +78,39 @@ class GripPipeline:
         return cv2.erode(src, kernel, anchor, iterations = (int) (iterations +0.5),
                             borderType = border_type, borderValue = border_value)
 
+    class Line:
+
+        def __init__(self, x1, y1, x2, y2):
+            self.x1 = x1
+            self.y1 = y1
+            self.x2 = x2
+            self.y2 = y2
+
+        def length(self):
+            return numpy.sqrt(pow(self.x2 - self.x1, 2) + pow(self.y2 - self.y1, 2))
+
+        def angle(self):
+            return math.degrees(math.atan2(self.y2 - self.y1, self.x2 - self.x1))
     @staticmethod
-    def __find_contours(input, external_only):
-        """Sets the values of pixels in a binary image to their distance to the nearest black pixel.
+    def __find_lines(input):
+        """Finds all line segments in an image.
         Args:
             input: A numpy.ndarray.
-            external_only: A boolean. If true only external contours are found.
-        Return:
-            A list of numpy.ndarray where each one represents a contour.
-        """
-        if(external_only):
-            mode = cv2.RETR_EXTERNAL
-        else:
-            mode = cv2.RETR_LIST
-        method = cv2.CHAIN_APPROX_SIMPLE
-        im2, contours, hierarchy =cv2.findContours(input, mode=mode, method=method)
-        return contours
-
-    @staticmethod
-    def __filter_contours(input_contours, min_area, min_perimeter, min_width, max_width,
-                        min_height, max_height, solidity, max_vertex_count, min_vertex_count,
-                        min_ratio, max_ratio):
-        """Filters out contours that do not meet certain criteria.
-        Args:
-            input_contours: Contours as a list of numpy.ndarray.
-            min_area: The minimum area of a contour that will be kept.
-            min_perimeter: The minimum perimeter of a contour that will be kept.
-            min_width: Minimum width of a contour.
-            max_width: MaxWidth maximum width.
-            min_height: Minimum height.
-            max_height: Maximimum height.
-            solidity: The minimum and maximum solidity of a contour.
-            min_vertex_count: Minimum vertex Count of the contours.
-            max_vertex_count: Maximum vertex Count.
-            min_ratio: Minimum ratio of width to height.
-            max_ratio: Maximum ratio of width to height.
         Returns:
-            Contours as a list of numpy.ndarray.
+            A filtered list of Lines.
         """
+        detector = cv2.createLineSegmentDetector()
+        if (len(input.shape) == 2 or input.shape[2] == 1):
+            lines = detector.detect(input)
+        else:
+            tmp = cv2.cvtColor(input, cv2.COLOR_BGR2GRAY)
+            lines = detector.detect(tmp)
         output = []
-        for contour in input_contours:
-            x,y,w,h = cv2.boundingRect(contour)
-            if (w < min_width or w > max_width):
-                continue
-            if (h < min_height or h > max_height):
-                continue
-            area = cv2.contourArea(contour)
-            if (area < min_area):
-                continue
-            if (cv2.arcLength(contour, True) < min_perimeter):
-                continue
-            hull = cv2.convexHull(contour)
-            solid = 100 * area / cv2.contourArea(hull)
-            if (solid < solidity[0] or solid > solidity[1]):
-                continue
-            if (len(contour) < min_vertex_count or len(contour) > max_vertex_count):
-                continue
-            ratio = (float)(w) / h
-            if (ratio < min_ratio or ratio > max_ratio):
-                continue
-            output.append(contour)
+        if len(lines) != 0:
+            for i in range(1, len(lines[0])):
+                tmp = GripPipeline.Line(lines[0][i, 0][0], lines[0][i, 0][1],
+                                lines[0][i, 0][2], lines[0][i, 0][3])
+                output.append(tmp)
         return output
 
 
