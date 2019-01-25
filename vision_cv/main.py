@@ -70,7 +70,7 @@ def findContours():
     #image = WebCam.getImage()
     #file_obj = Image.open("/Users/yasnara/Downloads/TestImages10-20-Exposure/TEST80.jpg")
     file_obj = Image.open("../vision_cv/TestImages/TEST91.jpg")
-    file_obj = Image.open("../vision_cv/TestImages10-20-Exposure/TEST90.jpg")
+    file_obj = Image.open("../vision_cv/TestImages10-20-Exposure/TEST99.jpg")
     data = []
     for x in range(640):
         a_ = []
