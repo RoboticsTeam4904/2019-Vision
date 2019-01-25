@@ -4,10 +4,10 @@ from PIL import Image
 from ScoringMetric import score
 import sys
 # WebCam.set(exposure = 0.1)
-# import WebCam
+import WebCam
 # from gripCode import Grip
 
-min_area = 80
+min_area = 100
 min_perimeter = 0.0
 min_width = 0
 max_width = 500
@@ -67,9 +67,10 @@ def findTarget(contours):
 
 
 def findContours():
-    #image = WebCam.getImage()
-    file_obj = Image.open("../vision_cv/TestImages/TEST90.jpg")
-    data = []
+    image = WebCam.getImage()
+    #file_obj = Image.open("/Users/yasnara/Downloads/TestImages10-20-Exposure/TEST80.jpg")
+    #file_obj = Image.open("../vision_cv/TestImages/TEST90.jpg")
+    '''data = []
     for x in range(640):
         a_ = []
         for y in range(480):
@@ -78,6 +79,7 @@ def findContours():
     image = np.array(data, dtype=np.uint8)
     image = np.rot90(image, k=3)
     image = np.fliplr(image)
+    '''
     thresh = rgbThreshold(image, (40,130), (90,180), (0,60))
 
     #Working RGB Threshold: (40,130), (90,180), (0,60))
@@ -111,6 +113,9 @@ if(__name__ == "__main__"):
         weight_rotation_angle_infunc = 1 #If small, more important
         weight_rotation_angle_outfunc = 1
         threshold = 2
+        if len(contours) < 1:
+            print "No Contours"
+            continue 
         for i in range(len(contours)):
             bb = contours[i]
         for i in range(len(contours)):
@@ -123,13 +128,15 @@ if(__name__ == "__main__"):
             cv2.drawContours(mask,[box],0,(0,255,0),2)
         # Now we draw boxes;
         box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
-        print(box_scores[0][1], box_scores[1][1])
+        #print(box_scores)
+        #print(box_scores[0][1], box_scores[1][1])
         for point in box_scores[0][0]:
             print(point)
             cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
-        for point in box_scores[1][0]:
-            print(point)
-            cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
+        if(len(box_scores) > 1):
+            for point in box_scores[1][0]:
+                print(point)
+                cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
 
         cv2.drawContours(mask, contours, 0, (0,0,255), 2)
         if len(contours) > 1:
