@@ -1,20 +1,20 @@
 import WebCam, Printing, GripRunner, ContourFinding, SpikeFinding, autocalibrate
-n = 0
-def d():
+n = 0 # Counter variable
+def d(): # Loop o()
     while True:
         o()
 
-def s():
+def s(): # Take a picture from the webcam and save.
     global n
     image = WebCam.getImage()
-    Printing.save(image, name="TEST" + str(n) )
+    Printing.save(image, name="TEST" + str(n))
     n += 1
     print(image)
 
-def e(exposure):
+def e(exposure): # Set exposure on LINUX ONLY.
     WebCam.set(exposure=0.1)
 
-def o():
+def o(): # Take a picture and display it with contours.
     image = WebCam.getImage()
     contours = GripRunner.run(image)
     targets = ContourFinding.filterContours(contours) # To be edited if the last filter is changed in case of algorithmic changes.
