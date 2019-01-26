@@ -75,12 +75,12 @@ def findContours():
     if(cv2.__version__[0] == "3"):
         im2, contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
 
-    return contours, mask, image
+    return thresh, contours, mask, image
 
 if(__name__ == "__main__"):
     while True:
         box_scores = []
-        contours, mask, image = findContours()
+        thresh, contours, mask, image = findContours()
         contours = filterContours(contours)
         #cv2.drawContours(mask, contours, -1, (0,0,255), 5)
         #print("LENGTH OF CONTOURS: {}\n\n".format(len(contours)))
@@ -104,7 +104,7 @@ if(__name__ == "__main__"):
             box = cv2.boxPoints(rect)
             box = np.int0(box)
             box_scores.append((box, score(box, weight_contour_area_values, weight_ratio, weight_area, weight_parallelogram_infunc, 
-    weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, contours[i], image)))
+    weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, contours[i], thresh)))
             #print(box, score(box))
             cv2.drawContours(mask,[box],0,(0,255,0),2)
         # Now we draw boxes;
@@ -128,7 +128,7 @@ if(__name__ == "__main__"):
                #print(point)
                 cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
 
-        cv2.drawContours(mask, contours, 0, (0,0,255), 2)
+        cv2.drawContours(mask, contours, 0, (0,0,255), 2) # BGR, so this is red.
         if len(contours) > 1:
     #        try:
             #print("1 LENGTH OF CONTOURS: {}".format(len(contours)))
