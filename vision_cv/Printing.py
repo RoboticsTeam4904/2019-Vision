@@ -62,7 +62,7 @@ def drawCenter(image, center, size=defaultThickness, color=0):
 	cv2.circle(image, center, size, color, size)
 
 def save(image, name=None, withGrip=False, withFolder=True):
-	if name != None:
+	if(name is not None):
 		cv2.imwrite("./TestImages/" + name + ".jpg", image)
 		return
 	if withGrip:
