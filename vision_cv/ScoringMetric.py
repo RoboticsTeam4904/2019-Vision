@@ -96,18 +96,12 @@ def slope(point1, point2):
     m = (point2[1]-point1[1])/(point2[0]-point1[0]+0.0001)
     return math.atan(m)
 
-def contour_area_values(contour, image):
-    RED_WEIGHT = 1.0
+def contour_area_values(contour, image): # Replace with bounding quadrilateral
+    return 0
+
+    RED_WEIGHT = 0.0
     GREEN_WEIGHT = 1.0
-    BLUE_WEIGHT = 1.0
+    BLUE_WEIGHT = 0.0
     # Find four corners of bounding box, and take top left and bottom right points.
     # Get average pixel values and divide by 255.
-    average_sum = 0
-    x, y, w, h = cv2.boundingRect(contour)
-    for i in range(x, x+w):
-        for j in range(y, y+h):
-            average_sum += RED_WEIGHT*image[i][j][0] + GREEN_WEIGHT*image[i][j][1] + BLUE_WEIGHT*image[i][j][2]
-    average_sum /= (w*h*255)
-    return average_sum
-
-# weight_c
+    return np.average(image)
