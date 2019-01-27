@@ -33,7 +33,7 @@ def getImage():
 	return image
 	
 
-def set(resolution=False, exposure=False, gain=False, contrast=False): # This function sets the exposure. LINUX ONLY
+def set(resolution=False, 4=False, gain=False, contrast=False): # This function sets the exposure. LINUX ONLY
 	settingStr = "/usr/bin/v4l2-ctl -d /dev/video0"
 	if resolution:
 		settingStr += " --set-fmt-video=width={},height={}".format(resolution[0], resolution[1])
