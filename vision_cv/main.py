@@ -34,9 +34,8 @@ def rgbThreshold(inp, red, green, blue):
     return cv2.inRange(out, (red[0], green[0], blue[0]), (red[1], green[1], blue[1]))
 
 def detect(c):
-    # initialize the shape name and approximate the contour.
-    # This code is adapted from the GRIP export function in the application version.
-    _, _, w, h = cv2.boundingRect(c)
+    # initialize the shape name and approximate the contour
+    x, y, w, h = cv2.boundingRect(c)
     if (w < MIN_WIDTH or w > MAX_WIDTH):
         return False
     if (h < MIN_HEIGHT or h > MAX_HEIGHT):
@@ -56,37 +55,35 @@ def detect(c):
     return True
 
 def filterContours(contours):
-    return [x for x in contours if detect(x)]
+    return [x for x in contours if (cv2.contourArea(x) > 0 and detect(x))]
 
-def findTarget(contours): # Get position of center dot.
-    x, y, width, height = cv2.boundingRect(np.concatenate((contours[0], contours[1])))
-    return (int(x + width/2), int(y + height/2))
+def findTarget(contours):
+    x, y, w, h = cv2.boundingRect(np.concatenate((contours[0], contours[1])))
+    return (int(x + w/2), int(y + h/2))
 
 def findContours():
-    #image = WebCam.getImage()
+    #img = WebCam.getimg()
     file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg") # Subject to change for tests.
-    #file_obj = Image.open("../vision_cv/TestImages0-1Tape/TEST2.jpg")
+    #file_obj = img.open("../vision_cv/Testimgs0-1Tape/TEST2.jpg")
     data = []
-    for x in range(file_obj.size[0]):
-        temp = []
-        for y in range(file_obj.size[1]):
-            temp.append(file_obj.getpixel((x, y)))
-        data.append(temp)
-
+    for x in range(640):
+        a_ = []
+        for y in range(480):
+            a_.append(file_obj.getpixel((x, y)))
+        data.append(a_)
     img = np.array(data, dtype=np.uint8)
     img = np.rot90(img, k=3)
     img = np.fliplr(img)
-
-    thresh = rgbThreshold(img, (40,130), (70,180), (0,60)) # TODO: Tune these values.
+    thresh = rgbThreshold(img, (40,130), (70,180), (0,60)) #Working RGB Threshold: (40,130), (90,180), (0,60))
     mask = cv2.bitwise_and(img, img, mask=thresh)
     mode = cv2.RETR_LIST
     method = cv2.CHAIN_APPROX_SIMPLE
     contours = None 
 
     if(cv2.__version__[0] == "4"):
-        contours, _ = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
+        contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
     if(cv2.__version__[0] == "3"):
-        _, contours, _ = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
+        im2, contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
 
     return thresh, contours, mask, img
 
@@ -97,25 +94,35 @@ if(__name__ == "__main__"):
         contours = filterContours(contours)
         #cv2.drawContours(mask, contours, -1, (0,0,255), 5)
         #print("LENGTH OF CONTOURS: {}\n\n".format(len(contours)))
-        if len(contours) == 0:
+        if len(contours) < 1:
             print "No Contours"
             continue 
         boxes = []
 
+        weights = {
+                "ratio": 0,
+                "area": 0,
+                "rotation_angle_infunc": 1,
+                "rotation_angle_outfunc": 0,
+                "contour_area_values": 1,
+            }
+        min_threshold = 0
+
         for i in range(len(contours)):
-            rect = cv2.minAreaRect(contours[i]) # Find the rotated bounding box around a contour.
+            rect = cv2.minAreaRect(contours[i])
             box = cv2.boxPoints(rect)
             box = np.int0(box)
 
             points, contour_score = ScoringMetric.score(box, contours[i], img, WEIGHTS)
             boxes.append(points) #Array with all of the boxes with the format (t, r, b, l) for pair finding 
             box_scores.append((box, contour_score))
+            #print(box, score(box))
             cv2.drawContours(mask,[box],0,(0,255,0),2)
-        # We now filter the boxes to pick the contours that are above the required threshold.
+        # Now we draw boxes;
         box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
         box_scores_filtered = []
         for elem in box_scores:
-            if(elem[1] >= MIN_THRESHOLD): # Score must be greater than min_threshold to be considered.
+            if(elem[1] >= min_threshold):
                 box_scores_filtered.append(elem)
             else:
                 break
