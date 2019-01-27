@@ -5,7 +5,7 @@ def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
 def score(bb, weight_contour_area_values, weight_ratio, weight_area, weight_parallelogram_infunc, 
-weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, orig_contours, image):
+weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, orig_contour, image):
     
     # weight_rect_infunc = 1 #Unnecessary for now
     # weight_rect_outfunc = 1 #Unnecessary for now
@@ -29,7 +29,7 @@ weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angl
     total_score += scoring_parallelogram(points, weight_parallelogram_infunc) * weight_parallelogram_outfunc
     total_score += scoring_rotation_angle(right, bottom, weight_rotation_angle_infunc) * weight_rotation_angle_outfunc
     # total_score += scoring_parallelogram(points, weight_rect_infunc) * weight_rectangle_outfunc #Unnecessary for now
-    total_score += contour_area_values(orig_contours, image) * weight_contour_area_values
+    total_score += filled_value(orig_contour, bb, image) * weight_contour_area_values
     return total_score
 
 def score_side_ratio(dimension):
@@ -101,11 +101,24 @@ def slope(point1, point2):
     m = (point2[1]-point1[1])/(point2[0]-point1[0]+0.0001)
     return math.atan(m)
 
-def contour_area_values(contour, image): #Todo: Fix tuning # Replace with bounding quadrilateral
-    return 0
-    RED_WEIGHT = 0.0
-    GREEN_WEIGHT = 1.0
-    BLUE_WEIGHT = 0.0
-    # Find four corners of bounding box, and take top left and bottom right points.
-    # Get average pixel values and divide by 255.
-    return np.average(image) #average rgb threshold of each pixel from the image 
+def filled_value(contour, bb, image): # Debug later
+    #dim_x, dim_y = image.shape[1], image.shape[0]
+    z_img = np.zeros_like(image)
+    bb[3], bb[2] = bb[2], bb[3]
+    bb = bb[::-1]
+    bb = np.array(bb)
+
+    cv2.drawContours(z_img, [bb], 0, color=128, thickness=-1)
+    cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
+    bb_total = len(np.where(z_img == 128))
+    contour_total = len(np.where(z_img == 255))
+    print "FV:", contour_total/(contour_total+bb_total)
+    print contour_total
+    print bb_total
+    cv2.imshow("test", z_img)
+    key = cv2.waitKey(0)
+    if key == 27:
+        sys.exit()
+
+    return contour_total/(contour_total+bb_total)
+

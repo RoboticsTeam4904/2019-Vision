@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from PIL import Image
 from ScoringMetric import score
+import ScoringMetric
 import sys
 import WebCam
 # WebCam.set(exposure = 0.1)
@@ -123,6 +124,7 @@ if(__name__ == "__main__"):
         print(box_scores)
         #print(box_scores)
         #print(box_scores[0][1], box_scores[1][1])
+
         if(len(box_scores) > 0):
             for point in box_scores[0][0]:
                 print(point)
