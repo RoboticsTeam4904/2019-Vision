@@ -5,6 +5,7 @@ from ScoringMetric import score
 import ScoringMetric
 import sys
 import WebCam
+import PairFinding
 # WebCam.set(exposure = 0.1)
 
 min_area = 50
@@ -102,14 +103,17 @@ if(__name__ == "__main__"):
         if len(contours) < 1:
             print "No Contours"
             continue 
-        for i in range(len(contours)):
-            bb = contours[i]
+        boxes = []
         for i in range(len(contours)):
             rect = cv2.minAreaRect(contours[i])
             box = cv2.boxPoints(rect)
             box = np.int0(box)
-            box_scores.append((box, score(box, weight_contour_area_values, weight_ratio, weight_area, weight_parallelogram_infunc, 
-    weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, contours[i], thresh)))
+            points, contour_score = score(box, weight_contour_area_values,\
+            weight_ratio, weight_area, weight_parallelogram_infunc, \
+            weight_parallelogram_outfunc, weight_rotation_angle_infunc, \
+            weight_rotation_angle_outfunc, contours[i], thresh)
+            boxes.append(points) #Array with all of the boxes with the format (t, r, b, l)
+            box_scores.append((box, contour_score))
             #print(box, score(box))
             cv2.drawContours(mask,[box],0,(0,255,0),2)
         # Now we draw boxes;
@@ -124,7 +128,9 @@ if(__name__ == "__main__"):
         print(box_scores)
         #print(box_scores)
         #print(box_scores[0][1], box_scores[1][1])
-
+        boxes = PairFinding.pair_finding(boxes)
+        if boxes==None:
+            print("NO PAIRS")
         if(len(box_scores) > 0):
             for point in box_scores[0][0]:
                 print(point)
