@@ -1,6 +1,6 @@
 import math
 import cv2
-def getAngle(perfectWidth=3.3133853031, perfectHeight=5.8255720302, box): 
+def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302): 
     perfectRatio = perfectWidth/perfectHeight # Perfect ratio is the perfect width divided by the perfect height
     top = box[0]
     right = box[1]
@@ -11,3 +11,5 @@ def getAngle(perfectWidth=3.3133853031, perfectHeight=5.8255720302, box):
     theta = math.asin(width/(height*perfectRatio))
     return theta
 
+def getDistance(theta, focalLength, perfectHeight):
+    pass

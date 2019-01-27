@@ -4,7 +4,7 @@ from PIL import Image
 from ScoringMetric import score
 import ScoringMetric
 import sys
-import WebCam
+#import WebCam
 import PairFinding
 # WebCam.set(exposure = 0.1)
 
@@ -43,7 +43,6 @@ def detect(c):
     ratio = (float)(w) / h
     if (ratio < min_ratio or ratio > max_ratio):
         return False
-    # Now we create bounding boxes around contours, etc. for filtering by ratio even more.
     return True
 
 def filterContours(contours):
@@ -57,9 +56,6 @@ def findContours():
     #image = WebCam.getImage()
     file_obj = Image.open("../vision_cv/TestImages/TEST45.jpg") # Subject to change for tests.
     #file_obj = Image.open("../vision_cv/TestImages0-1Tape/TEST2.jpg")
-
-    
-
     data = []
     for x in range(640):
         a_ = []
@@ -89,30 +85,28 @@ if(__name__ == "__main__"):
         contours = filterContours(contours)
         #cv2.drawContours(mask, contours, -1, (0,0,255), 5)
         #print("LENGTH OF CONTOURS: {}\n\n".format(len(contours)))
-        threshold_contours = 5  # This is the threshold that defines "How good" something needs to be a 
-        # contour... Start with high values, and increment down as necessary...
-        #Assigning weights to each scoring metric 
-        weight_ratio = 0
-        weight_area = 0
-        weight_parallelogram_infunc = 1 #Small, more important
-        weight_parallelogram_outfunc = 0
-        weight_rotation_angle_infunc = 1 #Small, more important
-        weight_rotation_angle_outfunc = 0
-        weight_contour_area_values = 1 
-        min_threshold = 0
         if len(contours) < 1:
             print "No Contours"
             continue 
         boxes = []
+
+        weights = {
+                "ratio": 0,
+                "area": 0,
+                "parallelogram_infunc": 1,
+                "parallelogram_outfunc": 0,
+                "rotation_angle_infunc": 1,
+                "rotation_angle_outfunc": 0,
+                "contour_area_values": 1,
+            }
+        min_threshold = 0
+
         for i in range(len(contours)):
             rect = cv2.minAreaRect(contours[i])
             box = cv2.boxPoints(rect)
             box = np.int0(box)
-            points, contour_score = score(box, weight_contour_area_values,\
-            weight_ratio, weight_area, weight_parallelogram_infunc, \
-            weight_parallelogram_outfunc, weight_rotation_angle_infunc, \
-            weight_rotation_angle_outfunc, contours[i], thresh)
-            boxes.append(points) #Array with all of the boxes with the format (t, r, b, l)
+            points, contour_score = score(box, contours[i], image, weights)
+            boxes.append(points) #Array with all of the boxes with the format (t, r, b, l) for pair finding 
             box_scores.append((box, contour_score))
             #print(box, score(box))
             cv2.drawContours(mask,[box],0,(0,255,0),2)
@@ -128,9 +122,14 @@ if(__name__ == "__main__"):
         print(box_scores)
         #print(box_scores)
         #print(box_scores[0][1], box_scores[1][1])
-        boxes = PairFinding.pair_finding(boxes)
-        if boxes==None:
+        pairBoxes = PairFinding.pair_finding(boxes)
+        if pairBoxes == None:
+            foundPairs = False
             print("NO PAIRS")
+        else:
+            foundPairs = True
+            print("FOUND",len(pairBoxes) ,"PAIRS")
+        '''
         if(len(box_scores) > 0):
             for point in box_scores[0][0]:
                 print(point)
@@ -138,8 +137,11 @@ if(__name__ == "__main__"):
         if(len(box_scores) > 1):
             for point in box_scores[1][0]:
                #print(point)
-                cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
-
+                cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)'''
+        if foundPairs:
+            for i in pairBoxes:
+                for j in i:
+                    cv2.circle(mask, (j[0], j[1]), 5, (255,255,0), 2)
         cv2.drawContours(mask, contours, 0, (0,0,255), 2) # BGR, so this is red.
         if len(contours) > 1:
     #        try:

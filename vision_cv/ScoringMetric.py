@@ -4,14 +4,8 @@ import numpy as np
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
-def score(box, weight_contour_area_values, weight_ratio, weight_area, weight_parallelogram_infunc, 
-weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, orig_contour, image):
-    
-    # weight_rect_infunc = 1 #Unnecessary for now
-    # weight_rect_outfunc = 1 #Unnecessary for now
+def score(box, contour, image, weights):
     total_score = 0 
-
-    
     box = sorted(box, key=lambda x: x[1])[::-1] #Sorts box from top to bottom scores 
     top = box[0]
     bottom = box[-1]
@@ -24,12 +18,12 @@ weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angl
         return -float("inf")
 
     dimension = (dist2d(top, left), dist2d(top, right)) #Height, width tuple
-    total_score += score_side_ratio(dimension) * weight_ratio
-    total_score += score_area_ratio(dimension, points) * weight_area
-    total_score += scoring_parallelogram(points, weight_parallelogram_infunc) * weight_parallelogram_outfunc
-    total_score += scoring_rotation_angle(right, bottom, weight_rotation_angle_infunc) * weight_rotation_angle_outfunc
+    total_score += score_side_ratio(dimension) * weights["ratio"]
+    total_score += score_area_ratio(dimension, points) * weights["area"]
+    total_score += scoring_parallelogram(points, weights["parallelogram_infunc"]) * weights["parallelogram_outfunc"]
+    total_score += scoring_rotation_angle(right, bottom, weights["rotation_angle_infunc"]) * weights["rotation_angle_outfunc"]
     # total_score += scoring_parallelogram(points, weight_rect_infunc) * weight_rectangle_outfunc #Unnecessary for now
-    total_score += filled_value(orig_contour, box, image) * weight_contour_area_values
+    total_score += filled_value(contour, box, image) * weights["contour_area_values"]
     return points, total_score
 
 def score_side_ratio(dimension):
