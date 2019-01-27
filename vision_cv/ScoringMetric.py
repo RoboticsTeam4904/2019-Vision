@@ -110,15 +110,20 @@ def filled_value(contour, box, image): # Debug later
 
     cv2.drawContours(z_img, [box], 0, color=128, thickness=-1)
     cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
+    
     box_total = len(np.where(z_img == 128))
     contour_total = len(np.where(z_img == 255))
+    
+    '''
     print "FV:", contour_total/(contour_total+box_total)
     print contour_total
     print box_total
     cv2.imshow("test", z_img)
     key = cv2.waitKey(0)
     if key == 27:
-        sys.exit()
-
-    return contour_total/(contour_total+box_total)
+        #sys.exit()
+        pass
+    '''
+    
+    return float(contour_total)/float((contour_total+box_total))
 

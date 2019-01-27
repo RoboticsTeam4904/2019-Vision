@@ -55,8 +55,8 @@ def findTarget(contours):
 
 def findContours():
     #image = WebCam.getImage()
-    #file_obj = Image.open("../vision_cv/TestImages/TEST90.jpg")
-    file_obj = Image.open("../vision_cv/TestImages0-1Tape/TEST2.jpg")
+    file_obj = Image.open("../vision_cv/TestImages/TEST45.jpg") # Subject to change for tests.
+    #file_obj = Image.open("../vision_cv/TestImages0-1Tape/TEST2.jpg")
 
     
 
@@ -92,14 +92,14 @@ if(__name__ == "__main__"):
         threshold_contours = 5  # This is the threshold that defines "How good" something needs to be a 
         # contour... Start with high values, and increment down as necessary...
         #Assigning weights to each scoring metric 
-        weight_ratio = 3
-        weight_area = 1
+        weight_ratio = 0
+        weight_area = 0
         weight_parallelogram_infunc = 1 #Small, more important
         weight_parallelogram_outfunc = 0
         weight_rotation_angle_infunc = 1 #Small, more important
-        weight_rotation_angle_outfunc = 1
+        weight_rotation_angle_outfunc = 0
         weight_contour_area_values = 1 
-        min_threshold = 3
+        min_threshold = 0
         if len(contours) < 1:
             print "No Contours"
             continue 
