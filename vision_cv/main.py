@@ -1,24 +1,33 @@
 import cv2
 import numpy as np
 from PIL import Image
-from ScoringMetric import score
 import ScoringMetric
 import sys
 #import WebCam
 import PairFinding
+import random
 # WebCam.set(exposure = 0.1)
 
-min_area = 50
-min_perimeter = 0.0
-min_width = 0
-max_width = 500
-min_height = 0
-max_height = 500
-solidity = [0, 100.0]
-max_vertices = 1000000.0
-min_vertices = 0
-min_ratio = 0
-max_ratio = 30
+MIN_AREA = 50
+MIN_PERIMETER = 0.0
+MIN_WIDTH = 0
+MAX_WIDTH = 500
+MIN_HEIGHT = 0
+MAX_HEIGHT = 500
+SOLIDITY = [0, 100.0]
+MAX_VERTICES = 1000000.0
+MIN_VERTICES = 0
+MIN_RATIO = 0
+MAX_RATIO = 30
+
+WEIGHTS = {
+    "hw_ratio": 0,
+    "area": 0,
+    "contour_area_values": 1,
+    "rotation_angle_infunc":1,
+    "rotation_angle_outfunc":1,
+}
+MIN_THRESHOLD = 0
 
 def rgbThreshold(inp, red, green, blue):
     out = cv2.cvtColor(inp, cv2.COLOR_BGR2RGB)
@@ -27,21 +36,21 @@ def rgbThreshold(inp, red, green, blue):
 def detect(c):
     # initialize the shape name and approximate the contour
     x, y, w, h = cv2.boundingRect(c)
-    if (w < min_width or w > max_width):
+    if (w < MIN_WIDTH or w > MAX_WIDTH):
         return False
-    if (h < min_height or h > max_height):
+    if (h < MIN_HEIGHT or h > MAX_HEIGHT):
         return False
     area = cv2.contourArea(c)
-    if (area < min_area):
+    if (area < MIN_AREA):
         return False
-    if (cv2.arcLength(c, True) < min_perimeter):
+    if (cv2.arcLength(c, True) < MIN_PERIMETER):
         return False
     hull = cv2.convexHull(c)
     solid = 100 * area / cv2.contourArea(hull)
-    if (solid < solidity[0] or solid > solidity[1]):
+    if (solid < SOLIDITY[0] or solid > SOLIDITY[1]):
         return False
     ratio = (float)(w) / h
-    if (ratio < min_ratio or ratio > max_ratio):
+    if (ratio < MIN_RATIO or ratio > MAX_RATIO):
         return False
     return True
 
@@ -53,20 +62,20 @@ def findTarget(contours):
     return (int(x + w/2), int(y + h/2))
 
 def findContours():
-    #image = WebCam.getImage()
-    file_obj = Image.open("../vision_cv/TestImages/TEST45.jpg") # Subject to change for tests.
-    #file_obj = Image.open("../vision_cv/TestImages0-1Tape/TEST2.jpg")
+    #img = WebCam.getimg()
+    file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg") # Subject to change for tests.
+    #file_obj = img.open("../vision_cv/Testimgs0-1Tape/TEST2.jpg")
     data = []
     for x in range(640):
         a_ = []
         for y in range(480):
             a_.append(file_obj.getpixel((x, y)))
         data.append(a_)
-    image = np.array(data, dtype=np.uint8)
-    image = np.rot90(image, k=3)
-    image = np.fliplr(image)
-    thresh = rgbThreshold(image, (40,130), (70,180), (0,60)) #Working RGB Threshold: (40,130), (90,180), (0,60))
-    mask = cv2.bitwise_and(image, image, mask=thresh)
+    img = np.array(data, dtype=np.uint8)
+    img = np.rot90(img, k=3)
+    img = np.fliplr(img)
+    thresh = rgbThreshold(img, (40,130), (70,180), (0,60)) #Working RGB Threshold: (40,130), (90,180), (0,60))
+    mask = cv2.bitwise_and(img, img, mask=thresh)
     mode = cv2.RETR_LIST
     method = cv2.CHAIN_APPROX_SIMPLE
     contours = None 
@@ -76,12 +85,12 @@ def findContours():
     if(cv2.__version__[0] == "3"):
         im2, contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
 
-    return thresh, contours, mask, image
+    return thresh, contours, mask, img
 
 if(__name__ == "__main__"):
     while True:
         box_scores = []
-        thresh, contours, mask, image = findContours()
+        thresh, contours, mask, img = findContours()
         contours = filterContours(contours)
         #cv2.drawContours(mask, contours, -1, (0,0,255), 5)
         #print("LENGTH OF CONTOURS: {}\n\n".format(len(contours)))
@@ -93,8 +102,6 @@ if(__name__ == "__main__"):
         weights = {
                 "ratio": 0,
                 "area": 0,
-                "parallelogram_infunc": 1,
-                "parallelogram_outfunc": 0,
                 "rotation_angle_infunc": 1,
                 "rotation_angle_outfunc": 0,
                 "contour_area_values": 1,
@@ -105,7 +112,8 @@ if(__name__ == "__main__"):
             rect = cv2.minAreaRect(contours[i])
             box = cv2.boxPoints(rect)
             box = np.int0(box)
-            points, contour_score = score(box, contours[i], image, weights)
+
+            points, contour_score = ScoringMetric.score(box, contours[i], img, WEIGHTS)
             boxes.append(points) #Array with all of the boxes with the format (t, r, b, l) for pair finding 
             box_scores.append((box, contour_score))
             #print(box, score(box))
@@ -120,16 +128,14 @@ if(__name__ == "__main__"):
                 break
         box_scores = box_scores_filtered
         print(box_scores)
-        #print(box_scores)
-        #print(box_scores[0][1], box_scores[1][1])
         pairBoxes = PairFinding.pair_finding(boxes)
         if pairBoxes == None:
             foundPairs = False
             print("NO PAIRS")
         else:
             foundPairs = True
-            print("FOUND",len(pairBoxes) ,"PAIRS")
-        '''
+            print("FOUND " + str(len(pairBoxes)) + " PAIRS")
+    
         if(len(box_scores) > 0):
             for point in box_scores[0][0]:
                 print(point)
@@ -137,11 +143,19 @@ if(__name__ == "__main__"):
         if(len(box_scores) > 1):
             for point in box_scores[1][0]:
                #print(point)
-                cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)'''
+                cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
+        """
         if foundPairs:
             for i in pairBoxes:
+                randomBlue = random.randint(0,255)
+                randomGreen = random.randint(0,255)
+                randomRed = random.randint(0,255)
                 for j in i:
-                    cv2.circle(mask, (j[0], j[1]), 5, (255,255,0), 2)
+                    cv2.circle(mask, (j[0][0], j[0][1]), 5, (randomRed,randomGreen,randomBlue), 2)
+                    cv2.circle(mask, (j[1][0], j[1][1]), 5, (randomRed,randomGreen,randomBlue), 2)
+                    cv2.circle(mask, (j[2][0], j[2][1]), 5, (randomRed,randomGreen,randomBlue), 2)
+                    cv2.circle(mask, (j[3][0], j[3][1]), 5, (randomRed,randomGreen,randomBlue), 2)
+        """
         cv2.drawContours(mask, contours, 0, (0,0,255), 2) # BGR, so this is red.
         if len(contours) > 1:
     #        try:

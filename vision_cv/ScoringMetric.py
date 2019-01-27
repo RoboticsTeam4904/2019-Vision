@@ -14,13 +14,12 @@ def score(box, contour, image, weights):
     right = box[-1]
 
     points = (top, right, bottom, left)
-    if(len(set([tuple(top), tuple(bottom), tuple(left), tuple(right)])) < 4):
-        return -float("inf")
+    if len(np.unique(np.array(points))) < 4:
+        return points, -float("inf")
 
     dimension = (dist2d(top, left), dist2d(top, right)) #Height, width tuple
-    total_score += score_side_ratio(dimension) * weights["ratio"]
+    total_score += score_side_ratio(dimension) * weights["hw_ratio"]
     total_score += score_area_ratio(dimension, points) * weights["area"]
-    total_score += scoring_parallelogram(points, weights["parallelogram_infunc"]) * weights["parallelogram_outfunc"]
     total_score += scoring_rotation_angle(right, bottom, weights["rotation_angle_infunc"]) * weights["rotation_angle_outfunc"]
     # total_score += scoring_parallelogram(points, weight_rect_infunc) * weight_rectangle_outfunc #Unnecessary for now
     total_score += filled_value(contour, box, image) * weights["contour_area_values"]
