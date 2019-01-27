@@ -4,7 +4,7 @@ import numpy as np
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
-def score(bb, weight_contour_area_values, weight_ratio, weight_area, weight_parallelogram_infunc, 
+def score(box, weight_contour_area_values, weight_ratio, weight_area, weight_parallelogram_infunc, 
 weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angle_outfunc, orig_contour, image):
     
     # weight_rect_infunc = 1 #Unnecessary for now
@@ -12,12 +12,12 @@ weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angl
     total_score = 0 
 
     
-    bb = sorted(bb, key=lambda x: x[1])[::-1] #Sorts bb from top to bottom scores 
-    top = bb[0]
-    bottom = bb[-1]
-    bb = sorted(bb, key=lambda x: x[0])
-    left = bb[0]
-    right = bb[-1]
+    box = sorted(box, key=lambda x: x[1])[::-1] #Sorts box from top to bottom scores 
+    top = box[0]
+    bottom = box[-1]
+    box = sorted(box, key=lambda x: x[0])
+    left = box[0]
+    right = box[-1]
 
     points = (top, right, bottom, left)
     if(len(set([tuple(top), tuple(bottom), tuple(left), tuple(right)])) < 4):
@@ -29,8 +29,8 @@ weight_parallelogram_outfunc, weight_rotation_angle_infunc, weight_rotation_angl
     total_score += scoring_parallelogram(points, weight_parallelogram_infunc) * weight_parallelogram_outfunc
     total_score += scoring_rotation_angle(right, bottom, weight_rotation_angle_infunc) * weight_rotation_angle_outfunc
     # total_score += scoring_parallelogram(points, weight_rect_infunc) * weight_rectangle_outfunc #Unnecessary for now
-    total_score += filled_value(orig_contour, bb, image) * weight_contour_area_values
-    return total_score
+    total_score += filled_value(orig_contour, box, image) * weight_contour_area_values
+    return points, total_score
 
 def score_side_ratio(dimension):
     #Side ratio measures ratio of height to width, which is 5.5 (h) / 2 (w) = 2.75
@@ -101,28 +101,29 @@ def slope(point1, point2):
     m = (point2[1]-point1[1])/(point2[0]-point1[0]+0.0001)
     return math.atan(m)
 
-def filled_value(contour, bb, image): # Debug later
+def filled_value(contour, box, image): # Debug later
     #dim_x, dim_y = image.shape[1], image.shape[0]
     z_img = np.zeros_like(image)
-    bb[3], bb[2] = bb[2], bb[3]
-    bb = bb[::-1]
-    bb = np.array(bb)
+    box[3], box[2] = box[2], box[3]
+    box = box[::-1]
+    box = np.array(box)
 
-    cv2.drawContours(z_img, [bb], 0, color=128, thickness=-1)
+    cv2.drawContours(z_img, [box], 0, color=128, thickness=-1)
     cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
-    bb_total = len(np.where(z_img == 128)[0])
-    contour_total = len(np.where(z_img == 255)[0])
-
+    
+    box_total = len(np.where(z_img == 128))
+    contour_total = len(np.where(z_img == 255))
+    
     '''
-    print "FV:", float(contour_total)/float((contour_total+bb_total))
+    print "FV:", contour_total/(contour_total+box_total)
     print contour_total
-    print bb_total
+    print box_total
     cv2.imshow("test", z_img)
     key = cv2.waitKey(0)
     if key == 27:
         #sys.exit()
         pass
     '''
-
-    return float(contour_total)/float((contour_total+bb_total))
+    
+    return float(contour_total)/float((contour_total+box_total))
 
