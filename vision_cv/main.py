@@ -1,11 +1,11 @@
 import cv2
 import numpy as np
 from PIL import Image
-from ScoringMetric import score
 import ScoringMetric
 import sys
 #import WebCam
 import PairFinding
+import random
 # WebCam.set(exposure = 0.1)
 
 min_area = 50
@@ -54,7 +54,7 @@ def findTarget(contours):
 
 def findContours():
     #image = WebCam.getImage()
-    file_obj = Image.open("../vision_cv/TestImages/TEST45.jpg") # Subject to change for tests.
+    file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg") # Subject to change for tests.
     #file_obj = Image.open("../vision_cv/TestImages0-1Tape/TEST2.jpg")
     data = []
     for x in range(640):
@@ -91,24 +91,23 @@ if(__name__ == "__main__"):
         boxes = []
 
         weights = {
-                "ratio": 0,
+                "hw_ratio": 3,
                 "area": 0,
                 "parallelogram_infunc": 1,
                 "parallelogram_outfunc": 0,
                 "rotation_angle_infunc": 1,
                 "rotation_angle_outfunc": 0,
-                "contour_area_values": 1,
+                "contour_area_values": 0,
             }
-        min_threshold = 0
+        min_threshold = 1
 
         for i in range(len(contours)):
             rect = cv2.minAreaRect(contours[i])
             box = cv2.boxPoints(rect)
             box = np.int0(box)
-            points, contour_score = score(box, contours[i], image, weights)
+            points, contour_score = ScoringMetric.score(box, contours[i], image, weights)
             boxes.append(points) #Array with all of the boxes with the format (t, r, b, l) for pair finding 
             box_scores.append((box, contour_score))
-            #print(box, score(box))
             cv2.drawContours(mask,[box],0,(0,255,0),2)
         # Now we draw boxes;
         box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
@@ -120,16 +119,14 @@ if(__name__ == "__main__"):
                 break
         box_scores = box_scores_filtered
         print(box_scores)
-        #print(box_scores)
-        #print(box_scores[0][1], box_scores[1][1])
         pairBoxes = PairFinding.pair_finding(boxes)
         if pairBoxes == None:
             foundPairs = False
             print("NO PAIRS")
         else:
             foundPairs = True
-            print("FOUND",len(pairBoxes) ,"PAIRS")
-        '''
+            print("FOUND " + str(len(pairBoxes)) + " PAIRS")
+    
         if(len(box_scores) > 0):
             for point in box_scores[0][0]:
                 print(point)
@@ -137,11 +134,19 @@ if(__name__ == "__main__"):
         if(len(box_scores) > 1):
             for point in box_scores[1][0]:
                #print(point)
-                cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)'''
+                cv2.circle(mask, (point[0], point[1]), 5, (255,255,0), 2)
+        """
         if foundPairs:
             for i in pairBoxes:
+                randomBlue = random.randint(0,255)
+                randomGreen = random.randint(0,255)
+                randomRed = random.randint(0,255)
                 for j in i:
-                    cv2.circle(mask, (j[0], j[1]), 5, (255,255,0), 2)
+                    cv2.circle(mask, (j[0][0], j[0][1]), 5, (randomRed,randomGreen,randomBlue), 2)
+                    cv2.circle(mask, (j[1][0], j[1][1]), 5, (randomRed,randomGreen,randomBlue), 2)
+                    cv2.circle(mask, (j[2][0], j[2][1]), 5, (randomRed,randomGreen,randomBlue), 2)
+                    cv2.circle(mask, (j[3][0], j[3][1]), 5, (randomRed,randomGreen,randomBlue), 2)
+        """
         cv2.drawContours(mask, contours, 0, (0,0,255), 2) # BGR, so this is red.
         if len(contours) > 1:
     #        try:
