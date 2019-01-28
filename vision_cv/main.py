@@ -3,9 +3,11 @@ import numpy as np
 from PIL import Image
 import ScoringMetric
 import sys
+import math
 #import WebCam
 import PairFinding
 import random
+import GetDistance
 # WebCam.set(exposure = 0.1)
 
 MIN_AREA = 50
@@ -131,11 +133,12 @@ if(__name__ == "__main__"):
         pairBoxes = PairFinding.pair_finding(boxes)
         if pairBoxes == None:
             foundPairs = False
-            print("NO PAIRS")
+            # print("NO PAIRS")
         else:
             foundPairs = True
-            print("FOUND " + str(len(pairBoxes)) + " PAIRS")
-    
+            # print("FOUND " + str(len(pairBoxes)) + " PAIRS")
+        for i in boxes:
+            print(GetDistance.getAngle(i))
         if(len(box_scores) > 0):
             for point in box_scores[0][0]:
                 print(point)

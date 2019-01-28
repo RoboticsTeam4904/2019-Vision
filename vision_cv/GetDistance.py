@@ -8,8 +8,11 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302):
     left = box[3]
     width = right[0]-left[0]
     height = top[1]-bottom[1]
-    theta = math.asin(width/(height*perfectRatio))
-    return theta
+    try:
+        theta = math.asin(width/(height*perfectRatio))
+    except:
+        return "NOT POSSIBLE"
+    return theta, theta/math.pi*180
 
 def getDistance(theta, focalLength, perfectHeight):
     pass
