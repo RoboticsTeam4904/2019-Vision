@@ -15,7 +15,7 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302):
         return "CAN'T GET ANGLE"
     return theta, theta/math.pi*180
 
-def getDistance(focalLength=3.67, knownHeightMilimeters = 139.7, knownHeightPixels, sensorHeight, imageHeight=640): 
+def getDistance(knownHeightPixels, sensorHeight, focalLength=3.67, knownHeightMilimeters = 139.7, imageHeight=640): 
 
 #knownHeightMilimeters is the height of the vision tape which stays constant in the code
 
@@ -26,6 +26,6 @@ def getDistance(focalLength=3.67, knownHeightMilimeters = 139.7, knownHeightPixe
    knownHeightPixels = (top[0] - bottom[1]) #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
    try:
         distanceToObject = (focalLength * knownHeightMilimeters * imageHeight) / (knownHeightPixels * sensorHeight)
-    except: 
+   except: 
         return "CAN'T GET DISTANCE"
     #Focal Length 3.67 mm
