@@ -2,9 +2,12 @@ import grip
 import cv2
 
 #image = 'IMG_8968.jpg' #threshold 150-250
-#image = 'IMG_7133.jpg' #bad picture
-image = 'IMG_6140.jpg' #threshold 210-250
+image = 'IMG_7133.jpg' #bad picture
+#image = 'IMG_6140.jpg' #threshold 210-250
 #image = 'IMG_6289.jpg' #bad picture
+#image = 'IMG_3417.jpg' #threshold 130-250
+#image = 'IMG_9615.jpg' #threshold 180-215
+#image = 'IMG_9850.jpg' #threshold 100-250
 img = cv2.imread(image)
 cv2.imshow('unprocessed', img)
 
