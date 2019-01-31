@@ -4,11 +4,11 @@ from PIL import Image
 import ScoringMetric
 import sys
 import math
-#import WebCam
+import WebCam
 import PairFinding
 import random
 import GetDistance
-# WebCam.set(exposure = 0.1)
+WebCam.set(exposure = 5)
 
 MIN_AREA = 50
 MIN_PERIMETER = 0.0
@@ -64,23 +64,23 @@ def findTarget(contours):
     return (int(x + w/2), int(y + h/2))
 
 def findContours():
-    #img = WebCam.getimg()
-    file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg") # Subject to change for tests.
+    img = WebCam.getImage()
+    # file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg") # Subject to change for tests.
     #file_obj = img.open("../vision_cv/Testimgs0-1Tape/TEST2.jpg")
     data = []
-    for x in range(640):
-        a_ = []
-        for y in range(480):
-            a_.append(file_obj.getpixel((x, y)))
-        data.append(a_)
-    img = np.array(data, dtype=np.uint8)
-    img = np.rot90(img, k=3)
-    img = np.fliplr(img)
+    # for x in range(640):
+    #     a_ = []
+    #     for y in range(480):
+    #         a_.append(file_obj.getpixel((x, y)))
+    #     data.append(a_)
+    # img = np.array(data, dtype=np.uint8)
+    # img = np.rot90(img, k=3)
+    # img = np.fliplr(img)
     thresh = rgbThreshold(img, (40,130), (70,180), (0,60)) #Working RGB Threshold: (40,130), (90,180), (0,60))
     mask = cv2.bitwise_and(img, img, mask=thresh)
     mode = cv2.RETR_LIST
     method = cv2.CHAIN_APPROX_SIMPLE
-    contours = None 
+    contours = [] 
 
     if(cv2.__version__[0] == "4"):
         contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
@@ -138,8 +138,10 @@ if(__name__ == "__main__"):
         else:
             foundPairs = True
             # print("FOUND " + str(len(pairBoxes)) + " PAIRS")
-       """ for i in boxes:
-            print(GetDistance.getAngle(i))"""
+        """ 
+       for i in boxes:
+            print(GetDistance.getAngle(i))
+        """
         for j in boxes: 
             #Todo: Implement 
             print(GetDistance.getDistance(j))
