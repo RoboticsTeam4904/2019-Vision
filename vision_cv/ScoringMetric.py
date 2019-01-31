@@ -28,6 +28,8 @@ def score(box, contour, image, weights):
 def score_side_ratio(dimension):
     #Side ratio measures ratio of height to width, which is 5.5 (h) / 2 (w) = 2.75
     h,w = dimension
+    if w ==0 or h==0:
+        return 0
     target_ratio = 2.75
     # 5.5 / 2 = 2.75
     return max((1/(((h/w)-target_ratio)**2 + 1)),(1/(((w/h)-target_ratio)**2 + 1))) # Witch of Agnesi curve.
