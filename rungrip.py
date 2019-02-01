@@ -1,7 +1,8 @@
 import grip
 import cv2
+import numpy
 
-#image = 'IMG_0006.jpg'
+image = 'IMG_0006.jpg'
 #image = 'IMG_1794.jpg'
 #image = 'IMG_2065.jpg'
 #image = 'IMG_3417.jpg'
@@ -30,6 +31,12 @@ rows,cols = img.shape[:2]
 lefty = int((-x*vy/vx) + y)
 righty = int(((cols-x)*vy/vx)+y)
 img = cv2.line(img,(cols-1,righty),(0,lefty),(0,0,0),8)
+
+slope = -vy/vx
+print(slope)
+anglerad = numpy.arctan2(vy, vx)
+angledeg = numpy.degrees(anglerad)
+print(angledeg)
 
 cv2.imshow('processed', img)
 cv2.waitKey(0)
