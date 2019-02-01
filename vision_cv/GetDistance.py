@@ -12,7 +12,7 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302):
     try:
         theta = math.asin(width/(height*perfectRatio))
     except:
-        return "CAN'T GET ANGLE"
+        return width, height
     return theta, theta/math.pi*180
 
 def getDistance(knownHeightPixels, sensorHeight, focalLength=3.67, knownHeightMilimeters = 139.7, imageHeight=640): 

@@ -78,7 +78,7 @@ def scoring_rotation_angle(right, bottom, weight):
     # If they are then it is a parallelogram
     angle = slope(right, bottom)
     angle = angle/math.pi*180
-    num = min(((90-14.5)-angle)**2, (14.5+90-angle)**2)
+    num = min(((14.5)-angle)**2, ((90-14.5)-angle)**2)
     return -num/(num+weight)+1
 
 def findInsideAngle(first, main, third):
