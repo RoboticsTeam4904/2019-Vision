@@ -19,13 +19,13 @@ def getDistance(knownHeightPixels, sensorHeight, focalLength=3.67, knownHeightMi
 
 #knownHeightMilimeters is the height of the vision tape which stays constant in the code
 
-   top = box[0]
-   right = box[1]
-   bottom = box[1]
-   left = box[3]
-   knownHeightPixels = (top[1] - bottom[1]) #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
-   try:
+    top = box[0]
+    right = box[1]
+    bottom = box[1]
+    left = box[3]
+    knownHeightPixels = (top[0] - bottom[1]) #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
+    try:
         distanceToObject = (focalLength * knownHeightMilimeters * imageHeight) / (knownHeightPixels * sensorHeight)
-   except: 
+    except: 
         return "CAN'T GET DISTANCE"
     #Focal Length 3.67 mm
