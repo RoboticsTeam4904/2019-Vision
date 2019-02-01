@@ -30,7 +30,11 @@ def score_side_ratio(dimension):
     h,w = dimension
     target_ratio = 2.75
     # 5.5 / 2 = 2.75
-    return max((1/(((h/w)-target_ratio)**2 + 1)),(1/(((w/h)-target_ratio)**2 + 1))) # Witch of Agnesi curve.
+    try:
+        return max((1/(((h/w)-target_ratio)**2 + 1)),(1/(((w/h)-target_ratio)**2 + 1))) # Witch of Agnesi curve.
+    except:
+        return 0
+
 
 def score_area_ratio(dimension, points):
     #Todo: put comment for what this metric does 
