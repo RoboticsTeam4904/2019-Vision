@@ -8,6 +8,7 @@ import WebCam
 import PairFinding
 import random
 import GetDistance
+import HSVThreshold
 WebCam.set(exposure = 50)
 
 MIN_AREA = 50
@@ -23,17 +24,21 @@ MIN_RATIO = 0
 MAX_RATIO = 30
 
 WEIGHTS = {
-    "hw_ratio": 5,
-    "area": 2,
-    "contour_area_values": 0,
+    "hw_ratio": 10,
+    "area": 1,
+    "contour_area_values": 5,
     "rotation_angle_infunc":1,
     "rotation_angle_outfunc":1,
 }
-MIN_THRESHOLD = 0
+MIN_THRESHOLD = 14
 
 def rgbThreshold(inp, red, green, blue):
     out = cv2.cvtColor(inp, cv2.COLOR_BGR2RGB)
     return cv2.inRange(out, (red[0], green[0], blue[0]), (red[1], green[1], blue[1]))
+
+def hsvThreshold(inp, hue, saturation, value):
+    out = cv2.cvtColor(inp, cv2.COLOR_BGR2HSV)
+    return cv2.inRange(out, (hue[0], saturation[0], value[0]), (hue[1], saturation[1], value[1]))
 
 def detect(c):
     # initialize the shape name and approximate the contour
@@ -64,20 +69,25 @@ def findTarget(contours):
     return (int(x + w/2), int(y + h/2))
 
 def findContours():
-    img = WebCam.getImage()
-    # file_obj = Image.open("../vision_cv/TestImages/TEST1.jpg") # Subject to change for tests.
-    #file_obj = img.open("../vision_cv/Testimgs0-1Tape/TEST2.jpg")
-    data = []
+    # img = WebCam.getImage()
+    # file_obj = Image.open("../../../Desktop/TestImages/TEST3.jpg") # Subject to change for tests.
+    # data = []
     # for x in range(640):
     #     a_ = []
     #     for y in range(480):
     #         a_.append(file_obj.getpixel((x, y)))
     #     data.append(a_)
+
+    img = cv2.imread("../../../Desktop/TestImages/TEST3.jpg")
+
     # img = np.array(data, dtype=np.uint8)
     # img = np.rot90(img, k=3)
     # img = np.fliplr(img)
-    thresh = rgbThreshold(img, (190,210), (240,255), (240,255)) #Working RGB Threshold: (40,130), (90,180), (0,60))
-    # cv2.imshow("aa", cv2.resize(thresh, (980, 540)))
+    # thresh = rgbThreshold(img, (190,210), (240,255), (240,255)) #Working RGB Threshold: (40,130), (90,180), (0,60))
+    thresholder = HSVThreshold.HSVPipeline()
+    thresh = thresholder.process(img)
+
+    # thresh = hsvThreshold(img, (60,100), (115,255), (60,255))
     mask = cv2.bitwise_and(img, img, mask=thresh)
     mode = cv2.RETR_LIST
     method = cv2.CHAIN_APPROX_SIMPLE
@@ -96,7 +106,8 @@ if(__name__ == "__main__"):
     while True:
         box_scores = []
         thresh, contours, mask, img = findContours()
-        if len(contours) < 1:
+        
+        if len(contours) < 0:
             print "No Contours"
             continue 
         contours = filterContours(contours)
@@ -105,13 +116,7 @@ if(__name__ == "__main__"):
         
         boxes = []
 
-        weights = {
-                "ratio": 0,
-                "area": 0,
-                "rotation_angle_infunc": 1,
-                "rotation_angle_outfunc": 0,
-                "contour_area_values": 1,
-            }
+
 
         min_threshold = 0
 
@@ -182,9 +187,9 @@ if(__name__ == "__main__"):
             # cv2.rectangle(mask, (0,0), (1000,1000), (100,100,100),-1)
         else:
             print("Invalid contours")
-        cv2.imshow("aa", cv2.resize(mask, (980, 540)))
+        # cv2.imshow("aa", cv2.resize(thresh, (980, 540)))
         # Printing.save(mask, name="TEST" + str(0))
-        
+        cv2.imshow("thresh", cv2.resize(mask, (980, 540)))
         key = cv2.waitKey(10)
         if key == 27:
             sys.exit()

@@ -100,29 +100,27 @@ def slope(point1, point2):
     m = (point2[1]-point1[1])/(point2[0]-point1[0]+0.0001)
     return math.atan(m)
 
+
 def filled_value(contour, box, image): # Debug later
     #dim_x, dim_y = image.shape[1], image.shape[0]
-    z_img = np.zeros_like(image)
+    z_img = np.zeros(shape=(image.shape[0],image.shape[1])) # This is to remove the RGB axis
     box[3], box[2] = box[2], box[3]
     box = box[::-1]
     box = np.array(box)
 
     cv2.drawContours(z_img, [box], 0, color=128, thickness=-1)
     cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
-    
-    box_total = len(np.where(z_img == 128))
-    contour_total = len(np.where(z_img == 255))
-    
+
+    box_total = len(np.where(z_img == 128)[0])
+    contour_total = len(np.where(z_img == 255)[0])
     '''
     print "FV:", contour_total/(contour_total+box_total)
-    print contour_total
+    print "CONTOUR TOTAL AND BOX TOTAL: ",contour_total
     print box_total
-    cv2.imshow("test", z_img)
+    cv2.imshow("z_img", z_img)
     key = cv2.waitKey(0)
     if key == 27:
         #sys.exit()
         pass
     '''
-    
     return float(contour_total)/float((contour_total+box_total))
-
