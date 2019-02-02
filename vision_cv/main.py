@@ -97,12 +97,13 @@ def drawPairs(pairBoxes):
             cv2.circle(mask, (j[3][0], j[3][1]), 5, (randomRed,randomGreen,randomBlue), 2)
 
 def distanceAngleAnalysis(boxes):
+    SENSOR_HEIGHT = -1 # Tune value later
     for i in boxes:
-        print(GetDistance.getDistance(j))
-        print(GetDistance.getAngle(j))
+        print(GetDistance.getDistance(i, SENSOR_HEIGHT))
+        print(GetDistance.getAngle(i))
 
 if(__name__ == "__main__"):
-    # n=0
+    # n = 0
     while True:
         box_scores = []
         # img = WebCam.getImage()
