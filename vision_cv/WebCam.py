@@ -6,30 +6,9 @@ camera = cv2.VideoCapture(0)
 
 def getImage():
 	retval, image = camera.read()
-	#image = cv2.imread("~/Downloads/TestImages/TEST1.jpg")
-	'''file_obj = Image.open("/Users/yasnara/Downloads/TestImages/TEST93.jpg")
-	data = []
-	for x in range(0,640):
-		a_ = []
-		for y in range(0,480):
-			a_.append(file_obj.getpixel((x, y)))
-		data.append(a_)
-	image = np.array(data)
-	print(image.shape)'''
 
 	if(not retval):
 		raise Exception("Image reading failed.")
-	#normalized_image = np.zeros((720,1280,3))
-	#print(image.shape, normalized_image.shape)
-	##normalized_image = cv2.normalize(image, None, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_8UC3)
-	##print(np.sum(image == normalized_image))
-	#normalized_image = np.ones((640,480))
-#	cv2.normalize(image, normalized_image, 0, 255, cv2.NORM_MINMAX)
-	##print(normalized_image)
-	##disp = Image.fromarray(normalized_image, 'RGB')
-	##disp.show()
-	##cv2.imwrite("~/Downloads/WC2.jpg", normalized_image)
-	#return normalized_image
 	return image
 	
 
