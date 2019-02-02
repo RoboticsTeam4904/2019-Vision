@@ -23,7 +23,7 @@ MAX_VERTICES = 1000000.0
 MIN_VERTICES = 0
 MIN_RATIO = 0
 MAX_RATIO = 30
-MIN_THRESHOLD = 14
+MIN_THRESHOLD = 13
 
 WEIGHTS = {
     "hw_ratio": 10,
@@ -102,6 +102,7 @@ def distanceAngleAnalysis(boxes):
         print(GetDistance.getAngle(j))
 
 if(__name__ == "__main__"):
+    # n=0
     while True:
         box_scores = []
         # img = WebCam.getImage()
@@ -157,12 +158,12 @@ if(__name__ == "__main__"):
         if len(contours) > 1:
             cv2.circle(mask, findTarget(contours), 1, (0,255,0), -1)
         else:
-            print("No contours above threshold")
+            pass
+        print(len(box_scores))
 
         cv2.imshow("Threshold", cv2.resize(thresh, (980, 540)))
         cv2.imshow("Image", cv2.resize(img, (980, 540)))
         cv2.imshow("Mask", cv2.resize(mask, (980, 540)))
-        # Printing.save(mask, name="TEST" + str(0))
-        key = cv2.waitKey(10)
-        if key == 27:
-            sys.exit()
+        # if n%1==0 and n!=0:
+        #     Printing.save(mask, name="TEST" + str(n//10))
+        # n+=1
