@@ -1,7 +1,6 @@
 import math
 import cv2
 import numpy as np
-#Testing 
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
@@ -48,8 +47,6 @@ def score_area_ratio(dimension, points):
     return score_area_ratio
 
 def scoring_rotation_angle(right, bottom, weight):
-    #scoring_rotation_angle measures how angled the slanted contour is—optimally, 14.5 degrees
-
     angle = slope(right, bottom)
     angle = angle/math.pi*180
     num = min(((14.5)-angle)**2, ((90-14.5)-angle)**2)
