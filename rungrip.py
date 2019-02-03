@@ -2,9 +2,7 @@ import grip
 import cv2
 import numpy
 import math
-# import matplotlib.pyplot as plt
-# import shapely
-# import scipy
+from networktables import NetworkTables
 
 #image = 'Images/IMG_0006.jpg'
 #image = 'Images/IMG_0617.jpg' #long
@@ -77,6 +75,11 @@ else:
 	slope = -deltay/deltax
 print "Slope:" , slope
 print "Angle:" , angledeg
+
+shuffleboard = NetworkTables.getTable('PID')
+
+shuffleboard.putNumber('distance', rectwidth/2)
+shuffleboard.putNumber('dngle', angledeg)
 
 # area = cv2.contourArea(cnt)
 # perimeter = cv2.arcLength(cnt, True)
