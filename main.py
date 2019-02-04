@@ -1,6 +1,7 @@
 import rungrip
 import cv2
 import config
+import images
 
 def processAndShow(image):
 	cv2.imshow('unprocessed', img)
@@ -13,10 +14,9 @@ def processAndShow(image):
 	cv2.destroyAllWindows()
 
 if config.test == True:
-	image = 'Images/IMG_0617.jpg'
+	image = images.closeImage1
 	img = cv2.imread(image)
 	processAndShow(img)
-
 else:
 	while True:
 		image = videofeedback
