@@ -11,7 +11,8 @@ def imageAnalysis(img):
     n=0
     thresh, contours, mask = GetContours.getContours(img)
     if len(contours)==0:
-	return None
+        print(0)
+        return None
 
     contours, mask, boxes, box_scores = getBoxes(contours, mask, img)
 
