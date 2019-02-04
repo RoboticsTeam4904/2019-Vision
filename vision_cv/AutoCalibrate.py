@@ -4,6 +4,7 @@ import cv2
 import numpy as np
 import ScoringMetric
 import config
+import sys
 
 def calibrate(minExposure, maxExposure, WEIGHTS):
     boxes = []
@@ -26,8 +27,7 @@ def calibrate(minExposure, maxExposure, WEIGHTS):
             boxes.append(box)
 
         scores = [ScoringMetric.score(boxes[i], contours[i], img, WEIGHTS)[1] for i in range(0,len(contours))]
-
-	averageScore = sum(scores)/len(scores)
+    averageScore = averageScoreFunction(scores)
 	if averageScore > maxScore:
 	    maxScore = averageScore
 	    maxScoreExposure = exposure
@@ -35,6 +35,14 @@ def calibrate(minExposure, maxExposure, WEIGHTS):
 	WebCam.set(exposure=maxScoreExposure)
     else:
 	if config.LiveImage:
-    	    WebCam.set(exposure)
+    	    WebCam.set(exposure=sys.argv[1])
 	return "Exposure tuning failed - No contours found!"
     return "Exposure: " + str(maxScoreExposure)
+
+
+def averageScoreFunction(scores):
+    firstScore = max(scores)
+    scores.remove(firstScore)
+    secondScore = max(scores)
+	averageScore = (firstScore + secondScore)/2
+    return averageScore
