@@ -15,8 +15,6 @@ import AutoCalibrate
 import ImageAnalysis
 import config
 
-if config.LiveImage:
-    WebCam.set(exposure=sys.argv[1])
 
 MIN_AREA = 50
 MIN_PERIMETER = 0.0
@@ -40,10 +38,8 @@ WEIGHTS = {
 }
 
 if(__name__ == "__main__"):
-    # n = 0
-    # print(AutoCalibrate.calibrate(1, 50, WEIGHTS)
     if config.LiveImage:
-        AutoCalibrate.AutoCalibrate()
+        print(AutoCalibrate.calibrate(1, 50, WEIGHTS))
         while True:
             img = WebCam.getImage()
             ImageAnalysis.imageAnalysis(img)

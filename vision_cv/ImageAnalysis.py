@@ -10,8 +10,8 @@ import DrawImage
 def imageAnalysis(img):
     n=0
     thresh, contours, mask = GetContours.getContours(img)
-    if thresh[0][0] ==-1:
-        return None
+    if len(contours)==0:
+	return None
 
     contours, mask, boxes, box_scores = getBoxes(contours, mask, img)
 
