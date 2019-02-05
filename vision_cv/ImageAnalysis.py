@@ -30,7 +30,7 @@ def imageAnalysis(img):
     # DrawImage.drawPairs(boxes)
     DrawImage.drawBoxes(box_scores, mask)
 
-    # GetDistanceAngle.distanceAngleAnalysis(boxes)
+    #zGetDistanceAngle.distanceAngleAnalysis(boxes)
     cv2.drawContours(mask, contours, 0, (0,0,255), 2) # BGR, so this is red.
 
     print(len(box_scores))
