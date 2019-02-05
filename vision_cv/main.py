@@ -27,7 +27,6 @@ MAX_VERTICES = 1000000.0
 MIN_VERTICES = 0
 MIN_RATIO = 0
 MAX_RATIO = 30
-MIN_THRESHOLD = 13
 
 WEIGHTS = {
     "hw_ratio": 10,
@@ -37,6 +36,8 @@ WEIGHTS = {
     "rotation_angle_outfunc":1,
 }
 
+MIN_THRESHOLD = 13
+
 if(__name__ == "__main__"):
     if config.LiveImage:
         print(AutoCalibrate.calibrate(1, 50, WEIGHTS))
@@ -45,6 +46,6 @@ if(__name__ == "__main__"):
             ImageAnalysis.imageAnalysis(img)
         
     else:
-        img = cv2.imread("../../../Desktop/TestImages/TEST0.jpg")
+        img = cv2.imread("../../../vision_cv/TestImages/TEST0.jpg")
         ImageAnalysis.imageAnalysis(img)
         
