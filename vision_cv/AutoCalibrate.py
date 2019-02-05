@@ -22,10 +22,10 @@ def calibrate(minExposure, maxExposure, WEIGHTS):
         WebCam.set(exposure=exposure)
 	img = WebCam.getImage()
         _, contours, _ = GetContours.getContours(img)
-	if len(contours)==0:
-	    continue
+        if len(contours)==0:
+            continue
         for i in range(len(contours)):
-	    rect = cv2.minAreaRect(contours[i])
+	        rect = cv2.minAreaRect(contours[i])
             if(cv2.__version__[0] == "2"):
                 box = cv2.cv.BoxPoints(rect)
             else:
@@ -34,7 +34,7 @@ def calibrate(minExposure, maxExposure, WEIGHTS):
             box = np.int0(box)
             boxes.append(box)
 
-        scores = [ScoringMetric.score(boxes[i], contours[i], img, WEIGHTS)[1] for i in range(0,len(contours))]
+            scores = [ScoringMetric.score(boxes[i], contours[i], img, WEIGHTS)[1] for i in range(0,len(contours))]
     averageScore = averageScoreFunction(scores)
 	
     if averageScore > maxScore:
