@@ -35,7 +35,7 @@ def calibrate(minExposure, maxExposure, WEIGHTS):
     if maxScoreExposure != 0:
 	WebCam.set(exposure=maxScoreExposure)
    
-   else:
+    else:
 	if config.LiveImage:
     	    WebCam.set(exposure=sys.argv[1])
 	return "Exposure tuning failed - No contours found!"
@@ -46,5 +46,5 @@ def averageScoreFunction(scores):
     firstScore = max(scores)
     scores.remove(firstScore)
     secondScore = max(scores)
-	averageScore = (firstScore + secondScore)/2
+    averageScore = (firstScore + secondScore)/2
     return averageScore
