@@ -17,12 +17,12 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302):
 
 def getDistance(box, sensorHeight, focalLength=3.67, knownHeightMillimeters=139.7, imageHeight=640): 
 
-    #knownHeightMilimeters is the height of the vision tape which stays constant in the code
+    #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     #Focal Length 3.67 mm
     top = box[0]
     right = box[1]
     bottom = box[1]
-    left = box[3]
+    left = box[3] #Why should left = box[3]?
     knownHeightPixels = (top[1] - bottom[1]) #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     try:
         distanceToObject = (focalLength * knownHeightMillimeters * imageHeight) / (knownHeightPixels * sensorHeight)
@@ -38,9 +38,10 @@ def getSensorHeight(box, distanceMillimeters, focalLength=3.67, knownHeightMilli
     knownHeightPixels = (top[1] - bottom[1]) #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     sensorHeight = focalLength * knownHeightMillimeters * imageHeight/(distanceMillimeters*knownHeightPixels)
     return sensorHeight
-
+"""
 def distanceAngleAnalysis(boxes):
     SENSOR_HEIGHT = -1 # Tune value later
     for i in boxes:
         print(getSensorHeight(i))
         print(getAngle(i))
+"""
