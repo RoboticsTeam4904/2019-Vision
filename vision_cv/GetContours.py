@@ -49,10 +49,9 @@ def filterContours(contours):
 
 def getContours(img):
     thresh, contours, mask = findContours(img)
+    
     if len(contours) < 1:
             return [], [], []
     else:
         contours = filterContours(contours)
-	if len(contours)<1:
-	    return [], [], []
     return thresh, contours, mask
