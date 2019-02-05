@@ -38,10 +38,9 @@ def getSensorHeight(box, distanceMillimeters, focalLength=3.67, knownHeightMilli
     knownHeightPixels = (top[1] - bottom[1]) #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     sensorHeight = focalLength * knownHeightMillimeters * imageHeight/(distanceMillimeters*knownHeightPixels)
     return sensorHeight
-"""
+
 def distanceAngleAnalysis(boxes):
     SENSOR_HEIGHT = -1 # Tune value later
     for i in boxes:
         print(getSensorHeight(i))
         print(getAngle(i))
-"""

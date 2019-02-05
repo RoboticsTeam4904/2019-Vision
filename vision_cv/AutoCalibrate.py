@@ -7,6 +7,8 @@ import config
 import sys
 
 def averageScoreFunction(scores):
+    if len(scores)==0:
+        return 0
 	firstScore = max(scores)
 	scores.remove(firstScore)
 	secondScore = max(scores)
@@ -33,16 +35,14 @@ def calibrate(minExposure, maxExposure, WEIGHTS):
 			
 			box = np.int0(box)
 			boxes.append(box)
-
-			scores = [ScoringMetric.score(boxes[i], contours[i], img, WEIGHTS)[1] for i in range(0,len(contours))]
-	averageScore = averageScoreFunction(scores)
+        scores = [ScoringMetric.score(boxes[i], contours[i], img, WEIGHTS)[1] for i in range(0,len(contours))]
+        averageScore = averageScoreFunction(scores)
 	
-	if averageScore > maxScore:
-		maxScore = averageScore
-		maxScoreExposure = exposure
+        if averageScore > maxScore:
+            maxScore = averageScore
+            maxScoreExposure = exposure
 	if maxScoreExposure != 0:
 		WebCam.set(exposure=maxScoreExposure)
-   
 	else:
 		if config.LiveImage:
 			WebCam.set(exposure=sys.argv[1])
