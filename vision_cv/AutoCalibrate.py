@@ -35,12 +35,16 @@ def calibrate(minExposure, maxExposure, WEIGHTS):
 			
 			box = np.int0(box)
 			boxes.append(box)
-        scores = [ScoringMetric.score(boxes[i], contours[i], img, WEIGHTS)[1] for i in range(0,len(contours))]
-        averageScore = averageScoreFunction(scores)
-	
-        if averageScore > maxScore:
-            maxScore = averageScore
-            maxScoreExposure = exposure
+		scores = sorted([ScoringMetric.score(boxes[i], contours[i], img, WEIGHTS)[1] for i in range(0,len(contours))])
+		try:
+			final_score = scores[0]+scores[1]-sum(scores[2:])
+		except:
+			final_score = -float("inf")
+		
+		if(final_score > maxScore):
+			maxScore = final_score
+			max_score_exposure = exposure
+		
 	if maxScoreExposure != 0:
 		WebCam.set(exposure=maxScoreExposure)
 	else:
