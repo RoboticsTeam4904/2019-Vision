@@ -2,18 +2,17 @@ import grip
 import cv2
 import numpy
 import math
-from networktables import NetworkTables
 import config
 
-def getContour(image):
+def getContours(image):
 	gripfunc = grip.GripPipeline()
 	gripfunc.process(image)
 	contours = gripfunc.filter_contours_output
-	if config.display == True:
+	if config.display:
 		cv2.drawContours(image, contours, -1, (0,0,0), 7)
 	return contours;
 
-def filterContour(contours):
+def filterContours(contours):
 	cnt = contours[0]
 	for n in contours:
 		if cv2.contourArea(n) > cv2.contourArea(cnt):
@@ -36,14 +35,11 @@ def rectangle(contour, image, centroid):
 	if angledeg > 90:
 		angledeg = angledeg - 180
 	anglerad = numpy.radians(angledeg)
-	if config.display == True:
+	if config.display:
 		cx = centroid[0]
 		cy = centroid[1]
 		box = cv2.boxPoints(rect)
 		box = numpy.int0(box)
 		img = cv2.drawContours(image,[box],0,(25,25,245),8)
 		img = cv2.line(image, (int(cx + math.cos(anglerad)*rectwidth/2), int(cy - math.sin(anglerad)*rectwidth/2)), (int(cx - math.cos(anglerad)*rectwidth/2), int(cy + math.sin(anglerad)*rectwidth/2)), (0,0,0), 8)
-
-# shuffleboard = NetworkTables.getTable('PID')
-# shuffleboard.putNumber('distance', rectwidth/2)
-# shuffleboard.putNumber('angle', angledeg)
+	return rectwidth/2, angledeg

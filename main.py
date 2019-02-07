@@ -2,23 +2,36 @@ import rungrip
 import cv2
 import config
 import images
+from networktables import NetworkTables
+import WebCam
 
-def processAndShow(image):
-	cv2.imshow('unprocessed', image)
-	contours = rungrip.getContour(image)
-	contour = rungrip.filterContour(contours)
+def process(image):
+	if config.display:
+		cv2.imshow('unprocessed', image)
+	contours = rungrip.getContours(image)
+	contour = rungrip.filterContours(contours)
 	centroid = rungrip.centroid(contour, image)
-	rect = rungrip.rectangle(contour, image, centroid)
-	cv2.imshow('processed', image)
-	cv2.waitKey(0)
-	cv2.destroyAllWindows()
+	rectAngle = rungrip.rectangle(contour, image, centroid)
+	if config.display:
+		if config.test:
+			cv2.imshow('processed', image)
+			cv2.waitKey(0)
+			cv2.destroyAllWindows()
+		else:
+			cv2.imshow('processed', image)
+			cv2.waitKey(1)
+	return rectAngle
 
-if config.test == True:
-	image = images.closeImage1
+if config.test:
+	image = images.closeImages[1]
 	img = cv2.imread(image)
-	processAndShow(img)
+	process(img)
 else:
+	shuffleboard = NetworkTables.getTable('PID')
 	while True:
-		image = videofeedback
-		img = cv2.imread(image)
-		processAndShow(img)
+		img = WebCam.getImage()
+		process(img)
+		# distance = process(img)[0]
+		# angle = process(img)[1]
+		# shuffleboard.putNumber('distance', distance)
+		# shuffleboard.putNumber('angle', angle)
