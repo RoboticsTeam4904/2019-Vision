@@ -48,6 +48,6 @@ if(__name__ == "__main__"):
         
     else:
         #img = cv2.imread("../../../vision_cv/TestImages/TEST0.jpg")
-        img = cv2.imread("/Users/yasnara/Documents/Coding/FRC/2019-Vision/vision_cv/TestImages/TEST0.jpg")
+        img = cv2.imread("/Users/yasnara/Documents/Coding/FRC/2019-Vision/vision_cv/TestImages/TEST90.jpg")
         ImageAnalysis.imageAnalysis(img)
         

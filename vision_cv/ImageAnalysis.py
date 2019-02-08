@@ -6,6 +6,7 @@ import config
 import Printing
 import main
 import DrawImage
+import PairFinding
 
 def imageAnalysis(img):
     n=0
@@ -23,6 +24,7 @@ def imageAnalysis(img):
         if(elem[1] >= main.MIN_THRESHOLD):
             box_scores_filtered.append(elem)
         else:
+            print("No contours above the MIN_THRESHOLD")
             break
 
     box_scores = box_scores_filtered # Final scores for each contour
@@ -34,6 +36,14 @@ def imageAnalysis(img):
     cv2.drawContours(mask, contours, 0, (0,0,255), 2) # BGR, so this is red.
 
     print(len(box_scores))
+
+    largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
+    pair_box = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
+    largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
+    print largest_box, type(largest_box)
+    print pair_box, type(pair_box)
+    cv2.drawContours(mask,largest_box,0,(0,255,255),2)
+    cv2.drawContours(mask,pair_box,(0,255,255),2)
 
     if not config.LiveImage:
         cv2.imshow("Threshold", thresh)
@@ -60,4 +70,5 @@ def getBoxes(contours, mask, img):
         boxes.append(points) #Array with all of the boxes with the format (t, r, b, l) for pair finding 
         box_scores.append((box, contour_score))
         cv2.drawContours(mask,[box],0,(0,255,0),2)
+
     return contours, mask, boxes, box_scores

@@ -35,7 +35,6 @@ def score_side_ratio(dimension):
     except:
         return 0
 
-
 def score_area_ratio(dimension, points):
     #This metric finds the area of the bounding box (parallel to y axis) and finds its ratio to the area of the slanted box.
     t,r,b,l = points
