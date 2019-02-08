@@ -8,15 +8,15 @@ def getContours(image):
 	gripfunc = grip.GripPipeline()
 	gripfunc.process(image)
 	contours = gripfunc.filter_contours_output
-	if config.display:
-		cv2.drawContours(image, contours, -1, (0,0,0), 7)
 	return contours;
 
-def filterContours(contours):
+def filterContours(image, contours):
 	cnt = contours[0]
 	for n in contours:
-		if cv2.contourArea(n) > cv2.contourArea(cnt):
+		if cv2.contourArea(n) >= cv2.contourArea(cnt):
 			cnt = n
+	if config.display:
+		cv2.drawContours(image, cnt, -1, (0,0,0), 7)
 	return cnt
 
 def centroid(contour, image):
@@ -34,6 +34,8 @@ def rectangle(contour, image, centroid):
 	angledeg = 90 - rect[2]
 	if angledeg > 90:
 		angledeg = angledeg - 180
+	if rectlength > rectwidth:
+		angledeg = angledeg + 90
 	anglerad = numpy.radians(angledeg)
 	if config.display:
 		cx = centroid[0]
@@ -41,5 +43,8 @@ def rectangle(contour, image, centroid):
 		box = cv2.boxPoints(rect)
 		box = numpy.int0(box)
 		img = cv2.drawContours(image,[box],0,(25,25,245),8)
-		img = cv2.line(image, (int(cx + math.cos(anglerad)*rectwidth/2), int(cy - math.sin(anglerad)*rectwidth/2)), (int(cx - math.cos(anglerad)*rectwidth/2), int(cy + math.sin(anglerad)*rectwidth/2)), (0,0,0), 8)
+		if rectwidth > rectlength:
+			img = cv2.line(image, (int(cx + math.cos(anglerad)*rectwidth/2), int(cy - math.sin(anglerad)*rectwidth/2)), (int(cx - math.cos(anglerad)*rectwidth/2), int(cy + math.sin(anglerad)*rectwidth/2)), (0,0,0), 8)
+		else:
+			img = cv2.line(image, (int(cx + math.cos(anglerad)*rectlength/2), int(cy - math.sin(anglerad)*rectlength/2)), (int(cx - math.cos(anglerad)*rectlength/2), int(cy + math.sin(anglerad)*rectlength/2)), (0,0,0), 8)
 	return rectwidth/2, angledeg
