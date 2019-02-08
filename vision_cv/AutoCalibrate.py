@@ -6,16 +6,6 @@ import ScoringMetric
 import config
 import sys
 
-def averageScoreFunction(scores):
-    if len(scores)==0:
-        return 0
-	firstScore = max(scores)
-	scores.remove(firstScore)
-	secondScore = max(scores)
-	averageScore = (firstScore + secondScore)/2
-	return averageScore
-
-
 def calibrate(minExposure, maxExposure, WEIGHTS):
 	boxes = []
 	maxScore = 0

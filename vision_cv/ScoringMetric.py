@@ -77,8 +77,8 @@ def filled_value(contour, box, image):
     box = box[::-1]
     box = np.array(box)
 
-    cv2.drawContours(z_img, [box], 0, color=128, thickness=-1)
-    cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
+    #cv2.drawContours(z_img, [box], 0, color=128, thickness=-1) 
+    #cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
 
     box_total = len(np.where(z_img == 128)[0])
     contour_total = len(np.where(z_img == 255)[0])
