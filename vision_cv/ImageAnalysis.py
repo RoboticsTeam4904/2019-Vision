@@ -47,8 +47,8 @@ def imageAnalysis(img):
     pair_box = np.array(pair_box, dtype=np.int32).reshape((4,2))
     print(largest_box, type(largest_box))
     print(pair_box, type(pair_box))
-    cv2.drawContours(mask,[largest_box],0,(60,20,220),2) #IMPORTANT: Drawing contours around largest_height tape
-    cv2.drawContours(mask,[pair_box],0,(60,20,220),2) #IMPORTANT: Drawing contours and finding matching pairs
+    cv2.drawContours(mask,[largest_box],0,(0,0,255),2) #IMPORTANT: Drawing contours around largest_height tape
+    cv2.drawContours(mask,[pair_box],0,(0,255,0),2) #IMPORTANT: Drawing contours and finding matching pairs
 
     if not config.LiveImage:
         cv2.imshow("Threshold", thresh)

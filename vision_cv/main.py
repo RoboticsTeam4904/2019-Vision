@@ -36,7 +36,7 @@ WEIGHTS = {
     "rotation_angle_outfunc":1,
 }
 
-MIN_THRESHOLD = 13
+MIN_THRESHOLD = 0
 
 if(__name__ == "__main__"):
     if config.LiveImage:
@@ -48,6 +48,6 @@ if(__name__ == "__main__"):
         
     else:
         #img = cv2.imread("../../../vision_cv/TestImages/TEST0.jpg")
-        img = cv2.imread("/Users/yasnara/Documents/Coding/FRC/2019-Vision/vision_cv/TestImages/TEST900.jpg")
+        img = cv2.imread("/Users/yasnara/Documents/Coding/FRC/2019-Vision/vision_cv/TestImages/TEST1000.png")
         ImageAnalysis.imageAnalysis(img)
         
