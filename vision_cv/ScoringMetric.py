@@ -1,6 +1,7 @@
 import math
 import cv2
 import numpy as np
+
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
@@ -9,7 +10,7 @@ def score(box, contour, image, weights):
     box = sorted(box, key=lambda x: x[1])[::-1] #Sorts box from top to bottom scores 
     top = box[0]
     bottom = box[-1]
-    box = sorted(box, key=lambda x: x[0])
+    box = sorted(box, key=lambda x: x[0])[::-1]
     left = box[0]
     right = box[-1]
 
@@ -22,6 +23,7 @@ def score(box, contour, image, weights):
     total_score += score_area_ratio(dimension, points) * weights["area"]
     total_score += scoring_rotation_angle(right, bottom, weights["rotation_angle_infunc"]) * weights["rotation_angle_outfunc"]
     total_score += filled_value(contour, box, image) * weights["contour_area_values"]
+    print(total_score)
     return points, total_score
 
 def score_side_ratio(dimension):
@@ -77,10 +79,9 @@ def filled_value(contour, box, image):
     box = box[::-1]
     box = np.array(box)
 
-    #cv2.drawContours(z_img, [box], 0, color=128, thickness=-1) 
-    #cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
+    cv2.drawContours(z_img, [box], 0, color=128, thickness=-1) 
+    cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
 
     box_total = len(np.where(z_img == 128)[0])
     contour_total = len(np.where(z_img == 255)[0])
-
-    return float(contour_total)/float((contour_total+box_total))
+    return float(contour_total)/float(contour_total+box_total+0.001)
