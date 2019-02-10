@@ -44,11 +44,21 @@ def imageAnalysis(img):
     largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
     pair_box = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
     largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
-    pair_box = np.array(pair_box, dtype=np.int32).reshape((4,2))
+    if(type(pair_box) != type(None)):
+        pair_box = np.array(pair_box, dtype=np.int32).reshape((4,2))
     print(largest_box, type(largest_box))
     print(pair_box, type(pair_box))
     cv2.drawContours(mask,[largest_box],0,(0,0,255),2) #IMPORTANT: Drawing contours around largest_height tape
-    cv2.drawContours(mask,[pair_box],0,(0,255,0),2) #IMPORTANT: Drawing contours and finding matching pairs
+    total_contour = largest_box
+    if(type(pair_box) != type(None)):
+        cv2.drawContours(mask,[pair_box],0,(0,255,0),2) #IMPORTANT: Drawing contours and finding matching pairs
+        total_contour = np.concatenate([total_contour, pair_box])
+
+    x,y,w,h = cv2.boundingRect(total_contour)
+    center_point = (x+(w/2), y+(h/2))
+    cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
+    cv2.rectangle(mask, (x,y), (x+w,y+h), (255,255,255))
+    
 
     if not config.LiveImage:
         cv2.imshow("Threshold", thresh)
