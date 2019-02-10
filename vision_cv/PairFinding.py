@@ -5,6 +5,7 @@ import numpy as np
 
 HEIGHT_THRESHOLD = 20 # delta pixels # TODO: Tune Threshold
 ANGLE_THRESHOLD = 0.1 # delta radians
+DISTANCE_THRESHOLD = float("inf")
 
 def right_or_left(angle):
     top = box[0]
@@ -72,7 +73,7 @@ def pair_finding(box_list, box, target_height, angle):
             box_list.pop(elem)
             break
             
-    current_min_top_dist = float("inf")
+    current_min_top_dist = DISTANCE_THRESHOLD
     for check_box in box_list:
         check_height = check_box[0][1] - check_box[2][1]
         check_angle = math.atan2(box[1][0]-box[2][0], box[1][1]-box[2][1]) # direct arctan?
@@ -87,7 +88,8 @@ def pair_finding(box_list, box, target_height, angle):
             # and vice versa.
             
             if(abs(check_box[0][0]-box[0][0]) < current_min_top_dist):
-                if(abs(check_angle-1.856) < abs(check_angle+0.279)):
+                if(abs(check_angle-1.856) > abs(check_angle+0.279)):
+                    print("POSSIBLE -- LEFT BOX")
                     # This is the left side match -- it must be more left
                     if(check_box[0][0]-box[0][0] < 0):
                         current_min_top_dist = abs(check_box[0][0]-box[0][0])
@@ -95,6 +97,7 @@ def pair_finding(box_list, box, target_height, angle):
                     else:
                         pass
                 else:
+                    print("POSSIBLE -- RIGHT BOX")
                     # This is the right side match -- it must be more right
                     if(check_box[0][0]-box[0][0] > 0):
                         current_min_top_dist = abs(check_box[0][0]-box[0][0])
