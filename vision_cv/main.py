@@ -40,10 +40,12 @@ MIN_THRESHOLD = 0
 
 if(__name__ == "__main__"):
     if config.LiveImage:
-        print(AutoCalibrate.calibrate(1, 50, WEIGHTS))
-        WebCam.set(exposure=sys.argv[1])
+        #print(AutoCalibrate.calibrate(1, 50, WEIGHTS))
+        WebCam.set(exposure=10)
+	#WebCam.set(exposure=sys.argv[1])
         while True:
             img = WebCam.getImage()
+	    cv2.imwrite("a.jpg", img)
             ImageAnalysis.imageAnalysis(img)
         
     else:

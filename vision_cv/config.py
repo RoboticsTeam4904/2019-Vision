@@ -1,1 +1,1 @@
-LiveImage = False 
+LiveImage = True 
