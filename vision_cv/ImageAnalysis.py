@@ -13,7 +13,7 @@ def imageAnalysis(img):
     n=0
     thresh, contours, mask = GetContours.getContours(img)
     if len(contours)==0:
-        print(0)
+        #print(0)
         return None
 
     contours, mask, boxes, box_scores = getBoxes(contours, mask, img)
@@ -35,29 +35,38 @@ def imageAnalysis(img):
 
     # DrawImage.drawPairs(boxes)
     DrawImage.drawBoxes(box_scores, mask)
-
+    if len(contours) > 1:
+	dist1 = GetDistanceAngle.getDistance(cv2.boundingRect(contours[0]))
+	dist2 = GetDistanceAngle.getDistance(cv2.boundingRect(contours[1]))
+	averaged_distance = (dist1 + dist2)/2
+        print(dist1)
+	print(dist2)
+        print("CONTOUR DISTANCE: ", averaged_distance)
+    	print("IN FEET: ", (averaged_distance/(25.4 * 12)))
+    else:
+	print('NOT ENOUGH CONTOURS FOR DISTANCE - - - - - -  -- - -')
     #GetDistanceAngle.distanceAngleAnalysis(boxes)
     #cv2.drawContours(mask, contours, 0, (0,0,255), 2) # BGR, so this is red.
 
-    print(len(box_scores))
+    #print(len(box_scores))
 
     largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
     pair_box = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
     largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
     if(type(pair_box) != type(None)):
         pair_box = np.array(pair_box, dtype=np.int32).reshape((4,2))
-    print(largest_box, type(largest_box))
-    print(pair_box, type(pair_box))
+    #print(largest_box, type(largest_box))
+    #print(pair_box, type(pair_box))
     cv2.drawContours(mask,[largest_box],0,(0,0,255),2) #IMPORTANT: Drawing contours around largest_height tape
     total_contour = largest_box
     if(type(pair_box) != type(None)):
         cv2.drawContours(mask,[pair_box],0,(0,255,0),2) #IMPORTANT: Drawing contours and finding matching pairs
         total_contour = np.concatenate([total_contour, pair_box])
-
-    x,y,w,h = cv2.boundingRect(total_contour)
-    center_point = (x+(w/2), y+(h/2))
-    cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
-    cv2.rectangle(mask, (x,y), (x+w,y+h), (255,255,255))
+    #print("TOTAL_CONTOUR", total_contour)	
+    #x,y,w,h = cv2.boundingRect(total_contour)
+    #center_point = (x+(w/2), y+(h/2))
+    #cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
+    #cv2.rectangle(mask, (x,y), (x+w,y+h), (255,255,255))
     
 
     if not config.LiveImage:

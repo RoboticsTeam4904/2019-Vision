@@ -21,26 +21,27 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOf
     alpha = math.pi -beta + theta
     return alpha, alpha/math.pi*180
 
-def getDistance(box, sensorHeight, focalLength=3.67, knownHeightMillimeters=139.7, imageHeight=480):
+def getDistance(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=139.7, imageHeight=480):
     #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     #Focal Length 3.67 mm
-    top = box[0]
-    right = box[1]
-    bottom = box[1]
-    left = box[3] #Why should left = box[3]?
-    knownHeightPixels = (top[1] - bottom[1]) #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
+    knownHeightPixels = box[3] #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
+    print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
         distanceToObject = (focalLength * knownHeightMillimeters * imageHeight) / (knownHeightPixels * sensorHeight)
         return distanceToObject
     except: 
         return "CAN'T GET DISTANCE"
 
-def getSensorHeight(box, distanceMillimeters, focalLength=3.67, knownHeightMillimeters=139.7, imageHeight=480):
-    top = box[0]
-    right = box[1]
-    bottom = box[1]
-    left = box[3]
-    knownHeightPixels = (top[1] - bottom[1]) #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
+def getSensorHeight(box, distanceMillimeters=1600.2, focalLength=3.67, knownHeightMillimeters=139.7, imageHeight=480):
+    
+    print(box)
+    print('^^^^^^')
+    #top = box[0]
+    #right = box[1]
+    #bottom = box[1]
+    #left = box[3]
+    knownHeightPixels = box[3] #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
+    print("KNOWN HEIGHT PIXELS",  knownHeightPixels)
     sensorHeight = focalLength * knownHeightMillimeters * imageHeight/(distanceMillimeters*knownHeightPixels)
     return sensorHeight
 
