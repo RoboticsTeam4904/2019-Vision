@@ -6,34 +6,6 @@ import numpy as np
 HEIGHT_THRESHOLD = 20 # delta pixels # TODO: Tune Threshold
 ANGLE_THRESHOLD = 0.1 # delta radians
 DISTANCE_THRESHOLD = float("inf")
-
-def right_or_left(angle):
-    top = box[0]
-    bottom = box[2]
-    first = min([right, left], key = lambda t:t[1])
-    final = (bottom[0]+.1,bottom[1])
-    angle = ScoringMetric.slope(first,bottom) 
-    if angle<0:
-        angle = math.pi+angle
-    if abs(75.5-angle/math.pi*180)<abs(14.5-angle/math.pi*180):
-        return 'l'
-    else:
-        return 'r'
-def choose_right_or_left(boxes):
-    pairs = []
-    boxes.sort(key=lambda x: x[3][0])
-    if len(boxes)==1:
-        return None
-    list_rotations = []
-    for i in boxes:
-        list_rotations.append(right_or_left(i))
-    for i in range(0,len(list_rotations)-1):
-        if list_rotations[i]=='l' and list_rotations[i+1]=='r':
-            pairs.append((boxes[i],boxes[i+1]))
-    if len(pairs) == 0:
-        return None
-    else:
-        return pairs
 """
 What we want to do:
 Take the largest tape and check if it has a pair, then return if it does or
@@ -109,4 +81,3 @@ def pair_finding(box_list, box, target_height, angle):
     else:
         #print("NO PAIRS FOUND")
         return None
-

@@ -7,7 +7,7 @@ import Printing
 import main
 import DrawImage
 import PairFinding
-import GetDistanceAngle
+import GetDistance
 
 def imageAnalysis(img):
     n=0
@@ -36,8 +36,8 @@ def imageAnalysis(img):
     # DrawImage.drawPairs(boxes)
     DrawImage.drawBoxes(box_scores, mask)
     if len(contours) > 1:
-	dist1 = GetDistanceAngle.getDistance(cv2.boundingRect(contours[0]))
-	dist2 = GetDistanceAngle.getDistance(cv2.boundingRect(contours[1]))
+	dist1 = GetDistance.getDistance(cv2.boundingRect(contours[0]))
+	dist2 = GetDistance.getDistance(cv2.boundingRect(contours[1]))
 	averaged_distance = (dist1 + dist2)/2
         print(dist1)
 	print(dist2)
