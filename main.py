@@ -34,5 +34,5 @@ else:
 		distance = process(img)[0]
 		angle = process(img)[1]
 		print "Angle:" , angle
-		# shuffleboard.putNumber('distance', distance)
-		# shuffleboard.putNumber('angle', angle)
+		shuffleboard.putNumber('distance', distance)
+		shuffleboard.putNumber('angle', angle)
