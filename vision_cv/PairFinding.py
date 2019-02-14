@@ -26,7 +26,7 @@ def check_largest_tape(box_list):
             max_box = box
     
     #inside_angle = findInsideAngle(max_box[1], max_box[2], (max_box[2][0]+1, max_box[2][1])) # FIX ANGLE FINDING
-    inside_angle = math.atan2(box[1][0]-box[2][0], box[1][1]-box[2][1]) # direct arctan?
+    inside_angle = math.atan2(max_box[1][0]-max_box[2][0], max_box[1][1]-max_box[2][1]) # direct arctan?
     return max_box, max_height, inside_angle
 
 # We want to find if a pair exists to the max box and return it. Other contours don't matter

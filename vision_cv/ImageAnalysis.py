@@ -8,12 +8,13 @@ import main
 import DrawImage
 import PairFinding
 import GetDistance
+import GetAngle
 
 def imageAnalysis(img):
     n=0
     thresh, contours, mask = GetContours.getContours(img)
     if len(contours)==0:
-        #print(0)
+        print(0)
         return None
 
     contours, mask, boxes, box_scores = getBoxes(contours, mask, img)
@@ -35,7 +36,7 @@ def imageAnalysis(img):
 
     # DrawImage.drawPairs(boxes)
     DrawImage.drawBoxes(box_scores, mask)
-    if len(contours) > 1:
+#    if len(contours) > 1:
 	# dist1 = GetDistance.getDistance(cv2.boundingRect(contours[0]))
 	# dist2 = GetDistance.getDistance(cv2.boundingRect(contours[1]))
 	# averaged_distance = (dist1 + dist2)/2
@@ -43,13 +44,15 @@ def imageAnalysis(img):
 	# print(dist2)
     #     print("CONTOUR DISTANCE: ", averaged_distance)
     # 	print("IN FEET: ", (averaged_distance/(25.4 * 12)))
-    else:
-	print('NOT ENOUGH CONTOURS FOR DISTANCE - - - - - -  -- - -')
-    #GetDistanceAngle.distanceAngleAnalysis(boxes)
+    # else:
+    # 	print('NOT ENOUGH CONTOURS FOR DISTANCE - - - - - -  -- - -')
+    for i in boxes:
+        print(GetAngle.getAngle(i))
     #cv2.drawContours(mask, contours, 0, (0,0,255), 2) # BGR, so this is red.
 
-    #print(len(box_scores))
-
+    print(len(box_scores))
+    if len(box_scores)==0:
+	return 0
     largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
     pair_box = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
     largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
@@ -89,7 +92,6 @@ def getBoxes(contours, mask, img):
             box = cv2.boxPoints(rect)
         
         box = np.int0(box)
-
         points, contour_score = ScoringMetric.score(box, contours[i], img, main.WEIGHTS)
         boxes.append(points) #Array with all of the boxes with the format (t, r, b, l) for pair finding 
         box_scores.append((box, contour_score))

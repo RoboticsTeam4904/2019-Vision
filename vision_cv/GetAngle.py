@@ -14,9 +14,9 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOf
     P1 = averageX - 320
 
     try:
-        beta = math.asin(width/(height*perfectRatio))
+#        beta = math.asin(width/(height*perfectRatio))
         theta = math.atan(P1 * math.tan(fieldOfVision/2)/P2)
     except:
         return width, height
-    alpha = math.pi -beta + theta
-    return alpha, alpha/math.pi*180
+ #   alpha = math.pi -beta + theta
+    return theta, theta/math.pi*180
