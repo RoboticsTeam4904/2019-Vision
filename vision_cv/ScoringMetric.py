@@ -23,7 +23,6 @@ def score(box, contour, image, weights):
     total_score += score_area_ratio(dimension, points) * weights["area"]
     total_score += scoring_rotation_angle(right, bottom, weights["rotation_angle_infunc"]) * weights["rotation_angle_outfunc"]
     total_score += filled_value(contour, box, image) * weights["contour_area_values"]
-    print(total_score)
     return points, total_score
 
 def score_side_ratio(dimension):
