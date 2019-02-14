@@ -6,7 +6,7 @@ def getDistance(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters
     #Focal Length 3.67 mm
     #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     knownHeightPixels = box[3] #box[3] is part of the bounding
-    print("KNOWN HEIGHT PIXELS", knownHeightPixels)
+    # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
         distanceToObject = (focalLength * knownHeightMillimeters * imageHeight) / (knownHeightPixels * sensorHeight)
         return distanceToObject
