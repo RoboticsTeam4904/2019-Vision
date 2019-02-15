@@ -53,7 +53,7 @@ def imageAnalysis(img):
 
     print(len(box_scores))
     if len(box_scores)==0:
-	return 0
+	    return None
     largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
     pair_box = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
     largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
@@ -81,6 +81,10 @@ def imageAnalysis(img):
     else:
         Printing.save(Printing.save(img, name="TEST" + str(n//10)))
         n+=1
+    
+    # x, y, theta, beta, dist
+    # FIXME!
+    return 0, 0, 0, 0, 0
 
 def getBoxes(contours, mask, img):
     box_scores = []
