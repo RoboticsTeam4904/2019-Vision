@@ -67,9 +67,8 @@ def imageAnalysis(img):
         cv2.drawContours(mask,[pair_box],0,(0,255,0),2) #IMPORTANT: Drawing contours and finding matching pairs
         total_contour = np.concatenate([total_contour, pair_box])
     #print("TOTAL_CONTOUR", total_contour)	
-    #x,y,w,h = cv2.boundingRect(total_contour)
-    #center_point = (x+(w/2), y+(h/2))
-    #cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
+    center_point = GetDistance.find_center_point(total_contour)
+    cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
     #cv2.rectangle(mask, (x,y), (x+w,y+h), (255,255,255))
     
 

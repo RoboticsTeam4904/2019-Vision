@@ -1,5 +1,6 @@
 import numpy as np
 import math
+import cv2
 
 def getDistance(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=139.7, imageHeight=480):
     #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
@@ -21,6 +22,11 @@ def getDistance(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters
 DISTANCE_BETWEEN_CAMERAS = 0 # meters
 VIEWING_ANGLE = 70.42 # degrees (radians?)
 HORIZONTAL_PIXELS = 640 # pixels
+
+def find_center_point(total_contour):
+    x,y,w,h = cv2.boundingRect(total_contour)
+    center_point = (x+(w/2), y+(h/2))
+    return center_point
 
 def distance_finding(dual_image): 
     locations = np.where(dual_image==255)
