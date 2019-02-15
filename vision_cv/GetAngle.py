@@ -12,11 +12,15 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOf
     P2 = imageWidth/2
     averageX = (left[0]+right[0])/2
     P1 = averageX - 320
-
+    P1 = float(P1)
+    P2 = float(P2)
+    width = float(width)
+    height = float(height)
     try:
-#        beta = math.asin(width/(height*perfectRatio))
+        beta = math.asin(width/(height*perfectRatio))
         theta = math.atan(P1 * math.tan(fieldOfVision/2)/P2)
     except:
-        return width, height
- #   alpha = math.pi -beta + theta
-    return theta, theta/math.pi*180
+        print("FAILED", width, height, width/height)
+	return width, height
+    #alpha = math.pi -beta + theta
+    return beta, beta/math.pi*180
