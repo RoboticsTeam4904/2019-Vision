@@ -36,15 +36,16 @@ def imageAnalysis(img):
 
     # DrawImage.drawPairs(boxes)
     DrawImage.drawBoxes(box_scores, mask)
-#    if len(contours) > 1:
+    #if len(contours) > 1:
 	# dist1 = GetDistance.getDistance(cv2.boundingRect(contours[0]))
 	# dist2 = GetDistance.getDistance(cv2.boundingRect(contours[1]))
 	# averaged_distance = (dist1 + dist2)/2
-    #     print(dist1)
+        # print(dist1)
 	# print(dist2)
-    #     print("CONTOUR DISTANCE: ", averaged_distance)
-    # 	print("IN FEET: ", (averaged_distance/(25.4 * 12)))
-    # else:
+        # print("CONTOUR DISTANCE: ", averaged_distance)
+     	# print("IN FEET: ", (dist1/(25.4 * 12)))
+	# print("IN FEET: ", (dist2/(25.4 * 12)))
+    #else:
     # 	print('NOT ENOUGH CONTOURS FOR DISTANCE - - - - - -  -- - -')
     for i in boxes:
         print(GetAngle.getAngle(i))
