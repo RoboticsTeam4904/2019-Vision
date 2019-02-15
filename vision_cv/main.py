@@ -7,7 +7,7 @@ import math
 import WebCam
 import PairFinding
 import random
-import GetDistanceAngle
+import GetDistance
 import HSVThreshold
 import Printing
 import GetContours
@@ -45,7 +45,7 @@ if(__name__ == "__main__"):
 	#WebCam.set(exposure=sys.argv[1])
         while True:
             img = WebCam.getImage()
-	    cv2.imwrite("a.jpg", img)
+            cv2.imwrite("a.jpg", img)
             ImageAnalysis.imageAnalysis(img)
         
     else:
