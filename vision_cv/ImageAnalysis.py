@@ -15,15 +15,13 @@ def imageAnalysis(img, n=0):
     if len(contours)==0:
         print(0)
         return None
-
     contours, mask, boxes, box_scores = getBoxes(contours, mask, img)
-
     # Now we draw boxes;
-    box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
-    box_scores_filtered = []
+    # box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
+    # box_scores_filtered = []
     boxes_filtered = []
     for elem in box_scores:
-        if(elem[1] >= main.MIN_THRESHOLD):
+        if(elem[1] >= config.MIN_THRESHOLD):
             box_scores_filtered.append(elem)
             boxes_filtered.append(elem[0])
     
@@ -87,7 +85,7 @@ def getBoxes(contours, mask, img):
             box = cv2.boxPoints(rect)
         
         box = np.int0(box)
-        points, contour_score = ScoringMetric.score(box, contours[i], img, main.WEIGHTS)
+        points, contour_score = ScoringMetric.score(box, contours[i], img, config.WEIGHTS)
         boxes.append(points) #Array with all of the boxes with the format (t, r, b, l) for pair finding 
         box_scores.append((box, contour_score))
         #cv2.drawContours(mask,[box],0,(0,255,0),2)
