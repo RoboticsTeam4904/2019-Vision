@@ -4,6 +4,7 @@ import main
 import numpy as np
 import config
 
+
 def detect(c):
     # Initialize the shape name and approximate the contour
     x, y, w, h = cv2.boundingRect(c)
@@ -25,6 +26,7 @@ def detect(c):
         return False
     return True
 
+
 def findContours(img):
 
     thresholder = HSVThreshold.HSVPipeline()
@@ -32,14 +34,17 @@ def findContours(img):
     mask = cv2.bitwise_and(img, img, mask=thresh)
     mode = cv2.RETR_LIST
     method = cv2.CHAIN_APPROX_SIMPLE
-    contours = [] 
+    contours = []
 
     if(cv2.__version__[0] == "4"):
-        contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
+        contours, hierarchy = cv2.findContours(
+            thresh, mode, method)  # im2 only in cv2 v3.x
     if(cv2.__version__[0] == "3"):
-        im2, contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
+        im2, contours, hierarchy = cv2.findContours(
+            thresh, mode, method)  # im2 only in cv2 v3.x
     if(cv2.__version__[0] == "2"):
-        contours, hierarchy = cv2.findContours(thresh, mode, method) # im2 only in cv2 v3.x
+        contours, hierarchy = cv2.findContours(
+            thresh, mode, method)  # im2 only in cv2 v3.x
 
     return thresh, contours, mask
 
@@ -50,9 +55,9 @@ def filterContours(contours):
 
 def getContours(img):
     thresh, contours, mask = findContours(img)
-    
+
     if len(contours) < 1:
-            return [], [], []
+        return [], [], []
     else:
         contours = filterContours(contours)
     return thresh, contours, mask

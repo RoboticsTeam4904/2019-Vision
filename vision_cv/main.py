@@ -25,11 +25,10 @@ if(__name__ == "__main__"):
         WebCam.set(exposure=sys.argv[1])
         while True:
             frame_num += 1
-            img = WebCam.getImage()
-            cv2.imwrite("a.jpg", img)
-            ImageAnalysis.imageAnalysis(img, frame_num)
-        
+            imgs = WebCam.getImages()
+            ImageAnalysis.imageAnalysis(imgs, frame_num)
+
     else:
-        img = cv2.imread("./TestImages/TEST150.jpg") #Taking an image from folder of TestImages
+        # Taking an image from folder of TestImages
+        img = cv2.imread("./TestImages/TEST150.jpg")
         ImageAnalysis.imageAnalysis(img)
-        
