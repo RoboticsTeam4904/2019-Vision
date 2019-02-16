@@ -55,7 +55,9 @@ def imageAnalysis(img):
     if len(box_scores)==0:
 	    return None
     largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
-    pair_box = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
+    pair_box, pair_side = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
+    largest_side = "RIGHT" if pair_side == "LEFT" else "LEFT"
+
     largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
     if(type(pair_box) != type(None)):
         pair_box = np.array(pair_box, dtype=np.int32).reshape((4,2))
