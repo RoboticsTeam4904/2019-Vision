@@ -9,18 +9,21 @@ def process(image):
 	if config.display:
 		cv2.imshow('unprocessed', image)
 	contours = rungrip.getContours(image)
-	contour = rungrip.filterContours(image, contours)
-	centroid = rungrip.centroid(contour, image)
-	rectAngle = rungrip.rectangle(contour, image, centroid)
-	if config.display:
-		if config.test:
-			cv2.imshow('processed', image)
-			cv2.waitKey(0)
-			cv2.destroyAllWindows()
-		else:
-			cv2.imshow('processed', image)
-			cv2.waitKey(10)
-	return rectAngle
+	if len(contours) >= 1:
+		contour = rungrip.filterContours(image, contours)
+		centroid = rungrip.centroid(contour, image)
+		rectAngle = rungrip.rectangle(contour, image, centroid)
+		if config.display:
+			if config.test:
+				cv2.imshow('processed', image)
+				cv2.waitKey(0)
+				cv2.destroyAllWindows()
+			else:
+				cv2.imshow('processed', image)
+				cv2.waitKey(10)
+		return rectAngle
+	else:
+		return (0, 0)
 
 if config.test:
 	image = images.images[0]
@@ -30,9 +33,9 @@ else:
 	shuffleboard = NetworkTables.getTable('PID')
 	while True:
 		img = WebCam.getImage()
-		process(img)
-		distance = process(img)[0]
-		angle = process(img)[1]
+		randomvariablebecausecaseywantsit = process(img)
+		distance = randomvariablebecausecaseywantsit[0]
+		angle = randomvariablebecausecaseywantsit[1]
 		print "Angle:" , angle
 		shuffleboard.putNumber('distance', distance)
 		shuffleboard.putNumber('angle', angle)
