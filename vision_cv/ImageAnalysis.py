@@ -13,7 +13,14 @@ import GetAngle
 
 def imageAnalysis(images, n=0):
     AllBoxes = []
-    for img in images:
+    saveImage = False
+    for img in range(0,len(images)):
+	saveImage = False
+	if img==1:
+	    saveImage = True
+	img = images[img]
+	if saveImage:
+	    Printing.save(img, name="TEST" + str(n))
         thresh, contours, mask = GetContours.getContours(img)
         if len(contours) == 0:
             print(0)
@@ -28,8 +35,6 @@ def imageAnalysis(images, n=0):
                 box_scores_filtered.append(elem)
                 boxes_filtered.append(elem[0])
 
-        if len(box_scores_filtered) == 0:
-            print("No contours found after filtering")
 
         box_scores = box_scores_filtered  # Final scores for each contour
         boxes = boxes_filtered
@@ -75,7 +80,7 @@ def imageAnalysis(images, n=0):
             cv2.imshow("Image", img)
             cv2.imshow("Mask", mask)
             cv2.waitKey(0)
-        else:
+        elif saveImage:
             Printing.save(img, name="TEST" + str(n))
         AllBoxes.append(boxes)
     if(config.NUM_CAMERAS==2):
