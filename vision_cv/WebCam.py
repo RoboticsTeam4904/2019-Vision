@@ -14,7 +14,7 @@ def getImages():
         retval, image = camera.read()
         if(not retval):
             raise Exception("Image reading failed for one camera")
-		images.append(image)
+            images.append(image)
 
     return images
 
