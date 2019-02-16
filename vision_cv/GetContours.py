@@ -2,25 +2,26 @@ import cv2
 import HSVThreshold
 import main
 import numpy as np
+import config
 
 def detect(c):
     # Initialize the shape name and approximate the contour
     x, y, w, h = cv2.boundingRect(c)
-    if (w < main.MIN_WIDTH or w > main.MAX_WIDTH):
+    if (w < config.MIN_WIDTH or w > config.MAX_WIDTH):
         return False
-    if (h < main.MIN_HEIGHT or h > main.MAX_HEIGHT):
+    if (h < config.MIN_HEIGHT or h > config.MAX_HEIGHT):
         return False
     area = cv2.contourArea(c)
-    if (area < main.MIN_AREA):
+    if (area < config.MIN_AREA):
         return False
-    if (cv2.arcLength(c, True) < main.MIN_PERIMETER):
+    if (cv2.arcLength(c, True) < config.MIN_PERIMETER):
         return False
     hull = cv2.convexHull(c)
     solid = 100 * area / cv2.contourArea(hull)
-    if (solid < main.SOLIDITY[0] or solid > main.SOLIDITY[1]):
+    if (solid < config.SOLIDITY[0] or solid > config.SOLIDITY[1]):
         return False
     ratio = (float)(w) / h
-    if (ratio < main.MIN_RATIO or ratio > main.MAX_RATIO):
+    if (ratio < config.MIN_RATIO or ratio > config.MAX_RATIO):
         return False
     return True
 
