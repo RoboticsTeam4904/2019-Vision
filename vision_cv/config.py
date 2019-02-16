@@ -24,7 +24,7 @@ degPerPxl = np.divide(nativeAngle, resolution)
 
 # Misc
 # -------------
-ip = "10.49.4.2"
+ip = "10.49.4.2" #TODO: Fix Value 
 team = 4904
 networkSpeed = 0.02
 withOpenCV3 = int(cv2.__version__[0]) == 3
