@@ -5,8 +5,7 @@ from PIL import Image
 import config
 cameras = []
 for PORT in config.CAMERA_PORTS:
-    cameras.append(cv2.VideoCapture(config.CAMERA_PORT))
-
+    cameras.append(cv2.VideoCapture(PORT))
 
 def getImages():
     images = []
@@ -14,7 +13,7 @@ def getImages():
         retval, image = camera.read()
         if(not retval):
             raise Exception("Image reading failed for one camera")
-            images.append(image)
+        images.append(image)
 
     return images
 
