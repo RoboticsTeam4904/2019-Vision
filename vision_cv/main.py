@@ -3,14 +3,13 @@ import sys
 import WebCam
 import ImageAnalysis
 import config
+import AutoCalibrate
 
 if(__name__ == "__main__"):
     if config.LiveImage:
         frame_num = 0
-        #print(AutoCalibrate.calibrate(1, 50, WEIGHTS))
-        # #WebCam.set(exposure=10)
-        WebCam.set(port=0, exposure=sys.argv[1])
-        WebCam.set(port=1, exposure=sys.argv[1])
+        print("Camera 0: " + AutoCalibrate.calibrate(0, config.MIN_EXPOSURE, config.MAX_EXPOSURE, config.WEIGHTS))
+        print("Camera 1: " + AutoCalibrate.calibrate(1, config.MIN_EXPOSURE, config.MAX_EXPOSURE, config.WEIGHTS))
         while True:
             frame_num += 1
             imgs = WebCam.getImages()
