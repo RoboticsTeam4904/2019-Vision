@@ -12,13 +12,10 @@ import GetAngle
 
 def imageAnalysis(img, n=0):
 	thresh, contours, mask = GetContours.getContours(img)
-	
 	if len(contours)==0:
 		isVisible = False
 		return None
-
 	boxes, box_scores = getBoxes(contours)
-
 	# Now we draw boxes;
 	box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
 	box_scores_filtered = []
@@ -34,7 +31,6 @@ def imageAnalysis(img, n=0):
 		return  None
 	box_scores = box_scores_filtered # Final scores for each contour
 	boxes = boxes_filtered
-
 	selectBoxes(boxes)
 
 	# DrawImage.drawPairs(boxes)
@@ -80,7 +76,6 @@ def getBoxesAndScores(contours):
 		boxes.append(points) #Array with all of the boxes with the format (t, r, b, l) for pair finding 
 		box_scores.append((box, contour_score))
 		#cv2.drawContours(mask,[box],0,(0,255,0),2)
-
 	return boxes, box_scores
 
 def selectBoxes(boxes):
