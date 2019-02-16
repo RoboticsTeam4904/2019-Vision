@@ -13,7 +13,7 @@ class HSVPipeline:
         """
 
         self.__hsv_threshold_hue = [50, 90]
-        self.__hsv_threshold_saturation = [80, 255.0]
+        self.__hsv_threshold_saturation = [200, 255.0]
         self.__hsv_threshold_value = [142, 218]
 
         self.hsv_threshold_output = None
