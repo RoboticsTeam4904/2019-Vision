@@ -4,7 +4,7 @@ import numpy as np
 # Image Capture Settings
 LiveImage = True
 NUM_CAMERAS = 2
-CAMERA_PORTS = [0, 1]
+CAMERA_PORTS = [0]
 
 # Contour Finding Settings
 MIN_AREA = 50
