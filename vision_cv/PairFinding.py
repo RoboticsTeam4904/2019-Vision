@@ -65,7 +65,7 @@ def pair_finding(box_list, box, target_height, angle):
                     # This is the left side match -- it must be more left
                     if(check_box[0][0]-box[0][0] < 0):
                         current_min_top_dist = abs(check_box[0][0]-box[0][0])
-                        best_match = check_box
+                        best_match = (check_box, "LEFT")
                     else:
                         pass
                 else:
@@ -73,9 +73,9 @@ def pair_finding(box_list, box, target_height, angle):
                     # This is the right side match -- it must be more right
                     if(check_box[0][0]-box[0][0] > 0):
                         current_min_top_dist = abs(check_box[0][0]-box[0][0])
-                        best_match = check_box
+                        best_match = (check_box, "RIGHT")
 
-    if best_match.any():
+    if best_match != None:
         #print("FOUND PAIRS") # Then we just take possible_matches[0]
         return best_match
     else:

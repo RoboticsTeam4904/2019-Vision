@@ -7,13 +7,16 @@ import math
 import WebCam
 import PairFinding
 import random
-import GetDistanceAngle
+import GetDistance
 import HSVThreshold
 import Printing
 import GetContours
 import AutoCalibrate
 import ImageAnalysis
 import config
+
+import CANInterface as caninterface
+import NetworkTablesInterface as ntinterface
 
 
 MIN_AREA = 50
@@ -45,8 +48,11 @@ if(__name__ == "__main__"):
 	#WebCam.set(exposure=sys.argv[1])
         while True:
             img = WebCam.getImage()
-	    cv2.imwrite("a.jpg", img)
-            ImageAnalysis.imageAnalysis(img)
+            cv2.imwrite("a.jpg", img)
+
+            data = ImageAnalysis.imageAnalysis(img)
+            caninterface.send_data(*data)
+            ntinterface.send_data(*data)
         
     else:
         #img = cv2.imread("../../../vision_cv/TestImages/TEST0.jpg")
