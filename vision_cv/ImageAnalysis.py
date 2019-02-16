@@ -11,7 +11,6 @@ import GetDistance
 import GetAngle
 
 def imageAnalysis(img, n=0):
-    Printing.save(img, name="TEST" + str(n))
     thresh, contours, mask = GetContours.getContours(img)
     if len(contours)==0:
         print(0)
@@ -53,9 +52,11 @@ def imageAnalysis(img, n=0):
 
     print(len(box_scores))
     if len(box_scores)==0:
-	return 0
+	    return None
     largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
-    pair_box = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
+    pair_box, pair_side = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
+    largest_side = "RIGHT" if pair_side == "LEFT" else "LEFT"
+
     largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
     if(type(pair_box) != type(None)):
         pair_box = np.array(pair_box, dtype=np.int32).reshape((4,2))
@@ -67,9 +68,8 @@ def imageAnalysis(img, n=0):
         cv2.drawContours(mask,[pair_box],0,(0,255,0),2) #IMPORTANT: Drawing contours and finding matching pairs
         total_contour = np.concatenate([total_contour, pair_box])
     #print("TOTAL_CONTOUR", total_contour)	
-    #x,y,w,h = cv2.boundingRect(total_contour)
-    #center_point = (x+(w/2), y+(h/2))
-    #cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
+    center_point = GetDistance.find_center_point(total_contour)
+    cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
     #cv2.rectangle(mask, (x,y), (x+w,y+h), (255,255,255))
     
 
