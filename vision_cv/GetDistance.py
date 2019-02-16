@@ -6,15 +6,14 @@ import cv2
 
 #One Camera getDistance approach
 
-def getDistanceToWall(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0): # gamma default value should be tuned.
+def getDistanceToWall(heightPixels, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0): # gamma default value should be tuned.
     #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     #Focal Length 3.67 mm
     #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
-    knownHeightPixels = box[3] #box[3] is part of the bounding
     knownHeightMillimeters *= math.cos(gamma) #This gets the knownHeightMillimeters based on the angle of the camera
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
-        distanceToObject = (focalLength * knownHeightMillimeters * imageHeight) / (knownHeightPixels * sensorHeight)
+        distanceToObject = (focalLength * knownHeightMillimeters * imageHeight) / (heightPixels * sensorHeight)
         return distanceToObject
     except: 
         return "CAN'T GET DISTANCE"

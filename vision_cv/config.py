@@ -2,6 +2,7 @@ LiveImage = True
 
 import cv2
 import numpy as np
+
 # Logging/debug settings
 # --------------
 debug = True
