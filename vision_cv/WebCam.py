@@ -20,6 +20,14 @@ def getImages():
     return images
 
 
+def getImage(port):
+    camera = cameras[port]
+    retval, image = camera.read()
+    if(not retval):
+        raise Exception("Image reading failed for one camera")
+
+    return image
+
 # This function sets the exposure. LINUX ONLY
 def set(port=0, resolution=False, exposure=False, gain=False, contrast=False):
     settingStr = "/usr/bin/v4l2-ctl -d /dev/video" + str(port)
@@ -33,7 +41,6 @@ def set(port=0, resolution=False, exposure=False, gain=False, contrast=False):
         settingStr += " -c gain={}".format(gain)
     if contrast:
         settingStr += " -c contrast={}".format(contrast)
-    print(settingStr)
     subprocess.call(settingStr, shell=True)
 
 
