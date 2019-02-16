@@ -7,15 +7,15 @@ import config
 import sys
 
 
-def calibrate(minExposure, maxExposure, WEIGHTS):
+def calibrate(port, minExposure, maxExposure, WEIGHTS):
     boxes = []
     maxScore = 0
-    maxScoreExposure = 0
+    max_score_exposure = 0
     for exposure in range(minExposure, maxExposure):
-        WebCam.set(exposure=exposure)
-        img = WebCam.getImage()
+        WebCam.set(port=port, exposure=exposure)
+        img = WebCam.getImage(port)
         _, contours, _ = GetContours.getContours(img)
-        if len(contours) == 0:
+        if len(contours)==0:
             continue
         for i in range(len(contours)):
             rect = cv2.minAreaRect(contours[i])
@@ -37,10 +37,9 @@ def calibrate(minExposure, maxExposure, WEIGHTS):
             maxScore = final_score
             max_score_exposure = exposure
 
-    if maxScoreExposure != 0:
-        WebCam.set(exposure=maxScoreExposure)
+    if max_score_exposure != 0:
+        WebCam.set(port=port, exposure=max_score_exposure)
     else:
-        if config.LiveImage:
-            WebCam.set(exposure=sys.argv[1])
+        WebCam.set(port=port, exposure=sys.argv[1])
         return "Exposure tuning failed - No contours found!"
-    return "Exposure: " + str(maxScoreExposure)
+    return "Exposure: " + str(max_score_exposure)
