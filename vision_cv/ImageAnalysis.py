@@ -79,7 +79,7 @@ def findDistance(contours):
         dist1 = GetDistance.getDistance(cv2.boundingRect(contours[0]))
         dist2 = GetDistance.getDistance(cv2.boundingRect(contours[1]))
         averaged_distance = (dist1 + dist2)/2
-        print("IN FEET: ",(averaged_distance/(25.4 * 12))))
+        print("IN FEET: ",(averaged_distance/(25.4 * 12)))
         return averaged_distance #in millimeters
     else:
         print('NOT ENOUGH CONTOURS FOR DISTANCE - - - - - -  -- - -')
