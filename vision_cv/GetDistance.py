@@ -13,6 +13,7 @@ def getDistanceToWall(box, sensorHeight=2.95, focalLength=3.67, knownHeightMilli
     # Focal Length 3.67 mm
     # knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     knownHeightPixels = box[3]  # box[3] is part of the bounding
+    print(knownHeightPixels)
     # This gets the knownHeightMillimeters based on the angle of the camera
     knownHeightMillimeters *= math.cos(gamma)
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
