@@ -28,7 +28,7 @@ def imageAnalysis(img, n=0):
             boxes_filtered.append(elem[0])
     
     if len(box_scores_filtered) == 0:
-        print("Found Not Contours")
+        print("No contours found after filtering")
 
     box_scores = box_scores_filtered # Final scores for each contour
     boxes = boxes_filtered
@@ -53,24 +53,24 @@ def imageAnalysis(img, n=0):
     print(len(box_scores))
     if len(box_scores)==0:
 	    return None
-    largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
-    pair_box, pair_side = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
-    largest_side = "RIGHT" if pair_side == "LEFT" else "LEFT"
+    # largest_box, largest_height, largest_angle = PairFinding.check_largest_tape(boxes)
+    # pair_box, pair_side = PairFinding.pair_finding(boxes, largest_box, largest_height, largest_angle)
+    # largest_side = "RIGHT" if pair_side == "LEFT" else "LEFT"
 
-    largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
-    if(type(pair_box) != type(None)):
-        pair_box = np.array(pair_box, dtype=np.int32).reshape((4,2))
-    #print(largest_box, type(largest_box))
-    #print(pair_box, type(pair_box))
-    cv2.drawContours(mask,[largest_box],0,(0,0,255),2) #IMPORTANT: Drawing contours around largest_height tape
-    total_contour = largest_box
-    if(type(pair_box) != type(None)):
-        cv2.drawContours(mask,[pair_box],0,(0,255,0),2) #IMPORTANT: Drawing contours and finding matching pairs
-        total_contour = np.concatenate([total_contour, pair_box])
-    #print("TOTAL_CONTOUR", total_contour)	
-    center_point = GetDistance.find_center_point(total_contour)
-    cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
-    #cv2.rectangle(mask, (x,y), (x+w,y+h), (255,255,255))
+    # largest_box = np.array([x.tolist() for x in largest_box], dtype=np.int32)
+    # if(type(pair_box) != type(None)):
+    #     pair_box = np.array(pair_box, dtype=np.int32).reshape((4,2))
+    # #print(largest_box, type(largest_box))
+    # #print(pair_box, type(pair_box))
+    # cv2.drawContours(mask,[largest_box],0,(0,0,255),2) #IMPORTANT: Drawing contours around largest_height tape
+    # total_contour = largest_box
+    # if(type(pair_box) != type(None)):
+    #     cv2.drawContours(mask,[pair_box],0,(0,255,0),2) #IMPORTANT: Drawing contours and finding matching pairs
+    #     total_contour = np.concatenate([total_contour, pair_box])
+    # #print("TOTAL_CONTOUR", total_contour)	
+    # center_point = GetDistance.find_center_point(total_contour)
+    # cv2.circle(mask, center_point, 3, (255,255,255), thickness=-1)
+    # #cv2.rectangle(mask, (x,y), (x+w,y+h), (255,255,255))
     
 
     if not config.LiveImage:

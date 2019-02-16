@@ -14,8 +14,8 @@ import GetContours
 import AutoCalibrate
 import ImageAnalysis
 import config
-import CANInterface as caninterface
-import NetworkTablesInterface as ntinterface
+# import CANInterface as caninterface
+# import NetworkTablesInterface as ntinterface
 
 
 MIN_AREA = 50
