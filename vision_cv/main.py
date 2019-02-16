@@ -10,9 +10,6 @@ if(__name__ == "__main__"):
         frame_num = 0
         print("Camera 0: " + AutoCalibrate.calibrate(0, 1, 100, config.WEIGHTS))
         print("Camera 1: " + AutoCalibrate.calibrate(1, 1, 100, config.WEIGHTS))
-        # #WebCam.set(exposure=10)
-        WebCam.set(port=1, exposure=sys.argv[1])
-        WebCam.set(port=0, exposure=sys.argv[1])
         while True:
             frame_num += 1
             imgs = WebCam.getImages()
