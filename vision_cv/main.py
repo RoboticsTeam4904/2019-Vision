@@ -17,5 +17,5 @@ if(__name__ == "__main__"):
 
     else:
         # Taking an image from folder of TestImages
-        img = cv2.imread("./TestImages/TEST150.jpg")
+        imgs = [cv2.imread("./TestImages/TEST150.jpg"), cv2.imread("./TestImages/TEST149.jpg")]
         ImageAnalysis.imageAnalysis(img)
