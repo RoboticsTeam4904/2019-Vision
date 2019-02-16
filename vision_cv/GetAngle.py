@@ -46,14 +46,12 @@ def getBeta(AllBoxes, distanceCameras=673.1):
     counter = 0
     for i in boxes1:
         distance1 += GetDistance.getDistanceToWall(i)
-	print(distance1)
         counter += 1
     distance1 /= counter
     distance2 = 0
     counter = 0
     for i in boxes2:
         distance2 += GetDistance.getDistanceToWall(i)
-	print(distance2)
         counter += 1
     distance2 /= counter
     beta = math.atan((distance2-distance1)/distanceCameras)

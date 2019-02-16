@@ -3,6 +3,8 @@ import subprocess
 import numpy as np
 from PIL import Image
 import config
+import GetImage
+
 cameras = []
 for PORT in config.CAMERA_PORTS:
     cameras.append(cv2.VideoCapture(PORT))
@@ -19,8 +21,8 @@ def getImages():
 
 
 # This function sets the exposure. LINUX ONLY
-def set(resolution=False, exposure=False, gain=False, contrast=False, ):
-    settingStr = "/usr/bin/v4l2-ctl -d /dev/video0"
+def set(port=0, resolution=False, exposure=False, gain=False, contrast=False):
+    settingStr = "/usr/bin/v4l2-ctl -d /dev/video" + str(port)
     if resolution:
         settingStr += " --set-fmt-video=width={},height={}".format(
             resolution[0], resolution[1])
@@ -31,6 +33,7 @@ def set(resolution=False, exposure=False, gain=False, contrast=False, ):
         settingStr += " -c gain={}".format(gain)
     if contrast:
         settingStr += " -c contrast={}".format(contrast)
+    print(settingStr)
     subprocess.call(settingStr, shell=True)
 
 
