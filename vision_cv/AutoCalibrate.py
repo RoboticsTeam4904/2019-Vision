@@ -13,7 +13,7 @@ def calibrate(port, minExposure, maxExposure, WEIGHTS):
     max_score_exposure = 0
     for exposure in range(minExposure, maxExposure):
         WebCam.set(port=port, exposure=exposure)
-        img = WebCam.getImage()
+        img = WebCam.getImage(port)
         _, contours, _ = GetContours.getContours(img)
         if len(contours)==0:
             continue
