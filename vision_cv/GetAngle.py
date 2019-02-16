@@ -4,7 +4,7 @@ import cv2
 def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOfVision=1.229, imageWidth=640, GAMMA=0): #Perfect width and height describe the pixel width and height when at the vertical offset and looking straight at the tape. This facilitates angle calculations.
     perfectHeight = perfectHeight * math.cos(GAMMA)
     perfectRatio = perfectWidth/perfectHeight # Perfect ratio is the perfect width divided by the perfect height
-    perfectRatio =  .589
+    perfectRatio =  0.589
     top = box[0]
     left = box[1]
     bottom = box[2]

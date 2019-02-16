@@ -14,6 +14,7 @@ import GetContours
 import AutoCalibrate
 import ImageAnalysis
 import config
+frame_num = 0
 # import CANInterface as caninterface
 # import NetworkTablesInterface as ntinterface
 
@@ -29,7 +30,8 @@ MAX_VERTICES = 1000000.0
 MIN_VERTICES = 0
 MIN_RATIO = 0
 MAX_RATIO = 30
-n  = 0
+
+
 WEIGHTS = {
     "hw_ratio": 5,
     "area": 1,
@@ -42,18 +44,17 @@ MIN_THRESHOLD = 13
 
 if(__name__ == "__main__"):
     if config.LiveImage:
+        frame_num = 0
         #print(AutoCalibrate.calibrate(1, 50, WEIGHTS))
         # #WebCam.set(exposure=10)
         WebCam.set(exposure=sys.argv[1])
         while True:
-            n+=1
+            frame_num += 1
             img = WebCam.getImage()
             cv2.imwrite("a.jpg", img)
-            ImageAnalysis.imageAnalysis(img, n)
+            ImageAnalysis.imageAnalysis(img, frame_num)
         
     else:
-        #img = cv2.imread("../../../vision_cv/TestImages/TEST0.jpg")
-        #img = cv2.imread("/Users/yasnara/Documents/Coding/FRC/2019-Vision/vision_cv/TestImages/TEST1000.png")
-        img = cv2.imread("./TestImages/TEST150.jpg")
+        img = cv2.imread("./TestImages/TEST150.jpg") #Taking an image from folder of TestImages
         ImageAnalysis.imageAnalysis(img)
         
