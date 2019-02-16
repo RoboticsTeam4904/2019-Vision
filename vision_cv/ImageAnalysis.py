@@ -10,8 +10,8 @@ import PairFinding
 import GetDistance
 import GetAngle
 
-def imageAnalysis(img):
-    n=0
+def imageAnalysis(img, n=0):
+    Printing.save(img, name="TEST" + str(n))
     thresh, contours, mask = GetContours.getContours(img)
     if len(contours)==0:
         print(0)
@@ -79,9 +79,7 @@ def imageAnalysis(img):
         cv2.imshow("Mask", mask)
         cv2.waitKey(0)
     else:
-        Printing.save(Printing.save(img, name="TEST" + str(n//10)))
-        n+=1
-
+        Printing.save(img, name="TEST" + str(n))
 def getBoxes(contours, mask, img):
     box_scores = []
     boxes = []

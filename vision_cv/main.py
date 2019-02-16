@@ -27,7 +27,7 @@ MAX_VERTICES = 1000000.0
 MIN_VERTICES = 0
 MIN_RATIO = 0
 MAX_RATIO = 30
-
+n  = 0
 WEIGHTS = {
     "hw_ratio": 5,
     "area": 1,
@@ -41,12 +41,13 @@ MIN_THRESHOLD = 0
 if(__name__ == "__main__"):
     if config.LiveImage:
         #print(AutoCalibrate.calibrate(1, 50, WEIGHTS))
-        WebCam.set(exposure=10)
-	#WebCam.set(exposure=sys.argv[1])
-        while True:
-            img = WebCam.getImage()
+        #WebCam.set(exposure=10)
+	WebCam.set(exposure=sys.argv[1])
+       	while True:
+            n+=1
+	    img = WebCam.getImage()
 	    cv2.imwrite("a.jpg", img)
-            ImageAnalysis.imageAnalysis(img)
+            ImageAnalysis.imageAnalysis(img, n)
         
     else:
         #img = cv2.imread("../../../vision_cv/TestImages/TEST0.jpg")
