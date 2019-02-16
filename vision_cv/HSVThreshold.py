@@ -11,9 +11,9 @@ class HSVPipeline:
         """initializes all values to presets or None if need to be set
         """
 
-        self.__hsv_threshold_hue = [66.36690647482014, 89.84719864176569] 
-        self.__hsv_threshold_saturation = [114.65827338129496, 255.0]
-        self.__hsv_threshold_value = [59.62230215827338, 255.0]
+        self.__hsv_threshold_hue = [50, 101] 
+        self.__hsv_threshold_saturation = [80, 255.0]
+        self.__hsv_threshold_value = [142, 218]
 
         self.hsv_threshold_output = None
 
