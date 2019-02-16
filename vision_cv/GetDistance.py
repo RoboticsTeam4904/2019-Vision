@@ -2,12 +2,16 @@ import numpy as np
 import math
 import cv2
 
+# GAMMA is the angle the camera is at (in radians) to the horizontal plane. An upwards-facing camera implies a positive GAMMA.
+
 #One Camera getDistance approach
-def getDistance(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=139.7, imageHeight=480):
+
+def getDistanceToWall(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0): # gamma default value should be tuned.
     #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     #Focal Length 3.67 mm
     #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     knownHeightPixels = box[3] #box[3] is part of the bounding
+    knownHeightMillimeters *= math.cos(gamma) #This gets the knownHeightMillimeters based on the angle of the camera
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
         distanceToObject = (focalLength * knownHeightMillimeters * imageHeight) / (knownHeightPixels * sensorHeight)
@@ -15,6 +19,21 @@ def getDistance(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters
     except: 
         return "CAN'T GET DISTANCE"
 
+def getDistanceToTape(box, beta, theta, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0):
+    #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
+    #Focal Length 3.67 mm
+    #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
+    knownHeightPixels = box[3] #box[3] is part of the bounding
+    knownHeightMillimeters *= math.cos(GAMMA) #This gets the knownHeightMillimeters based on the angle of the camera
+    # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
+    try:
+        distanceToWall = (focalLength * knownHeightMillimeters * imageHeight) / (knownHeightPixels * sensorHeight) #distanceToObject is the distance to the wall
+        final_distance = distanceToWall * math.cos(beta) / math.cos(beta+theta) #final_distance is the distance to the tape
+        return final_distance
+    except: 
+        return "CAN'T GET DISTANCE"
+        
+#TWO CAMERAS
 #Two camera getDistance approach
 # From this paper (http://dsc.ijs.si/files/papers/s101%20mrovlje.pdf), we can use the following formula:
 # D = (BX_0)/(2tan(phi0/2)(X_L-X_D))
@@ -34,5 +53,3 @@ def distance_finding(dual_image):
     locations = zip(locations[0], locations[1])
     distance = (DISTANCE_BETWEEN_CAMERAS*HORIZONTAL_PIXELS)/(2*math.tan(VIEWING_ANGLE/2)*(locations[1][0]-locations[0][0]))
     return distance
-
-#EDIT 
