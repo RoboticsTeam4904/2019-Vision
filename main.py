@@ -36,10 +36,10 @@ else:
 		img = WebCam.getImage()
 		angle = process(img)
 		if angle == -1000:
-			shuffleboard.putNumber('isThereTape?', 0)
-			sys.stdout.write("Tape not visible.")
-			shuffleboard.putNumber('angle', 0)
+			shuffleboard.putNumber('Is Floor Tape Visible?', 0)
+			sys.stdout.write("Tape is not visible.")
+			shuffleboard.putNumber('betaFloor', 0)
 		else:
-			shuffleboard.putNumber('isThereTape?', 1)
+			shuffleboard.putNumber('Is Floor Tape Visible?', 1)
 			sys.stdout.write("Angle:" + str(angle))
-			shuffleboard.putNumber('angle', angle)
+			shuffleboard.putNumber('betaFloor', angle)
