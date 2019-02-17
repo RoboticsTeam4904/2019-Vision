@@ -20,7 +20,7 @@ def process(image):
 				cv2.destroyAllWindows()
 			else:
 				cv2.imshow('processed', image)
-				cv2.waitKey(10)
+				cv2.waitKey(1)
 		return rectAngle
 	else:
 		return -1000
