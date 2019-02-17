@@ -47,4 +47,4 @@ def rectangle(contour, image, centroid):
 			img = cv2.line(image, (int(cx + math.cos(anglerad)*rectwidth/2), int(cy - math.sin(anglerad)*rectwidth/2)), (int(cx - math.cos(anglerad)*rectwidth/2), int(cy + math.sin(anglerad)*rectwidth/2)), (0,0,0), 8)
 		else:
 			img = cv2.line(image, (int(cx + math.cos(anglerad)*rectlength/2), int(cy - math.sin(anglerad)*rectlength/2)), (int(cx - math.cos(anglerad)*rectlength/2), int(cy + math.sin(anglerad)*rectlength/2)), (0,0,0), 8)
-	return rectwidth/2, angledeg
+	return angledeg

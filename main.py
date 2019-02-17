@@ -23,7 +23,7 @@ def process(image):
 				cv2.waitKey(10)
 		return rectAngle
 	else:
-		return (0, 0)
+		return -1000
 
 if config.test:
 	image = images.images[0]
@@ -33,9 +33,11 @@ else:
 	shuffleboard = NetworkTables.getTable('PID')
 	while True:
 		img = WebCam.getImage()
-		randomvariablebecausecaseywantsit = process(img)
-		distance = randomvariablebecausecaseywantsit[0]
-		angle = randomvariablebecausecaseywantsit[1]
+		rectAngle = process(img)
+		angle = rectAngle
+		if angle = -1000:
+			shuffleboard.putNumber('isThereTape?', 0)
+		else:
+			shuffleboard.putNumber('isThereTape?', 1)
 		print "Angle:" , angle
-		shuffleboard.putNumber('distance', distance)
 		shuffleboard.putNumber('angle', angle)
