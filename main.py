@@ -10,6 +10,7 @@ def process(image):
 	if config.display:
 		cv2.imshow('unprocessed', image)
 	contours = rungrip.getContours(image)
+	rectAngle = -1000
 	if len(contours) >= 1:
 		contour = rungrip.filterContours(image, contours)
 		centroid = rungrip.centroid(contour, image)
@@ -22,9 +23,7 @@ def process(image):
 			else:
 				cv2.imshow('processed', image)
 				cv2.waitKey(1)
-		return rectAngle
-	else:
-		return -1000
+	return rectAngle
 
 if config.test:
 	image = images.images[0]
@@ -37,7 +36,9 @@ else:
 		angle = process(img)
 		if angle == -1000:
 			shuffleboard.putNumber('isThereTape?', 0)
+			sys.stdout.write("Tape not visible.")
+			shuffleboard.putNumber('angle', 0)
 		else:
 			shuffleboard.putNumber('isThereTape?', 1)
-		sys.stdout.write("Angle:" + str(angle))
-		shuffleboard.putNumber('angle', angle)
+			sys.stdout.write("Angle:" + str(angle))
+			shuffleboard.putNumber('angle', angle)
