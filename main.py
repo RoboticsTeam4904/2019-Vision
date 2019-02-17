@@ -23,6 +23,7 @@ def process(image):
 			else:
 				cv2.imshow('processed', image)
 				cv2.waitKey(1)
+				cv2.destroyAllWindows()
 	return rectAngle
 
 if config.test:
