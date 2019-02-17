@@ -1,2 +1,0 @@
-display = True
-test = False
