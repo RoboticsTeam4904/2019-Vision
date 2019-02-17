@@ -45,7 +45,6 @@ def findContours(img):
     if(cv2.__version__[0] == "2"):
         contours, hierarchy = cv2.findContours(
             thresh, mode, method)  # im2 only in cv2 v3.x
-
     return thresh, contours, mask
 
 

@@ -16,12 +16,15 @@ def imageAnalysis(images, n=0):
     saveImage = False
     for img in range(0, len(images)):
         saveImage = False
-        if img == 1 or True:
+	rangeCount = img
+        if True:
             saveImage = True
         img = images[img]
-        if saveImage:
-            Printing.save(img, name="TEST" + str(n))
+#        if saveImage:
+#            Printing.save(img, name="TEST" + str(n//10) + "," + str(rangeCount))
         thresh, contours, mask = GetContours.getContours(img)
+#	if saveImage:
+#            Printing.save(img, name="TEST" + str(n//10) + "," + str(rangeCount))
         if len(contours) == 0:
             print("\t\t no contours")
             return None
@@ -73,8 +76,6 @@ def imageAnalysis(images, n=0):
             cv2.imshow("Image", img)
             cv2.imshow("Mask", mask)
             cv2.waitKey(0)
-        elif saveImage:
-            Printing.save(img, name="TEST" + str(n))
         AllBoxes.append(boxes)
     if(config.NUM_CAMERAS == 2):
         print(GetAngle.getBeta(AllBoxes))

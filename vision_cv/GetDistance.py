@@ -8,7 +8,7 @@ import cv2
 
 
 # gamma default value should be tuned.
-def getDistanceToWall(box, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0):
+def getDistanceToWall(box, sensorHeight=3.6, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0):
     # knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     # Focal Length 3.67 mm
     # knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
@@ -19,12 +19,12 @@ def getDistanceToWall(box, sensorHeight=2.95, focalLength=3.67, knownHeightMilli
     try:
         distanceToObject = (focalLength * knownHeightMillimeters *
                             imageHeight) / (knownHeightPixels * sensorHeight)
-        return distanceToObject
+        return 96185.4/float(knownHeightPixels)
     except:
         return "CAN'T GET DISTANCE"
 
 
-def getDistanceToTape(box, beta, theta, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0):
+def getDistanceToTape(box, beta, theta, sensorHeight=3.6, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0):
     # knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     # Focal Length 3.67 mm
     # knowHeightPixel is the pixel height of the vision tape which is constantly getting updated

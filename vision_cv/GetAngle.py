@@ -39,20 +39,22 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOf
 
 
 # distanceCameras is the distance between cameras
-def getBeta(AllBoxes, distanceCameras=673.1):
+def getBeta(AllBoxes, distanceCameras=279.4): #673.1
     boxes1 = AllBoxes[0]
     boxes2 = AllBoxes[1]
     distance1 = 0
     counter = 0
-    for i in boxes1:
-        distance1 += GetDistance.getDistanceToWall(i)
-        counter += 1
-    distance1 /= counter
+    for i in range(0,len(boxes1)):
+	box = boxes1[i]
+	print(box)
+        distance1 = GetDistance.getDistanceToWall(box)
+        print("\t \t \t \t DISTANCE TO WALL for CAMERA 1, TAPE " + str(i)  + ": " + str(distance1*.03937))
     distance2 = 0
     counter = 0
-    for i in boxes2:
-        distance2 += GetDistance.getDistanceToWall(i)
-        counter += 1
-    distance2 /= counter
-    beta = math.atan((distance2-distance1)/distanceCameras)
-    return beta/math.pi*180  # Converting beta into degrees.
+    for i in range(0,len(boxes2)):
+	box = boxes2[i]
+	print(box)
+        distance2 = GetDistance.getDistanceToWall(box)
+        print("\t \t \t \t DISTANCE TO WALL for CAMERA 2, TAPE " + str(i) + ": " + str(distance2*.03937))
+    beta = math.asin((distance2-distance1)/distanceCameras)
+    return "BETA, IN DEGREES: " + str(beta/math.pi * 180)  # Converting beta into degrees.
