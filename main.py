@@ -35,7 +35,7 @@ else:
 	while True:
 		img = WebCam.getImage()
 		angle = process(img)
-		if angle = -1000:
+		if angle == -1000:
 			shuffleboard.putNumber('isThereTape?', 0)
 		else:
 			shuffleboard.putNumber('isThereTape?', 1)
