@@ -4,6 +4,7 @@ import config
 import images
 from networktables import NetworkTables
 import WebCam
+import sys
 
 def process(image):
 	if config.display:
@@ -33,11 +34,10 @@ else:
 	shuffleboard = NetworkTables.getTable('PID')
 	while True:
 		img = WebCam.getImage()
-		rectAngle = process(img)
-		angle = rectAngle
+		angle = process(img)
 		if angle = -1000:
 			shuffleboard.putNumber('isThereTape?', 0)
 		else:
 			shuffleboard.putNumber('isThereTape?', 1)
-		print "Angle:" , angle
+		sys.stdout.write("Angle:" + str(angle))
 		shuffleboard.putNumber('angle', angle)
