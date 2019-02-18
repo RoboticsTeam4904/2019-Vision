@@ -13,8 +13,8 @@ if(__name__ == "__main__"):
         while True:
             frame_num += 1
             leftImage, rightImage = WebCam.getImages()
-            leftMeasurements = ImageAnalysis.imageAnalysis(leftImage)
-            rightMeasurements = ImageAnalysis.imageAnalysis(rightImage)
+            leftMeasurements = ImageAnalysis.imageAnalysis(leftImage) #leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
+            rightMeasurements = ImageAnalysis.imageAnalysis(rightImage) #rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
             print(type(leftMeasurements, rightMeasurements))
     else:
         # Taking an image from folder of TestImages
