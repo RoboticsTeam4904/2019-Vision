@@ -7,6 +7,8 @@
 double process(cv::Mat &image) {
     if (DEBUG) {
         cv::imshow("unprocessed", image);
+        cv::waitKey(20);
+        cv::destroyAllWindows();
     }
     std::vector<std::vector<cv::Point>> contours = RunGrip::getContours(image);
     if (contours.size()) {
