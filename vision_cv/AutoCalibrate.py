@@ -3,7 +3,7 @@ import GetContours
 import cv2
 import numpy as np
 import ScoringMetric
-import config
+import Constants
 import sys
 
 
@@ -43,3 +43,7 @@ def calibrate(port, minExposure, maxExposure, WEIGHTS):
         WebCam.set(exposure=sys.argv[1])
         return "Exposure tuning failed - No contours found!"
     return "Exposure: " + str(max_score_exposure)
+
+if(__name__ == "__main__"):
+    print("Camera 0: " + calibrate(0, Constants.MIN_EXPOSURE, Constants.MAX_EXPOSURE, Constants.WEIGHTS))
+    print("Camera 1: " + calibrate(1, Constants.MIN_EXPOSURE, Constants.MAX_EXPOSURE, Constants.WEIGHTS))

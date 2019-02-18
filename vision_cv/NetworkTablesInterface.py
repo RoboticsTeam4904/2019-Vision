@@ -1,10 +1,10 @@
 from networktables import NetworkTables
-import config 
+import Constants 
 
-NetworkTables.setTeam(config.team)
-NetworkTables.initialize(server=config.ip)
+NetworkTables.setTeam(Constants.team)
+NetworkTables.initialize(server=Constants.ip)
 table = NetworkTables.getTable("Vision")
-table.setUpdateRate(config.networkSpeed)
+table.setUpdateRate(Constants.networkSpeed)
 
 def send_data(isVisible=True, x, y, theta, beta, dist, frameNum):
     table.putBoolean("trustable", isVisible)
