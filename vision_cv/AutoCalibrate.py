@@ -38,9 +38,9 @@ def calibrate(port, minExposure, maxExposure, WEIGHTS):
             max_score_exposure = exposure
 
     if max_score_exposure != 0:
-        WebCam.set(exposure=max_score_exposure)
+        WebCam.set(port=port, exposure=max_score_exposure)
     else:
-        WebCam.set(exposure=sys.argv[1])
+        WebCam.set(port=port, exposure=sys.argv[1])
         return "Exposure tuning failed - No contours found!"
     return "Exposure: " + str(max_score_exposure)
 
