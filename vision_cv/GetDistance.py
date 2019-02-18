@@ -6,20 +6,17 @@ import cv2
 
 #One Camera getDistance approach
 
-def getDistanceToWall(heightPixels, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0): # gamma default value should be tuned.
+def getDistanceToWall(heightPixels, distanceConstant=96185.4, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0): # gamma default value should be tuned.
     #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     #Focal Length 3.67 mm
     #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     knownHeightMillimeters *= math.cos(gamma) #This gets the knownHeightMillimeters based on the angle of the camera
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
-        distanceToObject = (focalLength * knownHeightMillimeters * imageHeight) / (heightPixels * sensorHeight)
+        distanceToObject = ((focalLength * knownHeightMillimeters * imageHeight) / (distanceConstant/float(heightPixels) * sensorHeight) * 0.0393701)
         return distanceToObject
-    except:
-        return "CAN'T GET DISTANCE"
 
-
-def getDistanceToTape(box, beta, theta, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0):
+def getDistanceToTape(box, beta, theta, sensorHeight=3.6, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0):
     # knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     # Focal Length 3.67 mm
     # knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
@@ -33,7 +30,7 @@ def getDistanceToTape(box, beta, theta, sensorHeight=2.95, focalLength=3.67, kno
         distanceToWall = (focalLength * knownHeightMillimeters * imageHeight) / (
             knownHeightPixels * sensorHeight)  # distanceToObject is the distance to the wall
         # final_distance is the distance to the tape
-        final_distance = distanceToWall / math.cos(theta)
+        final_distance = (distanceToWall / math.cos(theta) * 0.0393701)
         return final_distance
     except:
         return "CAN'T GET DISTANCE"

@@ -27,7 +27,7 @@ def calibrate(port, minExposure, maxExposure, WEIGHTS):
             box = np.int0(box)
             boxes.append(box)
         scores = sorted([ScoringMetric.score(boxes[i], contours[i], img, WEIGHTS)[
-                        1] for i in range(0, len(contours))])
+                        1] for i in range(0, len(contours))], reverse=True)
         try:
             final_score = scores[0]+scores[1]-sum(scores[2:])
         except:
