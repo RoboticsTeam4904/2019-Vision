@@ -1,15 +1,15 @@
 #include <iostream>
 #include <vector>
 #include <opencv2/opencv.hpp>
-#include "config.h"
-#include "runGrip.h"
+#include "Config.h"
+#include "AngleFinder.h"
 
 double process(cv::Mat &mat) {
-    std::vector<std::vector<cv::Point>> contours = RunGrip::getContours(mat);
+    std::vector<std::vector<cv::Point>> contours = AngleFinder::getContours(mat);
     if (contours.size()) {
-        std::vector<cv::Point> contour = RunGrip::filterContours(contours);
-        cv::Point centroid = RunGrip::centroid(contour);
-        double rectAngle = RunGrip::rectangle(mat, contour, centroid);
+        std::vector<cv::Point> contour = AngleFinder::filterContours(contours);
+        cv::Point centroid = AngleFinder::centroid(contour);
+        double rectAngle = AngleFinder::rectangle(mat, contour, centroid);
         return rectAngle;
     }
     return -420;

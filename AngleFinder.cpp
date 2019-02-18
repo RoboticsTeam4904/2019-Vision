@@ -1,8 +1,8 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
-#include "config.h"
+#include "Config.h"
 #include "GripPipeline.h"
-#include "runGrip.h"
+#include "AngleFinder.h"
 
 std::vector<std::vector<cv::Point>> RunGrip::getContours(cv::Mat &mat) {
     grip::GripPipeline pipeline;
@@ -35,7 +35,7 @@ double RunGrip::rectangle(cv::Mat &mat, std::vector<cv::Point> &contour, cv::Poi
     double angle = 90 - rect.angle;  // in degrees
     if (angle > 90) angle -= 180;
     if (length > width) angle += 90;
-    if (DEBUG) {
+    if (Config::DEBUG) {
         cv::Point2f vertices[4];
         rect.points(vertices);
         for (int i = 0; i < 4; ++i) 
