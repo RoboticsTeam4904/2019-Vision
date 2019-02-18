@@ -37,8 +37,7 @@ def imageAnalysis(img):
 	boxes = boxes_filtered #Final contours for left and rightTape
 	leftBox, rightBox = selectBoxes(boxes) #leftBox is the left contour of the vision tape
 
-	rightDist, leftDist = None, None
-	
+	rightDist, leftDist = None, None #Making sure right and leftDist doesn't error
 	if leftBox != None:
 		leftBoxHeight = leftBox[0] - leftBox[2] #Finding height of the left vision tape
 		leftDist = GetDistance.getDistanceToWall(leftBoxHeight)	#Distance (d1) of camera to the wall 

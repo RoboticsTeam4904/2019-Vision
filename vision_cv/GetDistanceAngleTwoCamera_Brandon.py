@@ -1,11 +1,11 @@
 from __future__ import division
 import math
 
-between_cameras = 8.82600 # in (8.83)
-between_tapes = 4.50023 # in (4.50)
+between_cameras = 8.82600 # in inches
+between_tapes = 4.50023 # in inches 
 
 # ANGLES TO THE LEFT MUST BE POSITIVE, ANGLES TO THE RIGHT MUST BE NEGATIVE
-def get_theta_3t(theta_11, theta_12, theta_21, r=between_cameras, m=between_tapes): #Theta from the center of the robot to the center of the tape
+def get_theta_3t(theta_11, theta_12, theta_21, r=between_cameras, m=between_tapes): #Final Theta from the center of the robot to the center of the tape
     k_2 = (math.pi/2.0) - theta_21
     k_3 = math.pi - (math.pi/2.0 + theta_11) - k_2
     d_11 = r * (math.sin(k_2) / math.sin(k_3))
@@ -19,7 +19,6 @@ def get_theta_3t(theta_11, theta_12, theta_21, r=between_cameras, m=between_tape
     # If C is to the left, then we can use regular, else if C is to the right, then we should use 180-
     # IF CAB < CBA, then we use 180-arcsin. IF CAB > CBA, then we use regular arcsin.
     # CAB = theta_2, CBA = k_2
-
     theta_2 = math.pi - k_11 - k_6 
     theta_1 = theta_11 + (math.pi / 2.0)
     print("gt t1:", theta_1 * (180.0/math.pi))
