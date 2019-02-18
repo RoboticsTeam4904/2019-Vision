@@ -62,7 +62,7 @@ def imageAnalysis(img):
 		cv2.waitKey(0)
 	if config.save:
 		Printing.save(img)
-	return (isVisibleLeft, leftDist, leftTheta), (isVisibleRight, rightDist, rightTheta)
+	return (isVisibleLeft, leftDist, leftTheta), (isVisibleRight, rightDist, rightTheta) 
 
 def getBoxesAndScores(contours):
 	box_scores = []
