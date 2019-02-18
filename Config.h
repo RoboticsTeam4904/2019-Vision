@@ -1,3 +1,1 @@
-namespace Config {
-    #define DEBUG false
-}
+#define DEBUG false
