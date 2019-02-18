@@ -37,32 +37,36 @@ def imageAnalysis(img):
 
     box_scores = box_scores_filtered  # Final scores for each contour
     boxes = boxes_filtered  # Final contours for left and rightTape
-    # leftBox is the left contour of the vision tape
-    leftBox, rightBox = PairFinding.pairFinding(boxes)
-
-    rightDist, leftDist = None, None  # Making sure right and leftDist doesn't error
+    leftBox, rightBox = PairFinding.pairFinding(boxes) # leftBox is the left contour of the vision tape, rightBox is the right contour (tape) of the vision tape
+    
+    leftDistToWall, rightDistToWall = None, None  # Making sure leftDistToWall and rightDistToWall doesn't error
+    leftDistToTape, rightDistToTape = None, None  # Making sure leftDistToTape and  rightDistToTape doesn't error
+    
     if leftBox[0]:
         leftBox = leftBox[1]
-        # Finding height of the left vision tape
-        leftBoxHeight = leftBox[0] - leftBox[2]
+
+        leftBoxHeight = leftBox[0] - leftBox[2]  # Finding height of the left vision tape
+        leftTheta = GetAngle.getTheta(leftBox)
         leftDistToWall = GetDistance.getDistanceToWall(
             leftBoxHeight)  # Distance (d1) of camera to the wall
-        leftDistToTape = GetDistance.getDistanceToTape()
-        leftTheta = GetAngle.getTheta(leftBox)
-        print("LEFT DISTANCE TO WALL IN FEET: \t", (leftDistToWall/(25.4 * 12)))
-        print("LEFT DISTANCE TO TAPE IN FEET: \t", (leftDistToTape/(25.4 * 12)))
-        print("LEFT TAPE THETA:\t", (leftTheta))
+        leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
+        print("LEFT DISTANCE TO WALL IN INCHES: \t",
+              (leftDistToWall/(25.4)))
+        print("LEFT DISTANCE TO TAPE IN INCHES: \t",
+              (leftDistToTape/(25.4)))
+        print("TAPE OF LEFT THETA:\t", (leftTheta))
         isVisibleLeft = True
     if rightBox[0]:
         rightBox = rightBox[1]
+        rightTheta = GetAngle.getTheta(rightBox)
         # Finding height of the right vision tape
         rightBoxHeight = rightBox[0] - rightBox[2]
-        rightDistToWall = GetDistance.getDistanceToWall(
-            rightBoxHeight)  # Distance (d2) of camera to the wall
-        rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight)
-        rightTheta = GetAngle.getTheta(rightBox)
-        print("RIGHT DISTANCE TO WALL IN FEET:\t", (rightDistToWall/(25.4 * 12)))
-        print("RIGHT DISTANCE TO TAPE IN FEET: \t", (rightDistToTape/(25.4 * 12)))
+        rightDistToWall = GetDistance.getDistanceToWall(rightBoxHeight)  # Distance (d2) of camera to the wall
+        rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight, rightTheta)
+        print("RIGHT DISTANCE TO WALL IN INCHES:\t",
+              (rightDistToWall/(25.4 * 12)))
+        print("RIGHT DISTANCE TO TAPE IN INCHES: \t",
+              (rightDistToTape/(25.4 * 12)))
         print("RIGHT TAPE THETA:  \t", (rightTheta))
         isVisibleRight = True
     if not config.LiveImage:  # This is only run when we are not running from the TX2/linux device. When we running locallly from our laptop it will imshow details about the image

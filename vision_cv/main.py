@@ -7,7 +7,6 @@ import Constants
 import AutoCalibrate
 import GetAngle
 
-
 if(__name__ == "__main__"):
     if config.LiveImage:
         frame_num = 0
@@ -27,3 +26,4 @@ if(__name__ == "__main__"):
         # Taking an image from folder of TestImages
         img = cv2.imread("./TestImages/TEST149.jpg")
         ImageAnalysis.imageAnalysis(img)
+            print(type(leftMeasurements, rightMeasurements))

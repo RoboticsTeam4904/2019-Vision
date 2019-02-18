@@ -16,6 +16,7 @@ def finalDistanceTheta(theta1, theta2, leftCameraleftTape, cam2distance2):
 
     thetaFinal = math.atan(averageX/averageY)
     distanceFinal = math.sqrt((averageX^2) + (averageY^2))
+    
     return thetaFinal, distanceFinal
 
 def getXandY(dist, finalTheta, finalBeta):

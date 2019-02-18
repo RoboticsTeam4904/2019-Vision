@@ -9,6 +9,7 @@ import enum
 
 leftCamera = cv2.VideoCapture(Constants.LEFT_CAMERA_PORT)
 rightCamera = cv2.VideoCapture(Constants.RIGHT_CAMERA_PORT)
+
 cameras = [leftCamera, rightCamera]
 def getImages(): # This is for two camera
     leftImageFound, leftImage = leftCamera.read()
@@ -20,6 +21,7 @@ def getImages(): # This is for two camera
     return leftImage, rightImage # This returns what the left and right cameras are reading from the webcam
 
 def set(port=0, resolution=False, exposure=False, gain=False, contrast=False): #set's exposure 
+
     settingStr = "/usr/bin/v4l2-ctl -d /dev/video" + str(port)
     if resolution:
         settingStr += " --set-fmt-video=width={},height={}".format(
@@ -41,3 +43,4 @@ def getImage(port): #This is for taking a testing image from a camera
 
     return image
 # This function sets the exposure. LINUX ONLY
+
