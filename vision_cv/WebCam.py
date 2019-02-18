@@ -3,29 +3,26 @@ import subprocess
 import numpy as np
 from PIL import Image
 import config
+import Constants
 import GetImage
+import enum
 
-cameras = []
-for PORT in config.CAMERA_PORTS:
-    cameras.append(cv2.VideoCapture(PORT))
+leftCamera = cv2.VideoCapture(Constants.LEFT_CAMERA_PORT)
+rightCamera = cv2.VideoCapture(Constants.RIGHT_CAMERA_PORT)
 
 def getImages():
-    images = []
-    for camera in cameras:
-        retval, image = camera.read()
-        if(not retval):
-            raise Exception("Image reading failed for one camera")
-        images.append(image)
-
-    return images
-
-
-def getImage(port):
-    camera = cameras[port]
+    leftImageFound, leftImage = leftCamera.read()
+    rightImageFound, rightImage = rightCamera.read()
+    if(not leftImageFound):
+        raise Exception("Image reading failed for LEFT CAMERA {}".format(leftCamera))
+    if(not rightImageFound):
+        raise Exception("Image reading failed for RIGHT CAMERA {}".format(rightCamera))
+    return leftImage, rightImage #This returns what the left and right cameras are reading from the webcam
+    
+def getImage(camera=0):
     retval, image = camera.read()
     if(not retval):
-        raise Exception("Image reading failed for one camera")
-
+        raise Exception("Image reading failed for camera {}".format(camera))
     return image
 
 # This function sets the exposure. LINUX ONLY

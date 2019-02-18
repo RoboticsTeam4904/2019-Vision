@@ -1,13 +1,14 @@
 import math
 import cv2
 import numpy as np
+import Constants
 
 
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
 
-def score(box, contour, image, weights):
+def score(box, contour, weights):
     total_score = 0
     # Sorts box from top to bottom scores
     box = sorted(box, key=lambda x: x[1])[::-1]
@@ -26,7 +27,7 @@ def score(box, contour, image, weights):
     total_score += score_area_ratio(dimension, points) * weights["area"]
     total_score += scoring_rotation_angle(
         right, bottom, weights["rotation_angle_infunc"]) * weights["rotation_angle_outfunc"]
-    total_score += filled_value(contour, box, image) * \
+    total_score += filled_value(contour, box) * \
         weights["contour_area_values"]
     return points, total_score
 
@@ -84,9 +85,10 @@ def slope(point1, point2):
     return math.atan(m)
 
 
-def filled_value(contour, box, image):
+def filled_value(contour, box):
     # This is to remove the RGB axis
-    z_img = np.zeros(shape=(image.shape[0], image.shape[1]))
+
+    z_img = np.zeros(shape=Constants.resolution)
     box[3], box[2] = box[2], box[3]
     box = box[::-1]
     box = np.array(box)
