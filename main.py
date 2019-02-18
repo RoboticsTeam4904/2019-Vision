@@ -38,8 +38,8 @@ else:
 		if angle == -1000:
 			shuffleboard.putNumber('Is Floor Tape Visible?', 0)
 			sys.stdout.write("Tape is not visible.")
-			shuffleboard.putNumber('betaFloor', 0)
+			shuffleboard.putNumber('Floor Beta', angle)
 		else:
 			shuffleboard.putNumber('Is Floor Tape Visible?', 1)
 			sys.stdout.write("Angle:" + str(angle))
-			shuffleboard.putNumber('betaFloor', angle)
+			shuffleboard.putNumber('Floor Beta', angle)
