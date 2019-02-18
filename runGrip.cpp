@@ -1,12 +1,12 @@
-#include "runGrip.h"
-#include <opencv2/opencv.hpp>
 #include <vector>
-#include "GripPipeline.h"
+#include <opencv2/opencv.hpp>
 #include "config.h"
+#include "GripPipeline.h"
+#include "runGrip.h"
 
-std::vector<std::vector<cv::Point>> RunGrip::getContours(cv::Mat &image) {
+std::vector<std::vector<cv::Point>> RunGrip::getContours(cv::Mat &mat) {
     grip::GripPipeline pipeline;
-    pipeline.Process(image);
+    pipeline.Process(mat);
     return *pipeline.GetFilterContoursOutput();
 }
 
@@ -28,12 +28,15 @@ cv::Point RunGrip::centroid(std::vector<cv::Point> &contour) {
     return cv::Point(m.m10 / m.m00, m.m01 / m.m00);
 }
 
-double RunGrip::rectangle(std::vector<cv::Point> &contour, cv::Point &centroid) {
+double RunGrip::rectangle(cv::Mat &mat, std::vector<cv::Point> &contour, cv::Point &centroid) {
     cv::RotatedRect rect = cv::minAreaRect(contour);
     double width = rect.size.width;
     double length = rect.size.height;
     double angle = 90 - rect.angle;  // in degrees
     if (angle > 90) angle -= 180;
     if (length > width) angle += 90;
+    if (DEBUG) {
+        cv::drawContours(mat, std::vector<cv::RotatedRect> {rect}, 0, cv::Scalar(25, 25,  245), 8);
+    }
     return angle;
 }

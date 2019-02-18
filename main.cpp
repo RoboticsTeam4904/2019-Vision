@@ -1,20 +1,18 @@
 #include <iostream>
-#include <opencv2/opencv.hpp>
 #include <vector>
+#include <opencv2/opencv.hpp>
 #include "config.h"
 #include "runGrip.h"
 
-double process(cv::Mat &image) {
+double process(cv::Mat &mat) {
     if (DEBUG) {
-        cv::imshow("unprocessed", image);
-        cv::waitKey(20);
-        cv::destroyAllWindows();
+        cv::imshow("process", mat);
     }
-    std::vector<std::vector<cv::Point>> contours = RunGrip::getContours(image);
+    std::vector<std::vector<cv::Point>> contours = RunGrip::getContours(mat);
     if (contours.size()) {
         std::vector<cv::Point> contour = RunGrip::filterContours(contours);
         cv::Point centroid = RunGrip::centroid(contour);
-        double rectAngle = RunGrip::rectangle(contour, centroid);
+        double rectAngle = RunGrip::rectangle(mat, contour, centroid);
         return rectAngle;
     }
     return -420;
@@ -26,7 +24,6 @@ int main() {
     double angle;
     while (true) {
         if (camera.read(buf)) {
-            camera >> buf;
             angle = process(buf);
             std::cout << angle << std::endl;
         } else {
