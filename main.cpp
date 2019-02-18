@@ -5,9 +5,6 @@
 #include "runGrip.h"
 
 double process(cv::Mat &mat) {
-    if (DEBUG) {
-        cv::imshow("process", mat);
-    }
     std::vector<std::vector<cv::Point>> contours = RunGrip::getContours(mat);
     if (contours.size()) {
         std::vector<cv::Point> contour = RunGrip::filterContours(contours);

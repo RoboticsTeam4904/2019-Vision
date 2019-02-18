@@ -36,7 +36,12 @@ double RunGrip::rectangle(cv::Mat &mat, std::vector<cv::Point> &contour, cv::Poi
     if (angle > 90) angle -= 180;
     if (length > width) angle += 90;
     if (DEBUG) {
-        cv::drawContours(mat, std::vector<cv::RotatedRect> {rect}, 0, cv::Scalar(25, 25,  245), 8);
+        cv::Point2f vertices[4];
+        rect.points(vertices);
+        for (int i = 0; i < 4; ++i) 
+            cv::line(mat, vertices[i], vertices[(i+1) % 4], cv::Scalar(25, 25, 245), 8);
+        cv::imshow("Countours Found", mat);
+        cv::waitKey(1);
     }
     return angle;
 }
