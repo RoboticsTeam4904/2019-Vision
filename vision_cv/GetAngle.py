@@ -43,13 +43,22 @@ def getBeta(AllBoxes, directions, distanceCameras=279.4):  # 673.1
     boxes1 = AllBoxes[0]
     boxes2 = AllBoxes[1]
     try:
-        distance00 = GetDistance.getDistanceToWall(boxes1[0]))
+        distance00 = GetDistance.getDistanceToWall(boxes1[0])
+    except:
+	pass
+
     try:
         distance01=GetDistance.getDistanceToWall(boxes1[1])
+    except:
+	pass
     try:
         distance10=GetDistance.getDistanceToWall(boxes2[0])
+    except:
+        pass
     try:
         distance11=GetDistance.getDistanceToWall(boxes2[1])
+    except:
+        pass
     if directions[0] == "BOTH":
         if directions[1] == "BOTH":
             distance1=(distance00 + distance10)/2
