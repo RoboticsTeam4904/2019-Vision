@@ -33,7 +33,7 @@ def getDistanceToTape(box, beta, theta, sensorHeight=2.95, focalLength=3.67, kno
         distanceToWall = (focalLength * knownHeightMillimeters * imageHeight) / (
             knownHeightPixels * sensorHeight)  # distanceToObject is the distance to the wall
         # final_distance is the distance to the tape
-        final_distance = distanceToWall * math.cos(beta) / math.cos(beta+theta)
+        final_distance = distanceToWall / math.cos(theta)
         return final_distance
     except:
         return "CAN'T GET DISTANCE"
