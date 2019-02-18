@@ -39,22 +39,43 @@ def getAngle(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOf
 
 
 # distanceCameras is the distance between cameras
-def getBeta(AllBoxes, distanceCameras=279.4): #673.1
+def getBeta(AllBoxes, directions, distanceCameras=279.4):  # 673.1
     boxes1 = AllBoxes[0]
     boxes2 = AllBoxes[1]
-    distance1 = 0
-    counter = 0
-    for i in range(0,len(boxes1)):
-	box = boxes1[i]
-	print(box)
-        distance1 = GetDistance.getDistanceToWall(box)
-        print("\t \t \t \t DISTANCE TO WALL for CAMERA 1, TAPE " + str(i)  + ": " + str(distance1*.03937))
-    distance2 = 0
-    counter = 0
-    for i in range(0,len(boxes2)):
-	box = boxes2[i]
-	print(box)
-        distance2 = GetDistance.getDistanceToWall(box)
-        print("\t \t \t \t DISTANCE TO WALL for CAMERA 2, TAPE " + str(i) + ": " + str(distance2*.03937))
-    beta = math.asin((distance2-distance1)/distanceCameras)
-    return "BETA, IN DEGREES: " + str(beta/math.pi * 180)  # Converting beta into degrees.
+    try:
+        distance00 = GetDistance.getDistanceToWall(boxes1[0]))
+    try:
+        distance01=GetDistance.getDistanceToWall(boxes1[1])
+    try:
+        distance10=GetDistance.getDistanceToWall(boxes2[0])
+    try:
+        distance11=GetDistance.getDistanceToWall(boxes2[1])
+    if directions[0] == "BOTH":
+        if directions[1] == "BOTH":
+            distance1=(distance00 + distance10)/2
+            distance2=(distance01 + distance11)/2
+        if directions[1] == "RIGHT":
+            distance1=distance00
+            distance2=(distance01 + distance10)/2
+        if directions[1] == "LEFT":
+            distance1=(distance00 + distance10)/2
+            distance2=distance01
+    if directions[1] == "BOTH":
+        if directions[0] == "RIGHT":
+            distance1=distance10
+            distance2=(distance00 + distance11)/2
+        if directions[1] == "LEFT":
+            distance1=(distance00 + distance10)/2
+            distance2=distance11
+    if directions[0] == "LEFT" and directions[1] == "RIGHT":
+        distance1=distance00
+        distance2=distance10
+    if directions[0] == "RIGHT" and directions[1] == "LEFT":
+        distance1=distance10
+        distance2=distance00
+    print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(distance1*.03937))
+
+    print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(distance2*.03937))
+    beta=math.asin((distance2-distance1)/distanceCameras)
+    # Converting beta into degrees.
+    return "BETA, IN DEGREES: " + str(beta/math.pi * 180)

@@ -9,6 +9,7 @@ cameras = []
 for PORT in config.CAMERA_PORTS:
     cameras.append(cv2.VideoCapture(PORT))
 
+
 def getImages():
     images = []
     for camera in cameras:
@@ -29,6 +30,8 @@ def getImage(port):
     return image
 
 # This function sets the exposure. LINUX ONLY
+
+
 def set(port=0, resolution=False, exposure=False, gain=False, contrast=False):
     settingStr = "/usr/bin/v4l2-ctl -d /dev/video" + str(port)
     if resolution:
