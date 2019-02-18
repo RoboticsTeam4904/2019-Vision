@@ -1,2 +1,5 @@
 .DS_Store
 vision_cv/*.pyc
+*.png
+*.jpg
+*.jpeg
