@@ -16,7 +16,7 @@ double AngleFinder::tapeAngle(cv::Mat &mat, grip::GripPipeline pipeline) {
     std::vector<std::vector<cv::Point>> contours = *pipeline.GetFilterContoursOutput();
 
     // If no tape is spotted in mat, die
-    return -420.0;
+    if (!contours.size()) return -420.0;
 
     // Get the largest contour in contours
     double area;
