@@ -4,27 +4,30 @@ import WebCam
 import ImageAnalysis
 import config
 import Constants
-import TwoCameraMeasurementConsolidation
+import TwoCameraMeasurement
 import GetAngle
+import Printing
+import NetworkTablesInterface
 
 
 def twoCameras(left_image, right_image, frame_num):
-    leftMeasurements = ImageAnalysis.imageAnalysis(leftImage) # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
-    rightMeasurements = ImageAnalysis.imageAnalysis(rightImage) # rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
+    leftMeasurements = ImageAnalysis.imageAnalysis(left_image) # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
+    rightMeasurements = ImageAnalysis.imageAnalysis(right_image) # rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
     if config.save: # Save images with objects drawn in
-        Printing.savePair(leftImage, rightImage, drawn=True)
+        Printing.savePair(left_image, right_image, drawn=True)
 
-    if not leftMeasurements[0] and not rightMeasurements[0]:
-        isVisible = False 
-        return
+    if (not leftMeasurements[0][0] and not rightMeasurements[0][0]) or (not leftMeasurements[1][0] and not rightMeasurements[1][0]): # Make sure we have a measurement for each tape
+        isVisible = False
+        return 0
     beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2], rightMeasurements[1][0:2]) #Get's beta
-
+    if(not leftMeasurements[0][0] and not rightMeasurements[1][0]): # Make sure we have D1,1 and D2,2
+        return 0
     #Get's final theta and distance from center of the tape to center of the robot
-    finalTheta, finalDistance = TwoCameraMeasurementConsolidation.finalDistanceTheta(leftMeasurements[0][3], 
+    finalTheta, finalDistance = TwoCameraMeasurement.finalDistanceTheta(leftMeasurements[0][3], 
             rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2]) 
 
     if beta:
-        x, y = TwoCameraMeasurementConsolidation.getXandY(finalTheta, finalDistance, beta) #returns x and y coordinate from center of tape to center of robot
+        x, y = TwoCameraMeasurement.getXandY(finalTheta, finalDistance, beta) #returns x and y coordinate from center of tape to center of robot
         print(x,y)
     else:
         x, y = 0, 0
@@ -50,5 +53,5 @@ if __name__ == "__main__":
     else:
         # Taking images from folder of TestImages
         left_image, right_image = cv2.imread("./TestImages/TEST149.jpg"), cv2.imread("./TestImages/TEST150.jpg")
-        two_camera_main(left_image, right_image, 0)
+        twoCameras(left_image, right_image, 0)
 
