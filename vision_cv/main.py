@@ -6,7 +6,7 @@ import Constants
 import AutoCalibrate
 import GetAngle
 import time
-import TwoCameraMeasurementConsolidation
+import TwoCameraMeasurement
 import WebCam
 #import NetworkTablesInterface
 
@@ -36,14 +36,14 @@ if(__name__ == "__main__"):
                 continue
             # Get's final theta and distance from center of the tape to center of the robot
             if(leftMeasurements[0] or rightMeasurements[0]):
-                finalTheta, finalDistance = TwoCameraMeasurementConsolidation.finalDistanceTheta(leftMeasurements[0][3],
-                                                                                                 rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2])
+                finalTheta, finalDistance = TwoCameraMeasurement.finalDistanceTheta(leftMeasurements[0][3],
+                rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2])
                 if not beta:
                     x, y = 0, 0
                     print ("\t \t \t UNABLE TO FIND BETA")
 
                 else:
-                    x, y = TwoCameraMeasurementConsolidation.getXandY(
+                    x, y = TwoCameraMeasurement.getXandY(
                         finalTheta, finalDistance, beta)
                     print("X COORDINATE", x)
                     print("Y COORDINATE", y)
