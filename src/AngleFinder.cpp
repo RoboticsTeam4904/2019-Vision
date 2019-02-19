@@ -30,10 +30,6 @@ double AngleFinder::tapeAngle(cv::Mat &mat, grip::GripPipeline pipeline) {
         }
     }
 
-    // Get the center of contour
-    cv::Moments m = cv::moments(contour);
-    cv::Point center(m.m10 / m.m00, m.m01 / m.m00);
-
     // Get the angle of the contour's rectangle IN DEGREES
     cv::RotatedRect rect = cv::minAreaRect(contour);
     double width = rect.size.width;
