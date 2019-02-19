@@ -23,14 +23,16 @@ if(__name__ == "__main__"):
             leftImage, rightImage = WebCam.getImages()
             leftMeasurements = ImageAnalysis.imageAnalysis(leftImage) #leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
             rightMeasurements = ImageAnalysis.imageAnalysis(rightImage) #rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
-            if not leftMeasurements[0] and not rightMeasurements[0]:
+            """if not leftMeasurements[0] and not rightMeasurements[0]:
                 isVisible = False 
-                continue
+                continue"""
+	    print(leftMeasurements, rightMeasurements)
             beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2], rightMeasurements[1][0:2]) #Get's beta
-            
+	    print("THIS IS BETA", beta)
+	    print(rightMeasurements)            
             #Get's final theta and distance from center of the tape to center of the robot
             finalTheta, finalDistance = TwoCameraMeasurementConsolidation.finalDistanceTheta(leftMeasurements[0][3], 
-                    rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2]) 
+	        rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2]) 
                     
             if beta:
                 x, y = TwoCameraMeasurementConsolidation.getXandY(finalTheta, finalDistance, beta) #returns x and y coordinate from center of tape to center of robot

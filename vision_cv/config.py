@@ -3,7 +3,7 @@ import numpy as np
 
 # Image Capture Settings
 NUM_CAMERAS = 2
-LiveImage = False # Setting LiveImage to True means code will run from two cameras and if set to False will run on jpg
+LiveImage = True # Setting LiveImage to True means code will run from two cameras and if set to False will run on jpg
 
 # Contour Finding Settings
 MIN_AREA = 50

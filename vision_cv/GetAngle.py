@@ -3,11 +3,8 @@ import cv2
 import GetDistance
 
 # Perfect width and height describe the pixel width and height when at the vertical offset and looking straight at the tape. This facilitates angle calculations.
-def getTheta(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOfVision=1.229, imageWidth=640, GAMMA=0):
-    perfectHeight = perfectHeight * math.cos(GAMMA)
+def getTheta(box, fieldOfVision=1.229, imageWidth=640):
     # Perfect ratio is the perfect width divided by the perfect height
-    perfectRatio = perfectWidth/perfectHeight
-    perfectRatio = .589
     top = box[0]
     left = box[1]
     bottom = box[2]
@@ -25,7 +22,7 @@ def getTheta(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOf
     return theta
 
 # distanceCameras is the distance between cameras
-def getBeta(Camera1LeftTape, Camera1RightTape, Camera2LeftTape, Camera2RightTape, distanceTapes=279.4): # The distance between the two tapes
+def getBeta(Camera1LeftTape, Camera2LeftTape, Camera1RightTape, Camera2RightTape, distanceTapes=279.4): # The distance between the two tapes
     distance1 = 0
     distance2 = 0
     

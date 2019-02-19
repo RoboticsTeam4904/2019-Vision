@@ -48,12 +48,12 @@ def imageAnalysis(img): #Takes in one image
         leftTheta = GetAngle.getTheta(leftBox)
         leftDistToWall = GetDistance.getDistanceToWall(leftBoxHeight)  # Distance (d1) of camera to the wall
         leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
-        print("LEFT DISTANCE TO WALL IN INCHES: "+
+        """print("LEFT DISTANCE TO WALL IN INCHES: "+
               str(leftDistToWall))
         print("LEFT DISTANCE TO TAPE IN INCHES: "+
               str(leftDistToTape))
         print("TAPE OF LEFT THETA: " +  str(leftTheta/math.pi * 180))
-        isVisibleLeft = True
+        isVisibleLeft = True"""
 
     if rightBox[0]:
         rightBox = rightBox[1] 
@@ -61,11 +61,11 @@ def imageAnalysis(img): #Takes in one image
         rightBoxHeight = rightBox[0][1] - rightBox[2][1]
         rightDistToWall = GetDistance.getDistanceToWall(rightBoxHeight)  # Distance (d2) of camera to the wall
         rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight, rightTheta)
-        print("RIGHT DISTANCE TO WALL IN INCHES: "+
+        """print("RIGHT DISTANCE TO WALL IN INCHES: "+
               str(rightDistToWall))
         print("RIGHT DISTANCE TO TAPE IN INCHES: "+
               str(rightDistToTape))
-        print("RIGHT TAPE THETA: " + str(rightTheta/math.pi * 180))
+        print("RIGHT TAPE THETA: " + str(rightTheta/math.pi * 180))"""
         isVisibleRight = True
     if not config.LiveImage:  # This is only run when we are not running from the TX2/linux device. When we running locallly from our laptop it will imshow details about the image
         DrawImage.drawBoxes(box_scores, mask)
@@ -73,10 +73,12 @@ def imageAnalysis(img): #Takes in one image
     if config.save:
         Printing.save(img)
     if not isVisibleLeft:
+	print(isVisibleRight)
         return (False, 0, 0,  0), (isVisibleRight, rightDistToWall, rightDistToTape, rightTheta)
     if not isVisibleRight:
+	print(isVisibleLeft)
         return (isVisibleLeft, leftDistToWall, leftDistToTape,  leftTheta), (False, 0, 0, 0)
-
+    return (isVisibleLeft, leftDistToWall, leftDistToTape, leftTheta), (isVisibleRight, rightDistToWall, rightDistToTape, rightTheta)
 def getBoxesAndScores(contours):
     box_scores = []
     boxes = []

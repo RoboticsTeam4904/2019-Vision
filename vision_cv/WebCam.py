@@ -5,7 +5,6 @@ from PIL import Image
 import config
 import Constants
 import GetImage
-import enum
 
 leftCamera = cv2.VideoCapture(Constants.LEFT_CAMERA_PORT)
 rightCamera = cv2.VideoCapture(Constants.RIGHT_CAMERA_PORT)
