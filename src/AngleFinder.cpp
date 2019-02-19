@@ -8,7 +8,7 @@
  * Takes in an image (mat) and pipeline
  * The pipeline should find contours of tapes in the image
  * returns the angle of a line of tape in the image
- * If there is no image, it returns -420.0
+ * If there is no tape in the image, it returns -420.0
  */ 
 double AngleFinder::tapeAngle(cv::Mat &mat, grip::GripPipeline pipeline) {
     // Find the contours in mat
