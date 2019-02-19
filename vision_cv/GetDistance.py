@@ -27,7 +27,7 @@ def getDistanceToTape(heightPixels, theta, distanceConstant=96185.4, gamma=0):
     try:
         distanceToWall = distanceConstant/heightPixels #distanceConstant
         # final_distance is the distance to the tape
-        final_distance = (distanceToWall / math.cos(theta) * 0.0393701)
+        final_distance = (distanceToWall / math.cos(theta) * 0.0393701) #converting final_distance in terms of inches
         return final_distance
     except:
         return "CAN'T GET DISTANCE"

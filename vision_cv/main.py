@@ -8,6 +8,7 @@ import GetAngle
 import time
 import TwoCameraMeasurementConsolidation
 import WebCam
+#import NetworkTablesInterface
 
 start_time = time.time()
 if(__name__ == "__main__"):
@@ -23,6 +24,7 @@ if(__name__ == "__main__"):
             leftMeasurements = ImageAnalysis.imageAnalysis(leftImage) #leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
             rightMeasurements = ImageAnalysis.imageAnalysis(rightImage) #rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
             if not leftMeasurements[0] and not rightMeasurements[0]:
+                isVisible = False 
                 continue
             beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2], rightMeasurements[1][0:2]) #Get's beta
             
@@ -37,10 +39,14 @@ if(__name__ == "__main__"):
                 x, y = 0, 0
                 print ("CAN'T PASS IN BETA OR FINAL DISTANCE AND THETA")
             #finalTheta finalDistance is the final theta and distance from the center of the robot to the center of the tape.
+            
+            #NetworkTablesInterface.send_data(x, y, finalTheta, beta, finalDistance, frame_num)
             print("FINAL THETA: " +  str(finalTheta))
             print("FINAL DISTANCE: " + str(finalDistance))
     else:
         # Taking an image from folder of TestImages
-        img = cv2.imread("./TestImages/TEST0.jpg")
+        img = cv2.imread("./a.png")
+        #img = cv2.imread("./TestImages/TEST0.jpg")
         ImageAnalysis.imageAnalysis(img)
+        print("START TIME: " + str(start_time))
         print("FPS: " + str(1/(time.time()-start_time)))

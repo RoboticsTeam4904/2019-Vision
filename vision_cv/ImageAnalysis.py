@@ -37,8 +37,8 @@ def imageAnalysis(img): #Takes in one image
     box_scores = box_scores_filtered  # Final scores for each contour
     boxes = boxes_filtered  # Final contours for left and rightTape
     leftBox, rightBox = PairFinding.pairFinding(boxes) # leftBox is the left contour of the vision tape, rightBox is the right contour (tape) of the vision tape
-    isVisibleLeft = leftBox[0]
-    isVisibleRight = rightBox[0]
+    isVisibleLeft = True
+    isVisibleRight = True
     leftDistToWall, rightDistToWall = None, None  # Making sure leftDistToWall and rightDistToWall doesn't error
     leftDistToTape, rightDistToTape = None, None  # Making sure leftDistToTape and  rightDistToTape doesn't error
 
