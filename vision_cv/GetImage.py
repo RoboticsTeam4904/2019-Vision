@@ -1,5 +1,6 @@
 import Printing
 import WebCam
+import cv2
 n = 0  # Counter variable
 
 

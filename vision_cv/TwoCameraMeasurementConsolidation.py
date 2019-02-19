@@ -1,7 +1,7 @@
 import math
 
 def finalDistanceTheta(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCamLeftTape, DistRightCamRightTape):
-    # left_x computes the x coordinate from distance and theta from the left camera to the left tape
+    # left_x computes the x coordinate from the distance and theta of the left camera to the left tape
     left_x = (DistLeftCamLeftTape  * math.sin(ThetaLeftCamLeftTape)) 
     # right_x computes the x coordinate from distance and theta from the right camera to the right tape
     right_x = (DistRightCamRightTape * math.sin(ThetaRightCamRightTape)) 

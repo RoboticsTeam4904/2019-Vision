@@ -1,11 +1,10 @@
 import WebCam
 import GetContours
-import cv2
 import numpy as np
 import ScoringMetric
 import Constants
 import sys
-
+import cv2
 
 def calibrate(port, minExposure, maxExposure, WEIGHTS):
     boxes = []

@@ -1,7 +1,6 @@
 import numpy as np
 import math
 import cv2
-
 # GAMMA is the angle the camera is at (in radians) to the horizontal plane. An upwards-facing camera implies a positive GAMMA.
 
 #One Camera getDistance approach
@@ -14,7 +13,7 @@ def getDistanceToWall(heightPixels, distanceConstant=96185.4, gamma=0): # gamma 
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
         distanceToObject = distanceConstant/heightPixels
-        return distanceToObject
+        return distanceToObject* 0.0393701
     except:
         return "CAN'T GET DISTANCE"
 

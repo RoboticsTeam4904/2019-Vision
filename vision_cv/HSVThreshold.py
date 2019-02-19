@@ -1,6 +1,6 @@
-import cv2
 import numpy
 import math
+import cv2
 
 
 class HSVPipeline:

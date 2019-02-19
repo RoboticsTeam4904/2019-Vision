@@ -1,8 +1,8 @@
-import cv2
 import HSVThreshold
 import main
 import numpy as np
 import Constants
+import cv2
 
 
 def detect(c):

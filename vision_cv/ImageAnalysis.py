@@ -1,18 +1,18 @@
 import cv2
 import GetContours
-import numpy as np
 import ScoringMetric
 import config
 import Constants
+import numpy as np
 import Printing
 import main
 import DrawImage
 import PairFinding
 import GetDistance
 import GetAngle
+import math
 
-
-def imageAnalysis(img):
+def imageAnalysis(img): #Takes in one image 
     thresh, contours, mask = GetContours.getContours(img)
     if len(contours) == 0:
         isVisibleLeft = False
@@ -21,7 +21,6 @@ def imageAnalysis(img):
         return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0)
     boxes, box_scores = getBoxesAndScores(contours)
     # Now we draw boxes;
-    box_scores = sorted(box_scores, key=lambda x: x[1])[::-1]
     box_scores_filtered = []  # This is an empty array which appends all the box_scores
     boxes_filtered = []  # This is an empty array which appends all the contours
     for elem in box_scores:
@@ -33,52 +32,52 @@ def imageAnalysis(img):
         isVisibleLeft = False
         isVisibleRight = False
         print("No contours found after filtering")
-        return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0)
+        return (isVisibleLeft, 0, 0, 0), (isVisibleRight, 0, 0, 0)
 
     box_scores = box_scores_filtered  # Final scores for each contour
     boxes = boxes_filtered  # Final contours for left and rightTape
     leftBox, rightBox = PairFinding.pairFinding(boxes) # leftBox is the left contour of the vision tape, rightBox is the right contour (tape) of the vision tape
-    
+    isVisibleLeft = leftBox[0]
+    isVisibleRight = rightBox[0]
     leftDistToWall, rightDistToWall = None, None  # Making sure leftDistToWall and rightDistToWall doesn't error
     leftDistToTape, rightDistToTape = None, None  # Making sure leftDistToTape and  rightDistToTape doesn't error
-    
-    if leftBox[0]:
-        leftBox = leftBox[1]
 
-        leftBoxHeight = leftBox[0] - leftBox[2]  # Finding height of the left vision tape
+    if leftBox[0]: #leftBox[0] is the first element of contours from the filtered contours from boxes
+        leftBox = leftBox[1] 
+        leftBoxHeight = leftBox[0][1] - leftBox[2][1] # Finding height of the left vision tape
         leftTheta = GetAngle.getTheta(leftBox)
         leftDistToWall = GetDistance.getDistanceToWall(
             leftBoxHeight)  # Distance (d1) of camera to the wall
         leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
-        print("LEFT DISTANCE TO WALL IN INCHES: \t",
-              (leftDistToWall/(25.4)))
-        print("LEFT DISTANCE TO TAPE IN INCHES: \t",
-              (leftDistToTape/(25.4)))
-        print("TAPE OF LEFT THETA:\t", (leftTheta))
+        print("LEFT DISTANCE TO WALL IN INCHES: "+
+              str(leftDistToWall))
+        print("LEFT DISTANCE TO TAPE IN INCHES: "+
+              str(leftDistToTape))
+        print("TAPE OF LEFT THETA: " +  str(leftTheta/math.pi * 180))
         isVisibleLeft = True
+
     if rightBox[0]:
-        rightBox = rightBox[1]
+        rightBox = rightBox[1] 
         rightTheta = GetAngle.getTheta(rightBox)
         # Finding height of the right vision tape
-        rightBoxHeight = rightBox[0] - rightBox[2]
+        rightBoxHeight = rightBox[0][1] - rightBox[2][1]
         rightDistToWall = GetDistance.getDistanceToWall(rightBoxHeight)  # Distance (d2) of camera to the wall
         rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight, rightTheta)
-        print("RIGHT DISTANCE TO WALL IN INCHES:\t",
-              (rightDistToWall/(25.4 * 12)))
-        print("RIGHT DISTANCE TO TAPE IN INCHES: \t",
-              (rightDistToTape/(25.4 * 12)))
-        print("RIGHT TAPE THETA:  \t", (rightTheta))
+        print("RIGHT DISTANCE TO WALL IN INCHES: "+
+              str(rightDistToWall))
+        print("RIGHT DISTANCE TO TAPE IN INCHES: "+
+              str(rightDistToTape))
+        print("RIGHT TAPE THETA: " + str(rightTheta/math.pi * 180))
         isVisibleRight = True
     if not config.LiveImage:  # This is only run when we are not running from the TX2/linux device. When we running locallly from our laptop it will imshow details about the image
         DrawImage.drawBoxes(box_scores, mask)
-        cv2.imshow("Threshold", thresh)
-        cv2.imshow("Image", img)
-        cv2.imshow("Mask", mask)
-        cv2.waitKey(0)
+
     if config.save:
         Printing.save(img)
-    return (isVisibleLeft, leftDistToWall, leftDistToTape,  leftTheta), (isVisibleRight, rightDistToWall, rightDistToTape, rightTheta)
-
+    if not isVisibleLeft:
+        return (False, 0, 0,  0), (isVisibleRight, rightDistToWall, rightDistToTape, rightTheta)
+    if not isVisibleRight:
+        return (isVisibleLeft, leftDistToWall, leftDistToTape,  leftTheta), (False, 0, 0, 0)
 
 def getBoxesAndScores(contours):
     box_scores = []

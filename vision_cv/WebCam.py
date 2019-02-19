@@ -11,8 +11,8 @@ leftCamera = cv2.VideoCapture(Constants.LEFT_CAMERA_PORT)
 rightCamera = cv2.VideoCapture(Constants.RIGHT_CAMERA_PORT)
 
 def getImages(): # This is for two camera
-    leftImageFound, leftImage = leftCamera.read()
-    rightImageFound, rightImage = rightCamera.read()
+    leftImageFound, leftImage = leftCamera.read() #leftImageFound is if the left camera is able to read anything from the camera
+    rightImageFound, rightImage = rightCamera.read() #rightImageFound is if the left camera is able to read anything from the camera
     if(not leftImageFound):
         raise Exception("Image reading failed for LEFT CAMERA {}".format(Constants.LEFT_CAMERA_PORT))
     if(not rightImageFound):

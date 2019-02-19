@@ -1,5 +1,5 @@
-import math
 import cv2
+import math
 import numpy as np
 import Constants
 
@@ -87,15 +87,17 @@ def slope(point1, point2):
 
 def filled_value(contour, box):
     # This is to remove the RGB axis
-
-    z_img = np.zeros(shape=Constants.resolution)
+    max_x  = box[1][0]
+    max_y = box[0][1]
+    min_x = box[3][0]
+    min_y = box[2][1]
+    z_img = np.zeros(shape=(640, 480))
     box[3], box[2] = box[2], box[3]
     box = box[::-1]
     box = np.array(box)
 
     cv2.drawContours(z_img, [box], 0, color=128, thickness=-1)
     cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
-
     box_total = len(np.where(z_img == 128)[0])
     contour_total = len(np.where(z_img == 255)[0])
-    return float(contour_total)/float(contour_total+box_total+0.001)
+    return float(contour_total)/float(contour_total+box_total+.0001)

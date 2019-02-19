@@ -2,6 +2,7 @@ from ScoringMetric import findInsideAngle
 import ScoringMetric
 import math
 import numpy as np
+import cv2
 
 ANGLE_THRESHOLD = 0.3  # delta radians
 DISTANCE_THRESHOLD = float("inf")
