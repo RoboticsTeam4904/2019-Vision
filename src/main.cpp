@@ -4,6 +4,7 @@
 #include <vector>
 #include "AngleFinder.hpp"
 #include "Config.hpp"
+#include "GripPipeline.hpp"
 #include "networktables/NetworkTable.h"
 #include "networktables/NetworkTableEntry.h"
 #include "networktables/NetworkTableInstance.h"
