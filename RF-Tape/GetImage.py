@@ -1,15 +1,13 @@
-import Printing
-import WebCam
-n = 0  # Counter variable
-
+import WebCam, Printing
 
 def s():  # Take a picture from the webcam and save.
-    global n
-    image = WebCam.getImages()
-    n += 1
-    Printing.save(image[0], "THISISLEOTEST.jpg")
-    print(image[0])
+    left_image, right_image = WebCam.getImages()
+    Printing.save_pair(right_image, "test")
 
+def e(port=0, exposure=0.1): # Set exposure on LINUX ONLY.
+    WebCam.set(port=port, exposure=exposure)
 
-def e(portRead=0, expo=0.1):  # Set exposure on LINUX ONLY.
-    WebCam.set(port=portRead, exposure=expo)
+def d(): # Display images
+    left_image, right_image = WebCam.getImages()
+    Printing.display(left_image, "left")
+    Printing.display(left_image, "right")

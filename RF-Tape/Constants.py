@@ -21,7 +21,7 @@ VERTICES_RANGE =    (0, 1000000)
 RATIO_RANGE =       (0.2, 5)
 EXPOSURE_RANGE =    (1, 100)
 
-# \1EIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
+# WEIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
 WEIGHTS = {
     "hw_ratio": 5,
     "area": 1,
@@ -30,7 +30,7 @@ WEIGHTS = {
     "rotation_angle_outfunc": 1,
 }
 
-# \1hen filtering the image, the image should only choose "scores" above the threshold 
+# When filtering the image, the image should only choose "scores" above the threshold 
 MIN_THRESHOLD = 13
 
 # Camera settings

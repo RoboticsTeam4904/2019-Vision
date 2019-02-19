@@ -17,14 +17,14 @@ if config.save and config.save_in_folder:
 	os.makedirs(folder)
 
 # Colors for drawing on images
-rightColor, leftColor = (200, 50, 150), (150, 50, 200)
+right_color, left_color = (200, 50, 150), (150, 50, 200)
 white = (255,255,255)
 colors = [(255,255,0), (40, 40, 150), (50,50,255), (140,50,10), (100,50,200)]
 def getColor(color):
 	if type(color) == int:
 		return colors[color]
 	elif color == "random":
-		return (random.randint(40,255), random.randint(40,255), random.randint(40,255))
+		return (random.randint(40,210), random.randint(40,210), random.randint(40,210))
 	elif type(color) == list or type(color) == tuple:
 		assert len(color) == 3
 		return color
@@ -47,31 +47,25 @@ def display(image, name="Contours Found", doResize=True, delay=20):
 
 # Save image in folder. Increment number if previously saved with that name
 def save(image, name=default_name, drawn=False):
+	if drawn:
+		name += drawn_name
 	if name in image_counts:
 		name += str(image_counts[name])
 		image_counts[name] += 1
 	else:
 		image_counts[name] = 1
-	if drawn:
-		name += drawn_name
 	cv2.imwrite(folder + name + ".jpg", image)
 
 # Save right and left images in folder. Increment number if previously saved with that name
-def save_pair(left_img, right_img, name=default_name, drawn=False):
-	if name in image_counts:
-		name += str(image_counts[name])
-		image_counts[name] += 1
-	else:
-		image_counts[name] = 1
-	if drawn:
-		name += drawn_name
-	cv2.imwrite(folder + name + "_left" + ".jpg", left_img)
-	cv2.imwrite(folder + name + "_right" + ".jpg", right_img)
+def savePair(left_image, right_image, name=default_name, drawn=False):
+	save(left_image, name + "_left", drawn)
+	save(right_image, name + "_right", drawn)
 
 def draw(image, contours, filtered_boxes, left_box, right_box):
 	drawContours(image, contours=3)
-	drawBoxes(image, filtered_boxes, color=1)
-	drawBoxes()
+	drawBoxes(image, filtered_boxes, color="random")
+	drawBoxes(image, [left_box], color=left_color)
+	drawBoxes(image, [right_box], color=right_color)
 
 def drawBoxes(image, boxes, color="random"):
     for box in boxes:

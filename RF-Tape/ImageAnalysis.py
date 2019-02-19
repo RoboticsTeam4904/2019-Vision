@@ -27,9 +27,6 @@ def imageAnalysis(img):
 
 	leftBox, rightBox = selectBoxes(boxes_filtered) # leftBox is the left contour of the vision tape
 
-	if config.display or config.save:
-		Printing.draw(img, contours, filtered_boxes, leftBox, rightBox)
-
 	rightDist, leftDist = None, None # Making sure right and leftDist doesn't error
 	if leftBox != None:
 		leftBoxHeight = leftBox[0] - leftBox[2] # Finding height of the left vision tape
@@ -46,12 +43,17 @@ def imageAnalysis(img):
 		print("RIGHT TAPE THETA:  \t", (rightTheta))
 		isVisibleRight = True
 
-	if not config.live_image: # This is only run when we are not running from the TX2/linux device. When we running locallly from our laptop it will imshow details about the image
+	if config.display or config.save:
+		Printing.draw(img, contours, filtered_boxes, leftBox, rightBox)
+	if config.display: # This is only run when we are not running from the TX2/linux device. When we running locallly from our laptop it will imshow details about the image
 		cv2.imshow("Image", img)
 		cv2.imshow("Mask", mask)
 		cv2.waitKey(0)
 	if config.save:
 		Printing.save(img)
+		Printing.save(img, contours, filtered_boxes, leftBox, rightBox)
+
+
 	return (isVisibleLeft, leftDist, leftTheta), (isVisibleRight, rightDist, rightTheta) 
 
 def selectBoxes(boxes):
