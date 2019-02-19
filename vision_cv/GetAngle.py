@@ -38,13 +38,12 @@ def getBeta(Camera1LeftTape, Camera2LeftTape, Camera1RightTape, Camera2RightTape
     distance1 = distance1/2
     distance2 = distance2/2
     
-    if distance1 != None:
+    """if distance1 != None:
         print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(distance1))
     if distance2 != None:
-        print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(distance2))
+        print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(distance2))"""
     if distance1 + distance2>distanceTapes:
         return False # Protects against out of range asin errors
-   
     beta = math.asin((distance2-distance1)/distanceTapes) #This is the equation that calculates beta
     # Converting beta into degrees.
-    return beta/math.pi * 180
+    return beta

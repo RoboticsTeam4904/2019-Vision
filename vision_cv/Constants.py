@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-LEFT_CAMERA_PORT = 0
-RIGHT_CAMERA_PORT = 1
+LEFT_CAMERA_PORT = 1 
+RIGHT_CAMERA_PORT = 0
 
 # Contour Finding Settings
 MIN_AREA = 50
