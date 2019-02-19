@@ -11,8 +11,8 @@ import NetworkTablesInterface
 
 
 def twoCameras(left_image, right_image, frame_num):
-    leftMeasurements = ImageAnalysis.imageAnalysis(left_image) # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
-    rightMeasurements = ImageAnalysis.imageAnalysis(right_image) # rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
+    leftMeasurements = ImageAnalysis.imageAnalysis(left_image, Constants.LEFT_CAMERA_PORT) # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
+    rightMeasurements = ImageAnalysis.imageAnalysis(right_image, Constants.RIGHT_CAMERA_PORT) # rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
     if config.save: # Save images with objects drawn in
         Printing.savePair(left_image, right_image, drawn=True)
 
