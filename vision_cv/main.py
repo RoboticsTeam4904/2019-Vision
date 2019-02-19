@@ -38,6 +38,7 @@ if(__name__ == "__main__"):
             if(leftMeasurements[0] or rightMeasurements[0]):
                 finalTheta, finalDistance = TwoCameraMeasurementConsolidation.finalDistanceTheta(leftMeasurements[0][3],
                                                                                                  rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2])
+                                                                                                 #(isVisibleLeft, leftDistToWall, leftDistToTape, leftTheta), (isVisibleRight, rightDistToWall, rightDistToTape, rightTheta)
                 if not beta:
                     x, y = 0, 0
                     print ("\t \t \t UNABLE TO FIND BETA")

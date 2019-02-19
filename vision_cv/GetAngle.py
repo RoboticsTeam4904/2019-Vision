@@ -22,29 +22,36 @@ def getTheta(box, fieldOfVision=1.229, imageWidth=640):
     return theta
 
 # distanceCameras is the distance between cameras
-def getBeta(Camera1LeftTape, Camera2LeftTape, Camera1RightTape, Camera2RightTape, distanceTapes=279.4): # The distance between the two tapes
-    distance1 = 0
-    distance2 = 0
+def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTape, distanceTapes=11): # The distance between the two tapes
+    # d_l, d_r are distances to wall
+
+    if leftCamLeftTape[0] and rightCamLeftTape[0]:
+        d_l = (leftCamLeftTape[1] + rightCamLeftTape[1])/2
+    elif leftCamLeftTape[0]:
+        d_l = leftCamLeftTape[1]
+    elif leftCamLeftTape[1]:
+        d_l = rightCamLeftTape[1]
+    else:
+        print("Left tape not visible (for beta calc)")
+        return False
+
+    if leftCamRightTape[0] and rightCamRightTape[0]:
+        d_r = (leftCamRightTape[1] + rightCamRightTape[1])/2
+    elif leftCamRightTape[0]:
+        d_r = leftCamRightTape[1]
+    elif leftCamRightTape[1]:
+        d_r = rightCamRightTape[1]
+    else:
+        print("Right tape not visible (for beta calc)")
+        return False
+
     
-    if Camera1LeftTape[0]: # Takes in isVisible
-        distance1 += Camera1LeftTape[1]
-    if Camera2LeftTape[0]:
-        distance1 += Camera2LeftTape[1]
-    if Camera1RightTape[0]: #
-        distance2 += Camera1RightTape[1]
-    if Camera2RightTape[0]:
-        distance1 += Camera2RightTape[1]
-    
-    distance1 = distance1/2
-    distance2 = distance2/2
-    
-    if distance1 != None:
-        print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(distance1))
-    if distance2 != None:
-        print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(distance2))
-    if distance1 + distance2>distanceTapes:
+    print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(d_l))
+    print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(d_r))
+    if abs(d_l - d_r) > distanceTapes:
+        print("tape distances too far to be the same target")
         return False # Protects against out of range asin errors
    
-    beta = math.asin((distance2-distance1)/distanceTapes) #This is the equation that calculates beta
+    beta = math.asin((d_r-d_l)/distanceTapes) #This is the equation that calculates beta
     # Converting beta into degrees.
     return beta/math.pi * 180
