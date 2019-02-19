@@ -10,7 +10,7 @@ def getDistanceToWall(heightPixels, distanceConstant=96185.4, gamma=0): # gamma 
     #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     #Focal Length 3.67 mm
     #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
-    knownHeightMillimeters *= math.cos(gamma) #This gets the knownHeightMillimeters based on the angle of the camera
+    distanceConstant *= math.cos(gamma) #This gets the knownHeightMillimeters based on the angle of the camera
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
         distanceToObject = distanceConstant/heightPixels
@@ -23,7 +23,7 @@ def getDistanceToTape(heightPixels, theta, distanceConstant=96185.4, gamma=0):
     # Focal Length 3.67 mm
     # knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     # This gets the knownHeightMillimeters based on the angle of the camera
-    knownHeightMillimeters *= math.cos(gamma)
+    distanceConstant *= math.cos(gamma)
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
         distanceToWall = distanceConstant/heightPixels #distanceConstant
