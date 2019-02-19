@@ -5,19 +5,11 @@ import cv2
 
 # One Camera getDistance approach
 
-<<<<<<< HEAD:RF-Tape/GetDistance.py
-def getDistanceToWall(heightPixels, sensorHeight=2.95, focalLength=3.67, knownHeightMillimeters=147.96, imageHeight=480, gamma=0): # gamma default value should be tuned.
-    # KnownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
-    # Local Length 3.67 mm
-    # KnowHeightPixel is the pixel height of the vision tape which is constantly getting updated
-    knownHeightMillimeters *= math.cos(gamma) # This gets the knownHeightMillimeters based on the angle of the camera
-=======
 def getDistanceToWall(heightPixels, distanceConstant=96185.4, gamma=0): # gamma default value should be tuned.
     #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     #Focal Length 3.67 mm
     #knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
     distanceConstant *= math.cos(gamma) #This gets the knownHeightMillimeters based on the angle of the camera
->>>>>>> alignment-python:vision_cv/GetDistance.py
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)
     try:
         distanceToObject = distanceConstant/heightPixels
@@ -29,12 +21,6 @@ def getDistanceToTape(heightPixels, theta, distanceConstant=96185.4, gamma=0):
     # knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
     # Focal Length 3.67 mm
     # knowHeightPixel is the pixel height of the vision tape which is constantly getting updated
-<<<<<<< HEAD:RF-Tape/GetDistance.py
-
-    # KnownHeightPixels = box[3]  # box[3] is part of the bounding
-
-=======
->>>>>>> alignment-python:vision_cv/GetDistance.py
     # This gets the knownHeightMillimeters based on the angle of the camera
     distanceConstant *= math.cos(gamma)
     # print("KNOWN HEIGHT PIXELS", knownHeightPixels)

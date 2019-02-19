@@ -1,9 +1,5 @@
 import math
 
-<<<<<<< HEAD:RF-Tape/TwoCameraMeasurementConsolidation.py
-def twoCameraMeasurementConslidation(leftMeasurements, rightMeasurements):
-    # TODO implement 
-=======
 def finalDistanceTheta(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCamLeftTape, DistRightCamRightTape):
     # left_x computes the x coordinate from the distance and theta of the left camera to the left tape
     left_x = (DistLeftCamLeftTape  * math.sin(ThetaLeftCamLeftTape)) 
@@ -14,7 +10,6 @@ def finalDistanceTheta(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCam
     left_y = (DistLeftCamLeftTape * math.cos(ThetaLeftCamLeftTape))
     # right_y computes the y coordinate from distance and theta from the right camera to the right tape
     right_y = (DistRightCamRightTape * math.cos(ThetaRightCamRightTape))
->>>>>>> alignment-python:vision_cv/TwoCameraMeasurementConsolidation.py
 
     averageX = ((left_x + right_x)/2) #averageX is the x coordinate from the center of the tape to the center of the robot 
     averageY = ((left_y + right_y/2)) #averageY is the y coordinate from the center of the tape to the center of the robot 

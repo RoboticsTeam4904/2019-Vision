@@ -16,15 +16,9 @@ def getImages(): # This is for two camera
     if(not leftImageFound):
         raise Exception("Image reading failed for LEFT CAMERA {}".format(Constants.LEFT_CAMERA_PORT))
     if(not rightImageFound):
-<<<<<<< HEAD:RF-Tape/WebCam.py
-        raise Exception("Image reading failed for RIGHT CAMERA {}".format(rightCamera))
-    return leftImage, rightImage # This returns what the left and right cameras are reading from the webcam
-    
-=======
         raise Exception("Image reading failed for RIGHT CAMERA {}".format(Constants.RIGHT_CAMERA_PORT))
     return leftImage, rightImage # This returns what the left and right cameras are reading from the webcam
 
->>>>>>> alignment-python:vision_cv/WebCam.py
 def getImage(camera=0):
     retval, image = camera.read()
     if(not retval):

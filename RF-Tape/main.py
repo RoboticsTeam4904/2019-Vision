@@ -16,7 +16,7 @@ def twoCameras(left_image, right_image, frame_num):
 
     if not leftMeasurements[0] and not rightMeasurements[0]:
         isVisible = False 
-        continue
+        return
     beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2], rightMeasurements[1][0:2]) #Get's beta
     
     #Get's final theta and distance from center of the tape to center of the robot

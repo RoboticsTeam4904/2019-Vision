@@ -25,20 +25,8 @@ def getTheta(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOf
     return theta
 
 # distanceCameras is the distance between cameras
-<<<<<<< HEAD:RF-Tape/GetAngle.py
-def getBeta(AllBoxes, distanceCameras=673.1): # TODO fix distanceCameras constant, incorrect
-    boxes1 = AllBoxes[0]
-    boxes2 = AllBoxes[1]
-    distance1 = 0
-    counter = 0
-    for i in boxes1: # TODO what does this do?
-        distance1 += GetDistance.getDistanceToWall(i)
-        counter += 1
-    distance1 /= counter
-=======
 def getBeta(Camera1LeftTape, Camera1RightTape, Camera2LeftTape, Camera2RightTape, distanceTapes=279.4): # The distance between the two tapes
     distance1 = 0
->>>>>>> alignment-python:vision_cv/GetAngle.py
     distance2 = 0
     
     if Camera1LeftTape[0]: # Takes in isVisible
