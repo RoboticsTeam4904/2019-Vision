@@ -39,8 +39,6 @@ def checkLargestTape(box_list):
 
 
 def pairFinding(box_list):
-    global HEIGHT_THRESHOLD
-    global ANGLE_THRESHOLD
     largest_box, largest_height, largest_angle = checkLargestTape(box_list)
     best_match = False
     # We want to find if a match exists. It should have similar height and opposite angle.

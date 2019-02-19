@@ -1,5 +1,5 @@
-import cv2
 import math
+import cv2
 import numpy as np
 import Constants
 
@@ -7,6 +7,20 @@ import Constants
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
+def getBoxesAndScores(contours):
+	box_scores = []
+	boxes = []
+	for contour in contours:
+		rect = cv2.minAreaRect(contour)
+		if Constants.using_cv3:
+			box = cv2.boxPoints(rect)
+		else:
+			box = cv2.cv.BoxPoints(rect)
+		box = np.int0(box)
+		points, contour_score = score(box, contour, Constants.WEIGHTS)
+		boxes.append(points) # Array with all of the boxes with the format (t, r, b, l) for pair finding 
+		box_scores.append(contour_score)
+	return boxes, box_scores
 
 def score(box, contour, weights):
     total_score = 0
@@ -87,7 +101,8 @@ def slope(point1, point2):
 
 def filled_value(contour, box):
     # This is to remove the RGB axis
-    z_img = np.zeros(shape=(480, 640))
+
+    z_img = np.zeros(shape=Constants.resolution)
     box[3], box[2] = box[2], box[3]
     box = box[::-1]
     box = np.array(box)

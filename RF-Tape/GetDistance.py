@@ -3,7 +3,7 @@ import math
 import cv2
 # GAMMA is the angle the camera is at (in radians) to the horizontal plane. An upwards-facing camera implies a positive GAMMA.
 
-#One Camera getDistance approach
+# One Camera getDistance approach
 
 def getDistanceToWall(heightPixels, distanceConstant=96185.4, gamma=0): # gamma default value should be tuned.
     #knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
@@ -32,7 +32,7 @@ def getDistanceToTape(heightPixels, theta, distanceConstant=96185.4, gamma=0):
     except:
         return "CAN'T GET DISTANCE"
 
-#NOT USING RIGHT NOW
+# NOT USING RIGHT NOW
 def find_center_point(total_contour):
     x, y, w, h = cv2.boundingRect(total_contour)
     center_point = (x+(w/2), y+(h/2))
