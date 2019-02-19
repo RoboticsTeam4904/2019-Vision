@@ -1,4 +1,4 @@
-#include "GripPipeline.h"
+#include "GripPipeline.hpp"
 
 namespace grip {
 

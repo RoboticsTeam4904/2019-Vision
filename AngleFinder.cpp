@@ -1,8 +1,8 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
-#include "Config.h"
-#include "GripPipeline.h"
-#include "AngleFinder.h"
+#include "Config.hpp"
+#include "GripPipeline.hpp"
+#include "AngleFinder.hpp"
 
 /**
  * Takes in an image (mat) and pipeline

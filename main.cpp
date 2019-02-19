@@ -2,8 +2,8 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <vector>
-#include "AngleFinder.h"
-#include "Config.h"
+#include "AngleFinder.hpp"
+#include "Config.hpp"
 #include "networktables/NetworkTable.h"
 #include "networktables/NetworkTableEntry.h"
 #include "networktables/NetworkTableInstance.h"
