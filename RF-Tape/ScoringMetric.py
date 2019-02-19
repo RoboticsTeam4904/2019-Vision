@@ -11,38 +11,39 @@ def getBoxesAndScores(contours):
 	box_scores = []
 	boxes = []
 	for contour in contours:
-		rect = cv2.minAreaRect(contour)
+		points, contour_score = score(contour)
+		boxes.append(points) # Array with all of the boxes with the format (t, r, b, l) for pair finding 
+		box_scores.append(contour_score)
+	return boxes, box_scores
+
+def boxAndScore(contour):
+    # Get box (corners of bounding rotated rectangle)
+    rect = cv2.minAreaRect(contour)
 		if Constants.using_cv3:
 			box = cv2.boxPoints(rect)
 		else:
 			box = cv2.cv.BoxPoints(rect)
 		box = np.int0(box)
-		points, contour_score = score(box, contour, Constants.WEIGHTS)
-		boxes.append(points) # Array with all of the boxes with the format (t, r, b, l) for pair finding 
-		box_scores.append(contour_score)
-	return boxes, box_scores
-
-def score(box, contour, weights):
     total_score = 0
-    # Sorts box from top to bottom scores
-    box = sorted(box, key=lambda x: x[1])[::-1]
+    # Sorts box from top to bottom
+    box = sorted(box, key=lambda x: x[1])[::-1] # TODO: get order from box
     top = box[0]
     bottom = box[-1]
     box = sorted(box, key=lambda x: x[0])[::-1]
     left = box[0]
     right = box[-1]
-
     points = (top, right, bottom, left)
     if len(np.unique(np.array(points))) < 4:
         return points, -float("inf")
 
+    # Score TODO: combine with dot product?
     dimension = (dist2d(top, left), dist2d(top, right))  # Height, width tuple
-    total_score += score_side_ratio(dimension) * weights["hw_ratio"]
-    total_score += score_area_ratio(dimension, points) * weights["area"]
+    total_score += score_side_ratio(dimension) * Constants.WEIGHTS["hw_ratio"]
+    total_score += score_area_ratio(dimension, points) * Constants.WEIGHTS["area"]
     total_score += scoring_rotation_angle(
-        right, bottom, weights["rotation_angle_infunc"]) * weights["rotation_angle_outfunc"]
+        right, bottom) * Constants.WEIGHTS["rotation_angle_outfunc"]
     total_score += filled_value(contour, box) * \
-        weights["contour_area_values"]
+        Constants.WEIGHTS["contour_area_values"]
     return points, total_score
 
 
@@ -55,7 +56,7 @@ def score_side_ratio(dimension):
     try:
         # Witch of Agnesi curve.
         return max((1/(((h/w)-target_ratio)**2 + 1)), (1/(((w/h)-target_ratio)**2 + 1)))
-    except:
+    except: # TODO: Except specific exception
         return 0
 
 
@@ -74,8 +75,8 @@ def score_area_ratio(dimension, points):
 def scoring_rotation_angle(right, bottom, weight):
     angle = slope(right, bottom)
     angle = angle/math.pi*180
-    num = min(((14.5)-angle)**2, ((90-14.5)-angle)**2)
-    return -num/(num+weight)+1
+    dist = min(((14.5)-angle)**2, ((90-14.5)-angle)**2) # TODO: use variable for angle
+    return 1 - dist/(dist+Constants.WEIGHTS["rotation_angle_infunc"])
 
 
 def findInsideAngle(first, main, third):
@@ -91,7 +92,7 @@ def findInsideAngle(first, main, third):
     return abs(angle2-angle1)
 
 
-def slope(point1, point2):
+def slope(point1, point2): # TODO: Rename
     # Slope of two points in a contour
     point1 = [float(elem) for elem in point1]
     point2 = [float(elem) for elem in point2]
