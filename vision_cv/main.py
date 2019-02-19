@@ -45,7 +45,7 @@ if(__name__ == "__main__"):
             print("FINAL DISTANCE: " + str(finalDistance))
     else:
         # Taking an image from folder of TestImages
-        img = cv2.imread("./a.png")
+        img = cv2.imread("./x.jpg")
         #img = cv2.imread("./TestImages/TEST0.jpg")
         ImageAnalysis.imageAnalysis(img)
         print("START TIME: " + str(start_time))

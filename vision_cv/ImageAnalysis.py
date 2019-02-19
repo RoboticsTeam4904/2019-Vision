@@ -46,8 +46,7 @@ def imageAnalysis(img): #Takes in one image
         leftBox = leftBox[1] 
         leftBoxHeight = leftBox[0][1] - leftBox[2][1] # Finding height of the left vision tape
         leftTheta = GetAngle.getTheta(leftBox)
-        leftDistToWall = GetDistance.getDistanceToWall(
-            leftBoxHeight)  # Distance (d1) of camera to the wall
+        leftDistToWall = GetDistance.getDistanceToWall(leftBoxHeight)  # Distance (d1) of camera to the wall
         leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
         print("LEFT DISTANCE TO WALL IN INCHES: "+
               str(leftDistToWall))
@@ -59,7 +58,6 @@ def imageAnalysis(img): #Takes in one image
     if rightBox[0]:
         rightBox = rightBox[1] 
         rightTheta = GetAngle.getTheta(rightBox)
-        # Finding height of the right vision tape
         rightBoxHeight = rightBox[0][1] - rightBox[2][1]
         rightDistToWall = GetDistance.getDistanceToWall(rightBoxHeight)  # Distance (d2) of camera to the wall
         rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight, rightTheta)
