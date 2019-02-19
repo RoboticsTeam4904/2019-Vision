@@ -17,7 +17,7 @@ def getTheta(box, fieldOfVision=1.229, imageWidth=640):
     try:
         theta = math.atan(P1 * math.tan(fieldOfVision/2)/P2)
     except:
-        return width/(height*perfectRatio)
+        return 0
     # alpha = math.pi -beta + theta
     return theta
 

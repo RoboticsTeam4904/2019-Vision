@@ -1,6 +1,6 @@
 import cv2
 import Constants, config
-
+import Printing
 hsv_min = (Constants.HUE_RANGE[0], Constants.SAT_RANGE[0], Constants.VAL_RANGE[0])
 hsv_max = (Constants.HUE_RANGE[1], Constants.SAT_RANGE[1], Constants.VAL_RANGE[1])
 
@@ -31,9 +31,9 @@ def getContours(img): # input
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)  # Converts to hsv
     thresh = cv2.inRange(hsv, hsv_min, hsv_max) # Thresholds to a black and white numpy.ndarray
     if Constants.using_cv3: # im2 returned only in version 3.x
-        im2, contours, hierarchy = cv2.findContours(thresh, FIND_CONTOURS_MODE, cv2.CHAIN_APPROX_SIMPLE)
+        im2, contours, hierarchy = cv2.findContours(thresh, Constants.FIND_CONTOURS_MODE, cv2.CHAIN_APPROX_SIMPLE)
     else:
-        contours, hierarchy = cv2.findContours(thresh, FIND_CONTOURS_MODE, cv2.CHAIN_APPROX_SIMPLE)
+        contours, hierarchy = cv2.findContours(thresh, Constants.FIND_CONTOURS_MODE, cv2.CHAIN_APPROX_SIMPLE)
     filtered_contours = [contour for contour in contours if check_contour(contour)]
     if config.display and config.debug:
         Printing.display(thresh, "Threshold")
