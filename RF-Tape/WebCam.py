@@ -10,23 +10,29 @@ import enum
 leftCamera = cv2.VideoCapture(Constants.LEFT_CAMERA_PORT)
 rightCamera = cv2.VideoCapture(Constants.RIGHT_CAMERA_PORT)
 
-def getImages():
-    leftImageFound, leftImage = leftCamera.read()
-    rightImageFound, rightImage = rightCamera.read()
+def getImages(): # This is for two camera
+    leftImageFound, leftImage = leftCamera.read() #leftImageFound is if the left camera is able to read anything from the camera
+    rightImageFound, rightImage = rightCamera.read() #rightImageFound is if the left camera is able to read anything from the camera
     if(not leftImageFound):
-        raise Exception("Image reading failed for LEFT CAMERA {}".format(leftCamera))
+        raise Exception("Image reading failed for LEFT CAMERA {}".format(Constants.LEFT_CAMERA_PORT))
     if(not rightImageFound):
+<<<<<<< HEAD:RF-Tape/WebCam.py
         raise Exception("Image reading failed for RIGHT CAMERA {}".format(rightCamera))
     return leftImage, rightImage # This returns what the left and right cameras are reading from the webcam
     
+=======
+        raise Exception("Image reading failed for RIGHT CAMERA {}".format(Constants.RIGHT_CAMERA_PORT))
+    return leftImage, rightImage # This returns what the left and right cameras are reading from the webcam
+
+>>>>>>> alignment-python:vision_cv/WebCam.py
 def getImage(camera=0):
     retval, image = camera.read()
     if(not retval):
         raise Exception("Image reading failed for camera {}".format(camera))
     return image
+    
+def set(port=0, resolution=False, exposure=False, gain=False, contrast=False): #Set's exposure for Linux only 
 
-# This function sets the exposure. LINUX ONLY
-def set(port=0, resolution=False, exposure=False, gain=False, contrast=False):
     settingStr = "/usr/bin/v4l2-ctl -d /dev/video" + str(port)
     if resolution:
         settingStr += " --set-fmt-video=width={},height={}".format(
@@ -40,11 +46,11 @@ def set(port=0, resolution=False, exposure=False, gain=False, contrast=False):
         settingStr += " -c contrast={}".format(contrast)
     subprocess.call(settingStr, shell=True)
 
+"""def getImage(port): #This is for taking a testing image from a camera
+    camera = cameras[port]
+    retval, image = camera.read()
+    if(not retval):
+        raise Exception("Image reading failed for one camera")
+    return image"""
 
-def getExposure():  # LINUX ONLY
-    return int(subprocess.check_output("/usr/bin/v4l2-ctl -d /dev/video0 -C exposure_absolute", shell=True)[19:].strip())
 
-
-def getResolution():
-    resolution = getImage().shape
-    return resolution[1], resolution[0]

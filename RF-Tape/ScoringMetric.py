@@ -18,7 +18,7 @@ def getBoxesAndScores(contours):
 			box = cv2.cv.BoxPoints(rect)
 		box = np.int0(box)
 		points, contour_score = score(box, contour, Constants.WEIGHTS)
-		boxes.append(points) # \1rray with all of the boxes with the format (t, r, b, l) for pair finding 
+		boxes.append(points) # Array with all of the boxes with the format (t, r, b, l) for pair finding 
 		box_scores.append(contour_score)
 	return boxes, box_scores
 
