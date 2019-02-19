@@ -1,5 +1,6 @@
-.DS_Store
-vision_cv/*.pyc
+*.DS_Store
+*.pyc
 *.png
 *.jpg
 *.jpeg
+*/__pycache__

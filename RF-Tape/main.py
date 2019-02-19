@@ -1,4 +1,5 @@
 import cv2
+import math
 import sys
 import ImageAnalysis
 import config
@@ -18,7 +19,7 @@ if(__name__ == "__main__"):
         WebCam.set(port=Constants.RIGHT_CAMERA_PORT, exposure=sys.argv[1])
         # print("Camera 0: " + AutoCalibrate.calibrate(0, config.MIN_EXPOSURE, config.MAX_EXPOSURE, config.WEIGHTS))
         # print("Camera 1: " + AutoCalibrate.calibrate(1, config.MIN_EXPOSURE, config.MAX_EXPOSURE, config.WEIGHTS))
-        while True:  # "while True" code can only run if LiveImage from config.py is set to True
+       	while True: # "while True" code can only run if LiveImage from config.py is set to True
             frame_num += 1
             leftImage, rightImage = WebCam.getImages()
             # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
@@ -30,7 +31,7 @@ if(__name__ == "__main__"):
                 continue
             beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2],
                                     rightMeasurements[0][0:2], rightMeasurements[1][0:2])  # Get's beta
-            print("\t \t \t BETA (In degrees): " +  str(beta))
+            print("\t \t \t BETA (In degrees): " +  str(beta/math.pi * 180))
 
             if not leftMeasurements[0][0] and not rightMeasurements[1][0]:
                 continue
@@ -53,7 +54,7 @@ if(__name__ == "__main__"):
             # finalTheta finalDistance is the final theta and distance from the center of the robot to the center of the tape.
 
             #NetworkTablesInterface.send_data(x, y, finalTheta, beta, finalDistance, frame_num)
-            print("FINAL THETA: " + str(finalTheta))
+            print("FINAL THETA: " + str(finalTheta/math.pi * 180))
             print("FINAL DISTANCE: " + str(finalDistance))
     else:
         # Taking an image from folder of TestImages

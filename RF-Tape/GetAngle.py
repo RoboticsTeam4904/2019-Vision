@@ -17,7 +17,7 @@ def getTheta(box, fieldOfVision=1.229, imageWidth=640):
     try:
         theta = math.atan(P1 * math.tan(fieldOfVision/2)/P2)
     except:
-        return width/(height*perfectRatio)
+        return 0
     # alpha = math.pi -beta + theta
     return theta
 
@@ -44,8 +44,6 @@ def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTa
     else:
         print("Right tape not visible (for beta calc)")
         return False
-
-    
     print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(d_l))
     print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(d_r))
     if abs(d_l - d_r) > distanceTapes:

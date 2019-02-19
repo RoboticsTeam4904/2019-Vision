@@ -1,25 +1,27 @@
 import cv2
 import numpy as np
 
-LEFT_CAMERA_PORT = 0
-RIGHT_CAMERA_PORT = 1
+LEFT_CAMERA_PORT = 1 
+RIGHT_CAMERA_PORT = 0
 
 # Contour Finding Settings
-MIN_AREA = 50
-MIN_PERIMETER = 0.0
-MIN_WIDTH = 0
-MAX_WIDTH = 500
-MIN_HEIGHT = 0
-MAX_HEIGHT = 500
-SOLIDITY = [0, 100.0]
-MAX_VERTICES = 1000000.0
-MIN_VERTICES = 0
-MIN_RATIO = 0
-MAX_RATIO = 30
-MIN_EXPOSURE = 1
-MAX_EXPOSURE = 100
+HUE_RANGE = (50, 94)
+SAT_RANGE = (103, 255)
+VAL_RANGE = (150, 255)
+FIND_CONTOURS_MODE = cv2.RETR_EXTERNAL  # find only outer contours
+# FIND_CONTOURS_MODE = cv2.RETR_LIST    # also find contours within other contours
 
-#WEIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
+# Contour Filtering Settings
+AREA_RANGE =        (50, 10000)
+PERIMETER_RANGE =   (0, 10000)
+WIDTH_RANGE =       (10, 500)
+HEIGHT_RANGE =      (10, 500)
+SOLIDITY_RANGE =    (50, 100)
+VERTICES_RANGE =    (0, 1000000)
+RATIO_RANGE =       (0.2, 5)
+EXPOSURE_RANGE =    (1, 100)
+
+# WEIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
 WEIGHTS = {
     "hw_ratio": 5,
     "area": 1,
@@ -28,7 +30,7 @@ WEIGHTS = {
     "rotation_angle_outfunc": 1,
 }
 
-#When filtering the image, the image should only choose "scores" above the threshold 
+# When filtering the image, the image should only choose "scores" above the threshold 
 MIN_THRESHOLD = 13
 
 # Camera settings
@@ -48,7 +50,7 @@ degPerPxl = np.divide(nativeAngle, resolution)
 ip = "10.49.4.2"  # TODO: Fix Value
 team = 4904
 networkSpeed = 0.02
-withOpenCV3 = int(cv2.__version__[0]) == 3
+using_cv3 = int(cv2.__version__[0]) == 3
 edited = False
 sampleImage = "TestImages/GearTest.png"
 # number of frames to wait until reinitializing sockets. If 0, never close the socket

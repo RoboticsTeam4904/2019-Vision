@@ -6,13 +6,13 @@ import Constants
 import numpy as np
 import Printing
 import main
-import DrawImage
 import PairFinding
 import GetDistance
 import GetAngle
 import math
 
-def imageAnalysis(img, port): #Takes in one image 
+def imageAnalysis(img, port): #Takes in one image
+    print(port) 
     thresh, contours, mask = GetContours.getContours(img)
     if len(contours) == 0:
         isVisibleLeft = False
@@ -48,11 +48,11 @@ def imageAnalysis(img, port): #Takes in one image
         leftTheta = GetAngle.getTheta(leftBox)
         leftDistToWall = GetDistance.getDistanceToWall(leftBoxHeight)  # Distance (d1) of camera to the wall
         leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
-        print("\t \t \t \t CAMERA ------" + str(port) + ": LEFT DISTANCE TO WALL IN INCHES: "+
-              str(leftDistToWall))
-        print("\t \t \t \t CAMERA ----" + str(port) + ": LEFT DISTANCE TO TAPE IN INCHES: "+
+        """print("\t CAMERA ------" + str(port) + ": LEFT DISTANCE TO WALL IN INCHES: "+
+              str(leftDistToWall))"""
+        print("\t CAMERA" + str(port) + ": TO LEFT TAPE IN INCHES: "+
               str(leftDistToTape))
-        print("CAMERA -------"+ str(port) + "TAPE OF LEFT THETA:" + str(leftTheta/math.pi * 180))
+        print("\t \t \t CAMERA -------"+ str(port) + "THETA TO LEFT TAPE:" + str(leftTheta/math.pi * 180))
         isVisibleLeft = True
     if rightBox[0]:
         rightBox = rightBox[1] 
@@ -60,11 +60,11 @@ def imageAnalysis(img, port): #Takes in one image
         rightBoxHeight = rightBox[0][1] - rightBox[2][1]
         rightDistToWall = GetDistance.getDistanceToWall(rightBoxHeight)  # Distance (d2) of camera to the wall
         rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight, rightTheta)
-        print("\t \t \t \t CAMERA" + str(port) + ": RIGHT DISTANCE TO WALL IN INCHES: "+
-              str(rightDistToWall))
-        print("\t \t \t \t CAMERA" + str(port) + ": RIGHT DISTANCE TO WALL IN INCHES: "+
+        """print("\t CAMERA" + str(port) + ": RIGHT DISTANCE TO WALL IN INCHES: "+
+              str(rightDistToWall))"""
+        print("\t CAMERA" + str(port) + ": DISTANCE TO RIGHT TAPE IN INCHES: "+
               str(rightDistToTape))
-        print("\t \t \t \t CAMERA" + str(port) + ": RIGHT TAPE THETA: "+
+        print("\t CAMERA-------" + str(port) + ": THETA TO RIGHT TAPE: "+
               str(rightTheta/math.pi * 180))
         isVisibleRight = True
     if not config.LiveImage:  # This is only run when we are not running from the TX2/linux device. When we running locallly from our laptop it will imshow details about the image

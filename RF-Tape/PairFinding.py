@@ -30,7 +30,7 @@ def checkLargestTape(box_list):
     else:
         slope_point = max_box[3]
     inside_angle = math.atan2(
-            slope_point[1]-top[1], slope_point[0]-top[0])
+    slope_point[1]-top[1], slope_point[0]-top[0])
     inside_angle = -((math.pi/2 + inside_angle) % math.pi - math.pi/2)
     return max_box, max_height, inside_angle
 
@@ -39,8 +39,6 @@ def checkLargestTape(box_list):
 
 
 def pairFinding(box_list):
-    global HEIGHT_THRESHOLD
-    global ANGLE_THRESHOLD
     largest_box, largest_height, largest_angle = checkLargestTape(box_list)
     best_match = False
     # We want to find if a match exists. It should have similar height and opposite angle.
