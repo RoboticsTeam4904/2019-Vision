@@ -18,7 +18,7 @@ def imageAnalysis(img): #Takes in one image
         isVisibleLeft = False
         isVisibleRight = False
         # Ensuring a list of three tuples
-        return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0)
+        return (isVisibleLeft, 0, 0, 0), (isVisibleRight, 0, 0, 0)
     boxes, box_scores = getBoxesAndScores(contours)
     # Now we draw boxes;
     box_scores_filtered = []  # This is an empty array which appends all the box_scores
@@ -37,8 +37,8 @@ def imageAnalysis(img): #Takes in one image
     box_scores = box_scores_filtered  # Final scores for each contour
     boxes = boxes_filtered  # Final contours for left and rightTape
     leftBox, rightBox = PairFinding.pairFinding(boxes) # leftBox is the left contour of the vision tape, rightBox is the right contour (tape) of the vision tape
-    isVisibleLeft = True
-    isVisibleRight = True
+    isVisibleLeft = leftBox[0]
+    isVisibleRight = rightBox[0]
     leftDistToWall, rightDistToWall = None, None  # Making sure leftDistToWall and rightDistToWall doesn't error
     leftDistToTape, rightDistToTape = None, None  # Making sure leftDistToTape and  rightDistToTape doesn't error
 
@@ -78,6 +78,7 @@ def imageAnalysis(img): #Takes in one image
     if not isVisibleRight:
 	print(isVisibleLeft)
         return (isVisibleLeft, leftDistToWall, leftDistToTape,  leftTheta), (False, 0, 0, 0)
+    print(isVisibleLeft)
     return (isVisibleLeft, leftDistToWall, leftDistToTape, leftTheta), (isVisibleRight, rightDistToWall, rightDistToTape, rightTheta)
 def getBoxesAndScores(contours):
     box_scores = []

@@ -23,23 +23,22 @@ if(__name__ == "__main__"):
             leftImage, rightImage = WebCam.getImages()
             leftMeasurements = ImageAnalysis.imageAnalysis(leftImage) #leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
             rightMeasurements = ImageAnalysis.imageAnalysis(rightImage) #rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
-            """if not leftMeasurements[0] and not rightMeasurements[0]:
+            if leftMeasurements[0] and rightMeasurements[0] == False:
                 isVisible = False 
-                continue"""
-	    print(leftMeasurements, rightMeasurements)
+                continue
             beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2], rightMeasurements[1][0:2]) #Get's beta
 	    print("THIS IS BETA", beta)
-	    print(rightMeasurements)            
             #Get's final theta and distance from center of the tape to center of the robot
-            finalTheta, finalDistance = TwoCameraMeasurementConsolidation.finalDistanceTheta(leftMeasurements[0][3], 
+            if(leftMeasurements[0] or rightMeasurements[0]):
+	        finalTheta, finalDistance = TwoCameraMeasurementConsolidation.finalDistanceTheta(leftMeasurements[0][3], 
 	        rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2]) 
-                    
-            if beta:
-                x, y = TwoCameraMeasurementConsolidation.getXandY(finalTheta, finalDistance, beta) #returns x and y coordinate from center of tape to center of robot
-                print(x,y)
-            else:
-                x, y = 0, 0
-                print ("CAN'T PASS IN BETA OR FINAL DISTANCE AND THETA")
+	        if beta:
+                    x, y = TwoCameraMeasurementConsolidation.getXandY(finalTheta, finalDistance, beta) #returns x and y coordinate from center of tape to center of robot
+                    print("X COORDINATE", x)
+		    print("Y COORDINATE", y)
+                else:
+                    x, y = 0, 0
+                    print ("CAN'T PASS IN BETA OR FINAL DISTANCE AND THETA")
             #finalTheta finalDistance is the final theta and distance from the center of the robot to the center of the tape.
             
             #NetworkTablesInterface.send_data(x, y, finalTheta, beta, finalDistance, frame_num)
