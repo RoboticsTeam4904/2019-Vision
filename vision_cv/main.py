@@ -22,9 +22,9 @@ if(__name__ == "__main__"):
             frame_num += 1
             leftImage, rightImage = WebCam.getImages()
             # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
-            leftMeasurements = ImageAnalysis.imageAnalysis(leftImage)
+            leftMeasurements = ImageAnalysis.imageAnalysis(leftImage, Constants.LEFT_CAMERA_PORT)
             # rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
-            rightMeasurements = ImageAnalysis.imageAnalysis(rightImage)
+            rightMeasurements = ImageAnalysis.imageAnalysis(rightImage, Constants.RIGHT_CAMERA_PORT)
             if (leftMeasurements[0][0] and rightMeasurements[0][0] is False) or (leftMeasurements[1][0] and rightMeasurements[1][0] is False):
                 isVisible = False
                 continue

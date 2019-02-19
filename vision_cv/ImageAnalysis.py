@@ -12,7 +12,7 @@ import GetDistance
 import GetAngle
 import math
 
-def imageAnalysis(img): #Takes in one image 
+def imageAnalysis(img, port): #Takes in one image 
     thresh, contours, mask = GetContours.getContours(img)
     if len(contours) == 0:
         isVisibleLeft = False
@@ -48,24 +48,24 @@ def imageAnalysis(img): #Takes in one image
         leftTheta = GetAngle.getTheta(leftBox)
         leftDistToWall = GetDistance.getDistanceToWall(leftBoxHeight)  # Distance (d1) of camera to the wall
         leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
-        """print("LEFT DISTANCE TO WALL IN INCHES: "+
+        print("\t \t \t \t CAMERA ------" + str(port) + ": LEFT DISTANCE TO WALL IN INCHES: "+
               str(leftDistToWall))
-        print("LEFT DISTANCE TO TAPE IN INCHES: "+
+        print("\t \t \t \t CAMERA ----" + str(port) + ": LEFT DISTANCE TO TAPE IN INCHES: "+
               str(leftDistToTape))
-        print("TAPE OF LEFT THETA: " +  str(leftTheta/math.pi * 180))
-        isVisibleLeft = True"""
-
+        print("CAMERA -------"+ str(port) + "TAPE OF LEFT THETA:" + str(leftTheta/math.pi * 180))
+        isVisibleLeft = True
     if rightBox[0]:
         rightBox = rightBox[1] 
         rightTheta = GetAngle.getTheta(rightBox)
         rightBoxHeight = rightBox[0][1] - rightBox[2][1]
         rightDistToWall = GetDistance.getDistanceToWall(rightBoxHeight)  # Distance (d2) of camera to the wall
         rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight, rightTheta)
-        """print("RIGHT DISTANCE TO WALL IN INCHES: "+
+        print("\t \t \t \t CAMERA" + str(port) + ": RIGHT DISTANCE TO WALL IN INCHES: "+
               str(rightDistToWall))
-        print("RIGHT DISTANCE TO TAPE IN INCHES: "+
+        print("\t \t \t \t CAMERA" + str(port) + ": RIGHT DISTANCE TO WALL IN INCHES: "+
               str(rightDistToTape))
-        print("RIGHT TAPE THETA: " + str(rightTheta/math.pi * 180))"""
+        print("\t \t \t \t CAMERA" + str(port) + ": RIGHT TAPE THETA: "+
+              str(rightTheta/math.pi * 180))
         isVisibleRight = True
     if not config.LiveImage:  # This is only run when we are not running from the TX2/linux device. When we running locallly from our laptop it will imshow details about the image
         DrawImage.drawBoxes(box_scores, mask)
