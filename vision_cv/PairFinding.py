@@ -11,7 +11,6 @@ DISTANCE_THRESHOLD = float("inf")
 # do not return/return that it only has one if it doesn't. We do not want to
 # return a pair if the distance if it is not relevant.
 
-
 # tape_list: a list of slanted bounding boxes
 def checkLargestTape(box_list):
     max_height = -float("inf")
@@ -62,7 +61,7 @@ def pairFinding(box_list):
         elif direction=="RIGHT":
             return (True, best_match), (True, largest_box)
     else:
-        if direction=="LEFT:
+        if direction=="LEFT":
             return (True, largest_box), (False, None)
         elif direction=="RIGHT":
             return (False, None), (True, largest_box)

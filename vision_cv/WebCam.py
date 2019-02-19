@@ -10,7 +10,6 @@ import enum
 leftCamera = cv2.VideoCapture(Constants.LEFT_CAMERA_PORT)
 rightCamera = cv2.VideoCapture(Constants.RIGHT_CAMERA_PORT)
 
-cameras = [leftCamera, rightCamera]
 def getImages(): # This is for two camera
     leftImageFound, leftImage = leftCamera.read()
     rightImageFound, rightImage = rightCamera.read()
@@ -20,7 +19,13 @@ def getImages(): # This is for two camera
         raise Exception("Image reading failed for RIGHT CAMERA {}".format(Constants.RIGHT_CAMERA_PORT))
     return leftImage, rightImage # This returns what the left and right cameras are reading from the webcam
 
-def set(port=0, resolution=False, exposure=False, gain=False, contrast=False): #set's exposure 
+def getImage(camera=0):
+    retval, image = camera.read()
+    if(not retval):
+        raise Exception("Image reading failed for camera {}".format(camera))
+    return image
+    
+def set(port=0, resolution=False, exposure=False, gain=False, contrast=False): #Set's exposure for Linux only 
 
     settingStr = "/usr/bin/v4l2-ctl -d /dev/video" + str(port)
     if resolution:
@@ -35,12 +40,11 @@ def set(port=0, resolution=False, exposure=False, gain=False, contrast=False): #
         settingStr += " -c contrast={}".format(contrast)
     subprocess.call(settingStr, shell=True)
 
-def getImage(port): #This is for taking a testing image from a camera
+"""def getImage(port): #This is for taking a testing image from a camera
     camera = cameras[port]
     retval, image = camera.read()
     if(not retval):
         raise Exception("Image reading failed for one camera")
+    return image"""
 
-    return image
-# This function sets the exposure. LINUX ONLY
 

@@ -6,6 +6,7 @@ import config
 import Constants
 import AutoCalibrate
 import GetAngle
+import TwoCameraMeasurementConsolidation
 
 if(__name__ == "__main__"):
     if config.LiveImage:
@@ -19,11 +20,22 @@ if(__name__ == "__main__"):
             leftImage, rightImage = WebCam.getImages()
             leftMeasurements = ImageAnalysis.imageAnalysis(leftImage) #leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
             rightMeasurements = ImageAnalysis.imageAnalysis(rightImage) #rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
-            print(GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2],
-            rightMeasurements[1:2]))
-            print(type(leftMeasurements, rightMeasurements))
+    
+            beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2], rightMeasurements[1][0:2])
+
+            if beta:
+                x, y = TwoCameraMeasurementConsolidation.getXandY(finalTheta, finalDistance, beta) #distFinal, finalTheta, beta
+                print(x,y)
+            else:
+                x, y = 0, 0
+                print ("CAN'T FIND BETA")
+
+            #finalTheta finalDistance is the final theta and distance from the center of the robot to the center of the tape.
+            finalTheta, finalDistance = TwoCameraMeasurementConsolidation.finalDistanceTheta(leftMeasurements[0][3], rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2]) 
+            print("FINAL THETA \t", finalTheta)
+            print("FINAL DISTANCE \t", finalDistance)
     else:
         # Taking an image from folder of TestImages
         img = cv2.imread("./TestImages/TEST149.jpg")
         ImageAnalysis.imageAnalysis(img)
-            print(type(leftMeasurements, rightMeasurements))
+            

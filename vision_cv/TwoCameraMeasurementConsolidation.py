@@ -1,25 +1,25 @@
 import math
 
-def finalDistanceTheta(theta1, theta2, leftCameraleftTape, cam2distance2):
-    #x1 takes the x coordinate from camera 1 on the robot. This takes in the distance from the camera1 to the tape and the  from camera 1 theta to tape
-    x1 = (leftCameraleftTape  * math.sin(theta1)) 
-    #x2 takes the x coordinate from camera 2 on the robot. This takes in the distance from the camera2 to the tape and the theta from camera2 to tape
-    x2 = (cam2distance2 * math.sin(theta2)) 
+def finalDistanceTheta(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCamLeftTape, DistRightCamRightTape):
+    # left_x computes the x coordinate from distance and theta from the left camera to the left tape
+    left_x = (DistLeftCamLeftTape  * math.sin(ThetaLeftCamLeftTape)) 
+    # right_x computes the x coordinate from distance and theta from the right camera to the right tape
+    right_x = (DistRightCamRightTape * math.sin(ThetaRightCamRightTape)) 
     
-    #y1 takes the y coordinate from camera 1 on the robot. This takes in the distance from the camera2 to the tape and the theta from camera2 to tape
-    y1 = (cam1distance1 * math.cos(theta1))
-    #y1 takes the y coordinate from camera 1 on the robot. This takes in the distance from the camera2 to the tape and the theta from camera2 to tape
-    y2 = (cam2distance2 * math.cos(theta2))
+    # left_y computes the y coordinate from distance and theta from the left camera to the left tape
+    left_y = (DistLeftCamLeftTape * math.cos(ThetaLeftCamLeftTape))
+    # right_y computes the y coordinate from distance and theta from the right camera to the right tape
+    right_y = (DistRightCamRightTape * math.cos(ThetaRightCamRightTape))
 
-    averageX = ((x1 + x2)/2))
-    averageY = ((y1 + y2/2))
+    averageX = ((left_x + right_x)/2) #averageX is the x coordinate from the center of the tape to the center of the robot 
+    averageY = ((left_y + right_y/2)) #averageY is the y coordinate from the center of the tape to the center of the robot 
 
-    thetaFinal = math.atan(averageX/averageY)
-    distanceFinal = math.sqrt((averageX^2) + (averageY^2))
-    
-    return thetaFinal, distanceFinal
+    finalTheta = math.atan(averageX/averageY) #range of arctan is from -90 degress to 90 degrees
+    distFinal = math.sqrt((averageX**2) + (averageY**2))
 
-def getXandY(dist, finalTheta, finalBeta):
-    x = (distanceFinal * math.sin(finalTheta + finalBeta))
-    y = (distanceFinal * math.cos(finalTheta + finalBeta))
-    return (x, y)
+    return finalTheta, distFinal
+
+def getXandY(finalTheta, distFinal, beta):
+    x = (distFinal * math.sin(finalTheta + beta))
+    y = (distFinal * math.cos(finalTheta + beta))
+    return x, y 
