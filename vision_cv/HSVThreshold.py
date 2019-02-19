@@ -38,5 +38,5 @@ class HSVPipeline:
         Returns:
             A black and white numpy.ndarray.
         """
-        #out = cv2.cvtColor(input, cv2.COLOR_BGR2HSV)
-        #return cv2.inRange((out, hue[0], sat[0], val[0]),  (hue[1], sat[1], val[1]))
+        out = cv2.cvtColor(input, cv2.COLOR_BGR2HSV)
+        return cv2.inRange(out, (hue[0], sat[0], val[0]),  (hue[1], sat[1], val[1]))

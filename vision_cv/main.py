@@ -36,6 +36,6 @@ if(__name__ == "__main__"):
             print("FINAL DISTANCE \t", finalDistance)
     else:
         # Taking an image from folder of TestImages
-        img = cv2.imread("./TestImages/TEST149.jpg")
+        img = cv2.imread("./TestImages/TEST0.jpg")
         ImageAnalysis.imageAnalysis(img)
             
