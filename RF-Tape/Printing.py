@@ -1,86 +1,99 @@
 import numpy as np
-import cv2
-import sys, os
+import sys, os, random, cv2
+import config
 
-imageNum, gripImageNum = 0, 0
-colors = [(255,255,255), (255,255,0), (50,50,255)]
-defaultSize = (640,360)
-defaultShrinkX, defaultShrinkY = 0.3, 0.3
-defaultThickness = 5
-imageName = "img"
-gripImageName = "contours"
-# folder = "match" + str(np.random.randint(1000))
-# if not os.path.exists("TestImages/" + folder):
-#     os.makedirs("TestImages/" + folder)
+# File names
+folder = "TestImages/"
+default_name = "img"
+drawn_name = "_drawn"
+image_counts = {default_name: 0}
 
-def findMatchNum():
-	i = 1
-	while os.path.exists("TestImages/" + "match" + str(i)):
-		i += 1
-	return i
+# Construct folder for saving images from this run
+if config.save and config.save_in_folder:
+	matchNum = 1
+	while os.path.exists(folder + "match" + str(matchNum)):
+		matchNum += 1
+	folder = folder + "match" + str(matchNum) + "/"
+	os.makedirs(folder)
 
-folder = "match" + str(findMatchNum())
-
-
-def printResults(contours=False, distance=False, angleToGoal=False, isVisible=True, center=False):
-	if not isVisible:
-		print ("CANNOT SEE GOAL")
-	if contours:
-		print ("{} contours".format(len(contours)))
-	if distance:
-		print ("{} feet away".format(distance))
-	if angleToGoal:
-		print ("{} degrees off".format(angleToGoal))
-	if center:
-		print ("spike x position is {}".format(center[0]))
-		print ("spike y position is {}".format(center[1]))
-
-
-def drawImage(image, contours, targets, center=False):
-	drawContours(image, contours)
-	drawContours(image, targets, color=2)
-	if center:
-		drawCenter(image, center)
-
-def resize(image, size=defaultSize):
-	return cv2.resize(image, size)
-
-def shrink(image, x=defaultShrinkX, y=defaultShrinkY):
-	return cv2.resize(image, 0, fx=x, fy=y)
-
-def drawContours(image, contours, color=1, thickness=5):
+# Colors for drawing on images
+rightColor, leftColor = (200, 50, 150), (150, 50, 200)
+white = (255,255,255)
+colors = [(255,255,0), (40, 40, 150), (50,50,255), (140,50,10), (100,50,200)]
+def getColor(color):
 	if type(color) == int:
-		color = colors[color]
+		return colors[color]
+	elif color == "random":
+		return (random.randint(40,255), random.randint(40,255), random.randint(40,255))
+	elif type(color) == list or type(color) == tuple:
+		assert len(color) == 3
+		return color
+	else:
+		return colors[0] # default color
+
+# Display sizes
+default_size = (640,360)
+default_shrink_x, default_shrink_y = 0.3, 0.3
+default_thickness = 5
+
+# Display an image in a cv2 window
+def display(image, name="Contours Found", doResize=True, delay=20):
+	if doResize:
+		image = resize(image)	# resize to default size
+	cv2.imshow(name, image)		# display image
+	key = cv2.waitKey(delay)	# wait for keypress (delay in ms)
+	if key == 27:				# hit esc to quit
+		sys.exit()
+
+# Save image in folder. Increment number if previously saved with that name
+def save(image, name=default_name, drawn=False):
+	if name in image_counts:
+		name += str(image_counts[name])
+		image_counts[name] += 1
+	else:
+		image_counts[name] = 1
+	if drawn:
+		name += drawn_name
+	cv2.imwrite(folder + name + ".jpg", image)
+
+# Save right and left images in folder. Increment number if previously saved with that name
+def save_pair(left_img, right_img, name=default_name, drawn=False):
+	if name in image_counts:
+		name += str(image_counts[name])
+		image_counts[name] += 1
+	else:
+		image_counts[name] = 1
+	if drawn:
+		name += drawn_name
+	cv2.imwrite(folder + name + "_left" + ".jpg", left_img)
+	cv2.imwrite(folder + name + "_right" + ".jpg", right_img)
+
+def draw(image, contours, filtered_boxes, left_box, right_box):
+	drawContours(image, contours=3)
+	drawBoxes(image, filtered_boxes, color=1)
+	drawBoxes()
+
+def drawBoxes(image, boxes, color="random"):
+    for box in boxes:
+		color = getColor(color)
+        for point in box:
+            drawPoint(image, point, color)
+
+def drawPairs(image, pairs):
+	for (right, left) in pairs:
+		drawBoxes(image, pair, color=getColor("random"))
+
+def drawContours(image, contours, color=3, thickness=default_thickness):
 	if type(contours) == np.ndarray:
 		if len(contours.shape) == 3:
 			contours = [contours]
-	cv2.drawContours(image, contours, -1, color, thickness)
+	cv2.drawContours(image, contours, -1, getColor(color), thickness)
 
-def drawCenter(image, center, size=defaultThickness, color=0):
-	if type(color) == int:
-		color = colors[color]
-	cv2.circle(image, center, size, color, size)
+def drawPoint(image, coords, size=default_thickness, color=0):
+	cv2.circle(image, coords, size, getColor(color), size)
 
-def save(image, name=None, withGrip=False, withFolder=False):
-	if(name is not None):
-		cv2.imwrite("./TestImages/" + name + ".jpg", image)
-		return
-	if withGrip:
-		global gripImageNum
-		name = gripImageName + str(gripImageNum)
-		gripImageNum += 1
-	else:
-		global imageNum
-		name = imageName + str(imageNum)
-		imageNum += 1
-	if withFolder:
-		name = folder + "/" + name
-	cv2.imwrite("TestImages/" + name + ".jpg", image)
+def resize(image, size=default_size):
+	return cv2.resize(image, size)
 
-def display(image, name="Contours Found", doResize=True):
-	if doResize:
-		image = resize(image)
-	cv2.imshow(name, image)
-	key = cv2.waitKey(20)
-	if key == 27:
-		sys.exit()
+def shrink(image, scale_x=default_shrink_x, scale_y=default_shrink_y):
+	return cv2.resize(image, 0, fx=scale_x, fy=scale_y)

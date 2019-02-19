@@ -17,7 +17,7 @@ def getImages():
         raise Exception("Image reading failed for LEFT CAMERA {}".format(leftCamera))
     if(not rightImageFound):
         raise Exception("Image reading failed for RIGHT CAMERA {}".format(rightCamera))
-    return leftImage, rightImage #This returns what the left and right cameras are reading from the webcam
+    return leftImage, rightImage # This returns what the left and right cameras are reading from the webcam
     
 def getImage(camera=0):
     retval, image = camera.read()

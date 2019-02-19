@@ -7,6 +7,20 @@ import Constants
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
+def getBoxesAndScores(contours):
+	box_scores = []
+	boxes = []
+	for contour in contours:
+		rect = cv2.minAreaRect(contour)
+		if Constants.using_cv3:
+			box = cv2.boxPoints(rect)
+		else:
+			box = cv2.cv.BoxPoints(rect)
+		box = np.int0(box)
+		points, contour_score = score(box, contour, Constants.WEIGHTS)
+		boxes.append(points) # \1rray with all of the boxes with the format (t, r, b, l) for pair finding 
+		box_scores.append(contour_score)
+	return boxes, box_scores
 
 def score(box, contour, weights):
     total_score = 0

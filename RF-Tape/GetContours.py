@@ -1,63 +1,41 @@
 import cv2
-import HSVThreshold
-import main
-import numpy as np
-import Constants
+import Constants, config
 
+hsv_min = (Constants.HUE_RANGE[0], Constants.SAT_RANGE[0], Constants.VAL_RANGE[0])
+hsv_max = (Constants.HUE_RANGE[1], Constants.SAT_RANGE[1], Constants.VAL_RANGE[1])
 
-def detect(c):
-    # Initialize the shape name and approximate the contour
-    x, y, w, h = cv2.boundingRect(c)
-    if (w < Constants.MIN_WIDTH or w > Constants.MAX_WIDTH):
+# Check if contour is of the right size
+def check_contour(contour):
+    x, y, w, h = cv2.boundingRect(contour)
+    if (w < Constants.WIDTH_RANGE[0] or w > Constants.WIDTH_RANGE[1]):
         return False
-    if (h < Constants.MIN_HEIGHT or h > Constants.MAX_HEIGHT):
+    if (h < Constants.HEIGHT_RANGE[0] or h > Constants.HEIGHT_RANGE[1]):
         return False
-    area = cv2.contourArea(c)
-    if (area < Constants.MIN_AREA):
+    area = cv2.contourArea(contour)
+    if (area < Constants.AREA_RANGE[0] or area > Constants.AREA_RANGE[1]):
         return False
-    if (cv2.arcLength(c, True) < Constants.MIN_PERIMETER):
+    perimeter = cv2.arcLength(contour, True)
+    if (perimeter < Constants.PERIMETER_RANGE[0] or perimeter > Constants.PERIMETER_RANGE[1]):
         return False
-    hull = cv2.convexHull(c)
+    hull = cv2.convexHull(contour)
     solid = 100 * area / cv2.contourArea(hull)
-    if (solid < Constants.SOLIDITY[0] or solid > Constants.SOLIDITY[1]):
+    if (solid < Constants.SOLIDITY_RANGE[0] or solid > Constants.SOLIDITY_RANGE[1]):
         return False
     ratio = (float)(w) / h
-    if (ratio < Constants.MIN_RATIO or ratio > Constants.MAX_RATIO):
+    if (ratio < Constants.RATIO_RANGE[0] or ratio > Constants.RATIO_RANGE[1]):
         return False
     return True
 
-
-def findContours(img):
-
-    thresholder = HSVThreshold.HSVPipeline()
-    thresh = thresholder.process(img)
-    mask = cv2.bitwise_and(img, img, mask=thresh)
-    mode = cv2.RETR_LIST
-    method = cv2.CHAIN_APPROX_SIMPLE
-    contours = []
-
-    if(cv2.__version__[0] == "4"):
-        contours, hierarchy = cv2.findContours(
-            thresh, mode, method)  # im2 only in cv2 v3.x
-    if(cv2.__version__[0] == "3"):
-        im2, contours, hierarchy = cv2.findContours(
-            thresh, mode, method)  # im2 only in cv2 v3.x
-    if(cv2.__version__[0] == "2"):
-        contours, hierarchy = cv2.findContours(
-            thresh, mode, method)  # im2 only in cv2 v3.x
-
-    return thresh, contours, mask
-
-
-def filterContours(contours):
-    return [x for x in contours if (cv2.contourArea(x) > 0 and detect(x))]
-
-
-def getContours(img):
-    thresh, contours, mask = findContours(img)
-
-    if len(contours) < 1:
-        return [], [], []
+# find contours from a BGR numpy ndarray
+def getContours(img): # input
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)  # Converts to hsv
+    thresh = cv2.inRange(hsv, hsv_min, hsv_max) # Thresholds to a black and white numpy.ndarray
+    if Constants.using_cv3: # im2 returned only in version 3.x
+        im2, contours, hierarchy = cv2.findContours(thresh, FIND_CONTOURS_MODE, cv2.CHAIN_APPROX_SIMPLE)
     else:
-        contours = filterContours(contours)
-    return thresh, contours, mask
+        contours, hierarchy = cv2.findContours(thresh, FIND_CONTOURS_MODE, cv2.CHAIN_APPROX_SIMPLE)
+    filtered_contours = [contour for contour in contours if check_contour(contour)]
+    if config.display and config.debug:
+        Printing.display(thresh, "Threshold")
+
+    return filtered_contours

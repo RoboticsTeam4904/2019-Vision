@@ -1,6 +1,6 @@
 
 def twoCameraMeasurementConslidation(leftMeasurements, rightMeasurements):
-    #TODO implement 
+    # TODO implement 
 
 def finalDistance(x, y):
     return pass
