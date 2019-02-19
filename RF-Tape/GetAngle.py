@@ -17,7 +17,7 @@ def getTheta(box, fieldOfVision=1.229, imageWidth=640):
     try:
         theta = math.atan(P1 * math.tan(fieldOfVision/2)/P2)
     except:
-        return width/(height*perfectRatio)
+        return 0
     # alpha = math.pi -beta + theta
     return theta
 
@@ -45,5 +45,4 @@ def getBeta(Camera1LeftTape, Camera2LeftTape, Camera1RightTape, Camera2RightTape
     if distance1 + distance2>distanceTapes:
         return False # Protects against out of range asin errors
     beta = math.asin((distance2-distance1)/distanceTapes) #This is the equation that calculates beta
-    # Converting beta into degrees.
     return beta

@@ -1,5 +1,5 @@
-import cv2
 import math
+import cv2
 import numpy as np
 import Constants
 
@@ -7,6 +7,20 @@ import Constants
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
+def getBoxesAndScores(contours):
+	box_scores = []
+	boxes = []
+	for contour in contours:
+		rect = cv2.minAreaRect(contour)
+		if Constants.using_cv3:
+			box = cv2.boxPoints(rect)
+		else:
+			box = cv2.cv.BoxPoints(rect)
+		box = np.int0(box)
+		points, contour_score = score(box, contour, Constants.WEIGHTS)
+		boxes.append(points) # Array with all of the boxes with the format (t, r, b, l) for pair finding 
+		box_scores.append(contour_score)
+	return boxes, box_scores
 
 def score(box, contour, weights):
     total_score = 0
@@ -87,17 +101,19 @@ def slope(point1, point2):
 
 def filled_value(contour, box):
     # This is to remove the RGB axis
-    max_x  = box[1][0]
-    max_y = box[0][1]
-    min_x = box[3][0]
-    min_y = box[2][1]
-    z_img = np.zeros(shape=(640, 480))
+
+    z_img = np.zeros(shape=Constants.resolution)
     box[3], box[2] = box[2], box[3]
     box = box[::-1]
     box = np.array(box)
-
+    max_y = max(contour, key=lambda x: x[0][1])[0][1]
+    min_y = min(contour, key=lambda x: x[0][1])[0][1]
+    max_x = max(contour, key=lambda x: x[0][0])[0][0]
+    min_x = min(contour, key=lambda x: x[0][0])[0][0]
     cv2.drawContours(z_img, [box], 0, color=128, thickness=-1)
     cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
+    z_img = z_img[min_y:max_y, min_x:max_x]
     box_total = len(np.where(z_img == 128)[0])
     contour_total = len(np.where(z_img == 255)[0])
+
     return float(contour_total)/float(contour_total+box_total+.0001)

@@ -6,7 +6,6 @@ import Constants
 import numpy as np
 import Printing
 import main
-import DrawImage
 import PairFinding
 import GetDistance
 import GetAngle
