@@ -1,4 +1,4 @@
-#from ntworktables import NetworkTables
+from ntworktables import NetworkTables
 import Constants 
 
 NetworkTables.setTeam(Constants.team)
@@ -14,4 +14,3 @@ def send_data(x, y, theta, beta, dist, frameNum, isVisible=True):
     table.putNumber('beta', beta)
     table.putNumber('distance', dist)
     table.putNumber("frameNum", frameNum)
-    # TODO: send the network tables

@@ -12,23 +12,23 @@ import GetAngle
 import math
 
 def imageAnalysis(img):
-	contours = GetContours.getContours(img)
-	if len(contours) == 0:
-		isVisibleLeft, isVisibleRight = False, False
-		return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0) # Ensuring a list of three tuples
+    contours = GetContours.getContours(img)
+    if len(contours) == 0:
+        isVisibleLeft, isVisibleRight = False, False
+        return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0) # Ensuring a list of three tuples
 
-	boxes, scores = ScoringMetric.getBoxesAndScores(contours)
-	boxes_filtered = [box for (box,score) in zip(boxes,scores) if score >= Constants.MIN_THRESHOLD]
+    boxes, scores = ScoringMetric.getBoxesAndScores(contours)
+    boxes_filtered = [box for (box,score) in zip(boxes,scores) if score >= Constants.MIN_THRESHOLD]
 
-	if len(boxes_filtered) == 0:
-		isVisibleLeft, isVisibleRight = False, False
-		print("No contours found after filtering")
-		return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0)
+    if len(boxes_filtered) == 0:
+        isVisibleLeft, isVisibleRight = False, False
+        print("No contours found after filtering")
+        return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0)
 
-	 # leftBox is the left contour of the vision tape, rightBox is the right contour (tape) of the vision tape
-	leftBox, rightBox = PairFinding.pairFinding(boxes_filtered)
+        # leftBox is the left contour of the vision tape, rightBox is the right contour (tape) of the vision tape
+    leftBox, rightBox = PairFinding.pairFinding(boxes_filtered)
 
-	isVisibleLeft, isVisibleRight = leftBox[0], rightBox[0] #leftBox[0] is the first element of contours from the filtered contours from boxes
+    isVisibleLeft, isVisibleRight = leftBox[0], rightBox[0] #leftBox[0] is the first element of contours from the filtered contours from boxes
     leftDistToWall, rightDistToWall = None, None  # Making sure leftDistToWall and rightDistToWall doesn't error
     leftDistToTape, rightDistToTape = None, None  # Making sure leftDistToTape and  rightDistToTape doesn't error
 
