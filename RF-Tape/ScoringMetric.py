@@ -7,24 +7,14 @@ import Constants
 def dist2d(p1, p2):
     return math.sqrt(abs(p2[0]-p1[0])**2 + abs(p2[1]-p1[1])**2)
 
-def getBoxesAndScores(contours):
-	box_scores = []
-	boxes = []
-	for contour in contours:
-		points, contour_score = score(contour)
-		boxes.append(points) # Array with all of the boxes with the format (t, r, b, l) for pair finding 
-		box_scores.append(contour_score)
-	return boxes, box_scores
-
 def boxAndScore(contour):
     # Get box (corners of bounding rotated rectangle)
     rect = cv2.minAreaRect(contour)
-		if Constants.using_cv3:
-			box = cv2.boxPoints(rect)
-		else:
-			box = cv2.cv.BoxPoints(rect)
-		box = np.int0(box)
-    total_score = 0
+    if Constants.using_cv3:
+        box = cv2.boxPoints(rect)
+    else:
+        box = cv2.cv.BoxPoints(rect)
+    box = np.int0(box)
     # Sorts box from top to bottom
     box = sorted(box, key=lambda x: x[1])[::-1] # TODO: get order from box
     top = box[0]
@@ -37,6 +27,7 @@ def boxAndScore(contour):
         return points, -float("inf")
 
     # Score TODO: combine with dot product?
+    total_score = 0
     dimension = (dist2d(top, left), dist2d(top, right))  # Height, width tuple
     total_score += score_side_ratio(dimension) * Constants.WEIGHTS["hw_ratio"]
     total_score += score_area_ratio(dimension, points) * Constants.WEIGHTS["area"]
