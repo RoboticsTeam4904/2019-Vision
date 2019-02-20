@@ -51,5 +51,4 @@ def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTa
         return False # Protects against out of range asin errors
    
     beta = math.asin((d_r-d_l)/distanceTapes) #This is the equation that calculates beta
-    # Converting beta into degrees.
-    return beta/math.pi * 180
+    return beta

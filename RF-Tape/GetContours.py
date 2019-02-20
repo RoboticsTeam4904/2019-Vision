@@ -38,4 +38,4 @@ def getContours(img): # input
     if config.display and config.debug:
         Printing.display(thresh, "Threshold")
 
-    return filtered_contours
+    return thresh, filtered_contours, thresh
