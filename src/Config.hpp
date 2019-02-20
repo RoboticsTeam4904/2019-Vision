@@ -40,6 +40,10 @@
 #define exposure 10
 #define FOV 1.229
 
+//Distance finding settigns
+#define DISTANCE_CONSTANT = 96185.4 //Constant to get distance
+#define DISTANCE_TAPES = 279.4; //In millimeters
+
 // Vertical feet from camera to bottom of vision target + Height of target in feet
 #define DISPLACEMENT (6.5 + 5)/12.0
 #define CAMERA_TILT 0
@@ -47,7 +51,6 @@
 // experimentally determined 10 pxl per deg at 640x480, going down by a v smol amount at the edge of the frame
 
 // Misc
-#define DISTANCE_TAPES = 279.4; //In millimeters
 #define IP "10.49.4.2"  // TODO: Fix Value
 #define TEAM_NUMBER 4904
 #define NETWORK_SPEED 0.02
