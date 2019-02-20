@@ -39,7 +39,7 @@ def imageAnalysis(img):
 def boxToMeasurements(box):
     height = box[0][1] - box[2][1] # Finding height of the left vision tape
     theta = GetAngle.getTheta(box)
-    forward_dist = GetDistance.getForwardDist(height)  # Portion of distance of camera to tape along center of vision
+    forward_dist = GetDistance.forwardDist(height)  # Portion of distance of camera to tape along center of vision
     real_dist = GetDistance.realDist(forward_dist, theta)
 
     return forward_dist, real_dist, theta
