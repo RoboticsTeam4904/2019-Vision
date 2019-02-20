@@ -5,55 +5,41 @@ import ScoringMetric
 import config
 import Constants
 import Printing
-import main
 import PairFinding
 import GetDistance
 import GetAngle
 import math
 
 def imageAnalysis(img):
-    contours = GetContours.getContours(img)
-    if len(contours) == 0:
-        isVisibleLeft, isVisibleRight = False, False
-        return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0) # Ensuring a list of three tuples
+    left_data, right_data = None, None
 
-    boxes, scores = ScoringMetric.getBoxesAndScores(contours)
-    boxes_filtered = [box for (box,score) in zip(boxes,scores) if score >= Constants.MIN_THRESHOLD]
+    boxes = GetContours.getBoxes(img)
 
-    if len(boxes_filtered) == 0:
-        isVisibleLeft, isVisibleRight = False, False
-        print("No contours found after filtering")
-        return (isVisibleLeft, 0, 0), (isVisibleRight, 0, 0)
+    if len(boxes) != 0:
+        left_box, right_box = PairFinding.pairFinding(boxes)
 
-        # leftBox is the left contour of the vision tape, rightBox is the right contour (tape) of the vision tape
-    leftBox, rightBox = PairFinding.pairFinding(boxes_filtered)
+        if leftBox != None:
+            left_data = boxToMeasurements(left_box)
+        if right_box != None:
+            right_data = boxToMeasurements(right_box)
 
-    isVisibleLeft, isVisibleRight = leftBox[0], rightBox[0] #leftBox[0] is the first element of contours from the filtered contours from boxes
-    leftDistToWall, rightDistToWall = None, None  # Making sure leftDistToWall and rightDistToWall doesn't error
-    leftDistToTape, rightDistToTape = None, None  # Making sure leftDistToTape and  rightDistToTape doesn't error
+    return (left_data, right_data)
 
-    if isVisibleLeft:
-        leftBox = leftBox[1] 
-        leftBoxHeight = leftBox[0][1] - leftBox[2][1] # Finding height of the left vision tape
-        leftTheta = GetAngle.getTheta(leftBox)
-        leftDistToWall = GetDistance.getDistanceToWall(leftBoxHeight)  # Distance (d1) of camera to the wall
-        leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
-        print("LEFT DISTANCE TO WALL IN INCHES: "+
-              str(leftDistToWall))
-        print("LEFT DISTANCE TO TAPE IN INCHES: "+
-              str(leftDistToTape))
-        print("TAPE OF LEFT THETA: " +  str(leftTheta/math.pi * 180))
+        # print("LEFT DISTANCE TO WALL IN INCHES: "+
+        #       str(leftDistToWall))
+        # print("LEFT DISTANCE TO TAPE IN INCHES: "+
+        #       str(leftDistToTape))
+        # print("TAPE OF LEFT THETA: " +  str(leftTheta/math.pi * 180))
+        # print("RIGHT DISTANCE TO WALL IN INCHES: "+
+        #       str(rightDistToWall))
+        # print("RIGHT DISTANCE TO TAPE IN INCHES: "+
+        #       str(rightDistToTape))
+        # print("RIGHT TAPE THETA: " + str(rightTheta/math.pi * 180))
 
-    if isVisibleRight:
-        rightBox = rightBox[1] 
-        rightTheta = GetAngle.getTheta(rightBox)
-        rightBoxHeight = rightBox[0][1] - rightBox[2][1]
-        rightDistToWall = GetDistance.getDistanceToWall(rightBoxHeight)  # Distance (d2) of camera to the wall
-        rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight, rightTheta)
-        print("RIGHT DISTANCE TO WALL IN INCHES: "+
-              str(rightDistToWall))
-        print("RIGHT DISTANCE TO TAPE IN INCHES: "+
-              str(rightDistToTape))
-        print("RIGHT TAPE THETA: " + str(rightTheta/math.pi * 180))
+def boxToMeasurements(box):
+    height = box[0][1] - box[2][1] # Finding height of the left vision tape
+    theta = GetAngle.getTheta(box)
+    forward_dist = GetDistance.getForwardDist(height)  # Portion of distance of camera to tape along center of vision
+    real_dist = GetDistance.realDist(forward_dist, theta)
 
-	return (isVisibleLeft, leftDist, leftTheta), (isVisibleRight, rightDist, rightTheta) 
+    return forward_dist, real_dist, theta
