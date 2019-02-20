@@ -94,82 +94,63 @@ double getBoxes::scoring_area_ratio(double width, double height, std::vector<cv:
     cv::Point right = points[1];
     cv::Point bottom = points[2];
     cv::Point top = points[3];
-    double area_slanted = width * height;                                 //The area of the slanted bounding box of the contour
-    double area_straight = abs(top.y - bottom.y) * abs(right.x - left.x); //The area of the straight bounding box of the contour.
-    if (area_straight == 0)
+    double slantedArea = width * height;                                 //The area of the slanted bounding box of the contour
+    double straightArea = abs(top.y - bottom.y) * abs(right.x - left.x); //The area of the straight bounding box of the contour.
+    if (straightArea == 0)
     {
         return 0;
     }
-    double score = 1 / ((target_ratio - (area_slanted / area_straight)) ^ 2 + 1;
+    double score = 1 / ((target_ratio -  slantedArea / straightArea)) ^ 2 + 1;
     return score;
 }
 
-//This function finds how rotated the contour is: optimally, 75.5 degrees or 14.5 degrees.
+// This function finds how rotated the contour is: optimally, 75.5 degrees or 14.5 degrees.
 double getBoxes::scoring_rotation_angle(cv::Point &right, cv::Point &bottom, double weight)
 {
     double rotationAngle = getBoxes::angle(right, bottom);
     rotationAngle = rotationAngle / M_PI * 180;
-    float num = min(pow(14.5 - rotationAngle, 2), pow(75.5 - rotationAngle, 2));
-    return -num / (num + weight) + 1
+    float num = std::min(pow(14.5 - rotationAngle, 2), pow(75.5 - rotationAngle, 2));
+    return -num / (num + weight) + 1;
 }
-//This function finds how much of the contour is legitimately on the slanted bounding box that it was fit -- the optimal contour, like the tape, would have almost all of it's points on (or crossing) the box.
+// This function finds how much of the contour is legitimately on the slanted bounding box that it was fit -- the optimal contour, like the tape, would have almost all of it's points on (or crossing) the box.
 double getBoxes::scoring_filled_value(std::vector<cv::Point> contour, std::vector<cv::Point> box)
 {
-    int max_y = box[3].y;
-    int min_y = box[2].y;
-    int min_x = box[0].x;
-    int max_x = box[1].x;
-    for (k = 0; k < 4; ++k)
+    int maxY = box[3].y;
+    int minY = box[2].y;
+    int minX = box[0].x;
+    int maxX = box[1].x;
+    for (int k = 0; k < 4; ++k)
     {
-        box[k].x -= min_x;
+        box[k].x -= min.x;
         box[k].y -= min.y;
     }
 
-    for (c = 0; c < contour.size(); ++k)
+    for (int c = 0; c < contour.size(); ++c)
     {
-        contour[c].x -= min_x;
+        contour[c].x -= min.x;
         contour[c].y -= min.y;
     }
     std::vector<std::vector<cv::Point>> contours;
     std::vector<std::vector<cv::Point>> boxes;
     boxes.insert(box);
     contours.insert(contour)
-    cv::Mat dst = cv::Mat::zeros(max_y-min_y, max_x-min_x, CV_8UC1);
-    cv::drawContours(dst, contours, -1, 128, thickness=-1);
-    cv::drawContours(dst, boxes, -1, 255, thickness=-1);
+    cv::Mat dst = cv::Mat::zeros(maxY - minY, maxX - minX, CV_8UC1);
+    cv::drawContours(dst, contours, -1, 128, thickness = -1);
+    cv::drawContours(dst, boxes, -1, 255, thickness = -1);
     
 }
 
 
-
-def filled_value(contour, box):
-    # This is to remove the RGB axis
-
-    z_img = np.zeros(shape=Constants.resolution)
-    box[3], box[2] = box[2], box[3]
-    box = box[::-1]
-    box = np.array(box)
-    max_y = max(contour, key=lambda x: x[0][1])[0][1]
-    min_y = min(contour, key=lambda x: x[0][1])[0][1]
-    max_x = max(contour, key=lambda x: x[0][0])[0][0]
-    min_x = min(contour, key=lambda x: x[0][0])[0][0]
-    cv2.drawContours(z_img, [box], 0, color=128, thickness=-1)
-    cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
-    z_img = z_img[min_y:max_y, min_x:max_x]
-    box_total = len(np.where(z_img == 128)[0])
-    contour_total = len(np.where(z_img == 255)[0])
-
-    return float(contour_total)/float(contour_total+box_total+.0001)
-
-
-//This function gets the distance between two given points
+// This function gets the distance between two given points
 double getBoxes::distance(std::vector<cv::Point> &point1, std::vector<cv::Point> &point2)
 {
     return sqrt(pow(point1.x - point2.x, 2) + pow(point1.y - point2.y, 2));
 }
 
-//This function finds the angle given two points
+// This function finds the angle given two points
 double getBoxes::angle(cv::Point point1, cv::Point point2)
 {
-    double dy = point2.y - point1.y double dx = point2.x - point1.x return atan(dy / dx);
+    double dy = point2.y - point1.y;
+    double dx = point2.x - point1.x;
+    return atan(dy / dx);
 }

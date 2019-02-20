@@ -1,3 +1,6 @@
+#pragma once
+#include <opencv2/opencv.hpp>
+
 // Image Capture Settings
 #define LIVE_IMAGE false
 #define TWO_CAMERAS true
@@ -5,7 +8,6 @@
 #define RIGHT_CAMERA_PORT 1
 
 // Logging/Debug settings
-
 #define DISPLAY true
 #define SAVE false
 #define SAVE_IN_FOLDER true
@@ -18,9 +20,9 @@
 #define SOCKETS false
 
 // Contour Finding Settings
-#define HUE_RANGE[2] {50, 90}
-#define SAT_RANGE[2] {80, 255}
-#define VAL_RANGE[2] {142, 218}
+#define HUE_RANGE {50, 90}
+#define SAT_RANGE {80, 255}
+#define VAL_RANGE {142, 218}
 #define FIND_CONTOURS_MODE cv::RetrievalModes::RETR_EXTERNAL  // find only outer contours
 #define FIND_CONTOURS_MODE cv::RetrievalModes::RETR_LIST    // also find contours within other contours
 
@@ -45,7 +47,6 @@
 // experimentally determined 10 pxl per deg at 640x480, going down by a v smol amount at the edge of the frame
 
 // Misc
-
 #define IP "10.49.4.2"  // TODO: Fix Value
 #define TEAM_NUMBER 4904
 #define NETWORK_SPEED 0.02
