@@ -9,6 +9,7 @@ import PairFinding
 import GetDistance
 import GetAngle
 import math
+import time
 
 def imageAnalysis(img, port): #Takes in one image
     print(port) 
@@ -47,9 +48,9 @@ def imageAnalysis(img, port): #Takes in one image
         leftTheta = GetAngle.getTheta(leftBox)
         leftDistToWall = GetDistance.getDistanceToWall(leftBoxHeight)  # Distance (d1) of camera to the wall
         leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
-        """print("\t CAMERA ------" + str(port) + ": LEFT DISTANCE TO WALL IN INCHES: "+
-              str(leftDistToWall))"""
-        print("CAMERA" + str(port) + ": TO LEFT TAPE IN INCHES: "+
+        print("\t CAMERA ------" + str(port) + ": LEFT DISTANCE TO WALL IN INCHES: "+
+              str(leftDistToWall))
+	print("CAMERA" + str(port) + ": TO LEFT TAPE IN INCHES: "+
               str(leftDistToTape))
         print("CAMERA"+ str(port) + "THETA TO LEFT TAPE:" + str(leftTheta/math.pi * 180))
         isVisibleLeft = True
@@ -59,8 +60,8 @@ def imageAnalysis(img, port): #Takes in one image
         rightBoxHeight = rightBox[0][1] - rightBox[2][1]
         rightDistToWall = GetDistance.getDistanceToWall(rightBoxHeight)  # Distance (d2) of camera to the wall
         rightDistToTape = GetDistance.getDistanceToTape(rightBoxHeight, rightTheta)
-        """print("CAMERA" + str(port) + ": RIGHT DISTANCE TO WALL IN INCHES: "+
-              str(rightDistToWall))"""
+        print("CAMERA" + str(port) + ": RIGHT DISTANCE TO WALL IN INCHES: "+
+              str(rightDistToWall))
         print("CAMERA" + str(port) + ": DISTANCE TO RIGHT TAPE IN INCHES: "+
               str(rightDistToTape))
         print("CAMERA-------" + str(port) + ": THETA TO RIGHT TAPE: "+

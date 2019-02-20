@@ -44,8 +44,8 @@ def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTa
     else:
         print("Right tape not visible (for beta calc)")
         return False
-    print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(d_l))
-    print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(d_r))
+    #print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(d_l))
+    #print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(d_r))
     if abs(d_l - d_r) > distanceTapes:
         print("tape distances too far to be the same target")
         return False # Protects against out of range asin errors
