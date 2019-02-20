@@ -147,6 +147,21 @@ double GetBoxes::scoringFilledValue(std::vector<cv::Point> contour, std::vector<
     cv::Mat dst = cv::Mat::zeros(cv::Size(max_y - min_y, max_x - min_x), CV_8UC1);
     cv::drawContours(dst, contours, -1, 128, cv::FILLED);
     cv::drawContours(dst, boxes, -1, 255, cv::FILLED);
+    int contourPixels = 0;
+    int boxPixels = 0;
+    int pixel;
+    for(int y = 0; y<max_y-min_y; ++y){
+        for(int x = 0; x<max_x-min_x; ++x){
+            pixel = dst.at<unsigned char>(y,x);
+            if(pixel==128){
+                ++boxPixels;
+            }
+            if(pixel==255){
+                ++contourPixels
+            }
+        }
+    }
+    return (contourPixels/(boxPixels+contourPixels));
 }
 
 /* *
