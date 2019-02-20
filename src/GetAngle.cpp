@@ -20,7 +20,7 @@ void getAngle::getTheta(std::vector<cv::Point> &box, double FOV = 1.229, double 
 }
 
 //Function returns beta in radians
-double getAngle::getBeta(std::vector<cv::Point> &box, std::optional<double> &lLeftTapeDistWall,
+double getAngle::getBeta(std::optional<double> &lLeftTapeDistWall,
                          std::optional<double> &lRightTapeDistWall, std::optional<double> &rLeftTapeDistWall,
                          std::optional<double> &rRightTapeDistWall, double distanceTapes = 279.4)
 {

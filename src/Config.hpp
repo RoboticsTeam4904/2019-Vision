@@ -26,8 +26,8 @@
 
 // WEIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
 #define HW_RATIO 5
-#define AREA 1
-#define CONTOUR_AREA_VALUES 10
+#define AREA_RATIO 1
+#define FILLED_AREA 10
 #define ROTATION_ANGLE_INFUNC 1
 #define ROTATION_ANGLE_OUTFUNC 1
 
