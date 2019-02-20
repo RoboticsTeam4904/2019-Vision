@@ -2,6 +2,7 @@
 #include <opencv2/opencv.hpp>
 #include <vector>
 #include "config.hpp"
+#include "GetBoxes.hpp"
 
 unsigned long timeStart = 0;
 
@@ -25,16 +26,17 @@ int main()
 
         if (leftCamera.read(leftImg))
         {
-
+            std::vector<std::vector<cv::Point>> leftBoxes = getBoxes::getBoxes(leftImg);
         }
 
         else
         {
-            std::cout << "Unable to get image from camera with port" << LEFT_CAMERA_PORT << std::endl;
+            std::cout << "Unable to get image from camera with port " << LEFT_CAMERA_PORT << std::endl;
         }
 
         if (rightCamera.read(rightImg))
         {
+            std::vector<std::vector<cv::Point>> rightBoxes = getBoxes::getBoxes(rightImg);
         }
 
         else
