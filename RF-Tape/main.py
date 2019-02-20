@@ -26,6 +26,9 @@ def twoCameras(left_image, right_image, frame_num):
     #Get's final theta and distance from center of the tape to center of the robot
     finalTheta, finalDistance = TwoCameraMeasurement.finalDistanceTheta(leftMeasurements[0][3], 
             rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2]) 
+    
+    print("FINAL THETA (IN DEGREES): " +  str(finalTheta/math.pi * 180))
+    print("FINAL DISTANCE: " + str(finalDistance))
 
     if beta:
         x, y = TwoCameraMeasurement.getXandY(finalTheta, finalDistance, beta) #returns x and y coordinate from center of tape to center of robot
@@ -35,12 +38,8 @@ def twoCameras(left_image, right_image, frame_num):
         x, y = 0, 0
         print ("CAN'T GET BETA OR FINAL DISTANCE")
     #finalTheta finalDistance is the final theta and distance from the center of the robot to the center of the tape.
-
     """if config.network_tables:
         NetworkTablesInterface.send_data(x, y, finalTheta, beta, finalDistance, frame_num)"""
-    print("FINAL THETA: " +  str(finalTheta))
-    print("FINAL DISTANCE: " + str(finalDistance))
-
 if __name__ == "__main__":
     if config.live_image:
         frame_num = 0
