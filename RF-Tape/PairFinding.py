@@ -40,7 +40,7 @@ def checkLargestTape(box_list):
 
 def pairFinding(box_list):
     largest_box, largest_height, largest_angle = checkLargestTape(box_list)
-    best_match = False
+    best_match = None
     # We want to find if a match exists. It should have similar height and opposite angle.
     if largest_angle < 0:
         direction = "LEFT"
@@ -69,14 +69,7 @@ def pairFinding(box_list):
             best_match = check_box
             current_min_top_dist = x_distance
 
-    if best_match is not False:
-        # print("FOUND PAIRS") # Then we just take possible_matches[0]
-        if direction == "LEFT":
-            return (True, largest_box), (True, best_match)
-        elif direction == "RIGHT":
-            return (True, best_match), (True, largest_box)
-    else:
-        if direction == "LEFT":
-            return (True, largest_box), (False, None)
-        elif direction == "RIGHT":
-            return (False, None), (True, largest_box)
+    if direction == "LEFT":
+        return largest_box, best_match
+    elif direction == "RIGHT":
+        return best_match, largest_box
