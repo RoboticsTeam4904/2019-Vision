@@ -13,7 +13,7 @@
 #define EXTRA_DEBUG false  // step through each contour in the webcam by turning on extra_debug
 
 // Network Output Settings
-#define NETWORKTABLES true
+#define USE_NETWORKTABLES true
 #define CAN false
 #define SOCKETS false
 

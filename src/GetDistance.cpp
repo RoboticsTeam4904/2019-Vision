@@ -1,7 +1,7 @@
-#include <optional>
-#include <vector>`
-#include <opencv2/opencv.hpp>
 #include <cmath>
+#include <optional>
+#include <vector>
+#include <opencv2/opencv.hpp>
 #include "GetDistance.hpp"
 
 std::optional<double> getDistance::getDistanceToWall(std::vector<cv::Point> &box,
@@ -12,7 +12,7 @@ std::optional<double> getDistance::getDistanceToWall(std::vector<cv::Point> &box
     double heightPixels = top.y - bottom.y;
     distanceConstant *= cos(gamma);
     double distanceToObject distanceConstant / heightPixels * 0.03937;
-    return distanceToObject //Returning distance in inches
+    return distanceToObject; //Return distance in inches
 }
 
 std::optional<double> getDistance::getDistanceToTape(std::vector<cv::Point> &box, double theta,
@@ -24,5 +24,5 @@ std::optional<double> getDistance::getDistanceToTape(std::vector<cv::Point> &box
     distanceConstant *= cos(gamma);
     double distance = distanceConstant / heightPixels * 0.03937;
     distance /= cos(theta);
-    return distance
+    return distance;
 }

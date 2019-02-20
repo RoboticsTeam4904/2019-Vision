@@ -1,12 +1,13 @@
 #define _USE_MATH_DEFINES
 
-#include <opencv2/opencv.hpp>
-#include <cmath>
-#include <vector>
-#include "GetBoxes.hpp"
-#include "config.hpp"
 #include <algorithm>
+#include <cmath>
 #include <cstdlib>
+#include <optional>
+#include <vector>
+#include <opencv2/opencv.hpp>
+#include "GetBoxes.hpp"
+#include "Config.hpp"
 //This function takes in an image, finds all of the contours, and filters them with the scoringMetric evaluation.
 
 std::vector<std::vector<cv::Point>> getBoxes::getBoxes(cv::Mat &img)
@@ -16,15 +17,13 @@ std::vector<std::vector<cv::Point>> getBoxes::getBoxes(cv::Mat &img)
     if (!contours.size())
         return {};
     std::vector<std::vector<cv::Point>> boxes;
-    for (i = 0; i < contours.size(); ++i)
+    for (int i = 0; i < contours.size(); ++i)
     {
         std::optional<std::vector<cv::Point>> box = scoringMetric(contours[i]);
-        if (box)
-        {
-            boxes.insert(box.value());
-        }
+        if (box) boxes.insert(box.value());
+        
     }
-    return boxes
+    return boxes;
 }
 
 //This function calles all of the scoring evaluations, returning a final score for a given box of how likely it is to be a tape
@@ -38,7 +37,7 @@ std::optional<std::vector<cv::Point>> getBoxes::scoringMetric(std::vector<cv::Po
     cv::Point bottom;
     cv::Point left;
     cv::Point right;
-    for (j = 0; j < contour.size(); ++j)
+    for (int j = 0; j < contour.size(); ++j)
     {
         cv::Point contourPoint = contour[j];
         if (contourPoint.x < left.x)
