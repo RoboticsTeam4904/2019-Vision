@@ -5,7 +5,7 @@
 #include "config.hpp"
 
 //Function returns theta in radians
-void getAngle::getTheta(s&box) 
+void getAngle::getTheta(std::vector<cv::Point> &box) 
 {
     cv::Point top = &box[0];    // The top point of the box
     cv::Point left = &box[1];   // The leftmost point of the box
@@ -21,8 +21,9 @@ void getAngle::getTheta(s&box)
 }
 
 //Function returns beta in radians
-double getAngle::getBeta(&lLeftTapeDistWall, &lRightTapeDistWall, &rLeftTapeDistWall,
-                         &rRightTapeDistWall, distanceTapes = 279.4)
+double getAngle::getBeta(std::optional<double> &lLeftTapeDistWall,
+                std::optional<double> &lRightTapeDistWall, std::optional<double> &rLeftTapeDistWall,
+                std::optional<double> &rRightTapeDistWall)
 {
     double distanceLeftTape = 0;
     double distanceRightTape = 0;
@@ -56,6 +57,6 @@ double getAngle::getBeta(&lLeftTapeDistWall, &lRightTapeDistWall, &rLeftTapeDist
     }
 
     distanceRightTape /= counter
-    double beta = asin((distanceRightTape - distanceLeftTape) / distanceTapes);
+    double beta = asin((distanceRightTape - distanceLeftTape) / DISTANCE_TAPES);
     return beta;
 }
