@@ -4,8 +4,7 @@
 #include <opencv2/opencv.hpp>
 #include "GetDistance.hpp"
 
-std::optional<double> getDistance::getDistanceToWall(std::vector<cv::Point> &box,
-                                                     double distanceConstant = 96185.4, double gamma = 0) //gamma should be in radians
+std::optional<double> getDistance::getDistanceToWall(&box, distanceConstant = 96185.4, gamma = 0) //gamma should be in radians
 {
     cv::Point top = box[3];
     cv::Point bottom = box[2];
@@ -15,8 +14,7 @@ std::optional<double> getDistance::getDistanceToWall(std::vector<cv::Point> &box
     return distanceToObject; //Return distance in inches
 }
 
-std::optional<double> getDistance::getDistanceToTape(std::vector<cv::Point> &box, double theta,
-                                                     double distanceConstant = 96185.4, double gamma = 0)
+std::optional<double> getDistance::getDistanceToTape(&box, theta, distanceConstant = 96185.4, gamma = 0)
 {
     cv::Point top = box[3];
     cv::Point bottom = box[2];

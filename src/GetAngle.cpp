@@ -1,10 +1,11 @@
 #include <cmath>∏
-#include <vector>`
+#include <vector>
 #include <opencv2/opencv.hpp>
 #include "GetAngle.hpp"
+#include "config.hpp"
 
 //Function returns theta in radians
-void getAngle::getTheta(std::vector<cv::Point> &box, double FOV = 1.229, double imageWidth = 640.0) 
+void getAngle::getTheta(s&box) 
 {
     cv::Point top = &box[0];    // The top point of the box
     cv::Point left = &box[1];   // The leftmost point of the box
@@ -20,9 +21,8 @@ void getAngle::getTheta(std::vector<cv::Point> &box, double FOV = 1.229, double 
 }
 
 //Function returns beta in radians
-double getAngle::getBeta(std::optional<double> &lLeftTapeDistWall,
-                         std::optional<double> &lRightTapeDistWall, std::optional<double> &rLeftTapeDistWall,
-                         std::optional<double> &rRightTapeDistWall, double distanceTapes = 279.4)
+double getAngle::getBeta(&lLeftTapeDistWall, &lRightTapeDistWall, &rLeftTapeDistWall,
+                         &rRightTapeDistWall, distanceTapes = 279.4)
 {
     double distanceLeftTape = 0;
     double distanceRightTape = 0;
