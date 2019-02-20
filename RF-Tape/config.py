@@ -1,10 +1,10 @@
 # Image Capture Settings
-live_image = False
+live_image = True
 two_cameras = True
 
 # Logging/Debug settings
 
-display = True
+display =  False
 save = False
 save_in_folder = True
 debug = True

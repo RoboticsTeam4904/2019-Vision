@@ -3,11 +3,8 @@ import cv2
 import GetDistance
 
 # Perfect width and height describe the pixel width and height when at the vertical offset and looking straight at the tape. This facilitates angle calculations.
-def getTheta(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOfVision=1.229, imageWidth=640, GAMMA=0):
-    perfectHeight = perfectHeight * math.cos(GAMMA)
+def getTheta(box, fieldOfVision=1.229, imageWidth=640):
     # Perfect ratio is the perfect width divided by the perfect height
-    perfectRatio = perfectWidth/perfectHeight
-    perfectRatio = .589
     top = box[0]
     left = box[1]
     bottom = box[2]
@@ -20,34 +17,38 @@ def getTheta(box, perfectWidth=3.3133853031, perfectHeight=5.8255720302, fieldOf
     try:
         theta = math.atan(P1 * math.tan(fieldOfVision/2)/P2)
     except:
-        return width/(height*perfectRatio)
+        return 0
     # alpha = math.pi -beta + theta
     return theta
 
 # distanceCameras is the distance between cameras
-def getBeta(Camera1LeftTape, Camera1RightTape, Camera2LeftTape, Camera2RightTape, distanceTapes=279.4): # The distance between the two tapes
-    distance1 = 0
-    distance2 = 0
-    
-    if Camera1LeftTape[0]: # Takes in isVisible
-        distance1 += Camera1LeftTape[1]
-    if Camera2LeftTape[0]:
-        distance1 += Camera2LeftTape[1]
-    if Camera1RightTape[0]: #
-        distance2 += Camera1RightTape[1]
-    if Camera2RightTape[0]:
-        distance1 += Camera2RightTape[1]
-    
-    distance1 = distance1/2
-    distance2 = distance2/2
-    
-    if distance1 != None:
-        print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(distance1))
-    if distance2 != None:
-        print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(distance2))
-    if distance1 + distance2>distanceTapes:
+def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTape, distanceTapes=11): # The distance between the two tapes
+    # d_l, d_r are distances to wall
+
+    if leftCamLeftTape[0] and rightCamLeftTape[0]:
+        d_l = (leftCamLeftTape[1] + rightCamLeftTape[1])/2
+    elif leftCamLeftTape[0]:
+        d_l = leftCamLeftTape[1]
+    elif leftCamLeftTape[1]:
+        d_l = rightCamLeftTape[1]
+    else:
+        print("Left tape not visible (for beta calc)")
+        return False
+
+    if leftCamRightTape[0] and rightCamRightTape[0]:
+        d_r = (leftCamRightTape[1] + rightCamRightTape[1])/2
+    elif leftCamRightTape[0]:
+        d_r = leftCamRightTape[1]
+    elif leftCamRightTape[1]:
+        d_r = rightCamRightTape[1]
+    else:
+        print("Right tape not visible (for beta calc)")
+        return False
+    print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(d_l))
+    print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(d_r))
+    if abs(d_l - d_r) > distanceTapes:
+        print("tape distances too far to be the same target")
         return False # Protects against out of range asin errors
    
-    beta = math.asin((distance2-distance1)/distanceTapes) #This is the equation that calculates beta
-    # Converting beta into degrees.
-    return beta/math.pi * 180
+    beta = math.asin((d_r-d_l)/distanceTapes) #This is the equation that calculates beta
+    return beta

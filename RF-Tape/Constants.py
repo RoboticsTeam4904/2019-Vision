@@ -1,13 +1,13 @@
 import cv2
 import numpy as np
 
-LEFT_CAMERA_PORT = 0
-RIGHT_CAMERA_PORT = 1
+LEFT_CAMERA_PORT = 1 
+RIGHT_CAMERA_PORT = 0
 
 # Contour Finding Settings
-HUE_RANGE = (50, 90)
-SAT_RANGE = (80, 255)
-VAL_RANGE = (142, 218)
+HUE_RANGE = (50, 94)
+SAT_RANGE = (103, 255)
+VAL_RANGE = (150, 255)
 FIND_CONTOURS_MODE = cv2.RETR_EXTERNAL  # find only outer contours
 # FIND_CONTOURS_MODE = cv2.RETR_LIST    # also find contours within other contours
 
