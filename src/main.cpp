@@ -1,12 +1,7 @@
 #include <chrono>
 #include <iostream>
 #include <vector>
-<<<<<<< HEAD
-#include <opencv2/opencv.hpp>
-#include "config.hpp"
-=======
 #include "Config.hpp"
->>>>>>> 8feb9ac1f4fdb218ea397fa9841ddba676481ae7
 #include "GetBoxes.hpp"
 #include "GripPipeline.h"
 
