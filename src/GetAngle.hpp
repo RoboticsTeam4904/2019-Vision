@@ -3,7 +3,7 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
 
-namespace getAngle
+namespace GetAngle
 {
     double getTheta(std::vector<cv::Point> &box);
     double getBeta(std::optional<double> &lLeftTapeDistWall,

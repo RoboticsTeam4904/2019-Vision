@@ -5,7 +5,7 @@
 #include "Config.hpp"
 #include "GetDistance.hpp"
 
-std::optional<double> getDistance::getDistanceToWall(std::vector<cv::Point> &box, double gamma) //gamma should be in radians
+std::optional<double> GetDistance::getDistanceToWall(std::vector<cv::Point> &box, double gamma) //gamma should be in radians
 {
     cv::Point top = box[3];
     cv::Point bottom = box[2];
@@ -15,7 +15,7 @@ std::optional<double> getDistance::getDistanceToWall(std::vector<cv::Point> &box
     return distanceToObject; //Return distance in inches
 }
 
-std::optional<double> getDistance::getDistanceToTape(std::vector<cv::Point> &box, double theta, double gamma)
+std::optional<double> GetDistance::getDistanceToTape(std::vector<cv::Point> &box, double theta, double gamma)
 {
     cv::Point top = box[3];
     cv::Point bottom = box[2];
