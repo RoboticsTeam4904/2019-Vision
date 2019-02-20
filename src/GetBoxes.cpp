@@ -141,28 +141,6 @@ double getBoxes::scoring_filled_value(&contour, &box)
     
 }
 
-
-
-def filled_value(contour, box):
-    # This is to remove the RGB axis
-
-    z_img = np.zeros(shape=Constants.resolution)
-    box[3], box[2] = box[2], box[3]
-    box = box[::-1]
-    box = np.array(box)
-    max_y = max(contour, key=lambda x: x[0][1])[0][1]
-    min_y = min(contour, key=lambda x: x[0][1])[0][1]
-    max_x = max(contour, key=lambda x: x[0][0])[0][0]
-    min_x = min(contour, key=lambda x: x[0][0])[0][0]
-    cv2.drawContours(z_img, [box], 0, color=128, thickness=-1)
-    cv2.drawContours(z_img, [contour], 0, color=255, thickness=-1)
-    z_img = z_img[min_y:max_y, min_x:max_x]
-    box_total = len(np.where(z_img == 128)[0])
-    contour_total = len(np.where(z_img == 255)[0])
-
-    return float(contour_total)/float(contour_total+box_total+.0001)
-
-
 //This function gets the distance between two given points
 double getBoxes::distance(std::vector<cv::Point> &point1, std::vector<cv::Point> &point2)
 {
