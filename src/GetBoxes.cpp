@@ -7,12 +7,13 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include "GetBoxes.hpp"
+#include "GripPipeline.h"
 #include "Config.hpp"
 
 /* *
     * Takes in an image, finds all of the contours, and filters them with the scoringMetric evaluation.
 */
-std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img)
+std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img, grip::GripPipeline pipeline)
 {
     pipeline.Process(img);
     std::vector<std::vector<cv::Point>> contours = *pipeline.GetFilterContoursOutput();
@@ -22,14 +23,14 @@ std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img)
     for (int i = 0; i < contours.size(); ++i)
     {
         std::optional<std::vector<cv::Point>> box = scoringMetric(contours[i]);
-        if (box) boxes.insert(box.value());
+        if (box) boxes.push_back(box.value());
         
     }
     return boxes;
 }
 
 /* *
-    * calls all of the scoring evaluations, returning a final score for a given box of how likely it is to be a tape
+    * Calls all of the scoring evaluations, returning a final score for a given box of how likely it is to be a tape
 */
 std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Point> &contour)
 {
@@ -150,18 +151,18 @@ double GetBoxes::scoringFilledValue(std::vector<cv::Point> contour, std::vector<
     int contourPixels = 0;
     int boxPixels = 0;
     int pixel;
-    for(int y = 0; y<max_y-min_y; ++y){
-        for(int x = 0; x<max_x-min_x; ++x){
-            pixel = dst.at<unsigned char>(y,x);
-            if(pixel==128){
+    for(int y = 0; y < max_y - min_y; ++y){
+        for(int x = 0; x < max_x - min_x; ++x){
+            pixel = dst.at<unsigned char>(y, x);
+            if(pixel == 128){
                 ++boxPixels;
             }
-            if(pixel==255){
-                ++contourPixels
+            if(pixel == 255){
+                ++contourPixels;
             }
         }
     }
-    return (contourPixels/(boxPixels+contourPixels));
+    return (contourPixels / (boxPixels + contourPixels));
 }
 
 /* *

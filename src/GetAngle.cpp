@@ -5,15 +5,15 @@
 #include "GetAngle.hpp"
 
 // Function returns theta in radians
-void GetAngle::getTheta(std::vector<cv::Point> &box) {
-    cv::Point top = &box[0];     // The top point of the box
-    cv::Point left = &box[1];    // The leftmost point of the box
-    cv::Point bottom = &box[2];  // The botttom point of the box
-    cv::Point right = &box[3];   // The rightmost point of the box
+double GetAngle::getTheta(std::vector<cv::Point> &box) {
+    cv::Point top = box[0];     // The top point of the box
+    cv::Point left = box[1];    // The leftmost point of the box
+    cv::Point bottom = box[2];  // The botttom point of the box
+    cv::Point right = box[3];   // The rightmost point of the box
     double width = right.x - left.x;
     double height = top.y - bottom.y;
     double averageX = (left.x + right.x) / 2;
-    double P2 = imageWidth / 2;
+    double P2 = width / 2;
     double P1 = averageX - P2;
     double theta = atan(P1 * tan(FOV / 2) / P2);
     return theta;
@@ -50,6 +50,7 @@ double GetAngle::getBeta(std::optional<double> &lLeftTapeDistWall,
         ++counter;
     }
 
-    distanceRightTape /= counter double beta = asin((distanceRightTape - distanceLeftTape) / DISTANCE_TAPES);
+    distanceRightTape /= counter;
+    double beta = asin((distanceRightTape - distanceLeftTape) / DISTANCE_TAPES);
     return beta;
 }

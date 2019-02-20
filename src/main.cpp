@@ -28,7 +28,7 @@ int main()
 
         if (leftCamera.read(leftImg))
         {
-            std::vector<std::vector<cv::Point>> leftBoxes = GetBoxes::getBoxes(leftImg);
+            std::vector<std::vector<cv::Point>> leftBoxes = GetBoxes::getBoxes(leftImg, pipeline);
         }
 
         else
@@ -38,7 +38,7 @@ int main()
 
         if (rightCamera.read(rightImg))
         {
-            std::vector<std::vector<cv::Point>> rightBoxes = GetBoxes::getBoxes(rightImg);
+            std::vector<std::vector<cv::Point>> rightBoxes = GetBoxes::getBoxes(rightImg, pipeline);
         }
 
         else
