@@ -1,5 +1,5 @@
 import cv2
-import Constants, config
+import Constants, config, ScoringMetric
 
 hsv_min = (Constants.HUE_RANGE[0], Constants.SAT_RANGE[0], Constants.VAL_RANGE[0])
 hsv_max = (Constants.HUE_RANGE[1], Constants.SAT_RANGE[1], Constants.VAL_RANGE[1])
@@ -27,7 +27,7 @@ def check_contour(contour):
     return True
 
 # find contours from a BGR numpy ndarray
-def getContours(img): # input
+def findContours(img):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)  # Converts to hsv
     thresh = cv2.inRange(hsv, hsv_min, hsv_max) # Thresholds to a black and white numpy.ndarray
     if Constants.using_cv3: # im2 returned only in version 3.x
@@ -39,3 +39,19 @@ def getContours(img): # input
         Printing.display(thresh, "Threshold")
 
     return filtered_contours
+
+def getBoxes(img):
+    contours = findContours(img)
+    if config.debug and len(contours) == 0:
+        print("No contours found") # TODO: use config.debug
+
+	boxes = [] # Array with all of the boxes with the format (t, r, b, l) for pair finding 
+	for contour in contours:
+		box, score = score(contour)
+        if score >= Constants.MIN_THRESHOLD:
+            boxes.append(box)
+
+    if config.debug and len(boxes) == 0:
+        print("No contours found after filtering")
+
+    return boxes
