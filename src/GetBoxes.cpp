@@ -12,7 +12,7 @@
 /* *
     * Takes in an image, finds all of the contours, and filters them with the scoringMetric evaluation.
 */
-std::vector<std::vector<cv::Point>> GetBoxes::GetBoxes(cv::Mat &img)
+std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img)
 {
     pipeline.Process(img);
     std::vector<std::vector<cv::Point>> contours = *pipeline.GetFilterContoursOutput();
@@ -59,10 +59,10 @@ std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Po
     float height = distance(top, right);
     std::vector<cv::Point> box = points;
     // obtain all of the scores from different metrics, and multiply them ny their respective weights
-    score += scoring_side_ratio(width, height) * HW_RATIO;
-    score += scoring_area_ratio(width, height, points) * AREA_RATIO;
-    score += scoring_rotation_angle(right, bottom, ROTATION_ANGLE_INFUNC) * ROTATION_ANGLE_OUTFUNC;
-    score += scoring_filled_value(contour, box) * FILLED_AREA;
+    score += scoringSideRatio(width, height) * HW_RATIO;
+    score += scoringAreaRatio(width, height, points) * AREA_RATIO;
+    score += scoringRotationAngle(right, bottom, ROTATION_ANGLE_INFUNC) * ROTATION_ANGLE_OUTFUNC;
+    score += scoringFilledValue(contour, box) * FILLED_AREA;
 
     if (score > MIN_THRESHOLD)
     {
@@ -77,7 +77,7 @@ std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Po
 /* *
     * Scores a box based on how accurate the ratio of the length to the sides is
 */
-double GetBoxes::scoring_side_ratio(double width, double height)
+double GetBoxes::scoringSideRatio(double width, double height)
 {
     if (width == 0 || height == 0)
         return 0;
@@ -90,7 +90,7 @@ double GetBoxes::scoring_side_ratio(double width, double height)
 /* *
     * Score based on the ratio of the area of the slanted and straight bounding box.
 */
-double GetBoxes::scoring_area_ratio(double width, double height, std::vector<cv::Point> &points)
+double GetBoxes::scoringAreaRatio(double width, double height, std::vector<cv::Point> &points)
 {
     const double TARGET_RATIO = 0.5698; // TODO: move to config?
     if (width == 0 || height == 0)
@@ -112,7 +112,7 @@ double GetBoxes::scoring_area_ratio(double width, double height, std::vector<cv:
 /* *
     * How rotated the contour is: optimally, 75.5 degrees or 14.5 degrees.
 */
-double GetBoxes::scoring_rotation_angle(cv::Point &right, cv::Point &bottom, double weight)
+double GetBoxes::scoringRotationAngle(cv::Point &right, cv::Point &bottom, double weight)
 {
     double rotationAngle = GetBoxes::angle(right, bottom);
     rotationAngle = rotationAngle / M_PI * 180;
@@ -123,7 +123,7 @@ double GetBoxes::scoring_rotation_angle(cv::Point &right, cv::Point &bottom, dou
 /* *
     * How much of the contour is legitimately on the slanted bounding box that it was fit -- the optimal contour, like the tape, would have almost all of it's points on (or crossing) the box.
 */
-double GetBoxes::scoring_filled_value(std::vector<cv::Point> contour, std::vector<cv::Point> box)
+double GetBoxes::scoringFilledValue(std::vector<cv::Point> contour, std::vector<cv::Point> box)
 {
     int max_y = box[3].y;
     int min_y = box[2].y;
