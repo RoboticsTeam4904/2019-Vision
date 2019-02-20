@@ -11,6 +11,5 @@ void webCam::set(double exposure, int port, double width, double height, double 
     if (gain) setting += " -c gain=" + std::to_string(gain);
     if (contrast) setting += " -c contrast=" + std::to_string(contrast);
     
-    const char *cstr = setting.c_str();
     system(setting.c_str());
 }
