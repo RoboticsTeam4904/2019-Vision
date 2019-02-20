@@ -4,6 +4,7 @@
 #include <vector>
 #include "config.hpp"
 #include "GetBoxes.hpp"
+#include "GripPipeline.h"
 
 unsigned long timeStart = 0;
 

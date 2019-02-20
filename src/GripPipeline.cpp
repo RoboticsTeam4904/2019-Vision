@@ -1,3 +1,5 @@
+#include <opencv2/opencv.hpp>
+#include "Config.hpp"
 #include "GripPipeline.h"
 
 namespace grip {
