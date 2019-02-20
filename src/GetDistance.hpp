@@ -1,6 +1,6 @@
 #pragma once
 #include <optional>
-#include <vector>`
+#include <vector>
 #include <opencv2/opencv.hpp>
 
 namespace GetDistance

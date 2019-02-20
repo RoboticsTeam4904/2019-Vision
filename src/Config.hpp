@@ -47,7 +47,7 @@
 // Vertical feet from camera to bottom of vision target + Height of target in feet
 #define DISPLACEMENT (6.5 + 5) / 12.0
 #define CAMERA_TILT 0
-#define RESOLUTION[2] {640, 480};
+#define RESOLUTION {640, 480};
 // experimentally determined 10 pxl per deg at 640x480, going down by a v smol amount at the edge of the frame
 
 // Misc

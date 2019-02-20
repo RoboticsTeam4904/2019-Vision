@@ -2,7 +2,7 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <vector>
-#include "config.hpp"
+#include "Config.hpp"
 #include "GetBoxes.hpp"
 #include "GripPipeline.h"
 
