@@ -17,19 +17,19 @@ def twoCameras(left_image, right_image, frame_num):
     if not leftMeasurements[0] and not rightMeasurements[0]:
         isVisible = False 
         return
-    beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2], rightMeasurements[1][0:2]) #Get's beta
+    beta = GetAngle.getBeta(leftMeasurements[0][0:2], leftMeasurements[1][0:2], rightMeasurements[0][0:2], rightMeasurements[1][0:2]) # Get's beta
 
-    #Get's final theta and distance from center of the tape to center of the robot
+    # Get's final theta and distance from center of the tape to center of the robot
     finalTheta, finalDistance = TwoCameraMeasurementConsolidation.finalDistanceTheta(leftMeasurements[0][3], 
             rightMeasurements[1][3], leftMeasurements[0][2], rightMeasurements[1][2]) 
 
     if beta:
-        x, y = TwoCameraMeasurementConsolidation.getXandY(finalTheta, finalDistance, beta) #returns x and y coordinate from center of tape to center of robot
+        x, y = TwoCameraMeasurementConsolidation.getXandY(finalTheta, finalDistance, beta) # returns x and y coordinate from center of tape to center of robot
         print(x,y)
     else:
         x, y = 0, 0
         print ("CAN'T PASS IN BETA OR FINAL DISTANCE AND THETA")
-    #finalTheta finalDistance is the final theta and distance from the center of the robot to the center of the tape.
+    # finalTheta finalDistance is the final theta and distance from the center of the robot to the center of the tape.
 
     if config.network_tables:
         NetworkTablesInterface.send_data(x, y, finalTheta, beta, finalDistance, frame_num)
