@@ -1,17 +1,56 @@
 // Image Capture Settings
-#define live_image = False
-#define two_cameras True
+#define LIVE_IMAGE false
+#define TWO_CAMERAS true
+#define LEFT_CAMERA_PORT 0
+#define RIGHT_CAMERA_PORT 1
 
 // Logging/Debug settings
 
-#define display True
-#define save False
-#define save_in_folder True
-#define debug True
-#define extra_debug False  // step through each contour in the webcam by turning on extra_debug
+#define DISPLAY true
+#define SAVE false
+#define SAVE_IN_FOLDER true
+#define DEBUG true
+#define EXTRA_DEBUG false  // step through each contour in the webcam by turning on extra_debug
 
 // Network Output Settings
-#define network_tables True
-#define can False
-#define sockets False
+#define NETWORKTABLES true
+#define CAN false
+#define SOCKETS false
 
+// Contour Finding Settings
+#define HUE_RANGE[2] {50, 90}
+#define SAT_RANGE[2] {80, 255}
+#define VAL_RANGE[2] {142, 218}
+#define FIND_CONTOURS_MODE cv::RetrievalModes::RETR_EXTERNAL  // find only outer contours
+#define FIND_CONTOURS_MODE cv::RetrievalModes::RETR_LIST    // also find contours within other contours
+
+// WEIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
+#define HW_RATIO 5
+#define AREA 1
+#define CONTOUR_AREA_VALUES 10
+#define ROTATION_ANGLE_INFUNC 1
+#define ROTATION_ANGLE_OUTFUNC 1
+
+// When filtering the image, the image should only choose "scores" above the threshold 
+#define MIN_THRESHOLD 13
+
+// Camera settings
+#define exposure 10
+#define FOV 1.229
+
+// Vertical feet from camera to bottom of vision target + Height of target in feet
+#define DISPLACEMENT (6.5 + 5)/12.0
+#define CAMERA_TILT 0
+#define RESOLUTION[2] {640, 480};
+// experimentally determined 10 pxl per deg at 640x480, going down by a v smol amount at the edge of the frame
+
+// Misc
+
+#define IP "10.49.4.2"  // TODO: Fix Value
+#define TEAM_NUMBER 4904
+#define NETWORK_SPEED 0.02
+#define EDITED false
+#define SAMPLE_IMAGE "TestImages/GearTest.png"
+// Number of frames to wait until reinitializing sockets. If 0, never close the socket
+#define SOCKET_RECONNECT_RATE 1
+#define NETWORKTABLES_PORT 5802
