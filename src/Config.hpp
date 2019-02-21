@@ -1,3 +1,6 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
 #include <string>
 
 namespace Config {
@@ -88,3 +91,5 @@ namespace Config {
     constexpr int SOCKET_RECONNECT_RATE = 1;
     constexpr int NETWORKTABLES_PORT = 5802;
 }
+
+#endif

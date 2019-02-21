@@ -1,7 +1,7 @@
 #include <chrono>
 #include <iostream>
 #include <vector>
-#include "Config.cpp"
+#include "Config.hpp"
 #include "GetBoxes.hpp"
 #include "GripPipeline.h"
 

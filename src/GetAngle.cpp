@@ -1,7 +1,7 @@
 #include <cmath>
 #include <vector>
 #include <opencv2/opencv.hpp>
-#include "Config.cpp"
+#include "Config.hpp"
 #include "GetAngle.hpp"
 
 // Function returns theta in radians
