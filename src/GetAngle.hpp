@@ -1,4 +1,6 @@
-#pragma once
+#ifndef GET_ANGLE_H
+#define GET_ANGLE_H
+
 #include <optional>
 #include <vector>
 #include <opencv2/opencv.hpp>
@@ -10,3 +12,4 @@ namespace GetAngle
                 std::optional<double> &lRightTapeDistWall, std::optional<double> &rLeftTapeDistWall,
                 std::optional<double> &rRightTapeDistWall);
 } // namespace getAngle
+#endif

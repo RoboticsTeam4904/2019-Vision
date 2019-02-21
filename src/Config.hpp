@@ -3,93 +3,93 @@
 
 #include <string>
 
-namespace Config {
+namespace Config
+{
 
 /* *
     * Image Capture Settings
 */
-    constexpr bool LIVE_IMAGE = false;
-    constexpr bool TWO_CAMERAS = true;
-    constexpr int LEFT_CAMERA_PORT = 0;
-    constexpr int RIGHT_CAMERA_PORT = 1;
+extern bool LIVE_IMAGE;
+extern bool TWO_CAMERAS;
+extern int LEFT_CAMERA_PORT;
+extern int RIGHT_CAMERA_PORT;
 
 /* *
     * Logging/Debug Settings
 */
-    constexpr bool DISPLAY = true;
-    constexpr bool SAVE = false;
-    constexpr bool SAVE_IN_FOLDER = true;
-    constexpr bool DEBUG = true;
-    constexpr bool EXTRA_DEBUG = false;  // step through each contour in the webcam by turning on extra_debug
+extern bool DISPLAY;
+extern bool SAVE;
+extern bool SAVE_IN_FOLDER;
+extern bool DEBUG;
+extern bool EXTRA_DEBUG; // step through each contour in the webcam by turning on extra_debug
 
 /* *
     * Network Output Settings
 */
-    constexpr bool USE_NETWORKTABLES = true;
-    constexpr bool CAN = false;
-    constexpr bool SOCKETS = false;
+extern bool USE_NETWORKTABLES;
+extern bool CAN;
+extern bool SOCKETS;
 
 /* *
     * Contour Finding Settings
-    * Because they are passed straight into opencv, these values cannot be const or constexpr
+    * Because they are passed straight extern into opencv, these values cannot be  or 
 */
-    double HUE_RANGE[2] = {50, 90};
-    double SAT_RANGE[2] = {80, 255};
-    double VAL_RANGE[2] = {142, 218};
+extern double HUE_RANGE[2];
+extern double SAT_RANGE[2];
+extern double VAL_RANGE[2];
 
 /* *
     * WEIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
 */
-    constexpr int HW_RATIO = 5;
-    constexpr int AREA_RATIO = 1;
-    constexpr int FILLED_AREA = 10;
-    constexpr int ROTATION_ANGLE_INFUNC = 1;
-    constexpr int ROTATION_ANGLE_OUTFUNC = 1;
+extern int HW_RATIO;
+extern int AREA_RATIO;
+extern int FILLED_AREA;
+extern int ROTATION_ANGLE_INFUNC;
+extern int ROTATION_ANGLE_OUTFUNC;
 
 /* *
     * When filtering the image, the image should only choose "scores" above the threshold 
 */
-    constexpr int MIN_THRESHOLD = 13;
+extern int MIN_THRESHOLD;
 
-    // Ideal ratio of length and width of slanted bounding box of tape
-    constexpr double TAPE_DIM_RATIO = 2.75;
-    // Ideal ratio of different areas of tape contours
-    constexpr double TAPE_AREA_RATIO = 0.5698;
+// Ideal ratio of length and width of slanted bounding box of tape
+extern double TAPE_DIM_RATIO;
+// Ideal ratio of different areas of tape contours
+extern double TAPE_AREA_RATIO;
 
 /* *
     * Camera Settings
 */
-    constexpr double EXPOSURE = 10;
-    constexpr double FOV = 1.229;
+extern double EXPOSURE;
+extern double FOV;
 
 /* *
     * Distance Finding Settings
 */
-    constexpr double DISTANCE_CONSTANT = 96185.4; // Constant to get distance
-    constexpr double DISTANCE_TAPES = 279.4; // millimeters
+extern double DISTANCE_CONSTANT;   // ant to get distance
+extern double DISTANCE_TAPES; // millimeters
 
 /* *
     * Vertical feet from camera to bottom of vision target + Height of target in feet
 */
-    constexpr double DISPLACEMENT = (6.5 + 5) / 12.0;
-    constexpr double CAMERA_TILT = 0.0;
-    constexpr int RESOLUTION[2] = {640, 480};
+extern double DISPLACEMENT;
+extern double CAMERA_TILT;
+extern int RESOLUTION[2];
 // experimentally determined 10 pxl per deg at 640x480, going down by a v smol amount at the edge of the frame
 
 /* *
     * Misc
 */
-    const std::string IP = "10.49.4.2";  // TODO: Fix Value
-    constexpr int TEAM_NUMBER = 4904;
-    constexpr double NETWORK_SPEED = 0.02;
-    constexpr bool EDITED = false;
-    const std::string SAMPLE_IMAGE = "TestImages/GearTest.png";
+extern std::string IP; // TODO: Fix Value
+extern int TEAM_NUMBER;
+extern double NETWORK_SPEED;
+extern bool EDITED;
+extern std::string SAMPLE_IMAGE;
 
 /* *
     * Number of frames to wait until reinitializing sockets. If 0, never close the socket
 */
-    constexpr int SOCKET_RECONNECT_RATE = 1;
-    constexpr int NETWORKTABLES_PORT = 5802;
-}
-
+extern int SOCKET_RECONNECT_RATE;
+extern int NETWORKTABLES_PORT;
+} // namespace Config
 #endif

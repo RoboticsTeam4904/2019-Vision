@@ -1,4 +1,6 @@
-#pragma once
+#ifndef GET_BOXES_H
+#define GET_BOXES_H
+
 #include <optional>
 #include <vector>
 #include <opencv2/opencv.hpp>
@@ -15,3 +17,4 @@ double scoringFilledValue(std::vector<cv::Point> contour, std::vector<cv::Point>
 double distance(cv::Point &point1, cv::Point &point2);
 double angle(cv::Point &point1, cv::Point &point2);
 } // namespace GetBoxes
+#endif

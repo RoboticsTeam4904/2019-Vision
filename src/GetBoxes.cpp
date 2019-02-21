@@ -6,9 +6,9 @@
 #include <optional>
 #include <vector>
 #include <opencv2/opencv.hpp>
+#include "Config.hpp"
 #include "GetBoxes.hpp"
 #include "GripPipeline.h"
-#include "Config.hpp"
 
 /* *
     * Takes in an image, finds all of the contours, and filters them with the scoringMetric evaluation.
