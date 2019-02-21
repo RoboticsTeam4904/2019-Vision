@@ -53,7 +53,7 @@ namespace Config {
 /* *
     * Camera Settings
 */
-#define exposure 10
+    constexpr double EXPOSURE = 10;
     constexpr double FOV = 1.229;
 
 /* *
@@ -65,7 +65,6 @@ namespace Config {
 /* *
     * Vertical feet from camera to bottom of vision target + Height of target in feet
 */
-
     constexpr double DISPLACEMENT = (6.5 + 5) / 12.0;
     constexpr double CAMERA_TILT = 0.0;
     constexpr int RESOLUTION[2] = {640, 480};
@@ -83,7 +82,6 @@ namespace Config {
 /* *
     * Number of frames to wait until reinitializing sockets. If 0, never close the socket
 */
-
     constexpr int SOCKET_RECONNECT_RATE = 1;
     constexpr int NETWORKTABLES_PORT = 5802;
 }
