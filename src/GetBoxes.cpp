@@ -61,7 +61,7 @@ std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Po
         + scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC 
         + scoringFilledValue(contour, box) * Config::FILLED_AREA;
 
-    return score > Config::MIN_THRESHOLD ? optional<std::vector<cv::Point>>(box) : std::nullopt;
+    return score > Config::MIN_THRESHOLD ? std::optional<std::vector<cv::Point>>(box) : std::nullopt;
 }
 
 /* *
