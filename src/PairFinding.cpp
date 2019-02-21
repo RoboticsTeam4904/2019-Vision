@@ -1,116 +1,104 @@
 #define _USE_MATH_DEFINES
 
 #include <cmath>
+#include <optional>
+#include <string>
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include "Config.hpp"
 #include "GetBoxes.hpp"
+#include "PairFinding.hpp"
 
-std::vector<std::optional<std::vector<cv::Point>>> pairFinding(std::vector<std::vector<cv::Point>> boxes)
-{
-    std::optional<std::vector<cv::Point>> max_box = checkLargestTape(boxes);
-    std::optional<std::vector<cv::Point>> pair_box;
+
+std::vector<std::optional<std::vector<cv::Point>>> PairFinding::pairFinding(std::vector<std::vector<cv::Point>> boxes) {
+    std::optional<std::vector<cv::Point>> maxBox = checkLargestTape(boxes);
+    std::optional<std::vector<cv::Point>> pairBox;
     std::vector<std::optional<cv::Point>> boxes;
     std::string direction;
-    int check_height;
-    std::optional<std::vector<cv::Point>> check_box;
-    int diff_x;
-    double max_height = max_box[3].y - max_box[2].y;
-    double min_distance = 100000;
+    int checkHeight;
+    std::optional<std::vector<cv::Point>> checkBox;
+    int diffX;
+    double maxHeight = maxBox[3].y - maxBox[2].y;
+    double minDistance = 100000;
     bool pairObtained = false;
-    if (max_box[0].y > max_box[1].y)
-        cv::Point angle_point = max_box[0];
+    if (maxBox[0].y > maxBox[1].y)
+        cv::Point anglePoint = maxBox[0];
 
-    else
-    {
-        cv::Point angle_point = max_box[1];
+    else {
+        cv::Point anglePoint = maxBox[1];
     }
-    double max_angle = getBoxes::angle(max_box[3], angle_point);
-    max_angle = -((M_PI / 2 + max_angle) % M_PI - M_PI / 2);
-    if (max_angle < 0)
+    double maxAngle = getBoxes::angle(maxBox[3], anglePoint);
+    maxAngle = -((M_PI / 2 + maxAngle) % M_PI - M_PI / 2);
+    if (maxAngle < 0)
         direction = "LEFT";
-    else
-    {
+    else {
         direction = "RIGHT";
     }
-    for (int j = 0; j < boxes.size(); ++j)
-    {
-        check_box = boxes[j];
-        check_height = check_box[3].y - check_box[2].y;
-        if (check_box[0].y > check_box[1].y)
-            angle_point = check_box[0];
+    for (int j = 0; j < boxes.size(); ++j) {
+        checkBox = boxes[j];
+        checkHeight = checkBox[3].y - checkBox[2].y;
+        if (checkBox[0].y > checkBox[1].y)
+            anglePoint = checkBox[0];
 
-        else
-        {
-            angle_point = check_box[1];
+        else {
+            anglePoint = checkBox[1];
         }
-        double check_angle = getBoxes::angle(check_box[3], angle_point);
-        check_angle = -((M_PI / 2 + max_angle) % M_PI - M_PI / 2);
-        if (check < 0)
-            check_direction = "LEFT";
-        else
-        {
-            check_direction = "RIGHT";
-        }
-        if (check_direction == direction)
-            continue;
-        else
-        {
-            if (abs(check_angle) - 14.5 < (Config::ANGLE_THRESHOLD / M_PI * 180))
-            {
-                diff_x = check_box[0].x - max_box[0].x;
-                if (diff_x < min_distance)
-                {
-                    pair_box = check_box;
-                    min_distance = diff_x;
+        double checkAngle = GetBoxes::angle(checkBox[3], anglePoint);
+        checkAngle = -((M_PI / 2 + maxAngle) % M_PI - M_PI / 2);
+        if (check < 0) {
+            checkDirection = "LEFT";
+        } else {
+            checkDirection = "RIGHT";
+            }
+        
+        if(checkDirection != direction) {
+            if (abs(checkAngle) - 14.5 < (Config::ANGLE_THRESHOLD / M_PI * 180)) {
+                diffX = checkBox[0].x - maxBox[0].x;
+                if (diffX < minDistance) {
+                    pairBox = checkBox;
+                    minDistance = diffX;
                     pairObtained = true;
                 }
             }
         }
 
-        if (pairObtained && direction == "LEFT")
-        {
-            boxes.insert(max_box);
-            boxes.insert(pair_box);
+        if (pairObtained && direction == "LEFT") {
+            boxes.insert(maxBox);
+            boxes.insert(pairBox);
             return boxes;
         }
 
-        else if (pairObtained && direction == "RIGHT")
-        {
-            boxes.insert(pair_box);
-            boxes.insert(max_box);
+        else if (pairObtained && direction == "RIGHT") {
+            boxes.insert(pairBox);
+            boxes.insert(maxBox);
             return boxes;
         }
 
-        else if(direction=="RIGHT")
-        {
-            boxes.insert(std::nullopt)
-            boxes.insert(max_box);
+        else if (direction == "RIGHT") {
+            boxes.insert(std::nullopt);
+            boxes.insert(maxBox);
             return boxes;
         }
 
-        else
-        {
-            boxes.insert(max_box);
+        else {
+            boxes.insert(maxBox);
             boxes.insert(std::nullopt);
             return boxes;
         }
     }
 }
-std::vector<cv::Point> checkLargestTape(std::vector<std::vector<cv::Point>> boxes)
-{
-    std::vector<cv::Point> max_box;
-    int max_height = -1;
-    for (k = 0; k < boxes.size(); ++k)
-    {
+std::vector<cv::Point> checkLargestTape(std::vector<std::vector<cv::Point>> boxes) {
+    std::vector<cv::Point> maxBox;
+    int maxHeight = -1;
+    for (int k = 0; k < boxes.size(); ++k) {
         std::vector<cv::Point> box = boxes[k];
         int height = box[3].y - box[2].y;
-        if (height > max_height)
+        if (height > maxHeight)
 
         {
-            max_height = height;
-            max_box = box;
+            maxHeight = height;
+            maxBox = box;
         }
     }
-    return max_box;
+    return maxBox;
 }

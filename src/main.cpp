@@ -51,13 +51,13 @@ int main()
 
         if (leftCamera.read(leftImg))
         {
-            leftBoxes = getBoxes::getBoxes(leftImg, pipeline);
+            leftBoxes = GetBoxes::getBoxes(leftImg, pipeline); // TODO: for both right and left this value is set twice. Which is right?
             if (!leftBoxes.size())
             {
                 std::cout << "No images found after filtering for left camera" << std::endl;
                 continue;
             }
-            leftBoxes = pairFinding::pairFinding(leftBoxes);
+            leftBoxes = PairFinding::pairFinding(leftBoxes);
             lLeftDistanceWall = GetDistance::getDistanceToWall(leftBoxes[0]);
             lRightDistanceWall = GetDistance::getDistanceToWall(leftBoxes[1]);
             lLeftTheta = GetAngle::getTheta(leftBoxes[0]);
@@ -71,13 +71,13 @@ int main()
 
             if (rightCamera.read(rightImg))
             {
-                rightBoxes = getBoxes::getBoxes(rightImg, pipeline);
+                rightBoxes = GetBoxes::getBoxes(rightImg, pipeline);
                 if (!rightBoxes.size())
                 {
                     std::cout << "No images found after filtering for right camera" << std::endl;
                     continue;
                 }
-                rightBoxes = pairFinding::pairFinding(rightBoxes);
+                rightBoxes = PairFinding::pairFinding(rightBoxes);
                 rLeftDistanceWall = GetDistance::getDistanceToWall(rightBoxes[0]);
                 rRightDistanceWall = GetDistance::getDistanceToWall(rightBoxes[1]);
                 rLeftTheta = GetAngle::getTheta(rightBoxes[0]);
@@ -90,7 +90,7 @@ int main()
                 std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
             }
             beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
-            std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
+            std::cout << "BETA (In degrees): " << beta.value() / M_PI * 180 << std::endl;
             if (Config::DEBUG)
                 std::cout << "Time per frame: "
                           << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch())
