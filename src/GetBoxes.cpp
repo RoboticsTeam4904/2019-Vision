@@ -20,11 +20,11 @@ std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img, grip::GripP
     if (!contours.size())
         return contours;
     std::vector<std::vector<cv::Point>> boxes;
-    for (int i = 0; i < contours.size(); ++i)
+    for (std::vector<cv::Point> &contour : contours)
     {
-        std::optional<std::vector<cv::Point>> box = scoringMetric(contours[i]);
-        if (box) boxes.push_back(box.value());
-        
+        std::optional<std::vector<cv::Point>> box = scoringMetric(contour);
+        if (box)
+            boxes.push_back(box.value());
     }
     return boxes;
 }
@@ -34,14 +34,12 @@ std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img, grip::GripP
 */
 std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Point> &contour)
 {
-    double score = 0;
     cv::Point top;
     cv::Point bottom;
     cv::Point left;
     cv::Point right;
-    for (int j = 0; j < contour.size(); ++j)
+    for (cv::Point &contourPoint : contour)
     {
-        cv::Point contourPoint = contour[j];
         if (contourPoint.x < left.x)
             left = contourPoint;
         if (contourPoint.x > right.x)
@@ -51,32 +49,19 @@ std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Po
         if (contourPoint.y > bottom.y)
             top = contourPoint;
     }
-    std::vector<cv::Point> points(4);
-    points[0] = left;
-    points[1] = right;
-    points[2] = bottom;
-    points[3] = top;
+    std::vector<cv::Point> points = {left, right, bottom, top};
     float width = distance(top, left);
     float height = distance(top, right);
     std::vector<cv::Point> box = points;
     /* *
     * Obtain all of the scores from different metrics, and multiply them ny their respective weights
     */
-    score += scoringSideRatio(width, height) * Config::HW_RATIO;
-    score += scoringAreaRatio(width, height, points) * Config::AREA_RATIO;
-    score += scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC;
-    score += scoringFilledValue(contour, box) * Config::FILLED_AREA;
+    double score = scoringSideRatio(width, height) * Config::HW_RATIO 
+        + scoringAreaRatio(width, height, points) * Config::AREA_RATIO
+        + scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC 
+        + scoringFilledValue(contour, box) * Config::FILLED_AREA;
 
-    if (score > Config::MIN_THRESHOLD)
-    {
-        /* *
-        * Return a box if its score is above a certain threshold
-        */
-        return box;
-    }
-    else{
-        return std::nullopt;
-    }
+    return score > Config::MIN_THRESHOLD ? std::optional<std::vector<cv::Point>>(box) : std::nullopt;
 }
 
 /* *
@@ -84,12 +69,8 @@ std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Po
 */
 double GetBoxes::scoringSideRatio(double width, double height)
 {
-    if (width == 0 || height == 0)
-        return 0;
-    double TARGET_RATIO = 2.75; //Ratio of length and width of slanted bounding box of tape
-    double score = std::max(1 / (pow(TARGET_RATIO - width / height,2) + 1),
-                            1 / (pow(TARGET_RATIO - height / width,2) + 1));
-    return score;
+    return !(width && height) ? 0 : std::max(1 / (pow(Config::TAPE_DIM_RATIO - width / height, 2) + 1),
+                                              1 / (pow(Config::TAPE_DIM_RATIO - height / width, 2) + 1));
 }
 
 /* *
@@ -97,21 +78,14 @@ double GetBoxes::scoringSideRatio(double width, double height)
 */
 double GetBoxes::scoringAreaRatio(double width, double height, std::vector<cv::Point> &points)
 {
-    const double TARGET_RATIO = 0.5698; // TODO: move to config?
-    if (width == 0 || height == 0)
-        return 0;
+    if (!(width && height)) return 0;
     cv::Point left = points[0];
     cv::Point right = points[1];
     cv::Point bottom = points[2];
     cv::Point top = points[3];
     double slantedArea = width * height;                                 // The area of the slanted bounding box of the contour
     double straightArea = abs(top.y - bottom.y) * abs(right.x - left.x); // The area of the straight bounding box of the contour.
-    if (straightArea == 0)
-    {
-        return 0;
-    }
-    double score = 1 / (pow(TARGET_RATIO - (slantedArea / straightArea), 2) + 1);
-    return score;
+    return !straightArea ? 0 : 1 / (pow(Config::TAPE_AREA_RATIO - (slantedArea / straightArea), 2) + 1);
 }
 
 /* *
@@ -119,8 +93,7 @@ double GetBoxes::scoringAreaRatio(double width, double height, std::vector<cv::P
 */
 double GetBoxes::scoringRotationAngle(cv::Point &right, cv::Point &bottom, double weight)
 {
-    double rotationAngle = GetBoxes::angle(right, bottom);
-    rotationAngle = rotationAngle / M_PI * 180;
+    double rotationAngle = GetBoxes::angle(right, bottom) / M_PI * 180;
     float num = std::min(pow(14.5 - rotationAngle, 2), pow(75.5 - rotationAngle, 2));
     return -num / (num + weight) + 1;
 }
@@ -130,42 +103,29 @@ double GetBoxes::scoringRotationAngle(cv::Point &right, cv::Point &bottom, doubl
 */
 double GetBoxes::scoringFilledValue(std::vector<cv::Point> contour, std::vector<cv::Point> box)
 {
-    int max_y = box[3].y;
-    int min_y = box[2].y;
-    int min_x = box[0].x;
-    int max_x = box[1].x;
-    for (int k = 0; k < 4; ++k)
-    {
-        box[k].x -= min_x;
-        box[k].y -= min_y;
-    }
+    cv::Point max(box[1].x, box[3].y);
+    cv::Point min(box[0].x, box[2].y);
+    for (cv::Point &corner : box)
+        corner -= min;
 
-    for (int c = 0; c < contour.size(); ++c)
-    {
-        contour[c].x -= min_x;
-        contour[c].y -= min_y;
-    }
-    std::vector<std::vector<cv::Point>> contours;
-    std::vector<std::vector<cv::Point>> boxes;
-    boxes.push_back(box);
-    contours.push_back(contour);
-    cv::Mat dst = cv::Mat::zeros(cv::Size(max_y - min_y, max_x - min_x), CV_8UC1);
-    cv::drawContours(dst, contours, -1, 128, cv::FILLED);
-    cv::drawContours(dst, boxes, -1, 255, cv::FILLED);
+    for (cv::Point &contourPoint : contour)
+        contourPoint -= min;
+
+    cv::Mat dst = cv::Mat::zeros(cv::Size(max.y - min.y, max.x - min.x), CV_8UC1);
+    cv::drawContours(dst, std::vector<std::vector<cv::Point>> {contour}, -1, 128, cv::FILLED);
+    cv::drawContours(dst, std::vector<std::vector<cv::Point>> {box}, -1, 255, cv::FILLED);
     int contourPixels = 0;
     int boxPixels = 0;
     int pixel;
-    for(int y = 0; y < max_y - min_y; ++y){
-        for(int x = 0; x < max_x - min_x; ++x){
+    for (int y = 0; y < max.y - min.y; ++y)
+        for (int x = 0; x < max.x - min.x; ++x)
+        {
             pixel = dst.at<unsigned char>(y, x);
-            if(pixel == 128){
+            if (pixel == 128)
                 ++boxPixels;
-            }
-            if(pixel == 255){
+            else if (pixel == 255)
                 ++contourPixels;
-            }
-        }
-    }
+        };
     return (contourPixels / (boxPixels + contourPixels));
 }
 

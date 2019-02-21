@@ -20,6 +20,7 @@ int main() {
             << " NETWORKTABLES_PORT=" << Config::NETWORKTABLES_PORT
             << " TEAM_NUMBER=" << Config::TEAM_NUMBER
             << std::endl;
+
     grip::GripPipeline pipeline = grip::GripPipeline();
     cv::VideoCapture leftCamera(Config::LEFT_CAMERA_PORT);
     cv::VideoCapture rightCamera(Config::RIGHT_CAMERA_PORT);
@@ -61,7 +62,6 @@ int main() {
             
         } else {
             std::cout << "Unable to get image from camera with port " << Config::LEFT_CAMERA_PORT << std::endl;
-        }
 
         if (rightCamera.read(rightImg)) {
             rightBoxes = getBoxes::getBoxes(rightImg, pipeline);

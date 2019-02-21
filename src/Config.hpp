@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CONFIG_H
+#define CONFIG_H
 
 #include <string>
 
@@ -50,6 +51,11 @@ namespace Config {
 */
     constexpr int MIN_THRESHOLD = 13;
 
+    // Ideal ratio of length and width of slanted bounding box of tape
+    constexpr double TAPE_DIM_RATIO = 2.75;
+    // Ideal ratio of different areas of tape contours
+    constexpr double TAPE_AREA_RATIO = 0.5698;
+
 /* *
     * Camera Settings
 */
@@ -86,3 +92,5 @@ namespace Config {
     constexpr int SOCKET_RECONNECT_RATE = 1;
     constexpr int NETWORKTABLES_PORT = 5802;
 }
+
+#endif
