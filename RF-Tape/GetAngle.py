@@ -25,30 +25,31 @@ def getTheta(box, fieldOfVision=1.229, imageWidth=640):
 def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTape, distanceTapes=11): # The distance between the two tapes
     # d_l, d_r are distances to wall
 
-    if leftCamLeftTape[0] and rightCamLeftTape[0]:
-        d_l = (leftCamLeftTape[1] + rightCamLeftTape[1])/2
-    elif leftCamLeftTape[0]:
-        d_l = leftCamLeftTape[1]
-    elif leftCamLeftTape[1]:
-        d_l = rightCamLeftTape[1]
+    if leftCamLeftTape and rightCamLeftTape:
+        d_l = 1/2.0 * (leftCamLeftTape['forward_dist'] + rightCamLeftTape['forward_dist'])
+    elif leftCamLeftTape:
+        d_l = leftCamLeftTape['forward_dist']
+    elif rightCamLeftTape:
+        d_l = rightCamLeftTape['forward_dist']
     else:
-        print("Left tape not visible (for beta calc)")
-        return False
+        print("Left tape not visible from either camera (for beta calc)")
+        return 0
 
-    if leftCamRightTape[0] and rightCamRightTape[0]:
-        d_r = (leftCamRightTape[1] + rightCamRightTape[1])/2
-    elif leftCamRightTape[0]:
-        d_r = leftCamRightTape[1]
-    elif leftCamRightTape[1]:
-        d_r = rightCamRightTape[1]
+    if leftCamRightTape and rightCamRightTape:
+        d_r = 1/2.0 * (leftCamRightTape['forward_dist'] + rightCamRightTape['forward_dist'])
+    elif leftCamRightTape:
+        d_r = leftCamRightTape['forward_dist']
+    elif rightCamRightTape:
+        d_r = rightCamRightTape['forward_dist']
     else:
-        print("Right tape not visible (for beta calc)")
-        return False
-    print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(d_l))
-    print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(d_r))
-    if abs(d_l - d_r) > distanceTapes:
-        print("tape distances too far to be the same target")
-        return False # Protects against out of range asin errors
+        print("Right tape not visible from either camera (for beta calc)")
+        return 0
+    if config.debug:
+        print("\t \t \t \t DISTANCE TO WALL for LEFT TAPE is " + str(d_l))
+        print("\t \t \t \t DISTANCE TO WALL for RIGHT_TAPE is " + str(d_r))
+    if abs(d_r - d_l) > distanceTapes: # Protects against out of range asin errors
+        print("Tape distances too far to be the same target")
+        return 0
    
-    beta = math.asin((d_r-d_l)/distanceTapes) #This is the equation that calculates beta
+    beta = math.asin((d_r - d_l) / distanceTapes) # Calculate beta
     return beta

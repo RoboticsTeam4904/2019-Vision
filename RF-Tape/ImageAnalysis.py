@@ -10,7 +10,6 @@ import GetDistance
 import GetAngle
 import math
 
-<<<<<<< HEAD
 def imageAnalysis(img):
     left_data, right_data = None, None
 
@@ -24,7 +23,7 @@ def imageAnalysis(img):
         if right_box != None:
             right_data = boxToMeasurements(right_box)
 
-    return (left_data, right_data)
+    return left_data, right_data
 
 def boxToMeasurements(box):
     height = box[0][1] - box[2][1] # Finding height of the left vision tape

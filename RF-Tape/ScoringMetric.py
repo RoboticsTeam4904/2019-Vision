@@ -1,7 +1,7 @@
 import math
 import cv2
 import numpy as np
-import Constants
+import config, Constants
 
 
 def dist2d(p1, p2):
@@ -10,7 +10,7 @@ def dist2d(p1, p2):
 def boxAndScore(contour):
     # Get box (corners of bounding rotated rectangle)
     rect = cv2.minAreaRect(contour)
-    if Constants.using_cv3:
+    if config.using_cv3:
         box = cv2.boxPoints(rect)
     else:
         box = cv2.cv.BoxPoints(rect)
