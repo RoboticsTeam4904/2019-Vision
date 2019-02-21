@@ -2,7 +2,7 @@
 #include <optional>
 #include <vector>
 #include <opencv2/opencv.hpp>
-#include "Config.hpp"
+#include "Config.cpp"
 #include "GetDistance.hpp"
 
 std::optional<double> GetDistance::getDistanceToWall(std::vector<cv::Point> &box, double gamma) //gamma should be in radians
