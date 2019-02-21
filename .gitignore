@@ -11,3 +11,6 @@ main
 CMakeLists.txt
 build
 *.tmp
+.idea
+cmake-build-*
+out

@@ -15,7 +15,7 @@ double GetAngle::getTheta(std::vector<cv::Point> &box) {
     double averageX = (left.x + right.x) / 2;
     double P2 = width / 2;
     double P1 = averageX - P2;
-    double theta = atan(P1 * tan(FOV / 2) / P2);
+    double theta = atan(P1 * tan(Config::FOV / 2) / P2);
     return theta;
 }
 
@@ -51,6 +51,6 @@ double GetAngle::getBeta(std::optional<double> &lLeftTapeDistWall,
     }
 
     distanceRightTape /= counter;
-    double beta = asin((distanceRightTape - distanceLeftTape) / DISTANCE_TAPES);
+    double beta = asin((distanceRightTape - distanceLeftTape) / Config::DISTANCE_TAPES);
     return beta;
 }

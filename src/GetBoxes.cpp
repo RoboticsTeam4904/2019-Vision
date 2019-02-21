@@ -62,12 +62,12 @@ std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Po
     /* *
     * Obtain all of the scores from different metrics, and multiply them ny their respective weights
     */
-    score += scoringSideRatio(width, height) * HW_RATIO;
-    score += scoringAreaRatio(width, height, points) * AREA_RATIO;
-    score += scoringRotationAngle(right, bottom, ROTATION_ANGLE_INFUNC) * ROTATION_ANGLE_OUTFUNC;
-    score += scoringFilledValue(contour, box) * FILLED_AREA;
+    score += scoringSideRatio(width, height) * Config::HW_RATIO;
+    score += scoringAreaRatio(width, height, points) * Config::AREA_RATIO;
+    score += scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC;
+    score += scoringFilledValue(contour, box) * Config::FILLED_AREA;
 
-    if (score > MIN_THRESHOLD)
+    if (score > Config::MIN_THRESHOLD)
     {
         /* *
         * Return a box if its score is above a certain threshold

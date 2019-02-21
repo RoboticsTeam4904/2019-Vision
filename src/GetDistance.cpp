@@ -10,7 +10,7 @@ std::optional<double> GetDistance::getDistanceToWall(std::vector<cv::Point> &box
     cv::Point top = box[3];
     cv::Point bottom = box[2];
     double heightPixels = top.y - bottom.y;
-    double distanceConstant = cos(gamma) * DISTANCE_CONSTANT;
+    double distanceConstant = cos(gamma) * Config::DISTANCE_CONSTANT;
     double distanceToObject =  distanceConstant / heightPixels * 0.03937;
     return distanceToObject; //Return distance in inches
 }
@@ -20,7 +20,7 @@ std::optional<double> GetDistance::getDistanceToTape(std::vector<cv::Point> &box
     cv::Point top = box[3];
     cv::Point bottom = box[2];
     double heightPixels = top.y - bottom.y;
-    double distanceConstant = cos(gamma) * DISTANCE_CONSTANT;
+    double distanceConstant = cos(gamma) * Config::DISTANCE_CONSTANT;
     double distance = distanceConstant / heightPixels * 0.03937;
     distance /= cos(theta);
     return distance;
