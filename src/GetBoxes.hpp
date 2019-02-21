@@ -8,7 +8,7 @@
 
 namespace GetBoxes
 {
-std::vector<std::vector<cv::Point>> getBoxes(cv::Mat &img, grip::GripPipeline pipeline);
+std::vector<std::vector<cv::Point>> getBoxes(cv::Mat &img, grip::GripPipeline &pipeline);
 std::optional<std::vector<cv::Point>> scoringMetric(std::vector<cv::Point> &contour);
 double scoringSideRatio(double width, double height);
 double scoringAreaRatio(double width, double height, std::vector<cv::Point> &points);

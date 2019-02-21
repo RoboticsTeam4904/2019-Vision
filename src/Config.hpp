@@ -64,10 +64,11 @@ extern double EXPOSURE;
 extern double FOV;
 
 /* *
-    * Distance Finding Settings
+    * Distance and Anngle Finding Settings
 */
 extern double DISTANCE_CONSTANT;   // ant to get distance
 extern double DISTANCE_TAPES; // millimeters
+extern double ANGLE_THRESHOLD;
 
 /* *
     * Vertical feet from camera to bottom of vision target + Height of target in feet
