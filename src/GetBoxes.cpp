@@ -38,7 +38,7 @@ std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Po
     cv::Point bottom;
     cv::Point left;
     cv::Point right;
-    for (cv::Point &contourPoint : countour)
+    for (cv::Point &contourPoint : contour)
     {
         if (contourPoint.x < left.x)
             left = contourPoint;
@@ -69,8 +69,8 @@ std::optional<std::vector<cv::Point>> GetBoxes::scoringMetric(std::vector<cv::Po
 */
 double GetBoxes::scoringSideRatio(double width, double height)
 {
-    return !(width && height)) ? 0 : std::max(1 / (pow(TAPE_DIM_RATIO - width / height, 2) + 1),
-                                              1 / (pow(TAPE_DIM_RATIO - height / width, 2) + 1));
+    return !(width && height) ? 0 : std::max(1 / (pow(Config::TAPE_DIM_RATIO - width / height, 2) + 1),
+                                              1 / (pow(Config::TAPE_DIM_RATIO - height / width, 2) + 1));
 }
 
 /* *
@@ -78,15 +78,14 @@ double GetBoxes::scoringSideRatio(double width, double height)
 */
 double GetBoxes::scoringAreaRatio(double width, double height, std::vector<cv::Point> &points)
 {
-    if (!(width && height))
-        return 0;
+    if (!(width && height)) return 0;
     cv::Point left = points[0];
     cv::Point right = points[1];
     cv::Point bottom = points[2];
     cv::Point top = points[3];
     double slantedArea = width * height;                                 // The area of the slanted bounding box of the contour
     double straightArea = abs(top.y - bottom.y) * abs(right.x - left.x); // The area of the straight bounding box of the contour.
-    return !straightArea ? 0 : 1 / (pow(TAPE_AREA_RATIO - (slantedArea / straightArea), 2) + 1);
+    return !straightArea ? 0 : 1 / (pow(Config::TAPE_AREA_RATIO - (slantedArea / straightArea), 2) + 1);
 }
 
 /* *
