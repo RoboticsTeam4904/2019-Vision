@@ -57,10 +57,11 @@ namespace Config {
     constexpr double FOV = 1.229;
 
 /* *
-    * Distance Finding Settings
+    * Distance and Anngle Finding Settings
 */
     constexpr double DISTANCE_CONSTANT = 96185.4; // Constant to get distance
     constexpr double DISTANCE_TAPES = 279.4; // millimeters
+    constexpr double ANGLE_THRESHOLD = .3;
 
 /* *
     * Vertical feet from camera to bottom of vision target + Height of target in feet

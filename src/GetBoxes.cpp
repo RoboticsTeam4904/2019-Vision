@@ -13,12 +13,12 @@
 /* *
     * Takes in an image, finds all of the contours, and filters them with the scoringMetric evaluation.
 */
-std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img, grip::GripPipeline pipeline)
+std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img, grip::GripPipeline &pipeline)
 {
     pipeline.Process(img);
     std::vector<std::vector<cv::Point>> contours = *pipeline.GetFilterContoursOutput();
     if (!contours.size())
-        return {};
+        return contours;
     std::vector<std::vector<cv::Point>> boxes;
     for (int i = 0; i < contours.size(); ++i)
     {

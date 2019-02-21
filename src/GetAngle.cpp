@@ -1,15 +1,22 @@
 #include <cmath>
+#include <optional>
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include "Config.hpp"
 #include "GetAngle.hpp"
 
 // Function returns theta in radians
-double GetAngle::getTheta(std::vector<cv::Point> &box) {
-    cv::Point top = box[0];     // The top point of the box
-    cv::Point left = box[1];    // The leftmost point of the box
-    cv::Point bottom = box[2];  // The botttom point of the box
-    cv::Point right = box[3];   // The rightmost point of the box
+std::optional<double> GetAngle::getTheta(std::optional<std::vector<cv::Point>> &box) {
+    if(box){
+        std::vector<cv::Point>boxValue = box.value();
+    }
+    else{
+        return std::nullopt;
+    }
+    cv::Point top = boxValue[0];     // The top point of the box
+    cv::Point left = boxValue[1];    // The leftmost point of the box
+    cv::Point bottom = boxValue[2];  // The botttom point of the box
+    cv::Point right = boxValue[3];   // The rightmost point of the box
     double width = right.x - left.x;
     double height = top.y - bottom.y;
     double averageX = (left.x + right.x) / 2;
@@ -20,7 +27,7 @@ double GetAngle::getTheta(std::vector<cv::Point> &box) {
 }
 
 // Function returns beta in radians
-double GetAngle::getBeta(std::optional<double> &lLeftTapeDistWall,
+std::optional<double> GetAngle::getBeta(std::optional<double> &lLeftTapeDistWall,
                          std::optional<double> &lRightTapeDistWall, std::optional<double> &rLeftTapeDistWall,
                          std::optional<double> &rRightTapeDistWall) {
     double distanceLeftTape = 0;
@@ -48,6 +55,10 @@ double GetAngle::getBeta(std::optional<double> &lLeftTapeDistWall,
     if (rRightTapeDistWall) {
         distanceRightTape += rRightTapeDistWall.value();
         ++counter;
+    }
+
+    if(distanceRightTape ==0 && distanceLeftTape==0){
+        return std::nullopt;
     }
 
     distanceRightTape /= counter;
