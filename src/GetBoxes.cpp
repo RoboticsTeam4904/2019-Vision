@@ -20,9 +20,9 @@ std::vector<std::vector<cv::Point>> GetBoxes::getBoxes(cv::Mat &img, grip::GripP
     if (!contours.size())
         return {};
     std::vector<std::vector<cv::Point>> boxes;
-    for (int i = 0; i < contours.size(); ++i)
+    for (std::vector<cv::Point> &contour : contours)
     {
-        std::optional<std::vector<cv::Point>> box = scoringMetric(contours[i]);
+        std::optional<std::vector<cv::Point>> box = scoringMetric(contour);
         if (box)
             boxes.push_back(box.value());
     }
