@@ -8,10 +8,10 @@
 
 namespace GetAngle
 {
-    double getTheta(Box &tapeBox);
-    double getBeta(double lLeftTapeDistWall,
-                                double lRightTapeDistWall,
-                                double rLeftTapeDistWall,
-                                double rRightTapeDistWall);
-} // namespace getAngle
+double getTheta(Box &tapeBox);
+double getBeta(double lLeftTapeDistWall,
+               double lRightTapeDistWall,
+               double rLeftTapeDistWall,
+               double rRightTapeDistWall);
+} // namespace GetAngle
 #endif

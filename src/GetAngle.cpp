@@ -32,34 +32,11 @@ double GetAngle::getBeta(double lLeftTapeDistWall,
     double distanceRightTape = 0;
 
     int counter = 0;
-    if (lLeftTapeDistWall)
-    {
-        distanceLeftTape += lLeftTapeDistWall.value();
-        ++counter;
-    }
-    if (rLeftTapeDistWall)
-    {
-        distanceLeftTape += rLeftTapeDistWall.value();
-        ++counter;
-    }
-    if (!counter)
-        return std::nullopt;
-    distanceLeftTape /= counter;
+    if(lLeftTapeDistWall!=0) distanceLeftTape += lLeftTapeDistWall;
+    if(rLeftTapeDistWall!=0) distanceLeftTape += rLeftTapeDistWall;
+    if(lRightTapeDistWall!=0) distanceRightTape += lRightTapeDistWall;
+    if(rRightTapeDistWall!=0) distanceRightTape += rRightTapeDistWall;
 
-    counter = 0;
-    if (lRightTapeDistWall)
-    {
-        distanceRightTape += lRightTapeDistWall.value();
-        ++counter;
-    }
-    if (rRightTapeDistWall)
-    {
-        distanceRightTape += rRightTapeDistWall.value();
-        ++counter;
-    }
-    if (!counter)
-        return std::nullopt;
-    distanceRightTape /= counter;
 
     return asin((distanceRightTape - distanceLeftTape) / Config::DISTANCE_TAPES);
 }
