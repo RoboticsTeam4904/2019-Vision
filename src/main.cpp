@@ -54,14 +54,14 @@ int main()
                 continue;
             }
             leftBoxesPair = PairFinding::pairFinding(rightBoxes);
-            if (leftBoxesPair[0])
+            if (std::get<0>(leftBoxesPair).value())
             {
                 lLeftDistanceWall = GetDistance::getDistanceToWall(std::get<0>(leftBoxesPair).value());
                 lLeftTheta = GetAngle::getTheta(std::get<0>(leftBoxesPair).value());
                 lLeftDistanceTape = GetDistance::getDistanceToTape(std::get<0>(leftBoxesPair).value(), lLeftTheta);
             }
 
-            if (leftBoxesPair[1])
+            if (std::get<1>(leftBoxesPair).value())
             {
                 lRightDistanceWall = GetDistance::getDistanceToWall(std::get<1>(leftBoxesPair).value());
                 lRightTheta = GetAngle::getTheta(std::get<1>(leftBoxesPair).value());
@@ -81,14 +81,14 @@ int main()
                 continue;
             }
             rightBoxesPair = PairFinding::pairFinding(rightBoxes);
-            if (rightBoxesPair[0])
+            if (std::get<0>(rightBoxesPair).value())
             {
                 rLeftDistanceWall = GetDistance::getDistanceToWall(std::get<0>(rightBoxesPair).value());
                 rLeftTheta = GetAngle::getTheta(std::get<0>(rightBoxesPair).value());
                 rLeftDistanceTape = GetDistance::getDistanceToTape(std::get<0>(rightBoxesPair).value(), rLeftTheta);
             }
 
-            if (rightBoxesPair[1])
+            if (std::get<1>(rightBoxesPair).value())
             {
                 rRightDistanceWall = GetDistance::getDistanceToWall(std::get<1>(rightBoxesPair).value());
                 rRightTheta = GetAngle::getTheta(std::get<1>(rightBoxesPair).value());
