@@ -1,9 +1,10 @@
 #include <optional>
 #include <vector>
 #include <opencv2/opencv.hpp>
+#include "Config.hpp"
 
 namespace PairFinding
 {
-std::vector<std::optional<std::vector<cv::Point>>> pairFinding(std::vector<std::vector<cv::Point>> boxes);
-std::vector<cv::Point> checkLargestTape(std::vector<std::vector<cv::Point>> boxes);
+std::pair<std::optional<Config::Config::Box>, std::optional<Config::Box>> pairFinding(std::vector<Config::Box> &tapeConfig::Boxes);
+Config::Box checkLargestTape(std::vector<Config::Box> &tapeConfig::Boxes);
 }

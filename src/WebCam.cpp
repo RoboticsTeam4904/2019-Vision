@@ -2,7 +2,7 @@
 #include <string>
 #include "WebCam.hpp"
 
-void webCam::set(double exposure, int port, double width, double height, double gain, double contrast) {
+void WebCam::set(double exposure, int port, double width, double height, double gain, double contrast) {
     std::string setting = "/usr/bin/v4l2-ctl -d /dev/video";
     setting += std::to_string(port);
 

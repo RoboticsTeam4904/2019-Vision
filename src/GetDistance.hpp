@@ -3,12 +3,11 @@
 
 #include <optional>
 #include <vector>
-#include <opencv2/opencv.hpp>
+#include "Config.hpp"
 
 namespace GetDistance
 {
-std::optional<double> getDistanceToWall(std::optional<std::vector<cv::Point>> &box, double gamma = 0);
-std::optional<double> getDistanceToTape(std::optional<std::vector<cv::Point>> &box, double theta, double gamma = 0);
-
+std::optional<double> getDistanceToWall(std::optional<Config::Box> &box, double gamma = 0);
+std::optional<double> getDistanceToTape(std::optional<Config::Box> &box, double theta, double gamma = 0);
 } // namespace getDistance
 #endif

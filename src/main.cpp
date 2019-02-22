@@ -25,23 +25,16 @@ int main()
     grip::GripPipeline pipeline = grip::GripPipeline();
     cv::VideoCapture leftCamera(Config::LEFT_CAMERA_PORT);
     cv::VideoCapture rightCamera(Config::RIGHT_CAMERA_PORT);
-    cv::Mat leftImg;
-    cv::Mat rightImg;
-    std::vector<std::vector<cv::Point>> leftBoxes;
-    std::vector<std::vector<cv::Point>> rightBoxes;
-    std::optional<double> lLeftDistanceWall;
-    std::optional<double> lRightDistanceWall;
-    std::optional<double> rLeftDistanceWall;
-    std::optional<double> rRightDistanceWall;
-    std::optional<double> lLeftTheta;
-    std::optional<double> lRightTheta;
-    std::optional<double> rLeftTheta;
-    std::optional<double> rRightTheta;
-    std::optional<double> lLeftDistanceTape;
-    std::optional<double> lRightDistanceTape;
-    std::optional<double> rLeftDistanceTape;
-    std::optional<double> rRightDistanceTape;
-    std::optional<double> beta;
+    cv::Mat leftImg, rightImg;
+    std::vector<std::vector<cv::Point>> leftBoxes, rightBoxes;
+    std::optional<double> 
+        lLeftDistanceWall, lRightDistanceWall,
+        rLeftDistanceWall, rRightDistanceWall, 
+        lLeftTheta, lRightTheta,
+        rLeftTheta, rRightTheta,
+        lLeftDistanceTape, lRightDistanceTape, 
+        rLeftDistanceTape, rRightDistanceTape,
+        beta;
     while (true)
     {
         if (Config::DEBUG)
@@ -51,7 +44,7 @@ int main()
 
         if (leftCamera.read(leftImg))
         {
-            leftBoxes = GetBoxes::getBoxes(leftImg, pipeline); // TODO: for both right and left this value is set twice. Which is right?
+            leftBoxes = GetBoxes::getTapeBoxes(leftImg, pipeline); // TODO: for both right and left this value is set twice. Which is right?
             if (!leftBoxes.size())
             {
                 std::cout << "No images found after filtering for left camera" << std::endl;
@@ -71,7 +64,7 @@ int main()
 
             if (rightCamera.read(rightImg))
             {
-                rightBoxes = GetBoxes::getBoxes(rightImg, pipeline);
+                rightBoxes = GetBoxes::getTapeBoxes(rightImg, pipeline);
                 if (!rightBoxes.size())
                 {
                     std::cout << "No images found after filtering for right camera" << std::endl;
