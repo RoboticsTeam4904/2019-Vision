@@ -1,3 +1,6 @@
+#ifndef PAIRFINDING_H
+#define PAIRFINDING_H
+
 #include <optional>
 #include <vector>
 #include <opencv2/opencv.hpp>
@@ -8,3 +11,4 @@ namespace PairFinding
 std::pair<std::optional<Box>, std::optional<Box>> pairFinding(std::vector<Box> &tapeBoxes);
 Box checkLargestTape(std::vector<Box> &tapeBoxes);
 }
+#endif
