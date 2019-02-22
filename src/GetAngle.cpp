@@ -9,7 +9,6 @@
 double GetAngle::getTheta(Box &tapeBox)
 {
 
-    Box tapeBox = tapeBox.value();
     cv::Point top = tapeBox[0];    // The top point of the box
     cv::Point left = tapeBox[1];   // The leftmost point of the box
     cv::Point bottom = tapeBox[2]; // The botttom point of the box
