@@ -39,7 +39,7 @@ std::pair<std::optional<Box>, std::optional<Box>>
     out.second = std::optional<Box>(pairObtained ? pairBox : std::nullopt);
     if (tapeRight)
         out.swap();
-    return out
+    return out;
 }
 
 Box checkLargestTape(std::vector<Box> &tapeBoxes) {
