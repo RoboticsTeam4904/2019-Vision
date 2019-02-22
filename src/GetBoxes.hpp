@@ -9,7 +9,7 @@
 
 namespace GetBoxes
 {
-std::vector<Conifg::box> getTapeBoxes(cv::Mat &img, grip::GripPipeline &pipeline);
+std::vector<Box> getTapeBoxes(cv::Mat &img, grip::GripPipeline &pipeline);
 std::optional<Box> scoringMetric(Contour &contour);
 double scoringSideRatio(double width, double height);
 double scoringAreaRatio(double width, double height, Box &points);
