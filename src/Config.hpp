@@ -4,7 +4,9 @@
 #include <string>
 #include <opencv2/opencv.hpp>
 
-// I have no clue what a box is or why TODO: @akshar
+/* *
+    * A box is a vector of 4 points: the left, right, bottom, and top of a contour. 
+*/
 typedef std::vector<cv::Point> Box;
 typedef std::vector<cv::Point> Contour;
 namespace Config

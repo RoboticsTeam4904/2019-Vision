@@ -27,14 +27,16 @@ int main()
     cv::VideoCapture rightCamera(Config::RIGHT_CAMERA_PORT);
     cv::Mat leftImg, rightImg;
     std::vector<std::vector<cv::Point>> leftBoxes, rightBoxes;
-    std::optional<double> 
-        lLeftDistanceWall, lRightDistanceWall,
-        rLeftDistanceWall, rRightDistanceWall, 
-        lLeftTheta, lRightTheta,
-        rLeftTheta, rRightTheta,
-        lLeftDistanceTape, lRightDistanceTape, 
-        rLeftDistanceTape, rRightDistanceTape,
-        beta;
+    std::pair<std::optional<Box>, std::optional<Box>> leftBoxesPair, rightBoxesPair;
+    double
+        lLeftDistanceWall = 0,
+        lRightDistanceWall = 0,
+        rLeftDistanceWall = 0, rRightDistanceWall = 0,
+        lLeftTheta = 0, lRightTheta = 0,
+        rLeftTheta = 0, rRightTheta = 0,
+        lLeftDistanceTape = 0, lRightDistanceTape = 0,
+        rLeftDistanceTape = 0, rRightDistanceTape = 0,
+        beta = 0;
     while (true)
     {
         if (Config::DEBUG)
@@ -50,46 +52,60 @@ int main()
                 std::cout << "No images found after filtering for left camera" << std::endl;
                 continue;
             }
-            leftBoxes = PairFinding::pairFinding(leftBoxes);
-            lLeftDistanceWall = GetDistance::getDistanceToWall(leftBoxes[0]);
-            lRightDistanceWall = GetDistance::getDistanceToWall(leftBoxes[1]);
-            lLeftTheta = GetAngle::getTheta(leftBoxes[0]);
-            lRightTheta = GetAngle::getTheta(leftBoxes[1]);
-            lLeftDistanceTape = GetDistance::getDistanceToTape(leftBoxes[0], lLeftTheta);
-            lRightDistanceTape = GetDistance::getDistanceToTape(leftBoxes[1], lRightTheta);
+            leftBoxesPair = PairFinding::pairFinding(rightBoxes);
+            if (leftBoxesPair[0])
+            {
+                lLeftDistanceWall = GetDistance::getDistanceToWall(leftBoxesPair[0].value());
+                lLeftTheta = GetAngle::getTheta(leftBoxesPair[0].value());
+                lLeftDistanceTape = GetDistance::getDistanceToTape(leftBoxesPair[0].value(), lLeftTheta);
+            }
+
+            if (leftBoxesPair[1])
+            {
+                lRightDistanceWall = GetDistance::getDistanceToWall(leftBoxesPair[1].value());
+                lRightTheta = GetAngle::getTheta(leftBoxesPair[1].value());
+                lRightDistanceTape = GetDistance::getDistanceToTape(leftBoxesPair[1].value(), lRightTheta);
+            }
         }
         else
         {
             std::cout << "Unable to get image from camera with port " << Config::LEFT_CAMERA_PORT << std::endl;
-
-            if (rightCamera.read(rightImg))
-            {
-                rightBoxes = GetBoxes::getTapeBoxes(rightImg, pipeline);
-                if (!rightBoxes.size())
-                {
-                    std::cout << "No images found after filtering for right camera" << std::endl;
-                    continue;
-                }
-                rightBoxes = PairFinding::pairFinding(rightBoxes);
-                rLeftDistanceWall = GetDistance::getDistanceToWall(rightBoxes[0]);
-                rRightDistanceWall = GetDistance::getDistanceToWall(rightBoxes[1]);
-                rLeftTheta = GetAngle::getTheta(rightBoxes[0]);
-                rRightTheta = GetAngle::getTheta(rightBoxes[1]);
-                rLeftDistanceTape = GetDistance::getDistanceToTape(rightBoxes[0], rLeftTheta);
-                rRightDistanceTape = GetDistance::getDistanceToTape(rightBoxes[1], rRightTheta);
-            }
-            else
-            {
-                std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
-            }
-            beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
-            std::cout << "BETA (In degrees): " << beta.value() / M_PI * 180 << std::endl;
-            if (Config::DEBUG)
-                std::cout << "Time per frame: "
-                          << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch())
-                                     .count() -
-                                 timeStart
-                          << std::endl;
         }
+        if (rightCamera.read(rightImg))
+        {
+            rightBoxes = GetBoxes::getTapeBoxes(rightImg, pipeline);
+            if (!rightBoxes.size())
+            {
+                std::cout << "No images found after filtering for right camera" << std::endl;
+                continue;
+            }
+            rightBoxesPair = PairFinding::pairFinding(rightBoxes);
+            if (rightBoxesPair[0])
+            {
+                rLeftDistanceWall = GetDistance::getDistanceToWall(rightBoxesPair[0].value());
+                rLeftTheta = GetAngle::getTheta(rightBoxesPair[0].value());
+                rLeftDistanceTape = GetDistance::getDistanceToTape(rightBoxesPair[0].value(), rLeftTheta);
+            }
+
+            if (rightBoxesPair[1])
+            {
+                rRightDistanceWall = GetDistance::getDistanceToWall(rightBoxesPair[1].value());
+                rRightTheta = GetAngle::getTheta(rightBoxesPair[1].value());
+                rRightDistanceTape = GetDistance::getDistanceToTape(rightBoxesPair[1].value(), rRightTheta);
+            }
+        }
+        else
+        {
+            std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
+        }
+        beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
+        std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
+        if (Config::DEBUG)
+            std::cout << "Time per frame: "
+                      << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch())
+                                 .count() -
+                             timeStart
+                      << std::endl;
     }
+}
 }
