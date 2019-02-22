@@ -7,7 +7,7 @@
 
 namespace GetDistance
 {
-std::optional<double> getDistanceToWall(std::optional<Box> &box, double gamma = 0);
-std::optional<double> getDistanceToTape(std::optional<Box> &box, double theta, double gamma = 0);
+double getDistanceToWall(Box &box, double gamma = 0);
+double getDistanceToTape(Box &box, double theta, double gamma = 0);
 } // namespace getDistance
 #endif

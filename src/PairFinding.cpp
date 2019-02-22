@@ -2,6 +2,7 @@
 
 #include <cmath>
 #include <optional>
+#include <utility>
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include "Config.hpp"
@@ -14,7 +15,7 @@ std::pair<std::optional<Box>, std::optional<Box>>
     Box maxBox = checkLargestTape(tapeBoxes);
     Box pairBox, checkBox;
     cv::Point anglePoint = maxBox[0].y > maxBox[1].y ? maxBox[0] : maxBox[1];
-    double maxAngle = -((M_PI / 2 + getTapeBoxexs::angle(maxBox[3], anglePoint)) % M_PI - M_PI / 2);
+    double maxAngle = -(fmod(M_PI / 2 + getTapeBoxes::angle(maxBox[3], anglePoint),M_PI) - M_PI / 2); 
     double minDistance = 1000;
     bool tapeRight = maxAngle > 0;
     bool pairObtained = false;
@@ -22,7 +23,7 @@ std::pair<std::optional<Box>, std::optional<Box>>
     for (Box &checkBox : tapeBoxes) {
         checkHeight = checkBox[3].y - checkBox[2].y;
         anglePoint = checkBox[0].y > checkBox[1].y ? checkBox[0] : checkBox[1];
-        double checkAngle = -((M_PI / 2 + GetBoxes::angle(checkBox[3], anglePoint)) % M_PI - M_PI / 2);
+        double checkAngle = -(fmod(M_PI / 2 + getTapeBoxes::angle(checkBox[3], anglePoint), M_PI) - M_PI / 2);
 
         if (checkAngle < 0 == tapeRight && abs(checkAngle) - 14.5 < (Config::ANGLE_THRESHOLD / M_PI * 180)) {
             diffX = checkBox[0].x - maxBox[0].x;

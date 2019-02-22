@@ -3,6 +3,7 @@
 #include <chrono>
 #include <cmath>
 #include <iostream>
+#include <utility>
 #include <vector>
 #include "Config.hpp"
 #include "GetAngle.hpp"
@@ -55,16 +56,16 @@ int main()
             leftBoxesPair = PairFinding::pairFinding(rightBoxes);
             if (leftBoxesPair[0])
             {
-                lLeftDistanceWall = GetDistance::getDistanceToWall(leftBoxesPair[0].value());
-                lLeftTheta = GetAngle::getTheta(leftBoxesPair[0].value());
-                lLeftDistanceTape = GetDistance::getDistanceToTape(leftBoxesPair[0].value(), lLeftTheta);
+                lLeftDistanceWall = GetDistance::getDistanceToWall(std::get<0>(leftBoxesPair).value());
+                lLeftTheta = GetAngle::getTheta(std::get<0>(leftBoxesPair).value());
+                lLeftDistanceTape = GetDistance::getDistanceToTape(std::get<0>(leftBoxesPair).value(), lLeftTheta);
             }
 
             if (leftBoxesPair[1])
             {
-                lRightDistanceWall = GetDistance::getDistanceToWall(leftBoxesPair[1].value());
-                lRightTheta = GetAngle::getTheta(leftBoxesPair[1].value());
-                lRightDistanceTape = GetDistance::getDistanceToTape(leftBoxesPair[1].value(), lRightTheta);
+                lRightDistanceWall = GetDistance::getDistanceToWall(std::get<1>(leftBoxesPair).value());
+                lRightTheta = GetAngle::getTheta(std::get<1>(leftBoxesPair).value());
+                lRightDistanceTape = GetDistance::getDistanceToTape(std::get<1>(leftBoxesPair).value(), lRightTheta);
             }
         }
         else
@@ -82,16 +83,16 @@ int main()
             rightBoxesPair = PairFinding::pairFinding(rightBoxes);
             if (rightBoxesPair[0])
             {
-                rLeftDistanceWall = GetDistance::getDistanceToWall(rightBoxesPair[0].value());
-                rLeftTheta = GetAngle::getTheta(rightBoxesPair[0].value());
-                rLeftDistanceTape = GetDistance::getDistanceToTape(rightBoxesPair[0].value(), rLeftTheta);
+                rLeftDistanceWall = GetDistance::getDistanceToWall(std::get<0>(rightBoxesPair).value());
+                rLeftTheta = GetAngle::getTheta(std::get<0>(rightBoxesPair).value());
+                rLeftDistanceTape = GetDistance::getDistanceToTape(std::get<0>(rightBoxesPair).value(), rLeftTheta);
             }
 
             if (rightBoxesPair[1])
             {
-                rRightDistanceWall = GetDistance::getDistanceToWall(rightBoxesPair[1].value());
-                rRightTheta = GetAngle::getTheta(rightBoxesPair[1].value());
-                rRightDistanceTape = GetDistance::getDistanceToTape(rightBoxesPair[1].value(), rRightTheta);
+                rRightDistanceWall = GetDistance::getDistanceToWall(std::get<1>(rightBoxesPair).value());
+                rRightTheta = GetAngle::getTheta(std::get<1>(rightBoxesPair).value());
+                rRightDistanceTape = GetDistance::getDistanceToTape(std::get<1>(rightBoxesPair).value(), rRightTheta);
             }
         }
         else
@@ -100,12 +101,13 @@ int main()
         }
         beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
         std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
-        if (Config::DEBUG)
+        if (Config::DEBUG){
             std::cout << "Time per frame: "
                       << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch())
                                  .count() -
                              timeStart
                       << std::endl;
+
+        }
     }
-}
 }

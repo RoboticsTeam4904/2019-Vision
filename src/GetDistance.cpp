@@ -12,7 +12,7 @@ double GetDistance::getDistanceToWall(Box &box, double gamma)  // gamma should b
     cv::Point bottom = box[2];
     double heightPixels = top.y - bottom.y;
     double distanceConstant = cos(gamma) * Config::DISTANCE_CONSTANT;
-    return std::optional<double>(distanceConstant / heightPixels * 0.03937);  // TODO: I have no clue what 0.03937 is but make it a constant
+    return std::optional<double>(distanceConstant / heightPixels * 0.03937);  // 0.03937 is the conversion from millimeters to inches
 }
 
 double GetDistance::getDistanceToTape(Box &box, double theta, double gamma) {
@@ -20,5 +20,5 @@ double GetDistance::getDistanceToTape(Box &box, double theta, double gamma) {
     cv::Point bottom = box[2];
     double heightPixels = top.y - bottom.y;
     double distanceConstant = cos(gamma) * Config::DISTANCE_CONSTANT;
-    return std::optional<double>((distanceConstant / heightPixels * 0.03937) / cos(theta));  // TODO: I have no clue what 0.03937 is but make it a constant
+    return std::optional<double>((distanceConstant / heightPixels * 0.03937) / cos(theta));  // 0.03937 is the conversion from millimeters to inches
 }
