@@ -8,7 +8,7 @@
 
 namespace GetAngle
 {
-    std::optional<double> getTheta(std::optional<Config::Box> &tapeBox);
+    std::optional<double> getTheta(std::optional<Box> &tapeBox);
     std::optional<double> getBeta(std::optional<double> &lLeftTapeDistWall,
                                 std::optional<double> &lRightTapeDistWall,
                                 std::optional<double> &rLeftTapeDistWall,

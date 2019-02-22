@@ -5,6 +5,6 @@
 
 namespace PairFinding
 {
-std::pair<std::optional<Config::Config::Box>, std::optional<Config::Box>> pairFinding(std::vector<Config::Box> &tapeConfig::Boxes);
-Config::Box checkLargestTape(std::vector<Config::Box> &tapeConfig::Boxes);
+std::pair<std::optional<Config::Box>, std::optional<Box>> pairFinding(std::vector<Box> &tapeBoxes);
+Box checkLargestTape(std::vector<Box> &tapeBoxes);
 }

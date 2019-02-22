@@ -13,16 +13,16 @@
 /* *
     * Takes in an image, finds all of the contours, and filters them with the scoringMetric evaluation.
 */
-std::vector<Config::Box> GetBoxes::getTapeBoxes(cv::Mat &img, grip::GripPipeline &pipeline)
+std::vector<Box> GetBoxes::getTapeBoxes(cv::Mat &img, grip::GripPipeline &pipeline)
 {
     pipeline.Process(img);
-    std::vector<Config::Contour> contours = *pipeline.GetFilterContoursOutput();
+    std::vector<Contour> contours = *pipeline.GetFilterContoursOutput();
     if (!contours.size())
         return contours;
-    std::vector<Config::Box> tapeBoxes;
-    for (Config::Contour &contour : contours)
+    std::vector<Box> tapeBoxes;
+    for (Contour &contour : contours)
     {
-        std::optional<Config::Box> tapeBox = scoringMetric(contour);
+        std::optional<Box> tapeBox = scoringMetric(contour);
         if (tapeBox)
             tapeBoxes.push_back(tapeBox.value());
     }
@@ -32,7 +32,7 @@ std::vector<Config::Box> GetBoxes::getTapeBoxes(cv::Mat &img, grip::GripPipeline
 /* *
     * Calls all of the scoring evaluations, returning a final score for a given box of how likely it is to be a tape
 */
-std::optional<Config::Box> GetBoxes::scoringMetric(std::vector<cv::Point> &contour)
+std::optional<Box> GetBoxes::scoringMetric(std::vector<cv::Point> &contour)
 {
     cv::Point top;
     cv::Point bottom;
@@ -49,7 +49,7 @@ std::optional<Config::Box> GetBoxes::scoringMetric(std::vector<cv::Point> &conto
         if (contourPoint.y > bottom.y)
             top = contourPoint;
     }
-    Config::Box points = {left, right, bottom, top};
+    Box points = {left, right, bottom, top};
     float width = distance(top, left);
     float height = distance(top, right);
 
@@ -61,7 +61,7 @@ std::optional<Config::Box> GetBoxes::scoringMetric(std::vector<cv::Point> &conto
         + scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC 
         + scoringFilledValue(contour, box) * Config::FILLED_AREA;
 
-    return score > Config::MIN_THRESHOLD ? std::optional<Config::Box>(points) : std::nullopt;
+    return score > Config::MIN_THRESHOLD ? std::optional<Box>(points) : std::nullopt;
 }
 
 /* *
@@ -112,8 +112,8 @@ double GetBoxes::scoringFilledValue(std::vector<cv::Point> contour, std::vector<
         contourPoint -= min;
 
     cv::Mat dst = cv::Mat::zeros(cv::Size(max.y - min.y, max.x - min.x), CV_8UC1);
-    cv::drawContours(dst, std::vector<Config::Contour> {contour}, -1, 128, cv::FILLED);
-    cv::drawContours(dst, std::vector<Config::Box> {box}, -1, 255, cv::FILLED);
+    cv::drawContours(dst, std::vector<Contour> {contour}, -1, 128, cv::FILLED);
+    cv::drawContours(dst, std::vector<Box> {box}, -1, 255, cv::FILLED);
     int contourPixels = 0;
     int boxPixels = 0;
     int pixel;

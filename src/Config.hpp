@@ -4,12 +4,11 @@
 #include <string>
 #include <opencv2/opencv.hpp>
 
+// I have no clue what a box is or why TODO: @akshar
+typedef std::vector<cv::Point> Box;
+typedef std::vector<cv::Point> Contour;
 namespace Config
 {
-// I have no clue what a box is or why TODO: @akshar
-typedef std::vector<cv::Point> box;
-typedef std::vector<cv::Point> contour;
-
 /* *
     * Image Capture Settings
 */

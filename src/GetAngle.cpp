@@ -6,11 +6,11 @@
 #include "GetAngle.hpp"
 
 // Function returns theta in radians
-std::optional<double> GetAngle::getTheta(std::optional<Config::Box> &tapeBox)
+std::optional<double> GetAngle::getTheta(std::optional<Box> &tapeBox)
 {
     if (!tapeBox)
         return std::nullopt;
-    Config::Box tapeBox = tapeBox.value();
+    Box tapeBox = tapeBox.value();
     cv::Point top = tapeBox[0];    // The top point of the box
     cv::Point left = tapeBox[1];   // The leftmost point of the box
     cv::Point bottom = tapeBox[2]; // The botttom point of the box
