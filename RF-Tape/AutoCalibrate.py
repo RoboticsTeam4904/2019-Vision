@@ -32,5 +32,8 @@ def calibrate(port, minExposure=Constants.EXPOSURE_RANGE[0], maxExposure=Constan
         return 0
 
 if(__name__ == "__main__"):
-    print("Camera 0: " + calibrate(0))
-    print("Camera 1: " + calibrate(1))
+    if config.two_cameras:
+        calibrate(Constants.RIGHT_CAMERA_PORT)
+        calibrate(Constants.LEFT_CAMERA_PORT)
+    else:
+        calibrate(Constants.ONE_CAMERA_PORT)
