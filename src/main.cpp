@@ -81,18 +81,18 @@ int main()
                 continue;
             }
             rightBoxesPair = PairFinding::pairFinding(rightBoxes);
-            if (std::get<0>(rightBoxesPair).value())
+            if (rightBoxesPair.first)
             {
-                rLeftDistanceWall = GetDistance::getDistanceToWall(std::get<0>(rightBoxesPair).value());
-                rLeftTheta = GetAngle::getTheta(std::get<0>(rightBoxesPair).value());
-                rLeftDistanceTape = GetDistance::getDistanceToTape(std::get<0>(rightBoxesPair).value(), rLeftTheta);
+                rLeftDistanceWall = GetDistance::getDistanceToWall(rightBoxesPair.first.value());
+                rLeftTheta = GetAngle::getTheta(rightBoxesPair.first.value());
+                rLeftDistanceTape = GetDistance::getDistanceToTape(rightBoxesPair.first.value(), rLeftTheta);
             }
 
-            if (std::get<1>(rightBoxesPair).value())
+            if (rightBoxesPair.second)
             {
-                rRightDistanceWall = GetDistance::getDistanceToWall(std::get<1>(rightBoxesPair).value());
-                rRightTheta = GetAngle::getTheta(std::get<1>(rightBoxesPair).value());
-                rRightDistanceTape = GetDistance::getDistanceToTape(std::get<1>(rightBoxesPair).value(), rRightTheta);
+                rRightDistanceWall = GetDistance::getDistanceToWall(rightBoxesPair.second.value());
+                rRightTheta = GetAngle::getTheta(rightBoxesPair.second.value());
+                rRightDistanceTape = GetDistance::getDistanceToTape(rightBoxesPair.second.value(), rRightTheta);
             }
         }
         else
@@ -101,7 +101,7 @@ int main()
         }
         beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
         std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
-        if (Config::DEBUG){
+        if (Config::DEBUG)  {
             std::cout << "Time per frame: "
                       << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch())
                                  .count() -
