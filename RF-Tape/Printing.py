@@ -94,3 +94,13 @@ def resize(image, size=default_size):
 
 def shrink(image, scale_x=default_shrink_x, scale_y=default_shrink_y):
     return cv2.resize(image, 0, fx=scale_x, fy=scale_y)
+
+def combine(left_image, right_image):
+    left_shape, right_shape = left_image.shape, right_image.shape
+    assert len(left_shape) == len(right_shape)
+    if left_shape != right_shape: # If mismatched, scale right image to match left height
+        left_height, right_height = left_shape[0], right_shape[0]
+        scale = np.true_divide(left_height, right_height)
+        right_image = resize(right_image, (int(right_shape[1] * scale), left_height))
+    composite = np.concatenate((left_image, right_image), axis=1) # Concatenate along 2nd axis (horizontally)
+    return composite
