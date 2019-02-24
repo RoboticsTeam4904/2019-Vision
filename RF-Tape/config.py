@@ -1,5 +1,6 @@
 # Settings that vary between testing and runnning
 # -----------------------------------------------
+import cv2
 using_cv3 = int(cv2.__version__[0]) == 3
 
 # Image capture settings
