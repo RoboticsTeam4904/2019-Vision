@@ -18,6 +18,8 @@ if config.save and config.save_in_folder:
 default_size = (640, 360)
 default_shrink_x, default_shrink_y = 0.3, 0.3
 default_thickness = 5
+# Display delay
+default_delay = 20
 
 # Colors for drawing on images
 right_color, left_color = (200, 50, 150), (150, 50, 200)
@@ -38,7 +40,7 @@ def getColor(color):
 
 
 # Display an image in a cv2 window
-def display(image, name="Contours Found", doResize=True, delay=20):
+def display(image, name="Contours Found", doResize=False, delay=default_delay):
     if doResize:
         image = resize(image)   # resize to default size
     cv2.imshow(name, image)     # display image
