@@ -27,12 +27,13 @@ double GetAngle::getBeta(double lLeftTapeDistWall,
                          double rLeftTapeDistWall,
                          double rRightTapeDistWall)
 {
-    double distanceLeftTape = 0;
-    double distanceRightTape = 0;
+    double distanceLeftTape += lLeftTapeDistWall + rLeftTapeDistWall;
+    if (!distanceLeftTape)
+        distanceLeftTape /= lLeftTapeDistWall && rLeftTapeDistWall ? 2 : 1;
 
-    int counter = 0;
-    distanceLeftTape += lLeftTapeDistWall + rLeftTapeDistWall;
-    distanceRightTape += lRightTapeDistWall + rRightTapeDistWall;
+    double distanceRightTape += lRightTapeDistWall + rRightTapeDistWall;
+    if (!distanceRightTape)
+        distanceRightTape /= lRightTapeDistWall && rRightTapeDistWall ? 2 : 1;
 
     return asin((distanceRightTape - distanceLeftTape) / Config::DISTANCE_TAPES);
 }
