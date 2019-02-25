@@ -23,19 +23,16 @@ double GetAngle::getTheta(Box &tapeBox)
 
 // Function returns beta in radians
 double GetAngle::getBeta(double lLeftTapeDistWall,
-                                        double lRightTapeDistWall, 
-                                        double rLeftTapeDistWall,
-                                        double rRightTapeDistWall)
+                         double lRightTapeDistWall, 
+                         double rLeftTapeDistWall,
+                         double rRightTapeDistWall)
 {
     double distanceLeftTape = 0;
     double distanceRightTape = 0;
 
     int counter = 0;
-    if(lLeftTapeDistWall!=0) distanceLeftTape += lLeftTapeDistWall;
-    if(rLeftTapeDistWall!=0) distanceLeftTape += rLeftTapeDistWall;
-    if(lRightTapeDistWall!=0) distanceRightTape += lRightTapeDistWall;
-    if(rRightTapeDistWall!=0) distanceRightTape += rRightTapeDistWall;
-
+    distanceLeftTape += lLeftTapeDistWall + rLeftTapeDistWall;
+    distanceRightTape += lRightTapeDistWall + rRightTapeDistWall;
 
     return asin((distanceRightTape - distanceLeftTape) / Config::DISTANCE_TAPES);
 }

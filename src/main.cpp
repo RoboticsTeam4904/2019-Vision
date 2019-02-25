@@ -27,7 +27,7 @@ int main()
     cv::VideoCapture leftCamera(Config::LEFT_CAMERA_PORT);
     cv::VideoCapture rightCamera(Config::RIGHT_CAMERA_PORT);
     cv::Mat leftImg, rightImg;
-    std::vector<std::vector<cv::Point>> leftBoxes, rightBoxes;
+    std::vector<Box> leftBoxes, rightBoxes;
     std::pair<std::optional<Box>, std::optional<Box>> leftBoxesPair, rightBoxesPair;
     double
         lLeftDistanceWall = 0,
@@ -69,9 +69,8 @@ int main()
             }
         }
         else
-        {
             std::cout << "Unable to get image from camera with port " << Config::LEFT_CAMERA_PORT << std::endl;
-        }
+
         if (rightCamera.read(rightImg))
         {
             rightBoxes = GetBoxes::getTapeBoxes(rightImg, pipeline);
@@ -96,18 +95,15 @@ int main()
             }
         }
         else
-        {
             std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
-        }
+
         beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
         std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
-        if (Config::DEBUG)  {
+        if (Config::DEBUG) 
             std::cout << "Time per frame: "
                       << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch())
                                  .count() -
                              timeStart
                       << std::endl;
-
-        }
     }
 }

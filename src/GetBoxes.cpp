@@ -32,7 +32,7 @@ std::vector<Box> GetBoxes::getTapeBoxes(cv::Mat &img, grip::GripPipeline &pipeli
 /* *
     * Calls all of the scoring evaluations, returning a final score for a given box of how likely it is to be a tape
 */
-std::optional<Box> GetBoxes::scoringMetric(std::vector<cv::Point> &contour)
+std::optional<Box> GetBoxes::scoringMetric(Contour &contour)
 {
     cv::Point top;
     cv::Point bottom;
@@ -59,7 +59,7 @@ std::optional<Box> GetBoxes::scoringMetric(std::vector<cv::Point> &contour)
     double score = scoringSideRatio(width, height) * Config::HW_RATIO 
         + scoringAreaRatio(width, height, points) * Config::AREA_RATIO
         + scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC 
-        + scoringFilledValue(contour, box) * Config::FILLED_AREA;
+        + scoringFilledValue(contour, points) * Config::FILLED_AREA;
 
     return score > Config::MIN_THRESHOLD ? std::optional<Box>(points) : std::nullopt;
 }
@@ -101,7 +101,7 @@ double GetBoxes::scoringRotationAngle(cv::Point &right, cv::Point &bottom, doubl
 /* *
     * How much of the contour is legitimately on the slanted bounding box that it was fit -- the optimal contour, like the tape, would have almost all of it's points on (or crossing) the box.
 */
-double GetBoxes::scoringFilledValue(std::vector<cv::Point> contour, std::vector<cv::Point> box)
+double GetBoxes::scoringFilledValue(Contour contour, Box box)
 {
     cv::Point max(box[1].x, box[3].y);
     cv::Point min(box[0].x, box[2].y);
