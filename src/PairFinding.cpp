@@ -39,7 +39,7 @@ std::pair<std::optional<Box>, std::optional<Box>>
     return tapeRight ? std::pair(matchB, matchA) : std::pair(matchA, matchB);
 }
 
-Box checkLargestTape(std::vector<Box> &tapeBoxes) {
+Box PairFinding::checkLargestTape(std::vector<Box> &tapeBoxes) {
     Box maxBox;
     int maxHeight = -1;
     for (Box &tapeBox : tapeBoxes) {

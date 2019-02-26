@@ -63,7 +63,7 @@ double Config::FOV = 1.229;
 */
 double Config::DISTANCE_CONSTANT = 96185.4; // ant to get distance
 double Config::DISTANCE_TAPES = 279.4; // millimeters
-double ANGLE_THRESHOLD = .3;
+double Config::ANGLE_THRESHOLD = .3;
 
 /* *
     * Vertical feet from camera to bottom of vision target + Height of target in feet
