@@ -9,7 +9,6 @@
 #include "GetBoxes.hpp"
 #include "PairFinding.hpp"
 
-
 std::pair<std::optional<Box>, std::optional<Box>> 
     PairFinding::pairFinding(std::vector<Box> &tapeBoxes) {
     Box maxBox = checkLargestTape(tapeBoxes);

@@ -8,7 +8,6 @@
 // Function returns theta in radians
 double GetAngle::getTheta(Box &tapeBox)
 {
-
     cv::Point top = tapeBox[0];    // The top point of the box
     cv::Point left = tapeBox[1];   // The leftmost point of the box
     cv::Point bottom = tapeBox[2]; // The botttom point of the box
@@ -27,11 +26,11 @@ double GetAngle::getBeta(double lLeftTapeDistWall,
                          double rLeftTapeDistWall,
                          double rRightTapeDistWall)
 {
-    double distanceLeftTape += lLeftTapeDistWall + rLeftTapeDistWall;
+    double distanceLeftTape = lLeftTapeDistWall + rLeftTapeDistWall;
     if (!distanceLeftTape && lLeftTapeDistWall && rLeftTapeDistWall)
         distanceLeftTape /= 2;
 
-    double distanceRightTape += lRightTapeDistWall + rRightTapeDistWall;
+    double distanceRightTape = lRightTapeDistWall + rRightTapeDistWall;
     if (!distanceRightTape && lRightTapeDistWall && rRightTapeDistWall)
         distanceRightTape /= 2;
 
