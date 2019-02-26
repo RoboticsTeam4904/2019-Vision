@@ -86,4 +86,8 @@ std::string Config::SAMPLE_IMAGE = "TestImages/GearTest.png";
     * Number of frames to wait until reinitializing sockets. If 0, never close the socket
 */
 int Config::SOCKET_RECONNECT_RATE = 1;
-int Config::NETWORKTABLES_PORT = 5802;
+
+// This is networktables stuff, figure it out
+bool Config::USE_NETWORKTABLES = false;
+int Config::NETWORKTABLES_PORT = 1735;
+int Config::TEAM_NUMBER = 4904;

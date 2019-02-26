@@ -96,6 +96,10 @@ extern std::string SAMPLE_IMAGE;
     * Number of frames to wait until reinitializing sockets. If 0, never close the socket
 */
 extern int SOCKET_RECONNECT_RATE;
+
+// This is networktables stuff, figure it out
+extern bool USE_NETWORKTABLES;
 extern int NETWORKTABLES_PORT;
+extern int TEAM_NUMBER;
 } // namespace Config
 #endif

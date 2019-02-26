@@ -10,6 +10,9 @@
 #include "GetBoxes.hpp"
 #include "GetDistance.hpp"
 #include "GripPipeline.h"
+#include "networktables/NetworkTable.h"
+#include "networktables/NetworkTableEntry.h"
+#include "networktables/NetworkTableInstance.h"
 #include "PairFinding.hpp"
 
 unsigned long timeStart = 0;
@@ -22,6 +25,15 @@ int main()
         << " NETWORKTABLES_PORT=" << Config::NETWORKTABLES_PORT
         << " TEAM_NUMBER=" << Config::TEAM_NUMBER
         << std::endl;
+    
+    // Networktables stuff
+    nt::NetworkTableInstance inst;
+    nt::NetworkTableEntry ntBetaEntry;
+    if (Config::USE_NETWORKTABLES) {
+        inst = nt::NetworkTableInstance::GetDefault();
+        inst.StartClientTeam(TEAM_NUMBER, NETWORKTABLES_PORT);
+        ntBetaEntry = inst.GetEntry("Vision/rfTape/beta");
+    }
 
     grip::GripPipeline pipeline = grip::GripPipeline();
     cv::VideoCapture leftCamera(Config::LEFT_CAMERA_PORT);
@@ -30,13 +42,12 @@ int main()
     std::vector<Box> leftBoxes, rightBoxes;
     std::pair<std::optional<Box>, std::optional<Box>> leftBoxesPair, rightBoxesPair;
     double
-        lLeftDistanceWall = 0,
-        lRightDistanceWall = 0,
+        lLeftDistanceWall = 0, lRightDistanceWall = 0,
         rLeftDistanceWall = 0, rRightDistanceWall = 0,
-        lLeftTheta = 0, lRightTheta = 0,
-        rLeftTheta = 0, rRightTheta = 0,
         lLeftDistanceTape = 0, lRightDistanceTape = 0,
         rLeftDistanceTape = 0, rRightDistanceTape = 0,
+        lLeftTheta = 0, lRightTheta = 0,
+        rLeftTheta = 0, rRightTheta = 0,
         beta = 0;
     while (true)
     {
@@ -98,6 +109,10 @@ int main()
             std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
 
         beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
+
+        if (Config::USE_NETWORKTABLES)
+            tapeAngleEntry.SetDouble(beta);
+
         std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
         if (Config::DEBUG) 
             std::cout << "Time per frame: "
