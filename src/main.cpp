@@ -73,7 +73,7 @@ int main()
             std::cout << "No images found after filtering for left camera" << std::endl;
             continue;
         }
-        leftBoxesPair = PairFinding::pairFinding(rightBoxes);
+        leftBoxesPair = PairFinding::pairFinding(leftBoxes);
         if (leftBoxesPair.first)
         {
             Box pair = leftBoxesPair.first.value();
