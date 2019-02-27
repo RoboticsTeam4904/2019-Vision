@@ -31,7 +31,7 @@ int main()
     nt::NetworkTableEntry ntBetaEntry;
     if (Config::USE_NETWORKTABLES) {
         inst = nt::NetworkTableInstance::GetDefault();
-        inst.StartClientTeam(TEAM_NUMBER, NETWORKTABLES_PORT);
+        inst.StartClientTeam(Config::TEAM_NUMBER, Config::NETWORKTABLES_PORT);
         ntBetaEntry = inst.GetEntry("Vision/rfTape/beta");
     }
 
@@ -75,14 +75,14 @@ int main()
         leftBoxesPair = PairFinding::pairFinding(leftBoxes);
         if (leftBoxesPair.first)
         {
-            box tapeBox= leftBoxesPair.first.value();
+            Box tapeBox= leftBoxesPair.first.value();
             lLeftDistanceWall = GetDistance::getDistanceToWall(tapeBox);
             lLeftTheta = GetAngle::getTheta(tapeBox);
             lLeftDistanceTape = GetDistance::getDistanceToTape(tapeBox, lLeftTheta);
         }
         if (leftBoxesPair.second)
         {
-            box tapeBox= leftBoxesPair.second.value();
+            Box tapeBox= leftBoxesPair.second.value();
             lRightDistanceWall = GetDistance::getDistanceToWall(tapeBox);
             lRightTheta = GetAngle::getTheta(tapeBox);
             lRightDistanceTape = GetDistance::getDistanceToTape(tapeBox, lRightTheta);
@@ -98,14 +98,14 @@ int main()
         rightBoxesPair = PairFinding::pairFinding(rightBoxes);
         if (rightBoxesPair.first)
         {
-            box tapeBox= rightBoxesPair.first.value();
+            Box tapeBox= rightBoxesPair.first.value();
             rLeftDistanceWall = GetDistance::getDistanceToWall(tapeBox);
             rLeftTheta = GetAngle::getTheta(tapeBox);
             rLeftDistanceTape = GetDistance::getDistanceToTape(tapeBox, rLeftTheta);
         }
         if (rightBoxesPair.second)
         {
-            box tapeBox= rightBoxesPair.second.value();
+            Box tapeBox= rightBoxesPair.second.value();
             rRightDistanceWall = GetDistance::getDistanceToWall(tapeBox);
             rRightTheta = GetAngle::getTheta(tapeBox);
             rRightDistanceTape = GetDistance::getDistanceToTape(tapeBox, rRightTheta);
