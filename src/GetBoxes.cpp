@@ -76,7 +76,7 @@ double GetBoxes::scoringSideRatio(double width, double height)
 /* *
     * Score based on the ratio of the area of the slanted and straight bounding box.
 */
-double GetBoxes::scoringAreaRatio(double width, double height, std::vector<cv::Point> &points)
+double GetBoxes::scoringAreaRatio(double width, double height, Box &points)
 {
     if (!(width && height)) return 0;
     cv::Point left = points[0];
@@ -84,7 +84,7 @@ double GetBoxes::scoringAreaRatio(double width, double height, std::vector<cv::P
     cv::Point bottom = points[2];
     cv::Point top = points[3];
     double slantedArea = width * height;                                 // The area of the slanted bounding box of the contour
-    double straightArea = abs(top.y - bottom.y) * abs(right.x - left.x); // The area of the straight bounding box of the contour.
+    double straightArea = abs((top.y - bottom.y) * (right.x - left.x)); // The area of the straight bounding box of the contour.
     return !straightArea ? 0 : 1 / (pow(Config::TAPE_AREA_RATIO - (slantedArea / straightArea), 2) + 1);
 }
 
