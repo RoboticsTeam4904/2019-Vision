@@ -77,7 +77,6 @@ int Config::RESOLUTION[2] = {640, 480};
     * Misc
 */
 std::string Config::IP = "10.49.4.2"; // TODO: Fix Value
-int Config::TEAM_NUMBER = 4904;
 double Config::NETWORK_SPEED = 0.02;
 bool Config::EDITED = false;
 std::string Config::SAMPLE_IMAGE = "TestImages/GearTest.png";

@@ -87,7 +87,6 @@ extern int RESOLUTION[2];
     * Misc
 */
 extern std::string IP; // TODO: Fix Value
-extern int TEAM_NUMBER;
 extern double NETWORK_SPEED;
 extern bool EDITED;
 extern std::string SAMPLE_IMAGE;
