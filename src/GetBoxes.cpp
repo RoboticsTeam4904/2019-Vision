@@ -70,7 +70,7 @@ std::optional<Box> GetBoxes::scoringMetric(Contour &contour)
 double GetBoxes::scoringSideRatio(double width, double height)
 {
     return !(width && height) ? 0 : std::max(1 / (pow(Config::TAPE_DIM_RATIO - width / height, 2) + 1),
-                                              1 / (pow(Config::TAPE_DIM_RATIO - height / width, 2) + 1));
+                                             1 / (pow(Config::TAPE_DIM_RATIO - height / width, 2) + 1));
 }
 
 /* *
@@ -94,7 +94,7 @@ double GetBoxes::scoringAreaRatio(double width, double height, std::vector<cv::P
 double GetBoxes::scoringRotationAngle(cv::Point &right, cv::Point &bottom, double weight)
 {
     double rotationAngle = GetBoxes::angle(right, bottom) / M_PI * 180;
-    float num = std::min(pow(14.5 - rotationAngle, 2), pow(75.5 - rotationAngle, 2));
+    float num = pow((rotationAngle < 45 ? 14.5 : 75) - rotationAngle, 2);
     return -num / (num + weight) + 1;
 }
 
