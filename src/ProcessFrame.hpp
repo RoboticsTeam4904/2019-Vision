@@ -7,15 +7,15 @@
 #include "GripPipeline.h"
 
 namespace ProcessFrame {
-struct Result {
-    TapeResult left;
-    TapeResult right;
-};
-
 struct TapeResult {
     double distanceWall;
     double distanceTape;
     double theta;
+};
+
+struct Result {
+    TapeResult left;
+    TapeResult right;
 };
 
 std::optional<Result> process(grip::GripPipeline &pipeline, cv::Mat &frame);

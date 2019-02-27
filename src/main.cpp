@@ -14,6 +14,7 @@
 #include "networktables/NetworkTableEntry.h"
 #include "networktables/NetworkTableInstance.h"
 #include "PairFinding.hpp"
+#include "ProcessFrame.hpp"
 
 unsigned long timeStart = 0;
 
@@ -65,54 +66,15 @@ int main()
             std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
         if (!(leftFrameRead || rightFrameRead)) continue;
 
-        // Process the left camera's frame
-        leftBoxes = GetBoxes::getTapeBoxes(leftImg, pipeline); // TODO: for both right and left this value is set twice. Which is right?
-        if (!leftBoxes.size())
-        {
-            std::cout << "No images found after filtering for left camera" << std::endl;
-            continue;
-        }
-        leftBoxesPair = PairFinding::pairFinding(leftBoxes);
-        if (leftBoxesPair.first)
-        {
-            Box tapeBox= leftBoxesPair.first.value();
-            lLeftDistanceWall = GetDistance::getDistanceToWall(tapeBox);
-            lLeftTheta = GetAngle::getTheta(tapeBox);
-            lLeftDistanceTape = GetDistance::getDistanceToTape(tapeBox, lLeftTheta);
-        }
-        if (leftBoxesPair.second)
-        {
-            Box tapeBox= leftBoxesPair.second.value();
-            lRightDistanceWall = GetDistance::getDistanceToWall(tapeBox);
-            lRightTheta = GetAngle::getTheta(tapeBox);
-            lRightDistanceTape = GetDistance::getDistanceToTape(tapeBox, lRightTheta);
-        }
-
-        // Process the right camera's frame
-        rightBoxes = GetBoxes::getTapeBoxes(rightImg, pipeline);
-        if (!rightBoxes.size())
-        {
-            std::cout << "No images found after filtering for right camera" << std::endl;
-            continue;
-        }
-        rightBoxesPair = PairFinding::pairFinding(rightBoxes);
-        if (rightBoxesPair.first)
-        {
-            Box tapeBox= rightBoxesPair.first.value();
-            rLeftDistanceWall = GetDistance::getDistanceToWall(tapeBox);
-            rLeftTheta = GetAngle::getTheta(tapeBox);
-            rLeftDistanceTape = GetDistance::getDistanceToTape(tapeBox, rLeftTheta);
-        }
-        if (rightBoxesPair.second)
-        {
-            Box tapeBox= rightBoxesPair.second.value();
-            rRightDistanceWall = GetDistance::getDistanceToWall(tapeBox);
-            rRightTheta = GetAngle::getTheta(tapeBox);
-            rRightDistanceTape = GetDistance::getDistanceToTape(tapeBox, rRightTheta);
-        }
+        std::optional<ProcessFrame::Result> leftFrameResult = ProcessFrame::process(leftImg);
+        std::optional<ProcessFrame::Result> rightFrameResult = ProcessFrame::process(rightImg);
 
         // Use data from both cameras to calculate angle relative to the wall
-        beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
+        beta = GetAngle::getBeta(
+            leftFrameResult.left.distanceWall,
+            leftFrameResult.right.distanceWall,
+            rightFrameResult.left.distanceWall,
+            rightFrameResult.right.distanceWall);
 
         // Communicate output
         if (Config::USE_NETWORKTABLES)
