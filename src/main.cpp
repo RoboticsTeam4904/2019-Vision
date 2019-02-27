@@ -56,64 +56,70 @@ int main()
                             std::chrono::system_clock::now().time_since_epoch())
                             .count();
 
-        if (leftCamera.read(leftImg))
-        {
-            leftBoxes = GetBoxes::getTapeBoxes(leftImg, pipeline); // TODO: for both right and left this value is set twice. Which is right?
-            if (!leftBoxes.size())
-            {
-                std::cout << "No images found after filtering for left camera" << std::endl;
-                continue;
-            }
-            leftBoxesPair = PairFinding::pairFinding(rightBoxes);
-            if (leftBoxesPair.first)
-            {
-                lLeftDistanceWall = GetDistance::getDistanceToWall(leftBoxesPair.first.value());
-                lLeftTheta = GetAngle::getTheta(leftBoxesPair.first.value());
-                lLeftDistanceTape = GetDistance::getDistanceToTape(leftBoxesPair.first.value(), lLeftTheta);
-            }
-
-            if (leftBoxesPair.second)
-            {
-                lRightDistanceWall = GetDistance::getDistanceToWall(leftBoxesPair.second.value());
-                lRightTheta = GetAngle::getTheta(leftBoxesPair.second.value());
-                lRightDistanceTape = GetDistance::getDistanceToTape(leftBoxesPair.second.value(), lRightTheta);
-            }
-        }
-        else
+        // Read frames from either camera. If at least one of the cameras cannot be read from, continue
+        bool leftFrameRead = leftCamera.read(leftImg);
+        if (!leftFrameRead)
             std::cout << "Unable to get image from camera with port " << Config::LEFT_CAMERA_PORT << std::endl;
-
-        if (rightCamera.read(rightImg))
-        {
-            rightBoxes = GetBoxes::getTapeBoxes(rightImg, pipeline);
-            if (!rightBoxes.size())
-            {
-                std::cout << "No images found after filtering for right camera" << std::endl;
-                continue;
-            }
-            rightBoxesPair = PairFinding::pairFinding(rightBoxes);
-            if (rightBoxesPair.first)
-            {
-                rLeftDistanceWall = GetDistance::getDistanceToWall(rightBoxesPair.first.value());
-                rLeftTheta = GetAngle::getTheta(rightBoxesPair.first.value());
-                rLeftDistanceTape = GetDistance::getDistanceToTape(rightBoxesPair.first.value(), rLeftTheta);
-            }
-
-            if (rightBoxesPair.second)
-            {
-                rRightDistanceWall = GetDistance::getDistanceToWall(rightBoxesPair.second.value());
-                rRightTheta = GetAngle::getTheta(rightBoxesPair.second.value());
-                rRightDistanceTape = GetDistance::getDistanceToTape(rightBoxesPair.second.value(), rRightTheta);
-            }
-        }
-        else
+        if (!rightCamera.read(rightImg)) {
             std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
+            if (!leftFrameRead)
+                continue;
+        }
 
+        // Process the left camera's frame
+        leftBoxes = GetBoxes::getTapeBoxes(leftImg, pipeline); // TODO: for both right and left this value is set twice. Which is right?
+        if (!leftBoxes.size())
+        {
+            std::cout << "No images found after filtering for left camera" << std::endl;
+            continue;
+        }
+        leftBoxesPair = PairFinding::pairFinding(rightBoxes);
+        if (leftBoxesPair.first)
+        {
+            Box pair = leftBoxesPair.first.value();
+            lLeftDistanceWall = GetDistance::getDistanceToWall(pair);
+            lLeftTheta = GetAngle::getTheta(pair);
+            lLeftDistanceTape = GetDistance::getDistanceToTape(pair, lLeftTheta);
+        }
+        if (leftBoxesPair.second)
+        {
+            Box pair = leftBoxesPair.second.value();
+            lRightDistanceWall = GetDistance::getDistanceToWall(pair);
+            lRightTheta = GetAngle::getTheta(pair);
+            lRightDistanceTape = GetDistance::getDistanceToTape(pair, lRightTheta);
+        }
+
+        // Process the right camera's frame
+        rightBoxes = GetBoxes::getTapeBoxes(rightImg, pipeline);
+        if (!rightBoxes.size())
+        {
+            std::cout << "No images found after filtering for right camera" << std::endl;
+            continue;
+        }
+        rightBoxesPair = PairFinding::pairFinding(rightBoxes);
+        if (rightBoxesPair.first)
+        {
+            Box pair = rightBoxesPair.first.value();
+            rLeftDistanceWall = GetDistance::getDistanceToWall(pair);
+            rLeftTheta = GetAngle::getTheta(pair);
+            rLeftDistanceTape = GetDistance::getDistanceToTape(pair, rLeftTheta);
+        }
+        if (rightBoxesPair.second)
+        {
+            Box pair = rightBoxesPair.second.value();
+            rRightDistanceWall = GetDistance::getDistanceToWall(pair);
+            rRightTheta = GetAngle::getTheta(pair);
+            rRightDistanceTape = GetDistance::getDistanceToTape(pair, rRightTheta);
+        }
+
+        // Use data from both cameras to calculate angle relative to the wall
         beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
 
+        // Communicate output
         if (Config::USE_NETWORKTABLES)
             ntBetaEntry.SetDouble(beta);
-
         std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
+
         if (Config::DEBUG) 
             std::cout << "Time per frame: "
                       << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch())
