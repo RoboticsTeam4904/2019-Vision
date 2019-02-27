@@ -58,13 +58,12 @@ int main()
 
         // Read frames from either camera. If at least one of the cameras cannot be read from, continue
         bool leftFrameRead = leftCamera.read(leftImg);
+        bool rightFrameRead = rightCamera.read(rightImg);
         if (!leftFrameRead)
             std::cout << "Unable to get image from camera with port " << Config::LEFT_CAMERA_PORT << std::endl;
-        if (!rightCamera.read(rightImg)) {
+        if (!rightFrameRead) 
             std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
-            if (!leftFrameRead)
-                continue;
-        }
+        if (!(leftFrameRead || rightFrameRead)) continue;
 
         // Process the left camera's frame
         leftBoxes = GetBoxes::getTapeBoxes(leftImg, pipeline); // TODO: for both right and left this value is set twice. Which is right?
@@ -76,17 +75,17 @@ int main()
         leftBoxesPair = PairFinding::pairFinding(leftBoxes);
         if (leftBoxesPair.first)
         {
-            Box pair = leftBoxesPair.first.value();
-            lLeftDistanceWall = GetDistance::getDistanceToWall(pair);
-            lLeftTheta = GetAngle::getTheta(pair);
-            lLeftDistanceTape = GetDistance::getDistanceToTape(pair, lLeftTheta);
+            BoxtapeBox= leftBoxesPair.first.value();
+            lLeftDistanceWall = GetDistance::getDistanceToWall(tapeBox);
+            lLeftTheta = GetAngle::getTheta(tapeBox);
+            lLeftDistanceTape = GetDistance::getDistanceToTape(tapeBox, lLeftTheta);
         }
         if (leftBoxesPair.second)
         {
-            Box pair = leftBoxesPair.second.value();
-            lRightDistanceWall = GetDistance::getDistanceToWall(pair);
-            lRightTheta = GetAngle::getTheta(pair);
-            lRightDistanceTape = GetDistance::getDistanceToTape(pair, lRightTheta);
+            BoxtapeBox= leftBoxesPair.second.value();
+            lRightDistanceWall = GetDistance::getDistanceToWall(tapeBox);
+            lRightTheta = GetAngle::getTheta(tapeBox);
+            lRightDistanceTape = GetDistance::getDistanceToTape(tapeBox, lRightTheta);
         }
 
         // Process the right camera's frame
@@ -99,17 +98,17 @@ int main()
         rightBoxesPair = PairFinding::pairFinding(rightBoxes);
         if (rightBoxesPair.first)
         {
-            Box pair = rightBoxesPair.first.value();
-            rLeftDistanceWall = GetDistance::getDistanceToWall(pair);
-            rLeftTheta = GetAngle::getTheta(pair);
-            rLeftDistanceTape = GetDistance::getDistanceToTape(pair, rLeftTheta);
+            BoxtapeBox= rightBoxesPair.first.value();
+            rLeftDistanceWall = GetDistance::getDistanceToWall(tapeBox);
+            rLeftTheta = GetAngle::getTheta(tapeBox);
+            rLeftDistanceTape = GetDistance::getDistanceToTape(tapeBox, rLeftTheta);
         }
         if (rightBoxesPair.second)
         {
-            Box pair = rightBoxesPair.second.value();
-            rRightDistanceWall = GetDistance::getDistanceToWall(pair);
-            rRightTheta = GetAngle::getTheta(pair);
-            rRightDistanceTape = GetDistance::getDistanceToTape(pair, rRightTheta);
+            BoxtapeBox= rightBoxesPair.second.value();
+            rRightDistanceWall = GetDistance::getDistanceToWall(tapeBox);
+            rRightTheta = GetAngle::getTheta(tapeBox);
+            rRightDistanceTape = GetDistance::getDistanceToTape(tapeBox, rRightTheta);
         }
 
         // Use data from both cameras to calculate angle relative to the wall
