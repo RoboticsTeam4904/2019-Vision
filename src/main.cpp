@@ -75,14 +75,14 @@ int main()
         leftBoxesPair = PairFinding::pairFinding(leftBoxes);
         if (leftBoxesPair.first)
         {
-            BoxtapeBox= leftBoxesPair.first.value();
+            box tapeBox= leftBoxesPair.first.value();
             lLeftDistanceWall = GetDistance::getDistanceToWall(tapeBox);
             lLeftTheta = GetAngle::getTheta(tapeBox);
             lLeftDistanceTape = GetDistance::getDistanceToTape(tapeBox, lLeftTheta);
         }
         if (leftBoxesPair.second)
         {
-            BoxtapeBox= leftBoxesPair.second.value();
+            box tapeBox= leftBoxesPair.second.value();
             lRightDistanceWall = GetDistance::getDistanceToWall(tapeBox);
             lRightTheta = GetAngle::getTheta(tapeBox);
             lRightDistanceTape = GetDistance::getDistanceToTape(tapeBox, lRightTheta);
@@ -98,14 +98,14 @@ int main()
         rightBoxesPair = PairFinding::pairFinding(rightBoxes);
         if (rightBoxesPair.first)
         {
-            BoxtapeBox= rightBoxesPair.first.value();
+            box tapeBox= rightBoxesPair.first.value();
             rLeftDistanceWall = GetDistance::getDistanceToWall(tapeBox);
             rLeftTheta = GetAngle::getTheta(tapeBox);
             rLeftDistanceTape = GetDistance::getDistanceToTape(tapeBox, rLeftTheta);
         }
         if (rightBoxesPair.second)
         {
-            BoxtapeBox= rightBoxesPair.second.value();
+            box tapeBox= rightBoxesPair.second.value();
             rRightDistanceWall = GetDistance::getDistanceToWall(tapeBox);
             rRightTheta = GetAngle::getTheta(tapeBox);
             rRightDistanceTape = GetDistance::getDistanceToTape(tapeBox, rRightTheta);
