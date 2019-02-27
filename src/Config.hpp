@@ -31,7 +31,6 @@ extern bool EXTRA_DEBUG; // step through each contour in the webcam by turning o
 /* *
     * Network Output Settings
 */
-extern bool USE_NETWORKTABLES;
 extern bool CAN;
 extern bool SOCKETS;
 

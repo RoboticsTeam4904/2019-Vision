@@ -21,7 +21,6 @@ bool Config::EXTRA_DEBUG = false; // step through each contour in the webcam by 
 /* *
     * Network Output Settings
 */
-bool Config::USE_NETWORKTABLES = true;
 bool Config::CAN = false;
 bool Config::SOCKETS = false;
 
