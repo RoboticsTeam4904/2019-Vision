@@ -111,7 +111,7 @@ int main()
         beta = GetAngle::getBeta(lLeftDistanceWall, lRightDistanceWall, rLeftDistanceWall, rRightDistanceWall);
 
         if (Config::USE_NETWORKTABLES)
-            tapeAngleEntry.SetDouble(beta);
+            ntBetaEntry.SetDouble(beta);
 
         std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
         if (Config::DEBUG) 
