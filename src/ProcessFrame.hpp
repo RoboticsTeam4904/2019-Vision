@@ -16,9 +16,9 @@ struct TapeResult {
     double distanceWall;
     double distanceTape;
     double theta;
-}
+};
 
 std::optional<Result> process(grip::GripPipeline &pipeline, cv::Mat &frame);
-std::optional<TapeResult> processTape(Box &box);
+TapeResult processTape(Box &tapeBox);
 }
 #endif

@@ -5,7 +5,9 @@
 #include "ProcessFrame.hpp"
 #include "Config.hpp"
 #include "GripPipeline.h"
+#include "GetAngle.hpp"
 #include "GetBoxes.hpp"
+#include "GetDistance.hpp"
 #include "PairFinding.hpp"
 
 std::optional<ProcessFrame::Result>
@@ -20,8 +22,8 @@ std::optional<ProcessFrame::Result>
     std::pair<std::optional<Box>, std::optional<Box>> boxesPair = PairFinding::pairFinding(boxes);
 
     ProcessFrame::Result result {
-        ProcessFrame::TapeResult {0, 0, 0},
-        ProcessFrame::TapeResult {0, 0, 0},
+        ProcessFrame::TapeResult {},
+        ProcessFrame::TapeResult {},
     };
 
     if (boxesPair.first) {
@@ -34,8 +36,8 @@ std::optional<ProcessFrame::Result>
     return result;
 }
 
-std::optional<ProcessFrame::TapeResult> ProcessFrame::processTape(Box &box) {
-    ProcessFrame::TapeResult result {0, 0, 0};
+ProcessFrame::TapeResult ProcessFrame::processTape(Box &tapeBox) {
+    ProcessFrame::TapeResult result {};
 
     result.theta = GetAngle::getTheta(tapeBox);
     result.distanceWall = GetDistance::getDistanceToWall(tapeBox);
