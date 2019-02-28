@@ -58,23 +58,23 @@ int main()
                             .count();
 
         // Read frames from either camera. If at least one of the cameras cannot be read from, continue
-        bool leftFrameRead = leftCamera.read(leftImg);
-        bool rightFrameRead = rightCamera.read(rightImg);
+        bool leftFrameRead = leftCamera.read(&leftImg);
+        bool rightFrameRead = rightCamera.read(&rightImg);
         if (!leftFrameRead)
-            std::cout << "Unable to get image from camera with port " << Config::LEFT_CAMERA_PORT << std::endl;
+            std::cout << "Unable to get left image from camera with port " << Config::LEFT_CAMERA_PORT << std::endl;
         if (!rightFrameRead) 
-            std::cout << "Unable to get image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
+            std::cout << "Unable to get right image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
         if (!(leftFrameRead || rightFrameRead)) continue;
 
-        std::optional<ProcessFrame::Result> leftFrameResult = ProcessFrame::process(leftImg);
-        std::optional<ProcessFrame::Result> rightFrameResult = ProcessFrame::process(rightImg);
+        std::optional<ProcessFrame::Result> leftFrameResult = ProcessFrame::process(&pipeline, &leftImg);
+        std::optional<ProcessFrame::Result> rightFrameResult = ProcessFrame::process(&pipeline, &rightImg);
 
         // Use data from both cameras to calculate angle relative to the wall
         beta = GetAngle::getBeta(
-            leftFrameResult.left.distanceWall,
-            leftFrameResult.right.distanceWall,
-            rightFrameResult.left.distanceWall,
-            rightFrameResult.right.distanceWall);
+            leftFrameResult ? leftFrameResult.value().left.distanceWall : 0,
+            leftFrameResult ? leftFrameResult.value().right.distanceWall : 0,
+            rightFrameResult ? rightFrameResult.value().left.distanceWall : 0,
+            rightFrameResult ? rightFrameResult.value().right.distanceWall : 0);
 
         // Communicate output
         if (Config::USE_NETWORKTABLES)

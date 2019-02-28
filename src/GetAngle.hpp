@@ -5,6 +5,7 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include "Config.hpp"
+#include "ProcessFrame.hpp"
 
 namespace GetAngle
 {
