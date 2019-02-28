@@ -72,25 +72,25 @@ int main()
 
         std::optional<ProcessFrame::Result> leftFrameResult = ProcessFrame::process(pipeline, leftImg);
         if (!leftFrameResult) continue;
-        ProcessFrame::Result leftFrameResult = leftFrameResult.value();
+        ProcessFrame::Result leftFrameData = leftFrameResult.value();
  
         std::optional<ProcessFrame::Result> rightFrameResult = ProcessFrame::process(pipeline, rightImg);
         if (!rightFrameResult) continue;
-        ProcessFrame::Result rightFrameResult = rightFrameResult.value();
+        ProcessFrame::Result rightFrameData = rightFrameResult.value();
 
         // Use data from both cameras to calculate angle relative to the wall
         beta = GetAngle::getBeta(
-            leftFrameResult.left.distanceWall,
-            leftFrameResult.right.distanceWall,
-            rightFrameResult.left.distanceWall,
-            rightFrameResult.right.distanceWall);
+            leftFrameData.left.distanceWall,
+            leftFrameData.right.distanceWall,
+            rightFrameData.left.distanceWall,
+            rightFrameData.right.distanceWall);
 
-        std::optional<cv::Point> averageDistance = 
+        std::optional<cv::Point> averageDistanceOpt = 
             GetDistance::getAverageDistance(
-                leftFrameResult.left.theta, rightFrameResult.right.theta,
-                leftFrameResult.left.distance,rightFrameResult.right.distance);
-        if (averageDistance) {
-            cv::Point averageDistance = averageDistance.value();
+                leftFrameData.left.theta, rightFrameData.right.theta,
+                leftFrameData.left.distance, rightFrameData.right.distance);
+        if (averageDistanceOpt) {
+            cv::Point averageDistance = averageDistanceOpt.value();
             theta = GetAngle::getAngleToTapePair(averageDistance);
             distance = GetDistance::getDistanceToTapePair(averageDistance);
         }
