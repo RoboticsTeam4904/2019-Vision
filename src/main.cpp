@@ -66,8 +66,8 @@ int main()
             std::cout << "Unable to get right image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
         if (!(leftFrameRead || rightFrameRead)) continue;
 
-        std::optional<ProcessFrame::Result> leftFrameResult = ProcessFrame::process(pipeline, &leftImg);
-        std::optional<ProcessFrame::Result> rightFrameResult = ProcessFrame::process(pipeline, &rightImg);
+        std::optional<ProcessFrame::Result> leftFrameResult = ProcessFrame::process(pipeline, leftImg);
+        std::optional<ProcessFrame::Result> rightFrameResult = ProcessFrame::process(pipeline, rightImg);
 
         // Use data from both cameras to calculate angle relative to the wall
         beta = GetAngle::getBeta(
