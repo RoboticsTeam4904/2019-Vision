@@ -88,7 +88,7 @@ int main()
         std::optional<cv::Point> averageDistanceOpt = 
             GetDistance::getAverageDistance(
                 leftFrameData.left.theta, rightFrameData.right.theta,
-                leftFrameData.left.distance, rightFrameData.right.distance);
+                leftFrameData.left.distanceTape, rightFrameData.right.distanceTape);
         if (averageDistanceOpt) {
             cv::Point averageDistance = averageDistanceOpt.value();
             theta = GetAngle::getAngleToTapePair(averageDistance);

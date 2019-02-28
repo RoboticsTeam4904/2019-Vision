@@ -23,7 +23,7 @@ double GetDistance::getDistanceToTape(Box &box, double theta, double gamma) {
 }
 
 double getDistanceToTapePair(cv::Point averageDistance) {
-    return sqrt(pow(averageDistance.x, 2) + pow(averageDistance.y, 2))
+    return sqrt(pow(averageDistance.x, 2) + pow(averageDistance.y, 2));
 }
 
 std::optional<cv::Point> getAverageDistance(double leftCamLeftTapeTheta, double rightCamRightTapeTheta,
