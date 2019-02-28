@@ -9,7 +9,8 @@
 
 namespace GetAngle
 {
-double getTheta(Box &tapeBox);
+double getAngleToTape(Box &tapeBox);
+double getAngleToTapePair(cv::Point averageDistance);
 double getBeta(double lLeftTapeDistWall,
                double lRightTapeDistWall,
                double rLeftTapeDistWall,

@@ -39,7 +39,7 @@ std::optional<ProcessFrame::Result>
 ProcessFrame::TapeResult ProcessFrame::processTape(Box &tapeBox) {
     ProcessFrame::TapeResult result {};
 
-    result.theta = GetAngle::getTheta(tapeBox);
+    result.theta = GetAngle::getAngleToTape(tapeBox);
     result.distanceWall = GetDistance::getDistanceToWall(tapeBox);
     result.distanceTape = GetDistance::getDistanceToTape(tapeBox, result.theta);
 

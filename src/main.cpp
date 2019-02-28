@@ -29,11 +29,13 @@ int main()
     
     // Networktables stuff
     nt::NetworkTableInstance inst;
-    nt::NetworkTableEntry ntBetaEntry;
+    nt::NetworkTableEntry ntBetaEntry, ntThetaEntry, ntDistanceEntry;
     if (Config::USE_NETWORKTABLES) {
         inst = nt::NetworkTableInstance::GetDefault();
         inst.StartClientTeam(Config::TEAM_NUMBER, Config::NETWORKTABLES_PORT);
         ntBetaEntry = inst.GetEntry("Vision/rfTape/beta");
+        ntThetaEntry = inst.GetEntry("Vision/rfTape/theta");
+        ntDistanceEntry = inst.GetEntry("Vision/rfTape/distance");
     }
 
     grip::GripPipeline pipeline = grip::GripPipeline();
@@ -49,7 +51,9 @@ int main()
         rLeftDistanceTape = 0, rRightDistanceTape = 0,
         lLeftTheta = 0, lRightTheta = 0,
         rLeftTheta = 0, rRightTheta = 0,
-        beta = 0;
+        beta = 0,
+        theta = 0,
+        distance = 0;
     while (true)
     {
         if (Config::DEBUG)
@@ -67,18 +71,36 @@ int main()
         if (!(leftFrameRead || rightFrameRead)) continue;
 
         std::optional<ProcessFrame::Result> leftFrameResult = ProcessFrame::process(pipeline, leftImg);
+        if (!leftFrameResult) continue;
+        ProcessFrame::Result leftFrameResult = leftFrameResult.value();
+ 
         std::optional<ProcessFrame::Result> rightFrameResult = ProcessFrame::process(pipeline, rightImg);
+        if (!rightFrameResult) continue;
+        ProcessFrame::Result rightFrameResult = rightFrameResult.value();
 
         // Use data from both cameras to calculate angle relative to the wall
         beta = GetAngle::getBeta(
-            leftFrameResult ? leftFrameResult.value().left.distanceWall : 0,
-            leftFrameResult ? leftFrameResult.value().right.distanceWall : 0,
-            rightFrameResult ? rightFrameResult.value().left.distanceWall : 0,
-            rightFrameResult ? rightFrameResult.value().right.distanceWall : 0);
+            leftFrameResult.left.distanceWall,
+            leftFrameResult.right.distanceWall,
+            rightFrameResult.left.distanceWall,
+            rightFrameResult.right.distanceWall);
+
+        std::optional<cv::Point> averageDistance = 
+            GetDistance::getAverageDistance(
+                leftFrameResult.left.theta, rightFrameResult.right.theta,
+                leftFrameResult.left.distance,rightFrameResult.right.distance);
+        if (averageDistance) {
+            cv::Point averageDistance = averageDistance.value();
+            theta = GetAngle::getAngleToTapePair(averageDistance);
+            distance = GetDistance::getDistanceToTapePair(averageDistance);
+        }
 
         // Communicate output
-        if (Config::USE_NETWORKTABLES)
+        if (Config::USE_NETWORKTABLES) {
             ntBetaEntry.SetDouble(beta);
+            ntThetaEntry.SetDouble(theta);
+            ntDistanceEntry.SetDouble(distance);
+        }
         std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
 
         if (Config::DEBUG) 

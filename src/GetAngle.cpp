@@ -6,7 +6,7 @@
 #include "GetAngle.hpp"
 
 // Function returns theta in radians
-double GetAngle::getTheta(Box &tapeBox)
+double GetAngle::getAngleToTape(Box &tapeBox)
 {
     cv::Point top = tapeBox[0];    // The top point of the box
     cv::Point left = tapeBox[1];   // The leftmost point of the box
@@ -18,6 +18,10 @@ double GetAngle::getTheta(Box &tapeBox)
     double P2 = width / 2;
     double P1 = averageX - P2;
     return atan(P1 * tan(Config::FOV / 2) / P2);
+}
+
+double getAngleToTapePair(cv::Point averageDistance) {
+    return atan(averageDistance.x / averageDistance.y);
 }
 
 // Function returns beta in radians
