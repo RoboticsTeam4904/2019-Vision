@@ -22,11 +22,11 @@ double GetDistance::getDistanceToTape(Box &box, double theta, double gamma) {
     return (distanceConstant / heightPixels * 0.03937) / cos(theta);  // 0.03937 is the conversion from millimeters to inches
 }
 
-double getDistanceToTapePair(cv::Point averageDistance) {
+double GetDistance::getDistanceToTapePair(cv::Point averageDistance) {
     return sqrt(pow(averageDistance.x, 2) + pow(averageDistance.y, 2));
 }
 
-std::optional<cv::Point> getAverageDistance(double leftCamLeftTapeTheta, double rightCamRightTapeTheta,
+std::optional<cv::Point> GetDistance::getAverageDistance(double leftCamLeftTapeTheta, double rightCamRightTapeTheta,
                                             double leftCamLeftTapeDistance, double rightCamRightTapeDistance) {
     if (!(leftCamLeftTapeDistance || rightCamRightTapeDistance))
         return std::nullopt;

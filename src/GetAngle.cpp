@@ -20,7 +20,7 @@ double GetAngle::getAngleToTape(Box &tapeBox)
     return atan(P1 * tan(Config::FOV / 2) / P2);
 }
 
-double getAngleToTapePair(cv::Point averageDistance) {
+double GetAngle::getAngleToTapePair(cv::Point averageDistance) {
     return atan(averageDistance.x / averageDistance.y);
 }
 
