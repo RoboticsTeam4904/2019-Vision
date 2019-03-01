@@ -2,6 +2,7 @@
 
 #include <chrono>
 #include <cmath>
+#include <future>
 #include <iostream>
 #include <utility>
 #include <vector>
@@ -38,9 +39,12 @@ int main()
         ntDistanceEntry = inst.GetEntry("Vision/rfTape/distance");
     }
 
-    grip::GripPipeline pipeline = grip::GripPipeline();
+    grip::GripPipeline leftPipeline = grip::GripPipeline();
+    grip::GripPipeline rightPipeline = grip::GripPipeline();
+
     cv::VideoCapture leftCamera(Config::LEFT_CAMERA_PORT);
     cv::VideoCapture rightCamera(Config::RIGHT_CAMERA_PORT);
+
     cv::Mat leftImg, rightImg;
     std::vector<Box> leftBoxes, rightBoxes;
     std::pair<std::optional<Box>, std::optional<Box>> leftBoxesPair, rightBoxesPair;
@@ -70,11 +74,20 @@ int main()
             std::cout << "Unable to get right image from camera with port " << Config::RIGHT_CAMERA_PORT << std::endl;
         if (!(leftFrameRead || rightFrameRead)) continue;
 
-        std::optional<ProcessFrame::Result> leftFrameResult = ProcessFrame::process(pipeline, leftImg);
+        std::future<std::optional<ProcessFrame::Result>> leftFrameFuture = std::async(
+            std::launch::async, [&leftPipeline, &leftImg]{
+                return ProcessFrame::process(leftPipeline, leftImg);
+            });
+        std::future<std::optional<ProcessFrame::Result>> rightFrameFuture = std::async(
+            std::launch::async, [&rightPipeline, &rightImg]{
+                return ProcessFrame::process(rightPipeline, rightImg);
+            });
+        
+        std::optional<ProcessFrame::Result> leftFrameResult = leftFrameFuture.get();
+        std::optional<ProcessFrame::Result> rightFrameResult = rightFrameFuture.get();
+
         if (!leftFrameResult) continue;
         ProcessFrame::Result leftFrameData = leftFrameResult.value();
- 
-        std::optional<ProcessFrame::Result> rightFrameResult = ProcessFrame::process(pipeline, rightImg);
         if (!rightFrameResult) continue;
         ProcessFrame::Result rightFrameData = rightFrameResult.value();
 
