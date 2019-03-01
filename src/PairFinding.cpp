@@ -36,7 +36,7 @@ std::pair<std::optional<Box>, std::optional<Box>>
 
     std::optional<Box> matchA(maxBox);
     std::optional<Box> matchB = pairObtained ? std::optional<Box>(pairBox) : std::nullopt;
-    return tapeRight ? std::pair(matchB, matchA) : std::pair(matchA, matchB);
+    return tapeRight ? std::pair<std::optional<Box>, std::optional<Box>>(matchB, matchA) : std::pair<std::optional<Box>, std::optional<Box>>(matchA, matchB);
 }
 
 Box PairFinding::checkLargestTape(std::vector<Box> &tapeBoxes) {

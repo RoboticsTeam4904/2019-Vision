@@ -1,8 +1,5 @@
-rftape: src/*.cpp src/*.hpp src/*.h
+floortape: src/*.cpp src/*.hpp
 	mkdir build
-	# g++ src/*.cpp src/*.hpp src/*.h -I /usr/local/include/opencv4/ -L /usr/local/lib -l opencv_core -l opencv_videoio -l opencv_imgproc -l opencv_highgui -std=c++17 -o build/rftape -w
-		g++ src/*.cpp src/*.hpp src/*.h -I ~/frc2019/allwpilib/wpiutil/src/main/native/include  -I ~/frc2019/allwpilib/ntcore/src/main/native/include -I /usr/local/include/opencv4/ -L ~/frc2019/allwpilib/build/lib -L /usr/local/lib -l opencv_core -l opencv_videoio -l opencv_imgproc -l opencv_highgui -std=c++17 -w
-
-
+	g++-8 src/*.cpp src/*.hpp -I /usr/local/include/opencv4/ -I /home/ubuntu/allwpilib/ntcore/src/main/native/include -I /home/ubuntu/allwpilib/wpiutil/src/main/native/include  -std=c++17 -l opencv_core -l opencv_imgproc -l opencv_videoio -l opencv_highgui -L /home/ubuntu/allwpilib/buildcmake/lib -l wpiutil -l ntcore -pthread -o build/rftape
 clean:
 	rm -rf build

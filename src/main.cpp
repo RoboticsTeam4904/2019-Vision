@@ -19,10 +19,11 @@
 
 unsigned long timeStart = 0;
 
-int main()
+int main(int argc, char* argv[])
 {
+    bool DEBUG = ((std::string) argv[1]) == "true";
     std::cout
-        << "Running with DEBUG=" << Config::DEBUG
+        << "Running with DEBUG=" << DEBUG
         << " USE_NETWORKTABLES=" << Config::USE_NETWORKTABLES
         << " NETWORKTABLES_PORT=" << Config::NETWORKTABLES_PORT
         << " TEAM_NUMBER=" << Config::TEAM_NUMBER
@@ -60,7 +61,7 @@ int main()
         distance = 0;
     while (true)
     {
-        if (Config::DEBUG)
+        if (DEBUG)
             timeStart = std::chrono::duration_cast<std::chrono::milliseconds>(
                             std::chrono::system_clock::now().time_since_epoch())
                             .count();
@@ -86,9 +87,15 @@ int main()
         std::optional<ProcessFrame::Result> leftFrameResult = leftFrameFuture.get();
         std::optional<ProcessFrame::Result> rightFrameResult = rightFrameFuture.get();
 
-        if (!leftFrameResult) continue;
+        if (!leftFrameResult)
+            std::cout << "No contours in left frame; ";
+        if (!rightFrameResult)
+            std::cout << "No contours in right frame; ";
+        if (!(rightFrameResult && leftFrameResult)) {
+            std::cout << std::endl;
+            continue;
+        }
         ProcessFrame::Result leftFrameData = leftFrameResult.value();
-        if (!rightFrameResult) continue;
         ProcessFrame::Result rightFrameData = rightFrameResult.value();
 
         // Use data from both cameras to calculate angle relative to the wall
@@ -116,7 +123,7 @@ int main()
         }
         std::cout << "BETA (In degrees): " << beta / M_PI * 180 << std::endl;
 
-        if (Config::DEBUG) 
+        if (DEBUG) 
             std::cout << "Time per frame: "
                       << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch())
                                  .count() -

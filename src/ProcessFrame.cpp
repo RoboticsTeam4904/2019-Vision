@@ -15,10 +15,7 @@ std::optional<ProcessFrame::Result>
     // TODO: for both right and left this value is set twice. Which is right?
     std::vector<Box> boxes = GetBoxes::getTapeBoxes(frame, pipeline);
     if (!boxes.size())
-    {
-        std::cout << "No images found after filtering for left camera" << std::endl;
         return std::nullopt;
-    }
     std::pair<std::optional<Box>, std::optional<Box>> boxesPair = PairFinding::pairFinding(boxes);
 
     ProcessFrame::Result result {
