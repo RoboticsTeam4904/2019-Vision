@@ -21,7 +21,7 @@ unsigned long timeStart = 0;
 
 int main(int argc, char* argv[])
 {
-    bool DEBUG = ((std::string) argv[1]) == "true";
+    bool DEBUG = ((std::string) argv[1]) == "--debug";
     std::cout
         << "Running with DEBUG=" << DEBUG
         << " USE_NETWORKTABLES=" << Config::USE_NETWORKTABLES
