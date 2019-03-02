@@ -9,8 +9,16 @@
 
 namespace GetBoxes
 {
-std::vector<Box> getTapeBoxes(cv::Mat &img, grip::GripPipeline &pipeline);
-std::optional<Box> scoringMetric(Contour &contour);
+struct ScoredBox {
+    double score;
+    Box box;
+
+    operator Box() const { return box; }
+};
+
+std::optional<std::vector<ScoredBox>> getScoredTapeBoxes(
+    grip::GripPipeline &pipeline, cv::Mat &img, bool filtered = true);
+ScoredBox scoringMetric(Contour &contour);
 double scoringSideRatio(double width, double height);
 double scoringAreaRatio(double width, double height, Box &points);
 double scoringRotationAngle(cv::Point &right, cv::Point &bottom, double weight);

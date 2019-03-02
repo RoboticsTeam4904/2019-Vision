@@ -13,26 +13,30 @@
 /* *
     * Takes in an image, finds all of the contours, and filters them with the scoringMetric evaluation.
 */
-std::vector<Box> GetBoxes::getTapeBoxes(cv::Mat &img, grip::GripPipeline &pipeline)
-{
+std::optional<std::vector<GetBoxes::ScoredBox>>
+    GetBoxes::getScoredTapeBoxes(
+        grip::GripPipeline &pipeline, cv::Mat &img, bool filtered) {
     pipeline.Process(img);
     std::vector<Contour> contours = *pipeline.GetFilterContoursOutput();
     if (!contours.size())
-        return contours;
-    std::vector<Box> tapeBoxes;
+        return std::nullopt;
+    
+    std::vector<ScoredBox> scoredTapeBoxes;
     for (Contour &contour : contours)
     {
-        std::optional<Box> tapeBox = scoringMetric(contour);
-        if (tapeBox)
-            tapeBoxes.push_back(tapeBox.value());
+        GetBoxes::ScoredBox scoredBox = scoringMetric(contour);
+        if (filtered && scoredBox.score < Config::BOX_SCORE_THRESHOLD)
+            continue;
+        
+        scoredTapeBoxes.push_back(scoredBox);
     }
-    return tapeBoxes;
+    return scoredTapeBoxes;
 }
 
 /* *
     * Calls all of the scoring evaluations, returning a final score for a given box of how likely it is to be a tape
 */
-std::optional<Box> GetBoxes::scoringMetric(Contour &contour)
+GetBoxes::ScoredBox GetBoxes::scoringMetric(Contour &contour)
 {
     cv::Point top;
     cv::Point bottom;
@@ -61,7 +65,7 @@ std::optional<Box> GetBoxes::scoringMetric(Contour &contour)
         + scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC 
         + scoringFilledValue(contour, points) * Config::FILLED_AREA;
 
-    return score > Config::MIN_THRESHOLD ? std::optional<Box>(points) : std::nullopt;
+    return GetBoxes::ScoredBox { score, points };
 }
 
 /* *

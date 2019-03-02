@@ -44,7 +44,7 @@ int Config::ROTATION_ANGLE_OUTFUNC = 1;
 /* *
     * When filtering the image, the image should only choose "scores" above the threshold 
 */
-int Config::MIN_THRESHOLD = 13;
+int Config::BOX_SCORE_THRESHOLD = 13;
 
 // Ideal ratio of length and width of slanted bounding box of tape
 double Config::TAPE_DIM_RATIO = 2.75;
@@ -56,6 +56,8 @@ double Config::TAPE_AREA_RATIO = 0.5698;
 */
 double Config::EXPOSURE = 10;
 double Config::FOV = 1.229;
+
+double Config::EXPOSURE_RANGE[2] = {1, 50};
 
 /* *
     * Distance Finding Settings

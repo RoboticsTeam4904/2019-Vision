@@ -54,7 +54,7 @@ extern int ROTATION_ANGLE_OUTFUNC;
 /* *
     * When filtering the image, the image should only choose "scores" above the threshold 
 */
-extern int MIN_THRESHOLD;
+extern int BOX_SCORE_THRESHOLD;
 
 // Ideal ratio of length and width of slanted bounding box of tape
 extern double TAPE_DIM_RATIO;
@@ -66,6 +66,8 @@ extern double TAPE_AREA_RATIO;
 */
 extern double EXPOSURE;
 extern double FOV;
+
+extern double EXPOSURE_RANGE[2];
 
 /* *
     * Distance and Anngle Finding Settings

@@ -13,10 +13,14 @@
 std::optional<ProcessFrame::Result>
     ProcessFrame::process(grip::GripPipeline &pipeline, cv::Mat &frame) {
     // TODO: for both right and left this value is set twice. Which is right?
-    std::vector<Box> boxes = GetBoxes::getTapeBoxes(frame, pipeline);
-    if (!boxes.size())
+    std::optional<std::vector<GetBoxes::ScoredBox>> scoredBoxes =
+        GetBoxes::getScoredTapeBoxes(pipeline, frame);
+    
+    if (!scoredBoxes)
         return std::nullopt;
-    std::pair<std::optional<Box>, std::optional<Box>> boxesPair = PairFinding::pairFinding(boxes);
+    
+    std::pair<std::optional<Box>, std::optional<Box>> boxesPair =
+        PairFinding::pairFinding(scoredBoxes.value());
 
     ProcessFrame::Result result {
         ProcessFrame::TapeResult {},
@@ -24,10 +28,10 @@ std::optional<ProcessFrame::Result>
     };
 
     if (boxesPair.first) {
-        result.left = ProcessFrame::processTape(boxesPair.first.value());
+        result.left = processTape(boxesPair.first.value());
     }
     if (boxesPair.second) {
-        result.right = ProcessFrame::processTape(boxesPair.second.value());
+        result.right = processTape(boxesPair.second.value());
     }
 
     return result;
