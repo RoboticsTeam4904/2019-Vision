@@ -3,7 +3,7 @@ import math
 
 between_cameras = 8.82600 # in inches
 between_tapes = 4.50023 # in inches 
-
+ 
 # ANGLES TO THE LEFT MUST BE POSITIVE, ANGLES TO THE RIGHT MUST BE NEGATIVE
 def get_theta_3t(theta_11, theta_12, theta_21, r=between_cameras, m=between_tapes): # Final Theta from the center of the robot to the center of the tape
     k_2 = (math.pi/2.0) - theta_21

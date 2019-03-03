@@ -20,7 +20,6 @@ def getTheta(box, fieldOfVision=1.229, imageWidth=640):
         return 0
     # alpha = math.pi -beta + theta
     return theta
-
 # distanceCameras is the distance between cameras
 def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTape, distanceTapes=11): # The distance between the two tapes
     # d_l, d_r are distances to wall
@@ -44,8 +43,9 @@ def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTa
     else:
         print("Right tape not visible (for beta calc)")
         return False
-    #print("\t \t \t \t DISTANCE TO WALL for TAPE 1 is " + str(d_l))
-    #print("\t \t \t \t DISTANCE TO WALL for TAPE 2 is " + str(d_r))
+    print(d_r)
+    print(d_l)
+    print(distanceTapes)
     if abs(d_l - d_r) > distanceTapes:
         print("tape distances too far to be the same target")
         return False # Protects against out of range asin errors

@@ -35,7 +35,7 @@ MIN_THRESHOLD = 13
 
 # Camera settings
 # --------------
-exposure = 15
+exposure = 10
 # Vertical feet from camera to bottom of vision target + Height of target in feet
 displacement = (6.5 + 5)/12.0
 cameraTilt = 0

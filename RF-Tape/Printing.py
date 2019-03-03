@@ -58,14 +58,17 @@ def display(image, name="Contours Found", doResize=True, delay=20):
 
 
 def save(image, name=default_name, drawn=False):
-	if drawn:
-		name += drawn_name
-	if name in image_counts:
-		name += str(image_counts[name])
-		image_counts[name] += 1
-	else:
-		image_counts[name] = 1
-	cv2.imwrite(folder + name + ".jpg", image)
+        if drawn:
+                name += drawn_name
+        if name in image_counts:
+                name += str(image_counts[name])
+                if name in image_counts:
+                    image_counts[name] += 1
+                else:
+                    image_counts[name]=1
+        else:
+                image_counts[name] = 1
+        cv2.imwrite(folder + name + ".jpg", image)
 
 # Save right and left images in folder. Increment number if previously saved with that name
 
