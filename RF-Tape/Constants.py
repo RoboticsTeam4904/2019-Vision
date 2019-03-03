@@ -55,4 +55,4 @@ edited = False
 sampleImage = "TestImages/GearTest.png"
 # number of frames to wait until reinitializing sockets. If 0, never close the socket
 socket_reconnect_rate = 1
-port = 5802
+port = 1735
