@@ -49,8 +49,7 @@ def imageAnalysis(img, port, isLeft=False): #Takes in one image
         leftTheta = GetAngle.getTheta(leftBox)
         leftDistToWall = GetDistance.getDistanceToWall(leftBoxHeight)  # Distance (d1) of camera to the wall
         leftDistToTape = GetDistance.getDistanceToTape(leftBoxHeight, leftTheta)
-        #print("CAMERA" + str(port) + ": LEFT DISTANCE TO WALL IN INCHES: "+
-                str(leftDistToWall))
+        #print("CAMERA" + str(port) + ": LEFT DISTANCE TO WALL IN INCHES: "+ str(leftDistToWall))
         isVisibleLeft = True
     if rightBox[0]:
         rightBox = rightBox[1] 
