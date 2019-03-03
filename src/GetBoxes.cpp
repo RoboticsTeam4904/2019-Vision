@@ -60,10 +60,13 @@ GetBoxes::ScoredBox GetBoxes::scoringMetric(Contour &contour)
     /* *
     * Obtain all of the scores from different metrics, and multiply them ny their respective weights
     */
+    double filled_value = scoringFilledValue(contour, points);
+    
     double score = scoringSideRatio(width, height) * Config::HW_RATIO 
         + scoringAreaRatio(width, height, points) * Config::AREA_RATIO
         + scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC 
-        + scoringFilledValue(contour, points) * Config::FILLED_AREA;
+        + filled_value * Config::FILLED_AREA;
+    std::cout << "Score: " << score << std::endl;
 
     return GetBoxes::ScoredBox { score, points };
 }
@@ -115,22 +118,25 @@ double GetBoxes::scoringFilledValue(Contour contour, Box box)
     for (cv::Point &contourPoint : contour)
         contourPoint -= min;
 
-    cv::Mat dst = cv::Mat::zeros(cv::Size(max.y - min.y, max.x - min.x), CV_8UC1);
-    cv::drawContours(dst, std::vector<Contour> {contour}, -1, 128, cv::FILLED);
-    cv::drawContours(dst, std::vector<Box> {box}, -1, 255, cv::FILLED);
-    int contourPixels = 0;
-    int boxPixels = 0;
-    int pixel;
+    cv::Mat contourMat = cv::Mat::zeros(cv::Size(max.y - min.y, max.x - min.x), CV_8UC1);
+    cv::Mat boxMat = cv::Mat::zeros(cv::Size(max.y - min.y, max.x - min.x), CV_8UC1);
+    cv::drawContours(contourMat, std::vector<Contour> {contour}, -1, 128, cv::FILLED);
+    cv::drawContours(boxMat, std::vector<Box> {box}, -1, 128, cv::FILLED);
+    int totalPixels = 0;
+    int diffPixels;
+    int boxPixel, contourPixel;
+
     for (int y = 0; y < max.y - min.y; ++y)
         for (int x = 0; x < max.x - min.x; ++x)
         {
-            pixel = dst.at<unsigned char>(y, x);
-            if (pixel == 128)
-                ++boxPixels;
-            else if (pixel == 255)
-                ++contourPixels;
+            boxPixel = boxMat.at<unsigned char>(y, x);
+            contourPixel = contourMat.at<unsigned char>(y, x);
+            if (boxPixel != contourPixel)
+                ++diffPixels;
+            if (boxPixel+contourPixel != 0)
+                ++totalPixels;
         };
-    return (contourPixels / (boxPixels + contourPixels));
+    return diffPixels / totalPixels;
 }
 
 /* *

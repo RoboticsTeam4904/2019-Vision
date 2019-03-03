@@ -6,6 +6,8 @@
 #include <iostream>
 #include <utility>
 #include <vector>
+#include <opencv2/opencv.hpp>
+#include <opencv2/imgcodecs.hpp>
 #include "Config.hpp"
 #include "GetAngle.hpp"
 #include "GetBoxes.hpp"
@@ -16,12 +18,17 @@
 #include "networktables/NetworkTableInstance.h"
 #include "PairFinding.hpp"
 #include "ProcessFrame.hpp"
+#include "WebCam.hpp"
 
 unsigned long timeStart = 0;
 
 int main(int argc, char* argv[])
 {
-    bool DEBUG = ((std::string) argv[1]) == "--debug";
+    bool DEBUG = false;
+    try{
+        DEBUG = ((std::string) argv[1]) == "--debug";
+    }
+    catch(int e) {}
     std::cout
         << "Running with DEBUG=" << DEBUG
         << " USE_NETWORKTABLES=" << Config::USE_NETWORKTABLES
@@ -34,7 +41,7 @@ int main(int argc, char* argv[])
     nt::NetworkTableEntry ntBetaEntry, ntThetaEntry, ntDistanceEntry;
     if (Config::USE_NETWORKTABLES) {
         inst = nt::NetworkTableInstance::GetDefault();
-        inst.StartClientTeam(Config::TEAM_NUMBER, Config::NETWORKTABLES_PORT);
+        inst.StartClientTeam(Config::TEAM_NUMBER, Config::NETWORKTABLES_PORT); 
         ntBetaEntry = inst.GetEntry("Vision/rfTape/beta");
         ntThetaEntry = inst.GetEntry("Vision/rfTape/theta");
         ntDistanceEntry = inst.GetEntry("Vision/rfTape/distance");
@@ -42,13 +49,14 @@ int main(int argc, char* argv[])
 
     grip::GripPipeline leftPipeline = grip::GripPipeline();
     grip::GripPipeline rightPipeline = grip::GripPipeline();
-
+    WebCam::set(0, 10);
+    WebCam::set(1, 10);
     cv::VideoCapture leftCamera(Config::LEFT_CAMERA_PORT);
     cv::VideoCapture rightCamera(Config::RIGHT_CAMERA_PORT);
-
     cv::Mat leftImg, rightImg;
     std::vector<Box> leftBoxes, rightBoxes;
     std::pair<std::optional<Box>, std::optional<Box>> leftBoxesPair, rightBoxesPair;
+
     double
         lLeftDistanceWall = 0, lRightDistanceWall = 0,
         rLeftDistanceWall = 0, rRightDistanceWall = 0,

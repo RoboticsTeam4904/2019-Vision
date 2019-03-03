@@ -30,7 +30,7 @@ bool Config::SOCKETS = false;
 */
 double Config::HUE_RANGE[2] = {50, 94};
 double Config::SAT_RANGE[2] = {103, 255};
-double Config::VAL_RANGE[2] = {150, 255};
+double Config::VAL_RANGE[2] = {100, 255};
 
 /* *
     * WEIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
