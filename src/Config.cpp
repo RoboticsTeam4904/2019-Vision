@@ -29,8 +29,8 @@ bool Config::SOCKETS = false;
     * Because they are passed straight into opencv, these values cannot be  or 
 */
 double Config::HUE_RANGE[2] = {50, 94};
-double Config::SAT_RANGE[2] = {103, 255};
-double Config::VAL_RANGE[2] = {100, 255};
+double Config::SAT_RANGE[2] = {75, 255};
+double Config::VAL_RANGE[2] = {150, 255};
 
 /* *
     * WEIGHTS are mutiplied against the scoring_metric. The higher weight value the more we value the metric when finding contours
@@ -38,13 +38,13 @@ double Config::VAL_RANGE[2] = {100, 255};
 int Config::HW_RATIO = 5;
 int Config::AREA_RATIO = 1;
 int Config::FILLED_AREA = 10;
-int Config::ROTATION_ANGLE_INFUNC = 1;
-int Config::ROTATION_ANGLE_OUTFUNC = 1;
+int Config::ROTATION_ANGLE_INFUNC = 0;
+int Config::ROTATION_ANGLE_OUTFUNC = 0;
 
 /* *
     * When filtering the image, the image should only choose "scores" above the threshold 
 */
-int Config::BOX_SCORE_THRESHOLD = 13;
+int Config::BOX_SCORE_THRESHOLD = 10;
 
 // Ideal ratio of length and width of slanted bounding box of tape
 double Config::TAPE_DIM_RATIO = 2.75;

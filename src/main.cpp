@@ -77,6 +77,8 @@ int main(int argc, char* argv[])
         // Read frames from either camera. If at least one of the cameras cannot be read from, continue
         bool leftFrameRead = leftCamera.read(leftImg);
         bool rightFrameRead = rightCamera.read(rightImg);
+        std::vector<int> compression_params = {cv::IMWRITE_PNG_COMPRESSION, 9};
+
         if (!leftFrameRead)
             std::cout << "Unable to get left image from camera with port " << Config::LEFT_CAMERA_PORT << std::endl;
         if (!rightFrameRead) 
@@ -105,6 +107,10 @@ int main(int argc, char* argv[])
         }
         ProcessFrame::Result leftFrameData = leftFrameResult.value();
         ProcessFrame::Result rightFrameData = rightFrameResult.value();
+        std::cout<<"LEFT CAMERA, LEFT TAPE, DISTANCE TO WALL" << leftFrameData.left.distanceWall<<std::endl;
+        std::cout<<"LEFT CAMERA, RIGHT TAPE, DISTANCE TO WALL" << leftFrameData.right.distanceWall<<std::endl;
+        std::cout<<"RIGHT CAMERA, LEFT TAPE, DISTANCE TO WALL" << rightFrameData.left.distanceWall<<std::endl;
+        std::cout<<"RIGHT CAMERA, RIGHT TAPE, DISTANCE TO WALL" << rightFrameData.right.distanceWall<<std::endl;
 
         // Use data from both cameras to calculate angle relative to the wall
         beta = GetAngle::getBeta(
