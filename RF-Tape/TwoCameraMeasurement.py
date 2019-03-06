@@ -16,6 +16,7 @@ def finalDistanceTheta(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCam
     print("LEFT_Y:",  left_y)
     print("RIGHT_Y:", right_y)
     averageX = (left_x + right_x)/2 #averageX is the x coordinate from the center of the tape to the center of the robot 
+    averageX =  (left_x + right_x)/2
     averageY = (left_y + right_y)/2 #averageY is the y coordinate from the center of the tape to the center of the robot 
 
     finalTheta = math.atan(averageX/averageY) #range of arctan is from -90 degress to 90 degrees

@@ -15,8 +15,8 @@ import Printing
 def twoCameras(left_image, right_image, frame_num):
     leftMeasurements = ImageAnalysis.imageAnalysis(left_image, Constants.LEFT_CAMERA_PORT) # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
     rightMeasurements = ImageAnalysis.imageAnalysis(right_image, Constants.RIGHT_CAMERA_PORT) # rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
-    print("LEFT DISTANCE TO WALL" + str(leftMeasurements[0][1]))
-    print("RIGHT DISTANCE TO WALL" + str(rightMeasurement[1][1]))
+    print("LEFT DISTANCE TO WALL: " + str(leftMeasurements[0][1]))
+    print("RIGHT DISTANCE TO WALL: " + str(rightMeasurements[1][1]))
     if config.save: # Save images with objects drawn in
         Printing.savePair(left_image, right_image, drawn=True)
 
@@ -37,7 +37,7 @@ def twoCameras(left_image, right_image, frame_num):
     if beta:
         x, y = TwoCameraMeasurement.getXandY(finalTheta, finalDistance, beta) #returns x and y coordinate from center of tape to center of robot
         print("X COORDINATE", x)
-	    print("Y COORDINATE", y)
+	print("Y COORDINATE", y)
     else:
         x, y = 0, 0
         print ("CAN'T GET BETA OR FINAL DISTANCE")
