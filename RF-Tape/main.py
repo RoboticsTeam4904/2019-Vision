@@ -17,14 +17,13 @@ def twoCameras(left_image, right_image, data):
     leftCamLeftTape, leftCamRightTape = ImageAnalysis.imageAnalysis(left_image) # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
     rightCamLeftTape, rightCamRightTape = ImageAnalysis.imageAnalysis(right_image) # rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
 
-    if (leftCamLeftTape or rightCamLeftTape) and (leftCamRightTape or rightCamRightTape):
-        beta = GetAngle.getBeta(leftCamLeftTape, leftCamRightTape, rightCamLeftTape, rightCamRightTape)
+    
+    beta = GetAngle.getBeta(leftCamLeftTape, leftCamRightTape, rightCamLeftTape, rightCamRightTape)
+    if beta != None:
         data["beta"] = beta
 
-        if debug:
-            print("\t BETA (In degrees): {}".format(beta))
-    elif debug:
-        print("Can't see both tapes, skipping beta calculations")
+    finalTheta, finalDistance = TwoCameraMeasurement.finalDistanceTheta(leftCamLeftTape[2], 
+            rightCamRightTape[2], leftCamLeftTape[1], rightCamRightTape[1])
 
     if leftCamLeftTape and rightCamRightTape:
         # Gets theta and distance measured from center of the robot to center of the tape
