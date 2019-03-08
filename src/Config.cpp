@@ -58,6 +58,7 @@ double Config::EXPOSURE = 10;
 double Config::FOV = 1.229;
 
 double Config::EXPOSURE_RANGE[2] = {1, 50};
+double Config::EXPOSURE_TEST_INCREMENT = 5;
 
 /* *
     * Distance Finding Settings

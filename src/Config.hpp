@@ -68,6 +68,7 @@ extern double EXPOSURE;
 extern double FOV;
 
 extern double EXPOSURE_RANGE[2];
+extern double EXPOSURE_TEST_INCREMENT;
 
 /* *
     * Distance and Anngle Finding Settings
