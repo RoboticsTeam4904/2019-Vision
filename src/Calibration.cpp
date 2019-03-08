@@ -44,9 +44,8 @@ std::optional<double>
 }
 
 std::optional<Calibration::Result>
-    Calibration::compute(cv::VideoCapture &capture, int port) {
-    
-    grip::GripPipeline pipeline = grip::GripPipeline();
+    Calibration::compute(
+        grip::GripPipeline &pipeline, cv::VideoCapture &capture, int port) {
     
     double bestScore = 0;
     double bestExposureScore = 0;

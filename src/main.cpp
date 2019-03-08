@@ -8,6 +8,7 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include <opencv2/imgcodecs.hpp>
+#include "Calibrate.hpp"
 #include "Config.hpp"
 #include "GetAngle.hpp"
 #include "GetBoxes.hpp"
@@ -49,10 +50,21 @@ int main(int argc, char* argv[])
 
     grip::GripPipeline leftPipeline = grip::GripPipeline();
     grip::GripPipeline rightPipeline = grip::GripPipeline();
-    WebCam::set(0, 10);
-    WebCam::set(1, 10);
+
     cv::VideoCapture leftCamera(Config::LEFT_CAMERA_PORT);
     cv::VideoCapture rightCamera(Config::RIGHT_CAMERA_PORT);
+
+    std::optional<Calibration::Result> leftCalibrationResult =
+        Calibration::compute(leftPipeline, leftCamera, 0);
+    
+    std::optional<Calibration::Result> rightCalibrationResult =
+        Calibration::compute(rightPipeline, rightCamera, 1);
+
+    WebCam::set(0, leftCalibrationResult ?
+        leftCalibrationResult.value().exposure : 10);
+    WebCam::set(1, rightCalibrationResult ?
+        rightCalibrationResult.value().exposure : 10);
+
     cv::Mat leftImg, rightImg;
     std::vector<Box> leftBoxes, rightBoxes;
     std::pair<std::optional<Box>, std::optional<Box>> leftBoxesPair, rightBoxesPair;
