@@ -25,7 +25,7 @@ std::optional<std::vector<GetBoxes::ScoredBox>>
     for (Contour &contour : contours)
     {
         GetBoxes::ScoredBox scoredBox = scoringMetric(contour);
-        std::cout<<"SCORE: " << scoredBox.score<<std::endl;
+        std::cout << "SCORE: " << scoredBox.score << std::endl;
         if (filtered && scoredBox.score < Config::BOX_SCORE_THRESHOLD)
             continue;
         
@@ -77,7 +77,7 @@ GetBoxes::ScoredBox GetBoxes::scoringMetric(Contour &contour)
 double GetBoxes::scoringSideRatio(double width, double height)
 {
     double scoreSide = !(width && height) ? 0 : std::max(1 / (pow(Config::TAPE_DIM_RATIO - width / height, 2) + 1),
-                                             1 / (pow(Config::TAPE_DIM_RATIO - height / width, 2) + 1));
+                                            1 / (pow(Config::TAPE_DIM_RATIO - height / width, 2) + 1));
     return scoreSide;
 }
 
@@ -134,16 +134,16 @@ double GetBoxes::scoringFilledValue(Contour contour, Box box)
     double diffPixels=0;
     int boxPixel, contourPixel;
 
-    for (int y = 0; y < max.y - min.y; ++y)
-        for (int x = 0; x < max.x - min.x; ++x)
-        {
+    for (int y = 0; y < max.y - min.y; ++y) {
+        for (int x = 0; x < max.x - min.x; ++x) {
             boxPixel = boxMat.at<unsigned char>(y, x);
             contourPixel = contourMat.at<unsigned char>(y, x);
             if (boxPixel != contourPixel)
                 ++diffPixels;
             if (boxPixel+contourPixel != 0)
                 ++totalPixels;
-        };
+        }
+    }
     double filledScore = diffPixels / totalPixels;
     return diffPixels / totalPixels;
 }

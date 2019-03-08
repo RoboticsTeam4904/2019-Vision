@@ -28,8 +28,9 @@ double GetDistance::getDistanceToTapePair(cv::Point averageDistance) {
 
 std::optional<cv::Point> GetDistance::getAverageDistance(double leftCamLeftTapeTheta, double rightCamRightTapeTheta,
                                             double leftCamLeftTapeDistance, double rightCamRightTapeDistance) {
-    if (!(leftCamLeftTapeDistance || rightCamRightTapeDistance))
+    if (!(leftCamLeftTapeDistance || rightCamRightTapeDistance)) {
         return std::nullopt;
+    }
     double distRatio = leftCamLeftTapeDistance / rightCamRightTapeDistance;
     return std::optional<cv::Point>(cv::Point(
         sin(leftCamLeftTapeTheta) / sin(rightCamRightTapeTheta) * distRatio,
