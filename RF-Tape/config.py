@@ -1,7 +1,7 @@
 # Settings that vary between testing and runnning
 # -----------------------------------------------
 import cv2
-using_cv3 = int(cv2.__version__[0]) == 3
+cv_version = int(cv2.__version__[0])
 
 # Image capture settings
 live_image = True

@@ -69,9 +69,9 @@ def oneCamera(image, data):
 
 def send_data(data):
     if config.network_tables:
-        nt.send_data(*data)
+        nt.send_data(data)
     if config.can:
-        CANInterface.send_data(*data)
+        CANInterface.send_data(data)
     if config.sockets:
         pass # TODO: Sockets
 

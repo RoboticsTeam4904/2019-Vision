@@ -10,10 +10,11 @@ def dist2d(p1, p2):
 def boxAndScore(contour):
     # Get box (corners of bounding rotated rectangle)
     rect = cv2.minAreaRect(contour)
-    if config.using_cv3:
-        box = cv2.boxPoints(rect)
-    else:
+    if config.cv_version == 2:
         box = cv2.cv.BoxPoints(rect)
+    else:
+        box = cv2.boxPoints(rect)
+
     box = np.int0(box)
     # Sorts box from top to bottom
     box = sorted(box, key=lambda x: x[1])[::-1] # TODO: get order from box

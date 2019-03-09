@@ -30,7 +30,7 @@ def check_contour(contour):
 def findContours(img):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)  # Converts to hsv
     thresh = cv2.inRange(hsv, hsv_min, hsv_max) # Thresholds to a black and white numpy.ndarray
-    if config.using_cv3: # im2 returned only in version 3.x
+    if config.cv_version == 3: # im2 returned only in version 3.x
         im2, contours, hierarchy = cv2.findContours(thresh, Constants.FIND_CONTOURS_MODE, cv2.CHAIN_APPROX_SIMPLE)
     else:
         contours, hierarchy = cv2.findContours(thresh, Constants.FIND_CONTOURS_MODE, cv2.CHAIN_APPROX_SIMPLE)
@@ -50,7 +50,7 @@ def getBoxes(img):
 
     boxes = [] # Array with all of the boxes with the format (t, r, b, l) for pair finding
     for contour in contours:
-        box, score = score(contour)
+        box, score = ScoringMetric.boxAndScore(contour)
         if score >= Constants.MIN_THRESHOLD:
             boxes.append(box)
 
