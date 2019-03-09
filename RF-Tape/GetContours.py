@@ -42,16 +42,21 @@ def findContours(img):
 
 def getBoxes(img):
     contours = findContours(img)
-    if config.debug and len(contours) == 0:
-        print("No contours found") # TODO: use config.debug
+    if len(contours) == 0:
+        if config.debug:
+            print("No contours found")
+        return []
 
-	boxes = [] # Array with all of the boxes with the format (t, r, b, l) for pair finding 
-	for contour in contours:
-		box, score = score(contour)
+
+    boxes = [] # Array with all of the boxes with the format (t, r, b, l) for pair finding
+    for contour in contours:
+        box, score = score(contour)
         if score >= Constants.MIN_THRESHOLD:
             boxes.append(box)
 
-    if config.debug and len(boxes) == 0:
-        print("No contours found after filtering")
+    if len(boxes) == 0:
+        if config.debug:
+            print("No contours found after filtering")
+        return []
 
     return boxes
