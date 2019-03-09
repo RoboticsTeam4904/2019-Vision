@@ -14,7 +14,7 @@ class Camera:
     def getImage(self):
         image_found, image = self.camera.read()
         if not image_found:
-            raise TypeError("ERROR: {} failed to read image at port {}".format(name, port))
+            raise TypeError("ERROR: {} failed to read image at port {}".format(self.name, self.port))
         return image
 
     # Configures camera settings (for Linux only)

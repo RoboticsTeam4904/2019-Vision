@@ -1,16 +1,16 @@
 from networktables import NetworkTables
 import Constants
 
-NetworkTables.setTeam(Constants.team)
+NetworkTables.setServerTeam(Constants.team)
 NetworkTables.initialize(server=Constants.ip)
 
 class Table: # TODO: Later, use two tables, when organizing RF and floor together
     def __init__(self, name="Vision"):
         self.table = NetworkTables.getTable(name)
-        self.table.setUpdateRate(Constants.networkSpeed)
+        NetworkTables.setUpdateRate(Constants.networkSpeed)
 
     # Take in data as dictionary as to allow sending of partial information
-    def send_data(data): 
+    def send_data(self, data):
         assert type(data) == dict
         self.table.putBoolean("visible", data.get("is_visible", False)) # Default "visible" to False
 

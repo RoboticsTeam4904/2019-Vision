@@ -2,8 +2,9 @@ import config, Constants, ImageAnalysis, GetAngle, Printing
 
 if config.live_image:
     import WebCam
-if config.network_tables
+if config.network_tables:
     import NetworkTablesInterface
+    nt = NetworkTablesInterface.Table()
 if config.can:
     import CANInterface
 if config.two_cameras:
@@ -68,7 +69,7 @@ def oneCamera(image, data):
 
 def send_data(data):
     if config.network_tables:
-        NetworkTablesInterface.send_data(*data)
+        nt.send_data(*data)
     if config.can:
         CANInterface.send_data(*data)
     if config.sockets:
@@ -76,14 +77,19 @@ def send_data(data):
 
 if __name__ == "__main__":
     if config.live_image:
+        if config.two_cameras:
+            right_camera = WebCam.Camera(Constants.RIGHT_CAMERA_PORT)
+            left_camera = WebCam.Camera(Constants.LEFT_CAMERA_PORT)
+        else:
+            camera = WebCam.Camera(Constants.ONE_CAMERA_PORT)
         frame_num = 1
         while True:
             data = {"frame_num": frame_num}
             if config.two_cameras:
-                left_image, right_image = WebCam.getImages()
+                left_image, right_image = left_camera.getImage(), right_camera.getImage()
                 data = twoCameras(left_image, right_image, data)
             else:
-                image = WebCam.getImage()
+                image = camera.getImage()
                 data = oneCamera(image, data)
             send_data(data)
             frame_num += 1
