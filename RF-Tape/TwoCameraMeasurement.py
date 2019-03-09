@@ -1,25 +1,24 @@
 import math
 
+# distanceTapes is the distance between cameras
 distanceTapes = 11
 
 # LC_LT = Left Camera, Left Tape
 def extrapolateData(LC_LT, LC_RT, RC_LT, RC_RT):
     data = {}
-    if LC_LT and RC_RT:
-        data["theta"], data["dist"] = calcThetaDist(LC_LT["theta"], RC_RT["theta"], LC_LT["real_dist"], RC_RT["real_dist"])
+
     beta = calcBeta(LC_LT, LC_RT, RC_LT, RC_RT)
     if beta != None:
         data["beta"] = beta
-    
-    LL_forward_dist, LL_real_dist, LL_theta = leftCamLeftTape
-    LR_forward_dist, LR_real_dist, LR_theta = LC_RT
-    RL_forward_dist, RL_real_dist, RL_theta = RC_LT
-    RR_forward_dist, RR_real_dist, RR_theta = RC_RT
 
+    if LC_LT and RC_RT:
+        data["theta"], data["dist"] = calcThetaDist(LC_LT["theta"], RC_RT["theta"], LC_LT["real_dist"], RC_RT["real_dist"])
+        if beta != None:
+            data["x"], data["y"] = calcXY(finalTheta, finalDistance, beta)
 
+    return data
 
-
-def calcThetaDist(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCamLeftTape, DistRightCamRightTape):
+def calcThetaDist(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCamLeftTape, DistRightCamRightTape): # TODO: add alternative combinations (use beta?)
     # left_x computes the x coordinate from the distance and theta of the left camera to the left tape
     left_x = (DistLeftCamLeftTape  * math.sin(ThetaLeftCamLeftTape))
     # right_x computes the x coordinate from distance and theta from the right camera to the right tape
@@ -37,17 +36,17 @@ def calcThetaDist(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCamLeftT
     averageX = (left_x + right_x)/2 #averageX is the x coordinate from the center of the tape to the center of the robot 
     averageY = (left_y + right_y)/2 #averageY is the y coordinate from the center of the tape to the center of the robot 
 
-    finalTheta = math.atan(averageX/averageY) #range of arctan is from -90 degress to 90 degrees
+    finalTheta = math.atan(averageX / averageY) #range of arctan is from -90 degress to 90 degrees
     distFinal = math.sqrt((averageX**2) + (averageY**2))
 
     return finalTheta, distFinal
 
-def calcXY(finalTheta, distFinal, beta):
+ # returns x and y coordinate from center of tape to center of robot
+ def calcXY(finalTheta, distFinal, beta):
     x = (distFinal * math.sin(finalTheta + beta))
     y = (distFinal * math.cos(finalTheta + beta))
     return x, y
 
-# distanceCameras is the distance between cameras
 def calcBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTape): # The distance between the two tapes
     # d_l, d_r are distances to wall
 

@@ -18,43 +18,14 @@ def twoCameras(left_image, right_image, data):
     leftCamLeftTape, leftCamRightTape = ImageAnalysis.imageAnalysis(left_image) # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta
     rightCamLeftTape, rightCamRightTape = ImageAnalysis.imageAnalysis(right_image) # rightMesaurements is a tuple of isVisible boolean, right camera distance, right camera theta
 
-    
-    beta = GetAngle.getBeta(leftCamLeftTape, leftCamRightTape, rightCamLeftTape, rightCamRightTape)
-    if beta != None:
-        data["beta"] = beta
-
-    finalTheta, finalDistance = TwoCameraMeasurement.finalDistanceTheta(leftCamLeftTape[2], 
-            rightCamRightTape[2], leftCamLeftTape[1], rightCamRightTape[1])
-
-    if leftCamLeftTape and rightCamRightTape:
-        # Gets theta and distance measured from center of the robot to center of the tape
-        finalTheta, finalDistance = TwoCameraMeasurement.finalDistanceTheta(leftCamLeftTape[2], 
-                rightCamRightTape[2], leftCamLeftTape[1], rightCamRightTape[1])
-        data["theta"] = finalTheta
-        data["dist"] = finalDistance
-
-        if debug:
-            print("FINAL THETA (IN DEGREES): " +  str(finalTheta/math.pi * 180))
-            print("FINAL DISTANCE: " + str(finalDistance))
-
-        x, y = TwoCameraMeasurement.getXandY(finalTheta, finalDistance, beta) # returns x and y coordinate from center of tape to center of robot
-        
-        print("X COORDINATE", x)
-        print("Y COORDINATE", y)
-    else:
-        x, y = 0, 0
-        print("CAN'T PASS IN BETA OR FINAL DISTANCE AND THETA")
-    # finalTheta finalDistance is the final theta and distance from the center of the robot to the center of the tape.
+    data = TwoCameraMeasurement.extrapolateData(data)
 
     if config.network_tables:
-        NetworkTablesInterface.send_data()
-    print("FINAL THETA: " +  str(finalTheta))
-    print("FINAL DISTANCE: " + str(finalDistance))
+        NetworkTablesInterface.send_data(data)
 
     if config.save: # Save images with objects drawn in
         Printing.savePair(left_image, right_image, drawn=True)
 
-    data = (x, y, finalTheta, beta, finalDistance, frame_num)
     return data
 
 def oneCamera(image, data):

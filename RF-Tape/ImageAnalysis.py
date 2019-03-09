@@ -31,7 +31,7 @@ def boxToMeasurements(box):
     forward_dist = GetDistance.forwardDist(height)  # Portion of distance of camera to tape along center of vision
     real_dist = GetDistance.realDist(forward_dist, theta)
 
-    return forward_dist, real_dist, theta
+    return {"forward_dist": forward_dist, "real_dist": real_dist, "theta": theta}
 
         # print("LEFT DISTANCE TO WALL IN INCHES: "+
         #       str(leftDistToWall))
