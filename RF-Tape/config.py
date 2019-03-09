@@ -5,7 +5,7 @@ using_cv3 = int(cv2.__version__[0]) == 3
 
 # Image capture settings
 live_image = True
-two_cameras = True
+two_cameras = False
 
 # Logging/debug settings
 display =  False        # Use cv2.imshow to display images
@@ -24,7 +24,7 @@ if live_image:
     display = False
 if not live_image:
     debug = True
-    network_tables, can, sockets = False, False, 
+    network_tables, can, sockets = False, False, False
 
 # Sample images
 if not live_image:
