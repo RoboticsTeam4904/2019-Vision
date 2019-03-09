@@ -1,4 +1,4 @@
-import config, Constants, ImageAnalysis, GetAngle, Printing
+import config, Constants, ImageAnalysis, Printing
 
 if config.live_image:
     import WebCam

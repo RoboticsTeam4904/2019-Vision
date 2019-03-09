@@ -6,8 +6,7 @@ import Constants
 import numpy as np
 import Printing
 import PairFinding
-import GetDistance
-import GetAngle
+import MeasureTape
 import math
 
 def imageAnalysis(img):
@@ -27,9 +26,9 @@ def imageAnalysis(img):
 
 def boxToMeasurements(box):
     height = box[0][1] - box[2][1] # Finding height of the left vision tape
-    theta = GetAngle.getTheta(box)
-    forward_dist = GetDistance.forwardDist(height)  # Portion of distance of camera to tape along center of vision
-    real_dist = GetDistance.realDist(forward_dist, theta)
+    theta = MeasureTape.getTheta(box)
+    forward_dist = MeasureTape.forwardDist(height)  # Portion of distance of camera to tape along center of vision
+    real_dist = MeasureTape.realDist(forward_dist, theta)
 
     return {"forward_dist": forward_dist, "real_dist": real_dist, "theta": theta}
 
