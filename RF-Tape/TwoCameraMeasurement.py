@@ -42,7 +42,7 @@ def calcThetaDist(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCamLeftT
     return finalTheta, distFinal
 
  # returns x and y coordinate from center of tape to center of robot
- def calcXY(finalTheta, distFinal, beta):
+def calcXY(finalTheta, distFinal, beta):
     x = (distFinal * math.sin(finalTheta + beta))
     y = (distFinal * math.cos(finalTheta + beta))
     return x, y
