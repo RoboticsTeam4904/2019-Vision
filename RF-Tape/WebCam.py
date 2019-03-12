@@ -19,7 +19,7 @@ class Camera:
 
     # Configures camera settings (for Linux only)
     def configure(self, exposure=False, resolution=False, gain=False, contrast=False):
-        settingStr = "/usr/bin/v4l2-ctl -d /dev/video" + str(port)
+        settingStr = "/usr/bin/v4l2-ctl -d /dev/video" + str(self.port)
         if resolution:
             settingStr += " --set-fmt-video=width={},height={}".format(resolution[0], resolution[1])
         if exposure:

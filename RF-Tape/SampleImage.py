@@ -1,15 +1,14 @@
-import WebCam, Printing, ImageAnalysis, Constants, sys, config
+import WebCam, Printing, ImageAnalysis, Constants, sys, config, PairFinding
 
 save_str = "test"
 
 if config.two_cameras:
     left_camera = WebCam.Camera(Constants.LEFT_CAMERA_PORT)
     right_camera = WebCam.Camera(Constants.RIGHT_CAMERA_PORT)
-
     left_camera.configure(exposure=Constants.exposure, resolution=Constants.resolution)
     right_camera.configure(exposure=Constants.exposure, resolution=Constants.resolution)
 
-    def s():  # Take a picture from both webcams and save.
+    def s():  # Take a picture from both webcams and save
         left_image, right_image = left_camera.getImage(), right_camera.getImage()
         Printing.save_pair(left_image, right_image, save_str)
 
