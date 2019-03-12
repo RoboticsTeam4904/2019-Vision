@@ -19,8 +19,8 @@ if config.two_cameras:
 
     def dp(): # Display processed images
         left_image, right_image = left_camera.getImage(), right_camera.getImage()
-        ImageAnalysis.imageAnalysis(left_image)
-        ImageAnalysis.imageAnalysis(right_image)
+        PairFinding.pairFinding(GetContours.getBoxes(left_image))
+        PairFinding.pairFinding(GetContours.getBoxes(right_image))
         Printing.display(Printing.combine(left_image, right_image), "processed")
 
     def e(exposure=Constants.exposure): # Set exposure on LINUX ONLY.
@@ -28,7 +28,7 @@ if config.two_cameras:
         right_camera.configure(exposure=exposure)
 else:
     camera = WebCam.Camera(Constants.ONE_CAMERA_PORT)
-    camera.configure(Constants.exposure, Constants.resolution)
+    camera.configure(exposure=Constants.exposure, resolution=Constants.resolution)
 
     def s():  # Take a picture from both webcams and save.
         image = camera.getImage()
@@ -40,7 +40,7 @@ else:
 
     def dp(): # Display processed image
         image = camera.getImage()
-        ImageAnalysis.imageAnalysis(image)
+        PairFinding.pairFinding(GetContours.getBoxes(image))
         Printing.display(image, "processed")
 
     def e(exposure=Constants.exposure): # Set exposure on LINUX ONLY.

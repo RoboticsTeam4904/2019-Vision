@@ -16,6 +16,8 @@ DISTANCE_THRESHOLD = float("inf")
 
 
 def checkLargestTape(box_list):
+    if len(box_list) == 0:
+        return None, 0, 0
     max_height = -float("inf")
     for box in box_list:
         top = box[0]
@@ -38,7 +40,7 @@ def checkLargestTape(box_list):
 # As we want to focus on the main focused tape and not just a random background one.
 
 
-def pairFinding(box_list):
+def selectPair(box_list):
     largest_box, largest_height, largest_angle = checkLargestTape(box_list)
     best_match = None
     # We want to find if a match exists. It should have similar height and opposite angle.
