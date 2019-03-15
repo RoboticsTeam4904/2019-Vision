@@ -1,6 +1,6 @@
 import config, Constants
 import Printing, WebCam, NetworkTablesInterface, CANInterface
-import ImageAnalysis, TwoCameraMeasurement, PairFinding
+import MeasureTape, TwoCameraMeasurement, PairFinding
 
 
 def twoCameras(left_image, right_image):
@@ -24,13 +24,18 @@ def twoCameras(left_image, right_image):
     return data
 
 def oneCamera(image):
-    leftTape, rightTape = ImageAnalysis.imageAnalysis(image)
+    if config.save: # Save raw image
+        Printing.save(image)
 
-    # TODO: Implement
+    boxes = GetContours.getBoxes(image)
 
     if config.save: # Save image with objects drawn in
         Printing.save(image, drawn=True)
-    
+
+    left_tape, right_tape = PairFinding.selectPair(boxes)
+    left_data, right_data = MeasureTape.boxToMeasurements(left_tape), MeasureTape.boxToMeasurements(right_tape)
+    # TODO: Implement
+
     data = {}
     return data
 
@@ -46,7 +51,7 @@ if __name__ == "__main__":
         if config.can:
             CAN.send_data(data)
         if config.sockets:
-            pass # TODO: Sockets
+            raise NotImplementedError("Sockets have not been implemented yet (turn off config.sockets, or implement)")
 
     if config.live_image:
         if config.two_cameras:
