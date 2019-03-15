@@ -43,6 +43,8 @@ def getTheta(box):
     return theta
 
 def boxToMeasurements(box):
+    if box == None:
+        return {}
     height = box[0][1] - box[2][1] # Finding height of the left vision tape
     theta = MeasureTape.getTheta(box)
     forward_dist = MeasureTape.forwardDist(height)  # Portion of distance of camera to tape along center of vision

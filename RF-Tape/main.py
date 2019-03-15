@@ -1,6 +1,6 @@
 import config, Constants
-import Printing, WebCam, NetworkTablesInterface, CANInterface
-import MeasureTape, TwoCameraMeasurement, PairFinding
+import Printing, WebCam, NetworkTablesInterface, CANInterface, SocketsInterface
+import GetContours, PairFinding, MeasureTape, TwoCameraMeasurement
 
 
 def twoCameras(left_image, right_image):
@@ -45,13 +45,15 @@ if __name__ == "__main__":
         nt = NetworkTablesInterface.Table()
     if config.can:
         can = CANInterface.CAN()
+    if config.sockets:
+        socket = SocketsInterface.Socket(Constants.ip, Constants.port, Constants.socket_reconnect_rate)
     def send_data(data):
         if config.network_tables:
             nt.send_data(data)
         if config.can:
             CAN.send_data(data)
         if config.sockets:
-            raise NotImplementedError("Sockets have not been implemented yet (turn off config.sockets, or implement)")
+            socket.send_data(data)
 
     if config.live_image:
         if config.two_cameras:
