@@ -1,53 +1,60 @@
-import numpy as np
-import math
-import cv2
+from __future__ import division
+import numpy as np, math, cv2
+import Constants
 
 # One Camera getDistance approach
 # knownHeightMilimeters is the height of the vision tape in millimeters, which stays constant in the code
 # Focal Length 3.67 mm
- # TODO: Use config
+
+# TODO: Use config
 distanceConstant = 96185.4
-mToIn = 1.0/254.0
-gamma = 0 # GAMMA is the angle the camera is at (in radians) to the horizontal plane. An upwards-facing camera implies a positive GAMMA.
-fieldOfVision = 1.229
-imageWidth = 640
+mm_to_in = 1/254
+tape_height = 1 # TODO: real value
 
-def forwardDist(h_pxl):
-    # h_pxl is the pixel height of the vision tape which is constantly getting updated
-    assert h_pxl != 0
-    return  distanceConstant * math.cos(gamma)/h_pxl
+# Camera hardware specific settings
+sensor_height = 1
+sensor_dist = 3.67 * mm_to_in
+FOV = math.radians(70)
 
-def realDist(forward_dist, theta):
-    try:
-        return (forward_dist / math.cos(theta))
-    except:
-        return "CAN'T GET DISTANCE" # TODO: fix return and except specific exception
+# Camera setup settings
+img_width, img_height = Constants.resolution[1]
+# Gamma is the vertical rotaion of the camera (in radians). upwards-facing = positive gamma
+gamma = 0
 
-# Perfect width and height describe the pixel width and height when at the vertical offset and looking straight at the tape. This facilitates angle calculations.
-def getTheta(box):
-    # Perfect ratio is the perfect width divided by the perfect height
-    top = box[0]
-    left = box[1]
-    bottom = box[2]
-    right = box[3]
-    width = float(right[0]-left[0])
-    height = float(top[1]-bottom[1])
-    averageX = float((left[0]+right[0])/2)
-    P1 = (averageX - 320)
-    P2 = float(imageWidth/2)
-    try:
-        theta = math.atan(P1 * math.tan(fieldOfVision/2)/P2)
-    except:
-        return 0
-    # alpha = math.pi -beta + theta
+
+
+# TODO: compute for length, not just height
+# h_pxl is the pixel height of the object (in pixels)
+# h_real is the real height of the object (in inches)
+# gamma is the vertical rotation of the camera (in radians)
+def forwardDist(h_pxl, h_real=tape_height): # distance along camera axis in inches
+    assert h_pxl != 0, "Height of object in image is 0" # breaks the loop if triggered
+    h_projected = h_real * math.cos(gamma)      # height of object projected on a plane parallel to the camera
+    img_portion = h_pxl / img_height            # height as a fraction of the total image height
+    h_sensor = img_portion * sensor_height      # height of the object on the physical camera sensor array
+    dist = sensor_dist * h_projected / h_sensor # By the magnification law of lenses
+    return dist
+
+# forward_dist is distance projected along camera axis
+# theta is horizontal angle between camera axis and tape
+def realDist(forward_dist, theta): # return direct distance to tape
+    real_dist = forward_dist / math.cos(theta) # distance to tape is distance along camera axis over cos of angle to tape
+    return real_dist
+
+def getTheta(x_pxl):
+    assert 0 < x_pxl < img_width
+    half_img_portion = (x_pxl - img_width/2) / (img_width/2)
+    theta = math.atan(half_img_portion * math.tan(FOV/2))
     return theta
 
 def boxToMeasurements(box):
     if box == None:
-        return {}
-    height = box[0][1] - box[2][1] # Finding height of the left vision tape
-    theta = MeasureTape.getTheta(box)
-    forward_dist = MeasureTape.forwardDist(height)  # Portion of distance of camera to tape along center of vision
-    real_dist = MeasureTape.realDist(forward_dist, theta)
+        return None
+    center_x = (box[1][0] + box[3][0])/2
+    theta = getTheta(center_x)
+
+    height = box[0][1] - box[2][1]
+    forward_dist = forwardDist(height)
+    real_dist = realDist(forward_dist, theta)
 
     return {"forward_dist": forward_dist, "real_dist": real_dist, "theta": theta}
