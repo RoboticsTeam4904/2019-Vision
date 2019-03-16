@@ -25,8 +25,10 @@ def finalDistanceTheta(ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCam
     return finalTheta, distFinal
 
 def getXandY(finalTheta, distFinal, beta):
-    x = (distFinal * math.sin(finalTheta + beta))
-    y = (distFinal * math.cos(finalTheta + beta))
+    x = (distFinal * math.sin(finalTheta - beta))
+    y = (distFinal * math.cos(finalTheta - beta))
+    #x = (distFinal * math.sin(finalTheta + beta))
+    #y = (distFinal * math.cos(finalTheta + beta))
     return x, y
 
 

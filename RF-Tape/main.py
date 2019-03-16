@@ -10,7 +10,14 @@ import TwoCameraMeasurement
 import GetAngle
 import Printing
 #import NetworkTablesInterface
-   
+
+"""
+Start from where the robot is face:
+Turn Right - Theta is Positive 
+Turn Left - Theta is Negative 
+Turn Right - Beta is Positive (Check if this correct)
+Turn Left - Beta is Negative  (Check if this correct)
+"""
 
 def twoCameras(left_image, right_image, frame_num):
     leftMeasurements = ImageAnalysis.imageAnalysis(left_image, Constants.LEFT_CAMERA_PORT) # leftMesaurements is a tuple of isVisible, left camera distance, left camera theta

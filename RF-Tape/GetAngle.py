@@ -23,7 +23,6 @@ def getTheta(box, fieldOfVision=1.229, imageWidth=640):
 # distanceCameras is the distance between cameras
 def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTape, distanceTapes=11.31): # The distance between the two tapes
     # d_l, d_r are distances to wall
-
     if leftCamLeftTape[0] and rightCamLeftTape[0]:
         d_l = (leftCamLeftTape[1] + rightCamLeftTape[1])/2
     elif leftCamLeftTape[0]:
@@ -59,5 +58,6 @@ def getBeta(leftCamLeftTape, rightCamLeftTape, leftCamRightTape, rightCamRightTa
         return False # Protects against out of range asin errors
     print("GETANGLE.py FOR LEFT DISTANCE", d_l)
     print("GETANGLE.py FOR RIGHT DISTANCE", d_r)   
-    beta = math.asin((d_r-d_l)/distanceTapes) #This is the equation that calculates beta
+    beta = (math.asin((d_r-d_l)/distanceTapes)) #This is the equation that calculates beta
+    beta = -(math.asin((d_r-d_l)/distanceTapes)) #Flips the sign of beta  
     return beta
