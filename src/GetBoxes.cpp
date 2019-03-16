@@ -25,6 +25,7 @@ std::optional<std::vector<GetBoxes::ScoredBox>>
     for (Contour &contour : contours)
     {
         GetBoxes::ScoredBox scoredBox = scoringMetric(contour);
+        std::cout << "SCORE: " << scoredBox.score << std::endl;
         if (filtered && scoredBox.score < Config::BOX_SCORE_THRESHOLD)
             continue;
         
@@ -60,10 +61,12 @@ GetBoxes::ScoredBox GetBoxes::scoringMetric(Contour &contour)
     /* *
     * Obtain all of the scores from different metrics, and multiply them ny their respective weights
     */
+    
     double score = scoringSideRatio(width, height) * Config::HW_RATIO 
         + scoringAreaRatio(width, height, points) * Config::AREA_RATIO
         + scoringRotationAngle(right, bottom, Config::ROTATION_ANGLE_INFUNC) * Config::ROTATION_ANGLE_OUTFUNC 
         + scoringFilledValue(contour, points) * Config::FILLED_AREA;
+    // std::cout << "Score: " << score << std::endl;
 
     return GetBoxes::ScoredBox { score, points };
 }
@@ -73,8 +76,9 @@ GetBoxes::ScoredBox GetBoxes::scoringMetric(Contour &contour)
 */
 double GetBoxes::scoringSideRatio(double width, double height)
 {
-    return !(width && height) ? 0 : std::max(1 / (pow(Config::TAPE_DIM_RATIO - width / height, 2) + 1),
-                                             1 / (pow(Config::TAPE_DIM_RATIO - height / width, 2) + 1));
+    double scoreSide = !(width && height) ? 0 : std::max(1 / (pow(Config::TAPE_DIM_RATIO - width / height, 2) + 1),
+                                            1 / (pow(Config::TAPE_DIM_RATIO - height / width, 2) + 1));
+    return scoreSide;
 }
 
 /* *
@@ -89,7 +93,11 @@ double GetBoxes::scoringAreaRatio(double width, double height, Box &points)
     cv::Point top = points[3];
     double slantedArea = width * height;                                 // The area of the slanted bounding box of the contour
     double straightArea = abs((top.y - bottom.y) * (right.x - left.x)); // The area of the straight bounding box of the contour.
-    return !straightArea ? 0 : 1 / (pow(Config::TAPE_AREA_RATIO - (slantedArea / straightArea), 2) + 1);
+    double areaScore = !straightArea ? 0 : 1 / (pow(Config::TAPE_AREA_RATIO - (slantedArea / straightArea), 2) + 1);
+    // std::cout<<"Area ratio value score: "<< areaScore <<std::endl;
+    return areaScore;
+    
+    
 }
 
 /* *
@@ -98,8 +106,11 @@ double GetBoxes::scoringAreaRatio(double width, double height, Box &points)
 double GetBoxes::scoringRotationAngle(cv::Point &right, cv::Point &bottom, double weight)
 {
     double rotationAngle = GetBoxes::angle(right, bottom) / M_PI * 180;
-    float num = pow((rotationAngle < 45 ? 14.5 : 75) - rotationAngle, 2);
-    return -num / (num + weight) + 1;
+    float num = pow((rotationAngle > 45 ? 14.5 : 75.5) - rotationAngle, 2);
+    double rotationScore1 = -num / (num + weight) + 1;
+    num = pow((rotationAngle < 45 ? 14.5 : 75.5) - rotationAngle, 2);
+    double rotationScore2 = -num / (num + weight) + 1;
+    return rotationScore1;
 }
 
 /* *
@@ -115,22 +126,26 @@ double GetBoxes::scoringFilledValue(Contour contour, Box box)
     for (cv::Point &contourPoint : contour)
         contourPoint -= min;
 
-    cv::Mat dst = cv::Mat::zeros(cv::Size(max.y - min.y, max.x - min.x), CV_8UC1);
-    cv::drawContours(dst, std::vector<Contour> {contour}, -1, 128, cv::FILLED);
-    cv::drawContours(dst, std::vector<Box> {box}, -1, 255, cv::FILLED);
-    int contourPixels = 0;
-    int boxPixels = 0;
-    int pixel;
-    for (int y = 0; y < max.y - min.y; ++y)
-        for (int x = 0; x < max.x - min.x; ++x)
-        {
-            pixel = dst.at<unsigned char>(y, x);
-            if (pixel == 128)
-                ++boxPixels;
-            else if (pixel == 255)
-                ++contourPixels;
-        };
-    return (contourPixels / (boxPixels + contourPixels));
+    cv::Mat contourMat = cv::Mat::zeros(cv::Size(max.y - min.y, max.x - min.x), CV_8UC1);
+    cv::Mat boxMat = cv::Mat::zeros(cv::Size(max.y - min.y, max.x - min.x), CV_8UC1);
+    cv::drawContours(contourMat, std::vector<Contour> {contour}, -1, 128, cv::FILLED);
+    cv::drawContours(boxMat, std::vector<Box> {box}, -1, 128, cv::FILLED);
+    double totalPixels = 0;
+    double diffPixels=0;
+    int boxPixel, contourPixel;
+
+    for (int y = 0; y < max.y - min.y; ++y) {
+        for (int x = 0; x < max.x - min.x; ++x) {
+            boxPixel = boxMat.at<unsigned char>(y, x);
+            contourPixel = contourMat.at<unsigned char>(y, x);
+            if (boxPixel != contourPixel)
+                ++diffPixels;
+            if (boxPixel+contourPixel != 0)
+                ++totalPixels;
+        }
+    }
+    double filledScore = diffPixels / totalPixels;
+    return diffPixels / totalPixels;
 }
 
 /* *

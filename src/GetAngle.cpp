@@ -6,8 +6,7 @@
 #include "GetAngle.hpp"
 
 // Function returns theta in radians
-double GetAngle::getAngleToTape(Box &tapeBox)
-{
+double GetAngle::getAngleToTape(Box &tapeBox) {
     cv::Point top = tapeBox[0];    // The top point of the box
     cv::Point left = tapeBox[1];   // The leftmost point of the box
     cv::Point bottom = tapeBox[2]; // The botttom point of the box
