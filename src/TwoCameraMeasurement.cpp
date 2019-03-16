@@ -1,7 +1,6 @@
 #include <cmath>
 #include <optional>
 #include <vector>
-#include "Config.hpp"
 #include "TwoCameraMeasurement.hpp"
 
 double TwoCameraMeasurement::finalDistanceTheta(double thetaLeftCamLeftTape,
@@ -28,4 +27,5 @@ double TwoCameraMeasurement::finalDistanceTheta(double thetaLeftCamLeftTape,
 double TwoCameraMeasurement::getXandY(finalTheta, distFinal, beta) {
     double x = distFinal * sin(finalTheta - beta);
     double y = distFinal * cos(finalTheta - beta);
+    return x , y;
 }

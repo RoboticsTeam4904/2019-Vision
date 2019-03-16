@@ -37,6 +37,6 @@ double GetAngle::getBeta(double lLeftTapeDistWall,
     if (lRightTapeDistWall && rRightTapeDistWall)
         distanceRightTape /= 2;
     beta = asin((distanceRightTape - distanceLeftTape) / Config::DISTANCE_TAPES);
-    return (-beta)
+    return (-beta);
 }
 

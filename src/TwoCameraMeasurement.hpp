@@ -3,7 +3,6 @@
 
 #include <optional>
 #include <vector>
-#include <opencv2/opencv.hpp>
 #include "Config.hpp"
 #include "ProcessFrame.hpp"
 
@@ -14,6 +13,6 @@ double finalDistanceTheta(double thetaLeftCamLeftTape,
                 double thetaRightCamRightTape,
                 double distLeftCamLeftTape,
                 double distRightCamRightTape);
-double getXandY(finalTheta, distFinal, beta)
+double getXandY(finalTheta, distFinal, beta);
 }
 #endif
