@@ -26,7 +26,7 @@ std::pair<double, double> TwoCameraMeasurement::finalDistanceTheta(double thetaL
     return std::pair<double, double>(finalTheta, distFinal);
 }
 
-cv::Point TwoCameraMeasurement::getRobotCoords(double finalTheta, double distFinal, double beta) {
+cv::Point TwoCameraMeasurement::getRobotPos(double finalTheta, double distFinal, double beta) {
     double x = distFinal * sin(finalTheta - beta);
     double y = distFinal * cos(finalTheta - beta);
     return cv::Point(x, y);

@@ -13,6 +13,6 @@ std::pair<double, double> finalDistanceTheta(double thetaLeftCamLeftTape,
                                                 double thetaRightCamRightTape,
                                                 double distLeftCamLeftTape,
                                                 double distRightCamRightTape);
-cv::Point getRobotCoords(double finalTheta, double distFinal, double beta);
+cv::Point getRobotPos(double finalTheta, double distFinal, double beta); // Get's X and Y coordinates
 }
 #endif
