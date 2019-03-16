@@ -1,9 +1,11 @@
 #include <cmath>
 #include <optional>
+#include <utility>
 #include <vector>
+#include <opencv2/opencv.hpp>
 #include "TwoCameraMeasurement.hpp"
 
-double TwoCameraMeasurement::finalDistanceTheta(double thetaLeftCamLeftTape,
+std::pair<double, double> TwoCameraMeasurement::finalDistanceTheta(double thetaLeftCamLeftTape,
                                                 double thetaRightCamRightTape,
                                                 double distLeftCamLeftTape,
                                                 double distRightCamRightTape) 
@@ -18,14 +20,14 @@ double TwoCameraMeasurement::finalDistanceTheta(double thetaLeftCamLeftTape,
     double averageX = (left_x + right_x) / 2; 
     double averageY = (left_y + right_y) / 2;
 
-    double finalTheta = atan(averageX/averageY);
-    double distFinal = sqrt((averageX**2) + (averageY**2));
+    double finalTheta = atan(averageX / averageY);
+    double distFinal = sqrt(pow(averageX, 2) + pow(averageY, 2));
 
-    return finalTheta, distFinal;
+    return std::pair<double, double>(finalTheta, distFinal);
 }
 
-double TwoCameraMeasurement::getXandY(finalTheta, distFinal, beta) {
+cv::Point TwoCameraMeasurement::getRobotCoords(double finalTheta, double distFinal, double beta) {
     double x = distFinal * sin(finalTheta - beta);
     double y = distFinal * cos(finalTheta - beta);
-    return x , y;
+    return cv::Point(x, y);
 }

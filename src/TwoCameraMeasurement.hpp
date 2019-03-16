@@ -9,10 +9,10 @@
 namespace TwoCameraMeasurement
 {
 // ThetaLeftCamLeftTape, ThetaRightCamRightTape, DistLeftCamLeftTape, DistRightCamRightTape
-double finalDistanceTheta(double thetaLeftCamLeftTape,
-                double thetaRightCamRightTape,
-                double distLeftCamLeftTape,
-                double distRightCamRightTape);
-double getXandY(finalTheta, distFinal, beta);
+std::pair<double, double> finalDistanceTheta(double thetaLeftCamLeftTape,
+                                                double thetaRightCamRightTape,
+                                                double distLeftCamLeftTape,
+                                                double distRightCamRightTape);
+cv::Point getRobotCoords(double finalTheta, double distFinal, double beta);
 }
 #endif
