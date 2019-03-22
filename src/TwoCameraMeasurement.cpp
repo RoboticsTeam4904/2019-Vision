@@ -17,6 +17,7 @@ std::pair<double, double> TwoCameraMeasurement::finalDistanceTheta(double thetaL
     //Y Coordinates
     double left_y = distLeftCamLeftTape * cos(thetaLeftCamLeftTape);
     double right_y = distLeftCamRightTape * cos(thetaLeftCamRightTape);
+    
     double averageX = (left_x + right_x) / 2; 
     double averageY = (left_y + right_y) / 2;
 
@@ -27,7 +28,7 @@ std::pair<double, double> TwoCameraMeasurement::finalDistanceTheta(double thetaL
 }
 
 cv::Point TwoCameraMeasurement::getRobotPos(double finalTheta, double distFinal, double beta) {
-    double x = distFinal * sin(finalTheta - beta);
-    double y = distFinal * cos(finalTheta - beta);
+    double x = distFinal * sin(finalTheta - beta); // X Coordinate
+    double y = distFinal * cos(finalTheta - beta); // Y Coordinate
     return cv::Point(x, y);
 }
