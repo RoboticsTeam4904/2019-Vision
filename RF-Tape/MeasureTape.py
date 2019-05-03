@@ -17,7 +17,7 @@ sensor_dist = 3.67 * mm_to_in
 FOV = math.radians(70)
 
 # Camera setup settings
-img_width, img_height = Constants.resolution[1]
+img_width, img_height = Constants.resolution
 # Gamma is the vertical rotaion of the camera (in radians). upwards-facing = positive gamma
 gamma = 0
 
