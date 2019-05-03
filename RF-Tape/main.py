@@ -51,7 +51,7 @@ if __name__ == "__main__":
         if config.network_tables:
             nt.send_data(data)
         if config.can:
-            CAN.send_data(data)
+            can.send_data(data)
         if config.sockets:
             socket.send_data(data)
 
