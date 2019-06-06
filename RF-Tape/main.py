@@ -61,6 +61,7 @@ if __name__ == "__main__":
             left_camera = WebCam.Camera(Constants.LEFT_CAMERA_PORT)
         else:
             camera = WebCam.Camera(Constants.ONE_CAMERA_PORT)
+
         frame_num = 1
         while True:
             if config.two_cameras:
