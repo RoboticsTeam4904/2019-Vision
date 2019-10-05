@@ -1,0 +1,44 @@
+FOUND FUNCs: 32
+
+PORTED FUNCs: 30
+
+PORTED: cv::superres::createFrameSource_Camera (function)
+PORTED: cv::superres::createFrameSource_Empty (function)
+PORTED: cv::superres::createFrameSource_Video_CUDA (function)
+PORTED: cv::superres::createFrameSource_Video (function)
+PORTED: cv::superres::createSuperResolution_BTVL1 (function)
+PORTED: cv::superres::createSuperResolution_BTVL1_CUDA (function)
+PORTED: cv::superres::FrameSource::nextFrame (method) cv::superres::FrameSource (trait) . nextFrame
+PORTED: cv::superres::FrameSource::reset (method) cv::superres::FrameSource (trait) . reset
+PORTED: cv::superres::SuperResolution::setInput (method) cv::superres::SuperResolution (trait) . setInput
+PORTED: cv::superres::SuperResolution::nextFrame (method) cv::superres::SuperResolution (trait) . nextFrame
+PORTED: cv::superres::SuperResolution::reset (method) cv::superres::SuperResolution (trait) . reset
+PORTED: cv::superres::SuperResolution::collectGarbage (method) cv::superres::SuperResolution (trait) . collectGarbage
+PORTED: cv::superres::SuperResolution::getScale (method) cv::superres::SuperResolution (trait) . getScale
+PORTED: cv::superres::SuperResolution::setScale (method) cv::superres::SuperResolution (trait) . setScale
+PORTED: cv::superres::SuperResolution::getIterations (method) cv::superres::SuperResolution (trait) . getIterations
+PORTED: cv::superres::SuperResolution::setIterations (method) cv::superres::SuperResolution (trait) . setIterations
+PORTED: cv::superres::SuperResolution::getTau (method) cv::superres::SuperResolution (trait) . getTau
+PORTED: cv::superres::SuperResolution::setTau (method) cv::superres::SuperResolution (trait) . setTau
+PORTED: cv::superres::SuperResolution::getLambda (method) cv::superres::SuperResolution (trait) . getLambda
+PORTED: cv::superres::SuperResolution::setLambda (method) cv::superres::SuperResolution (trait) . setLambda
+PORTED: cv::superres::SuperResolution::getAlpha (method) cv::superres::SuperResolution (trait) . getAlpha
+PORTED: cv::superres::SuperResolution::setAlpha (method) cv::superres::SuperResolution (trait) . setAlpha
+PORTED: cv::superres::SuperResolution::getKernelSize (method) cv::superres::SuperResolution (trait) . getKernelSize
+PORTED: cv::superres::SuperResolution::setKernelSize (method) cv::superres::SuperResolution (trait) . setKernelSize
+PORTED: cv::superres::SuperResolution::getBlurKernelSize (method) cv::superres::SuperResolution (trait) . getBlurKernelSize
+PORTED: cv::superres::SuperResolution::setBlurKernelSize (method) cv::superres::SuperResolution (trait) . setBlurKernelSize
+PORTED: cv::superres::SuperResolution::getBlurSigma (method) cv::superres::SuperResolution (trait) . getBlurSigma
+PORTED: cv::superres::SuperResolution::setBlurSigma (method) cv::superres::SuperResolution (trait) . setBlurSigma
+PORTED: cv::superres::SuperResolution::getTemporalAreaRadius (method) cv::superres::SuperResolution (trait) . getTemporalAreaRadius
+PORTED: cv::superres::SuperResolution::setTemporalAreaRadius (method) cv::superres::SuperResolution (trait) . setTemporalAreaRadius
+
+
+SKIPPED FUNCs: 2
+
+SKIPPED: cv::superres::SuperResolution::getOpticalFlow (method) cv::superres::SuperResolution (trait) . getOpticalFlow
+   return type class SmartPtr[Unknown[cv::superres::DenseOpticalFlowExt]] is ignored
+
+SKIPPED: cv::superres::SuperResolution::setOpticalFlow (method) cv::superres::SuperResolution (trait) . setOpticalFlow
+   can not map type SmartPtr[Unknown[cv::superres::DenseOpticalFlowExt]] yet
+

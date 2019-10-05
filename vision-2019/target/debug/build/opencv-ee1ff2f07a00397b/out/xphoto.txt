@@ -1,0 +1,43 @@
+FOUND FUNCs: 39
+
+PORTED FUNCs: 39
+
+PORTED: cv::xphoto::applyChannelGains (function)
+PORTED: cv::xphoto::bm3dDenoising (function)
+PORTED: cv::xphoto::bm3dDenoising (function)
+PORTED: cv::xphoto::createGrayworldWB (function)
+PORTED: cv::xphoto::createLearningBasedWB (function)
+PORTED: cv::xphoto::createSimpleWB (function)
+PORTED: cv::xphoto::createTonemapDurand (function)
+PORTED: cv::xphoto::dctDenoising (function)
+PORTED: cv::xphoto::inpaint (function)
+PORTED: cv::xphoto::oilPainting (function)
+PORTED: cv::xphoto::oilPainting (function)
+PORTED: cv::xphoto::GrayworldWB::getSaturationThreshold (method) cv::xphoto::GrayworldWB (trait) . getSaturationThreshold
+PORTED: cv::xphoto::GrayworldWB::setSaturationThreshold (method) cv::xphoto::GrayworldWB (trait) . setSaturationThreshold
+PORTED: cv::xphoto::LearningBasedWB::extractSimpleFeatures (method) cv::xphoto::LearningBasedWB (trait) . extractSimpleFeatures
+PORTED: cv::xphoto::LearningBasedWB::getRangeMaxVal (method) cv::xphoto::LearningBasedWB (trait) . getRangeMaxVal
+PORTED: cv::xphoto::LearningBasedWB::setRangeMaxVal (method) cv::xphoto::LearningBasedWB (trait) . setRangeMaxVal
+PORTED: cv::xphoto::LearningBasedWB::getSaturationThreshold (method) cv::xphoto::LearningBasedWB (trait) . getSaturationThreshold
+PORTED: cv::xphoto::LearningBasedWB::setSaturationThreshold (method) cv::xphoto::LearningBasedWB (trait) . setSaturationThreshold
+PORTED: cv::xphoto::LearningBasedWB::getHistBinNum (method) cv::xphoto::LearningBasedWB (trait) . getHistBinNum
+PORTED: cv::xphoto::LearningBasedWB::setHistBinNum (method) cv::xphoto::LearningBasedWB (trait) . setHistBinNum
+PORTED: cv::xphoto::SimpleWB::getInputMin (method) cv::xphoto::SimpleWB (trait) . getInputMin
+PORTED: cv::xphoto::SimpleWB::setInputMin (method) cv::xphoto::SimpleWB (trait) . setInputMin
+PORTED: cv::xphoto::SimpleWB::getInputMax (method) cv::xphoto::SimpleWB (trait) . getInputMax
+PORTED: cv::xphoto::SimpleWB::setInputMax (method) cv::xphoto::SimpleWB (trait) . setInputMax
+PORTED: cv::xphoto::SimpleWB::getOutputMin (method) cv::xphoto::SimpleWB (trait) . getOutputMin
+PORTED: cv::xphoto::SimpleWB::setOutputMin (method) cv::xphoto::SimpleWB (trait) . setOutputMin
+PORTED: cv::xphoto::SimpleWB::getOutputMax (method) cv::xphoto::SimpleWB (trait) . getOutputMax
+PORTED: cv::xphoto::SimpleWB::setOutputMax (method) cv::xphoto::SimpleWB (trait) . setOutputMax
+PORTED: cv::xphoto::SimpleWB::getP (method) cv::xphoto::SimpleWB (trait) . getP
+PORTED: cv::xphoto::SimpleWB::setP (method) cv::xphoto::SimpleWB (trait) . setP
+PORTED: cv::xphoto::TonemapDurand::getSaturation (method) cv::xphoto::TonemapDurand (trait) . getSaturation
+PORTED: cv::xphoto::TonemapDurand::setSaturation (method) cv::xphoto::TonemapDurand (trait) . setSaturation
+PORTED: cv::xphoto::TonemapDurand::getContrast (method) cv::xphoto::TonemapDurand (trait) . getContrast
+PORTED: cv::xphoto::TonemapDurand::setContrast (method) cv::xphoto::TonemapDurand (trait) . setContrast
+PORTED: cv::xphoto::TonemapDurand::getSigmaSpace (method) cv::xphoto::TonemapDurand (trait) . getSigmaSpace
+PORTED: cv::xphoto::TonemapDurand::setSigmaSpace (method) cv::xphoto::TonemapDurand (trait) . setSigmaSpace
+PORTED: cv::xphoto::TonemapDurand::getSigmaColor (method) cv::xphoto::TonemapDurand (trait) . getSigmaColor
+PORTED: cv::xphoto::TonemapDurand::setSigmaColor (method) cv::xphoto::TonemapDurand (trait) . setSigmaColor
+PORTED: cv::xphoto::WhiteBalancer::balanceWhite (method) cv::xphoto::WhiteBalancer (trait) . balanceWhite

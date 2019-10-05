@@ -1,0 +1,1269 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bgsegm.hpp ================
+
+
+Namespaces: ['cv', 'cv.bgsegm']
+Comment: {'bgsegm': ' @defgroup bgsegm Improved Background-Foreground Segmentation Methods\n\n'}
+
+--- Incoming ---
+[   'class cv.bgsegm.BackgroundSubtractorMOG',
+    ': cv::bgsegm::BackgroundSubtractor',
+    [],
+    [],
+    None,
+    '@brief Gaussian Mixture-based Background/Foreground Segmentation '
+    'Algorithm.\n'
+    '\n'
+    'The class implements the algorithm described in @cite KB2001 .']
+parse_name: class cv.bgsegm.BackgroundSubtractorMOG with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG namespace:cv::bgsegm classpath: classname: name:BackgroundSubtractorMOG
+register class cv::bgsegm::BackgroundSubtractorMOG (['class cv.bgsegm.BackgroundSubtractorMOG', ': cv::bgsegm::BackgroundSubtractor', [], [], None, '@brief Gaussian Mixture-based Background/Foreground Segmentation Algorithm.\n\nThe class implements the algorithm described in @cite KB2001 .']) impl:cv::bgsegm::BackgroundSubtractor
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorMOG.getHistory',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorMOG.getHistory with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG::getHistory namespace:cv::bgsegm classpath:BackgroundSubtractorMOG classname:BackgroundSubtractorMOG name:getHistory
+register (method) getHistory in cv::bgsegm::BackgroundSubtractorMOG (trait) (cv_bgsegm_BackgroundSubtractorMOG_getHistory_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorMOG.setHistory',
+    'void',
+    ['/A'],
+    [['int', 'nframes', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorMOG.setHistory with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG::setHistory namespace:cv::bgsegm classpath:BackgroundSubtractorMOG classname:BackgroundSubtractorMOG name:setHistory
+register (method) setHistory in cv::bgsegm::BackgroundSubtractorMOG (trait) (cv_bgsegm_BackgroundSubtractorMOG_setHistory_int)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorMOG.getNMixtures',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorMOG.getNMixtures with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG::getNMixtures namespace:cv::bgsegm classpath:BackgroundSubtractorMOG classname:BackgroundSubtractorMOG name:getNMixtures
+register (method) getNMixtures in cv::bgsegm::BackgroundSubtractorMOG (trait) (cv_bgsegm_BackgroundSubtractorMOG_getNMixtures_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorMOG.setNMixtures',
+    'void',
+    ['/A'],
+    [['int', 'nmix', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorMOG.setNMixtures with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG::setNMixtures namespace:cv::bgsegm classpath:BackgroundSubtractorMOG classname:BackgroundSubtractorMOG name:setNMixtures
+register (method) setNMixtures in cv::bgsegm::BackgroundSubtractorMOG (trait) (cv_bgsegm_BackgroundSubtractorMOG_setNMixtures_int)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorMOG.getBackgroundRatio',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorMOG.getBackgroundRatio with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG::getBackgroundRatio namespace:cv::bgsegm classpath:BackgroundSubtractorMOG classname:BackgroundSubtractorMOG name:getBackgroundRatio
+register (method) getBackgroundRatio in cv::bgsegm::BackgroundSubtractorMOG (trait) (cv_bgsegm_BackgroundSubtractorMOG_getBackgroundRatio_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorMOG.setBackgroundRatio',
+    'void',
+    ['/A'],
+    [['double', 'backgroundRatio', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorMOG.setBackgroundRatio with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG::setBackgroundRatio namespace:cv::bgsegm classpath:BackgroundSubtractorMOG classname:BackgroundSubtractorMOG name:setBackgroundRatio
+register (method) setBackgroundRatio in cv::bgsegm::BackgroundSubtractorMOG (trait) (cv_bgsegm_BackgroundSubtractorMOG_setBackgroundRatio_double)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorMOG.getNoiseSigma',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorMOG.getNoiseSigma with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG::getNoiseSigma namespace:cv::bgsegm classpath:BackgroundSubtractorMOG classname:BackgroundSubtractorMOG name:getNoiseSigma
+register (method) getNoiseSigma in cv::bgsegm::BackgroundSubtractorMOG (trait) (cv_bgsegm_BackgroundSubtractorMOG_getNoiseSigma_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorMOG.setNoiseSigma',
+    'void',
+    ['/A'],
+    [['double', 'noiseSigma', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorMOG.setNoiseSigma with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorMOG::setNoiseSigma namespace:cv::bgsegm classpath:BackgroundSubtractorMOG classname:BackgroundSubtractorMOG name:setNoiseSigma
+register (method) setNoiseSigma in cv::bgsegm::BackgroundSubtractorMOG (trait) (cv_bgsegm_BackgroundSubtractorMOG_setNoiseSigma_double)
+
+--- Incoming ---
+[   'cv.bgsegm.createBackgroundSubtractorMOG',
+    'Ptr<BackgroundSubtractorMOG>',
+    [],
+    [   ['int', 'history', '200', []],
+        ['int', 'nmixtures', '5', []],
+        ['double', 'backgroundRatio', '0.7', []],
+        ['double', 'noiseSigma', '0', []]],
+    None,
+    '@brief Creates mixture-of-gaussian background subtractor\n'
+    '\n'
+    '@param history Length of the history.\n'
+    '@param nmixtures Number of Gaussian mixtures.\n'
+    '@param backgroundRatio Background ratio.\n'
+    '@param noiseSigma Noise strength (standard deviation of the brightness or '
+    'each color channel). 0\n'
+    'means some automatic value.']
+parse_name: cv.bgsegm.createBackgroundSubtractorMOG with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::createBackgroundSubtractorMOG namespace:cv::bgsegm classpath: classname: name:createBackgroundSubtractorMOG
+register (function) createBackgroundSubtractorMOG (cv_bgsegm_createBackgroundSubtractorMOG_int_int_double_double)
+
+--- Incoming ---
+[   'class cv.bgsegm.BackgroundSubtractorGMG',
+    ': cv::bgsegm::BackgroundSubtractor',
+    [],
+    [],
+    None,
+    '@brief Background Subtractor module based on the algorithm given in @cite '
+    'Gold2012 .\n'
+    '\n'
+    'Takes a series of images and returns a sequence of mask (8UC1)\n'
+    'images of the same size, where 255 indicates Foreground and 0 represents '
+    'Background.\n'
+    'This class implements an algorithm described in "Visual Tracking of Human '
+    'Visitors under\n'
+    'Variable-Lighting Conditions for a Responsive Audio Art Installation," A. '
+    'Godbehere,\n'
+    'A. Matsukawa, K. Goldberg, American Control Conference, Montreal, June '
+    '2012.']
+parse_name: class cv.bgsegm.BackgroundSubtractorGMG with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG namespace:cv::bgsegm classpath: classname: name:BackgroundSubtractorGMG
+register class cv::bgsegm::BackgroundSubtractorGMG (['class cv.bgsegm.BackgroundSubtractorGMG', ': cv::bgsegm::BackgroundSubtractor', [], [], None, '@brief Background Subtractor module based on the algorithm given in @cite Gold2012 .\n\nTakes a series of images and returns a sequence of mask (8UC1)\nimages of the same size, where 255 indicates Foreground and 0 represents Background.\nThis class implements an algorithm described in "Visual Tracking of Human Visitors under\nVariable-Lighting Conditions for a Responsive Audio Art Installation," A. Godbehere,\nA. Matsukawa, K. Goldberg, American Control Conference, Montreal, June 2012.']) impl:cv::bgsegm::BackgroundSubtractor
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getMaxFeatures',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns total number of distinct colors to maintain in histogram.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getMaxFeatures with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getMaxFeatures namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getMaxFeatures
+register (method) getMaxFeatures in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getMaxFeatures_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setMaxFeatures',
+    'void',
+    ['/A'],
+    [['int', 'maxFeatures', '', []]],
+    None,
+    '@brief Sets total number of distinct colors to maintain in histogram.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setMaxFeatures with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setMaxFeatures namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setMaxFeatures
+register (method) setMaxFeatures in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setMaxFeatures_int)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getDefaultLearningRate',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the learning rate of the algorithm.\n'
+    '\n'
+    'It lies between 0.0 and 1.0. It determines how quickly features are '
+    '"forgotten" from\n'
+    'histograms.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getDefaultLearningRate with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getDefaultLearningRate namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getDefaultLearningRate
+register (method) getDefaultLearningRate in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getDefaultLearningRate_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setDefaultLearningRate',
+    'void',
+    ['/A'],
+    [['double', 'lr', '', []]],
+    None,
+    '@brief Sets the learning rate of the algorithm.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setDefaultLearningRate with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setDefaultLearningRate namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setDefaultLearningRate
+register (method) setDefaultLearningRate in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setDefaultLearningRate_double)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getNumFrames',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the number of frames used to initialize background model.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getNumFrames with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getNumFrames namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getNumFrames
+register (method) getNumFrames in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getNumFrames_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setNumFrames',
+    'void',
+    ['/A'],
+    [['int', 'nframes', '', []]],
+    None,
+    '@brief Sets the number of frames used to initialize background model.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setNumFrames with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setNumFrames namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setNumFrames
+register (method) setNumFrames in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setNumFrames_int)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getQuantizationLevels',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the parameter used for quantization of color-space.\n'
+    '\n'
+    'It is the number of discrete levels in each channel to be used in '
+    'histograms.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getQuantizationLevels with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getQuantizationLevels namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getQuantizationLevels
+register (method) getQuantizationLevels in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getQuantizationLevels_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setQuantizationLevels',
+    'void',
+    ['/A'],
+    [['int', 'nlevels', '', []]],
+    None,
+    '@brief Sets the parameter used for quantization of color-space']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setQuantizationLevels with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setQuantizationLevels namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setQuantizationLevels
+register (method) setQuantizationLevels in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setQuantizationLevels_int)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getBackgroundPrior',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the prior probability that each individual pixel is a '
+    'background pixel.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getBackgroundPrior with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getBackgroundPrior namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getBackgroundPrior
+register (method) getBackgroundPrior in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getBackgroundPrior_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setBackgroundPrior',
+    'void',
+    ['/A'],
+    [['double', 'bgprior', '', []]],
+    None,
+    '@brief Sets the prior probability that each individual pixel is a '
+    'background pixel.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setBackgroundPrior with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setBackgroundPrior namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setBackgroundPrior
+register (method) setBackgroundPrior in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setBackgroundPrior_double)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getSmoothingRadius',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the kernel radius used for morphological operations']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getSmoothingRadius with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getSmoothingRadius namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getSmoothingRadius
+register (method) getSmoothingRadius in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getSmoothingRadius_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setSmoothingRadius',
+    'void',
+    ['/A'],
+    [['int', 'radius', '', []]],
+    None,
+    '@brief Sets the kernel radius used for morphological operations']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setSmoothingRadius with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setSmoothingRadius namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setSmoothingRadius
+register (method) setSmoothingRadius in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setSmoothingRadius_int)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getDecisionThreshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the value of decision threshold.\n'
+    '\n'
+    'Decision value is the value above which pixel is determined to be FG.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getDecisionThreshold with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getDecisionThreshold namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getDecisionThreshold
+register (method) getDecisionThreshold in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getDecisionThreshold_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setDecisionThreshold',
+    'void',
+    ['/A'],
+    [['double', 'thresh', '', []]],
+    None,
+    '@brief Sets the value of decision threshold.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setDecisionThreshold with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setDecisionThreshold namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setDecisionThreshold
+register (method) setDecisionThreshold in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setDecisionThreshold_double)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getUpdateBackgroundModel',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the status of background model update']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getUpdateBackgroundModel with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getUpdateBackgroundModel namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getUpdateBackgroundModel
+register (method) getUpdateBackgroundModel in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getUpdateBackgroundModel_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setUpdateBackgroundModel',
+    'void',
+    ['/A'],
+    [['bool', 'update', '', []]],
+    None,
+    '@brief Sets the status of background model update']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setUpdateBackgroundModel with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setUpdateBackgroundModel namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setUpdateBackgroundModel
+register (method) setUpdateBackgroundModel in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setUpdateBackgroundModel_bool)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getMinVal',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the minimum value taken on by pixels in image sequence. '
+    'Usually 0.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getMinVal with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getMinVal namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getMinVal
+register (method) getMinVal in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getMinVal_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setMinVal',
+    'void',
+    ['/A'],
+    [['double', 'val', '', []]],
+    None,
+    '@brief Sets the minimum value taken on by pixels in image sequence.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setMinVal with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setMinVal namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setMinVal
+register (method) setMinVal in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setMinVal_double)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.getMaxVal',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the maximum value taken on by pixels in image sequence. '
+    'e.g. 1.0 or 255.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.getMaxVal with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::getMaxVal namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:getMaxVal
+register (method) getMaxVal in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_getMaxVal_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGMG.setMaxVal',
+    'void',
+    ['/A'],
+    [['double', 'val', '', []]],
+    None,
+    '@brief Sets the maximum value taken on by pixels in image sequence.']
+parse_name: cv.bgsegm.BackgroundSubtractorGMG.setMaxVal with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGMG::setMaxVal namespace:cv::bgsegm classpath:BackgroundSubtractorGMG classname:BackgroundSubtractorGMG name:setMaxVal
+register (method) setMaxVal in cv::bgsegm::BackgroundSubtractorGMG (trait) (cv_bgsegm_BackgroundSubtractorGMG_setMaxVal_double)
+
+--- Incoming ---
+[   'cv.bgsegm.createBackgroundSubtractorGMG',
+    'Ptr<BackgroundSubtractorGMG>',
+    [],
+    [   ['int', 'initializationFrames', '120', []],
+        ['double', 'decisionThreshold', '0.8', []]],
+    None,
+    '@brief Creates a GMG Background Subtractor\n'
+    '\n'
+    '@param initializationFrames number of frames used to initialize the '
+    'background models.\n'
+    '@param decisionThreshold Threshold value, above which it is marked '
+    'foreground, else background.']
+parse_name: cv.bgsegm.createBackgroundSubtractorGMG with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::createBackgroundSubtractorGMG namespace:cv::bgsegm classpath: classname: name:createBackgroundSubtractorGMG
+register (function) createBackgroundSubtractorGMG (cv_bgsegm_createBackgroundSubtractorGMG_int_double)
+
+--- Incoming ---
+[   'class cv.bgsegm.BackgroundSubtractorCNT',
+    ': cv::bgsegm::BackgroundSubtractor',
+    [],
+    [],
+    None,
+    '@brief Background subtraction based on counting.\n'
+    '\n'
+    'About as fast as MOG2 on a high end system.\n'
+    'More than twice faster than MOG2 on cheap hardware (benchmarked on '
+    'Raspberry Pi3).\n'
+    '\n'
+    '%Algorithm by Sagi Zeevi ( '
+    'https://github.com/sagi-z/BackgroundSubtractorCNT )']
+parse_name: class cv.bgsegm.BackgroundSubtractorCNT with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT namespace:cv::bgsegm classpath: classname: name:BackgroundSubtractorCNT
+register class cv::bgsegm::BackgroundSubtractorCNT (['class cv.bgsegm.BackgroundSubtractorCNT', ': cv::bgsegm::BackgroundSubtractor', [], [], None, '@brief Background subtraction based on counting.\n\nAbout as fast as MOG2 on a high end system.\nMore than twice faster than MOG2 on cheap hardware (benchmarked on Raspberry Pi3).\n\n%Algorithm by Sagi Zeevi ( https://github.com/sagi-z/BackgroundSubtractorCNT )']) impl:cv::bgsegm::BackgroundSubtractor
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.apply',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['OutputArray', 'fgmask', '', []],
+        ['double', 'learningRate', '-1', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.apply with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::apply namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:apply
+register (method) apply in cv::bgsegm::BackgroundSubtractorCNT (cv_bgsegm_BackgroundSubtractorCNT_apply__InputArray__OutputArray_double)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.getBackgroundImage',
+    'void',
+    ['/C'],
+    [['OutputArray', 'backgroundImage', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.getBackgroundImage with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::getBackgroundImage namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:getBackgroundImage
+register (method) getBackgroundImage in cv::bgsegm::BackgroundSubtractorCNT (cv_bgsegm_BackgroundSubtractorCNT_getBackgroundImage_const__OutputArray)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.getMinPixelStability',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns number of frames with same pixel color to consider stable.']
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.getMinPixelStability with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::getMinPixelStability namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:getMinPixelStability
+register (method) getMinPixelStability in cv::bgsegm::BackgroundSubtractorCNT (trait) (cv_bgsegm_BackgroundSubtractorCNT_getMinPixelStability_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.setMinPixelStability',
+    'void',
+    ['/A'],
+    [['int', 'value', '', []]],
+    None,
+    '@brief Sets the number of frames with same pixel color to consider '
+    'stable.']
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.setMinPixelStability with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::setMinPixelStability namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:setMinPixelStability
+register (method) setMinPixelStability in cv::bgsegm::BackgroundSubtractorCNT (trait) (cv_bgsegm_BackgroundSubtractorCNT_setMinPixelStability_int)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.getMaxPixelStability',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns maximum allowed credit for a pixel in history.']
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.getMaxPixelStability with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::getMaxPixelStability namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:getMaxPixelStability
+register (method) getMaxPixelStability in cv::bgsegm::BackgroundSubtractorCNT (trait) (cv_bgsegm_BackgroundSubtractorCNT_getMaxPixelStability_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.setMaxPixelStability',
+    'void',
+    ['/A'],
+    [['int', 'value', '', []]],
+    None,
+    '@brief Sets the maximum allowed credit for a pixel in history.']
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.setMaxPixelStability with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::setMaxPixelStability namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:setMaxPixelStability
+register (method) setMaxPixelStability in cv::bgsegm::BackgroundSubtractorCNT (trait) (cv_bgsegm_BackgroundSubtractorCNT_setMaxPixelStability_int)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.getUseHistory',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    "@brief Returns if we're giving a pixel credit for being stable for a long "
+    'time.']
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.getUseHistory with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::getUseHistory namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:getUseHistory
+register (method) getUseHistory in cv::bgsegm::BackgroundSubtractorCNT (trait) (cv_bgsegm_BackgroundSubtractorCNT_getUseHistory_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.setUseHistory',
+    'void',
+    ['/A'],
+    [['bool', 'value', '', []]],
+    None,
+    "@brief Sets if we're giving a pixel credit for being stable for a long "
+    'time.']
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.setUseHistory with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::setUseHistory namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:setUseHistory
+register (method) setUseHistory in cv::bgsegm::BackgroundSubtractorCNT (trait) (cv_bgsegm_BackgroundSubtractorCNT_setUseHistory_bool)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.getIsParallel',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    "@brief Returns if we're parallelizing the algorithm."]
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.getIsParallel with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::getIsParallel namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:getIsParallel
+register (method) getIsParallel in cv::bgsegm::BackgroundSubtractorCNT (trait) (cv_bgsegm_BackgroundSubtractorCNT_getIsParallel_const)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorCNT.setIsParallel',
+    'void',
+    ['/A'],
+    [['bool', 'value', '', []]],
+    None,
+    "@brief Sets if we're parallelizing the algorithm."]
+parse_name: cv.bgsegm.BackgroundSubtractorCNT.setIsParallel with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorCNT::setIsParallel namespace:cv::bgsegm classpath:BackgroundSubtractorCNT classname:BackgroundSubtractorCNT name:setIsParallel
+register (method) setIsParallel in cv::bgsegm::BackgroundSubtractorCNT (trait) (cv_bgsegm_BackgroundSubtractorCNT_setIsParallel_bool)
+
+--- Incoming ---
+[   'cv.bgsegm.createBackgroundSubtractorCNT',
+    'Ptr<BackgroundSubtractorCNT>',
+    [],
+    [   ['int', 'minPixelStability', '15', []],
+        ['bool', 'useHistory', 'true', []],
+        ['int', 'maxPixelStability', '15*60', []],
+        ['bool', 'isParallel', 'true', []]],
+    None,
+    '@brief Creates a CNT Background Subtractor\n'
+    '\n'
+    '@param minPixelStability number of frames with same pixel color to '
+    'consider stable\n'
+    "@param useHistory determines if we're giving a pixel credit for being "
+    'stable for a long time\n'
+    '@param maxPixelStability maximum allowed credit for a pixel in history\n'
+    "@param isParallel determines if we're parallelizing the algorithm"]
+parse_name: cv.bgsegm.createBackgroundSubtractorCNT with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::createBackgroundSubtractorCNT namespace:cv::bgsegm classpath: classname: name:createBackgroundSubtractorCNT
+register (function) createBackgroundSubtractorCNT (cv_bgsegm_createBackgroundSubtractorCNT_int_bool_int_bool)
+
+--- Incoming ---
+[   'enum cv.bgsegm.LSBPCameraMotionCompensation',
+    '',
+    [],
+    [   [   'const cv.bgsegm.LSBP_CAMERA_MOTION_COMPENSATION_NONE',
+            '0',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.bgsegm.LSBP_CAMERA_MOTION_COMPENSATION_LK',
+            '0+1',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    '']
+parse_name: const cv.bgsegm.LSBP_CAMERA_MOTION_COMPENSATION_NONE with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::LSBP_CAMERA_MOTION_COMPENSATION_NONE namespace:cv::bgsegm classpath: classname: name:LSBP_CAMERA_MOTION_COMPENSATION_NONE
+parse_name: const cv.bgsegm.LSBP_CAMERA_MOTION_COMPENSATION_LK with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::LSBP_CAMERA_MOTION_COMPENSATION_LK namespace:cv::bgsegm classpath: classname: name:LSBP_CAMERA_MOTION_COMPENSATION_LK
+parse_name: enum cv.bgsegm.LSBPCameraMotionCompensation with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::LSBPCameraMotionCompensation namespace:cv::bgsegm classpath: classname: name:LSBPCameraMotionCompensation
+parse_name: const cv.bgsegm.LSBP_CAMERA_MOTION_COMPENSATION_NONE with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::LSBP_CAMERA_MOTION_COMPENSATION_NONE namespace:cv::bgsegm classpath: classname: name:LSBP_CAMERA_MOTION_COMPENSATION_NONE
+parse_name: const cv.bgsegm.LSBP_CAMERA_MOTION_COMPENSATION_LK with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::LSBP_CAMERA_MOTION_COMPENSATION_LK namespace:cv::bgsegm classpath: classname: name:LSBP_CAMERA_MOTION_COMPENSATION_LK
+
+--- Incoming ---
+[   'class cv.bgsegm.BackgroundSubtractorGSOC',
+    ': cv::bgsegm::BackgroundSubtractor',
+    [],
+    [],
+    None,
+    '@brief Implementation of the different yet better algorithm which is '
+    'called GSOC, as it was implemented during GSOC and was not originated '
+    'from any paper.\n'
+    '\n'
+    'This algorithm demonstrates better performance on CDNET 2014 dataset '
+    'compared to other algorithms in OpenCV.']
+parse_name: class cv.bgsegm.BackgroundSubtractorGSOC with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGSOC namespace:cv::bgsegm classpath: classname: name:BackgroundSubtractorGSOC
+register class cv::bgsegm::BackgroundSubtractorGSOC (['class cv.bgsegm.BackgroundSubtractorGSOC', ': cv::bgsegm::BackgroundSubtractor', [], [], None, '@brief Implementation of the different yet better algorithm which is called GSOC, as it was implemented during GSOC and was not originated from any paper.\n\nThis algorithm demonstrates better performance on CDNET 2014 dataset compared to other algorithms in OpenCV.']) impl:cv::bgsegm::BackgroundSubtractor
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGSOC.apply',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['OutputArray', 'fgmask', '', []],
+        ['double', 'learningRate', '-1', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorGSOC.apply with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGSOC::apply namespace:cv::bgsegm classpath:BackgroundSubtractorGSOC classname:BackgroundSubtractorGSOC name:apply
+register (method) apply in cv::bgsegm::BackgroundSubtractorGSOC (cv_bgsegm_BackgroundSubtractorGSOC_apply__InputArray__OutputArray_double)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorGSOC.getBackgroundImage',
+    'void',
+    ['/C'],
+    [['OutputArray', 'backgroundImage', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorGSOC.getBackgroundImage with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorGSOC::getBackgroundImage namespace:cv::bgsegm classpath:BackgroundSubtractorGSOC classname:BackgroundSubtractorGSOC name:getBackgroundImage
+register (method) getBackgroundImage in cv::bgsegm::BackgroundSubtractorGSOC (cv_bgsegm_BackgroundSubtractorGSOC_getBackgroundImage_const__OutputArray)
+
+--- Incoming ---
+[   'class cv.bgsegm.BackgroundSubtractorLSBP',
+    ': cv::bgsegm::BackgroundSubtractor',
+    [],
+    [],
+    None,
+    '@brief Background Subtraction using Local SVD Binary Pattern. More '
+    'details about the algorithm can be found at @cite LGuo2016']
+parse_name: class cv.bgsegm.BackgroundSubtractorLSBP with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorLSBP namespace:cv::bgsegm classpath: classname: name:BackgroundSubtractorLSBP
+register class cv::bgsegm::BackgroundSubtractorLSBP (['class cv.bgsegm.BackgroundSubtractorLSBP', ': cv::bgsegm::BackgroundSubtractor', [], [], None, '@brief Background Subtraction using Local SVD Binary Pattern. More details about the algorithm can be found at @cite LGuo2016']) impl:cv::bgsegm::BackgroundSubtractor
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorLSBP.apply',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['OutputArray', 'fgmask', '', []],
+        ['double', 'learningRate', '-1', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorLSBP.apply with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorLSBP::apply namespace:cv::bgsegm classpath:BackgroundSubtractorLSBP classname:BackgroundSubtractorLSBP name:apply
+register (method) apply in cv::bgsegm::BackgroundSubtractorLSBP (cv_bgsegm_BackgroundSubtractorLSBP_apply__InputArray__OutputArray_double)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorLSBP.getBackgroundImage',
+    'void',
+    ['/C'],
+    [['OutputArray', 'backgroundImage', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorLSBP.getBackgroundImage with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorLSBP::getBackgroundImage namespace:cv::bgsegm classpath:BackgroundSubtractorLSBP classname:BackgroundSubtractorLSBP name:getBackgroundImage
+register (method) getBackgroundImage in cv::bgsegm::BackgroundSubtractorLSBP (cv_bgsegm_BackgroundSubtractorLSBP_getBackgroundImage_const__OutputArray)
+
+--- Incoming ---
+[   'class cv.bgsegm.BackgroundSubtractorLSBPDesc',
+    '',
+    [],
+    [],
+    None,
+    '@brief This is for calculation of the LSBP descriptors.']
+parse_name: class cv.bgsegm.BackgroundSubtractorLSBPDesc with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorLSBPDesc namespace:cv::bgsegm classpath: classname: name:BackgroundSubtractorLSBPDesc
+register class cv::bgsegm::BackgroundSubtractorLSBPDesc (['class cv.bgsegm.BackgroundSubtractorLSBPDesc', '', [], [], None, '@brief This is for calculation of the LSBP descriptors.'])
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorLSBPDesc.calcLocalSVDValues',
+    'void',
+    ['/S'],
+    [   ['OutputArray', 'localSVDValues', '', []],
+        ['const Mat&', 'frame', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorLSBPDesc.calcLocalSVDValues with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorLSBPDesc::calcLocalSVDValues namespace:cv::bgsegm classpath:BackgroundSubtractorLSBPDesc classname:BackgroundSubtractorLSBPDesc name:calcLocalSVDValues
+register (method) calcLocalSVDValues in cv::bgsegm::BackgroundSubtractorLSBPDesc (cv_bgsegm_BackgroundSubtractorLSBPDesc_calcLocalSVDValues__OutputArray_Mat)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorLSBPDesc.computeFromLocalSVDValues',
+    'void',
+    ['/S'],
+    [   ['OutputArray', 'desc', '', []],
+        ['const Mat&', 'localSVDValues', '', []],
+        ['const Point2i*', 'LSBPSamplePoints', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorLSBPDesc.computeFromLocalSVDValues with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorLSBPDesc::computeFromLocalSVDValues namespace:cv::bgsegm classpath:BackgroundSubtractorLSBPDesc classname:BackgroundSubtractorLSBPDesc name:computeFromLocalSVDValues
+register (method) computeFromLocalSVDValues in cv::bgsegm::BackgroundSubtractorLSBPDesc (cv_bgsegm_BackgroundSubtractorLSBPDesc_computeFromLocalSVDValues__OutputArray_Mat_const_Point2i_X)
+
+--- Incoming ---
+[   'cv.bgsegm.BackgroundSubtractorLSBPDesc.compute',
+    'void',
+    ['/S'],
+    [   ['OutputArray', 'desc', '', []],
+        ['const Mat&', 'frame', '', []],
+        ['const Point2i*', 'LSBPSamplePoints', '', []]],
+    None,
+    '']
+parse_name: cv.bgsegm.BackgroundSubtractorLSBPDesc.compute with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::BackgroundSubtractorLSBPDesc::compute namespace:cv::bgsegm classpath:BackgroundSubtractorLSBPDesc classname:BackgroundSubtractorLSBPDesc name:compute
+register (method) compute in cv::bgsegm::BackgroundSubtractorLSBPDesc (cv_bgsegm_BackgroundSubtractorLSBPDesc_compute__OutputArray_Mat_const_Point2i_X)
+
+--- Incoming ---
+[   'cv.bgsegm.createBackgroundSubtractorGSOC',
+    'Ptr<BackgroundSubtractorGSOC>',
+    [],
+    [   ['int', 'mc', 'LSBP_CAMERA_MOTION_COMPENSATION_NONE', []],
+        ['int', 'nSamples', '20', []],
+        ['float', 'replaceRate', '0.003f', []],
+        ['float', 'propagationRate', '0.01f', []],
+        ['int', 'hitsThreshold', '32', []],
+        ['float', 'alpha', '0.01f', []],
+        ['float', 'beta', '0.0022f', []],
+        ['float', 'blinkingSupressionDecay', '0.1f', []],
+        ['float', 'blinkingSupressionMultiplier', '0.1f', []],
+        ['float', 'noiseRemovalThresholdFacBG', '0.0004f', []],
+        ['float', 'noiseRemovalThresholdFacFG', '0.0008f', []]],
+    None,
+    '@brief Creates an instance of BackgroundSubtractorGSOC algorithm.\n'
+    '\n'
+    'Implementation of the different yet better algorithm which is called '
+    'GSOC, as it was implemented during GSOC and was not originated from any '
+    'paper.\n'
+    '\n'
+    '@param mc Whether to use camera motion compensation.\n'
+    '@param nSamples Number of samples to maintain at each point of the '
+    'frame.\n'
+    '@param replaceRate Probability of replacing the old sample - how fast the '
+    'model will update itself.\n'
+    '@param propagationRate Probability of propagating to neighbors.\n'
+    '@param hitsThreshold How many positives the sample must get before it '
+    'will be considered as a possible replacement.\n'
+    '@param alpha Scale coefficient for threshold.\n'
+    '@param beta Bias coefficient for threshold.\n'
+    '@param blinkingSupressionDecay Blinking supression decay factor.\n'
+    '@param blinkingSupressionMultiplier Blinking supression multiplier.\n'
+    '@param noiseRemovalThresholdFacBG Strength of the noise removal for '
+    'background points.\n'
+    '@param noiseRemovalThresholdFacFG Strength of the noise removal for '
+    'foreground points.']
+parse_name: cv.bgsegm.createBackgroundSubtractorGSOC with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::createBackgroundSubtractorGSOC namespace:cv::bgsegm classpath: classname: name:createBackgroundSubtractorGSOC
+register (function) createBackgroundSubtractorGSOC (cv_bgsegm_createBackgroundSubtractorGSOC_int_int_float_float_int_float_float_float_float_float_float)
+
+--- Incoming ---
+[   'cv.bgsegm.createBackgroundSubtractorLSBP',
+    'Ptr<BackgroundSubtractorLSBP>',
+    [],
+    [   ['int', 'mc', 'LSBP_CAMERA_MOTION_COMPENSATION_NONE', []],
+        ['int', 'nSamples', '20', []],
+        ['int', 'LSBPRadius', '16', []],
+        ['float', 'Tlower', '2.0f', []],
+        ['float', 'Tupper', '32.0f', []],
+        ['float', 'Tinc', '1.0f', []],
+        ['float', 'Tdec', '0.05f', []],
+        ['float', 'Rscale', '10.0f', []],
+        ['float', 'Rincdec', '0.005f', []],
+        ['float', 'noiseRemovalThresholdFacBG', '0.0004f', []],
+        ['float', 'noiseRemovalThresholdFacFG', '0.0008f', []],
+        ['int', 'LSBPthreshold', '8', []],
+        ['int', 'minCount', '2', []]],
+    None,
+    '@brief Creates an instance of BackgroundSubtractorLSBP algorithm.\n'
+    '\n'
+    'Background Subtraction using Local SVD Binary Pattern. More details about '
+    'the algorithm can be found at @cite LGuo2016\n'
+    '\n'
+    '@param mc Whether to use camera motion compensation.\n'
+    '@param nSamples Number of samples to maintain at each point of the '
+    'frame.\n'
+    '@param LSBPRadius LSBP descriptor radius.\n'
+    '@param Tlower Lower bound for T-values. See @cite LGuo2016 for details.\n'
+    '@param Tupper Upper bound for T-values. See @cite LGuo2016 for details.\n'
+    '@param Tinc Increase step for T-values. See @cite LGuo2016 for details.\n'
+    '@param Tdec Decrease step for T-values. See @cite LGuo2016 for details.\n'
+    '@param Rscale Scale coefficient for threshold values.\n'
+    '@param Rincdec Increase/Decrease step for threshold values.\n'
+    '@param noiseRemovalThresholdFacBG Strength of the noise removal for '
+    'background points.\n'
+    '@param noiseRemovalThresholdFacFG Strength of the noise removal for '
+    'foreground points.\n'
+    '@param LSBPthreshold Threshold for LSBP binary string.\n'
+    '@param minCount Minimal number of matches for sample to be considered as '
+    'foreground.']
+parse_name: cv.bgsegm.createBackgroundSubtractorLSBP with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::createBackgroundSubtractorLSBP namespace:cv::bgsegm classpath: classname: name:createBackgroundSubtractorLSBP
+register (function) createBackgroundSubtractorLSBP (cv_bgsegm_createBackgroundSubtractorLSBP_int_int_int_float_float_float_float_float_float_float_float_int_int)
+
+--- Incoming ---
+[   'class cv.bgsegm.SyntheticSequenceGenerator',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Synthetic frame sequence generator for testing background '
+    'subtraction algorithms.\n'
+    '\n'
+    'It will generate the moving object on top of the background.\n'
+    'It will apply some distortion to the background to make the test more '
+    'complex.']
+parse_name: class cv.bgsegm.SyntheticSequenceGenerator with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::SyntheticSequenceGenerator namespace:cv::bgsegm classpath: classname: name:SyntheticSequenceGenerator
+register class cv::bgsegm::SyntheticSequenceGenerator (['class cv.bgsegm.SyntheticSequenceGenerator', ': cv::Algorithm', [], [], None, '@brief Synthetic frame sequence generator for testing background subtraction algorithms.\n\nIt will generate the moving object on top of the background.\nIt will apply some distortion to the background to make the test more complex.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.bgsegm.SyntheticSequenceGenerator.SyntheticSequenceGenerator',
+    'S',
+    [],
+    [   ['InputArray', 'background', '', []],
+        ['InputArray', 'object', '', []],
+        ['double', 'amplitude', '', []],
+        ['double', 'wavelength', '', []],
+        ['double', 'wavespeed', '', []],
+        ['double', 'objspeed', '', []]],
+    None,
+    '@brief Creates an instance of SyntheticSequenceGenerator.\n'
+    '\n'
+    '@param background Background image for object.\n'
+    '@param object Object image which will move slowly over the background.\n'
+    '@param amplitude Amplitude of wave distortion applied to background.\n'
+    '@param wavelength Length of waves in distortion applied to background.\n'
+    '@param wavespeed How fast waves will move.\n'
+    '@param objspeed How fast object will fly over background.']
+parse_name: cv.bgsegm.SyntheticSequenceGenerator.SyntheticSequenceGenerator with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::SyntheticSequenceGenerator::SyntheticSequenceGenerator namespace:cv::bgsegm classpath:SyntheticSequenceGenerator classname:SyntheticSequenceGenerator name:SyntheticSequenceGenerator
+register (constructor) new in cv::bgsegm::SyntheticSequenceGenerator (cv_bgsegm_SyntheticSequenceGenerator_SyntheticSequenceGenerator__InputArray__InputArray_double_double_double_double)
+
+--- Incoming ---
+[   'cv.bgsegm.SyntheticSequenceGenerator.getNextFrame',
+    'void',
+    [],
+    [['OutputArray', 'frame', '', []], ['OutputArray', 'gtMask', '', []]],
+    None,
+    '@brief Obtain the next frame in the sequence.\n'
+    '\n'
+    '@param frame Output frame.\n'
+    '@param gtMask Output ground-truth (reference) segmentation mask '
+    'object/background.']
+parse_name: cv.bgsegm.SyntheticSequenceGenerator.getNextFrame with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::SyntheticSequenceGenerator::getNextFrame namespace:cv::bgsegm classpath:SyntheticSequenceGenerator classname:SyntheticSequenceGenerator name:getNextFrame
+register (method) getNextFrame in cv::bgsegm::SyntheticSequenceGenerator (cv_bgsegm_SyntheticSequenceGenerator_getNextFrame__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.bgsegm.createSyntheticSequenceGenerator',
+    'Ptr<SyntheticSequenceGenerator>',
+    [],
+    [   ['InputArray', 'background', '', []],
+        ['InputArray', 'object', '', []],
+        ['double', 'amplitude', '2.0', []],
+        ['double', 'wavelength', '20.0', []],
+        ['double', 'wavespeed', '0.2', []],
+        ['double', 'objspeed', '6.0', []]],
+    None,
+    '@brief Creates an instance of SyntheticSequenceGenerator.\n'
+    '\n'
+    '@param background Background image for object.\n'
+    '@param object Object image which will move slowly over the background.\n'
+    '@param amplitude Amplitude of wave distortion applied to background.\n'
+    '@param wavelength Length of waves in distortion applied to background.\n'
+    '@param wavespeed How fast waves will move.\n'
+    '@param objspeed How fast object will fly over background.']
+parse_name: cv.bgsegm.createSyntheticSequenceGenerator with ['cv', 'cv::bgsegm'] -> fullname:cv::bgsegm::createSyntheticSequenceGenerator namespace:cv::bgsegm classpath: classname: name:createSyntheticSequenceGenerator
+register (function) createSyntheticSequenceGenerator (cv_bgsegm_createSyntheticSequenceGenerator__InputArray__InputArray_double_double_double_double)
+
+
+===== Generating... =====
+Registering an unknown type: cv::bgsegm::BackgroundSubtractor
+Generating func cv_bgsegm_createBackgroundSubtractorCNT_int_bool_int_bool
+Generating func cv_bgsegm_createBackgroundSubtractorGMG_int_double
+Generating func cv_bgsegm_createBackgroundSubtractorGSOC_int_int_float_float_int_float_float_float_float_float_float
+Generating func cv_bgsegm_createBackgroundSubtractorLSBP_int_int_int_float_float_float_float_float_float_float_float_int_int
+Generating func cv_bgsegm_createBackgroundSubtractorMOG_int_int_double_double
+Generating func cv_bgsegm_createSyntheticSequenceGenerator__InputArray__InputArray_double_double_double_double
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Generating impl for trait cv::bgsegm::BackgroundSubtractorCNT (trait)
+Generating func cv_bgsegm_BackgroundSubtractorCNT_apply__InputArray__OutputArray_double
+Generating func cv_bgsegm_BackgroundSubtractorCNT_getBackgroundImage_const__OutputArray
+Generating func cv_bgsegm_BackgroundSubtractorCNT_getMinPixelStability_const
+Generating func cv_bgsegm_BackgroundSubtractorCNT_setMinPixelStability_int
+Generating func cv_bgsegm_BackgroundSubtractorCNT_getMaxPixelStability_const
+Generating func cv_bgsegm_BackgroundSubtractorCNT_setMaxPixelStability_int
+Generating func cv_bgsegm_BackgroundSubtractorCNT_getUseHistory_const
+Generating func cv_bgsegm_BackgroundSubtractorCNT_setUseHistory_bool
+Generating func cv_bgsegm_BackgroundSubtractorCNT_getIsParallel_const
+Generating func cv_bgsegm_BackgroundSubtractorCNT_setIsParallel_bool
+Generating impl for trait cv::bgsegm::BackgroundSubtractorGMG (trait)
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getMaxFeatures_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setMaxFeatures_int
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getDefaultLearningRate_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setDefaultLearningRate_double
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getNumFrames_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setNumFrames_int
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getQuantizationLevels_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setQuantizationLevels_int
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getBackgroundPrior_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setBackgroundPrior_double
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getSmoothingRadius_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setSmoothingRadius_int
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getDecisionThreshold_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setDecisionThreshold_double
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getUpdateBackgroundModel_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setUpdateBackgroundModel_bool
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getMinVal_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setMinVal_double
+Generating func cv_bgsegm_BackgroundSubtractorGMG_getMaxVal_const
+Generating func cv_bgsegm_BackgroundSubtractorGMG_setMaxVal_double
+Generating box for cv::bgsegm::BackgroundSubtractorGSOC
+Generating func cv_bgsegm_BackgroundSubtractorGSOC_apply__InputArray__OutputArray_double
+Generating func cv_bgsegm_BackgroundSubtractorGSOC_getBackgroundImage_const__OutputArray
+Generating box for cv::bgsegm::BackgroundSubtractorLSBP
+Generating func cv_bgsegm_BackgroundSubtractorLSBP_apply__InputArray__OutputArray_double
+Generating func cv_bgsegm_BackgroundSubtractorLSBP_getBackgroundImage_const__OutputArray
+Generating box for cv::bgsegm::BackgroundSubtractorLSBPDesc
+Generating func cv_bgsegm_BackgroundSubtractorLSBPDesc_calcLocalSVDValues__OutputArray_Mat
+Generating func cv_bgsegm_BackgroundSubtractorLSBPDesc_computeFromLocalSVDValues__OutputArray_Mat_const_Point2i_X
+Generating func cv_bgsegm_BackgroundSubtractorLSBPDesc_compute__OutputArray_Mat_const_Point2i_X
+Generating impl for trait cv::bgsegm::BackgroundSubtractorMOG (trait)
+Generating func cv_bgsegm_BackgroundSubtractorMOG_getHistory_const
+Generating func cv_bgsegm_BackgroundSubtractorMOG_setHistory_int
+Generating func cv_bgsegm_BackgroundSubtractorMOG_getNMixtures_const
+Generating func cv_bgsegm_BackgroundSubtractorMOG_setNMixtures_int
+Generating func cv_bgsegm_BackgroundSubtractorMOG_getBackgroundRatio_const
+Generating func cv_bgsegm_BackgroundSubtractorMOG_setBackgroundRatio_double
+Generating func cv_bgsegm_BackgroundSubtractorMOG_getNoiseSigma_const
+Generating func cv_bgsegm_BackgroundSubtractorMOG_setNoiseSigma_double
+Generating box for cv::bgsegm::SyntheticSequenceGenerator
+Generating func cv_bgsegm_SyntheticSequenceGenerator_SyntheticSequenceGenerator__InputArray__InputArray_double_double_double_double
+Generating func cv_bgsegm_SyntheticSequenceGenerator_getNextFrame__OutputArray__OutputArray
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

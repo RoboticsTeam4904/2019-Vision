@@ -1,0 +1,28 @@
+FOUND FUNCs: 24
+
+PORTED FUNCs: 24
+
+PORTED: cv::structured_light::GrayCodePattern::getNumberOfPatternImages (method) cv::structured_light::GrayCodePattern (trait) . getNumberOfPatternImages
+PORTED: cv::structured_light::GrayCodePattern::setWhiteThreshold (method) cv::structured_light::GrayCodePattern (trait) . setWhiteThreshold
+PORTED: cv::structured_light::GrayCodePattern::setBlackThreshold (method) cv::structured_light::GrayCodePattern (trait) . setBlackThreshold
+PORTED: cv::structured_light::GrayCodePattern::getImagesForShadowMasks (method) cv::structured_light::GrayCodePattern (trait) . getImagesForShadowMasks
+PORTED: cv::structured_light::GrayCodePattern::getProjPixel (method) cv::structured_light::GrayCodePattern (trait) . getProjPixel
+PORTED: cv::structured_light::GrayCodePattern::create (method) cv::structured_light::GrayCodePattern (trait) . create
+PORTED: cv::structured_light::GrayCodePattern::create (method) cv::structured_light::GrayCodePattern (trait) . create
+PORTED: cv::structured_light::GrayCodePattern::Params::Params (constructor) cv::structured_light::GrayCodePattern::Params . default
+PORTED: cv::structured_light::SinusoidalPattern::computePhaseMap (method) cv::structured_light::SinusoidalPattern (trait) . computePhaseMap
+PORTED: cv::structured_light::SinusoidalPattern::unwrapPhaseMap (method) cv::structured_light::SinusoidalPattern (trait) . unwrapPhaseMap
+PORTED: cv::structured_light::SinusoidalPattern::findProCamMatches (method) cv::structured_light::SinusoidalPattern (trait) . findProCamMatches
+PORTED: cv::structured_light::SinusoidalPattern::computeDataModulationTerm (method) cv::structured_light::SinusoidalPattern (trait) . computeDataModulationTerm
+PORTED: cv::structured_light::SinusoidalPattern::create (method) cv::structured_light::SinusoidalPattern (trait) . create
+PORTED: cv::structured_light::SinusoidalPattern::Params::width (method) cv::structured_light::SinusoidalPattern::Params . width
+PORTED: cv::structured_light::SinusoidalPattern::Params::height (method) cv::structured_light::SinusoidalPattern::Params . height
+PORTED: cv::structured_light::SinusoidalPattern::Params::nbrOfPeriods (method) cv::structured_light::SinusoidalPattern::Params . nbrOfPeriods
+PORTED: cv::structured_light::SinusoidalPattern::Params::shiftValue (method) cv::structured_light::SinusoidalPattern::Params . shiftValue
+PORTED: cv::structured_light::SinusoidalPattern::Params::methodId (method) cv::structured_light::SinusoidalPattern::Params . methodId
+PORTED: cv::structured_light::SinusoidalPattern::Params::nbrOfPixelsBetweenMarkers (method) cv::structured_light::SinusoidalPattern::Params . nbrOfPixelsBetweenMarkers
+PORTED: cv::structured_light::SinusoidalPattern::Params::horizontal (method) cv::structured_light::SinusoidalPattern::Params . horizontal
+PORTED: cv::structured_light::SinusoidalPattern::Params::setMarkers (method) cv::structured_light::SinusoidalPattern::Params . setMarkers
+PORTED: cv::structured_light::SinusoidalPattern::Params::Params (constructor) cv::structured_light::SinusoidalPattern::Params . default
+PORTED: cv::structured_light::StructuredLightPattern::generate (method) cv::structured_light::StructuredLightPattern (trait) . generate
+PORTED: cv::structured_light::StructuredLightPattern::decode (method) cv::structured_light::StructuredLightPattern (trait) . decode

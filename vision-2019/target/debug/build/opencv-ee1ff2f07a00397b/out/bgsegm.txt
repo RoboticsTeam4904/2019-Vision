@@ -1,0 +1,57 @@
+FOUND FUNCs: 53
+
+PORTED FUNCs: 53
+
+PORTED: cv::bgsegm::createBackgroundSubtractorCNT (function)
+PORTED: cv::bgsegm::createBackgroundSubtractorGMG (function)
+PORTED: cv::bgsegm::createBackgroundSubtractorGSOC (function)
+PORTED: cv::bgsegm::createBackgroundSubtractorLSBP (function)
+PORTED: cv::bgsegm::createBackgroundSubtractorMOG (function)
+PORTED: cv::bgsegm::createSyntheticSequenceGenerator (function)
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::apply (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . apply
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::getBackgroundImage (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . getBackgroundImage
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::getMinPixelStability (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . getMinPixelStability
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::setMinPixelStability (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . setMinPixelStability
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::getMaxPixelStability (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . getMaxPixelStability
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::setMaxPixelStability (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . setMaxPixelStability
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::getUseHistory (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . getUseHistory
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::setUseHistory (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . setUseHistory
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::getIsParallel (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . getIsParallel
+PORTED: cv::bgsegm::BackgroundSubtractorCNT::setIsParallel (method) cv::bgsegm::BackgroundSubtractorCNT (trait) . setIsParallel
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getMaxFeatures (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getMaxFeatures
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setMaxFeatures (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setMaxFeatures
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getDefaultLearningRate (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getDefaultLearningRate
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setDefaultLearningRate (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setDefaultLearningRate
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getNumFrames (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getNumFrames
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setNumFrames (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setNumFrames
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getQuantizationLevels (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getQuantizationLevels
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setQuantizationLevels (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setQuantizationLevels
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getBackgroundPrior (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getBackgroundPrior
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setBackgroundPrior (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setBackgroundPrior
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getSmoothingRadius (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getSmoothingRadius
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setSmoothingRadius (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setSmoothingRadius
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getDecisionThreshold (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getDecisionThreshold
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setDecisionThreshold (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setDecisionThreshold
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getUpdateBackgroundModel (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getUpdateBackgroundModel
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setUpdateBackgroundModel (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setUpdateBackgroundModel
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getMinVal (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getMinVal
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setMinVal (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setMinVal
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::getMaxVal (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . getMaxVal
+PORTED: cv::bgsegm::BackgroundSubtractorGMG::setMaxVal (method) cv::bgsegm::BackgroundSubtractorGMG (trait) . setMaxVal
+PORTED: cv::bgsegm::BackgroundSubtractorGSOC::apply (method) cv::bgsegm::BackgroundSubtractorGSOC . apply
+PORTED: cv::bgsegm::BackgroundSubtractorGSOC::getBackgroundImage (method) cv::bgsegm::BackgroundSubtractorGSOC . getBackgroundImage
+PORTED: cv::bgsegm::BackgroundSubtractorLSBP::apply (method) cv::bgsegm::BackgroundSubtractorLSBP . apply
+PORTED: cv::bgsegm::BackgroundSubtractorLSBP::getBackgroundImage (method) cv::bgsegm::BackgroundSubtractorLSBP . getBackgroundImage
+PORTED: cv::bgsegm::BackgroundSubtractorLSBPDesc::calcLocalSVDValues (method) cv::bgsegm::BackgroundSubtractorLSBPDesc . calcLocalSVDValues
+PORTED: cv::bgsegm::BackgroundSubtractorLSBPDesc::computeFromLocalSVDValues (method) cv::bgsegm::BackgroundSubtractorLSBPDesc . computeFromLocalSVDValues
+PORTED: cv::bgsegm::BackgroundSubtractorLSBPDesc::compute (method) cv::bgsegm::BackgroundSubtractorLSBPDesc . compute
+PORTED: cv::bgsegm::BackgroundSubtractorMOG::getHistory (method) cv::bgsegm::BackgroundSubtractorMOG (trait) . getHistory
+PORTED: cv::bgsegm::BackgroundSubtractorMOG::setHistory (method) cv::bgsegm::BackgroundSubtractorMOG (trait) . setHistory
+PORTED: cv::bgsegm::BackgroundSubtractorMOG::getNMixtures (method) cv::bgsegm::BackgroundSubtractorMOG (trait) . getNMixtures
+PORTED: cv::bgsegm::BackgroundSubtractorMOG::setNMixtures (method) cv::bgsegm::BackgroundSubtractorMOG (trait) . setNMixtures
+PORTED: cv::bgsegm::BackgroundSubtractorMOG::getBackgroundRatio (method) cv::bgsegm::BackgroundSubtractorMOG (trait) . getBackgroundRatio
+PORTED: cv::bgsegm::BackgroundSubtractorMOG::setBackgroundRatio (method) cv::bgsegm::BackgroundSubtractorMOG (trait) . setBackgroundRatio
+PORTED: cv::bgsegm::BackgroundSubtractorMOG::getNoiseSigma (method) cv::bgsegm::BackgroundSubtractorMOG (trait) . getNoiseSigma
+PORTED: cv::bgsegm::BackgroundSubtractorMOG::setNoiseSigma (method) cv::bgsegm::BackgroundSubtractorMOG (trait) . setNoiseSigma
+PORTED: cv::bgsegm::SyntheticSequenceGenerator::SyntheticSequenceGenerator (constructor) cv::bgsegm::SyntheticSequenceGenerator . new
+PORTED: cv::bgsegm::SyntheticSequenceGenerator::getNextFrame (method) cv::bgsegm::SyntheticSequenceGenerator . getNextFrame

@@ -1,0 +1,12 @@
+FOUND FUNCs: 8
+
+PORTED FUNCs: 8
+
+PORTED: cv::haveImageReader (function)
+PORTED: cv::haveImageWriter (function)
+PORTED: cv::imdecode (function)
+PORTED: cv::imdecode (function)
+PORTED: cv::imencode (function)
+PORTED: cv::imread (function)
+PORTED: cv::imreadmulti (function)
+PORTED: cv::imwrite (function)

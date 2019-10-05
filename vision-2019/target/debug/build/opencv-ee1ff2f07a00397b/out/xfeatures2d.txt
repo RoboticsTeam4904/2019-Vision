@@ -1,0 +1,112 @@
+FOUND FUNCs: 102
+
+PORTED FUNCs: 101
+
+PORTED: cv::xfeatures2d::matchGMS (function)
+PORTED: cv::xfeatures2d::AffineFeature2D::detect (method) cv::xfeatures2d::AffineFeature2D (trait) . detect
+PORTED: cv::xfeatures2d::AffineFeature2D::detectAndCompute (method) cv::xfeatures2d::AffineFeature2D (trait) . detectAndCompute
+PORTED: cv::xfeatures2d::AffineFeature2D::create (method) cv::xfeatures2d::AffineFeature2D (trait) . create
+PORTED: cv::xfeatures2d::AffineFeature2D::create (method) cv::xfeatures2d::AffineFeature2D (trait) . create
+PORTED: cv::xfeatures2d::BoostDesc::setUseScaleOrientation (method) cv::xfeatures2d::BoostDesc (trait) . setUseScaleOrientation
+PORTED: cv::xfeatures2d::BoostDesc::getUseScaleOrientation (method) cv::xfeatures2d::BoostDesc (trait) . getUseScaleOrientation
+PORTED: cv::xfeatures2d::BoostDesc::setScaleFactor (method) cv::xfeatures2d::BoostDesc (trait) . setScaleFactor
+PORTED: cv::xfeatures2d::BoostDesc::getScaleFactor (method) cv::xfeatures2d::BoostDesc (trait) . getScaleFactor
+PORTED: cv::xfeatures2d::BoostDesc::create (method) cv::xfeatures2d::BoostDesc (trait) . create
+PORTED: cv::xfeatures2d::BriefDescriptorExtractor::create (method) cv::xfeatures2d::BriefDescriptorExtractor . create
+PORTED: cv::xfeatures2d::DAISY::compute (method) cv::xfeatures2d::DAISY (trait) . compute
+PORTED: cv::xfeatures2d::DAISY::compute (method) cv::xfeatures2d::DAISY (trait) . compute
+PORTED: cv::xfeatures2d::DAISY::compute (method) cv::xfeatures2d::DAISY (trait) . compute
+PORTED: cv::xfeatures2d::DAISY::compute (method) cv::xfeatures2d::DAISY (trait) . compute
+PORTED: cv::xfeatures2d::DAISY::GetDescriptor (method) cv::xfeatures2d::DAISY (trait) . GetDescriptor
+PORTED: cv::xfeatures2d::DAISY::GetDescriptor (method) cv::xfeatures2d::DAISY (trait) . GetDescriptor
+PORTED: cv::xfeatures2d::DAISY::GetUnnormalizedDescriptor (method) cv::xfeatures2d::DAISY (trait) . GetUnnormalizedDescriptor
+PORTED: cv::xfeatures2d::DAISY::GetUnnormalizedDescriptor (method) cv::xfeatures2d::DAISY (trait) . GetUnnormalizedDescriptor
+PORTED: cv::xfeatures2d::DAISY::create (method) cv::xfeatures2d::DAISY (trait) . create
+PORTED: cv::xfeatures2d::Elliptic_KeyPoint::Elliptic_KeyPoint (constructor) cv::xfeatures2d::Elliptic_KeyPoint . default
+PORTED: cv::xfeatures2d::Elliptic_KeyPoint::Elliptic_KeyPoint (constructor) cv::xfeatures2d::Elliptic_KeyPoint . new
+PORTED: cv::xfeatures2d::FREAK::create (method) cv::xfeatures2d::FREAK . create
+PORTED: cv::xfeatures2d::HarrisLaplaceFeatureDetector::create (method) cv::xfeatures2d::HarrisLaplaceFeatureDetector . create
+PORTED: cv::xfeatures2d::LATCH::create (method) cv::xfeatures2d::LATCH . create
+PORTED: cv::xfeatures2d::LUCID::create (method) cv::xfeatures2d::LUCID . create
+PORTED: cv::xfeatures2d::MSDDetector::create (method) cv::xfeatures2d::MSDDetector . create
+PORTED: cv::xfeatures2d::PCTSignatures::computeSignature (method) cv::xfeatures2d::PCTSignatures (trait) . computeSignature
+PORTED: cv::xfeatures2d::PCTSignatures::computeSignatures (method) cv::xfeatures2d::PCTSignatures (trait) . computeSignatures
+PORTED: cv::xfeatures2d::PCTSignatures::getSampleCount (method) cv::xfeatures2d::PCTSignatures (trait) . getSampleCount
+PORTED: cv::xfeatures2d::PCTSignatures::getGrayscaleBits (method) cv::xfeatures2d::PCTSignatures (trait) . getGrayscaleBits
+PORTED: cv::xfeatures2d::PCTSignatures::setGrayscaleBits (method) cv::xfeatures2d::PCTSignatures (trait) . setGrayscaleBits
+PORTED: cv::xfeatures2d::PCTSignatures::getWindowRadius (method) cv::xfeatures2d::PCTSignatures (trait) . getWindowRadius
+PORTED: cv::xfeatures2d::PCTSignatures::setWindowRadius (method) cv::xfeatures2d::PCTSignatures (trait) . setWindowRadius
+PORTED: cv::xfeatures2d::PCTSignatures::getWeightX (method) cv::xfeatures2d::PCTSignatures (trait) . getWeightX
+PORTED: cv::xfeatures2d::PCTSignatures::setWeightX (method) cv::xfeatures2d::PCTSignatures (trait) . setWeightX
+PORTED: cv::xfeatures2d::PCTSignatures::getWeightY (method) cv::xfeatures2d::PCTSignatures (trait) . getWeightY
+PORTED: cv::xfeatures2d::PCTSignatures::setWeightY (method) cv::xfeatures2d::PCTSignatures (trait) . setWeightY
+PORTED: cv::xfeatures2d::PCTSignatures::getWeightL (method) cv::xfeatures2d::PCTSignatures (trait) . getWeightL
+PORTED: cv::xfeatures2d::PCTSignatures::setWeightL (method) cv::xfeatures2d::PCTSignatures (trait) . setWeightL
+PORTED: cv::xfeatures2d::PCTSignatures::getWeightA (method) cv::xfeatures2d::PCTSignatures (trait) . getWeightA
+PORTED: cv::xfeatures2d::PCTSignatures::setWeightA (method) cv::xfeatures2d::PCTSignatures (trait) . setWeightA
+PORTED: cv::xfeatures2d::PCTSignatures::getWeightB (method) cv::xfeatures2d::PCTSignatures (trait) . getWeightB
+PORTED: cv::xfeatures2d::PCTSignatures::setWeightB (method) cv::xfeatures2d::PCTSignatures (trait) . setWeightB
+PORTED: cv::xfeatures2d::PCTSignatures::getWeightContrast (method) cv::xfeatures2d::PCTSignatures (trait) . getWeightContrast
+PORTED: cv::xfeatures2d::PCTSignatures::setWeightContrast (method) cv::xfeatures2d::PCTSignatures (trait) . setWeightContrast
+PORTED: cv::xfeatures2d::PCTSignatures::getWeightEntropy (method) cv::xfeatures2d::PCTSignatures (trait) . getWeightEntropy
+PORTED: cv::xfeatures2d::PCTSignatures::setWeightEntropy (method) cv::xfeatures2d::PCTSignatures (trait) . setWeightEntropy
+PORTED: cv::xfeatures2d::PCTSignatures::getSamplingPoints (method) cv::xfeatures2d::PCTSignatures (trait) . getSamplingPoints
+PORTED: cv::xfeatures2d::PCTSignatures::setWeight (method) cv::xfeatures2d::PCTSignatures (trait) . setWeight
+PORTED: cv::xfeatures2d::PCTSignatures::setWeights (method) cv::xfeatures2d::PCTSignatures (trait) . setWeights
+PORTED: cv::xfeatures2d::PCTSignatures::setTranslation (method) cv::xfeatures2d::PCTSignatures (trait) . setTranslation
+PORTED: cv::xfeatures2d::PCTSignatures::setTranslations (method) cv::xfeatures2d::PCTSignatures (trait) . setTranslations
+PORTED: cv::xfeatures2d::PCTSignatures::setSamplingPoints (method) cv::xfeatures2d::PCTSignatures (trait) . setSamplingPoints
+PORTED: cv::xfeatures2d::PCTSignatures::getInitSeedIndexes (method) cv::xfeatures2d::PCTSignatures (trait) . getInitSeedIndexes
+PORTED: cv::xfeatures2d::PCTSignatures::setInitSeedIndexes (method) cv::xfeatures2d::PCTSignatures (trait) . setInitSeedIndexes
+PORTED: cv::xfeatures2d::PCTSignatures::getInitSeedCount (method) cv::xfeatures2d::PCTSignatures (trait) . getInitSeedCount
+PORTED: cv::xfeatures2d::PCTSignatures::getIterationCount (method) cv::xfeatures2d::PCTSignatures (trait) . getIterationCount
+PORTED: cv::xfeatures2d::PCTSignatures::setIterationCount (method) cv::xfeatures2d::PCTSignatures (trait) . setIterationCount
+PORTED: cv::xfeatures2d::PCTSignatures::getMaxClustersCount (method) cv::xfeatures2d::PCTSignatures (trait) . getMaxClustersCount
+PORTED: cv::xfeatures2d::PCTSignatures::setMaxClustersCount (method) cv::xfeatures2d::PCTSignatures (trait) . setMaxClustersCount
+PORTED: cv::xfeatures2d::PCTSignatures::getClusterMinSize (method) cv::xfeatures2d::PCTSignatures (trait) . getClusterMinSize
+PORTED: cv::xfeatures2d::PCTSignatures::setClusterMinSize (method) cv::xfeatures2d::PCTSignatures (trait) . setClusterMinSize
+PORTED: cv::xfeatures2d::PCTSignatures::getJoiningDistance (method) cv::xfeatures2d::PCTSignatures (trait) . getJoiningDistance
+PORTED: cv::xfeatures2d::PCTSignatures::setJoiningDistance (method) cv::xfeatures2d::PCTSignatures (trait) . setJoiningDistance
+PORTED: cv::xfeatures2d::PCTSignatures::getDropThreshold (method) cv::xfeatures2d::PCTSignatures (trait) . getDropThreshold
+PORTED: cv::xfeatures2d::PCTSignatures::setDropThreshold (method) cv::xfeatures2d::PCTSignatures (trait) . setDropThreshold
+PORTED: cv::xfeatures2d::PCTSignatures::getDistanceFunction (method) cv::xfeatures2d::PCTSignatures (trait) . getDistanceFunction
+PORTED: cv::xfeatures2d::PCTSignatures::setDistanceFunction (method) cv::xfeatures2d::PCTSignatures (trait) . setDistanceFunction
+PORTED: cv::xfeatures2d::PCTSignatures::create (method) cv::xfeatures2d::PCTSignatures (trait) . create
+PORTED: cv::xfeatures2d::PCTSignatures::create (method) cv::xfeatures2d::PCTSignatures (trait) . create
+PORTED: cv::xfeatures2d::PCTSignatures::create (method) cv::xfeatures2d::PCTSignatures (trait) . create
+PORTED: cv::xfeatures2d::PCTSignatures::drawSignature (method) cv::xfeatures2d::PCTSignatures (trait) . drawSignature
+PORTED: cv::xfeatures2d::PCTSignatures::generateInitPoints (method) cv::xfeatures2d::PCTSignatures (trait) . generateInitPoints
+PORTED: cv::xfeatures2d::PCTSignaturesSQFD::computeQuadraticFormDistance (method) cv::xfeatures2d::PCTSignaturesSQFD (trait) . computeQuadraticFormDistance
+PORTED: cv::xfeatures2d::PCTSignaturesSQFD::computeQuadraticFormDistances (method) cv::xfeatures2d::PCTSignaturesSQFD (trait) . computeQuadraticFormDistances
+PORTED: cv::xfeatures2d::PCTSignaturesSQFD::create (method) cv::xfeatures2d::PCTSignaturesSQFD (trait) . create
+PORTED: cv::xfeatures2d::SIFT::create (method) cv::xfeatures2d::SIFT . create
+PORTED: cv::xfeatures2d::SURF::setHessianThreshold (method) cv::xfeatures2d::SURF (trait) . setHessianThreshold
+PORTED: cv::xfeatures2d::SURF::getHessianThreshold (method) cv::xfeatures2d::SURF (trait) . getHessianThreshold
+PORTED: cv::xfeatures2d::SURF::setNOctaves (method) cv::xfeatures2d::SURF (trait) . setNOctaves
+PORTED: cv::xfeatures2d::SURF::getNOctaves (method) cv::xfeatures2d::SURF (trait) . getNOctaves
+PORTED: cv::xfeatures2d::SURF::setNOctaveLayers (method) cv::xfeatures2d::SURF (trait) . setNOctaveLayers
+PORTED: cv::xfeatures2d::SURF::getNOctaveLayers (method) cv::xfeatures2d::SURF (trait) . getNOctaveLayers
+PORTED: cv::xfeatures2d::SURF::setExtended (method) cv::xfeatures2d::SURF (trait) . setExtended
+PORTED: cv::xfeatures2d::SURF::getExtended (method) cv::xfeatures2d::SURF (trait) . getExtended
+PORTED: cv::xfeatures2d::SURF::setUpright (method) cv::xfeatures2d::SURF (trait) . setUpright
+PORTED: cv::xfeatures2d::SURF::getUpright (method) cv::xfeatures2d::SURF (trait) . getUpright
+PORTED: cv::xfeatures2d::SURF::create (method) cv::xfeatures2d::SURF (trait) . create
+PORTED: cv::xfeatures2d::StarDetector::create (method) cv::xfeatures2d::StarDetector . create
+PORTED: cv::xfeatures2d::VGG::setSigma (method) cv::xfeatures2d::VGG (trait) . setSigma
+PORTED: cv::xfeatures2d::VGG::getSigma (method) cv::xfeatures2d::VGG (trait) . getSigma
+PORTED: cv::xfeatures2d::VGG::setUseNormalizeImage (method) cv::xfeatures2d::VGG (trait) . setUseNormalizeImage
+PORTED: cv::xfeatures2d::VGG::getUseNormalizeImage (method) cv::xfeatures2d::VGG (trait) . getUseNormalizeImage
+PORTED: cv::xfeatures2d::VGG::setUseScaleOrientation (method) cv::xfeatures2d::VGG (trait) . setUseScaleOrientation
+PORTED: cv::xfeatures2d::VGG::getUseScaleOrientation (method) cv::xfeatures2d::VGG (trait) . getUseScaleOrientation
+PORTED: cv::xfeatures2d::VGG::setScaleFactor (method) cv::xfeatures2d::VGG (trait) . setScaleFactor
+PORTED: cv::xfeatures2d::VGG::getScaleFactor (method) cv::xfeatures2d::VGG (trait) . getScaleFactor
+PORTED: cv::xfeatures2d::VGG::setUseNormalizeDescriptor (method) cv::xfeatures2d::VGG (trait) . setUseNormalizeDescriptor
+PORTED: cv::xfeatures2d::VGG::getUseNormalizeDescriptor (method) cv::xfeatures2d::VGG (trait) . getUseNormalizeDescriptor
+PORTED: cv::xfeatures2d::VGG::create (method) cv::xfeatures2d::VGG (trait) . create
+
+
+SKIPPED FUNCs: 1
+
+SKIPPED: cv::xfeatures2d::FASTForPointSet (function)
+   can not map type Unknown[cv::FastFeatureDetector::DetectorType] yet
+

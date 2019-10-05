@@ -1,0 +1,113 @@
+FOUND FUNCs: 101
+
+PORTED FUNCs: 99
+
+PORTED: cv::createFaceDetectionMaskGenerator (function)
+PORTED: cv::groupRectangles (function)
+PORTED: cv::groupRectangles (function)
+PORTED: cv::groupRectangles (function)
+PORTED: cv::groupRectangles (function)
+PORTED: cv::groupRectangles_meanshift (function)
+PORTED: cv::BaseCascadeClassifier::empty (method) cv::BaseCascadeClassifier (trait) . empty
+PORTED: cv::BaseCascadeClassifier::load (method) cv::BaseCascadeClassifier (trait) . load
+PORTED: cv::BaseCascadeClassifier::detectMultiScale (method) cv::BaseCascadeClassifier (trait) . detectMultiScale
+PORTED: cv::BaseCascadeClassifier::detectMultiScale (method) cv::BaseCascadeClassifier (trait) . detectMultiScale
+PORTED: cv::BaseCascadeClassifier::detectMultiScale (method) cv::BaseCascadeClassifier (trait) . detectMultiScale
+PORTED: cv::BaseCascadeClassifier::isOldFormatCascade (method) cv::BaseCascadeClassifier (trait) . isOldFormatCascade
+PORTED: cv::BaseCascadeClassifier::getOriginalWindowSize (method) cv::BaseCascadeClassifier (trait) . getOriginalWindowSize
+PORTED: cv::BaseCascadeClassifier::getFeatureType (method) cv::BaseCascadeClassifier (trait) . getFeatureType
+PORTED: cv::BaseCascadeClassifier::getOldCascade (method) cv::BaseCascadeClassifier (trait) . getOldCascade
+PORTED: cv::BaseCascadeClassifier::setMaskGenerator (method) cv::BaseCascadeClassifier (trait) . setMaskGenerator
+PORTED: cv::BaseCascadeClassifier::getMaskGenerator (method) cv::BaseCascadeClassifier (trait) . getMaskGenerator
+PORTED: cv::BaseCascadeClassifier::MaskGenerator::generateMask (method) cv::BaseCascadeClassifier::MaskGenerator (trait) . generateMask
+PORTED: cv::BaseCascadeClassifier::MaskGenerator::initializeMask (method) cv::BaseCascadeClassifier::MaskGenerator (trait) . initializeMask
+PORTED: cv::CascadeClassifier::CascadeClassifier (constructor) cv::CascadeClassifier . default
+PORTED: cv::CascadeClassifier::CascadeClassifier (constructor) cv::CascadeClassifier . new
+PORTED: cv::CascadeClassifier::empty (method) cv::CascadeClassifier . empty
+PORTED: cv::CascadeClassifier::load (method) cv::CascadeClassifier . load
+PORTED: cv::CascadeClassifier::read (method) cv::CascadeClassifier . read
+PORTED: cv::CascadeClassifier::detectMultiScale (method) cv::CascadeClassifier . detectMultiScale
+PORTED: cv::CascadeClassifier::detectMultiScale (method) cv::CascadeClassifier . detectMultiScale
+PORTED: cv::CascadeClassifier::detectMultiScale (method) cv::CascadeClassifier . detectMultiScale
+PORTED: cv::CascadeClassifier::isOldFormatCascade (method) cv::CascadeClassifier . isOldFormatCascade
+PORTED: cv::CascadeClassifier::getOriginalWindowSize (method) cv::CascadeClassifier . getOriginalWindowSize
+PORTED: cv::CascadeClassifier::getFeatureType (method) cv::CascadeClassifier . getFeatureType
+PORTED: cv::CascadeClassifier::getOldCascade (method) cv::CascadeClassifier . getOldCascade
+PORTED: cv::CascadeClassifier::convert (method) cv::CascadeClassifier . convert
+PORTED: cv::CascadeClassifier::setMaskGenerator (method) cv::CascadeClassifier . setMaskGenerator
+PORTED: cv::CascadeClassifier::getMaskGenerator (method) cv::CascadeClassifier . getMaskGenerator
+PORTED: cv::DetectionBasedTracker::run (method) cv::DetectionBasedTracker . run
+PORTED: cv::DetectionBasedTracker::stop (method) cv::DetectionBasedTracker . stop
+PORTED: cv::DetectionBasedTracker::resetTracking (method) cv::DetectionBasedTracker . resetTracking
+PORTED: cv::DetectionBasedTracker::process (method) cv::DetectionBasedTracker . process
+PORTED: cv::DetectionBasedTracker::setParameters (method) cv::DetectionBasedTracker . setParameters
+PORTED: cv::DetectionBasedTracker::getParameters (method) cv::DetectionBasedTracker . getParameters
+PORTED: cv::DetectionBasedTracker::getObjects (method) cv::DetectionBasedTracker . getObjects
+PORTED: cv::DetectionBasedTracker::getObjects (method) cv::DetectionBasedTracker . getObjects
+PORTED: cv::DetectionBasedTracker::addObject (method) cv::DetectionBasedTracker . addObject
+PORTED: cv::DetectionBasedTracker::ExtObject::ExtObject (constructor) cv::DetectionBasedTracker::ExtObject . new
+PORTED: cv::DetectionBasedTracker::IDetector::detect (method) cv::DetectionBasedTracker::IDetector (trait) . detect
+PORTED: cv::DetectionBasedTracker::IDetector::setMinObjectSize (method) cv::DetectionBasedTracker::IDetector (trait) . setMinObjectSize
+PORTED: cv::DetectionBasedTracker::IDetector::setMaxObjectSize (method) cv::DetectionBasedTracker::IDetector (trait) . setMaxObjectSize
+PORTED: cv::DetectionBasedTracker::IDetector::getMinObjectSize (method) cv::DetectionBasedTracker::IDetector (trait) . getMinObjectSize
+PORTED: cv::DetectionBasedTracker::IDetector::getMaxObjectSize (method) cv::DetectionBasedTracker::IDetector (trait) . getMaxObjectSize
+PORTED: cv::DetectionBasedTracker::IDetector::getScaleFactor (method) cv::DetectionBasedTracker::IDetector (trait) . getScaleFactor
+PORTED: cv::DetectionBasedTracker::IDetector::setScaleFactor (method) cv::DetectionBasedTracker::IDetector (trait) . setScaleFactor
+PORTED: cv::DetectionBasedTracker::IDetector::getMinNeighbours (method) cv::DetectionBasedTracker::IDetector (trait) . getMinNeighbours
+PORTED: cv::DetectionBasedTracker::IDetector::setMinNeighbours (method) cv::DetectionBasedTracker::IDetector (trait) . setMinNeighbours
+PORTED: cv::DetectionBasedTracker::Parameters::Parameters (constructor) cv::DetectionBasedTracker::Parameters . default
+PORTED: cv::HOGDescriptor::winSize (method) cv::HOGDescriptor . winSize
+PORTED: cv::HOGDescriptor::blockSize (method) cv::HOGDescriptor . blockSize
+PORTED: cv::HOGDescriptor::blockStride (method) cv::HOGDescriptor . blockStride
+PORTED: cv::HOGDescriptor::cellSize (method) cv::HOGDescriptor . cellSize
+PORTED: cv::HOGDescriptor::nbins (method) cv::HOGDescriptor . nbins
+PORTED: cv::HOGDescriptor::derivAperture (method) cv::HOGDescriptor . derivAperture
+PORTED: cv::HOGDescriptor::winSigma (method) cv::HOGDescriptor . winSigma
+PORTED: cv::HOGDescriptor::histogramNormType (method) cv::HOGDescriptor . histogramNormType
+PORTED: cv::HOGDescriptor::L2HysThreshold (method) cv::HOGDescriptor . L2HysThreshold
+PORTED: cv::HOGDescriptor::gammaCorrection (method) cv::HOGDescriptor . gammaCorrection
+PORTED: cv::HOGDescriptor::svmDetector (method) cv::HOGDescriptor . svmDetector
+PORTED: cv::HOGDescriptor::set_svmDetector (method) cv::HOGDescriptor . set_svmDetector
+PORTED: cv::HOGDescriptor::nlevels (method) cv::HOGDescriptor . nlevels
+PORTED: cv::HOGDescriptor::signedGradient (method) cv::HOGDescriptor . signedGradient
+PORTED: cv::HOGDescriptor::HOGDescriptor (constructor) cv::HOGDescriptor . default
+PORTED: cv::HOGDescriptor::HOGDescriptor (constructor) cv::HOGDescriptor . new
+PORTED: cv::HOGDescriptor::HOGDescriptor (constructor) cv::HOGDescriptor . new
+PORTED: cv::HOGDescriptor::HOGDescriptor (constructor) cv::HOGDescriptor . copy
+PORTED: cv::HOGDescriptor::getDescriptorSize (method) cv::HOGDescriptor . getDescriptorSize
+PORTED: cv::HOGDescriptor::checkDetectorSize (method) cv::HOGDescriptor . checkDetectorSize
+PORTED: cv::HOGDescriptor::getWinSigma (method) cv::HOGDescriptor . getWinSigma
+PORTED: cv::HOGDescriptor::setSVMDetector (method) cv::HOGDescriptor . setSVMDetector
+PORTED: cv::HOGDescriptor::read (method) cv::HOGDescriptor . read
+PORTED: cv::HOGDescriptor::write (method) cv::HOGDescriptor . write
+PORTED: cv::HOGDescriptor::load (method) cv::HOGDescriptor . load
+PORTED: cv::HOGDescriptor::save (method) cv::HOGDescriptor . save
+PORTED: cv::HOGDescriptor::copyTo (method) cv::HOGDescriptor . copyTo
+PORTED: cv::HOGDescriptor::compute (method) cv::HOGDescriptor . compute
+PORTED: cv::HOGDescriptor::detect (method) cv::HOGDescriptor . detect
+PORTED: cv::HOGDescriptor::detect (method) cv::HOGDescriptor . detect
+PORTED: cv::HOGDescriptor::detectMultiScale (method) cv::HOGDescriptor . detectMultiScale
+PORTED: cv::HOGDescriptor::detectMultiScale (method) cv::HOGDescriptor . detectMultiScale
+PORTED: cv::HOGDescriptor::computeGradient (method) cv::HOGDescriptor . computeGradient
+PORTED: cv::HOGDescriptor::getDefaultPeopleDetector (method) cv::HOGDescriptor . getDefaultPeopleDetector
+PORTED: cv::HOGDescriptor::getDaimlerPeopleDetector (method) cv::HOGDescriptor . getDaimlerPeopleDetector
+PORTED: cv::HOGDescriptor::detectROI (method) cv::HOGDescriptor . detectROI
+PORTED: cv::HOGDescriptor::detectMultiScaleROI (method) cv::HOGDescriptor . detectMultiScaleROI
+PORTED: cv::HOGDescriptor::groupRectangles (method) cv::HOGDescriptor . groupRectangles
+PORTED: cv::QRCodeDetector::QRCodeDetector (constructor) cv::QRCodeDetector . default
+PORTED: cv::QRCodeDetector::setEpsX (method) cv::QRCodeDetector . setEpsX
+PORTED: cv::QRCodeDetector::setEpsY (method) cv::QRCodeDetector . setEpsY
+PORTED: cv::QRCodeDetector::detect (method) cv::QRCodeDetector . detect
+PORTED: cv::QRCodeDetector::decode (method) cv::QRCodeDetector . decode
+PORTED: cv::QRCodeDetector::detectAndDecode (method) cv::QRCodeDetector . detectAndDecode
+PORTED: cv::SimilarRects::SimilarRects (constructor) cv::SimilarRects . new
+
+
+SKIPPED FUNCs: 2
+
+SKIPPED: cv::DetectionBasedTracker::DetectionBasedTracker (constructor) cv::DetectionBasedTracker . new
+   can not map type Unknown[cv::Ptr<IDetector>] yet
+
+SKIPPED: cv::DetectionBasedTracker::getObjects (method) cv::DetectionBasedTracker . getObjects
+   can not map type Vector[Unknown[Object]] yet
+

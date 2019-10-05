@@ -1,0 +1,85 @@
+FOUND FUNCs: 81
+
+PORTED FUNCs: 81
+
+PORTED: cv::colorChange (function)
+PORTED: cv::createAlignMTB (function)
+PORTED: cv::createCalibrateDebevec (function)
+PORTED: cv::createCalibrateRobertson (function)
+PORTED: cv::createMergeDebevec (function)
+PORTED: cv::createMergeMertens (function)
+PORTED: cv::createMergeRobertson (function)
+PORTED: cv::createTonemapDrago (function)
+PORTED: cv::createTonemapMantiuk (function)
+PORTED: cv::createTonemapReinhard (function)
+PORTED: cv::createTonemap (function)
+PORTED: cv::decolor (function)
+PORTED: cv::denoise_TVL1 (function)
+PORTED: cv::detailEnhance (function)
+PORTED: cv::edgePreservingFilter (function)
+PORTED: cv::fastNlMeansDenoisingColoredMulti (function)
+PORTED: cv::fastNlMeansDenoisingColored (function)
+PORTED: cv::fastNlMeansDenoisingMulti (function)
+PORTED: cv::fastNlMeansDenoisingMulti (function)
+PORTED: cv::fastNlMeansDenoising (function)
+PORTED: cv::fastNlMeansDenoising (function)
+PORTED: cv::illuminationChange (function)
+PORTED: cv::inpaint (function)
+PORTED: cv::pencilSketch (function)
+PORTED: cv::seamlessClone (function)
+PORTED: cv::stylization (function)
+PORTED: cv::textureFlattening (function)
+PORTED: cv::AlignExposures::process (method) cv::AlignExposures (trait) . process
+PORTED: cv::AlignMTB::process (method) cv::AlignMTB (trait) . process
+PORTED: cv::AlignMTB::process (method) cv::AlignMTB (trait) . process
+PORTED: cv::AlignMTB::calculateShift (method) cv::AlignMTB (trait) . calculateShift
+PORTED: cv::AlignMTB::shiftMat (method) cv::AlignMTB (trait) . shiftMat
+PORTED: cv::AlignMTB::computeBitmaps (method) cv::AlignMTB (trait) . computeBitmaps
+PORTED: cv::AlignMTB::getMaxBits (method) cv::AlignMTB (trait) . getMaxBits
+PORTED: cv::AlignMTB::setMaxBits (method) cv::AlignMTB (trait) . setMaxBits
+PORTED: cv::AlignMTB::getExcludeRange (method) cv::AlignMTB (trait) . getExcludeRange
+PORTED: cv::AlignMTB::setExcludeRange (method) cv::AlignMTB (trait) . setExcludeRange
+PORTED: cv::AlignMTB::getCut (method) cv::AlignMTB (trait) . getCut
+PORTED: cv::AlignMTB::setCut (method) cv::AlignMTB (trait) . setCut
+PORTED: cv::CalibrateCRF::process (method) cv::CalibrateCRF (trait) . process
+PORTED: cv::CalibrateDebevec::getLambda (method) cv::CalibrateDebevec (trait) . getLambda
+PORTED: cv::CalibrateDebevec::setLambda (method) cv::CalibrateDebevec (trait) . setLambda
+PORTED: cv::CalibrateDebevec::getSamples (method) cv::CalibrateDebevec (trait) . getSamples
+PORTED: cv::CalibrateDebevec::setSamples (method) cv::CalibrateDebevec (trait) . setSamples
+PORTED: cv::CalibrateDebevec::getRandom (method) cv::CalibrateDebevec (trait) . getRandom
+PORTED: cv::CalibrateDebevec::setRandom (method) cv::CalibrateDebevec (trait) . setRandom
+PORTED: cv::CalibrateRobertson::getMaxIter (method) cv::CalibrateRobertson (trait) . getMaxIter
+PORTED: cv::CalibrateRobertson::setMaxIter (method) cv::CalibrateRobertson (trait) . setMaxIter
+PORTED: cv::CalibrateRobertson::getThreshold (method) cv::CalibrateRobertson (trait) . getThreshold
+PORTED: cv::CalibrateRobertson::setThreshold (method) cv::CalibrateRobertson (trait) . setThreshold
+PORTED: cv::CalibrateRobertson::getRadiance (method) cv::CalibrateRobertson (trait) . getRadiance
+PORTED: cv::MergeDebevec::process (method) cv::MergeDebevec (trait) . process
+PORTED: cv::MergeDebevec::process (method) cv::MergeDebevec (trait) . process
+PORTED: cv::MergeExposures::process (method) cv::MergeExposures (trait) . process
+PORTED: cv::MergeMertens::process (method) cv::MergeMertens (trait) . process
+PORTED: cv::MergeMertens::process (method) cv::MergeMertens (trait) . process
+PORTED: cv::MergeMertens::getContrastWeight (method) cv::MergeMertens (trait) . getContrastWeight
+PORTED: cv::MergeMertens::setContrastWeight (method) cv::MergeMertens (trait) . setContrastWeight
+PORTED: cv::MergeMertens::getSaturationWeight (method) cv::MergeMertens (trait) . getSaturationWeight
+PORTED: cv::MergeMertens::setSaturationWeight (method) cv::MergeMertens (trait) . setSaturationWeight
+PORTED: cv::MergeMertens::getExposureWeight (method) cv::MergeMertens (trait) . getExposureWeight
+PORTED: cv::MergeMertens::setExposureWeight (method) cv::MergeMertens (trait) . setExposureWeight
+PORTED: cv::MergeRobertson::process (method) cv::MergeRobertson (trait) . process
+PORTED: cv::MergeRobertson::process (method) cv::MergeRobertson (trait) . process
+PORTED: cv::Tonemap::process (method) cv::Tonemap (trait) . process
+PORTED: cv::Tonemap::getGamma (method) cv::Tonemap (trait) . getGamma
+PORTED: cv::Tonemap::setGamma (method) cv::Tonemap (trait) . setGamma
+PORTED: cv::TonemapDrago::getSaturation (method) cv::TonemapDrago (trait) . getSaturation
+PORTED: cv::TonemapDrago::setSaturation (method) cv::TonemapDrago (trait) . setSaturation
+PORTED: cv::TonemapDrago::getBias (method) cv::TonemapDrago (trait) . getBias
+PORTED: cv::TonemapDrago::setBias (method) cv::TonemapDrago (trait) . setBias
+PORTED: cv::TonemapMantiuk::getScale (method) cv::TonemapMantiuk (trait) . getScale
+PORTED: cv::TonemapMantiuk::setScale (method) cv::TonemapMantiuk (trait) . setScale
+PORTED: cv::TonemapMantiuk::getSaturation (method) cv::TonemapMantiuk (trait) . getSaturation
+PORTED: cv::TonemapMantiuk::setSaturation (method) cv::TonemapMantiuk (trait) . setSaturation
+PORTED: cv::TonemapReinhard::getIntensity (method) cv::TonemapReinhard (trait) . getIntensity
+PORTED: cv::TonemapReinhard::setIntensity (method) cv::TonemapReinhard (trait) . setIntensity
+PORTED: cv::TonemapReinhard::getLightAdaptation (method) cv::TonemapReinhard (trait) . getLightAdaptation
+PORTED: cv::TonemapReinhard::setLightAdaptation (method) cv::TonemapReinhard (trait) . setLightAdaptation
+PORTED: cv::TonemapReinhard::getColorAdaptation (method) cv::TonemapReinhard (trait) . getColorAdaptation
+PORTED: cv::TonemapReinhard::setColorAdaptation (method) cv::TonemapReinhard (trait) . setColorAdaptation

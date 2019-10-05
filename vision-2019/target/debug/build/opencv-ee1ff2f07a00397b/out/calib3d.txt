@@ -1,0 +1,136 @@
+FOUND FUNCs: 124
+
+PORTED FUNCs: 122
+
+PORTED: cv::RQDecomp3x3 (function)
+PORTED: cv::Rodrigues (function)
+PORTED: cv::calibrateCameraRO (function)
+PORTED: cv::calibrateCameraRO (function)
+PORTED: cv::calibrateCamera (function)
+PORTED: cv::calibrateCamera (function)
+PORTED: cv::calibrateHandEye (function)
+PORTED: cv::calibrationMatrixValues (function)
+PORTED: cv::checkChessboard (function)
+PORTED: cv::composeRT (function)
+PORTED: cv::computeCorrespondEpilines (function)
+PORTED: cv::convertPointsFromHomogeneous (function)
+PORTED: cv::convertPointsHomogeneous (function)
+PORTED: cv::convertPointsToHomogeneous (function)
+PORTED: cv::correctMatches (function)
+PORTED: cv::decomposeEssentialMat (function)
+PORTED: cv::decomposeHomographyMat (function)
+PORTED: cv::decomposeProjectionMatrix (function)
+PORTED: cv::drawChessboardCorners (function)
+PORTED: cv::drawFrameAxes (function)
+PORTED: cv::estimateAffine2D (function)
+PORTED: cv::estimateAffine3D (function)
+PORTED: cv::estimateAffinePartial2D (function)
+PORTED: cv::filterHomographyDecompByVisibleRefpoints (function)
+PORTED: cv::filterSpeckles (function)
+PORTED: cv::find4QuadCornerSubpix (function)
+PORTED: cv::findChessboardCornersSB (function)
+PORTED: cv::findChessboardCorners (function)
+PORTED: cv::findCirclesGrid (function)
+PORTED: cv::findCirclesGrid (function)
+PORTED: cv::findEssentialMat (function)
+PORTED: cv::findEssentialMat (function)
+PORTED: cv::findFundamentalMat (function)
+PORTED: cv::findHomography (function)
+PORTED: cv::findHomography (function)
+PORTED: cv::fisheye::calibrate (function)
+PORTED: cv::fisheye::distortPoints (function)
+PORTED: cv::fisheye::estimateNewCameraMatrixForUndistortRectify (function)
+PORTED: cv::fisheye::initUndistortRectifyMap (function)
+PORTED: cv::fisheye::projectPoints (function)
+PORTED: cv::fisheye::stereoCalibrate (function)
+PORTED: cv::fisheye::stereoRectify (function)
+PORTED: cv::fisheye::undistortImage (function)
+PORTED: cv::fisheye::undistortPoints (function)
+PORTED: cv::getDefaultNewCameraMatrix (function)
+PORTED: cv::getOptimalNewCameraMatrix (function)
+PORTED: cv::getValidDisparityROI (function)
+PORTED: cv::initCameraMatrix2D (function)
+PORTED: cv::initUndistortRectifyMap (function)
+PORTED: cv::initWideAngleProjMap (function)
+PORTED: cv::initWideAngleProjMap (function)
+PORTED: cv::matMulDeriv (function)
+PORTED: cv::projectPoints (function)
+PORTED: cv::recoverPose (function)
+PORTED: cv::recoverPose (function)
+PORTED: cv::recoverPose (function)
+PORTED: cv::rectify3Collinear (function)
+PORTED: cv::reprojectImageTo3D (function)
+PORTED: cv::sampsonDistance (function)
+PORTED: cv::solveP3P (function)
+PORTED: cv::solvePnPGeneric (function)
+PORTED: cv::solvePnPRansac (function)
+PORTED: cv::solvePnPRefineLM (function)
+PORTED: cv::solvePnPRefineVVS (function)
+PORTED: cv::solvePnP (function)
+PORTED: cv::stereoCalibrate (function)
+PORTED: cv::stereoCalibrate (function)
+PORTED: cv::stereoRectifyUncalibrated (function)
+PORTED: cv::stereoRectify (function)
+PORTED: cv::triangulatePoints (function)
+PORTED: cv::undistortPoints (function)
+PORTED: cv::undistortPoints (function)
+PORTED: cv::undistort (function)
+PORTED: cv::validateDisparity (function)
+PORTED: cv::CirclesGridFinderParameters::CirclesGridFinderParameters (constructor) cv::CirclesGridFinderParameters (simple) . default
+PORTED: cv::LMSolver::run (method) cv::LMSolver (trait) . run
+PORTED: cv::LMSolver::setMaxIters (method) cv::LMSolver (trait) . setMaxIters
+PORTED: cv::LMSolver::getMaxIters (method) cv::LMSolver (trait) . getMaxIters
+PORTED: cv::LMSolver::create (method) cv::LMSolver (trait) . create
+PORTED: cv::LMSolver::create (method) cv::LMSolver (trait) . create
+PORTED: cv::LMSolver::Callback::compute (method) cv::LMSolver::Callback (trait) . compute
+PORTED: cv::StereoBM::getPreFilterType (method) cv::StereoBM (trait) . getPreFilterType
+PORTED: cv::StereoBM::setPreFilterType (method) cv::StereoBM (trait) . setPreFilterType
+PORTED: cv::StereoBM::getPreFilterSize (method) cv::StereoBM (trait) . getPreFilterSize
+PORTED: cv::StereoBM::setPreFilterSize (method) cv::StereoBM (trait) . setPreFilterSize
+PORTED: cv::StereoBM::getPreFilterCap (method) cv::StereoBM (trait) . getPreFilterCap
+PORTED: cv::StereoBM::setPreFilterCap (method) cv::StereoBM (trait) . setPreFilterCap
+PORTED: cv::StereoBM::getTextureThreshold (method) cv::StereoBM (trait) . getTextureThreshold
+PORTED: cv::StereoBM::setTextureThreshold (method) cv::StereoBM (trait) . setTextureThreshold
+PORTED: cv::StereoBM::getUniquenessRatio (method) cv::StereoBM (trait) . getUniquenessRatio
+PORTED: cv::StereoBM::setUniquenessRatio (method) cv::StereoBM (trait) . setUniquenessRatio
+PORTED: cv::StereoBM::getSmallerBlockSize (method) cv::StereoBM (trait) . getSmallerBlockSize
+PORTED: cv::StereoBM::setSmallerBlockSize (method) cv::StereoBM (trait) . setSmallerBlockSize
+PORTED: cv::StereoBM::getROI1 (method) cv::StereoBM (trait) . getROI1
+PORTED: cv::StereoBM::setROI1 (method) cv::StereoBM (trait) . setROI1
+PORTED: cv::StereoBM::getROI2 (method) cv::StereoBM (trait) . getROI2
+PORTED: cv::StereoBM::setROI2 (method) cv::StereoBM (trait) . setROI2
+PORTED: cv::StereoBM::create (method) cv::StereoBM (trait) . create
+PORTED: cv::StereoMatcher::compute (method) cv::StereoMatcher (trait) . compute
+PORTED: cv::StereoMatcher::getMinDisparity (method) cv::StereoMatcher (trait) . getMinDisparity
+PORTED: cv::StereoMatcher::setMinDisparity (method) cv::StereoMatcher (trait) . setMinDisparity
+PORTED: cv::StereoMatcher::getNumDisparities (method) cv::StereoMatcher (trait) . getNumDisparities
+PORTED: cv::StereoMatcher::setNumDisparities (method) cv::StereoMatcher (trait) . setNumDisparities
+PORTED: cv::StereoMatcher::getBlockSize (method) cv::StereoMatcher (trait) . getBlockSize
+PORTED: cv::StereoMatcher::setBlockSize (method) cv::StereoMatcher (trait) . setBlockSize
+PORTED: cv::StereoMatcher::getSpeckleWindowSize (method) cv::StereoMatcher (trait) . getSpeckleWindowSize
+PORTED: cv::StereoMatcher::setSpeckleWindowSize (method) cv::StereoMatcher (trait) . setSpeckleWindowSize
+PORTED: cv::StereoMatcher::getSpeckleRange (method) cv::StereoMatcher (trait) . getSpeckleRange
+PORTED: cv::StereoMatcher::setSpeckleRange (method) cv::StereoMatcher (trait) . setSpeckleRange
+PORTED: cv::StereoMatcher::getDisp12MaxDiff (method) cv::StereoMatcher (trait) . getDisp12MaxDiff
+PORTED: cv::StereoMatcher::setDisp12MaxDiff (method) cv::StereoMatcher (trait) . setDisp12MaxDiff
+PORTED: cv::StereoSGBM::getPreFilterCap (method) cv::StereoSGBM (trait) . getPreFilterCap
+PORTED: cv::StereoSGBM::setPreFilterCap (method) cv::StereoSGBM (trait) . setPreFilterCap
+PORTED: cv::StereoSGBM::getUniquenessRatio (method) cv::StereoSGBM (trait) . getUniquenessRatio
+PORTED: cv::StereoSGBM::setUniquenessRatio (method) cv::StereoSGBM (trait) . setUniquenessRatio
+PORTED: cv::StereoSGBM::getP1 (method) cv::StereoSGBM (trait) . getP1
+PORTED: cv::StereoSGBM::setP1 (method) cv::StereoSGBM (trait) . setP1
+PORTED: cv::StereoSGBM::getP2 (method) cv::StereoSGBM (trait) . getP2
+PORTED: cv::StereoSGBM::setP2 (method) cv::StereoSGBM (trait) . setP2
+PORTED: cv::StereoSGBM::getMode (method) cv::StereoSGBM (trait) . getMode
+PORTED: cv::StereoSGBM::setMode (method) cv::StereoSGBM (trait) . setMode
+PORTED: cv::StereoSGBM::create (method) cv::StereoSGBM (trait) . create
+
+
+SKIPPED FUNCs: 2
+
+SKIPPED: cv::findFundamentalMat (function)
+   ignored by rename table
+
+SKIPPED: cv::fisheye::projectPoints (function)
+   can not map type Unknown[Affine3d] yet
+

@@ -1,0 +1,9 @@
+FOUND FUNCs: 5
+
+PORTED FUNCs: 5
+
+PORTED: cv::freetype::createFreeType2 (function)
+PORTED: cv::freetype::FreeType2::loadFontData (method) cv::freetype::FreeType2 (trait) . loadFontData
+PORTED: cv::freetype::FreeType2::setSplitNumber (method) cv::freetype::FreeType2 (trait) . setSplitNumber
+PORTED: cv::freetype::FreeType2::putText (method) cv::freetype::FreeType2 (trait) . putText
+PORTED: cv::freetype::FreeType2::getTextSize (method) cv::freetype::FreeType2 (trait) . getTextSize

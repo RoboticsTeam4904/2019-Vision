@@ -1,0 +1,1063 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/imgcodecs.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'imgcodecs': '\n@defgroup imgcodecs Image file reading and writing\n@{\n@defgroup imgcodecs_c C API\n@defgroup imgcodecs_ios iOS glue\n@}\n\n'}
+
+--- Incoming ---
+[   'enum cv.ImreadModes',
+    '',
+    [],
+    [   [   'const cv.IMREAD_UNCHANGED',
+            '-1',
+            [],
+            [],
+            None,
+            'If set, return the loaded image as is (with alpha channel, '
+            'otherwise it gets cropped).\n'],
+        [   'const cv.IMREAD_GRAYSCALE',
+            '0',
+            [],
+            [],
+            None,
+            'If set, always convert image to the single channel grayscale '
+            'image (codec internal conversion).\n'],
+        [   'const cv.IMREAD_COLOR',
+            '1',
+            [],
+            [],
+            None,
+            'If set, always convert image to the 3 channel BGR color image.\n'],
+        [   'const cv.IMREAD_ANYDEPTH',
+            '2',
+            [],
+            [],
+            None,
+            'If set, return 16-bit/32-bit image when the input has the '
+            'corresponding depth, otherwise convert it to 8-bit.\n'],
+        [   'const cv.IMREAD_ANYCOLOR',
+            '4',
+            [],
+            [],
+            None,
+            'If set, the image is read in any possible color format.\n'],
+        [   'const cv.IMREAD_LOAD_GDAL',
+            '8',
+            [],
+            [],
+            None,
+            'If set, use the gdal driver for loading the image.\n'],
+        [   'const cv.IMREAD_REDUCED_GRAYSCALE_2',
+            '16',
+            [],
+            [],
+            None,
+            'If set, always convert image to the single channel grayscale '
+            'image and the image size reduced 1/2.\n'],
+        [   'const cv.IMREAD_REDUCED_COLOR_2',
+            '17',
+            [],
+            [],
+            None,
+            'If set, always convert image to the 3 channel BGR color image and '
+            'the image size reduced 1/2.\n'],
+        [   'const cv.IMREAD_REDUCED_GRAYSCALE_4',
+            '32',
+            [],
+            [],
+            None,
+            'If set, always convert image to the single channel grayscale '
+            'image and the image size reduced 1/4.\n'],
+        [   'const cv.IMREAD_REDUCED_COLOR_4',
+            '33',
+            [],
+            [],
+            None,
+            'If set, always convert image to the 3 channel BGR color image and '
+            'the image size reduced 1/4.\n'],
+        [   'const cv.IMREAD_REDUCED_GRAYSCALE_8',
+            '64',
+            [],
+            [],
+            None,
+            'If set, always convert image to the single channel grayscale '
+            'image and the image size reduced 1/8.\n'],
+        [   'const cv.IMREAD_REDUCED_COLOR_8',
+            '65',
+            [],
+            [],
+            None,
+            'If set, always convert image to the 3 channel BGR color image and '
+            'the image size reduced 1/8.\n'],
+        [   'const cv.IMREAD_IGNORE_ORIENTATION',
+            '128',
+            [],
+            [],
+            None,
+            "If set, do not rotate the image according to EXIF's orientation "
+            'flag.\n']],
+    None,
+    '@addtogroup imgcodecs\n@{\nImread flags']
+parse_name: const cv.IMREAD_UNCHANGED with ['cv'] -> fullname:cv::IMREAD_UNCHANGED namespace:cv classpath: classname: name:IMREAD_UNCHANGED
+parse_name: const cv.IMREAD_GRAYSCALE with ['cv'] -> fullname:cv::IMREAD_GRAYSCALE namespace:cv classpath: classname: name:IMREAD_GRAYSCALE
+parse_name: const cv.IMREAD_COLOR with ['cv'] -> fullname:cv::IMREAD_COLOR namespace:cv classpath: classname: name:IMREAD_COLOR
+parse_name: const cv.IMREAD_ANYDEPTH with ['cv'] -> fullname:cv::IMREAD_ANYDEPTH namespace:cv classpath: classname: name:IMREAD_ANYDEPTH
+parse_name: const cv.IMREAD_ANYCOLOR with ['cv'] -> fullname:cv::IMREAD_ANYCOLOR namespace:cv classpath: classname: name:IMREAD_ANYCOLOR
+parse_name: const cv.IMREAD_LOAD_GDAL with ['cv'] -> fullname:cv::IMREAD_LOAD_GDAL namespace:cv classpath: classname: name:IMREAD_LOAD_GDAL
+parse_name: const cv.IMREAD_REDUCED_GRAYSCALE_2 with ['cv'] -> fullname:cv::IMREAD_REDUCED_GRAYSCALE_2 namespace:cv classpath: classname: name:IMREAD_REDUCED_GRAYSCALE_2
+parse_name: const cv.IMREAD_REDUCED_COLOR_2 with ['cv'] -> fullname:cv::IMREAD_REDUCED_COLOR_2 namespace:cv classpath: classname: name:IMREAD_REDUCED_COLOR_2
+parse_name: const cv.IMREAD_REDUCED_GRAYSCALE_4 with ['cv'] -> fullname:cv::IMREAD_REDUCED_GRAYSCALE_4 namespace:cv classpath: classname: name:IMREAD_REDUCED_GRAYSCALE_4
+parse_name: const cv.IMREAD_REDUCED_COLOR_4 with ['cv'] -> fullname:cv::IMREAD_REDUCED_COLOR_4 namespace:cv classpath: classname: name:IMREAD_REDUCED_COLOR_4
+parse_name: const cv.IMREAD_REDUCED_GRAYSCALE_8 with ['cv'] -> fullname:cv::IMREAD_REDUCED_GRAYSCALE_8 namespace:cv classpath: classname: name:IMREAD_REDUCED_GRAYSCALE_8
+parse_name: const cv.IMREAD_REDUCED_COLOR_8 with ['cv'] -> fullname:cv::IMREAD_REDUCED_COLOR_8 namespace:cv classpath: classname: name:IMREAD_REDUCED_COLOR_8
+parse_name: const cv.IMREAD_IGNORE_ORIENTATION with ['cv'] -> fullname:cv::IMREAD_IGNORE_ORIENTATION namespace:cv classpath: classname: name:IMREAD_IGNORE_ORIENTATION
+parse_name: enum cv.ImreadModes with ['cv'] -> fullname:cv::ImreadModes namespace:cv classpath: classname: name:ImreadModes
+parse_name: const cv.IMREAD_UNCHANGED with ['cv'] -> fullname:cv::IMREAD_UNCHANGED namespace:cv classpath: classname: name:IMREAD_UNCHANGED
+parse_name: const cv.IMREAD_GRAYSCALE with ['cv'] -> fullname:cv::IMREAD_GRAYSCALE namespace:cv classpath: classname: name:IMREAD_GRAYSCALE
+parse_name: const cv.IMREAD_COLOR with ['cv'] -> fullname:cv::IMREAD_COLOR namespace:cv classpath: classname: name:IMREAD_COLOR
+parse_name: const cv.IMREAD_ANYDEPTH with ['cv'] -> fullname:cv::IMREAD_ANYDEPTH namespace:cv classpath: classname: name:IMREAD_ANYDEPTH
+parse_name: const cv.IMREAD_ANYCOLOR with ['cv'] -> fullname:cv::IMREAD_ANYCOLOR namespace:cv classpath: classname: name:IMREAD_ANYCOLOR
+parse_name: const cv.IMREAD_LOAD_GDAL with ['cv'] -> fullname:cv::IMREAD_LOAD_GDAL namespace:cv classpath: classname: name:IMREAD_LOAD_GDAL
+parse_name: const cv.IMREAD_REDUCED_GRAYSCALE_2 with ['cv'] -> fullname:cv::IMREAD_REDUCED_GRAYSCALE_2 namespace:cv classpath: classname: name:IMREAD_REDUCED_GRAYSCALE_2
+parse_name: const cv.IMREAD_REDUCED_COLOR_2 with ['cv'] -> fullname:cv::IMREAD_REDUCED_COLOR_2 namespace:cv classpath: classname: name:IMREAD_REDUCED_COLOR_2
+parse_name: const cv.IMREAD_REDUCED_GRAYSCALE_4 with ['cv'] -> fullname:cv::IMREAD_REDUCED_GRAYSCALE_4 namespace:cv classpath: classname: name:IMREAD_REDUCED_GRAYSCALE_4
+parse_name: const cv.IMREAD_REDUCED_COLOR_4 with ['cv'] -> fullname:cv::IMREAD_REDUCED_COLOR_4 namespace:cv classpath: classname: name:IMREAD_REDUCED_COLOR_4
+parse_name: const cv.IMREAD_REDUCED_GRAYSCALE_8 with ['cv'] -> fullname:cv::IMREAD_REDUCED_GRAYSCALE_8 namespace:cv classpath: classname: name:IMREAD_REDUCED_GRAYSCALE_8
+parse_name: const cv.IMREAD_REDUCED_COLOR_8 with ['cv'] -> fullname:cv::IMREAD_REDUCED_COLOR_8 namespace:cv classpath: classname: name:IMREAD_REDUCED_COLOR_8
+parse_name: const cv.IMREAD_IGNORE_ORIENTATION with ['cv'] -> fullname:cv::IMREAD_IGNORE_ORIENTATION namespace:cv classpath: classname: name:IMREAD_IGNORE_ORIENTATION
+
+--- Incoming ---
+[   'enum cv.ImwriteFlags',
+    '',
+    [],
+    [   [   'const cv.IMWRITE_JPEG_QUALITY',
+            '1',
+            [],
+            [],
+            None,
+            'For JPEG, it can be a quality from 0 to 100 (the higher is the '
+            'better). Default value is 95.\n'],
+        [   'const cv.IMWRITE_JPEG_PROGRESSIVE',
+            '2',
+            [],
+            [],
+            None,
+            'Enable JPEG features, 0 or 1, default is False.\n'],
+        [   'const cv.IMWRITE_JPEG_OPTIMIZE',
+            '3',
+            [],
+            [],
+            None,
+            'Enable JPEG features, 0 or 1, default is False.\n'],
+        [   'const cv.IMWRITE_JPEG_RST_INTERVAL',
+            '4',
+            [],
+            [],
+            None,
+            'JPEG restart interval, 0 - 65535, default is 0 - no restart.\n'],
+        [   'const cv.IMWRITE_JPEG_LUMA_QUALITY',
+            '5',
+            [],
+            [],
+            None,
+            "Separate luma quality level, 0 - 100, default is 0 - don't "
+            'use.\n'],
+        [   'const cv.IMWRITE_JPEG_CHROMA_QUALITY',
+            '6',
+            [],
+            [],
+            None,
+            "Separate chroma quality level, 0 - 100, default is 0 - don't "
+            'use.\n'],
+        [   'const cv.IMWRITE_PNG_COMPRESSION',
+            '16',
+            [],
+            [],
+            None,
+            'For PNG, it can be the compression level from 0 to 9. A higher '
+            'value means a smaller size and longer compression time. If '
+            'specified, strategy is changed to IMWRITE_PNG_STRATEGY_DEFAULT '
+            '(Z_DEFAULT_STRATEGY). Default value is 1 (best speed setting).\n'],
+        [   'const cv.IMWRITE_PNG_STRATEGY',
+            '17',
+            [],
+            [],
+            None,
+            'One of cv::ImwritePNGFlags, default is '
+            'IMWRITE_PNG_STRATEGY_RLE.\n'],
+        [   'const cv.IMWRITE_PNG_BILEVEL',
+            '18',
+            [],
+            [],
+            None,
+            'Binary level PNG, 0 or 1, default is 0.\n'],
+        [   'const cv.IMWRITE_PXM_BINARY',
+            '32',
+            [],
+            [],
+            None,
+            'For PPM, PGM, or PBM, it can be a binary format flag, 0 or 1. '
+            'Default value is 1.\n'],
+        ['const cv.IMWRITE_EXR_TYPE', '(3 << 4) + 0', [], [], None, ''],
+        [   'const cv.IMWRITE_WEBP_QUALITY',
+            '64',
+            [],
+            [],
+            None,
+            'For WEBP, it can be a quality from 1 to 100 (the higher is the '
+            'better). By default (without any parameter) and for quality above '
+            '100 the lossless compression is used.\n'],
+        [   'const cv.IMWRITE_PAM_TUPLETYPE',
+            '128',
+            [],
+            [],
+            None,
+            'For PAM, sets the TUPLETYPE field to the corresponding string '
+            'value that is defined for the format\n'],
+        [   'const cv.IMWRITE_TIFF_RESUNIT',
+            '256',
+            [],
+            [],
+            None,
+            'For TIFF, use to specify which DPI resolution unit to set; see '
+            'libtiff documentation for valid values\n'],
+        [   'const cv.IMWRITE_TIFF_XDPI',
+            '257',
+            [],
+            [],
+            None,
+            'For TIFF, use to specify the X direction DPI\n'],
+        [   'const cv.IMWRITE_TIFF_YDPI',
+            '258',
+            [],
+            [],
+            None,
+            'For TIFF, use to specify the Y direction DPI\n'],
+        [   'const cv.IMWRITE_TIFF_COMPRESSION',
+            '259',
+            [],
+            [],
+            None,
+            'For TIFF, use to specify the image compression scheme. See '
+            'libtiff for integer constants corresponding to compression '
+            "formats. Note, for images whose depth is CV_32F, only libtiff's "
+            'SGILOG compression scheme is used. For other supported depths, '
+            'the compression scheme can be specified by this flag; LZW '
+            'compression is the default.\n'],
+        [   'const cv.IMWRITE_JPEG2000_COMPRESSION_X1000',
+            '272',
+            [],
+            [],
+            None,
+            'For JPEG2000, use to specify the target compression rate '
+            '(multiplied by 1000). The value can be from 0 to 1000. Default is '
+            '1000.\n']],
+    None,
+    'Imwrite flags']
+parse_name: const cv.IMWRITE_JPEG_QUALITY with ['cv'] -> fullname:cv::IMWRITE_JPEG_QUALITY namespace:cv classpath: classname: name:IMWRITE_JPEG_QUALITY
+parse_name: const cv.IMWRITE_JPEG_PROGRESSIVE with ['cv'] -> fullname:cv::IMWRITE_JPEG_PROGRESSIVE namespace:cv classpath: classname: name:IMWRITE_JPEG_PROGRESSIVE
+parse_name: const cv.IMWRITE_JPEG_OPTIMIZE with ['cv'] -> fullname:cv::IMWRITE_JPEG_OPTIMIZE namespace:cv classpath: classname: name:IMWRITE_JPEG_OPTIMIZE
+parse_name: const cv.IMWRITE_JPEG_RST_INTERVAL with ['cv'] -> fullname:cv::IMWRITE_JPEG_RST_INTERVAL namespace:cv classpath: classname: name:IMWRITE_JPEG_RST_INTERVAL
+parse_name: const cv.IMWRITE_JPEG_LUMA_QUALITY with ['cv'] -> fullname:cv::IMWRITE_JPEG_LUMA_QUALITY namespace:cv classpath: classname: name:IMWRITE_JPEG_LUMA_QUALITY
+parse_name: const cv.IMWRITE_JPEG_CHROMA_QUALITY with ['cv'] -> fullname:cv::IMWRITE_JPEG_CHROMA_QUALITY namespace:cv classpath: classname: name:IMWRITE_JPEG_CHROMA_QUALITY
+parse_name: const cv.IMWRITE_PNG_COMPRESSION with ['cv'] -> fullname:cv::IMWRITE_PNG_COMPRESSION namespace:cv classpath: classname: name:IMWRITE_PNG_COMPRESSION
+parse_name: const cv.IMWRITE_PNG_STRATEGY with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY
+parse_name: const cv.IMWRITE_PNG_BILEVEL with ['cv'] -> fullname:cv::IMWRITE_PNG_BILEVEL namespace:cv classpath: classname: name:IMWRITE_PNG_BILEVEL
+parse_name: const cv.IMWRITE_PXM_BINARY with ['cv'] -> fullname:cv::IMWRITE_PXM_BINARY namespace:cv classpath: classname: name:IMWRITE_PXM_BINARY
+parse_name: const cv.IMWRITE_EXR_TYPE with ['cv'] -> fullname:cv::IMWRITE_EXR_TYPE namespace:cv classpath: classname: name:IMWRITE_EXR_TYPE
+parse_name: const cv.IMWRITE_WEBP_QUALITY with ['cv'] -> fullname:cv::IMWRITE_WEBP_QUALITY namespace:cv classpath: classname: name:IMWRITE_WEBP_QUALITY
+parse_name: const cv.IMWRITE_PAM_TUPLETYPE with ['cv'] -> fullname:cv::IMWRITE_PAM_TUPLETYPE namespace:cv classpath: classname: name:IMWRITE_PAM_TUPLETYPE
+parse_name: const cv.IMWRITE_TIFF_RESUNIT with ['cv'] -> fullname:cv::IMWRITE_TIFF_RESUNIT namespace:cv classpath: classname: name:IMWRITE_TIFF_RESUNIT
+parse_name: const cv.IMWRITE_TIFF_XDPI with ['cv'] -> fullname:cv::IMWRITE_TIFF_XDPI namespace:cv classpath: classname: name:IMWRITE_TIFF_XDPI
+parse_name: const cv.IMWRITE_TIFF_YDPI with ['cv'] -> fullname:cv::IMWRITE_TIFF_YDPI namespace:cv classpath: classname: name:IMWRITE_TIFF_YDPI
+parse_name: const cv.IMWRITE_TIFF_COMPRESSION with ['cv'] -> fullname:cv::IMWRITE_TIFF_COMPRESSION namespace:cv classpath: classname: name:IMWRITE_TIFF_COMPRESSION
+parse_name: const cv.IMWRITE_JPEG2000_COMPRESSION_X1000 with ['cv'] -> fullname:cv::IMWRITE_JPEG2000_COMPRESSION_X1000 namespace:cv classpath: classname: name:IMWRITE_JPEG2000_COMPRESSION_X1000
+parse_name: enum cv.ImwriteFlags with ['cv'] -> fullname:cv::ImwriteFlags namespace:cv classpath: classname: name:ImwriteFlags
+parse_name: const cv.IMWRITE_JPEG_QUALITY with ['cv'] -> fullname:cv::IMWRITE_JPEG_QUALITY namespace:cv classpath: classname: name:IMWRITE_JPEG_QUALITY
+parse_name: const cv.IMWRITE_JPEG_PROGRESSIVE with ['cv'] -> fullname:cv::IMWRITE_JPEG_PROGRESSIVE namespace:cv classpath: classname: name:IMWRITE_JPEG_PROGRESSIVE
+parse_name: const cv.IMWRITE_JPEG_OPTIMIZE with ['cv'] -> fullname:cv::IMWRITE_JPEG_OPTIMIZE namespace:cv classpath: classname: name:IMWRITE_JPEG_OPTIMIZE
+parse_name: const cv.IMWRITE_JPEG_RST_INTERVAL with ['cv'] -> fullname:cv::IMWRITE_JPEG_RST_INTERVAL namespace:cv classpath: classname: name:IMWRITE_JPEG_RST_INTERVAL
+parse_name: const cv.IMWRITE_JPEG_LUMA_QUALITY with ['cv'] -> fullname:cv::IMWRITE_JPEG_LUMA_QUALITY namespace:cv classpath: classname: name:IMWRITE_JPEG_LUMA_QUALITY
+parse_name: const cv.IMWRITE_JPEG_CHROMA_QUALITY with ['cv'] -> fullname:cv::IMWRITE_JPEG_CHROMA_QUALITY namespace:cv classpath: classname: name:IMWRITE_JPEG_CHROMA_QUALITY
+parse_name: const cv.IMWRITE_PNG_COMPRESSION with ['cv'] -> fullname:cv::IMWRITE_PNG_COMPRESSION namespace:cv classpath: classname: name:IMWRITE_PNG_COMPRESSION
+parse_name: const cv.IMWRITE_PNG_STRATEGY with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY
+parse_name: const cv.IMWRITE_PNG_BILEVEL with ['cv'] -> fullname:cv::IMWRITE_PNG_BILEVEL namespace:cv classpath: classname: name:IMWRITE_PNG_BILEVEL
+parse_name: const cv.IMWRITE_PXM_BINARY with ['cv'] -> fullname:cv::IMWRITE_PXM_BINARY namespace:cv classpath: classname: name:IMWRITE_PXM_BINARY
+parse_name: const cv.IMWRITE_EXR_TYPE with ['cv'] -> fullname:cv::IMWRITE_EXR_TYPE namespace:cv classpath: classname: name:IMWRITE_EXR_TYPE
+parse_name: const cv.IMWRITE_WEBP_QUALITY with ['cv'] -> fullname:cv::IMWRITE_WEBP_QUALITY namespace:cv classpath: classname: name:IMWRITE_WEBP_QUALITY
+parse_name: const cv.IMWRITE_PAM_TUPLETYPE with ['cv'] -> fullname:cv::IMWRITE_PAM_TUPLETYPE namespace:cv classpath: classname: name:IMWRITE_PAM_TUPLETYPE
+parse_name: const cv.IMWRITE_TIFF_RESUNIT with ['cv'] -> fullname:cv::IMWRITE_TIFF_RESUNIT namespace:cv classpath: classname: name:IMWRITE_TIFF_RESUNIT
+parse_name: const cv.IMWRITE_TIFF_XDPI with ['cv'] -> fullname:cv::IMWRITE_TIFF_XDPI namespace:cv classpath: classname: name:IMWRITE_TIFF_XDPI
+parse_name: const cv.IMWRITE_TIFF_YDPI with ['cv'] -> fullname:cv::IMWRITE_TIFF_YDPI namespace:cv classpath: classname: name:IMWRITE_TIFF_YDPI
+parse_name: const cv.IMWRITE_TIFF_COMPRESSION with ['cv'] -> fullname:cv::IMWRITE_TIFF_COMPRESSION namespace:cv classpath: classname: name:IMWRITE_TIFF_COMPRESSION
+parse_name: const cv.IMWRITE_JPEG2000_COMPRESSION_X1000 with ['cv'] -> fullname:cv::IMWRITE_JPEG2000_COMPRESSION_X1000 namespace:cv classpath: classname: name:IMWRITE_JPEG2000_COMPRESSION_X1000
+
+--- Incoming ---
+[   'enum cv.ImwriteEXRTypeFlags',
+    '',
+    [],
+    [   [   'const cv.IMWRITE_EXR_TYPE_HALF',
+            '1',
+            [],
+            [],
+            None,
+            'store as HALF (FP16)\n'],
+        [   'const cv.IMWRITE_EXR_TYPE_FLOAT',
+            '2',
+            [],
+            [],
+            None,
+            'store as FP32 (default)\n']],
+    None,
+    '']
+parse_name: const cv.IMWRITE_EXR_TYPE_HALF with ['cv'] -> fullname:cv::IMWRITE_EXR_TYPE_HALF namespace:cv classpath: classname: name:IMWRITE_EXR_TYPE_HALF
+parse_name: const cv.IMWRITE_EXR_TYPE_FLOAT with ['cv'] -> fullname:cv::IMWRITE_EXR_TYPE_FLOAT namespace:cv classpath: classname: name:IMWRITE_EXR_TYPE_FLOAT
+parse_name: enum cv.ImwriteEXRTypeFlags with ['cv'] -> fullname:cv::ImwriteEXRTypeFlags namespace:cv classpath: classname: name:ImwriteEXRTypeFlags
+parse_name: const cv.IMWRITE_EXR_TYPE_HALF with ['cv'] -> fullname:cv::IMWRITE_EXR_TYPE_HALF namespace:cv classpath: classname: name:IMWRITE_EXR_TYPE_HALF
+parse_name: const cv.IMWRITE_EXR_TYPE_FLOAT with ['cv'] -> fullname:cv::IMWRITE_EXR_TYPE_FLOAT namespace:cv classpath: classname: name:IMWRITE_EXR_TYPE_FLOAT
+
+--- Incoming ---
+[   'enum cv.ImwritePNGFlags',
+    '',
+    [],
+    [   [   'const cv.IMWRITE_PNG_STRATEGY_DEFAULT',
+            '0',
+            [],
+            [],
+            None,
+            'Use this value for normal data.\n'],
+        [   'const cv.IMWRITE_PNG_STRATEGY_FILTERED',
+            '1',
+            [],
+            [],
+            None,
+            'Use this value for data produced by a filter (or '
+            'predictor).Filtered data consists mostly of small values with a '
+            'somewhat random distribution. In this case, the compression '
+            'algorithm is tuned to compress them better.\n'],
+        [   'const cv.IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY',
+            '2',
+            [],
+            [],
+            None,
+            'Use this value to force Huffman encoding only (no string '
+            'match).\n'],
+        [   'const cv.IMWRITE_PNG_STRATEGY_RLE',
+            '3',
+            [],
+            [],
+            None,
+            'Use this value to limit match distances to one (run-length '
+            'encoding).\n'],
+        [   'const cv.IMWRITE_PNG_STRATEGY_FIXED',
+            '4',
+            [],
+            [],
+            None,
+            'Using this value prevents the use of dynamic Huffman codes, '
+            'allowing for a simpler decoder for special applications.\n']],
+    None,
+    'These flags will be modify the way of PNG image compression and will be '
+    'passed to the underlying zlib processing stage.\n'
+    '\n'
+    '-   The effect of IMWRITE_PNG_STRATEGY_FILTERED is to force more Huffman '
+    'coding and less string matching; it is somewhat intermediate between '
+    'IMWRITE_PNG_STRATEGY_DEFAULT and IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY.\n'
+    '-   IMWRITE_PNG_STRATEGY_RLE is designed to be almost as fast as '
+    'IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY, but give better compression for PNG '
+    'image data.\n'
+    '-   The strategy parameter only affects the compression ratio but not the '
+    'correctness of the compressed output even if it is not set '
+    'appropriately.\n'
+    '-   IMWRITE_PNG_STRATEGY_FIXED prevents the use of dynamic Huffman codes, '
+    'allowing for a simpler decoder for special applications.']
+parse_name: const cv.IMWRITE_PNG_STRATEGY_DEFAULT with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_DEFAULT namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_DEFAULT
+parse_name: const cv.IMWRITE_PNG_STRATEGY_FILTERED with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_FILTERED namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_FILTERED
+parse_name: const cv.IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY
+parse_name: const cv.IMWRITE_PNG_STRATEGY_RLE with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_RLE namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_RLE
+parse_name: const cv.IMWRITE_PNG_STRATEGY_FIXED with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_FIXED namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_FIXED
+parse_name: enum cv.ImwritePNGFlags with ['cv'] -> fullname:cv::ImwritePNGFlags namespace:cv classpath: classname: name:ImwritePNGFlags
+parse_name: const cv.IMWRITE_PNG_STRATEGY_DEFAULT with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_DEFAULT namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_DEFAULT
+parse_name: const cv.IMWRITE_PNG_STRATEGY_FILTERED with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_FILTERED namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_FILTERED
+parse_name: const cv.IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_HUFFMAN_ONLY
+parse_name: const cv.IMWRITE_PNG_STRATEGY_RLE with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_RLE namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_RLE
+parse_name: const cv.IMWRITE_PNG_STRATEGY_FIXED with ['cv'] -> fullname:cv::IMWRITE_PNG_STRATEGY_FIXED namespace:cv classpath: classname: name:IMWRITE_PNG_STRATEGY_FIXED
+
+--- Incoming ---
+[   'enum cv.ImwritePAMFlags',
+    '',
+    [],
+    [   ['const cv.IMWRITE_PAM_FORMAT_NULL', '0', [], [], None, ''],
+        ['const cv.IMWRITE_PAM_FORMAT_BLACKANDWHITE', '1', [], [], None, ''],
+        ['const cv.IMWRITE_PAM_FORMAT_GRAYSCALE', '2', [], [], None, ''],
+        ['const cv.IMWRITE_PAM_FORMAT_GRAYSCALE_ALPHA', '3', [], [], None, ''],
+        ['const cv.IMWRITE_PAM_FORMAT_RGB', '4', [], [], None, ''],
+        ['const cv.IMWRITE_PAM_FORMAT_RGB_ALPHA', '5', [], [], None, '']],
+    None,
+    "Imwrite PAM specific tupletype flags used to define the 'TUPETYPE' field "
+    'of a PAM file.']
+parse_name: const cv.IMWRITE_PAM_FORMAT_NULL with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_NULL namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_NULL
+parse_name: const cv.IMWRITE_PAM_FORMAT_BLACKANDWHITE with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_BLACKANDWHITE namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_BLACKANDWHITE
+parse_name: const cv.IMWRITE_PAM_FORMAT_GRAYSCALE with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_GRAYSCALE namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_GRAYSCALE
+parse_name: const cv.IMWRITE_PAM_FORMAT_GRAYSCALE_ALPHA with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_GRAYSCALE_ALPHA namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_GRAYSCALE_ALPHA
+parse_name: const cv.IMWRITE_PAM_FORMAT_RGB with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_RGB namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_RGB
+parse_name: const cv.IMWRITE_PAM_FORMAT_RGB_ALPHA with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_RGB_ALPHA namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_RGB_ALPHA
+parse_name: enum cv.ImwritePAMFlags with ['cv'] -> fullname:cv::ImwritePAMFlags namespace:cv classpath: classname: name:ImwritePAMFlags
+parse_name: const cv.IMWRITE_PAM_FORMAT_NULL with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_NULL namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_NULL
+parse_name: const cv.IMWRITE_PAM_FORMAT_BLACKANDWHITE with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_BLACKANDWHITE namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_BLACKANDWHITE
+parse_name: const cv.IMWRITE_PAM_FORMAT_GRAYSCALE with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_GRAYSCALE namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_GRAYSCALE
+parse_name: const cv.IMWRITE_PAM_FORMAT_GRAYSCALE_ALPHA with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_GRAYSCALE_ALPHA namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_GRAYSCALE_ALPHA
+parse_name: const cv.IMWRITE_PAM_FORMAT_RGB with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_RGB namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_RGB
+parse_name: const cv.IMWRITE_PAM_FORMAT_RGB_ALPHA with ['cv'] -> fullname:cv::IMWRITE_PAM_FORMAT_RGB_ALPHA namespace:cv classpath: classname: name:IMWRITE_PAM_FORMAT_RGB_ALPHA
+
+--- Incoming ---
+[   'cv.imread',
+    'Mat',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['int', 'flags', 'IMREAD_COLOR', []]],
+    None,
+    '@brief Loads an image from a file.\n'
+    '\n'
+    '@anchor imread\n'
+    '\n'
+    'The function imread loads an image from the specified file and returns '
+    'it. If the image cannot be\n'
+    'read (because of missing file, improper permissions, unsupported or '
+    'invalid format), the function\n'
+    'returns an empty matrix ( Mat::data==NULL ).\n'
+    '\n'
+    'Currently, the following file formats are supported:\n'
+    '\n'
+    '-   Windows bitmaps - \\*.bmp, \\*.dib (always supported)\n'
+    '-   JPEG files - \\*.jpeg, \\*.jpg, \\*.jpe (see the *Note* section)\n'
+    '-   JPEG 2000 files - \\*.jp2 (see the *Note* section)\n'
+    '-   Portable Network Graphics - \\*.png (see the *Note* section)\n'
+    '-   WebP - \\*.webp (see the *Note* section)\n'
+    '-   Portable image format - \\*.pbm, \\*.pgm, \\*.ppm \\*.pxm, \\*.pnm '
+    '(always supported)\n'
+    '-   PFM files - \\*.pfm (see the *Note* section)\n'
+    '-   Sun rasters - \\*.sr, \\*.ras (always supported)\n'
+    '-   TIFF files - \\*.tiff, \\*.tif (see the *Note* section)\n'
+    '-   OpenEXR Image files - \\*.exr (see the *Note* section)\n'
+    '-   Radiance HDR - \\*.hdr, \\*.pic (always supported)\n'
+    '-   Raster and Vector geospatial data supported by GDAL (see the *Note* '
+    'section)\n'
+    '\n'
+    '@note\n'
+    '-   The function determines the type of an image by the content, not by '
+    'the file extension.\n'
+    '-   In the case of color images, the decoded images will have the '
+    'channels stored in **B G R** order.\n'
+    "-   When using IMREAD_GRAYSCALE, the codec's internal grayscale "
+    'conversion will be used, if available.\n'
+    'Results may differ to the output of cvtColor()\n'
+    '-   On Microsoft Windows\\* OS and MacOSX\\*, the codecs shipped with an '
+    'OpenCV image (libjpeg,\n'
+    'libpng, libtiff, and libjasper) are used by default. So, OpenCV can '
+    'always read JPEGs, PNGs,\n'
+    'and TIFFs. On MacOSX, there is also an option to use native MacOSX image '
+    'readers. But beware\n'
+    'that currently these native image loaders give images with different '
+    'pixel values because of\n'
+    'the color management embedded into MacOSX.\n'
+    '-   On Linux\\*, BSD flavors and other Unix-like open-source operating '
+    'systems, OpenCV looks for\n'
+    'codecs supplied with an OS image. Install the relevant packages (do not '
+    'forget the development\n'
+    'files, for example, "libjpeg-dev", in Debian\\* and Ubuntu\\*) to get the '
+    'codec support or turn\n'
+    'on the OPENCV_BUILD_3RDPARTY_LIBS flag in CMake.\n'
+    '-   In the case you set *WITH_GDAL* flag to true in CMake and @ref '
+    'IMREAD_LOAD_GDAL to load the image,\n'
+    'then the [GDAL](http://www.gdal.org) driver will be used in order to '
+    'decode the image, supporting\n'
+    'the following formats: [Raster](http://www.gdal.org/formats_list.html),\n'
+    '[Vector](http://www.gdal.org/ogr_formats.html).\n'
+    '-   If EXIF information are embedded in the image file, the EXIF '
+    'orientation will be taken into account\n'
+    'and thus the image will be rotated accordingly except if the flag @ref '
+    'IMREAD_IGNORE_ORIENTATION is passed.\n'
+    '-   Use the IMREAD_UNCHANGED flag to keep the floating point values from '
+    'PFM image.\n'
+    '-   By default number of pixels must be less than 2^30. Limit can be set '
+    'using system\n'
+    'variable OPENCV_IO_MAX_IMAGE_PIXELS\n'
+    '\n'
+    '@param filename Name of file to be loaded.\n'
+    '@param flags Flag that can take values of cv::ImreadModes']
+parse_name: cv.imread with ['cv'] -> fullname:cv::imread namespace:cv classpath: classname: name:imread
+register (function) imread (cv_imread_String_int)
+
+--- Incoming ---
+[   'cv.imreadmulti',
+    'bool',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['std::vector<Mat>&', 'mats', '', []],
+        ['int', 'flags', 'IMREAD_ANYCOLOR', []]],
+    None,
+    '@brief Loads a multi-page image from a file.\n'
+    '\n'
+    'The function imreadmulti loads a multi-page image from the specified file '
+    'into a vector of Mat objects.\n'
+    '@param filename Name of file to be loaded.\n'
+    '@param flags Flag that can take values of cv::ImreadModes, default with '
+    'cv::IMREAD_ANYCOLOR.\n'
+    '@param mats A vector of Mat objects holding each page, if more than one.\n'
+    '@sa cv::imread']
+parse_name: cv.imreadmulti with ['cv'] -> fullname:cv::imreadmulti namespace:cv classpath: classname: name:imreadmulti
+register (function) imreadmulti (cv_imreadmulti_String_VectorOfMat_int)
+
+--- Incoming ---
+[   'cv.imwrite',
+    'bool',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['InputArray', 'img', '', []],
+        ['const std::vector<int>&', 'params', 'std::vector<int>()', []]],
+    None,
+    '@brief Saves an image to a specified file.\n'
+    '\n'
+    'The function imwrite saves the image to the specified file. The image '
+    'format is chosen based on the\n'
+    'filename extension (see cv::imread for the list of extensions). In '
+    'general, only 8-bit\n'
+    "single-channel or 3-channel (with 'BGR' channel order) images\n"
+    'can be saved using this function, with these exceptions:\n'
+    '\n'
+    '- 16-bit unsigned (CV_16U) images can be saved in the case of PNG, JPEG '
+    '2000, and TIFF formats\n'
+    '- 32-bit float (CV_32F) images can be saved in PFM, TIFF, OpenEXR, and '
+    'Radiance HDR formats;\n'
+    '3-channel (CV_32FC3) TIFF images will be saved using the LogLuv high '
+    'dynamic range encoding\n'
+    '(4 bytes per pixel)\n'
+    '- PNG images with an alpha channel can be saved using this function. To '
+    'do this, create\n'
+    '8-bit (or 16-bit) 4-channel image BGRA, where the alpha channel goes '
+    'last. Fully transparent pixels\n'
+    'should have alpha set to 0, fully opaque pixels should have alpha set to '
+    '255/65535 (see the code sample below).\n'
+    '\n'
+    'If the format, depth or channel order is different, use\n'
+    'Mat::convertTo and cv::cvtColor to convert it before saving. Or, use the '
+    'universal FileStorage I/O\n'
+    'functions to save the image to XML or YAML format.\n'
+    '\n'
+    'The sample below shows how to create a BGRA image and save it to a PNG '
+    'file. It also demonstrates how to set custom\n'
+    'compression parameters:\n'
+    '@include snippets/imgcodecs_imwrite.cpp\n'
+    '@param filename Name of the file.\n'
+    '@param img Image to be saved.\n'
+    '@param params Format-specific parameters encoded as pairs (paramId_1, '
+    'paramValue_1, paramId_2, paramValue_2, ... .) see cv::ImwriteFlags']
+parse_name: cv.imwrite with ['cv'] -> fullname:cv::imwrite namespace:cv classpath: classname: name:imwrite
+register (function) imwrite (cv_imwrite_String__InputArray_VectorOfint)
+
+--- Incoming ---
+[   'cv.imdecode',
+    'Mat',
+    [],
+    [['InputArray', 'buf', '', []], ['int', 'flags', '', []]],
+    None,
+    '@brief Reads an image from a buffer in memory.\n'
+    '\n'
+    'The function imdecode reads an image from the specified buffer in the '
+    'memory. If the buffer is too short or\n'
+    'contains invalid data, the function returns an empty matrix ( '
+    'Mat::data==NULL ).\n'
+    '\n'
+    'See cv::imread for the list of supported formats and flags description.\n'
+    '\n'
+    '@note In the case of color images, the decoded images will have the '
+    'channels stored in **B G R** order.\n'
+    '@param buf Input array or vector of bytes.\n'
+    '@param flags The same flags as in cv::imread, see cv::ImreadModes.']
+parse_name: cv.imdecode with ['cv'] -> fullname:cv::imdecode namespace:cv classpath: classname: name:imdecode
+register (function) imdecode (cv_imdecode__InputArray_int)
+
+--- Incoming ---
+[   'cv.imdecode',
+    'Mat',
+    [],
+    [   ['InputArray', 'buf', '', []],
+        ['int', 'flags', '', []],
+        ['Mat*', 'dst', '', []]],
+    None,
+    '@overload\n'
+    '@param buf\n'
+    '@param flags\n'
+    '@param dst The optional output placeholder for the decoded matrix. It can '
+    'save the image\n'
+    'reallocations when the function is called repeatedly for images of the '
+    'same size.']
+parse_name: cv.imdecode with ['cv'] -> fullname:cv::imdecode namespace:cv classpath: classname: name:imdecode
+register (function) imdecode (cv_imdecode__InputArray_int_Mat)
+
+--- Incoming ---
+[   'cv.imencode',
+    'bool',
+    [],
+    [   ['const String&', 'ext', '', []],
+        ['InputArray', 'img', '', []],
+        ['std::vector<uchar>&', 'buf', '', []],
+        ['const std::vector<int>&', 'params', 'std::vector<int>()', []]],
+    None,
+    '@brief Encodes an image into a memory buffer.\n'
+    '\n'
+    'The function imencode compresses the image and stores it in the memory '
+    'buffer that is resized to fit the\n'
+    'result. See cv::imwrite for the list of supported formats and flags '
+    'description.\n'
+    '\n'
+    '@param ext File extension that defines the output format.\n'
+    '@param img Image to be written.\n'
+    '@param buf Output buffer resized to fit the compressed image.\n'
+    '@param params Format-specific parameters. See cv::imwrite and '
+    'cv::ImwriteFlags.']
+parse_name: cv.imencode with ['cv'] -> fullname:cv::imencode namespace:cv classpath: classname: name:imencode
+register (function) imencode (cv_imencode_String__InputArray_VectorOfuchar_VectorOfint)
+
+--- Incoming ---
+[   'cv.haveImageReader',
+    'bool',
+    [],
+    [['const String&', 'filename', '', []]],
+    None,
+    '@brief Returns true if the specified image can be decoded by OpenCV\n'
+    '\n'
+    '@param filename File name of the image']
+parse_name: cv.haveImageReader with ['cv'] -> fullname:cv::haveImageReader namespace:cv classpath: classname: name:haveImageReader
+register (function) haveImageReader (cv_haveImageReader_String)
+
+--- Incoming ---
+[   'cv.haveImageWriter',
+    'bool',
+    [],
+    [['const String&', 'filename', '', []]],
+    None,
+    '@brief Returns true if an image with the specified filename can be '
+    'encoded by OpenCV\n'
+    '\n'
+    '@param filename File name of the image']
+parse_name: cv.haveImageWriter with ['cv'] -> fullname:cv::haveImageWriter namespace:cv classpath: classname: name:haveImageWriter
+register (function) haveImageWriter (cv_haveImageWriter_String)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/imgcodecs/imgcodecs.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'imgcodecs': '\n@defgroup imgcodecs Image file reading and writing\n@{\n@defgroup imgcodecs_c C API\n@defgroup imgcodecs_ios iOS glue\n@}\n\n'}
+
+
+===== Generating... =====
+Generating func cv_haveImageReader_String
+Generating func cv_haveImageWriter_String
+Generating func cv_imdecode__InputArray_int
+Generating func cv_imdecode__InputArray_int_Mat
+Generating func cv_imencode_String__InputArray_VectorOfuchar_VectorOfint
+Generating func cv_imread_String_int
+Generating func cv_imreadmulti_String_VectorOfMat_int
+Generating func cv_imwrite_String__InputArray_VectorOfint
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

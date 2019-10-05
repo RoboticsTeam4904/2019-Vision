@@ -1,0 +1,20 @@
+FOUND FUNCs: 16
+
+PORTED FUNCs: 16
+
+PORTED: cv::ft::FT02D_FL_process (function)
+PORTED: cv::ft::FT02D_FL_process_float (function)
+PORTED: cv::ft::FT02D_components (function)
+PORTED: cv::ft::FT02D_inverseFT (function)
+PORTED: cv::ft::FT02D_iteration (function)
+PORTED: cv::ft::FT02D_process (function)
+PORTED: cv::ft::FT12D_components (function)
+PORTED: cv::ft::FT12D_createPolynomMatrixHorizontal (function)
+PORTED: cv::ft::FT12D_createPolynomMatrixVertical (function)
+PORTED: cv::ft::FT12D_inverseFT (function)
+PORTED: cv::ft::FT12D_polynomial (function)
+PORTED: cv::ft::FT12D_process (function)
+PORTED: cv::ft::createKernel (function)
+PORTED: cv::ft::createKernel (function)
+PORTED: cv::ft::filter (function)
+PORTED: cv::ft::inpaint (function)

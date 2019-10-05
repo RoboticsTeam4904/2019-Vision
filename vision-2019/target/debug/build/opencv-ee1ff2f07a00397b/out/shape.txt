@@ -1,0 +1,70 @@
+FOUND FUNCs: 56
+
+PORTED FUNCs: 53
+
+PORTED: cv::EMDL1 (function)
+PORTED: cv::createAffineTransformer (function)
+PORTED: cv::createChiHistogramCostExtractor (function)
+PORTED: cv::createEMDHistogramCostExtractor (function)
+PORTED: cv::createEMDL1HistogramCostExtractor (function)
+PORTED: cv::createHausdorffDistanceExtractor (function)
+PORTED: cv::createNormHistogramCostExtractor (function)
+PORTED: cv::createThinPlateSplineShapeTransformer (function)
+PORTED: cv::AffineTransformer::setFullAffine (method) cv::AffineTransformer (trait) . setFullAffine
+PORTED: cv::AffineTransformer::getFullAffine (method) cv::AffineTransformer (trait) . getFullAffine
+PORTED: cv::EMDHistogramCostExtractor::setNormFlag (method) cv::EMDHistogramCostExtractor (trait) . setNormFlag
+PORTED: cv::EMDHistogramCostExtractor::getNormFlag (method) cv::EMDHistogramCostExtractor (trait) . getNormFlag
+PORTED: cv::HausdorffDistanceExtractor::setDistanceFlag (method) cv::HausdorffDistanceExtractor (trait) . setDistanceFlag
+PORTED: cv::HausdorffDistanceExtractor::getDistanceFlag (method) cv::HausdorffDistanceExtractor (trait) . getDistanceFlag
+PORTED: cv::HausdorffDistanceExtractor::setRankProportion (method) cv::HausdorffDistanceExtractor (trait) . setRankProportion
+PORTED: cv::HausdorffDistanceExtractor::getRankProportion (method) cv::HausdorffDistanceExtractor (trait) . getRankProportion
+PORTED: cv::HistogramCostExtractor::buildCostMatrix (method) cv::HistogramCostExtractor (trait) . buildCostMatrix
+PORTED: cv::HistogramCostExtractor::setNDummies (method) cv::HistogramCostExtractor (trait) . setNDummies
+PORTED: cv::HistogramCostExtractor::getNDummies (method) cv::HistogramCostExtractor (trait) . getNDummies
+PORTED: cv::HistogramCostExtractor::setDefaultCost (method) cv::HistogramCostExtractor (trait) . setDefaultCost
+PORTED: cv::HistogramCostExtractor::getDefaultCost (method) cv::HistogramCostExtractor (trait) . getDefaultCost
+PORTED: cv::NormHistogramCostExtractor::setNormFlag (method) cv::NormHistogramCostExtractor (trait) . setNormFlag
+PORTED: cv::NormHistogramCostExtractor::getNormFlag (method) cv::NormHistogramCostExtractor (trait) . getNormFlag
+PORTED: cv::ShapeContextDistanceExtractor::setAngularBins (method) cv::ShapeContextDistanceExtractor (trait) . setAngularBins
+PORTED: cv::ShapeContextDistanceExtractor::getAngularBins (method) cv::ShapeContextDistanceExtractor (trait) . getAngularBins
+PORTED: cv::ShapeContextDistanceExtractor::setRadialBins (method) cv::ShapeContextDistanceExtractor (trait) . setRadialBins
+PORTED: cv::ShapeContextDistanceExtractor::getRadialBins (method) cv::ShapeContextDistanceExtractor (trait) . getRadialBins
+PORTED: cv::ShapeContextDistanceExtractor::setInnerRadius (method) cv::ShapeContextDistanceExtractor (trait) . setInnerRadius
+PORTED: cv::ShapeContextDistanceExtractor::getInnerRadius (method) cv::ShapeContextDistanceExtractor (trait) . getInnerRadius
+PORTED: cv::ShapeContextDistanceExtractor::setOuterRadius (method) cv::ShapeContextDistanceExtractor (trait) . setOuterRadius
+PORTED: cv::ShapeContextDistanceExtractor::getOuterRadius (method) cv::ShapeContextDistanceExtractor (trait) . getOuterRadius
+PORTED: cv::ShapeContextDistanceExtractor::setRotationInvariant (method) cv::ShapeContextDistanceExtractor (trait) . setRotationInvariant
+PORTED: cv::ShapeContextDistanceExtractor::getRotationInvariant (method) cv::ShapeContextDistanceExtractor (trait) . getRotationInvariant
+PORTED: cv::ShapeContextDistanceExtractor::setShapeContextWeight (method) cv::ShapeContextDistanceExtractor (trait) . setShapeContextWeight
+PORTED: cv::ShapeContextDistanceExtractor::getShapeContextWeight (method) cv::ShapeContextDistanceExtractor (trait) . getShapeContextWeight
+PORTED: cv::ShapeContextDistanceExtractor::setImageAppearanceWeight (method) cv::ShapeContextDistanceExtractor (trait) . setImageAppearanceWeight
+PORTED: cv::ShapeContextDistanceExtractor::getImageAppearanceWeight (method) cv::ShapeContextDistanceExtractor (trait) . getImageAppearanceWeight
+PORTED: cv::ShapeContextDistanceExtractor::setBendingEnergyWeight (method) cv::ShapeContextDistanceExtractor (trait) . setBendingEnergyWeight
+PORTED: cv::ShapeContextDistanceExtractor::getBendingEnergyWeight (method) cv::ShapeContextDistanceExtractor (trait) . getBendingEnergyWeight
+PORTED: cv::ShapeContextDistanceExtractor::setImages (method) cv::ShapeContextDistanceExtractor (trait) . setImages
+PORTED: cv::ShapeContextDistanceExtractor::getImages (method) cv::ShapeContextDistanceExtractor (trait) . getImages
+PORTED: cv::ShapeContextDistanceExtractor::setIterations (method) cv::ShapeContextDistanceExtractor (trait) . setIterations
+PORTED: cv::ShapeContextDistanceExtractor::getIterations (method) cv::ShapeContextDistanceExtractor (trait) . getIterations
+PORTED: cv::ShapeContextDistanceExtractor::setCostExtractor (method) cv::ShapeContextDistanceExtractor (trait) . setCostExtractor
+PORTED: cv::ShapeContextDistanceExtractor::getCostExtractor (method) cv::ShapeContextDistanceExtractor (trait) . getCostExtractor
+PORTED: cv::ShapeContextDistanceExtractor::setStdDev (method) cv::ShapeContextDistanceExtractor (trait) . setStdDev
+PORTED: cv::ShapeContextDistanceExtractor::getStdDev (method) cv::ShapeContextDistanceExtractor (trait) . getStdDev
+PORTED: cv::ShapeDistanceExtractor::computeDistance (method) cv::ShapeDistanceExtractor (trait) . computeDistance
+PORTED: cv::ShapeTransformer::estimateTransformation (method) cv::ShapeTransformer (trait) . estimateTransformation
+PORTED: cv::ShapeTransformer::applyTransformation (method) cv::ShapeTransformer (trait) . applyTransformation
+PORTED: cv::ShapeTransformer::warpImage (method) cv::ShapeTransformer (trait) . warpImage
+PORTED: cv::ThinPlateSplineShapeTransformer::setRegularizationParameter (method) cv::ThinPlateSplineShapeTransformer (trait) . setRegularizationParameter
+PORTED: cv::ThinPlateSplineShapeTransformer::getRegularizationParameter (method) cv::ThinPlateSplineShapeTransformer (trait) . getRegularizationParameter
+
+
+SKIPPED FUNCs: 3
+
+SKIPPED: cv::createShapeContextDistanceExtractor (function)
+   can not map type SmartPtr[Unknown[ShapeTransformer]] yet
+
+SKIPPED: cv::ShapeContextDistanceExtractor::setTransformAlgorithm (method) cv::ShapeContextDistanceExtractor (trait) . setTransformAlgorithm
+   can not map type SmartPtr[Unknown[ShapeTransformer]] yet
+
+SKIPPED: cv::ShapeContextDistanceExtractor::getTransformAlgorithm (method) cv::ShapeContextDistanceExtractor (trait) . getTransformAlgorithm
+   return type class SmartPtr[Unknown[ShapeTransformer]] is ignored
+

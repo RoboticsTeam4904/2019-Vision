@@ -1,0 +1,47 @@
+FOUND FUNCs: 43
+
+PORTED FUNCs: 43
+
+PORTED: cv::bioinspired::Retina::getInputSize (method) cv::bioinspired::Retina (trait) . getInputSize
+PORTED: cv::bioinspired::Retina::getOutputSize (method) cv::bioinspired::Retina (trait) . getOutputSize
+PORTED: cv::bioinspired::Retina::setup (method) cv::bioinspired::Retina (trait) . setup
+PORTED: cv::bioinspired::Retina::setup (method) cv::bioinspired::Retina (trait) . setup
+PORTED: cv::bioinspired::Retina::setup (method) cv::bioinspired::Retina (trait) . setup
+PORTED: cv::bioinspired::Retina::getParameters (method) cv::bioinspired::Retina (trait) . getParameters
+PORTED: cv::bioinspired::Retina::printSetup (method) cv::bioinspired::Retina (trait) . printSetup
+PORTED: cv::bioinspired::Retina::write (method) cv::bioinspired::Retina (trait) . write
+PORTED: cv::bioinspired::Retina::write (method) cv::bioinspired::Retina (trait) . write
+PORTED: cv::bioinspired::Retina::setupOPLandIPLParvoChannel (method) cv::bioinspired::Retina (trait) . setupOPLandIPLParvoChannel
+PORTED: cv::bioinspired::Retina::setupIPLMagnoChannel (method) cv::bioinspired::Retina (trait) . setupIPLMagnoChannel
+PORTED: cv::bioinspired::Retina::run (method) cv::bioinspired::Retina (trait) . run
+PORTED: cv::bioinspired::Retina::applyFastToneMapping (method) cv::bioinspired::Retina (trait) . applyFastToneMapping
+PORTED: cv::bioinspired::Retina::getParvo (method) cv::bioinspired::Retina (trait) . getParvo
+PORTED: cv::bioinspired::Retina::getParvoRAW (method) cv::bioinspired::Retina (trait) . getParvoRAW
+PORTED: cv::bioinspired::Retina::getMagno (method) cv::bioinspired::Retina (trait) . getMagno
+PORTED: cv::bioinspired::Retina::getMagnoRAW (method) cv::bioinspired::Retina (trait) . getMagnoRAW
+PORTED: cv::bioinspired::Retina::getMagnoRAW (method) cv::bioinspired::Retina (trait) . getMagnoRAW
+PORTED: cv::bioinspired::Retina::getParvoRAW (method) cv::bioinspired::Retina (trait) . getParvoRAW
+PORTED: cv::bioinspired::Retina::setColorSaturation (method) cv::bioinspired::Retina (trait) . setColorSaturation
+PORTED: cv::bioinspired::Retina::clearBuffers (method) cv::bioinspired::Retina (trait) . clearBuffers
+PORTED: cv::bioinspired::Retina::activateMovingContoursProcessing (method) cv::bioinspired::Retina (trait) . activateMovingContoursProcessing
+PORTED: cv::bioinspired::Retina::activateContoursProcessing (method) cv::bioinspired::Retina (trait) . activateContoursProcessing
+PORTED: cv::bioinspired::Retina::create (method) cv::bioinspired::Retina (trait) . create
+PORTED: cv::bioinspired::Retina::create (method) cv::bioinspired::Retina (trait) . create
+PORTED: cv::bioinspired::RetinaFastToneMapping::applyFastToneMapping (method) cv::bioinspired::RetinaFastToneMapping (trait) . applyFastToneMapping
+PORTED: cv::bioinspired::RetinaFastToneMapping::setup (method) cv::bioinspired::RetinaFastToneMapping (trait) . setup
+PORTED: cv::bioinspired::RetinaFastToneMapping::create (method) cv::bioinspired::RetinaFastToneMapping (trait) . create
+PORTED: cv::bioinspired::RetinaParameters::IplMagnoParameters::IplMagnoParameters (constructor) cv::bioinspired::RetinaParameters::IplMagnoParameters . default
+PORTED: cv::bioinspired::RetinaParameters::OPLandIplParvoParameters::OPLandIplParvoParameters (constructor) cv::bioinspired::RetinaParameters::OPLandIplParvoParameters . default
+PORTED: cv::bioinspired::SegmentationParameters::SegmentationParameters (constructor) cv::bioinspired::SegmentationParameters . default
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::getSize (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . getSize
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::setup (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . setup
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::setup (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . setup
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::setup (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . setup
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::getParameters (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . getParameters
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::printSetup (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . printSetup
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::write (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . write
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::write (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . write
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::run (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . run
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::getSegmentationPicture (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . getSegmentationPicture
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::clearAllBuffers (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . clearAllBuffers
+PORTED: cv::bioinspired::TransientAreasSegmentationModule::create (method) cv::bioinspired::TransientAreasSegmentationModule (trait) . create

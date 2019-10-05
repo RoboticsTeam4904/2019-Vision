@@ -1,0 +1,881 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv.hpp ================
+
+
+Namespaces: []
+Comment: {'cvv': '\n@defgroup cvv GUI for Interactive Visual Debugging of Computer Vision Programs\n\nNamespace for all functions is **cvv**, i.e. *cvv::showImage()*.\n\nCompilation:\n\n-   For development, i.e. for cvv GUI to show up, compile your code using cvv with\n*g++ -DCVVISUAL_DEBUGMODE*.\n-   For release, i.e. cvv calls doing nothing, compile your code without above flag.\n\nSee cvv tutorial for a commented example application using cvv.\n\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/call_meta_data.hpp ================
+
+
+Namespaces: ['cvv', 'cvv.impl']
+Comment: {'cvv': '\n@defgroup cvv GUI for Interactive Visual Debugging of Computer Vision Programs\n\nNamespace for all functions is **cvv**, i.e. *cvv::showImage()*.\n\nCompilation:\n\n-   For development, i.e. for cvv GUI to show up, compile your code using cvv with\n*g++ -DCVVISUAL_DEBUGMODE*.\n-   For release, i.e. cvv calls doing nothing, compile your code without above flag.\n\nSee cvv tutorial for a commented example application using cvv.\n\n\n'}
+
+--- Incoming ---
+[   'struct cvv.impl.CallMetaData',
+    '',
+    [],
+    [],
+    None,
+    '* @brief Optional information about a location in Code.']
+parse_name: struct cvv.impl.CallMetaData with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::CallMetaData namespace:cvv::impl classpath: classname: name:CallMetaData
+register class cvv::impl::CallMetaData (['struct cvv.impl.CallMetaData', '', [], [], None, '* @brief Optional information about a location in Code.'])
+
+--- Incoming ---
+[   'cvv.impl.CallMetaData.CallMetaData',
+    'C',
+    [],
+    [],
+    None,
+    '* @brief Creates an unknown location.']
+parse_name: cvv.impl.CallMetaData.CallMetaData with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::CallMetaData::CallMetaData namespace:cvv::impl classpath:CallMetaData classname:CallMetaData name:CallMetaData
+register (constructor) default in cvv::impl::CallMetaData (cvv_impl_CallMetaData_CallMetaData)
+
+--- Incoming ---
+[   'cvv.impl.CallMetaData.CallMetaData',
+    'C',
+    [],
+    [   ['const char *', 'file', '', []],
+        ['size_t', 'line', '', []],
+        ['const char *', 'function', '', []]],
+    None,
+    '* @brief Creates the provided location.\n'
+    '*\n'
+    '* Argument should be self-explaining.']
+parse_name: cvv.impl.CallMetaData.CallMetaData with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::CallMetaData::CallMetaData namespace:cvv::impl classpath:CallMetaData classname:CallMetaData name:CallMetaData
+register (constructor) new in cvv::impl::CallMetaData (cvv_impl_CallMetaData_CallMetaData_const_char_X_size_t_const_char_X)
+
+--- Incoming ---
+['cvv.impl.CallMetaData.operator bool', '', [], [], None, '']
+parse_name: cvv.impl.CallMetaData.operator bool with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::CallMetaData::operator bool namespace:cvv::impl classpath:CallMetaData classname:CallMetaData name:operator bool
+register (convertor method) operator bool in cvv::impl::CallMetaData (cvv_impl_CallMetaData_operator_bool)
+
+--- Incoming ---
+[   'const CVVISUAL_LOCATION',
+    '::cvv::impl::CallMetaData(__FILE__, __LINE__, CV_Func)',
+    [],
+    [],
+    '\n'
+    '* @brief Creates an instance of CallMetaData with the location of the '
+    'macro as\n'
+    '* value.\n'
+    '\n']
+parse_name: const CVVISUAL_LOCATION with ['cv', 'cvv', 'cvv::impl'] -> fullname:CVVISUAL_LOCATION namespace: classpath: classname: name:CVVISUAL_LOCATION
+ignored: CONST CVVISUAL_LOCATION=::cvv::impl::CallMetaData(__FILE__, __LINE__, CV_Func)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/cvv.hpp ================
+
+
+Namespaces: ['cvv', 'cvv.impl']
+Comment: {'cvv': '\n@defgroup cvv GUI for Interactive Visual Debugging of Computer Vision Programs\n\nNamespace for all functions is **cvv**, i.e. *cvv::showImage()*.\n\nCompilation:\n\n-   For development, i.e. for cvv GUI to show up, compile your code using cvv with\n*g++ -DCVVISUAL_DEBUGMODE*.\n-   For release, i.e. cvv calls doing nothing, compile your code without above flag.\n\nSee cvv tutorial for a commented example application using cvv.\n\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/debug_mode.hpp ================
+
+
+Namespaces: ['cvv', 'cvv.impl']
+Comment: {'cvv': '\n@defgroup cvv GUI for Interactive Visual Debugging of Computer Vision Programs\n\nNamespace for all functions is **cvv**, i.e. *cvv::showImage()*.\n\nCompilation:\n\n-   For development, i.e. for cvv GUI to show up, compile your code using cvv with\n*g++ -DCVVISUAL_DEBUGMODE*.\n-   For release, i.e. cvv calls doing nothing, compile your code without above flag.\n\nSee cvv tutorial for a commented example application using cvv.\n\n\n'}
+
+--- Incoming ---
+['const CVVISUAL_THREAD_LOCAL', 'thread_local', [], [], '']
+parse_name: const CVVISUAL_THREAD_LOCAL with ['cv', 'cvv', 'cvv::impl'] -> fullname:CVVISUAL_THREAD_LOCAL namespace: classpath: classname: name:CVVISUAL_THREAD_LOCAL
+ignored: CONST CVVISUAL_THREAD_LOCAL=thread_local
+
+--- Incoming ---
+['cvv.impl.getDebugFlag', 'bool &', [], [], None, '* The debug-flag-singleton']
+parse_name: cvv.impl.getDebugFlag with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::getDebugFlag namespace:cvv::impl classpath: classname: name:getDebugFlag
+register (function) getDebugFlag (cvv_impl_getDebugFlag)
+
+--- Incoming ---
+[   'cvv.debugMode',
+    'bool',
+    [],
+    [],
+    None,
+    '@brief Returns whether debug-mode is active for this TU and thread.']
+parse_name: cvv.debugMode with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugMode namespace:cvv classpath: classname: name:debugMode
+register (function) debugMode (cvv_debugMode)
+
+--- Incoming ---
+[   'cvv.setDebugFlag',
+    'void',
+    [],
+    [['bool', 'active', '', []]],
+    None,
+    '@brief Enable or disable cvv for current translation unit and thread\n'
+    '\n'
+    '(disabled this way has higher - but still low - overhead compared to '
+    'using the compile flags).\n'
+    '@param active']
+parse_name: cvv.setDebugFlag with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::setDebugFlag namespace:cvv classpath: classname: name:setDebugFlag
+register (function) setDebugFlag (cvv_setDebugFlag_bool)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/dmatch.hpp ================
+
+
+Namespaces: ['cvv', 'cvv.impl']
+Comment: {'cvv': '\n@defgroup cvv GUI for Interactive Visual Debugging of Computer Vision Programs\n\nNamespace for all functions is **cvv**, i.e. *cvv::showImage()*.\n\nCompilation:\n\n-   For development, i.e. for cvv GUI to show up, compile your code using cvv with\n*g++ -DCVVISUAL_DEBUGMODE*.\n-   For release, i.e. cvv calls doing nothing, compile your code without above flag.\n\nSee cvv tutorial for a commented example application using cvv.\n\n\n'}
+
+--- Incoming ---
+[   'cvv.impl.debugDMatch',
+    'void',
+    [],
+    [   ['cv::InputArray', 'img1', '', []],
+        ['std::vector<cv::KeyPoint>', 'keypoints1', '', []],
+        ['cv::InputArray', 'img2', '', []],
+        ['std::vector<cv::KeyPoint>', 'keypoints2', '', []],
+        ['std::vector<cv::DMatch>', 'matches', '', []],
+        ['const CallMetaData &', 'data', '', []],
+        ['const char *', 'description', '', []],
+        ['const char *', 'view', '', []],
+        ['bool', 'useTrainDescriptor', '', []]],
+    None,
+    '']
+parse_name: cvv.impl.debugDMatch with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::debugDMatch namespace:cvv::impl classpath: classname: name:debugDMatch
+Registering an unknown type: cv::InputArray
+register (function) debugDMatch (cvv_impl_debugDMatch_InputArray_VectorOfKeyPoint_InputArray_VectorOfKeyPoint_VectorOfDMatch_CallMetaData_const_char_X_const_char_X_bool)
+
+--- Incoming ---
+[   'cvv.debugDMatch',
+    'void',
+    [],
+    [   ['cv::InputArray', 'img1', '', []],
+        ['std::vector<cv::KeyPoint>', 'keypoints1', '', []],
+        ['cv::InputArray', 'img2', '', []],
+        ['std::vector<cv::KeyPoint>', 'keypoints2', '', []],
+        ['std::vector<cv::DMatch>', 'matches', '', []],
+        ['const impl::CallMetaData &', 'data', '', []],
+        ['const char *', 'description', 'nullptr', []],
+        ['const char *', 'view', 'nullptr', []],
+        ['bool', 'useTrainDescriptor', 'true', []]],
+    None,
+    '@brief Add a filled in DMatch \\<dmatch\\> to debug GUI.\n'
+    '\n'
+    'The matches can are visualized for interactive inspection in different '
+    'GUI views (one similar to an\n'
+    'interactive :draw_matches:drawMatches\\<\\>).\n'
+    '\n'
+    '@param img1 First image used in DMatch \\<dmatch\\>.\n'
+    '@param keypoints1 Keypoints of first image.\n'
+    '@param img2 Second image used in DMatch.\n'
+    '@param keypoints2 Keypoints of second image.\n'
+    '@param matches\n'
+    '@param data See showImage\n'
+    '@param description See showImage\n'
+    '@param view See showImage\n'
+    "@param useTrainDescriptor Use DMatch \\<dmatch\\>'s train descriptor "
+    'index instead of query\n'
+    'descriptor index.']
+parse_name: cvv.debugDMatch with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugDMatch namespace:cvv classpath: classname: name:debugDMatch
+register (function) debugDMatch (cvv_debugDMatch_InputArray_VectorOfKeyPoint_InputArray_VectorOfKeyPoint_VectorOfDMatch_CallMetaData_const_char_X_const_char_X_bool)
+
+--- Incoming ---
+[   'cvv.debugDMatch',
+    'void',
+    [],
+    [   ['cv::InputArray', 'img1', '', []],
+        ['std::vector<cv::KeyPoint>', 'keypoints1', '', []],
+        ['cv::InputArray', 'img2', '', []],
+        ['std::vector<cv::KeyPoint>', 'keypoints2', '', []],
+        ['std::vector<cv::DMatch>', 'matches', '', []],
+        ['const impl::CallMetaData &', 'data', '', []],
+        ['const std::string &', 'description', '', []],
+        ['const std::string &', 'view', '', []],
+        ['bool', 'useTrainDescriptor', 'true', []]],
+    None,
+    '@overload']
+parse_name: cvv.debugDMatch with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugDMatch namespace:cvv classpath: classname: name:debugDMatch
+register (function) debugDMatch (cvv_debugDMatch_InputArray_VectorOfKeyPoint_InputArray_VectorOfKeyPoint_VectorOfDMatch_CallMetaData_std_string_std_string_bool)
+
+--- Incoming ---
+[   'cvv.debugDMatch',
+    'void',
+    [],
+    [   ['cv::', 'InputArray', '', []],
+        ['std::vector<cv::KeyPoint>', '', '', []],
+        ['cv::', 'InputArray', '', []],
+        ['std::vector<cv::KeyPoint>', '', '', []],
+        ['std::vector<cv::DMatch>', '', '', []],
+        ['const impl::CallMetaData &', '', '', []],
+        ['const char *', '', 'nullptr', []],
+        ['const char *', '', 'nullptr', []],
+        ['bool', '', 'true', []]],
+    None,
+    '']
+parse_name: cvv.debugDMatch with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugDMatch namespace:cvv classpath: classname: name:debugDMatch
+Registering an unknown type: cv::
+register (function) debugDMatch (cvv_debugDMatch__VectorOfKeyPoint__VectorOfKeyPoint_VectorOfDMatch_CallMetaData_const_char_X_const_char_X_bool)
+
+--- Incoming ---
+[   'cvv.debugDMatch',
+    'void',
+    [],
+    [   ['cv::', 'InputArray', '', []],
+        ['std::vector<cv::KeyPoint>', '', '', []],
+        ['cv::', 'InputArray', '', []],
+        ['std::vector<cv::KeyPoint>', '', '', []],
+        ['std::vector<cv::DMatch>', '', '', []],
+        ['const impl::CallMetaData &', '', '', []],
+        ['const std::string &', '', '', []],
+        ['const std::string &', '', '', []],
+        ['bool', '', 'true', []]],
+    None,
+    '']
+parse_name: cvv.debugDMatch with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugDMatch namespace:cvv classpath: classname: name:debugDMatch
+register (function) debugDMatch (cvv_debugDMatch__VectorOfKeyPoint__VectorOfKeyPoint_VectorOfDMatch_CallMetaData_std_string_std_string_bool)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/filter.hpp ================
+
+
+Namespaces: ['cvv', 'cvv.impl']
+Comment: {'cvv': '\n@defgroup cvv GUI for Interactive Visual Debugging of Computer Vision Programs\n\nNamespace for all functions is **cvv**, i.e. *cvv::showImage()*.\n\nCompilation:\n\n-   For development, i.e. for cvv GUI to show up, compile your code using cvv with\n*g++ -DCVVISUAL_DEBUGMODE*.\n-   For release, i.e. cvv calls doing nothing, compile your code without above flag.\n\nSee cvv tutorial for a commented example application using cvv.\n\n\n'}
+
+--- Incoming ---
+[   'cvv.impl.debugFilter',
+    'void',
+    [],
+    [   ['cv::InputArray', 'original', '', []],
+        ['cv::InputArray', 'result', '', []],
+        ['const CallMetaData &', 'data', '', []],
+        ['const char *', 'description', '', []],
+        ['const char *', 'view', '', []]],
+    None,
+    '']
+parse_name: cvv.impl.debugFilter with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::debugFilter namespace:cvv::impl classpath: classname: name:debugFilter
+register (function) debugFilter (cvv_impl_debugFilter_InputArray_InputArray_CallMetaData_const_char_X_const_char_X)
+
+--- Incoming ---
+[   'cvv.debugFilter',
+    'void',
+    [],
+    [   ['cv::InputArray', 'original', '', []],
+        ['cv::InputArray', 'result', '', []],
+        ['impl::CallMetaData', 'metaData', 'impl::CallMetaData()', []],
+        ['const char *', 'description', 'nullptr', []],
+        ['const char *', 'view', 'nullptr', []]],
+    None,
+    '* @brief Use the debug-framework to compare two images (from which the '
+    'second\n'
+    '* is intended to be the result of\n'
+    '* a filter applied to the first).']
+parse_name: cvv.debugFilter with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugFilter namespace:cvv classpath: classname: name:debugFilter
+register (function) debugFilter (cvv_debugFilter_InputArray_InputArray_CallMetaData_const_char_X_const_char_X)
+
+--- Incoming ---
+[   'cvv.debugFilter',
+    'void',
+    [],
+    [   ['cv::InputArray', 'original', '', []],
+        ['cv::InputArray', 'result', '', []],
+        ['impl::CallMetaData', 'metaData', '', []],
+        ['const ::std::string &', 'description', '', []],
+        ['const ::std::string &', 'view', '""', []]],
+    None,
+    '@overload']
+parse_name: cvv.debugFilter with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugFilter namespace:cvv classpath: classname: name:debugFilter
+Registering an unknown type: ::std::string
+register (function) debugFilter (cvv_debugFilter_InputArray_InputArray_CallMetaData__std_string__std_string)
+
+--- Incoming ---
+[   'cvv.debugFilter',
+    'void',
+    [],
+    [   ['cv::', 'InputArray', '', []],
+        ['cv::', 'InputArray', '', []],
+        ['impl::', 'CallMetaData', 'impl::CallMetaData()', []],
+        ['const char *', '', 'nullptr', []],
+        ['const char *', '', 'nullptr', []]],
+    None,
+    '']
+parse_name: cvv.debugFilter with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugFilter namespace:cvv classpath: classname: name:debugFilter
+Registering an unknown type: impl::
+register (function) debugFilter (cvv_debugFilter___impl__const_char_X_const_char_X)
+
+--- Incoming ---
+[   'cvv.debugFilter',
+    'void',
+    [],
+    [   ['cv::', 'InputArray', '', []],
+        ['cv::', 'InputArray', '', []],
+        ['impl::', 'CallMetaData', '', []],
+        ['const ::std::string &', '', '', []],
+        ['const ::std::string &', '', '', []]],
+    None,
+    '']
+parse_name: cvv.debugFilter with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::debugFilter namespace:cvv classpath: classname: name:debugFilter
+register (function) debugFilter (cvv_debugFilter___impl___std_string__std_string)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/final_show.hpp ================
+
+
+Namespaces: ['cvv', 'cvv.impl']
+Comment: {'cvv': '\n@defgroup cvv GUI for Interactive Visual Debugging of Computer Vision Programs\n\nNamespace for all functions is **cvv**, i.e. *cvv::showImage()*.\n\nCompilation:\n\n-   For development, i.e. for cvv GUI to show up, compile your code using cvv with\n*g++ -DCVVISUAL_DEBUGMODE*.\n-   For release, i.e. cvv calls doing nothing, compile your code without above flag.\n\nSee cvv tutorial for a commented example application using cvv.\n\n\n'}
+
+--- Incoming ---
+['cvv.impl.finalShow', 'void', [], [], None, '']
+parse_name: cvv.impl.finalShow with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::finalShow namespace:cvv::impl classpath: classname: name:finalShow
+register (function) finalShow (cvv_impl_finalShow)
+
+--- Incoming ---
+[   'cvv.finalShow',
+    'void',
+    [],
+    [],
+    None,
+    '@brief Passes the control to the debug-window for a last time.\n'
+    '\n'
+    'This function **must** be called *once* *after* all cvv calls if any. As '
+    'an alternative create an\n'
+    'instance of FinalShowCaller, which calls finalShow() in its destructor '
+    '(RAII-style).']
+parse_name: cvv.finalShow with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::finalShow namespace:cvv classpath: classname: name:finalShow
+register (function) finalShow (cvv_finalShow)
+
+--- Incoming ---
+[   'class cvv.FinalShowCaller',
+    '',
+    [],
+    [],
+    None,
+    "* @brief RAII-class to call finalShow() in it's dtor."]
+parse_name: class cvv.FinalShowCaller with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::FinalShowCaller namespace:cvv classpath: classname: name:FinalShowCaller
+register class cvv::FinalShowCaller (['class cvv.FinalShowCaller', '', [], [], None, "* @brief RAII-class to call finalShow() in it's dtor."])
+
+--- Incoming ---
+[   'cvv.FinalShowCaller.~FinalShowCaller',
+    '~',
+    [],
+    [],
+    None,
+    '* @brief Calls finalShow().']
+parse_name: cvv.FinalShowCaller.~FinalShowCaller with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::FinalShowCaller::~FinalShowCaller namespace:cvv classpath:FinalShowCaller classname:FinalShowCaller name:~FinalShowCaller
+Registering an unknown type: ~
+ignore destructor (method) ~FinalShowCaller in cvv::FinalShowCaller
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/show_image.hpp ================
+
+
+Namespaces: ['cvv', 'cvv.impl']
+Comment: {'cvv': '\n@defgroup cvv GUI for Interactive Visual Debugging of Computer Vision Programs\n\nNamespace for all functions is **cvv**, i.e. *cvv::showImage()*.\n\nCompilation:\n\n-   For development, i.e. for cvv GUI to show up, compile your code using cvv with\n*g++ -DCVVISUAL_DEBUGMODE*.\n-   For release, i.e. cvv calls doing nothing, compile your code without above flag.\n\nSee cvv tutorial for a commented example application using cvv.\n\n\n'}
+
+--- Incoming ---
+[   'cvv.impl.showImage',
+    'void',
+    [],
+    [   ['cv::InputArray', 'img', '', []],
+        ['const CallMetaData &', 'data', '', []],
+        ['const char *', 'description', '', []],
+        ['const char *', 'view', '', []]],
+    None,
+    '']
+parse_name: cvv.impl.showImage with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::impl::showImage namespace:cvv::impl classpath: classname: name:showImage
+register (function) showImage (cvv_impl_showImage_InputArray_CallMetaData_const_char_X_const_char_X)
+
+--- Incoming ---
+[   'cvv.showImage',
+    'void',
+    [],
+    [   ['cv::InputArray', 'img', '', []],
+        ['impl::CallMetaData', 'metaData', 'impl::CallMetaData()', []],
+        ['const char *', 'description', 'nullptr', []],
+        ['const char *', 'view', 'nullptr', []]],
+    None,
+    '@brief Add a single image to debug GUI (similar to imshow \\<\\>).\n'
+    '\n'
+    '@param img Image to show in debug GUI.\n'
+    '@param metaData Properly initialized CallMetaData struct, i.e. '
+    'information about file, line and\n'
+    'function name for GUI. Use CVVISUAL_LOCATION macro.\n'
+    '@param description Human readable description to provide context to '
+    'image.\n'
+    '@param view Preselect view that will be used to visualize this image in '
+    'GUI. Other views can still\n'
+    'be selected in GUI later on.']
+parse_name: cvv.showImage with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::showImage namespace:cvv classpath: classname: name:showImage
+register (function) showImage (cvv_showImage_InputArray_CallMetaData_const_char_X_const_char_X)
+
+--- Incoming ---
+[   'cvv.showImage',
+    'void',
+    [],
+    [   ['cv::InputArray', 'img', '', []],
+        ['impl::CallMetaData', 'metaData', '', []],
+        ['const ::std::string &', 'description', '', []],
+        ['const ::std::string &', 'view', '""', []]],
+    None,
+    '@overload']
+parse_name: cvv.showImage with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::showImage namespace:cvv classpath: classname: name:showImage
+register (function) showImage (cvv_showImage_InputArray_CallMetaData__std_string__std_string)
+
+--- Incoming ---
+[   'cvv.showImage',
+    'void',
+    [],
+    [   ['cv::', 'InputArray', '', []],
+        ['impl::', 'CallMetaData', 'impl::CallMetaData()', []],
+        ['const char *', '', 'nullptr', []],
+        ['const char *', '', 'nullptr', []]],
+    None,
+    '']
+parse_name: cvv.showImage with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::showImage namespace:cvv classpath: classname: name:showImage
+register (function) showImage (cvv_showImage__impl__const_char_X_const_char_X)
+
+--- Incoming ---
+[   'cvv.showImage',
+    'void',
+    [],
+    [   ['cv::', 'InputArray', '', []],
+        ['impl::', 'CallMetaData', '', []],
+        ['const ::std::string &', '', '', []],
+        ['const ::std::string &', '', '', []]],
+    None,
+    '']
+parse_name: cvv.showImage with ['cv', 'cvv', 'cvv::impl'] -> fullname:cvv::showImage namespace:cvv classpath: classname: name:showImage
+register (function) showImage (cvv_showImage__impl___std_string__std_string)
+
+
+===== Generating... =====
+Generating func cvv_debugDMatch_InputArray_VectorOfKeyPoint_InputArray_VectorOfKeyPoint_VectorOfDMatch_CallMetaData_const_char_X_const_char_X_bool
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_debugDMatch_InputArray_VectorOfKeyPoint_InputArray_VectorOfKeyPoint_VectorOfDMatch_CallMetaData_std_string_std_string_bool
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_debugDMatch__VectorOfKeyPoint__VectorOfKeyPoint_VectorOfDMatch_CallMetaData_const_char_X_const_char_X_bool
+  ignored: can not map type Unknown[cv::] yet
+Generating func cvv_debugDMatch__VectorOfKeyPoint__VectorOfKeyPoint_VectorOfDMatch_CallMetaData_std_string_std_string_bool
+  ignored: can not map type Unknown[cv::] yet
+Generating func cvv_debugFilter_InputArray_InputArray_CallMetaData__std_string__std_string
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_debugFilter_InputArray_InputArray_CallMetaData_const_char_X_const_char_X
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_debugFilter___impl___std_string__std_string
+  ignored: can not map type Unknown[cv::] yet
+Generating func cvv_debugFilter___impl__const_char_X_const_char_X
+  ignored: can not map type Unknown[cv::] yet
+Generating func cvv_debugMode
+Generating func cvv_finalShow
+Generating func cvv_impl_debugDMatch_InputArray_VectorOfKeyPoint_InputArray_VectorOfKeyPoint_VectorOfDMatch_CallMetaData_const_char_X_const_char_X_bool
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_impl_debugFilter_InputArray_InputArray_CallMetaData_const_char_X_const_char_X
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_impl_finalShow
+Generating func cvv_impl_getDebugFlag
+Generating func cvv_impl_showImage_InputArray_CallMetaData_const_char_X_const_char_X
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_setDebugFlag_bool
+Generating func cvv_showImage_InputArray_CallMetaData__std_string__std_string
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_showImage_InputArray_CallMetaData_const_char_X_const_char_X
+  ignored: can not map type Unknown[cv::InputArray] yet
+Generating func cvv_showImage__impl___std_string__std_string
+  ignored: can not map type Unknown[cv::] yet
+Generating func cvv_showImage__impl__const_char_X_const_char_X
+  ignored: can not map type Unknown[cv::] yet
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring
+Generating box for cvv::FinalShowCaller
+Generating box for cvv::impl::CallMetaData
+Generating func cvv_impl_CallMetaData_CallMetaData
+Generating func cvv_impl_CallMetaData_CallMetaData_const_char_X_size_t_const_char_X
+Generating func cvv_impl_CallMetaData_operator_bool

@@ -1,0 +1,149 @@
+FOUND FUNCs: 145
+
+PORTED FUNCs: 145
+
+PORTED: cv::CamShift (function)
+PORTED: cv::buildOpticalFlowPyramid (function)
+PORTED: cv::calcOpticalFlowFarneback (function)
+PORTED: cv::calcOpticalFlowPyrLK (function)
+PORTED: cv::computeECC (function)
+PORTED: cv::createBackgroundSubtractorKNN (function)
+PORTED: cv::createBackgroundSubtractorMOG2 (function)
+PORTED: cv::estimateRigidTransform (function)
+PORTED: cv::findTransformECC (function)
+PORTED: cv::findTransformECC (function)
+PORTED: cv::meanShift (function)
+PORTED: cv::readOpticalFlow (function)
+PORTED: cv::writeOpticalFlow (function)
+PORTED: cv::BackgroundSubtractor::apply (method) cv::BackgroundSubtractor (trait) . apply
+PORTED: cv::BackgroundSubtractor::getBackgroundImage (method) cv::BackgroundSubtractor (trait) . getBackgroundImage
+PORTED: cv::BackgroundSubtractorKNN::getHistory (method) cv::BackgroundSubtractorKNN (trait) . getHistory
+PORTED: cv::BackgroundSubtractorKNN::setHistory (method) cv::BackgroundSubtractorKNN (trait) . setHistory
+PORTED: cv::BackgroundSubtractorKNN::getNSamples (method) cv::BackgroundSubtractorKNN (trait) . getNSamples
+PORTED: cv::BackgroundSubtractorKNN::setNSamples (method) cv::BackgroundSubtractorKNN (trait) . setNSamples
+PORTED: cv::BackgroundSubtractorKNN::getDist2Threshold (method) cv::BackgroundSubtractorKNN (trait) . getDist2Threshold
+PORTED: cv::BackgroundSubtractorKNN::setDist2Threshold (method) cv::BackgroundSubtractorKNN (trait) . setDist2Threshold
+PORTED: cv::BackgroundSubtractorKNN::getkNNSamples (method) cv::BackgroundSubtractorKNN (trait) . getkNNSamples
+PORTED: cv::BackgroundSubtractorKNN::setkNNSamples (method) cv::BackgroundSubtractorKNN (trait) . setkNNSamples
+PORTED: cv::BackgroundSubtractorKNN::getDetectShadows (method) cv::BackgroundSubtractorKNN (trait) . getDetectShadows
+PORTED: cv::BackgroundSubtractorKNN::setDetectShadows (method) cv::BackgroundSubtractorKNN (trait) . setDetectShadows
+PORTED: cv::BackgroundSubtractorKNN::getShadowValue (method) cv::BackgroundSubtractorKNN (trait) . getShadowValue
+PORTED: cv::BackgroundSubtractorKNN::setShadowValue (method) cv::BackgroundSubtractorKNN (trait) . setShadowValue
+PORTED: cv::BackgroundSubtractorKNN::getShadowThreshold (method) cv::BackgroundSubtractorKNN (trait) . getShadowThreshold
+PORTED: cv::BackgroundSubtractorKNN::setShadowThreshold (method) cv::BackgroundSubtractorKNN (trait) . setShadowThreshold
+PORTED: cv::BackgroundSubtractorMOG2::getHistory (method) cv::BackgroundSubtractorMOG2 (trait) . getHistory
+PORTED: cv::BackgroundSubtractorMOG2::setHistory (method) cv::BackgroundSubtractorMOG2 (trait) . setHistory
+PORTED: cv::BackgroundSubtractorMOG2::getNMixtures (method) cv::BackgroundSubtractorMOG2 (trait) . getNMixtures
+PORTED: cv::BackgroundSubtractorMOG2::setNMixtures (method) cv::BackgroundSubtractorMOG2 (trait) . setNMixtures
+PORTED: cv::BackgroundSubtractorMOG2::getBackgroundRatio (method) cv::BackgroundSubtractorMOG2 (trait) . getBackgroundRatio
+PORTED: cv::BackgroundSubtractorMOG2::setBackgroundRatio (method) cv::BackgroundSubtractorMOG2 (trait) . setBackgroundRatio
+PORTED: cv::BackgroundSubtractorMOG2::getVarThreshold (method) cv::BackgroundSubtractorMOG2 (trait) . getVarThreshold
+PORTED: cv::BackgroundSubtractorMOG2::setVarThreshold (method) cv::BackgroundSubtractorMOG2 (trait) . setVarThreshold
+PORTED: cv::BackgroundSubtractorMOG2::getVarThresholdGen (method) cv::BackgroundSubtractorMOG2 (trait) . getVarThresholdGen
+PORTED: cv::BackgroundSubtractorMOG2::setVarThresholdGen (method) cv::BackgroundSubtractorMOG2 (trait) . setVarThresholdGen
+PORTED: cv::BackgroundSubtractorMOG2::getVarInit (method) cv::BackgroundSubtractorMOG2 (trait) . getVarInit
+PORTED: cv::BackgroundSubtractorMOG2::setVarInit (method) cv::BackgroundSubtractorMOG2 (trait) . setVarInit
+PORTED: cv::BackgroundSubtractorMOG2::getVarMin (method) cv::BackgroundSubtractorMOG2 (trait) . getVarMin
+PORTED: cv::BackgroundSubtractorMOG2::setVarMin (method) cv::BackgroundSubtractorMOG2 (trait) . setVarMin
+PORTED: cv::BackgroundSubtractorMOG2::getVarMax (method) cv::BackgroundSubtractorMOG2 (trait) . getVarMax
+PORTED: cv::BackgroundSubtractorMOG2::setVarMax (method) cv::BackgroundSubtractorMOG2 (trait) . setVarMax
+PORTED: cv::BackgroundSubtractorMOG2::getComplexityReductionThreshold (method) cv::BackgroundSubtractorMOG2 (trait) . getComplexityReductionThreshold
+PORTED: cv::BackgroundSubtractorMOG2::setComplexityReductionThreshold (method) cv::BackgroundSubtractorMOG2 (trait) . setComplexityReductionThreshold
+PORTED: cv::BackgroundSubtractorMOG2::getDetectShadows (method) cv::BackgroundSubtractorMOG2 (trait) . getDetectShadows
+PORTED: cv::BackgroundSubtractorMOG2::setDetectShadows (method) cv::BackgroundSubtractorMOG2 (trait) . setDetectShadows
+PORTED: cv::BackgroundSubtractorMOG2::getShadowValue (method) cv::BackgroundSubtractorMOG2 (trait) . getShadowValue
+PORTED: cv::BackgroundSubtractorMOG2::setShadowValue (method) cv::BackgroundSubtractorMOG2 (trait) . setShadowValue
+PORTED: cv::BackgroundSubtractorMOG2::getShadowThreshold (method) cv::BackgroundSubtractorMOG2 (trait) . getShadowThreshold
+PORTED: cv::BackgroundSubtractorMOG2::setShadowThreshold (method) cv::BackgroundSubtractorMOG2 (trait) . setShadowThreshold
+PORTED: cv::BackgroundSubtractorMOG2::apply (method) cv::BackgroundSubtractorMOG2 (trait) . apply
+PORTED: cv::DISOpticalFlow::getFinestScale (method) cv::DISOpticalFlow (trait) . getFinestScale
+PORTED: cv::DISOpticalFlow::setFinestScale (method) cv::DISOpticalFlow (trait) . setFinestScale
+PORTED: cv::DISOpticalFlow::getPatchSize (method) cv::DISOpticalFlow (trait) . getPatchSize
+PORTED: cv::DISOpticalFlow::setPatchSize (method) cv::DISOpticalFlow (trait) . setPatchSize
+PORTED: cv::DISOpticalFlow::getPatchStride (method) cv::DISOpticalFlow (trait) . getPatchStride
+PORTED: cv::DISOpticalFlow::setPatchStride (method) cv::DISOpticalFlow (trait) . setPatchStride
+PORTED: cv::DISOpticalFlow::getGradientDescentIterations (method) cv::DISOpticalFlow (trait) . getGradientDescentIterations
+PORTED: cv::DISOpticalFlow::setGradientDescentIterations (method) cv::DISOpticalFlow (trait) . setGradientDescentIterations
+PORTED: cv::DISOpticalFlow::getVariationalRefinementIterations (method) cv::DISOpticalFlow (trait) . getVariationalRefinementIterations
+PORTED: cv::DISOpticalFlow::setVariationalRefinementIterations (method) cv::DISOpticalFlow (trait) . setVariationalRefinementIterations
+PORTED: cv::DISOpticalFlow::getVariationalRefinementAlpha (method) cv::DISOpticalFlow (trait) . getVariationalRefinementAlpha
+PORTED: cv::DISOpticalFlow::setVariationalRefinementAlpha (method) cv::DISOpticalFlow (trait) . setVariationalRefinementAlpha
+PORTED: cv::DISOpticalFlow::getVariationalRefinementDelta (method) cv::DISOpticalFlow (trait) . getVariationalRefinementDelta
+PORTED: cv::DISOpticalFlow::setVariationalRefinementDelta (method) cv::DISOpticalFlow (trait) . setVariationalRefinementDelta
+PORTED: cv::DISOpticalFlow::getVariationalRefinementGamma (method) cv::DISOpticalFlow (trait) . getVariationalRefinementGamma
+PORTED: cv::DISOpticalFlow::setVariationalRefinementGamma (method) cv::DISOpticalFlow (trait) . setVariationalRefinementGamma
+PORTED: cv::DISOpticalFlow::getUseMeanNormalization (method) cv::DISOpticalFlow (trait) . getUseMeanNormalization
+PORTED: cv::DISOpticalFlow::setUseMeanNormalization (method) cv::DISOpticalFlow (trait) . setUseMeanNormalization
+PORTED: cv::DISOpticalFlow::getUseSpatialPropagation (method) cv::DISOpticalFlow (trait) . getUseSpatialPropagation
+PORTED: cv::DISOpticalFlow::setUseSpatialPropagation (method) cv::DISOpticalFlow (trait) . setUseSpatialPropagation
+PORTED: cv::DISOpticalFlow::create (method) cv::DISOpticalFlow (trait) . create
+PORTED: cv::DenseOpticalFlow::calc (method) cv::DenseOpticalFlow (trait) . calc
+PORTED: cv::DenseOpticalFlow::collectGarbage (method) cv::DenseOpticalFlow (trait) . collectGarbage
+PORTED: cv::FarnebackOpticalFlow::getNumLevels (method) cv::FarnebackOpticalFlow (trait) . getNumLevels
+PORTED: cv::FarnebackOpticalFlow::setNumLevels (method) cv::FarnebackOpticalFlow (trait) . setNumLevels
+PORTED: cv::FarnebackOpticalFlow::getPyrScale (method) cv::FarnebackOpticalFlow (trait) . getPyrScale
+PORTED: cv::FarnebackOpticalFlow::setPyrScale (method) cv::FarnebackOpticalFlow (trait) . setPyrScale
+PORTED: cv::FarnebackOpticalFlow::getFastPyramids (method) cv::FarnebackOpticalFlow (trait) . getFastPyramids
+PORTED: cv::FarnebackOpticalFlow::setFastPyramids (method) cv::FarnebackOpticalFlow (trait) . setFastPyramids
+PORTED: cv::FarnebackOpticalFlow::getWinSize (method) cv::FarnebackOpticalFlow (trait) . getWinSize
+PORTED: cv::FarnebackOpticalFlow::setWinSize (method) cv::FarnebackOpticalFlow (trait) . setWinSize
+PORTED: cv::FarnebackOpticalFlow::getNumIters (method) cv::FarnebackOpticalFlow (trait) . getNumIters
+PORTED: cv::FarnebackOpticalFlow::setNumIters (method) cv::FarnebackOpticalFlow (trait) . setNumIters
+PORTED: cv::FarnebackOpticalFlow::getPolyN (method) cv::FarnebackOpticalFlow (trait) . getPolyN
+PORTED: cv::FarnebackOpticalFlow::setPolyN (method) cv::FarnebackOpticalFlow (trait) . setPolyN
+PORTED: cv::FarnebackOpticalFlow::getPolySigma (method) cv::FarnebackOpticalFlow (trait) . getPolySigma
+PORTED: cv::FarnebackOpticalFlow::setPolySigma (method) cv::FarnebackOpticalFlow (trait) . setPolySigma
+PORTED: cv::FarnebackOpticalFlow::getFlags (method) cv::FarnebackOpticalFlow (trait) . getFlags
+PORTED: cv::FarnebackOpticalFlow::setFlags (method) cv::FarnebackOpticalFlow (trait) . setFlags
+PORTED: cv::FarnebackOpticalFlow::create (method) cv::FarnebackOpticalFlow (trait) . create
+PORTED: cv::KalmanFilter::statePre (method) cv::KalmanFilter . statePre
+PORTED: cv::KalmanFilter::set_statePre (method) cv::KalmanFilter . set_statePre
+PORTED: cv::KalmanFilter::statePost (method) cv::KalmanFilter . statePost
+PORTED: cv::KalmanFilter::set_statePost (method) cv::KalmanFilter . set_statePost
+PORTED: cv::KalmanFilter::transitionMatrix (method) cv::KalmanFilter . transitionMatrix
+PORTED: cv::KalmanFilter::set_transitionMatrix (method) cv::KalmanFilter . set_transitionMatrix
+PORTED: cv::KalmanFilter::controlMatrix (method) cv::KalmanFilter . controlMatrix
+PORTED: cv::KalmanFilter::set_controlMatrix (method) cv::KalmanFilter . set_controlMatrix
+PORTED: cv::KalmanFilter::measurementMatrix (method) cv::KalmanFilter . measurementMatrix
+PORTED: cv::KalmanFilter::set_measurementMatrix (method) cv::KalmanFilter . set_measurementMatrix
+PORTED: cv::KalmanFilter::processNoiseCov (method) cv::KalmanFilter . processNoiseCov
+PORTED: cv::KalmanFilter::set_processNoiseCov (method) cv::KalmanFilter . set_processNoiseCov
+PORTED: cv::KalmanFilter::measurementNoiseCov (method) cv::KalmanFilter . measurementNoiseCov
+PORTED: cv::KalmanFilter::set_measurementNoiseCov (method) cv::KalmanFilter . set_measurementNoiseCov
+PORTED: cv::KalmanFilter::errorCovPre (method) cv::KalmanFilter . errorCovPre
+PORTED: cv::KalmanFilter::set_errorCovPre (method) cv::KalmanFilter . set_errorCovPre
+PORTED: cv::KalmanFilter::gain (method) cv::KalmanFilter . gain
+PORTED: cv::KalmanFilter::set_gain (method) cv::KalmanFilter . set_gain
+PORTED: cv::KalmanFilter::errorCovPost (method) cv::KalmanFilter . errorCovPost
+PORTED: cv::KalmanFilter::set_errorCovPost (method) cv::KalmanFilter . set_errorCovPost
+PORTED: cv::KalmanFilter::KalmanFilter (constructor) cv::KalmanFilter . default
+PORTED: cv::KalmanFilter::KalmanFilter (constructor) cv::KalmanFilter . new
+PORTED: cv::KalmanFilter::init (method) cv::KalmanFilter . init
+PORTED: cv::KalmanFilter::predict (method) cv::KalmanFilter . predict
+PORTED: cv::KalmanFilter::correct (method) cv::KalmanFilter . correct
+PORTED: cv::SparseOpticalFlow::calc (method) cv::SparseOpticalFlow (trait) . calc
+PORTED: cv::SparsePyrLKOpticalFlow::getWinSize (method) cv::SparsePyrLKOpticalFlow (trait) . getWinSize
+PORTED: cv::SparsePyrLKOpticalFlow::setWinSize (method) cv::SparsePyrLKOpticalFlow (trait) . setWinSize
+PORTED: cv::SparsePyrLKOpticalFlow::getMaxLevel (method) cv::SparsePyrLKOpticalFlow (trait) . getMaxLevel
+PORTED: cv::SparsePyrLKOpticalFlow::setMaxLevel (method) cv::SparsePyrLKOpticalFlow (trait) . setMaxLevel
+PORTED: cv::SparsePyrLKOpticalFlow::getTermCriteria (method) cv::SparsePyrLKOpticalFlow (trait) . getTermCriteria
+PORTED: cv::SparsePyrLKOpticalFlow::setTermCriteria (method) cv::SparsePyrLKOpticalFlow (trait) . setTermCriteria
+PORTED: cv::SparsePyrLKOpticalFlow::getFlags (method) cv::SparsePyrLKOpticalFlow (trait) . getFlags
+PORTED: cv::SparsePyrLKOpticalFlow::setFlags (method) cv::SparsePyrLKOpticalFlow (trait) . setFlags
+PORTED: cv::SparsePyrLKOpticalFlow::getMinEigThreshold (method) cv::SparsePyrLKOpticalFlow (trait) . getMinEigThreshold
+PORTED: cv::SparsePyrLKOpticalFlow::setMinEigThreshold (method) cv::SparsePyrLKOpticalFlow (trait) . setMinEigThreshold
+PORTED: cv::SparsePyrLKOpticalFlow::create (method) cv::SparsePyrLKOpticalFlow (trait) . create
+PORTED: cv::VariationalRefinement::calcUV (method) cv::VariationalRefinement (trait) . calcUV
+PORTED: cv::VariationalRefinement::getFixedPointIterations (method) cv::VariationalRefinement (trait) . getFixedPointIterations
+PORTED: cv::VariationalRefinement::setFixedPointIterations (method) cv::VariationalRefinement (trait) . setFixedPointIterations
+PORTED: cv::VariationalRefinement::getSorIterations (method) cv::VariationalRefinement (trait) . getSorIterations
+PORTED: cv::VariationalRefinement::setSorIterations (method) cv::VariationalRefinement (trait) . setSorIterations
+PORTED: cv::VariationalRefinement::getOmega (method) cv::VariationalRefinement (trait) . getOmega
+PORTED: cv::VariationalRefinement::setOmega (method) cv::VariationalRefinement (trait) . setOmega
+PORTED: cv::VariationalRefinement::getAlpha (method) cv::VariationalRefinement (trait) . getAlpha
+PORTED: cv::VariationalRefinement::setAlpha (method) cv::VariationalRefinement (trait) . setAlpha
+PORTED: cv::VariationalRefinement::getDelta (method) cv::VariationalRefinement (trait) . getDelta
+PORTED: cv::VariationalRefinement::setDelta (method) cv::VariationalRefinement (trait) . setDelta
+PORTED: cv::VariationalRefinement::getGamma (method) cv::VariationalRefinement (trait) . getGamma
+PORTED: cv::VariationalRefinement::setGamma (method) cv::VariationalRefinement (trait) . setGamma
+PORTED: cv::VariationalRefinement::create (method) cv::VariationalRefinement (trait) . create

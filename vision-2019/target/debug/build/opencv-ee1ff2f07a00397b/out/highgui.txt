@@ -1,0 +1,50 @@
+FOUND FUNCs: 38
+
+PORTED FUNCs: 36
+
+PORTED: cv::addText (function)
+PORTED: cv::addText (function)
+PORTED: cv::createButton (function)
+PORTED: cv::createTrackbar (function)
+PORTED: cv::destroyAllWindows (function)
+PORTED: cv::destroyWindow (function)
+PORTED: cv::displayOverlay (function)
+PORTED: cv::displayStatusBar (function)
+PORTED: cv::fontQt (function)
+PORTED: cv::getMouseWheelDelta (function)
+PORTED: cv::getTrackbarPos (function)
+PORTED: cv::getWindowImageRect (function)
+PORTED: cv::getWindowProperty (function)
+PORTED: cv::imshow (function)
+PORTED: cv::loadWindowParameters (function)
+PORTED: cv::moveWindow (function)
+PORTED: cv::namedWindow (function)
+PORTED: cv::resizeWindow (function)
+PORTED: cv::resizeWindow (function)
+PORTED: cv::saveWindowParameters (function)
+PORTED: cv::selectROI (function)
+PORTED: cv::selectROI (function)
+PORTED: cv::selectROIs (function)
+PORTED: cv::setMouseCallback (function)
+PORTED: cv::setOpenGlContext (function)
+PORTED: cv::setOpenGlDrawCallback (function)
+PORTED: cv::setTrackbarMax (function)
+PORTED: cv::setTrackbarMin (function)
+PORTED: cv::setTrackbarPos (function)
+PORTED: cv::setWindowProperty (function)
+PORTED: cv::setWindowTitle (function)
+PORTED: cv::startWindowThread (function)
+PORTED: cv::stopLoop (function)
+PORTED: cv::updateWindow (function)
+PORTED: cv::waitKeyEx (function)
+PORTED: cv::waitKey (function)
+
+
+SKIPPED FUNCs: 2
+
+SKIPPED: cv::imshow (function)
+   can not map type Unknown[ogl::Texture2D] yet
+
+SKIPPED: cv::startLoop (function)
+   can not map type Unknown[int (*pt2Func)(int argc@comma@ char *argv[])] yet
+

@@ -1,0 +1,51 @@
+FOUND FUNCs: 41
+
+PORTED FUNCs: 40
+
+PORTED: cv::hdf::open (function)
+PORTED: cv::hdf::HDF5::close (method) cv::hdf::HDF5 (trait) . close
+PORTED: cv::hdf::HDF5::grcreate (method) cv::hdf::HDF5 (trait) . grcreate
+PORTED: cv::hdf::HDF5::hlexists (method) cv::hdf::HDF5 (trait) . hlexists
+PORTED: cv::hdf::HDF5::atexists (method) cv::hdf::HDF5 (trait) . atexists
+PORTED: cv::hdf::HDF5::atdelete (method) cv::hdf::HDF5 (trait) . atdelete
+PORTED: cv::hdf::HDF5::atwrite (method) cv::hdf::HDF5 (trait) . atwrite
+PORTED: cv::hdf::HDF5::atread (method) cv::hdf::HDF5 (trait) . atread
+PORTED: cv::hdf::HDF5::atwrite (method) cv::hdf::HDF5 (trait) . atwrite
+PORTED: cv::hdf::HDF5::atread (method) cv::hdf::HDF5 (trait) . atread
+PORTED: cv::hdf::HDF5::atwrite (method) cv::hdf::HDF5 (trait) . atwrite
+PORTED: cv::hdf::HDF5::atwrite (method) cv::hdf::HDF5 (trait) . atwrite
+PORTED: cv::hdf::HDF5::atread (method) cv::hdf::HDF5 (trait) . atread
+PORTED: cv::hdf::HDF5::dscreate (method) cv::hdf::HDF5 (trait) . dscreate
+PORTED: cv::hdf::HDF5::dscreate (method) cv::hdf::HDF5 (trait) . dscreate
+PORTED: cv::hdf::HDF5::dscreate (method) cv::hdf::HDF5 (trait) . dscreate
+PORTED: cv::hdf::HDF5::dscreate (method) cv::hdf::HDF5 (trait) . dscreate
+PORTED: cv::hdf::HDF5::dscreate (method) cv::hdf::HDF5 (trait) . dscreate
+PORTED: cv::hdf::HDF5::dscreate (method) cv::hdf::HDF5 (trait) . dscreate
+PORTED: cv::hdf::HDF5::dscreate (method) cv::hdf::HDF5 (trait) . dscreate
+PORTED: cv::hdf::HDF5::dscreate (method) cv::hdf::HDF5 (trait) . dscreate
+PORTED: cv::hdf::HDF5::dsgetsize (method) cv::hdf::HDF5 (trait) . dsgetsize
+PORTED: cv::hdf::HDF5::dsgettype (method) cv::hdf::HDF5 (trait) . dsgettype
+PORTED: cv::hdf::HDF5::dswrite (method) cv::hdf::HDF5 (trait) . dswrite
+PORTED: cv::hdf::HDF5::dswrite (method) cv::hdf::HDF5 (trait) . dswrite
+PORTED: cv::hdf::HDF5::dswrite (method) cv::hdf::HDF5 (trait) . dswrite
+PORTED: cv::hdf::HDF5::dswrite (method) cv::hdf::HDF5 (trait) . dswrite
+PORTED: cv::hdf::HDF5::dsinsert (method) cv::hdf::HDF5 (trait) . dsinsert
+PORTED: cv::hdf::HDF5::dsinsert (method) cv::hdf::HDF5 (trait) . dsinsert
+PORTED: cv::hdf::HDF5::dsinsert (method) cv::hdf::HDF5 (trait) . dsinsert
+PORTED: cv::hdf::HDF5::dsinsert (method) cv::hdf::HDF5 (trait) . dsinsert
+PORTED: cv::hdf::HDF5::dsread (method) cv::hdf::HDF5 (trait) . dsread
+PORTED: cv::hdf::HDF5::dsread (method) cv::hdf::HDF5 (trait) . dsread
+PORTED: cv::hdf::HDF5::dsread (method) cv::hdf::HDF5 (trait) . dsread
+PORTED: cv::hdf::HDF5::dsread (method) cv::hdf::HDF5 (trait) . dsread
+PORTED: cv::hdf::HDF5::kpgetsize (method) cv::hdf::HDF5 (trait) . kpgetsize
+PORTED: cv::hdf::HDF5::kpcreate (method) cv::hdf::HDF5 (trait) . kpcreate
+PORTED: cv::hdf::HDF5::kpwrite (method) cv::hdf::HDF5 (trait) . kpwrite
+PORTED: cv::hdf::HDF5::kpinsert (method) cv::hdf::HDF5 (trait) . kpinsert
+PORTED: cv::hdf::HDF5::kpread (method) cv::hdf::HDF5 (trait) . kpread
+
+
+SKIPPED FUNCs: 1
+
+SKIPPED: cv::hdf::HDF5::atread (method) cv::hdf::HDF5 (trait) . atread
+   ignored by rename table
+

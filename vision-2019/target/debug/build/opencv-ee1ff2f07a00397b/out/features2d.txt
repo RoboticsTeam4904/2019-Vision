@@ -1,0 +1,245 @@
+FOUND FUNCs: 205
+
+PORTED FUNCs: 189
+
+PORTED: cv::AGAST (function)
+PORTED: cv::AGAST (function)
+PORTED: cv::FAST (function)
+PORTED: cv::FAST (function)
+PORTED: cv::computeRecallPrecisionCurve (function)
+PORTED: cv::drawKeypoints (function)
+PORTED: cv::drawMatches (function)
+PORTED: cv::drawMatches (function)
+PORTED: cv::evaluateFeatureDetector (function)
+PORTED: cv::getNearestPoint (function)
+PORTED: cv::getRecall (function)
+PORTED: cv::AKAZE::setDescriptorType (method) cv::AKAZE (trait) . setDescriptorType
+PORTED: cv::AKAZE::getDescriptorType (method) cv::AKAZE (trait) . getDescriptorType
+PORTED: cv::AKAZE::setDescriptorSize (method) cv::AKAZE (trait) . setDescriptorSize
+PORTED: cv::AKAZE::getDescriptorSize (method) cv::AKAZE (trait) . getDescriptorSize
+PORTED: cv::AKAZE::setDescriptorChannels (method) cv::AKAZE (trait) . setDescriptorChannels
+PORTED: cv::AKAZE::getDescriptorChannels (method) cv::AKAZE (trait) . getDescriptorChannels
+PORTED: cv::AKAZE::setThreshold (method) cv::AKAZE (trait) . setThreshold
+PORTED: cv::AKAZE::getThreshold (method) cv::AKAZE (trait) . getThreshold
+PORTED: cv::AKAZE::setNOctaves (method) cv::AKAZE (trait) . setNOctaves
+PORTED: cv::AKAZE::getNOctaves (method) cv::AKAZE (trait) . getNOctaves
+PORTED: cv::AKAZE::setNOctaveLayers (method) cv::AKAZE (trait) . setNOctaveLayers
+PORTED: cv::AKAZE::getNOctaveLayers (method) cv::AKAZE (trait) . getNOctaveLayers
+PORTED: cv::AKAZE::setDiffusivity (method) cv::AKAZE (trait) . setDiffusivity
+PORTED: cv::AKAZE::getDiffusivity (method) cv::AKAZE (trait) . getDiffusivity
+PORTED: cv::AKAZE::getDefaultName (method) cv::AKAZE (trait) . getDefaultName
+PORTED: cv::AKAZE::create (method) cv::AKAZE (trait) . create
+PORTED: cv::AgastFeatureDetector::setThreshold (method) cv::AgastFeatureDetector (trait) . setThreshold
+PORTED: cv::AgastFeatureDetector::getThreshold (method) cv::AgastFeatureDetector (trait) . getThreshold
+PORTED: cv::AgastFeatureDetector::setNonmaxSuppression (method) cv::AgastFeatureDetector (trait) . setNonmaxSuppression
+PORTED: cv::AgastFeatureDetector::getNonmaxSuppression (method) cv::AgastFeatureDetector (trait) . getNonmaxSuppression
+PORTED: cv::AgastFeatureDetector::setType (method) cv::AgastFeatureDetector (trait) . setType
+PORTED: cv::AgastFeatureDetector::getType (method) cv::AgastFeatureDetector (trait) . getType
+PORTED: cv::AgastFeatureDetector::getDefaultName (method) cv::AgastFeatureDetector (trait) . getDefaultName
+PORTED: cv::AgastFeatureDetector::create (method) cv::AgastFeatureDetector (trait) . create
+PORTED: cv::BFMatcher::BFMatcher (constructor) cv::BFMatcher . new
+PORTED: cv::BFMatcher::isMaskSupported (method) cv::BFMatcher . isMaskSupported
+PORTED: cv::BFMatcher::create (method) cv::BFMatcher . create
+PORTED: cv::BFMatcher::clone (method) cv::BFMatcher . clone
+PORTED: cv::BOWImgDescriptorExtractor::BOWImgDescriptorExtractor (constructor) cv::BOWImgDescriptorExtractor . new
+PORTED: cv::BOWImgDescriptorExtractor::BOWImgDescriptorExtractor (constructor) cv::BOWImgDescriptorExtractor . new
+PORTED: cv::BOWImgDescriptorExtractor::setVocabulary (method) cv::BOWImgDescriptorExtractor . setVocabulary
+PORTED: cv::BOWImgDescriptorExtractor::getVocabulary (method) cv::BOWImgDescriptorExtractor . getVocabulary
+PORTED: cv::BOWImgDescriptorExtractor::compute (method) cv::BOWImgDescriptorExtractor . compute
+PORTED: cv::BOWImgDescriptorExtractor::compute (method) cv::BOWImgDescriptorExtractor . compute
+PORTED: cv::BOWImgDescriptorExtractor::compute2 (method) cv::BOWImgDescriptorExtractor . compute2
+PORTED: cv::BOWImgDescriptorExtractor::descriptorSize (method) cv::BOWImgDescriptorExtractor . descriptorSize
+PORTED: cv::BOWImgDescriptorExtractor::descriptorType (method) cv::BOWImgDescriptorExtractor . descriptorType
+PORTED: cv::BOWKMeansTrainer::BOWKMeansTrainer (constructor) cv::BOWKMeansTrainer . new
+PORTED: cv::BOWKMeansTrainer::cluster (method) cv::BOWKMeansTrainer . cluster
+PORTED: cv::BOWKMeansTrainer::cluster (method) cv::BOWKMeansTrainer . cluster
+PORTED: cv::BOWTrainer::add (method) cv::BOWTrainer (trait) . add
+PORTED: cv::BOWTrainer::getDescriptors (method) cv::BOWTrainer (trait) . getDescriptors
+PORTED: cv::BOWTrainer::descriptorsCount (method) cv::BOWTrainer (trait) . descriptorsCount
+PORTED: cv::BOWTrainer::clear (method) cv::BOWTrainer (trait) . clear
+PORTED: cv::BOWTrainer::cluster (method) cv::BOWTrainer (trait) . cluster
+PORTED: cv::BOWTrainer::cluster (method) cv::BOWTrainer (trait) . cluster
+PORTED: cv::BRISK::create (method) cv::BRISK . create
+PORTED: cv::BRISK::create (method) cv::BRISK . create
+PORTED: cv::BRISK::create (method) cv::BRISK . create
+PORTED: cv::BRISK::getDefaultName (method) cv::BRISK . getDefaultName
+PORTED: cv::BRISK::setThreshold (method) cv::BRISK . setThreshold
+PORTED: cv::BRISK::getThreshold (method) cv::BRISK . getThreshold
+PORTED: cv::BRISK::setOctaves (method) cv::BRISK . setOctaves
+PORTED: cv::BRISK::getOctaves (method) cv::BRISK . getOctaves
+PORTED: cv::DescriptorMatcher::add (method) cv::DescriptorMatcher (trait) . add
+PORTED: cv::DescriptorMatcher::getTrainDescriptors (method) cv::DescriptorMatcher (trait) . getTrainDescriptors
+PORTED: cv::DescriptorMatcher::clear (method) cv::DescriptorMatcher (trait) . clear
+PORTED: cv::DescriptorMatcher::empty (method) cv::DescriptorMatcher (trait) . empty
+PORTED: cv::DescriptorMatcher::isMaskSupported (method) cv::DescriptorMatcher (trait) . isMaskSupported
+PORTED: cv::DescriptorMatcher::train (method) cv::DescriptorMatcher (trait) . train
+PORTED: cv::DescriptorMatcher::match (method) cv::DescriptorMatcher (trait) . match
+PORTED: cv::DescriptorMatcher::knnMatch (method) cv::DescriptorMatcher (trait) . knnMatch
+PORTED: cv::DescriptorMatcher::radiusMatch (method) cv::DescriptorMatcher (trait) . radiusMatch
+PORTED: cv::DescriptorMatcher::match (method) cv::DescriptorMatcher (trait) . match
+PORTED: cv::DescriptorMatcher::knnMatch (method) cv::DescriptorMatcher (trait) . knnMatch
+PORTED: cv::DescriptorMatcher::radiusMatch (method) cv::DescriptorMatcher (trait) . radiusMatch
+PORTED: cv::DescriptorMatcher::write (method) cv::DescriptorMatcher (trait) . write
+PORTED: cv::DescriptorMatcher::read (method) cv::DescriptorMatcher (trait) . read
+PORTED: cv::DescriptorMatcher::read (method) cv::DescriptorMatcher (trait) . read
+PORTED: cv::DescriptorMatcher::write (method) cv::DescriptorMatcher (trait) . write
+PORTED: cv::DescriptorMatcher::clone (method) cv::DescriptorMatcher (trait) . clone
+PORTED: cv::DescriptorMatcher::write (method) cv::DescriptorMatcher (trait) . write
+PORTED: cv::DescriptorMatcher::create (method) cv::DescriptorMatcher (trait) . create
+PORTED: cv::DescriptorMatcher::create (method) cv::DescriptorMatcher (trait) . create
+PORTED: cv::FastFeatureDetector::setThreshold (method) cv::FastFeatureDetector (trait) . setThreshold
+PORTED: cv::FastFeatureDetector::getThreshold (method) cv::FastFeatureDetector (trait) . getThreshold
+PORTED: cv::FastFeatureDetector::setNonmaxSuppression (method) cv::FastFeatureDetector (trait) . setNonmaxSuppression
+PORTED: cv::FastFeatureDetector::getNonmaxSuppression (method) cv::FastFeatureDetector (trait) . getNonmaxSuppression
+PORTED: cv::FastFeatureDetector::setType (method) cv::FastFeatureDetector (trait) . setType
+PORTED: cv::FastFeatureDetector::getType (method) cv::FastFeatureDetector (trait) . getType
+PORTED: cv::FastFeatureDetector::getDefaultName (method) cv::FastFeatureDetector (trait) . getDefaultName
+PORTED: cv::FastFeatureDetector::create (method) cv::FastFeatureDetector (trait) . create
+PORTED: cv::Feature2D::detect (method) cv::Feature2D (trait) . detect
+PORTED: cv::Feature2D::detect (method) cv::Feature2D (trait) . detect
+PORTED: cv::Feature2D::compute (method) cv::Feature2D (trait) . compute
+PORTED: cv::Feature2D::compute (method) cv::Feature2D (trait) . compute
+PORTED: cv::Feature2D::detectAndCompute (method) cv::Feature2D (trait) . detectAndCompute
+PORTED: cv::Feature2D::descriptorSize (method) cv::Feature2D (trait) . descriptorSize
+PORTED: cv::Feature2D::descriptorType (method) cv::Feature2D (trait) . descriptorType
+PORTED: cv::Feature2D::defaultNorm (method) cv::Feature2D (trait) . defaultNorm
+PORTED: cv::Feature2D::write (method) cv::Feature2D (trait) . write
+PORTED: cv::Feature2D::read (method) cv::Feature2D (trait) . read
+PORTED: cv::Feature2D::write (method) cv::Feature2D (trait) . write
+PORTED: cv::Feature2D::read (method) cv::Feature2D (trait) . read
+PORTED: cv::Feature2D::empty (method) cv::Feature2D (trait) . empty
+PORTED: cv::Feature2D::getDefaultName (method) cv::Feature2D (trait) . getDefaultName
+PORTED: cv::Feature2D::write (method) cv::Feature2D (trait) . write
+PORTED: cv::FlannBasedMatcher::add (method) cv::FlannBasedMatcher . add
+PORTED: cv::FlannBasedMatcher::clear (method) cv::FlannBasedMatcher . clear
+PORTED: cv::FlannBasedMatcher::read (method) cv::FlannBasedMatcher . read
+PORTED: cv::FlannBasedMatcher::write (method) cv::FlannBasedMatcher . write
+PORTED: cv::FlannBasedMatcher::train (method) cv::FlannBasedMatcher . train
+PORTED: cv::FlannBasedMatcher::isMaskSupported (method) cv::FlannBasedMatcher . isMaskSupported
+PORTED: cv::FlannBasedMatcher::create (method) cv::FlannBasedMatcher . create
+PORTED: cv::FlannBasedMatcher::clone (method) cv::FlannBasedMatcher . clone
+PORTED: cv::GFTTDetector::setMaxFeatures (method) cv::GFTTDetector (trait) . setMaxFeatures
+PORTED: cv::GFTTDetector::getMaxFeatures (method) cv::GFTTDetector (trait) . getMaxFeatures
+PORTED: cv::GFTTDetector::setQualityLevel (method) cv::GFTTDetector (trait) . setQualityLevel
+PORTED: cv::GFTTDetector::getQualityLevel (method) cv::GFTTDetector (trait) . getQualityLevel
+PORTED: cv::GFTTDetector::setMinDistance (method) cv::GFTTDetector (trait) . setMinDistance
+PORTED: cv::GFTTDetector::getMinDistance (method) cv::GFTTDetector (trait) . getMinDistance
+PORTED: cv::GFTTDetector::setBlockSize (method) cv::GFTTDetector (trait) . setBlockSize
+PORTED: cv::GFTTDetector::getBlockSize (method) cv::GFTTDetector (trait) . getBlockSize
+PORTED: cv::GFTTDetector::setHarrisDetector (method) cv::GFTTDetector (trait) . setHarrisDetector
+PORTED: cv::GFTTDetector::getHarrisDetector (method) cv::GFTTDetector (trait) . getHarrisDetector
+PORTED: cv::GFTTDetector::setK (method) cv::GFTTDetector (trait) . setK
+PORTED: cv::GFTTDetector::getK (method) cv::GFTTDetector (trait) . getK
+PORTED: cv::GFTTDetector::getDefaultName (method) cv::GFTTDetector (trait) . getDefaultName
+PORTED: cv::GFTTDetector::create (method) cv::GFTTDetector (trait) . create
+PORTED: cv::GFTTDetector::create (method) cv::GFTTDetector (trait) . create
+PORTED: cv::KAZE::setExtended (method) cv::KAZE (trait) . setExtended
+PORTED: cv::KAZE::getExtended (method) cv::KAZE (trait) . getExtended
+PORTED: cv::KAZE::setUpright (method) cv::KAZE (trait) . setUpright
+PORTED: cv::KAZE::getUpright (method) cv::KAZE (trait) . getUpright
+PORTED: cv::KAZE::setThreshold (method) cv::KAZE (trait) . setThreshold
+PORTED: cv::KAZE::getThreshold (method) cv::KAZE (trait) . getThreshold
+PORTED: cv::KAZE::setNOctaves (method) cv::KAZE (trait) . setNOctaves
+PORTED: cv::KAZE::getNOctaves (method) cv::KAZE (trait) . getNOctaves
+PORTED: cv::KAZE::setNOctaveLayers (method) cv::KAZE (trait) . setNOctaveLayers
+PORTED: cv::KAZE::getNOctaveLayers (method) cv::KAZE (trait) . getNOctaveLayers
+PORTED: cv::KAZE::setDiffusivity (method) cv::KAZE (trait) . setDiffusivity
+PORTED: cv::KAZE::getDiffusivity (method) cv::KAZE (trait) . getDiffusivity
+PORTED: cv::KAZE::getDefaultName (method) cv::KAZE (trait) . getDefaultName
+PORTED: cv::KAZE::create (method) cv::KAZE (trait) . create
+PORTED: cv::KeyPointsFilter::KeyPointsFilter (constructor) cv::KeyPointsFilter . default
+PORTED: cv::KeyPointsFilter::runByImageBorder (method) cv::KeyPointsFilter . runByImageBorder
+PORTED: cv::KeyPointsFilter::runByKeypointSize (method) cv::KeyPointsFilter . runByKeypointSize
+PORTED: cv::KeyPointsFilter::runByPixelsMask (method) cv::KeyPointsFilter . runByPixelsMask
+PORTED: cv::KeyPointsFilter::removeDuplicated (method) cv::KeyPointsFilter . removeDuplicated
+PORTED: cv::KeyPointsFilter::removeDuplicatedSorted (method) cv::KeyPointsFilter . removeDuplicatedSorted
+PORTED: cv::KeyPointsFilter::retainBest (method) cv::KeyPointsFilter . retainBest
+PORTED: cv::MSER::detectRegions (method) cv::MSER (trait) . detectRegions
+PORTED: cv::MSER::setDelta (method) cv::MSER (trait) . setDelta
+PORTED: cv::MSER::getDelta (method) cv::MSER (trait) . getDelta
+PORTED: cv::MSER::setMinArea (method) cv::MSER (trait) . setMinArea
+PORTED: cv::MSER::getMinArea (method) cv::MSER (trait) . getMinArea
+PORTED: cv::MSER::setMaxArea (method) cv::MSER (trait) . setMaxArea
+PORTED: cv::MSER::getMaxArea (method) cv::MSER (trait) . getMaxArea
+PORTED: cv::MSER::setPass2Only (method) cv::MSER (trait) . setPass2Only
+PORTED: cv::MSER::getPass2Only (method) cv::MSER (trait) . getPass2Only
+PORTED: cv::MSER::getDefaultName (method) cv::MSER (trait) . getDefaultName
+PORTED: cv::MSER::create (method) cv::MSER (trait) . create
+PORTED: cv::ORB::setMaxFeatures (method) cv::ORB (trait) . setMaxFeatures
+PORTED: cv::ORB::getMaxFeatures (method) cv::ORB (trait) . getMaxFeatures
+PORTED: cv::ORB::setScaleFactor (method) cv::ORB (trait) . setScaleFactor
+PORTED: cv::ORB::getScaleFactor (method) cv::ORB (trait) . getScaleFactor
+PORTED: cv::ORB::setNLevels (method) cv::ORB (trait) . setNLevels
+PORTED: cv::ORB::getNLevels (method) cv::ORB (trait) . getNLevels
+PORTED: cv::ORB::setEdgeThreshold (method) cv::ORB (trait) . setEdgeThreshold
+PORTED: cv::ORB::getEdgeThreshold (method) cv::ORB (trait) . getEdgeThreshold
+PORTED: cv::ORB::setFirstLevel (method) cv::ORB (trait) . setFirstLevel
+PORTED: cv::ORB::getFirstLevel (method) cv::ORB (trait) . getFirstLevel
+PORTED: cv::ORB::setWTA_K (method) cv::ORB (trait) . setWTA_K
+PORTED: cv::ORB::getWTA_K (method) cv::ORB (trait) . getWTA_K
+PORTED: cv::ORB::setScoreType (method) cv::ORB (trait) . setScoreType
+PORTED: cv::ORB::getScoreType (method) cv::ORB (trait) . getScoreType
+PORTED: cv::ORB::setPatchSize (method) cv::ORB (trait) . setPatchSize
+PORTED: cv::ORB::getPatchSize (method) cv::ORB (trait) . getPatchSize
+PORTED: cv::ORB::setFastThreshold (method) cv::ORB (trait) . setFastThreshold
+PORTED: cv::ORB::getFastThreshold (method) cv::ORB (trait) . getFastThreshold
+PORTED: cv::ORB::getDefaultName (method) cv::ORB (trait) . getDefaultName
+PORTED: cv::ORB::create (method) cv::ORB (trait) . create
+PORTED: cv::ORB::create (method) cv::ORB (trait) . create
+PORTED: cv::SimpleBlobDetector::create (method) cv::SimpleBlobDetector . create
+PORTED: cv::SimpleBlobDetector::getDefaultName (method) cv::SimpleBlobDetector . getDefaultName
+PORTED: cv::SimpleBlobDetector::Params::Params (constructor) cv::SimpleBlobDetector::Params (simple) . default
+PORTED: cv::SimpleBlobDetector::Params::read (method) cv::SimpleBlobDetector::Params (simple) . read
+PORTED: cv::SimpleBlobDetector::Params::write (method) cv::SimpleBlobDetector::Params (simple) . write
+
+
+SKIPPED FUNCs: 16
+
+SKIPPED: cv::Feature2D::detect (method) cv::Feature2D (trait) . detect
+   already there
+
+SKIPPED: cv::Feature2D::detect (method) cv::Feature2D (trait) . detect
+   already there
+
+SKIPPED: cv::Feature2D::compute (method) cv::Feature2D (trait) . compute
+   already there
+
+SKIPPED: cv::Feature2D::compute (method) cv::Feature2D (trait) . compute
+   already there
+
+SKIPPED: cv::Feature2D::detectAndCompute (method) cv::Feature2D (trait) . detectAndCompute
+   already there
+
+SKIPPED: cv::Feature2D::descriptorSize (method) cv::Feature2D (trait) . descriptorSize
+   already there
+
+SKIPPED: cv::Feature2D::descriptorType (method) cv::Feature2D (trait) . descriptorType
+   already there
+
+SKIPPED: cv::Feature2D::defaultNorm (method) cv::Feature2D (trait) . defaultNorm
+   already there
+
+SKIPPED: cv::Feature2D::write (method) cv::Feature2D (trait) . write
+   already there
+
+SKIPPED: cv::Feature2D::read (method) cv::Feature2D (trait) . read
+   already there
+
+SKIPPED: cv::Feature2D::write (method) cv::Feature2D (trait) . write
+   already there
+
+SKIPPED: cv::Feature2D::read (method) cv::Feature2D (trait) . read
+   already there
+
+SKIPPED: cv::Feature2D::empty (method) cv::Feature2D (trait) . empty
+   already there
+
+SKIPPED: cv::Feature2D::getDefaultName (method) cv::Feature2D (trait) . getDefaultName
+   already there
+
+SKIPPED: cv::Feature2D::write (method) cv::Feature2D (trait) . write
+   already there
+
+SKIPPED: cv::FlannBasedMatcher::FlannBasedMatcher (constructor) cv::FlannBasedMatcher . new
+   can not map type SmartPtr[Unknown[flann::IndexParams]] yet
+

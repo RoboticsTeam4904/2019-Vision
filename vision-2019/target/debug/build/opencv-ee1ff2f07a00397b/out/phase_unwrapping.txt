@@ -1,0 +1,8 @@
+FOUND FUNCs: 4
+
+PORTED FUNCs: 4
+
+PORTED: cv::phase_unwrapping::HistogramPhaseUnwrapping::getInverseReliabilityMap (method) cv::phase_unwrapping::HistogramPhaseUnwrapping (trait) . getInverseReliabilityMap
+PORTED: cv::phase_unwrapping::HistogramPhaseUnwrapping::create (method) cv::phase_unwrapping::HistogramPhaseUnwrapping (trait) . create
+PORTED: cv::phase_unwrapping::HistogramPhaseUnwrapping::Params::Params (constructor) cv::phase_unwrapping::HistogramPhaseUnwrapping::Params . default
+PORTED: cv::phase_unwrapping::PhaseUnwrapping::unwrapPhaseMap (method) cv::phase_unwrapping::PhaseUnwrapping (trait) . unwrapPhaseMap

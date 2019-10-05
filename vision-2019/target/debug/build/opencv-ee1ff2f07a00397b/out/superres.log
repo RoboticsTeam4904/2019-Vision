@@ -1,0 +1,822 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/superres.hpp ================
+
+
+Namespaces: ['cv', 'cv.superres']
+Comment: {'superres': '\n@defgroup superres Super Resolution\n\nThe Super Resolution module contains a set of functions and classes that can be used to solve the\nproblem of resolution enhancement. There are a few methods implemented, most of them are described in\nthe papers @cite Farsiu03 and @cite Mitzel09 .\n\n\n'}
+
+--- Incoming ---
+['class cv.superres.FrameSource', '', [], [], None, '@addtogroup superres\n@{']
+parse_name: class cv.superres.FrameSource with ['cv', 'cv::superres'] -> fullname:cv::superres::FrameSource namespace:cv::superres classpath: classname: name:FrameSource
+register class cv::superres::FrameSource (['class cv.superres.FrameSource', '', [], [], None, '@addtogroup superres\n@{'])
+
+--- Incoming ---
+['cv.superres.FrameSource.~FrameSource', '~', [], [], None, '']
+parse_name: cv.superres.FrameSource.~FrameSource with ['cv', 'cv::superres'] -> fullname:cv::superres::FrameSource::~FrameSource namespace:cv::superres classpath:FrameSource classname:FrameSource name:~FrameSource
+Registering an unknown type: ~
+ignore destructor (method) ~FrameSource in cv::superres::FrameSource
+
+--- Incoming ---
+[   'cv.superres.FrameSource.nextFrame',
+    'void',
+    ['/A'],
+    [['OutputArray', 'frame', '', []]],
+    None,
+    '']
+parse_name: cv.superres.FrameSource.nextFrame with ['cv', 'cv::superres'] -> fullname:cv::superres::FrameSource::nextFrame namespace:cv::superres classpath:FrameSource classname:FrameSource name:nextFrame
+register (method) nextFrame in cv::superres::FrameSource (trait) (cv_superres_FrameSource_nextFrame__OutputArray)
+
+--- Incoming ---
+['cv.superres.FrameSource.reset', 'void', ['/A'], [], None, '']
+parse_name: cv.superres.FrameSource.reset with ['cv', 'cv::superres'] -> fullname:cv::superres::FrameSource::reset namespace:cv::superres classpath:FrameSource classname:FrameSource name:reset
+register (method) reset in cv::superres::FrameSource (trait) (cv_superres_FrameSource_reset)
+
+--- Incoming ---
+['cv.superres.createFrameSource_Empty', 'Ptr<FrameSource>', [], [], None, '']
+parse_name: cv.superres.createFrameSource_Empty with ['cv', 'cv::superres'] -> fullname:cv::superres::createFrameSource_Empty namespace:cv::superres classpath: classname: name:createFrameSource_Empty
+register (function) createFrameSource_Empty (cv_superres_createFrameSource_Empty)
+
+--- Incoming ---
+[   'cv.superres.createFrameSource_Video',
+    'Ptr<FrameSource>',
+    [],
+    [['const String&', 'fileName', '', []]],
+    None,
+    '']
+parse_name: cv.superres.createFrameSource_Video with ['cv', 'cv::superres'] -> fullname:cv::superres::createFrameSource_Video namespace:cv::superres classpath: classname: name:createFrameSource_Video
+register (function) createFrameSource_Video (cv_superres_createFrameSource_Video_String)
+
+--- Incoming ---
+[   'cv.superres.createFrameSource_Video_CUDA',
+    'Ptr<FrameSource>',
+    [],
+    [['const String&', 'fileName', '', []]],
+    None,
+    '']
+parse_name: cv.superres.createFrameSource_Video_CUDA with ['cv', 'cv::superres'] -> fullname:cv::superres::createFrameSource_Video_CUDA namespace:cv::superres classpath: classname: name:createFrameSource_Video_CUDA
+register (function) createFrameSource_Video_CUDA (cv_superres_createFrameSource_Video_CUDA_String)
+
+--- Incoming ---
+[   'cv.superres.createFrameSource_Camera',
+    'Ptr<FrameSource>',
+    [],
+    [['int', 'deviceId', '0', []]],
+    None,
+    '']
+parse_name: cv.superres.createFrameSource_Camera with ['cv', 'cv::superres'] -> fullname:cv::superres::createFrameSource_Camera namespace:cv::superres classpath: classname: name:createFrameSource_Camera
+register (function) createFrameSource_Camera (cv_superres_createFrameSource_Camera_int)
+
+--- Incoming ---
+[   'class cv.superres.SuperResolution',
+    ': cv::Algorithm, cv::superres::FrameSource',
+    [],
+    [],
+    None,
+    '@brief Base class for Super Resolution algorithms.\n'
+    '\n'
+    'The class is only used to define the common interface for the whole '
+    'family of Super Resolution\n'
+    'algorithms.']
+parse_name: class cv.superres.SuperResolution with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution namespace:cv::superres classpath: classname: name:SuperResolution
+register class cv::superres::SuperResolution (['class cv.superres.SuperResolution', ': cv::Algorithm, cv::superres::FrameSource', [], [], None, '@brief Base class for Super Resolution algorithms.\n\nThe class is only used to define the common interface for the whole family of Super Resolution\nalgorithms.']) impl:cv::Algorithm,cv::superres::FrameSource
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setInput',
+    'void',
+    [],
+    [['const Ptr<FrameSource>&', 'frameSource', '', []]],
+    None,
+    '@brief Set input frame source for Super Resolution algorithm.\n'
+    '\n'
+    '@param frameSource Input frame source']
+parse_name: cv.superres.SuperResolution.setInput with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setInput namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setInput
+register (method) setInput in cv::superres::SuperResolution (cv_superres_SuperResolution_setInput_PtrOfFrameSource)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.nextFrame',
+    'void',
+    [],
+    [['OutputArray', 'frame', '', []]],
+    None,
+    '@brief Process next frame from input and return output result.\n'
+    '\n'
+    '@param frame Output result']
+parse_name: cv.superres.SuperResolution.nextFrame with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::nextFrame namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:nextFrame
+register (method) nextFrame in cv::superres::SuperResolution (cv_superres_SuperResolution_nextFrame__OutputArray)
+
+--- Incoming ---
+['cv.superres.SuperResolution.reset', 'void', [], [], None, '']
+parse_name: cv.superres.SuperResolution.reset with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::reset namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:reset
+register (method) reset in cv::superres::SuperResolution (cv_superres_SuperResolution_reset)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.collectGarbage',
+    'void',
+    [],
+    [],
+    None,
+    '@brief Clear all inner buffers.']
+parse_name: cv.superres.SuperResolution.collectGarbage with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::collectGarbage namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:collectGarbage
+register (method) collectGarbage in cv::superres::SuperResolution (cv_superres_SuperResolution_collectGarbage)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getScale',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setScale']
+parse_name: cv.superres.SuperResolution.getScale with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getScale namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getScale
+register (method) getScale in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getScale_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setScale',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getScale @see getScale']
+parse_name: cv.superres.SuperResolution.setScale with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setScale namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setScale
+register (method) setScale in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setScale_int)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getIterations',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setIterations']
+parse_name: cv.superres.SuperResolution.getIterations with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getIterations namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getIterations
+register (method) getIterations in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getIterations_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setIterations',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getIterations @see getIterations']
+parse_name: cv.superres.SuperResolution.setIterations with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setIterations namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setIterations
+register (method) setIterations in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setIterations_int)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getTau',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setTau']
+parse_name: cv.superres.SuperResolution.getTau with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getTau namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getTau
+register (method) getTau in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getTau_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setTau',
+    'void',
+    ['/A'],
+    [['double', 'val', '', []]],
+    None,
+    '@copybrief getTau @see getTau']
+parse_name: cv.superres.SuperResolution.setTau with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setTau namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setTau
+register (method) setTau in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setTau_double)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getLambda',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setLambda']
+parse_name: cv.superres.SuperResolution.getLambda with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getLambda namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getLambda
+register (method) getLambda in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getLambda_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setLambda',
+    'void',
+    ['/A'],
+    [['double', 'val', '', []]],
+    None,
+    '@copybrief getLambda @see getLambda']
+parse_name: cv.superres.SuperResolution.setLambda with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setLambda namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setLambda
+register (method) setLambda in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setLambda_double)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getAlpha',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setAlpha']
+parse_name: cv.superres.SuperResolution.getAlpha with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getAlpha namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getAlpha
+register (method) getAlpha in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getAlpha_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setAlpha',
+    'void',
+    ['/A'],
+    [['double', 'val', '', []]],
+    None,
+    '@copybrief getAlpha @see getAlpha']
+parse_name: cv.superres.SuperResolution.setAlpha with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setAlpha namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setAlpha
+register (method) setAlpha in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setAlpha_double)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getKernelSize',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setKernelSize']
+parse_name: cv.superres.SuperResolution.getKernelSize with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getKernelSize namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getKernelSize
+register (method) getKernelSize in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getKernelSize_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setKernelSize',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getKernelSize @see getKernelSize']
+parse_name: cv.superres.SuperResolution.setKernelSize with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setKernelSize namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setKernelSize
+register (method) setKernelSize in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setKernelSize_int)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getBlurKernelSize',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setBlurKernelSize']
+parse_name: cv.superres.SuperResolution.getBlurKernelSize with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getBlurKernelSize namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getBlurKernelSize
+register (method) getBlurKernelSize in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getBlurKernelSize_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setBlurKernelSize',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getBlurKernelSize @see getBlurKernelSize']
+parse_name: cv.superres.SuperResolution.setBlurKernelSize with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setBlurKernelSize namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setBlurKernelSize
+register (method) setBlurKernelSize in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setBlurKernelSize_int)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getBlurSigma',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setBlurSigma']
+parse_name: cv.superres.SuperResolution.getBlurSigma with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getBlurSigma namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getBlurSigma
+register (method) getBlurSigma in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getBlurSigma_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setBlurSigma',
+    'void',
+    ['/A'],
+    [['double', 'val', '', []]],
+    None,
+    '@copybrief getBlurSigma @see getBlurSigma']
+parse_name: cv.superres.SuperResolution.setBlurSigma with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setBlurSigma namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setBlurSigma
+register (method) setBlurSigma in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setBlurSigma_double)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getTemporalAreaRadius',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setTemporalAreaRadius']
+parse_name: cv.superres.SuperResolution.getTemporalAreaRadius with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getTemporalAreaRadius namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getTemporalAreaRadius
+register (method) getTemporalAreaRadius in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getTemporalAreaRadius_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setTemporalAreaRadius',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getTemporalAreaRadius @see getTemporalAreaRadius']
+parse_name: cv.superres.SuperResolution.setTemporalAreaRadius with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setTemporalAreaRadius namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setTemporalAreaRadius
+register (method) setTemporalAreaRadius in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setTemporalAreaRadius_int)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.getOpticalFlow',
+    'Ptr<cv::superres::DenseOpticalFlowExt>',
+    ['/A', '/C'],
+    [],
+    None,
+    '@see setOpticalFlow']
+parse_name: cv.superres.SuperResolution.getOpticalFlow with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::getOpticalFlow namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:getOpticalFlow
+Registering an unknown type: cv::superres::DenseOpticalFlowExt
+register (method) getOpticalFlow in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_getOpticalFlow_const)
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.setOpticalFlow',
+    'void',
+    ['/A'],
+    [['const Ptr<cv::superres::DenseOpticalFlowExt> &', 'val', '', []]],
+    None,
+    '@copybrief getOpticalFlow @see getOpticalFlow']
+parse_name: cv.superres.SuperResolution.setOpticalFlow with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::setOpticalFlow namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:setOpticalFlow
+register (method) setOpticalFlow in cv::superres::SuperResolution (trait) (cv_superres_SuperResolution_setOpticalFlow_Ptr<cv_superres_DenseOpticalFlowExt>)
+
+--- Incoming ---
+['cv.superres.SuperResolution.SuperResolution', 'S', ['/H'], [], None, '']
+parse_name: cv.superres.SuperResolution.SuperResolution with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::SuperResolution namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:SuperResolution
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.initImpl',
+    'void',
+    ['/A', '/H'],
+    [['Ptr<FrameSource>&', 'frameSource', '', []]],
+    None,
+    '']
+parse_name: cv.superres.SuperResolution.initImpl with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::initImpl namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:initImpl
+
+--- Incoming ---
+[   'cv.superres.SuperResolution.processImpl',
+    'void',
+    ['/A', '/H'],
+    [   ['Ptr<FrameSource>&', 'frameSource', '', []],
+        ['OutputArray', 'output', '', []]],
+    None,
+    '']
+parse_name: cv.superres.SuperResolution.processImpl with ['cv', 'cv::superres'] -> fullname:cv::superres::SuperResolution::processImpl namespace:cv::superres classpath:SuperResolution classname:SuperResolution name:processImpl
+
+--- Incoming ---
+[   'cv.superres.createSuperResolution_BTVL1',
+    'Ptr<SuperResolution>',
+    [],
+    [],
+    None,
+    '@brief Create Bilateral TV-L1 Super Resolution.\n'
+    '\n'
+    'This class implements Super Resolution algorithm described in the papers '
+    '@cite Farsiu03 and\n'
+    '@cite Mitzel09 .\n'
+    '\n'
+    'Here are important members of the class that control the algorithm, which '
+    'you can set after\n'
+    'constructing the class instance:\n'
+    '\n'
+    '-   **int scale** Scale factor.\n'
+    '-   **int iterations** Iteration count.\n'
+    '-   **double tau** Asymptotic value of steepest descent method.\n'
+    '-   **double lambda** Weight parameter to balance data term and '
+    'smoothness term.\n'
+    '-   **double alpha** Parameter of spacial distribution in Bilateral-TV.\n'
+    '-   **int btvKernelSize** Kernel size of Bilateral-TV filter.\n'
+    '-   **int blurKernelSize** Gaussian blur kernel size.\n'
+    '-   **double blurSigma** Gaussian blur sigma.\n'
+    '-   **int temporalAreaRadius** Radius of the temporal search area.\n'
+    '-   **Ptr\\<DenseOpticalFlowExt\\> opticalFlow** Dense optical flow '
+    'algorithm.']
+parse_name: cv.superres.createSuperResolution_BTVL1 with ['cv', 'cv::superres'] -> fullname:cv::superres::createSuperResolution_BTVL1 namespace:cv::superres classpath: classname: name:createSuperResolution_BTVL1
+register (function) createSuperResolution_BTVL1 (cv_superres_createSuperResolution_BTVL1)
+
+--- Incoming ---
+[   'cv.superres.createSuperResolution_BTVL1_CUDA',
+    'Ptr<SuperResolution>',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.superres.createSuperResolution_BTVL1_CUDA with ['cv', 'cv::superres'] -> fullname:cv::superres::createSuperResolution_BTVL1_CUDA namespace:cv::superres classpath: classname: name:createSuperResolution_BTVL1_CUDA
+register (function) createSuperResolution_BTVL1_CUDA (cv_superres_createSuperResolution_BTVL1_CUDA)
+
+
+===== Generating... =====
+Generating func cv_superres_createFrameSource_Camera_int
+Generating func cv_superres_createFrameSource_Empty
+Generating func cv_superres_createFrameSource_Video_CUDA_String
+Generating func cv_superres_createFrameSource_Video_String
+Generating func cv_superres_createSuperResolution_BTVL1
+Generating func cv_superres_createSuperResolution_BTVL1_CUDA
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Generating impl for trait cv::superres::FrameSource (trait)
+Generating func cv_superres_FrameSource_nextFrame__OutputArray
+Generating func cv_superres_FrameSource_reset
+Generating impl for trait cv::superres::SuperResolution (trait)
+Generating func cv_superres_SuperResolution_setInput_PtrOfFrameSource
+Generating func cv_superres_SuperResolution_nextFrame__OutputArray
+Generating func cv_superres_SuperResolution_reset
+Generating func cv_superres_SuperResolution_collectGarbage
+Generating func cv_superres_SuperResolution_getScale_const
+Generating func cv_superres_SuperResolution_setScale_int
+Generating func cv_superres_SuperResolution_getIterations_const
+Generating func cv_superres_SuperResolution_setIterations_int
+Generating func cv_superres_SuperResolution_getTau_const
+Generating func cv_superres_SuperResolution_setTau_double
+Generating func cv_superres_SuperResolution_getLambda_const
+Generating func cv_superres_SuperResolution_setLambda_double
+Generating func cv_superres_SuperResolution_getAlpha_const
+Generating func cv_superres_SuperResolution_setAlpha_double
+Generating func cv_superres_SuperResolution_getKernelSize_const
+Generating func cv_superres_SuperResolution_setKernelSize_int
+Generating func cv_superres_SuperResolution_getBlurKernelSize_const
+Generating func cv_superres_SuperResolution_setBlurKernelSize_int
+Generating func cv_superres_SuperResolution_getBlurSigma_const
+Generating func cv_superres_SuperResolution_setBlurSigma_double
+Generating func cv_superres_SuperResolution_getTemporalAreaRadius_const
+Generating func cv_superres_SuperResolution_setTemporalAreaRadius_int
+Generating func cv_superres_SuperResolution_getOpticalFlow_const
+  ignored: return type class SmartPtr[Unknown[cv::superres::DenseOpticalFlowExt]] is ignored
+Generating func cv_superres_SuperResolution_setOpticalFlow_Ptr<cv_superres_DenseOpticalFlowExt>
+  ignored: can not map type SmartPtr[Unknown[cv::superres::DenseOpticalFlowExt]] yet
+Ghost class cv::utils::logging::LogTag (ghost), ignoring
