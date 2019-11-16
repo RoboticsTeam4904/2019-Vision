@@ -2,14 +2,12 @@
 // use contours::*;
 use opencv::{
     prelude::*,
-    types::VectorOfint
+    // types::VectorOfint
+    core::Mat
 };
 
 fn main() {
-    let mut b = VectorOfint::new();
-    b.push(1);
-    b.push(2);
-    let a = b.get(0);
-    // let b = vec.is_empty();
-    println!("{}",a)
+    // let mut b = VectorOfint::new(vec![1,2,3]);
+    let mut m = Mat::default().unwrap();
+
 }
