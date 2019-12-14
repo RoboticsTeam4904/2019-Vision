@@ -1,0 +1,1805 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/highgui.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'highgui': '\n@defgroup highgui High-level GUI\n\nWhile OpenCV was designed for use in full-scale applications and can be used within functionally\nrich UI frameworks (such as Qt\\*, WinForms\\*, or Cocoa\\*) or without any UI at all, sometimes there\nit is required to try functionality quickly and visualize the results. This is what the HighGUI\nmodule has been designed for.\n\nIt provides easy interface to:\n\n-   Create and manipulate windows that can display images and "remember" their content (no need to\nhandle repaint events from OS).\n-   Add trackbars to the windows, handle simple mouse events as well as keyboard commands.\n\n@{\n@defgroup highgui_opengl OpenGL support\n@defgroup highgui_qt Qt New Functions\n\n![image](pics/qtgui.png)\n\nThis figure explains new functionality implemented with Qt\\* GUI. The new GUI provides a statusbar,\na toolbar, and a control panel. The control panel can have trackbars and buttonbars attached to it.\nIf you cannot see the control panel, press Ctrl+P or right-click any Qt window and select **Display\nproperties window**.\n\n-   To attach a trackbar, the window name parameter must be NULL.\n\n-   To attach a buttonbar, a button must be created. If the last bar attached to the control panel\nis a buttonbar, the new button is added to the right of the last button. If the last bar\nattached to the control panel is a trackbar, or the control panel is empty, a new buttonbar is\ncreated. Then, a new button is attached to it.\n\nSee below the example used to generate the figure:\n@code\nint main(int argc, char *argv[])\n{\n\nint value = 50;\nint value2 = 0;\n\n\nnamedWindow("main1",WINDOW_NORMAL);\nnamedWindow("main2",WINDOW_AUTOSIZE | CV_GUI_NORMAL);\ncreateTrackbar( "track1", "main1", &value, 255,  NULL);\n\nString nameb1 = "button1";\nString nameb2 = "button2";\n\ncreateButton(nameb1,callbackButton,&nameb1,QT_CHECKBOX,1);\ncreateButton(nameb2,callbackButton,NULL,QT_CHECKBOX,0);\ncreateTrackbar( "track2", NULL, &value2, 255, NULL);\ncreateButton("button5",callbackButton1,NULL,QT_RADIOBOX,0);\ncreateButton("button6",callbackButton2,NULL,QT_RADIOBOX,1);\n\nsetMouseCallback( "main2",on_mouse,NULL );\n\nMat img1 = imread("files/flower.jpg");\nVideoCapture video;\nvideo.open("files/hockey.avi");\n\nMat img2,img3;\n\nwhile( waitKey(33) != 27 )\n{\nimg1.convertTo(img2,-1,1,value);\nvideo >> img3;\n\nimshow("main1",img2);\nimshow("main2",img3);\n}\n\ndestroyAllWindows();\n\nreturn 0;\n}\n@endcode\n\n\n@defgroup highgui_winrt WinRT support\n\nThis figure explains new functionality implemented with WinRT GUI. The new GUI provides an Image control,\nand a slider panel. Slider panel holds trackbars attached to it.\n\nSliders are attached below the image control. Every new slider is added below the previous one.\n\nSee below the example used to generate the figure:\n@code\nvoid sample_app::MainPage::ShowWindow()\n{\nstatic cv::String windowName("sample");\ncv::winrt_initContainer(this->cvContainer);\ncv::namedWindow(windowName); // not required\n\ncv::Mat image = cv::imread("Assets/sample.jpg");\ncv::Mat converted = cv::Mat(image.rows, image.cols, CV_8UC4);\ncv::cvtColor(image, converted, COLOR_BGR2BGRA);\ncv::imshow(windowName, converted); // this will create window if it hasn\'t been created before\n\nint state = 42;\ncv::TrackbarCallback callback = [](int pos, void* userdata)\n{\nif (pos == 0) {\ncv::destroyWindow(windowName);\n}\n};\ncv::TrackbarCallback callbackTwin = [](int pos, void* userdata)\n{\nif (pos >= 70) {\ncv::destroyAllWindows();\n}\n};\ncv::createTrackbar("Sample trackbar", windowName, &state, 100, callback);\ncv::createTrackbar("Twin brother", windowName, &state, 100, callbackTwin);\n}\n@endcode\n\n@defgroup highgui_c C API\n@}\n\n'}
+
+--- Incoming ---
+[   'enum cv.WindowFlags',
+    '',
+    [],
+    [   [   'const cv.WINDOW_NORMAL',
+            '0x00000000',
+            [],
+            [],
+            None,
+            'the user can resize the window (no constraint) / also use to '
+            'switch a fullscreen window to a normal size.\n'],
+        [   'const cv.WINDOW_AUTOSIZE',
+            '0x00000001',
+            [],
+            [],
+            None,
+            'the user cannot resize the window, the size is constrainted by '
+            'the image displayed.\n'],
+        [   'const cv.WINDOW_OPENGL',
+            '0x00001000',
+            [],
+            [],
+            None,
+            'window with opengl support.\n'],
+        [   'const cv.WINDOW_FULLSCREEN',
+            '1',
+            [],
+            [],
+            None,
+            'change the window to fullscreen.\n'],
+        [   'const cv.WINDOW_FREERATIO',
+            '0x00000100',
+            [],
+            [],
+            None,
+            'the image expends as much as it can (no ratio constraint).\n'],
+        [   'const cv.WINDOW_KEEPRATIO',
+            '0x00000000',
+            [],
+            [],
+            None,
+            'the ratio of the image is respected.\n'],
+        [   'const cv.WINDOW_GUI_EXPANDED',
+            '0x00000000',
+            [],
+            [],
+            None,
+            'status bar and tool bar\n'],
+        [   'const cv.WINDOW_GUI_NORMAL',
+            '0x00000010',
+            [],
+            [],
+            None,
+            'old fashious way\n']],
+    None,
+    '@addtogroup highgui\n@{\nFlags for cv::namedWindow']
+parse_name: const cv.WINDOW_NORMAL with ['cv'] -> fullname:cv::WINDOW_NORMAL namespace:cv classpath: classname: name:WINDOW_NORMAL
+parse_name: const cv.WINDOW_AUTOSIZE with ['cv'] -> fullname:cv::WINDOW_AUTOSIZE namespace:cv classpath: classname: name:WINDOW_AUTOSIZE
+parse_name: const cv.WINDOW_OPENGL with ['cv'] -> fullname:cv::WINDOW_OPENGL namespace:cv classpath: classname: name:WINDOW_OPENGL
+parse_name: const cv.WINDOW_FULLSCREEN with ['cv'] -> fullname:cv::WINDOW_FULLSCREEN namespace:cv classpath: classname: name:WINDOW_FULLSCREEN
+parse_name: const cv.WINDOW_FREERATIO with ['cv'] -> fullname:cv::WINDOW_FREERATIO namespace:cv classpath: classname: name:WINDOW_FREERATIO
+parse_name: const cv.WINDOW_KEEPRATIO with ['cv'] -> fullname:cv::WINDOW_KEEPRATIO namespace:cv classpath: classname: name:WINDOW_KEEPRATIO
+parse_name: const cv.WINDOW_GUI_EXPANDED with ['cv'] -> fullname:cv::WINDOW_GUI_EXPANDED namespace:cv classpath: classname: name:WINDOW_GUI_EXPANDED
+parse_name: const cv.WINDOW_GUI_NORMAL with ['cv'] -> fullname:cv::WINDOW_GUI_NORMAL namespace:cv classpath: classname: name:WINDOW_GUI_NORMAL
+parse_name: enum cv.WindowFlags with ['cv'] -> fullname:cv::WindowFlags namespace:cv classpath: classname: name:WindowFlags
+parse_name: const cv.WINDOW_NORMAL with ['cv'] -> fullname:cv::WINDOW_NORMAL namespace:cv classpath: classname: name:WINDOW_NORMAL
+parse_name: const cv.WINDOW_AUTOSIZE with ['cv'] -> fullname:cv::WINDOW_AUTOSIZE namespace:cv classpath: classname: name:WINDOW_AUTOSIZE
+parse_name: const cv.WINDOW_OPENGL with ['cv'] -> fullname:cv::WINDOW_OPENGL namespace:cv classpath: classname: name:WINDOW_OPENGL
+parse_name: const cv.WINDOW_FULLSCREEN with ['cv'] -> fullname:cv::WINDOW_FULLSCREEN namespace:cv classpath: classname: name:WINDOW_FULLSCREEN
+parse_name: const cv.WINDOW_FREERATIO with ['cv'] -> fullname:cv::WINDOW_FREERATIO namespace:cv classpath: classname: name:WINDOW_FREERATIO
+parse_name: const cv.WINDOW_KEEPRATIO with ['cv'] -> fullname:cv::WINDOW_KEEPRATIO namespace:cv classpath: classname: name:WINDOW_KEEPRATIO
+parse_name: const cv.WINDOW_GUI_EXPANDED with ['cv'] -> fullname:cv::WINDOW_GUI_EXPANDED namespace:cv classpath: classname: name:WINDOW_GUI_EXPANDED
+parse_name: const cv.WINDOW_GUI_NORMAL with ['cv'] -> fullname:cv::WINDOW_GUI_NORMAL namespace:cv classpath: classname: name:WINDOW_GUI_NORMAL
+
+--- Incoming ---
+[   'enum cv.WindowPropertyFlags',
+    '',
+    [],
+    [   [   'const cv.WND_PROP_FULLSCREEN',
+            '0',
+            [],
+            [],
+            None,
+            'fullscreen property    (can be WINDOW_NORMAL or '
+            'WINDOW_FULLSCREEN).\n'],
+        [   'const cv.WND_PROP_AUTOSIZE',
+            '1',
+            [],
+            [],
+            None,
+            'autosize property      (can be WINDOW_NORMAL or '
+            'WINDOW_AUTOSIZE).\n'],
+        [   'const cv.WND_PROP_ASPECT_RATIO',
+            '2',
+            [],
+            [],
+            None,
+            "window's aspect ration (can be set to WINDOW_FREERATIO or "
+            'WINDOW_KEEPRATIO).\n'],
+        ['const cv.WND_PROP_OPENGL', '3', [], [], None, 'opengl support.\n'],
+        [   'const cv.WND_PROP_VISIBLE',
+            '4',
+            [],
+            [],
+            None,
+            'checks whether the window exists and is visible\n']],
+    None,
+    'Flags for cv::setWindowProperty / cv::getWindowProperty']
+parse_name: const cv.WND_PROP_FULLSCREEN with ['cv'] -> fullname:cv::WND_PROP_FULLSCREEN namespace:cv classpath: classname: name:WND_PROP_FULLSCREEN
+parse_name: const cv.WND_PROP_AUTOSIZE with ['cv'] -> fullname:cv::WND_PROP_AUTOSIZE namespace:cv classpath: classname: name:WND_PROP_AUTOSIZE
+parse_name: const cv.WND_PROP_ASPECT_RATIO with ['cv'] -> fullname:cv::WND_PROP_ASPECT_RATIO namespace:cv classpath: classname: name:WND_PROP_ASPECT_RATIO
+parse_name: const cv.WND_PROP_OPENGL with ['cv'] -> fullname:cv::WND_PROP_OPENGL namespace:cv classpath: classname: name:WND_PROP_OPENGL
+parse_name: const cv.WND_PROP_VISIBLE with ['cv'] -> fullname:cv::WND_PROP_VISIBLE namespace:cv classpath: classname: name:WND_PROP_VISIBLE
+parse_name: enum cv.WindowPropertyFlags with ['cv'] -> fullname:cv::WindowPropertyFlags namespace:cv classpath: classname: name:WindowPropertyFlags
+parse_name: const cv.WND_PROP_FULLSCREEN with ['cv'] -> fullname:cv::WND_PROP_FULLSCREEN namespace:cv classpath: classname: name:WND_PROP_FULLSCREEN
+parse_name: const cv.WND_PROP_AUTOSIZE with ['cv'] -> fullname:cv::WND_PROP_AUTOSIZE namespace:cv classpath: classname: name:WND_PROP_AUTOSIZE
+parse_name: const cv.WND_PROP_ASPECT_RATIO with ['cv'] -> fullname:cv::WND_PROP_ASPECT_RATIO namespace:cv classpath: classname: name:WND_PROP_ASPECT_RATIO
+parse_name: const cv.WND_PROP_OPENGL with ['cv'] -> fullname:cv::WND_PROP_OPENGL namespace:cv classpath: classname: name:WND_PROP_OPENGL
+parse_name: const cv.WND_PROP_VISIBLE with ['cv'] -> fullname:cv::WND_PROP_VISIBLE namespace:cv classpath: classname: name:WND_PROP_VISIBLE
+
+--- Incoming ---
+[   'enum cv.MouseEventTypes',
+    '',
+    [],
+    [   [   'const cv.EVENT_MOUSEMOVE',
+            '0',
+            [],
+            [],
+            None,
+            'indicates that the mouse pointer has moved over the window.\n'],
+        [   'const cv.EVENT_LBUTTONDOWN',
+            '1',
+            [],
+            [],
+            None,
+            'indicates that the left mouse button is pressed.\n'],
+        [   'const cv.EVENT_RBUTTONDOWN',
+            '2',
+            [],
+            [],
+            None,
+            'indicates that the right mouse button is pressed.\n'],
+        [   'const cv.EVENT_MBUTTONDOWN',
+            '3',
+            [],
+            [],
+            None,
+            'indicates that the middle mouse button is pressed.\n'],
+        [   'const cv.EVENT_LBUTTONUP',
+            '4',
+            [],
+            [],
+            None,
+            'indicates that left mouse button is released.\n'],
+        [   'const cv.EVENT_RBUTTONUP',
+            '5',
+            [],
+            [],
+            None,
+            'indicates that right mouse button is released.\n'],
+        [   'const cv.EVENT_MBUTTONUP',
+            '6',
+            [],
+            [],
+            None,
+            'indicates that middle mouse button is released.\n'],
+        [   'const cv.EVENT_LBUTTONDBLCLK',
+            '7',
+            [],
+            [],
+            None,
+            'indicates that left mouse button is double clicked.\n'],
+        [   'const cv.EVENT_RBUTTONDBLCLK',
+            '8',
+            [],
+            [],
+            None,
+            'indicates that right mouse button is double clicked.\n'],
+        [   'const cv.EVENT_MBUTTONDBLCLK',
+            '9',
+            [],
+            [],
+            None,
+            'indicates that middle mouse button is double clicked.\n'],
+        [   'const cv.EVENT_MOUSEWHEEL',
+            '10',
+            [],
+            [],
+            None,
+            'positive and negative values mean forward and backward scrolling, '
+            'respectively.\n'],
+        [   'const cv.EVENT_MOUSEHWHEEL',
+            '11',
+            [],
+            [],
+            None,
+            'positive and negative values mean right and left scrolling, '
+            'respectively.\n']],
+    None,
+    'Mouse Events see cv::MouseCallback']
+parse_name: const cv.EVENT_MOUSEMOVE with ['cv'] -> fullname:cv::EVENT_MOUSEMOVE namespace:cv classpath: classname: name:EVENT_MOUSEMOVE
+parse_name: const cv.EVENT_LBUTTONDOWN with ['cv'] -> fullname:cv::EVENT_LBUTTONDOWN namespace:cv classpath: classname: name:EVENT_LBUTTONDOWN
+parse_name: const cv.EVENT_RBUTTONDOWN with ['cv'] -> fullname:cv::EVENT_RBUTTONDOWN namespace:cv classpath: classname: name:EVENT_RBUTTONDOWN
+parse_name: const cv.EVENT_MBUTTONDOWN with ['cv'] -> fullname:cv::EVENT_MBUTTONDOWN namespace:cv classpath: classname: name:EVENT_MBUTTONDOWN
+parse_name: const cv.EVENT_LBUTTONUP with ['cv'] -> fullname:cv::EVENT_LBUTTONUP namespace:cv classpath: classname: name:EVENT_LBUTTONUP
+parse_name: const cv.EVENT_RBUTTONUP with ['cv'] -> fullname:cv::EVENT_RBUTTONUP namespace:cv classpath: classname: name:EVENT_RBUTTONUP
+parse_name: const cv.EVENT_MBUTTONUP with ['cv'] -> fullname:cv::EVENT_MBUTTONUP namespace:cv classpath: classname: name:EVENT_MBUTTONUP
+parse_name: const cv.EVENT_LBUTTONDBLCLK with ['cv'] -> fullname:cv::EVENT_LBUTTONDBLCLK namespace:cv classpath: classname: name:EVENT_LBUTTONDBLCLK
+parse_name: const cv.EVENT_RBUTTONDBLCLK with ['cv'] -> fullname:cv::EVENT_RBUTTONDBLCLK namespace:cv classpath: classname: name:EVENT_RBUTTONDBLCLK
+parse_name: const cv.EVENT_MBUTTONDBLCLK with ['cv'] -> fullname:cv::EVENT_MBUTTONDBLCLK namespace:cv classpath: classname: name:EVENT_MBUTTONDBLCLK
+parse_name: const cv.EVENT_MOUSEWHEEL with ['cv'] -> fullname:cv::EVENT_MOUSEWHEEL namespace:cv classpath: classname: name:EVENT_MOUSEWHEEL
+parse_name: const cv.EVENT_MOUSEHWHEEL with ['cv'] -> fullname:cv::EVENT_MOUSEHWHEEL namespace:cv classpath: classname: name:EVENT_MOUSEHWHEEL
+parse_name: enum cv.MouseEventTypes with ['cv'] -> fullname:cv::MouseEventTypes namespace:cv classpath: classname: name:MouseEventTypes
+parse_name: const cv.EVENT_MOUSEMOVE with ['cv'] -> fullname:cv::EVENT_MOUSEMOVE namespace:cv classpath: classname: name:EVENT_MOUSEMOVE
+parse_name: const cv.EVENT_LBUTTONDOWN with ['cv'] -> fullname:cv::EVENT_LBUTTONDOWN namespace:cv classpath: classname: name:EVENT_LBUTTONDOWN
+parse_name: const cv.EVENT_RBUTTONDOWN with ['cv'] -> fullname:cv::EVENT_RBUTTONDOWN namespace:cv classpath: classname: name:EVENT_RBUTTONDOWN
+parse_name: const cv.EVENT_MBUTTONDOWN with ['cv'] -> fullname:cv::EVENT_MBUTTONDOWN namespace:cv classpath: classname: name:EVENT_MBUTTONDOWN
+parse_name: const cv.EVENT_LBUTTONUP with ['cv'] -> fullname:cv::EVENT_LBUTTONUP namespace:cv classpath: classname: name:EVENT_LBUTTONUP
+parse_name: const cv.EVENT_RBUTTONUP with ['cv'] -> fullname:cv::EVENT_RBUTTONUP namespace:cv classpath: classname: name:EVENT_RBUTTONUP
+parse_name: const cv.EVENT_MBUTTONUP with ['cv'] -> fullname:cv::EVENT_MBUTTONUP namespace:cv classpath: classname: name:EVENT_MBUTTONUP
+parse_name: const cv.EVENT_LBUTTONDBLCLK with ['cv'] -> fullname:cv::EVENT_LBUTTONDBLCLK namespace:cv classpath: classname: name:EVENT_LBUTTONDBLCLK
+parse_name: const cv.EVENT_RBUTTONDBLCLK with ['cv'] -> fullname:cv::EVENT_RBUTTONDBLCLK namespace:cv classpath: classname: name:EVENT_RBUTTONDBLCLK
+parse_name: const cv.EVENT_MBUTTONDBLCLK with ['cv'] -> fullname:cv::EVENT_MBUTTONDBLCLK namespace:cv classpath: classname: name:EVENT_MBUTTONDBLCLK
+parse_name: const cv.EVENT_MOUSEWHEEL with ['cv'] -> fullname:cv::EVENT_MOUSEWHEEL namespace:cv classpath: classname: name:EVENT_MOUSEWHEEL
+parse_name: const cv.EVENT_MOUSEHWHEEL with ['cv'] -> fullname:cv::EVENT_MOUSEHWHEEL namespace:cv classpath: classname: name:EVENT_MOUSEHWHEEL
+
+--- Incoming ---
+[   'enum cv.MouseEventFlags',
+    '',
+    [],
+    [   [   'const cv.EVENT_FLAG_LBUTTON',
+            '1',
+            [],
+            [],
+            None,
+            'indicates that the left mouse button is down.\n'],
+        [   'const cv.EVENT_FLAG_RBUTTON',
+            '2',
+            [],
+            [],
+            None,
+            'indicates that the right mouse button is down.\n'],
+        [   'const cv.EVENT_FLAG_MBUTTON',
+            '4',
+            [],
+            [],
+            None,
+            'indicates that the middle mouse button is down.\n'],
+        [   'const cv.EVENT_FLAG_CTRLKEY',
+            '8',
+            [],
+            [],
+            None,
+            'indicates that CTRL Key is pressed.\n'],
+        [   'const cv.EVENT_FLAG_SHIFTKEY',
+            '16',
+            [],
+            [],
+            None,
+            'indicates that SHIFT Key is pressed.\n'],
+        [   'const cv.EVENT_FLAG_ALTKEY',
+            '32',
+            [],
+            [],
+            None,
+            'indicates that ALT Key is pressed.\n']],
+    None,
+    'Mouse Event Flags see cv::MouseCallback']
+parse_name: const cv.EVENT_FLAG_LBUTTON with ['cv'] -> fullname:cv::EVENT_FLAG_LBUTTON namespace:cv classpath: classname: name:EVENT_FLAG_LBUTTON
+parse_name: const cv.EVENT_FLAG_RBUTTON with ['cv'] -> fullname:cv::EVENT_FLAG_RBUTTON namespace:cv classpath: classname: name:EVENT_FLAG_RBUTTON
+parse_name: const cv.EVENT_FLAG_MBUTTON with ['cv'] -> fullname:cv::EVENT_FLAG_MBUTTON namespace:cv classpath: classname: name:EVENT_FLAG_MBUTTON
+parse_name: const cv.EVENT_FLAG_CTRLKEY with ['cv'] -> fullname:cv::EVENT_FLAG_CTRLKEY namespace:cv classpath: classname: name:EVENT_FLAG_CTRLKEY
+parse_name: const cv.EVENT_FLAG_SHIFTKEY with ['cv'] -> fullname:cv::EVENT_FLAG_SHIFTKEY namespace:cv classpath: classname: name:EVENT_FLAG_SHIFTKEY
+parse_name: const cv.EVENT_FLAG_ALTKEY with ['cv'] -> fullname:cv::EVENT_FLAG_ALTKEY namespace:cv classpath: classname: name:EVENT_FLAG_ALTKEY
+parse_name: enum cv.MouseEventFlags with ['cv'] -> fullname:cv::MouseEventFlags namespace:cv classpath: classname: name:MouseEventFlags
+parse_name: const cv.EVENT_FLAG_LBUTTON with ['cv'] -> fullname:cv::EVENT_FLAG_LBUTTON namespace:cv classpath: classname: name:EVENT_FLAG_LBUTTON
+parse_name: const cv.EVENT_FLAG_RBUTTON with ['cv'] -> fullname:cv::EVENT_FLAG_RBUTTON namespace:cv classpath: classname: name:EVENT_FLAG_RBUTTON
+parse_name: const cv.EVENT_FLAG_MBUTTON with ['cv'] -> fullname:cv::EVENT_FLAG_MBUTTON namespace:cv classpath: classname: name:EVENT_FLAG_MBUTTON
+parse_name: const cv.EVENT_FLAG_CTRLKEY with ['cv'] -> fullname:cv::EVENT_FLAG_CTRLKEY namespace:cv classpath: classname: name:EVENT_FLAG_CTRLKEY
+parse_name: const cv.EVENT_FLAG_SHIFTKEY with ['cv'] -> fullname:cv::EVENT_FLAG_SHIFTKEY namespace:cv classpath: classname: name:EVENT_FLAG_SHIFTKEY
+parse_name: const cv.EVENT_FLAG_ALTKEY with ['cv'] -> fullname:cv::EVENT_FLAG_ALTKEY namespace:cv classpath: classname: name:EVENT_FLAG_ALTKEY
+
+--- Incoming ---
+[   'enum cv.QtFontWeights',
+    '',
+    [],
+    [   ['const cv.QT_FONT_LIGHT', '25', [], [], None, 'Weight of 25\n'],
+        ['const cv.QT_FONT_NORMAL', '50', [], [], None, 'Weight of 50\n'],
+        ['const cv.QT_FONT_DEMIBOLD', '63', [], [], None, 'Weight of 63\n'],
+        ['const cv.QT_FONT_BOLD', '75', [], [], None, 'Weight of 75\n'],
+        ['const cv.QT_FONT_BLACK', '87', [], [], None, 'Weight of 87\n']],
+    None,
+    'Qt font weight']
+parse_name: const cv.QT_FONT_LIGHT with ['cv'] -> fullname:cv::QT_FONT_LIGHT namespace:cv classpath: classname: name:QT_FONT_LIGHT
+parse_name: const cv.QT_FONT_NORMAL with ['cv'] -> fullname:cv::QT_FONT_NORMAL namespace:cv classpath: classname: name:QT_FONT_NORMAL
+parse_name: const cv.QT_FONT_DEMIBOLD with ['cv'] -> fullname:cv::QT_FONT_DEMIBOLD namespace:cv classpath: classname: name:QT_FONT_DEMIBOLD
+parse_name: const cv.QT_FONT_BOLD with ['cv'] -> fullname:cv::QT_FONT_BOLD namespace:cv classpath: classname: name:QT_FONT_BOLD
+parse_name: const cv.QT_FONT_BLACK with ['cv'] -> fullname:cv::QT_FONT_BLACK namespace:cv classpath: classname: name:QT_FONT_BLACK
+parse_name: enum cv.QtFontWeights with ['cv'] -> fullname:cv::QtFontWeights namespace:cv classpath: classname: name:QtFontWeights
+parse_name: const cv.QT_FONT_LIGHT with ['cv'] -> fullname:cv::QT_FONT_LIGHT namespace:cv classpath: classname: name:QT_FONT_LIGHT
+parse_name: const cv.QT_FONT_NORMAL with ['cv'] -> fullname:cv::QT_FONT_NORMAL namespace:cv classpath: classname: name:QT_FONT_NORMAL
+parse_name: const cv.QT_FONT_DEMIBOLD with ['cv'] -> fullname:cv::QT_FONT_DEMIBOLD namespace:cv classpath: classname: name:QT_FONT_DEMIBOLD
+parse_name: const cv.QT_FONT_BOLD with ['cv'] -> fullname:cv::QT_FONT_BOLD namespace:cv classpath: classname: name:QT_FONT_BOLD
+parse_name: const cv.QT_FONT_BLACK with ['cv'] -> fullname:cv::QT_FONT_BLACK namespace:cv classpath: classname: name:QT_FONT_BLACK
+
+--- Incoming ---
+[   'enum cv.QtFontStyles',
+    '',
+    [],
+    [   ['const cv.QT_STYLE_NORMAL', '0', [], [], None, 'Normal font.\n'],
+        ['const cv.QT_STYLE_ITALIC', '1', [], [], None, 'Italic font.\n'],
+        ['const cv.QT_STYLE_OBLIQUE', '2', [], [], None, 'Oblique font.\n']],
+    None,
+    'Qt font style']
+parse_name: const cv.QT_STYLE_NORMAL with ['cv'] -> fullname:cv::QT_STYLE_NORMAL namespace:cv classpath: classname: name:QT_STYLE_NORMAL
+parse_name: const cv.QT_STYLE_ITALIC with ['cv'] -> fullname:cv::QT_STYLE_ITALIC namespace:cv classpath: classname: name:QT_STYLE_ITALIC
+parse_name: const cv.QT_STYLE_OBLIQUE with ['cv'] -> fullname:cv::QT_STYLE_OBLIQUE namespace:cv classpath: classname: name:QT_STYLE_OBLIQUE
+parse_name: enum cv.QtFontStyles with ['cv'] -> fullname:cv::QtFontStyles namespace:cv classpath: classname: name:QtFontStyles
+parse_name: const cv.QT_STYLE_NORMAL with ['cv'] -> fullname:cv::QT_STYLE_NORMAL namespace:cv classpath: classname: name:QT_STYLE_NORMAL
+parse_name: const cv.QT_STYLE_ITALIC with ['cv'] -> fullname:cv::QT_STYLE_ITALIC namespace:cv classpath: classname: name:QT_STYLE_ITALIC
+parse_name: const cv.QT_STYLE_OBLIQUE with ['cv'] -> fullname:cv::QT_STYLE_OBLIQUE namespace:cv classpath: classname: name:QT_STYLE_OBLIQUE
+
+--- Incoming ---
+[   'enum cv.QtButtonTypes',
+    '',
+    [],
+    [   ['const cv.QT_PUSH_BUTTON', '0', [], [], None, 'Push button.\n'],
+        ['const cv.QT_CHECKBOX', '1', [], [], None, 'Checkbox button.\n'],
+        ['const cv.QT_RADIOBOX', '2', [], [], None, 'Radiobox button.\n'],
+        [   'const cv.QT_NEW_BUTTONBAR',
+            '1024',
+            [],
+            [],
+            None,
+            'Button should create a new buttonbar\n']],
+    None,
+    'Qt "button" type']
+parse_name: const cv.QT_PUSH_BUTTON with ['cv'] -> fullname:cv::QT_PUSH_BUTTON namespace:cv classpath: classname: name:QT_PUSH_BUTTON
+parse_name: const cv.QT_CHECKBOX with ['cv'] -> fullname:cv::QT_CHECKBOX namespace:cv classpath: classname: name:QT_CHECKBOX
+parse_name: const cv.QT_RADIOBOX with ['cv'] -> fullname:cv::QT_RADIOBOX namespace:cv classpath: classname: name:QT_RADIOBOX
+parse_name: const cv.QT_NEW_BUTTONBAR with ['cv'] -> fullname:cv::QT_NEW_BUTTONBAR namespace:cv classpath: classname: name:QT_NEW_BUTTONBAR
+parse_name: enum cv.QtButtonTypes with ['cv'] -> fullname:cv::QtButtonTypes namespace:cv classpath: classname: name:QtButtonTypes
+parse_name: const cv.QT_PUSH_BUTTON with ['cv'] -> fullname:cv::QT_PUSH_BUTTON namespace:cv classpath: classname: name:QT_PUSH_BUTTON
+parse_name: const cv.QT_CHECKBOX with ['cv'] -> fullname:cv::QT_CHECKBOX namespace:cv classpath: classname: name:QT_CHECKBOX
+parse_name: const cv.QT_RADIOBOX with ['cv'] -> fullname:cv::QT_RADIOBOX namespace:cv classpath: classname: name:QT_RADIOBOX
+parse_name: const cv.QT_NEW_BUTTONBAR with ['cv'] -> fullname:cv::QT_NEW_BUTTONBAR namespace:cv classpath: classname: name:QT_NEW_BUTTONBAR
+
+--- Incoming ---
+[   'callback cv.MouseCallback',
+    'void',
+    '',
+    [   ['int', 'event'],
+        ['int', 'x'],
+        ['int', 'y'],
+        ['int', 'flags'],
+        ['void*', 'userdata']],
+    None,
+    '@brief Callback function for mouse events. see cv::setMouseCallback\n'
+    '@param event one of the cv::MouseEventTypes constants.\n'
+    '@param x The x-coordinate of the mouse event.\n'
+    '@param y The y-coordinate of the mouse event.\n'
+    '@param flags one of the cv::MouseEventFlags constants.\n'
+    '@param userdata The optional parameter.']
+parse_name: callback cv.MouseCallback with ['cv'] -> fullname:cv::MouseCallback namespace:cv classpath: classname: name:MouseCallback
+parse_name: class cv.MouseCallback with ['cv'] -> fullname:cv::MouseCallback namespace:cv classpath: classname: name:MouseCallback
+register class cv::MouseCallback (('class cv.MouseCallback', '', ['/Ghost', '/Callback'], []))
+
+--- Incoming ---
+[   'callback cv.TrackbarCallback',
+    'void',
+    '',
+    [['int', 'pos'], ['void*', 'userdata']],
+    None,
+    '@brief Callback function for Trackbar see cv::createTrackbar\n'
+    '@param pos current position of the specified trackbar.\n'
+    '@param userdata The optional parameter.']
+parse_name: callback cv.TrackbarCallback with ['cv'] -> fullname:cv::TrackbarCallback namespace:cv classpath: classname: name:TrackbarCallback
+parse_name: class cv.TrackbarCallback with ['cv'] -> fullname:cv::TrackbarCallback namespace:cv classpath: classname: name:TrackbarCallback
+register class cv::TrackbarCallback (('class cv.TrackbarCallback', '', ['/Ghost', '/Callback'], []))
+
+--- Incoming ---
+[   'callback cv.OpenGlDrawCallback',
+    'void',
+    '',
+    [['void*', 'userdata']],
+    None,
+    '@brief Callback function defined to be called every frame. See '
+    'cv::setOpenGlDrawCallback\n'
+    '@param userdata The optional parameter.']
+parse_name: callback cv.OpenGlDrawCallback with ['cv'] -> fullname:cv::OpenGlDrawCallback namespace:cv classpath: classname: name:OpenGlDrawCallback
+parse_name: class cv.OpenGlDrawCallback with ['cv'] -> fullname:cv::OpenGlDrawCallback namespace:cv classpath: classname: name:OpenGlDrawCallback
+register class cv::OpenGlDrawCallback (('class cv.OpenGlDrawCallback', '', ['/Ghost', '/Callback'], []))
+
+--- Incoming ---
+[   'callback cv.ButtonCallback',
+    'void',
+    '',
+    [['int', 'state'], ['void*', 'userdata']],
+    None,
+    '@brief Callback function for a button created by cv::createButton\n'
+    '@param state current state of the button. It could be -1 for a push '
+    'button, 0 or 1 for a check/radio box button.\n'
+    '@param userdata The optional parameter.']
+parse_name: callback cv.ButtonCallback with ['cv'] -> fullname:cv::ButtonCallback namespace:cv classpath: classname: name:ButtonCallback
+parse_name: class cv.ButtonCallback with ['cv'] -> fullname:cv::ButtonCallback namespace:cv classpath: classname: name:ButtonCallback
+register class cv::ButtonCallback (('class cv.ButtonCallback', '', ['/Ghost', '/Callback'], []))
+
+--- Incoming ---
+[   'cv.namedWindow',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['int', 'flags', 'WINDOW_AUTOSIZE', []]],
+    None,
+    '@brief Creates a window.\n'
+    '\n'
+    'The function namedWindow creates a window that can be used as a '
+    'placeholder for images and\n'
+    'trackbars. Created windows are referred to by their names.\n'
+    '\n'
+    'If a window with the same name already exists, the function does '
+    'nothing.\n'
+    '\n'
+    'You can call cv::destroyWindow or cv::destroyAllWindows to close the '
+    'window and de-allocate any associated\n'
+    'memory usage. For a simple program, you do not really have to call these '
+    'functions because all the\n'
+    'resources and windows of the application are closed automatically by the '
+    'operating system upon exit.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    'Qt backend supports additional flags:\n'
+    '-   **WINDOW_NORMAL or WINDOW_AUTOSIZE:** WINDOW_NORMAL enables you to '
+    'resize the\n'
+    'window, whereas WINDOW_AUTOSIZE adjusts automatically the window size to '
+    'fit the\n'
+    'displayed image (see imshow ), and you cannot change the window size '
+    'manually.\n'
+    '-   **WINDOW_FREERATIO or WINDOW_KEEPRATIO:** WINDOW_FREERATIO adjusts '
+    'the image\n'
+    'with no respect to its ratio, whereas WINDOW_KEEPRATIO keeps the image '
+    'ratio.\n'
+    '-   **WINDOW_GUI_NORMAL or WINDOW_GUI_EXPANDED:** WINDOW_GUI_NORMAL is '
+    'the old way to draw the window\n'
+    'without statusbar and toolbar, whereas WINDOW_GUI_EXPANDED is a new '
+    'enhanced GUI.\n'
+    'By default, flags == WINDOW_AUTOSIZE | WINDOW_KEEPRATIO | '
+    'WINDOW_GUI_EXPANDED\n'
+    '\n'
+    '@param winname Name of the window in the window caption that may be used '
+    'as a window identifier.\n'
+    '@param flags Flags of the window. The supported flags are: '
+    '(cv::WindowFlags)']
+parse_name: cv.namedWindow with ['cv'] -> fullname:cv::namedWindow namespace:cv classpath: classname: name:namedWindow
+register (function) namedWindow (cv_namedWindow_String_int)
+
+--- Incoming ---
+[   'cv.destroyWindow',
+    'void',
+    [],
+    [['const String&', 'winname', '', []]],
+    None,
+    '@brief Destroys the specified window.\n'
+    '\n'
+    'The function destroyWindow destroys the window with the given name.\n'
+    '\n'
+    '@param winname Name of the window to be destroyed.']
+parse_name: cv.destroyWindow with ['cv'] -> fullname:cv::destroyWindow namespace:cv classpath: classname: name:destroyWindow
+register (function) destroyWindow (cv_destroyWindow_String)
+
+--- Incoming ---
+[   'cv.destroyAllWindows',
+    'void',
+    [],
+    [],
+    None,
+    '@brief Destroys all of the HighGUI windows.\n'
+    '\n'
+    'The function destroyAllWindows destroys all of the opened HighGUI '
+    'windows.']
+parse_name: cv.destroyAllWindows with ['cv'] -> fullname:cv::destroyAllWindows namespace:cv classpath: classname: name:destroyAllWindows
+register (function) destroyAllWindows (cv_destroyAllWindows)
+
+--- Incoming ---
+['cv.startWindowThread', 'int', [], [], None, '']
+parse_name: cv.startWindowThread with ['cv'] -> fullname:cv::startWindowThread namespace:cv classpath: classname: name:startWindowThread
+register (function) startWindowThread (cv_startWindowThread)
+
+--- Incoming ---
+[   'cv.waitKeyEx',
+    'int',
+    [],
+    [['int', 'delay', '0', []]],
+    None,
+    '@brief Similar to #waitKey, but returns full key code.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    'Key code is implementation specific and depends on used backend: '
+    'QT/GTK/Win32/etc']
+parse_name: cv.waitKeyEx with ['cv'] -> fullname:cv::waitKeyEx namespace:cv classpath: classname: name:waitKeyEx
+register (function) waitKeyEx (cv_waitKeyEx_int)
+
+--- Incoming ---
+[   'cv.waitKey',
+    'int',
+    [],
+    [['int', 'delay', '0', []]],
+    None,
+    '@brief Waits for a pressed key.\n'
+    '\n'
+    'The function waitKey waits for a key event infinitely (when '
+    '\\f$\\texttt{delay}\\leq 0\\f$ ) or for delay\n'
+    'milliseconds, when it is positive. Since the OS has a minimum time '
+    'between switching threads, the\n'
+    'function will not wait exactly delay ms, it will wait at least delay ms, '
+    'depending on what else is\n'
+    'running on your computer at that time. It returns the code of the pressed '
+    'key or -1 if no key was\n'
+    'pressed before the specified time had elapsed.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    'This function is the only method in HighGUI that can fetch and handle '
+    'events, so it needs to be\n'
+    'called periodically for normal event processing unless HighGUI is used '
+    'within an environment that\n'
+    'takes care of event processing.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    'The function only works if there is at least one HighGUI window created '
+    'and the window is active.\n'
+    'If there are several HighGUI windows, any of them can be active.\n'
+    '\n'
+    '@param delay Delay in milliseconds. 0 is the special value that means '
+    '"forever".']
+parse_name: cv.waitKey with ['cv'] -> fullname:cv::waitKey namespace:cv classpath: classname: name:waitKey
+register (function) waitKey (cv_waitKey_int)
+
+--- Incoming ---
+[   'cv.imshow',
+    'void',
+    [],
+    [['const String&', 'winname', '', []], ['InputArray', 'mat', '', []]],
+    None,
+    '@brief Displays an image in the specified window.\n'
+    '\n'
+    'The function imshow displays an image in the specified window. If the '
+    'window was created with the\n'
+    'cv::WINDOW_AUTOSIZE flag, the image is shown with its original size, '
+    'however it is still limited by the screen resolution.\n'
+    'Otherwise, the image is scaled to fit the window. The function may scale '
+    'the image, depending on its depth:\n'
+    '\n'
+    '-   If the image is 8-bit unsigned, it is displayed as is.\n'
+    '-   If the image is 16-bit unsigned or 32-bit integer, the pixels are '
+    'divided by 256. That is, the\n'
+    'value range [0,255\\*256] is mapped to [0,255].\n'
+    '-   If the image is 32-bit or 64-bit floating-point, the pixel values are '
+    'multiplied by 255. That is, the\n'
+    'value range [0,1] is mapped to [0,255].\n'
+    '\n'
+    'If window was created with OpenGL support, cv::imshow also support '
+    'ogl::Buffer , ogl::Texture2D and\n'
+    'cuda::GpuMat as input.\n'
+    '\n'
+    'If the window was not created before this function, it is assumed '
+    'creating a window with cv::WINDOW_AUTOSIZE.\n'
+    '\n'
+    'If you need to show an image that is bigger than the screen resolution, '
+    'you will need to call namedWindow("", WINDOW_NORMAL) before the imshow.\n'
+    '\n'
+    '@note This function should be followed by cv::waitKey function which '
+    'displays the image for specified\n'
+    "milliseconds. Otherwise, it won't display the image. For example, "
+    '**waitKey(0)** will display the window\n'
+    'infinitely until any keypress (it is suitable for image display). '
+    '**waitKey(25)** will display a frame\n'
+    'for 25 ms, after which display will be automatically closed. (If you put '
+    'it in a loop to read\n'
+    'videos, it will display the video frame-by-frame)\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '[__Windows Backend Only__] Pressing Ctrl+C will copy the image to the '
+    'clipboard.\n'
+    '\n'
+    '[__Windows Backend Only__] Pressing Ctrl+S will show a dialog to save the '
+    'image.\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param mat Image to be shown.']
+parse_name: cv.imshow with ['cv'] -> fullname:cv::imshow namespace:cv classpath: classname: name:imshow
+register (function) imshow (cv_imshow_String__InputArray)
+
+--- Incoming ---
+[   'cv.resizeWindow',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['int', 'width', '', []],
+        ['int', 'height', '', []]],
+    None,
+    '@brief Resizes window to the specified size\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '-   The specified window size is for the image area. Toolbars are not '
+    'counted.\n'
+    '-   Only windows created without cv::WINDOW_AUTOSIZE flag can be '
+    'resized.\n'
+    '\n'
+    '@param winname Window name.\n'
+    '@param width The new window width.\n'
+    '@param height The new window height.']
+parse_name: cv.resizeWindow with ['cv'] -> fullname:cv::resizeWindow namespace:cv classpath: classname: name:resizeWindow
+register (function) resizeWindow (cv_resizeWindow_String_int_int)
+
+--- Incoming ---
+[   'cv.resizeWindow',
+    'void',
+    [],
+    [['const String&', 'winname', '', []], ['const cv::Size&', 'size', '', []]],
+    None,
+    '@overload\n@param winname Window name.\n@param size The new window size.']
+parse_name: cv.resizeWindow with ['cv'] -> fullname:cv::resizeWindow namespace:cv classpath: classname: name:resizeWindow
+register (function) resizeWindow (cv_resizeWindow_String_Size)
+
+--- Incoming ---
+[   'cv.moveWindow',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['int', 'x', '', []],
+        ['int', 'y', '', []]],
+    None,
+    '@brief Moves window to the specified position\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param x The new x-coordinate of the window.\n'
+    '@param y The new y-coordinate of the window.']
+parse_name: cv.moveWindow with ['cv'] -> fullname:cv::moveWindow namespace:cv classpath: classname: name:moveWindow
+register (function) moveWindow (cv_moveWindow_String_int_int)
+
+--- Incoming ---
+[   'cv.setWindowProperty',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['int', 'prop_id', '', []],
+        ['double', 'prop_value', '', []]],
+    None,
+    '@brief Changes parameters of a window dynamically.\n'
+    '\n'
+    'The function setWindowProperty enables changing properties of a window.\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param prop_id Window property to edit. The supported operation flags '
+    'are: (cv::WindowPropertyFlags)\n'
+    '@param prop_value New value of the window property. The supported flags '
+    'are: (cv::WindowFlags)']
+parse_name: cv.setWindowProperty with ['cv'] -> fullname:cv::setWindowProperty namespace:cv classpath: classname: name:setWindowProperty
+register (function) setWindowProperty (cv_setWindowProperty_String_int_double)
+
+--- Incoming ---
+[   'cv.setWindowTitle',
+    'void',
+    [],
+    [['const String&', 'winname', '', []], ['const String&', 'title', '', []]],
+    None,
+    '@brief Updates window title\n'
+    '@param winname Name of the window.\n'
+    '@param title New title.']
+parse_name: cv.setWindowTitle with ['cv'] -> fullname:cv::setWindowTitle namespace:cv classpath: classname: name:setWindowTitle
+register (function) setWindowTitle (cv_setWindowTitle_String_String)
+
+--- Incoming ---
+[   'cv.getWindowProperty',
+    'double',
+    [],
+    [['const String&', 'winname', '', []], ['int', 'prop_id', '', []]],
+    None,
+    '@brief Provides parameters of a window.\n'
+    '\n'
+    'The function getWindowProperty returns properties of a window.\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param prop_id Window property to retrieve. The following operation flags '
+    'are available: (cv::WindowPropertyFlags)\n'
+    '\n'
+    '@sa setWindowProperty']
+parse_name: cv.getWindowProperty with ['cv'] -> fullname:cv::getWindowProperty namespace:cv classpath: classname: name:getWindowProperty
+register (function) getWindowProperty (cv_getWindowProperty_String_int)
+
+--- Incoming ---
+[   'cv.getWindowImageRect',
+    'Rect',
+    [],
+    [['const String&', 'winname', '', []]],
+    None,
+    '@brief Provides rectangle of image in the window.\n'
+    '\n'
+    'The function getWindowImageRect returns the client screen coordinates, '
+    'width and height of the image rendering area.\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '\n'
+    '@sa resizeWindow moveWindow']
+parse_name: cv.getWindowImageRect with ['cv'] -> fullname:cv::getWindowImageRect namespace:cv classpath: classname: name:getWindowImageRect
+register (function) getWindowImageRect (cv_getWindowImageRect_String)
+
+--- Incoming ---
+[   'cv.setMouseCallback',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['MouseCallback', 'onMouse', '', []],
+        ['void*', 'userdata', '0', []]],
+    None,
+    '@brief Sets mouse handler for the specified window\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param onMouse Callback function for mouse events. See OpenCV samples on '
+    'how to specify and use the callback.\n'
+    '@param userdata The optional parameter passed to the callback.']
+parse_name: cv.setMouseCallback with ['cv'] -> fullname:cv::setMouseCallback namespace:cv classpath: classname: name:setMouseCallback
+register (function) setMouseCallback (cv_setMouseCallback_String_MouseCallback_void_X)
+
+--- Incoming ---
+[   'cv.getMouseWheelDelta',
+    'int',
+    [],
+    [['int', 'flags', '', []]],
+    None,
+    '@brief Gets the mouse-wheel motion delta, when handling mouse-wheel '
+    'events cv::EVENT_MOUSEWHEEL and\n'
+    'cv::EVENT_MOUSEHWHEEL.\n'
+    '\n'
+    'For regular mice with a scroll-wheel, delta will be a multiple of 120. '
+    'The value 120 corresponds to\n'
+    'a one notch rotation of the wheel or the threshold for action to be taken '
+    'and one such action should\n'
+    'occur for each delta. Some high-precision mice with higher-resolution '
+    'freely-rotating wheels may\n'
+    'generate smaller values.\n'
+    '\n'
+    'For cv::EVENT_MOUSEWHEEL positive and negative values mean forward and '
+    'backward scrolling,\n'
+    'respectively. For cv::EVENT_MOUSEHWHEEL, where available, positive and '
+    'negative values mean right and\n'
+    'left scrolling, respectively.\n'
+    '\n'
+    'With the C API, the macro CV_GET_WHEEL_DELTA(flags) can be used '
+    'alternatively.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    'Mouse-wheel events are currently supported only on Windows.\n'
+    '\n'
+    '@param flags The mouse callback flags parameter.']
+parse_name: cv.getMouseWheelDelta with ['cv'] -> fullname:cv::getMouseWheelDelta namespace:cv classpath: classname: name:getMouseWheelDelta
+register (function) getMouseWheelDelta (cv_getMouseWheelDelta_int)
+
+--- Incoming ---
+[   'cv.selectROI',
+    'Rect',
+    [],
+    [   ['const String&', 'windowName', '', []],
+        ['InputArray', 'img', '', []],
+        ['bool', 'showCrosshair', 'true', []],
+        ['bool', 'fromCenter', 'false', []]],
+    None,
+    '@brief Selects ROI on the given image.\n'
+    'Function creates a window and allows user to select a ROI using mouse.\n'
+    'Controls: use `space` or `enter` to finish selection, use key `c` to '
+    'cancel selection (function will return the zero cv::Rect).\n'
+    '\n'
+    '@param windowName name of the window where selection process will be '
+    'shown.\n'
+    '@param img image to select a ROI.\n'
+    '@param showCrosshair if true crosshair of selection rectangle will be '
+    'shown.\n'
+    '@param fromCenter if true center of selection will match initial mouse '
+    'position. In opposite case a corner of\n'
+    'selection rectangle will correspont to the initial mouse position.\n'
+    '@return selected ROI or empty rect if selection canceled.\n'
+    '\n'
+    "@note The function sets it's own mouse callback for specified window "
+    'using cv::setMouseCallback(windowName, ...).\n'
+    'After finish of work an empty callback will be set for the used window.']
+parse_name: cv.selectROI with ['cv'] -> fullname:cv::selectROI namespace:cv classpath: classname: name:selectROI
+register (function) selectROI (cv_selectROI_String__InputArray_bool_bool)
+
+--- Incoming ---
+[   'cv.selectROI',
+    'Rect',
+    [],
+    [   ['InputArray', 'img', '', []],
+        ['bool', 'showCrosshair', 'true', []],
+        ['bool', 'fromCenter', 'false', []]],
+    None,
+    '@overload']
+parse_name: cv.selectROI with ['cv'] -> fullname:cv::selectROI namespace:cv classpath: classname: name:selectROI
+register (function) selectROI (cv_selectROI__InputArray_bool_bool)
+
+--- Incoming ---
+[   'cv.selectROIs',
+    'void',
+    [],
+    [   ['const String&', 'windowName', '', []],
+        ['InputArray', 'img', '', []],
+        ['std::vector<Rect>&', 'boundingBoxes', '', []],
+        ['bool', 'showCrosshair', 'true', []],
+        ['bool', 'fromCenter', 'false', []]],
+    None,
+    '@brief Selects ROIs on the given image.\n'
+    'Function creates a window and allows user to select a ROIs using mouse.\n'
+    'Controls: use `space` or `enter` to finish current selection and start a '
+    'new one,\n'
+    'use `esc` to terminate multiple ROI selection process.\n'
+    '\n'
+    '@param windowName name of the window where selection process will be '
+    'shown.\n'
+    '@param img image to select a ROI.\n'
+    '@param boundingBoxes selected ROIs.\n'
+    '@param showCrosshair if true crosshair of selection rectangle will be '
+    'shown.\n'
+    '@param fromCenter if true center of selection will match initial mouse '
+    'position. In opposite case a corner of\n'
+    'selection rectangle will correspont to the initial mouse position.\n'
+    '\n'
+    "@note The function sets it's own mouse callback for specified window "
+    'using cv::setMouseCallback(windowName, ...).\n'
+    'After finish of work an empty callback will be set for the used window.']
+parse_name: cv.selectROIs with ['cv'] -> fullname:cv::selectROIs namespace:cv classpath: classname: name:selectROIs
+register (function) selectROIs (cv_selectROIs_String__InputArray_VectorOfRect_bool_bool)
+
+--- Incoming ---
+[   'cv.createTrackbar',
+    'int',
+    [],
+    [   ['const String&', 'trackbarname', '', []],
+        ['const String&', 'winname', '', []],
+        ['int*', 'value', '', []],
+        ['int', 'count', '', []],
+        ['TrackbarCallback', 'onChange', '0', []],
+        ['void*', 'userdata', '0', []]],
+    None,
+    '@brief Creates a trackbar and attaches it to the specified window.\n'
+    '\n'
+    'The function createTrackbar creates a trackbar (a slider or range '
+    'control) with the specified name\n'
+    'and range, assigns a variable value to be a position synchronized with '
+    'the trackbar and specifies\n'
+    'the callback function onChange to be called on the trackbar position '
+    'change. The created trackbar is\n'
+    'displayed in the specified window winname.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '[__Qt Backend Only__] winname can be empty if the trackbar should be '
+    'attached to the\n'
+    'control panel.\n'
+    '\n'
+    'Clicking the label of each trackbar enables editing the trackbar values '
+    'manually.\n'
+    '\n'
+    '@param trackbarname Name of the created trackbar.\n'
+    '@param winname Name of the window that will be used as a parent of the '
+    'created trackbar.\n'
+    '@param value Optional pointer to an integer variable whose value reflects '
+    'the position of the\n'
+    'slider. Upon creation, the slider position is defined by this variable.\n'
+    '@param count Maximal position of the slider. The minimal position is '
+    'always 0.\n'
+    '@param onChange Pointer to the function to be called every time the '
+    'slider changes position. This\n'
+    'function should be prototyped as void Foo(int,void\\*); , where the first '
+    'parameter is the trackbar\n'
+    'position and the second parameter is the user data (see the next '
+    'parameter). If the callback is\n'
+    'the NULL pointer, no callbacks are called, but only value is updated.\n'
+    '@param userdata User data that is passed as is to the callback. It can be '
+    'used to handle trackbar\n'
+    'events without using global variables.']
+parse_name: cv.createTrackbar with ['cv'] -> fullname:cv::createTrackbar namespace:cv classpath: classname: name:createTrackbar
+register (function) createTrackbar (cv_createTrackbar_String_String_int_X_int_TrackbarCallback_void_X)
+
+--- Incoming ---
+[   'cv.getTrackbarPos',
+    'int',
+    [],
+    [   ['const String&', 'trackbarname', '', []],
+        ['const String&', 'winname', '', []]],
+    None,
+    '@brief Returns the trackbar position.\n'
+    '\n'
+    'The function returns the current position of the specified trackbar.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '[__Qt Backend Only__] winname can be empty if the trackbar is attached to '
+    'the control\n'
+    'panel.\n'
+    '\n'
+    '@param trackbarname Name of the trackbar.\n'
+    '@param winname Name of the window that is the parent of the trackbar.']
+parse_name: cv.getTrackbarPos with ['cv'] -> fullname:cv::getTrackbarPos namespace:cv classpath: classname: name:getTrackbarPos
+register (function) getTrackbarPos (cv_getTrackbarPos_String_String)
+
+--- Incoming ---
+[   'cv.setTrackbarPos',
+    'void',
+    [],
+    [   ['const String&', 'trackbarname', '', []],
+        ['const String&', 'winname', '', []],
+        ['int', 'pos', '', []]],
+    None,
+    '@brief Sets the trackbar position.\n'
+    '\n'
+    'The function sets the position of the specified trackbar in the specified '
+    'window.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '[__Qt Backend Only__] winname can be empty if the trackbar is attached to '
+    'the control\n'
+    'panel.\n'
+    '\n'
+    '@param trackbarname Name of the trackbar.\n'
+    '@param winname Name of the window that is the parent of trackbar.\n'
+    '@param pos New position.']
+parse_name: cv.setTrackbarPos with ['cv'] -> fullname:cv::setTrackbarPos namespace:cv classpath: classname: name:setTrackbarPos
+register (function) setTrackbarPos (cv_setTrackbarPos_String_String_int)
+
+--- Incoming ---
+[   'cv.setTrackbarMax',
+    'void',
+    [],
+    [   ['const String&', 'trackbarname', '', []],
+        ['const String&', 'winname', '', []],
+        ['int', 'maxval', '', []]],
+    None,
+    '@brief Sets the trackbar maximum position.\n'
+    '\n'
+    'The function sets the maximum position of the specified trackbar in the '
+    'specified window.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '[__Qt Backend Only__] winname can be empty if the trackbar is attached to '
+    'the control\n'
+    'panel.\n'
+    '\n'
+    '@param trackbarname Name of the trackbar.\n'
+    '@param winname Name of the window that is the parent of trackbar.\n'
+    '@param maxval New maximum position.']
+parse_name: cv.setTrackbarMax with ['cv'] -> fullname:cv::setTrackbarMax namespace:cv classpath: classname: name:setTrackbarMax
+register (function) setTrackbarMax (cv_setTrackbarMax_String_String_int)
+
+--- Incoming ---
+[   'cv.setTrackbarMin',
+    'void',
+    [],
+    [   ['const String&', 'trackbarname', '', []],
+        ['const String&', 'winname', '', []],
+        ['int', 'minval', '', []]],
+    None,
+    '@brief Sets the trackbar minimum position.\n'
+    '\n'
+    'The function sets the minimum position of the specified trackbar in the '
+    'specified window.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '[__Qt Backend Only__] winname can be empty if the trackbar is attached to '
+    'the control\n'
+    'panel.\n'
+    '\n'
+    '@param trackbarname Name of the trackbar.\n'
+    '@param winname Name of the window that is the parent of trackbar.\n'
+    '@param minval New minimum position.']
+parse_name: cv.setTrackbarMin with ['cv'] -> fullname:cv::setTrackbarMin namespace:cv classpath: classname: name:setTrackbarMin
+register (function) setTrackbarMin (cv_setTrackbarMin_String_String_int)
+
+--- Incoming ---
+[   'cv.imshow',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['const ogl::Texture2D&', 'tex', '', []]],
+    None,
+    '@brief Displays OpenGL 2D texture in the specified window.\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param tex OpenGL 2D texture data.']
+parse_name: cv.imshow with ['cv'] -> fullname:cv::imshow namespace:cv classpath: classname: name:imshow
+Registering an unknown type: ogl::Texture2D
+register (function) imshow (cv_imshow_String_ogl_Texture2D)
+
+--- Incoming ---
+[   'cv.setOpenGlDrawCallback',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['OpenGlDrawCallback', 'onOpenGlDraw', '', []],
+        ['void*', 'userdata', '0', []]],
+    None,
+    '@brief Sets a callback function to be called to draw on top of displayed '
+    'image.\n'
+    '\n'
+    'The function setOpenGlDrawCallback can be used to draw 3D data on the '
+    'window. See the example of\n'
+    'callback function below:\n'
+    '@code\n'
+    'void on_opengl(void* param)\n'
+    '{\n'
+    'glLoadIdentity();\n'
+    '\n'
+    'glTranslated(0.0, 0.0, -1.0);\n'
+    '\n'
+    'glRotatef( 55, 1, 0, 0 );\n'
+    'glRotatef( 45, 0, 1, 0 );\n'
+    'glRotatef( 0, 0, 0, 1 );\n'
+    '\n'
+    'static const int coords[6][4][3] = {\n'
+    '{ { +1, -1, -1 }, { -1, -1, -1 }, { -1, +1, -1 }, { +1, +1, -1 } },\n'
+    '{ { +1, +1, -1 }, { -1, +1, -1 }, { -1, +1, +1 }, { +1, +1, +1 } },\n'
+    '{ { +1, -1, +1 }, { +1, -1, -1 }, { +1, +1, -1 }, { +1, +1, +1 } },\n'
+    '{ { -1, -1, -1 }, { -1, -1, +1 }, { -1, +1, +1 }, { -1, +1, -1 } },\n'
+    '{ { +1, -1, +1 }, { -1, -1, +1 }, { -1, -1, -1 }, { +1, -1, -1 } },\n'
+    '{ { -1, -1, +1 }, { +1, -1, +1 }, { +1, +1, +1 }, { -1, +1, +1 } }\n'
+    '};\n'
+    '\n'
+    'for (int i = 0; i < 6; ++i) {\n'
+    'glColor3ub( i*20, 100+i*10, i*42 );\n'
+    'glBegin(GL_QUADS);\n'
+    'for (int j = 0; j < 4; ++j) {\n'
+    'glVertex3d(0.2 * coords[i][j][0], 0.2 * coords[i][j][1], 0.2 * '
+    'coords[i][j][2]);\n'
+    '}\n'
+    'glEnd();\n'
+    '}\n'
+    '}\n'
+    '@endcode\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param onOpenGlDraw Pointer to the function to be called every frame. '
+    'This function should be\n'
+    'prototyped as void Foo(void\\*) .\n'
+    '@param userdata Pointer passed to the callback function.(__Optional__)']
+parse_name: cv.setOpenGlDrawCallback with ['cv'] -> fullname:cv::setOpenGlDrawCallback namespace:cv classpath: classname: name:setOpenGlDrawCallback
+register (function) setOpenGlDrawCallback (cv_setOpenGlDrawCallback_String_OpenGlDrawCallback_void_X)
+
+--- Incoming ---
+[   'cv.setOpenGlContext',
+    'void',
+    [],
+    [['const String&', 'winname', '', []]],
+    None,
+    '@brief Sets the specified window as current OpenGL context.\n'
+    '\n'
+    '@param winname Name of the window.']
+parse_name: cv.setOpenGlContext with ['cv'] -> fullname:cv::setOpenGlContext namespace:cv classpath: classname: name:setOpenGlContext
+register (function) setOpenGlContext (cv_setOpenGlContext_String)
+
+--- Incoming ---
+[   'cv.updateWindow',
+    'void',
+    [],
+    [['const String&', 'winname', '', []]],
+    None,
+    '@brief Force window to redraw its context and call draw callback ( See '
+    'cv::setOpenGlDrawCallback ).\n'
+    '\n'
+    '@param winname Name of the window.']
+parse_name: cv.updateWindow with ['cv'] -> fullname:cv::updateWindow namespace:cv classpath: classname: name:updateWindow
+register (function) updateWindow (cv_updateWindow_String)
+
+--- Incoming ---
+[   'struct cv.QtFont',
+    '',
+    [],
+    [],
+    None,
+    '@brief QtFont available only for Qt. See cv::fontQt']
+parse_name: struct cv.QtFont with ['cv'] -> fullname:cv::QtFont namespace:cv classpath: classname: name:QtFont
+register class cv::QtFont (['struct cv.QtFont', '', [], [], None, '@brief QtFont available only for Qt. See cv::fontQt'])
+
+--- Incoming ---
+[   'cv.fontQt',
+    'QtFont',
+    [],
+    [   ['const String&', 'nameFont', '', []],
+        ['int', 'pointSize', '-1', []],
+        ['Scalar', 'color', 'Scalar::all(0)', []],
+        ['int', 'weight', 'QT_FONT_NORMAL', []],
+        ['int', 'style', 'QT_STYLE_NORMAL', []],
+        ['int', 'spacing', '0', []]],
+    None,
+    '@brief Creates the font to draw a text on an image.\n'
+    '\n'
+    'The function fontQt creates a cv::QtFont object. This cv::QtFont is not '
+    'compatible with putText .\n'
+    '\n'
+    'A basic usage of this function is the following: :\n'
+    '@code\n'
+    'QtFont font = fontQt("Times");\n'
+    'addText( img1, "Hello World !", Point(50,50), font);\n'
+    '@endcode\n'
+    '\n'
+    '@param nameFont Name of the font. The name should match the name of a '
+    'system font (such as\n'
+    '*Times*). If the font is not found, a default one is used.\n'
+    '@param pointSize Size of the font. If not specified, equal zero or '
+    'negative, the point size of the\n'
+    'font is set to a system-dependent default value. Generally, this is 12 '
+    'points.\n'
+    '@param color Color of the font in BGRA where A = 255 is fully '
+    'transparent. Use the macro CV_RGB\n'
+    'for simplicity.\n'
+    '@param weight Font weight. Available operation flags are : '
+    'cv::QtFontWeights You can also specify a positive integer for better '
+    'control.\n'
+    '@param style Font style. Available operation flags are : '
+    'cv::QtFontStyles\n'
+    '@param spacing Spacing between characters. It can be negative or '
+    'positive.']
+parse_name: cv.fontQt with ['cv'] -> fullname:cv::fontQt namespace:cv classpath: classname: name:fontQt
+register (function) fontQt (cv_fontQt_String_int_Scalar_int_int_int)
+
+--- Incoming ---
+[   'cv.addText',
+    'void',
+    [],
+    [   ['const Mat&', 'img', '', []],
+        ['const String&', 'text', '', []],
+        ['Point', 'org', '', []],
+        ['const QtFont&', 'font', '', []]],
+    None,
+    '@brief Draws a text on the image.\n'
+    '\n'
+    'The function addText draws *text* on the image *img* using a specific '
+    'font *font* (see example cv::fontQt\n'
+    ')\n'
+    '\n'
+    '@param img 8-bit 3-channel image where the text should be drawn.\n'
+    '@param text Text to write on an image.\n'
+    '@param org Point(x,y) where the text should start on an image.\n'
+    '@param font Font to use to draw a text.']
+parse_name: cv.addText with ['cv'] -> fullname:cv::addText namespace:cv classpath: classname: name:addText
+register (function) addText (cv_addText_Mat_String_Point_QtFont)
+
+--- Incoming ---
+[   'cv.addText',
+    'void',
+    [],
+    [   ['const Mat&', 'img', '', []],
+        ['const String&', 'text', '', []],
+        ['Point', 'org', '', []],
+        ['const String&', 'nameFont', '', []],
+        ['int', 'pointSize', '-1', []],
+        ['Scalar', 'color', 'Scalar::all(0)', []],
+        ['int', 'weight', 'QT_FONT_NORMAL', []],
+        ['int', 'style', 'QT_STYLE_NORMAL', []],
+        ['int', 'spacing', '0', []]],
+    None,
+    '@brief Draws a text on the image.\n'
+    '\n'
+    '@param img 8-bit 3-channel image where the text should be drawn.\n'
+    '@param text Text to write on an image.\n'
+    '@param org Point(x,y) where the text should start on an image.\n'
+    '@param nameFont Name of the font. The name should match the name of a '
+    'system font (such as\n'
+    '*Times*). If the font is not found, a default one is used.\n'
+    '@param pointSize Size of the font. If not specified, equal zero or '
+    'negative, the point size of the\n'
+    'font is set to a system-dependent default value. Generally, this is 12 '
+    'points.\n'
+    '@param color Color of the font in BGRA where A = 255 is fully '
+    'transparent.\n'
+    '@param weight Font weight. Available operation flags are : '
+    'cv::QtFontWeights You can also specify a positive integer for better '
+    'control.\n'
+    '@param style Font style. Available operation flags are : '
+    'cv::QtFontStyles\n'
+    '@param spacing Spacing between characters. It can be negative or '
+    'positive.']
+parse_name: cv.addText with ['cv'] -> fullname:cv::addText namespace:cv classpath: classname: name:addText
+register (function) addText (cv_addText_Mat_String_Point_String_int_Scalar_int_int_int)
+
+--- Incoming ---
+[   'cv.displayOverlay',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['const String&', 'text', '', []],
+        ['int', 'delayms', '0', []]],
+    None,
+    '@brief Displays a text on a window image as an overlay for a specified '
+    'duration.\n'
+    '\n'
+    'The function displayOverlay displays useful information/tips on top of '
+    'the window for a certain\n'
+    'amount of time *delayms*. The function does not modify the image, '
+    'displayed in the window, that is,\n'
+    'after the specified delay the original content of the window is '
+    'restored.\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param text Overlay text to write on a window image.\n'
+    '@param delayms The period (in milliseconds), during which the overlay '
+    'text is displayed. If this\n'
+    'function is called before the previous overlay text timed out, the timer '
+    'is restarted and the text\n'
+    'is updated. If this value is zero, the text never disappears.']
+parse_name: cv.displayOverlay with ['cv'] -> fullname:cv::displayOverlay namespace:cv classpath: classname: name:displayOverlay
+register (function) displayOverlay (cv_displayOverlay_String_String_int)
+
+--- Incoming ---
+[   'cv.displayStatusBar',
+    'void',
+    [],
+    [   ['const String&', 'winname', '', []],
+        ['const String&', 'text', '', []],
+        ['int', 'delayms', '0', []]],
+    None,
+    '@brief Displays a text on the window statusbar during the specified '
+    'period of time.\n'
+    '\n'
+    'The function displayStatusBar displays useful information/tips on top of '
+    'the window for a certain\n'
+    'amount of time *delayms* . This information is displayed on the window '
+    'statusbar (the window must be\n'
+    'created with the CV_GUI_EXPANDED flags).\n'
+    '\n'
+    '@param winname Name of the window.\n'
+    '@param text Text to write on the window statusbar.\n'
+    '@param delayms Duration (in milliseconds) to display the text. If this '
+    'function is called before\n'
+    'the previous text timed out, the timer is restarted and the text is '
+    'updated. If this value is\n'
+    'zero, the text never disappears.']
+parse_name: cv.displayStatusBar with ['cv'] -> fullname:cv::displayStatusBar namespace:cv classpath: classname: name:displayStatusBar
+register (function) displayStatusBar (cv_displayStatusBar_String_String_int)
+
+--- Incoming ---
+[   'cv.saveWindowParameters',
+    'void',
+    [],
+    [['const String&', 'windowName', '', []]],
+    None,
+    '@brief Saves parameters of the specified window.\n'
+    '\n'
+    'The function saveWindowParameters saves size, location, flags, trackbars '
+    'value, zoom and panning\n'
+    'location of the window windowName.\n'
+    '\n'
+    '@param windowName Name of the window.']
+parse_name: cv.saveWindowParameters with ['cv'] -> fullname:cv::saveWindowParameters namespace:cv classpath: classname: name:saveWindowParameters
+register (function) saveWindowParameters (cv_saveWindowParameters_String)
+
+--- Incoming ---
+[   'cv.loadWindowParameters',
+    'void',
+    [],
+    [['const String&', 'windowName', '', []]],
+    None,
+    '@brief Loads parameters of the specified window.\n'
+    '\n'
+    'The function loadWindowParameters loads size, location, flags, trackbars '
+    'value, zoom and panning\n'
+    'location of the window windowName.\n'
+    '\n'
+    '@param windowName Name of the window.']
+parse_name: cv.loadWindowParameters with ['cv'] -> fullname:cv::loadWindowParameters namespace:cv classpath: classname: name:loadWindowParameters
+register (function) loadWindowParameters (cv_loadWindowParameters_String)
+
+--- Incoming ---
+[   'cv.startLoop',
+    'int',
+    [],
+    [   ['int (*pt2Func)(int argc@comma@ char *argv[])', '', '', []],
+        ['int', 'argc', '', []],
+        ['char*[]', 'argv', '', []]],
+    None,
+    '']
+parse_name: cv.startLoop with ['cv'] -> fullname:cv::startLoop namespace:cv classpath: classname: name:startLoop
+Registering an unknown type: int (*pt2Func)(int argc@comma@ char *argv[])
+register (function) startLoop (cv_startLoop_int (*pt2Func)(int argc@comma@ char *argv[])_int_char*[])
+
+--- Incoming ---
+['cv.stopLoop', 'void', [], [], None, '']
+parse_name: cv.stopLoop with ['cv'] -> fullname:cv::stopLoop namespace:cv classpath: classname: name:stopLoop
+register (function) stopLoop (cv_stopLoop)
+
+--- Incoming ---
+[   'cv.createButton',
+    'int',
+    [],
+    [   ['const String&', 'bar_name', '', []],
+        ['ButtonCallback', 'on_change', '', []],
+        ['void*', 'userdata', '0', []],
+        ['int', 'type', 'QT_PUSH_BUTTON', []],
+        ['bool', 'initial_button_state', 'false', []]],
+    None,
+    '@brief Attaches a button to the control panel.\n'
+    '\n'
+    'The function createButton attaches a button to the control panel. Each '
+    'button is added to a\n'
+    'buttonbar to the right of the last button. A new buttonbar is created if '
+    'nothing was attached to the\n'
+    'control panel before, or if the last element attached to the control '
+    'panel was a trackbar or if the\n'
+    'QT_NEW_BUTTONBAR flag is added to the type.\n'
+    '\n'
+    'See below various examples of the cv::createButton function call: :\n'
+    '@code\n'
+    'createButton("",callbackButton);//create a push button "button 0", that '
+    'will call callbackButton.\n'
+    'createButton("button2",callbackButton,NULL,QT_CHECKBOX,0);\n'
+    'createButton("button3",callbackButton,&value);\n'
+    'createButton("button5",callbackButton1,NULL,QT_RADIOBOX);\n'
+    'createButton("button6",callbackButton2,NULL,QT_PUSH_BUTTON,1);\n'
+    'createButton("button6",callbackButton2,NULL,QT_PUSH_BUTTON|QT_NEW_BUTTONBAR);// '
+    'create a push button in a new row\n'
+    '@endcode\n'
+    '\n'
+    '@param  bar_name Name of the button.\n'
+    '@param on_change Pointer to the function to be called every time the '
+    'button changes its state.\n'
+    'This function should be prototyped as void Foo(int state,\\*void); . '
+    '*state* is the current state\n'
+    'of the button. It could be -1 for a push button, 0 or 1 for a check/radio '
+    'box button.\n'
+    '@param userdata Pointer passed to the callback function.\n'
+    '@param type Optional type of the button. Available types are: '
+    '(cv::QtButtonTypes)\n'
+    '@param initial_button_state Default state of the button. Use for checkbox '
+    'and radiobox. Its\n'
+    'value could be 0 or 1. (__Optional__)']
+parse_name: cv.createButton with ['cv'] -> fullname:cv::createButton namespace:cv classpath: classname: name:createButton
+register (function) createButton (cv_createButton_String_ButtonCallback_void_X_int_bool)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/highgui/highgui.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'highgui': '\n@defgroup highgui High-level GUI\n\nWhile OpenCV was designed for use in full-scale applications and can be used within functionally\nrich UI frameworks (such as Qt\\*, WinForms\\*, or Cocoa\\*) or without any UI at all, sometimes there\nit is required to try functionality quickly and visualize the results. This is what the HighGUI\nmodule has been designed for.\n\nIt provides easy interface to:\n\n-   Create and manipulate windows that can display images and "remember" their content (no need to\nhandle repaint events from OS).\n-   Add trackbars to the windows, handle simple mouse events as well as keyboard commands.\n\n@{\n@defgroup highgui_opengl OpenGL support\n@defgroup highgui_qt Qt New Functions\n\n![image](pics/qtgui.png)\n\nThis figure explains new functionality implemented with Qt\\* GUI. The new GUI provides a statusbar,\na toolbar, and a control panel. The control panel can have trackbars and buttonbars attached to it.\nIf you cannot see the control panel, press Ctrl+P or right-click any Qt window and select **Display\nproperties window**.\n\n-   To attach a trackbar, the window name parameter must be NULL.\n\n-   To attach a buttonbar, a button must be created. If the last bar attached to the control panel\nis a buttonbar, the new button is added to the right of the last button. If the last bar\nattached to the control panel is a trackbar, or the control panel is empty, a new buttonbar is\ncreated. Then, a new button is attached to it.\n\nSee below the example used to generate the figure:\n@code\nint main(int argc, char *argv[])\n{\n\nint value = 50;\nint value2 = 0;\n\n\nnamedWindow("main1",WINDOW_NORMAL);\nnamedWindow("main2",WINDOW_AUTOSIZE | CV_GUI_NORMAL);\ncreateTrackbar( "track1", "main1", &value, 255,  NULL);\n\nString nameb1 = "button1";\nString nameb2 = "button2";\n\ncreateButton(nameb1,callbackButton,&nameb1,QT_CHECKBOX,1);\ncreateButton(nameb2,callbackButton,NULL,QT_CHECKBOX,0);\ncreateTrackbar( "track2", NULL, &value2, 255, NULL);\ncreateButton("button5",callbackButton1,NULL,QT_RADIOBOX,0);\ncreateButton("button6",callbackButton2,NULL,QT_RADIOBOX,1);\n\nsetMouseCallback( "main2",on_mouse,NULL );\n\nMat img1 = imread("files/flower.jpg");\nVideoCapture video;\nvideo.open("files/hockey.avi");\n\nMat img2,img3;\n\nwhile( waitKey(33) != 27 )\n{\nimg1.convertTo(img2,-1,1,value);\nvideo >> img3;\n\nimshow("main1",img2);\nimshow("main2",img3);\n}\n\ndestroyAllWindows();\n\nreturn 0;\n}\n@endcode\n\n\n@defgroup highgui_winrt WinRT support\n\nThis figure explains new functionality implemented with WinRT GUI. The new GUI provides an Image control,\nand a slider panel. Slider panel holds trackbars attached to it.\n\nSliders are attached below the image control. Every new slider is added below the previous one.\n\nSee below the example used to generate the figure:\n@code\nvoid sample_app::MainPage::ShowWindow()\n{\nstatic cv::String windowName("sample");\ncv::winrt_initContainer(this->cvContainer);\ncv::namedWindow(windowName); // not required\n\ncv::Mat image = cv::imread("Assets/sample.jpg");\ncv::Mat converted = cv::Mat(image.rows, image.cols, CV_8UC4);\ncv::cvtColor(image, converted, COLOR_BGR2BGRA);\ncv::imshow(windowName, converted); // this will create window if it hasn\'t been created before\n\nint state = 42;\ncv::TrackbarCallback callback = [](int pos, void* userdata)\n{\nif (pos == 0) {\ncv::destroyWindow(windowName);\n}\n};\ncv::TrackbarCallback callbackTwin = [](int pos, void* userdata)\n{\nif (pos >= 70) {\ncv::destroyAllWindows();\n}\n};\ncv::createTrackbar("Sample trackbar", windowName, &state, 100, callback);\ncv::createTrackbar("Twin brother", windowName, &state, 100, callbackTwin);\n}\n@endcode\n\n@defgroup highgui_c C API\n@}\n\n'}
+
+
+===== Generating... =====
+Generating func cv_addText_Mat_String_Point_QtFont
+Generating func cv_addText_Mat_String_Point_String_int_Scalar_int_int_int
+Generating func cv_createButton_String_ButtonCallback_void_X_int_bool
+Generating func cv_createTrackbar_String_String_int_X_int_TrackbarCallback_void_X
+Generating func cv_destroyAllWindows
+Generating func cv_destroyWindow_String
+Generating func cv_displayOverlay_String_String_int
+Generating func cv_displayStatusBar_String_String_int
+Generating func cv_fontQt_String_int_Scalar_int_int_int
+Generating func cv_getMouseWheelDelta_int
+Generating func cv_getTrackbarPos_String_String
+Generating func cv_getWindowImageRect_String
+Generating func cv_getWindowProperty_String_int
+Generating func cv_imshow_String__InputArray
+Generating func cv_imshow_String_ogl_Texture2D
+  ignored: can not map type Unknown[ogl::Texture2D] yet
+Generating func cv_loadWindowParameters_String
+Generating func cv_moveWindow_String_int_int
+Generating func cv_namedWindow_String_int
+Generating func cv_resizeWindow_String_Size
+Generating func cv_resizeWindow_String_int_int
+Generating func cv_saveWindowParameters_String
+Generating func cv_selectROI_String__InputArray_bool_bool
+Generating func cv_selectROI__InputArray_bool_bool
+Generating func cv_selectROIs_String__InputArray_VectorOfRect_bool_bool
+Generating func cv_setMouseCallback_String_MouseCallback_void_X
+Generating func cv_setOpenGlContext_String
+Generating func cv_setOpenGlDrawCallback_String_OpenGlDrawCallback_void_X
+Generating func cv_setTrackbarMax_String_String_int
+Generating func cv_setTrackbarMin_String_String_int
+Generating func cv_setTrackbarPos_String_String_int
+Generating func cv_setWindowProperty_String_int_double
+Generating func cv_setWindowTitle_String_String
+Generating func cv_startLoop_int (*pt2Func)(int argc@comma@ char *argv[])_int_char*[]
+  ignored: can not map type Unknown[int (*pt2Func)(int argc@comma@ char *argv[])] yet
+Generating func cv_startWindowThread
+Generating func cv_stopLoop
+Generating func cv_updateWindow_String
+Generating func cv_waitKeyEx_int
+Generating func cv_waitKey_int
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::ButtonCallback (ghost), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::MouseCallback (ghost), ignoring
+Ghost class cv::OpenGlDrawCallback (ghost), ignoring
+Generating box for cv::QtFont
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::TrackbarCallback (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

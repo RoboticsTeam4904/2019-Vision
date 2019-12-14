@@ -1,0 +1,58 @@
+FOUND FUNCs: 54
+
+PORTED FUNCs: 54
+
+PORTED: cv::sfm::KRtFromProjection (function)
+PORTED: cv::sfm::applyTransformationToPoints (function)
+PORTED: cv::sfm::computeOrientation (function)
+PORTED: cv::sfm::depth (function)
+PORTED: cv::sfm::essentialFromFundamental (function)
+PORTED: cv::sfm::essentialFromRt (function)
+PORTED: cv::sfm::euclideanToHomogeneous (function)
+PORTED: cv::sfm::fundamentalFromCorrespondences7PointRobust (function)
+PORTED: cv::sfm::fundamentalFromCorrespondences8PointRobust (function)
+PORTED: cv::sfm::fundamentalFromEssential (function)
+PORTED: cv::sfm::fundamentalFromProjections (function)
+PORTED: cv::sfm::homogeneousToEuclidean (function)
+PORTED: cv::sfm::importReconstruction (function)
+PORTED: cv::sfm::isotropicPreconditionerFromPoints (function)
+PORTED: cv::sfm::meanAndVarianceAlongRows (function)
+PORTED: cv::sfm::motionFromEssentialChooseSolution (function)
+PORTED: cv::sfm::motionFromEssential (function)
+PORTED: cv::sfm::normalizeFundamental (function)
+PORTED: cv::sfm::normalizeIsotropicPoints (function)
+PORTED: cv::sfm::normalizePoints (function)
+PORTED: cv::sfm::normalizedEightPointSolver (function)
+PORTED: cv::sfm::preconditionerFromPoints (function)
+PORTED: cv::sfm::projectionFromKRt (function)
+PORTED: cv::sfm::projectionsFromFundamental (function)
+PORTED: cv::sfm::reconstruct (function)
+PORTED: cv::sfm::reconstruct (function)
+PORTED: cv::sfm::reconstruct (function)
+PORTED: cv::sfm::reconstruct (function)
+PORTED: cv::sfm::relativeCameraMotion (function)
+PORTED: cv::sfm::skew (function)
+PORTED: cv::sfm::triangulatePoints (function)
+PORTED: cv::sfm::BaseSFM::run (method) cv::sfm::BaseSFM (trait) . run
+PORTED: cv::sfm::BaseSFM::run (method) cv::sfm::BaseSFM (trait) . run
+PORTED: cv::sfm::BaseSFM::run (method) cv::sfm::BaseSFM (trait) . run
+PORTED: cv::sfm::BaseSFM::run (method) cv::sfm::BaseSFM (trait) . run
+PORTED: cv::sfm::BaseSFM::getError (method) cv::sfm::BaseSFM (trait) . getError
+PORTED: cv::sfm::BaseSFM::getPoints (method) cv::sfm::BaseSFM (trait) . getPoints
+PORTED: cv::sfm::BaseSFM::getIntrinsics (method) cv::sfm::BaseSFM (trait) . getIntrinsics
+PORTED: cv::sfm::BaseSFM::getCameras (method) cv::sfm::BaseSFM (trait) . getCameras
+PORTED: cv::sfm::BaseSFM::setReconstructionOptions (method) cv::sfm::BaseSFM (trait) . setReconstructionOptions
+PORTED: cv::sfm::BaseSFM::setCameraIntrinsicOptions (method) cv::sfm::BaseSFM (trait) . setCameraIntrinsicOptions
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::run (method) cv::sfm::SFMLibmvEuclideanReconstruction . run
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::run (method) cv::sfm::SFMLibmvEuclideanReconstruction . run
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::run (method) cv::sfm::SFMLibmvEuclideanReconstruction . run
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::run (method) cv::sfm::SFMLibmvEuclideanReconstruction . run
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::getError (method) cv::sfm::SFMLibmvEuclideanReconstruction . getError
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::getPoints (method) cv::sfm::SFMLibmvEuclideanReconstruction . getPoints
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::getIntrinsics (method) cv::sfm::SFMLibmvEuclideanReconstruction . getIntrinsics
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::getCameras (method) cv::sfm::SFMLibmvEuclideanReconstruction . getCameras
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::setReconstructionOptions (method) cv::sfm::SFMLibmvEuclideanReconstruction . setReconstructionOptions
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::setCameraIntrinsicOptions (method) cv::sfm::SFMLibmvEuclideanReconstruction . setCameraIntrinsicOptions
+PORTED: cv::sfm::SFMLibmvEuclideanReconstruction::create (method) cv::sfm::SFMLibmvEuclideanReconstruction . create
+PORTED: cv::sfm::libmv_CameraIntrinsicsOptions::libmv_CameraIntrinsicsOptions (constructor) cv::sfm::libmv_CameraIntrinsicsOptions (simple) . new
+PORTED: cv::sfm::libmv_ReconstructionOptions::libmv_ReconstructionOptions (constructor) cv::sfm::libmv_ReconstructionOptions (simple) . new

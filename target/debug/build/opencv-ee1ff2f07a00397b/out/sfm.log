@@ -1,0 +1,1681 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm.hpp ================
+
+
+Namespaces: []
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/conditioning.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'cv.sfm.preconditionerFromPoints',
+    'void',
+    [],
+    [['InputArray', 'points', '', []], ['OutputArray', 'T', '', []]],
+    None,
+    'Point conditioning (non isotropic).\n'
+    '@param points Input vector of N-dimensional points.\n'
+    '@param T Output 3x3 transformation matrix.\n'
+    '\n'
+    'Computes the transformation matrix such that the two principal moments of '
+    'the set of points are equal to unity,\n'
+    'forming an approximately symmetric circular cloud of points of radius 1 '
+    'about the origin.\\n\n'
+    'Reference: @cite HartleyZ00 4.4.4 pag.109']
+parse_name: cv.sfm.preconditionerFromPoints with ['cv', 'cv::sfm'] -> fullname:cv::sfm::preconditionerFromPoints namespace:cv::sfm classpath: classname: name:preconditionerFromPoints
+register (function) preconditionerFromPoints (cv_sfm_preconditionerFromPoints__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.isotropicPreconditionerFromPoints',
+    'void',
+    [],
+    [['InputArray', 'points', '', []], ['OutputArray', 'T', '', []]],
+    None,
+    '@brief Point conditioning (isotropic).\n'
+    '@param points Input vector of N-dimensional points.\n'
+    '@param T Output 3x3 transformation matrix.\n'
+    '\n'
+    'Computes the transformation matrix such that each coordinate direction '
+    'will be scaled equally,\n'
+    'bringing the centroid to the origin with an average centroid '
+    '\\f$(1,1,1)^T\\f$.\\n\n'
+    'Reference: @cite HartleyZ00 4.4.4 pag.107.']
+parse_name: cv.sfm.isotropicPreconditionerFromPoints with ['cv', 'cv::sfm'] -> fullname:cv::sfm::isotropicPreconditionerFromPoints namespace:cv::sfm classpath: classname: name:isotropicPreconditionerFromPoints
+register (function) isotropicPreconditionerFromPoints (cv_sfm_isotropicPreconditionerFromPoints__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.applyTransformationToPoints',
+    'void',
+    [],
+    [   ['InputArray', 'points', '', []],
+        ['InputArray', 'T', '', []],
+        ['OutputArray', 'transformed_points', '', []]],
+    None,
+    '@brief Apply Transformation to points.\n'
+    '@param points Input vector of N-dimensional points.\n'
+    '@param T Input 3x3 transformation matrix such that \\f$x = T*X\\f$, where '
+    '\\f$X\\f$ are the points to transform and \\f$x\\f$ the transformed '
+    'points.\n'
+    '@param transformed_points Output vector of N-dimensional transformed '
+    'points.']
+parse_name: cv.sfm.applyTransformationToPoints with ['cv', 'cv::sfm'] -> fullname:cv::sfm::applyTransformationToPoints namespace:cv::sfm classpath: classname: name:applyTransformationToPoints
+register (function) applyTransformationToPoints (cv_sfm_applyTransformationToPoints__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.normalizePoints',
+    'void',
+    [],
+    [   ['InputArray', 'points', '', []],
+        ['OutputArray', 'normalized_points', '', []],
+        ['OutputArray', 'T', '', []]],
+    None,
+    '@brief This function normalizes points (non isotropic).\n'
+    '@param points Input vector of N-dimensional points.\n'
+    '@param normalized_points Output vector of the same N-dimensional points '
+    'but with mean 0 and average norm \\f$\\sqrt{2}\\f$.\n'
+    '@param T Output 3x3 transform matrix such that \\f$x = T*X\\f$, where '
+    '\\f$X\\f$ are the points to normalize and \\f$x\\f$ the normalized '
+    'points.\n'
+    '\n'
+    'Internally calls @ref preconditionerFromPoints in order to get the '
+    'scaling matrix before applying @ref applyTransformationToPoints.\n'
+    'This operation is an essential step before applying the DLT algorithm in '
+    'order to consider the result as optimal.\\n\n'
+    'Reference: @cite HartleyZ00 4.4.4 pag.109']
+parse_name: cv.sfm.normalizePoints with ['cv', 'cv::sfm'] -> fullname:cv::sfm::normalizePoints namespace:cv::sfm classpath: classname: name:normalizePoints
+register (function) normalizePoints (cv_sfm_normalizePoints__InputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.normalizeIsotropicPoints',
+    'void',
+    [],
+    [   ['InputArray', 'points', '', []],
+        ['OutputArray', 'normalized_points', '', []],
+        ['OutputArray', 'T', '', []]],
+    None,
+    '@brief This function normalizes points. (isotropic).\n'
+    '@param points Input vector of N-dimensional points.\n'
+    '@param normalized_points Output vector of the same N-dimensional points '
+    'but with mean 0 and average norm \\f$\\sqrt{2}\\f$.\n'
+    '@param T Output 3x3 transform matrix such that \\f$x = T*X\\f$, where '
+    '\\f$X\\f$ are the points to normalize and \\f$x\\f$ the normalized '
+    'points.\n'
+    '\n'
+    'Internally calls @ref preconditionerFromPoints in order to get the '
+    'scaling matrix before applying @ref applyTransformationToPoints.\n'
+    'This operation is an essential step before applying the DLT algorithm in '
+    'order to consider the result as optimal.\\n\n'
+    'Reference: @cite HartleyZ00 4.4.4 pag.107.']
+parse_name: cv.sfm.normalizeIsotropicPoints with ['cv', 'cv::sfm'] -> fullname:cv::sfm::normalizeIsotropicPoints namespace:cv::sfm classpath: classname: name:normalizeIsotropicPoints
+register (function) normalizeIsotropicPoints (cv_sfm_normalizeIsotropicPoints__InputArray__OutputArray__OutputArray)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/fundamental.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'cv.sfm.projectionsFromFundamental',
+    'void',
+    [],
+    [   ['InputArray', 'F', '', []],
+        ['OutputArray', 'P1', '', []],
+        ['OutputArray', 'P2', '', []]],
+    None,
+    '@brief Get projection matrices from Fundamental matrix\n'
+    '@param F Input 3x3 fundamental matrix.\n'
+    '@param P1 Output 3x4 one possible projection matrix.\n'
+    '@param P2 Output 3x4 another possible projection matrix.']
+parse_name: cv.sfm.projectionsFromFundamental with ['cv', 'cv::sfm'] -> fullname:cv::sfm::projectionsFromFundamental namespace:cv::sfm classpath: classname: name:projectionsFromFundamental
+register (function) projectionsFromFundamental (cv_sfm_projectionsFromFundamental__InputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.fundamentalFromProjections',
+    'void',
+    [],
+    [   ['InputArray', 'P1', '', []],
+        ['InputArray', 'P2', '', []],
+        ['OutputArray', 'F', '', []]],
+    None,
+    '@brief Get Fundamental matrix from Projection matrices.\n'
+    '@param P1 Input 3x4 first projection matrix.\n'
+    '@param P2 Input 3x4 second projection matrix.\n'
+    '@param F Output 3x3 fundamental matrix.']
+parse_name: cv.sfm.fundamentalFromProjections with ['cv', 'cv::sfm'] -> fullname:cv::sfm::fundamentalFromProjections namespace:cv::sfm classpath: classname: name:fundamentalFromProjections
+register (function) fundamentalFromProjections (cv_sfm_fundamentalFromProjections__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.normalizedEightPointSolver',
+    'void',
+    [],
+    [   ['InputArray', 'x1', '', []],
+        ['InputArray', 'x2', '', []],
+        ['OutputArray', 'F', '', []]],
+    None,
+    '@brief Estimate the fundamental matrix between two dataset of 2D point '
+    '(image coords space).\n'
+    '@param x1 Input 2xN Array of 2D points in view 1.\n'
+    '@param x2 Input 2xN Array of 2D points in view 2.\n'
+    '@param F Output 3x3 fundamental matrix.\n'
+    '\n'
+    'Uses the normalized 8-point fundamental matrix solver.\n'
+    "Reference: @cite HartleyZ00 11.2 pag.281 (x1 = x, x2 = x')"]
+parse_name: cv.sfm.normalizedEightPointSolver with ['cv', 'cv::sfm'] -> fullname:cv::sfm::normalizedEightPointSolver namespace:cv::sfm classpath: classname: name:normalizedEightPointSolver
+register (function) normalizedEightPointSolver (cv_sfm_normalizedEightPointSolver__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.relativeCameraMotion',
+    'void',
+    [],
+    [   ['InputArray', 'R1', '', []],
+        ['InputArray', 't1', '', []],
+        ['InputArray', 'R2', '', []],
+        ['InputArray', 't2', '', []],
+        ['OutputArray', 'R', '', []],
+        ['OutputArray', 't', '', []]],
+    None,
+    '@brief Computes the relative camera motion between two cameras.\n'
+    '@param R1 Input 3x3 first camera rotation matrix.\n'
+    '@param t1 Input 3x1 first camera translation vector.\n'
+    '@param R2 Input 3x3 second camera rotation matrix.\n'
+    '@param t2 Input 3x1 second camera translation vector.\n'
+    '@param R Output 3x3 relative rotation matrix.\n'
+    '@param t Output 3x1 relative translation vector.\n'
+    '\n'
+    'Given the motion parameters of two cameras, computes the motion '
+    'parameters\n'
+    'of the second one assuming the first one to be at the origin.\n'
+    'If T1 and T2 are the camera motions, the computed relative motion is '
+    '\\f$T = T_2 T_1^{-1}\\f$']
+parse_name: cv.sfm.relativeCameraMotion with ['cv', 'cv::sfm'] -> fullname:cv::sfm::relativeCameraMotion namespace:cv::sfm classpath: classname: name:relativeCameraMotion
+register (function) relativeCameraMotion (cv_sfm_relativeCameraMotion__InputArray__InputArray__InputArray__InputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.motionFromEssential',
+    'void',
+    [],
+    [   ['InputArray', 'E', '', []],
+        ['OutputArrayOfArrays', 'Rs', '', []],
+        ['OutputArrayOfArrays', 'ts', '', []]],
+    None,
+    "Get Motion (R's and t's ) from Essential matrix.\n"
+    '@param E Input 3x3 essential matrix.\n'
+    '@param Rs Output vector of 3x3 rotation matrices.\n'
+    '@param ts Output vector of 3x1 translation vectors.\n'
+    '\n'
+    'Reference: @cite HartleyZ00 9.6 pag 259 (Result 9.19)']
+parse_name: cv.sfm.motionFromEssential with ['cv', 'cv::sfm'] -> fullname:cv::sfm::motionFromEssential namespace:cv::sfm classpath: classname: name:motionFromEssential
+register (function) motionFromEssential (cv_sfm_motionFromEssential__InputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.motionFromEssentialChooseSolution',
+    'int',
+    [],
+    [   ['InputArrayOfArrays', 'Rs', '', []],
+        ['InputArrayOfArrays', 'ts', '', []],
+        ['InputArray', 'K1', '', []],
+        ['InputArray', 'x1', '', []],
+        ['InputArray', 'K2', '', []],
+        ['InputArray', 'x2', '', []]],
+    None,
+    'Choose one of the four possible motion solutions from an essential '
+    'matrix.\n'
+    '@param Rs Input vector of 3x3 rotation matrices.\n'
+    '@param ts Input vector of 3x1 translation vectors.\n'
+    '@param K1 Input 3x3 first camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$.\n'
+    '@param x1 Input 2x1 vector with first 2d point.\n'
+    '@param K2 Input 3x3 second camera matrix. The parameters are similar to '
+    'K1.\n'
+    '@param x2 Input 2x1 vector with second 2d point.\n'
+    '\n'
+    'Decides the right solution by checking that the triangulation of a match\n'
+    'x1--x2 lies in front of the cameras. Return index of the right solution '
+    'or -1 if no solution.\n'
+    '\n'
+    'Reference: See @cite HartleyZ00 9.6 pag 259 (9.6.3 Geometrical '
+    'interpretation of the 4 solutions).']
+parse_name: cv.sfm.motionFromEssentialChooseSolution with ['cv', 'cv::sfm'] -> fullname:cv::sfm::motionFromEssentialChooseSolution namespace:cv::sfm classpath: classname: name:motionFromEssentialChooseSolution
+register (function) motionFromEssentialChooseSolution (cv_sfm_motionFromEssentialChooseSolution__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.sfm.fundamentalFromEssential',
+    'void',
+    [],
+    [   ['InputArray', 'E', '', []],
+        ['InputArray', 'K1', '', []],
+        ['InputArray', 'K2', '', []],
+        ['OutputArray', 'F', '', []]],
+    None,
+    '@brief Get Essential matrix from Fundamental and Camera matrices.\n'
+    '@param E Input 3x3 essential matrix.\n'
+    '@param K1 Input 3x3 first camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$.\n'
+    '@param K2 Input 3x3 second camera matrix. The parameters are similar to '
+    'K1.\n'
+    '@param F Output 3x3 fundamental matrix.\n'
+    '\n'
+    'Reference: @cite HartleyZ00 9.6 pag 257 (formula 9.12) or '
+    'http://ai.stanford.edu/~birch/projective/node20.html']
+parse_name: cv.sfm.fundamentalFromEssential with ['cv', 'cv::sfm'] -> fullname:cv::sfm::fundamentalFromEssential namespace:cv::sfm classpath: classname: name:fundamentalFromEssential
+register (function) fundamentalFromEssential (cv_sfm_fundamentalFromEssential__InputArray__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.essentialFromFundamental',
+    'void',
+    [],
+    [   ['InputArray', 'F', '', []],
+        ['InputArray', 'K1', '', []],
+        ['InputArray', 'K2', '', []],
+        ['OutputArray', 'E', '', []]],
+    None,
+    '@brief Get Essential matrix from Fundamental and Camera matrices.\n'
+    '@param F Input 3x3 fundamental matrix.\n'
+    '@param K1 Input 3x3 first camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$.\n'
+    '@param K2 Input 3x3 second camera matrix. The parameters are similar to '
+    'K1.\n'
+    '@param E Output 3x3 essential matrix.\n'
+    '\n'
+    'Reference: @cite HartleyZ00 9.6 pag 257 (formula 9.12)']
+parse_name: cv.sfm.essentialFromFundamental with ['cv', 'cv::sfm'] -> fullname:cv::sfm::essentialFromFundamental namespace:cv::sfm classpath: classname: name:essentialFromFundamental
+register (function) essentialFromFundamental (cv_sfm_essentialFromFundamental__InputArray__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.essentialFromRt',
+    'void',
+    [],
+    [   ['InputArray', 'R1', '', []],
+        ['InputArray', 't1', '', []],
+        ['InputArray', 'R2', '', []],
+        ['InputArray', 't2', '', []],
+        ['OutputArray', 'E', '', []]],
+    None,
+    "@brief Get Essential matrix from Motion (R's and t's ).\n"
+    '@param R1 Input 3x3 first camera rotation matrix.\n'
+    '@param t1 Input 3x1 first camera translation vector.\n'
+    '@param R2 Input 3x3 second camera rotation matrix.\n'
+    '@param t2 Input 3x1 second camera translation vector.\n'
+    '@param E Output 3x3 essential matrix.\n'
+    '\n'
+    'Reference: @cite HartleyZ00 9.6 pag 257 (formula 9.12)']
+parse_name: cv.sfm.essentialFromRt with ['cv', 'cv::sfm'] -> fullname:cv::sfm::essentialFromRt namespace:cv::sfm classpath: classname: name:essentialFromRt
+register (function) essentialFromRt (cv_sfm_essentialFromRt__InputArray__InputArray__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.normalizeFundamental',
+    'void',
+    [],
+    [['InputArray', 'F', '', []], ['OutputArray', 'F_normalized', '', []]],
+    None,
+    '@brief Normalizes the Fundamental matrix.\n'
+    '@param F Input 3x3 fundamental matrix.\n'
+    '@param F_normalized Output 3x3 normalized fundamental matrix.\n'
+    '\n'
+    'By default divides the fundamental matrix by its L2 norm.']
+parse_name: cv.sfm.normalizeFundamental with ['cv', 'cv::sfm'] -> fullname:cv::sfm::normalizeFundamental namespace:cv::sfm classpath: classname: name:normalizeFundamental
+register (function) normalizeFundamental (cv_sfm_normalizeFundamental__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.computeOrientation',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'x1', '', []],
+        ['InputArrayOfArrays', 'x2', '', []],
+        ['OutputArray', 'R', '', []],
+        ['OutputArray', 't', '', []],
+        ['double', 's', '', []]],
+    None,
+    '@brief Computes Absolute or Exterior Orientation (Pose Estimation) '
+    'between 2 sets of 3D point.\n'
+    '@param x1 Input first 3xN or 2xN array of points.\n'
+    '@param x2 Input second 3xN or 2xN array of points.\n'
+    '@param R Output 3x3 computed rotation matrix.\n'
+    '@param t Output 3x1 computed translation vector.\n'
+    '@param s Output computed scale factor.\n'
+    '\n'
+    'Find the best transformation such that xp=projection*(s*R*x+t) (same as '
+    'Pose Estimation, ePNP).\n'
+    'The routines below are only for the orthographic case for now.']
+parse_name: cv.sfm.computeOrientation with ['cv', 'cv::sfm'] -> fullname:cv::sfm::computeOrientation namespace:cv::sfm classpath: classname: name:computeOrientation
+register (function) computeOrientation (cv_sfm_computeOrientation__InputArray__InputArray__OutputArray__OutputArray_double)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/io.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'enum cv.sfm.<unnamed>',
+    '',
+    [],
+    [   ['const cv.sfm.SFM_IO_BUNDLER', '0', [], [], None, ''],
+        ['const cv.sfm.SFM_IO_VISUALSFM', '1', [], [], None, ''],
+        ['const cv.sfm.SFM_IO_OPENSFM', '2', [], [], None, ''],
+        ['const cv.sfm.SFM_IO_OPENMVG', '3', [], [], None, ''],
+        ['const cv.sfm.SFM_IO_THEIASFM', '4', [], [], None, '']],
+    None,
+    '@brief Different supported file formats.']
+parse_name: const cv.sfm.SFM_IO_BUNDLER with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_IO_BUNDLER namespace:cv::sfm classpath: classname: name:SFM_IO_BUNDLER
+parse_name: const cv.sfm.SFM_IO_VISUALSFM with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_IO_VISUALSFM namespace:cv::sfm classpath: classname: name:SFM_IO_VISUALSFM
+parse_name: const cv.sfm.SFM_IO_OPENSFM with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_IO_OPENSFM namespace:cv::sfm classpath: classname: name:SFM_IO_OPENSFM
+parse_name: const cv.sfm.SFM_IO_OPENMVG with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_IO_OPENMVG namespace:cv::sfm classpath: classname: name:SFM_IO_OPENMVG
+parse_name: const cv.sfm.SFM_IO_THEIASFM with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_IO_THEIASFM namespace:cv::sfm classpath: classname: name:SFM_IO_THEIASFM
+
+--- Incoming ---
+[   'cv.sfm.importReconstruction',
+    'void',
+    [],
+    [   ['const cv::String &', 'file', '', []],
+        ['OutputArrayOfArrays', 'Rs', '', []],
+        ['OutputArrayOfArrays', 'Ts', '', []],
+        ['OutputArrayOfArrays', 'Ks', '', []],
+        ['OutputArray', 'points3d', '', []],
+        ['int', 'file_format', 'SFM_IO_BUNDLER', []]],
+    None,
+    '@brief Import a reconstruction file.\n'
+    '@param file The path to the file.\n'
+    '@param Rs Output vector of 3x3 rotations of the camera\n'
+    '@param Ts Output vector of 3x1 translations of the camera.\n'
+    '@param Ks Output vector of 3x3 instrinsics of the camera.\n'
+    '@param points3d Output array with 3d points. Is 3 x N.\n'
+    '@param file_format The format of the file to import.\n'
+    '\n'
+    'The function supports reconstructions from Bundler.']
+parse_name: cv.sfm.importReconstruction with ['cv', 'cv::sfm'] -> fullname:cv::sfm::importReconstruction namespace:cv::sfm classpath: classname: name:importReconstruction
+register (function) importReconstruction (cv_sfm_importReconstruction_String__OutputArray__OutputArray__OutputArray__OutputArray_int)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/numeric.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'cv.sfm.meanAndVarianceAlongRows',
+    'void',
+    [],
+    [   ['InputArray', 'A', '', []],
+        ['OutputArray', 'mean', '', []],
+        ['OutputArray', 'variance', '', []]],
+    None,
+    '@brief Computes the mean and variance of a given matrix along its rows.\n'
+    '@param A Input NxN matrix.\n'
+    '@param mean Output Nx1 matrix with computed mean.\n'
+    '@param variance Output Nx1 matrix with computed variance.\n'
+    '\n'
+    'It computes in the same way as woud do @ref reduce but with \\a Variance '
+    'function.']
+parse_name: cv.sfm.meanAndVarianceAlongRows with ['cv', 'cv::sfm'] -> fullname:cv::sfm::meanAndVarianceAlongRows namespace:cv::sfm classpath: classname: name:meanAndVarianceAlongRows
+register (function) meanAndVarianceAlongRows (cv_sfm_meanAndVarianceAlongRows__InputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.skew',
+    'Mat',
+    [],
+    [['InputArray', 'x', '', []]],
+    None,
+    '@brief Returns the 3x3 skew symmetric matrix of a vector.\n'
+    '@param x Input 3x1 vector.\n'
+    '\n'
+    'Reference: @cite HartleyZ00, p581, equation (A4.5).']
+parse_name: cv.sfm.skew with ['cv', 'cv::sfm'] -> fullname:cv::sfm::skew namespace:cv::sfm classpath: classname: name:skew
+register (function) skew (cv_sfm_skew__InputArray)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/projection.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'cv.sfm.homogeneousToEuclidean',
+    'void',
+    [],
+    [['InputArray', 'src', '', []], ['OutputArray', 'dst', '', []]],
+    None,
+    '@brief Converts point coordinates from homogeneous to euclidean pixel '
+    'coordinates. E.g., ((x,y,z)->(x/z, y/z))\n'
+    '@param src Input vector of N-dimensional points.\n'
+    '@param dst Output vector of N-1-dimensional points.']
+parse_name: cv.sfm.homogeneousToEuclidean with ['cv', 'cv::sfm'] -> fullname:cv::sfm::homogeneousToEuclidean namespace:cv::sfm classpath: classname: name:homogeneousToEuclidean
+register (function) homogeneousToEuclidean (cv_sfm_homogeneousToEuclidean__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.euclideanToHomogeneous',
+    'void',
+    [],
+    [['InputArray', 'src', '', []], ['OutputArray', 'dst', '', []]],
+    None,
+    '@brief Converts points from Euclidean to homogeneous space. E.g., '
+    '((x,y)->(x,y,1))\n'
+    '@param src Input vector of N-dimensional points.\n'
+    '@param dst Output vector of N+1-dimensional points.']
+parse_name: cv.sfm.euclideanToHomogeneous with ['cv', 'cv::sfm'] -> fullname:cv::sfm::euclideanToHomogeneous namespace:cv::sfm classpath: classname: name:euclideanToHomogeneous
+register (function) euclideanToHomogeneous (cv_sfm_euclideanToHomogeneous__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.projectionFromKRt',
+    'void',
+    [],
+    [   ['InputArray', 'K', '', []],
+        ['InputArray', 'R', '', []],
+        ['InputArray', 't', '', []],
+        ['OutputArray', 'P', '', []]],
+    None,
+    '@brief Get projection matrix P from K, R and t.\n'
+    '@param K Input 3x3 camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$.\n'
+    '@param R Input 3x3 rotation matrix.\n'
+    '@param t Input 3x1 translation vector.\n'
+    '@param P Output 3x4 projection matrix.\n'
+    '\n'
+    'This function estimate the projection matrix by solving the following '
+    'equation: \\f$P = K * [R|t]\\f$']
+parse_name: cv.sfm.projectionFromKRt with ['cv', 'cv::sfm'] -> fullname:cv::sfm::projectionFromKRt namespace:cv::sfm classpath: classname: name:projectionFromKRt
+register (function) projectionFromKRt (cv_sfm_projectionFromKRt__InputArray__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.KRtFromProjection',
+    'void',
+    [],
+    [   ['InputArray', 'P', '', []],
+        ['OutputArray', 'K', '', []],
+        ['OutputArray', 'R', '', []],
+        ['OutputArray', 't', '', []]],
+    None,
+    '@brief Get K, R and t from projection matrix P, decompose using the RQ '
+    'decomposition.\n'
+    '@param P Input 3x4 projection matrix.\n'
+    '@param K Output 3x3 camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$.\n'
+    '@param R Output 3x3 rotation matrix.\n'
+    '@param t Output 3x1 translation vector.\n'
+    '\n'
+    'Reference: @cite HartleyZ00 A4.1.1 pag.579']
+parse_name: cv.sfm.KRtFromProjection with ['cv', 'cv::sfm'] -> fullname:cv::sfm::KRtFromProjection namespace:cv::sfm classpath: classname: name:KRtFromProjection
+register (function) KRtFromProjection (cv_sfm_KRtFromProjection__InputArray__OutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.depth',
+    'double',
+    [],
+    [   ['InputArray', 'R', '', []],
+        ['InputArray', 't', '', []],
+        ['InputArray', 'X', '', []]],
+    None,
+    '@brief Returns the depth of a point transformed by a rigid transform.\n'
+    '@param R Input 3x3 rotation matrix.\n'
+    '@param t Input 3x1 translation vector.\n'
+    '@param X Input 3x1 or 4x1 vector with the 3d point.']
+parse_name: cv.sfm.depth with ['cv', 'cv::sfm'] -> fullname:cv::sfm::depth namespace:cv::sfm classpath: classname: name:depth
+register (function) depth (cv_sfm_depth__InputArray__InputArray__InputArray)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/reconstruct.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'cv.sfm.reconstruct',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'points2d', '', []],
+        ['OutputArray', 'Ps', '', []],
+        ['OutputArray', 'points3d', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['bool', 'is_projective', 'false', []]],
+    None,
+    '@brief Reconstruct 3d points from 2d correspondences while performing '
+    'autocalibration.\n'
+    '@param points2d Input vector of vectors of 2d points (the inner vector is '
+    'per image).\n'
+    '@param Ps Output vector with the 3x4 projections matrices of each image.\n'
+    '@param points3d Output array with estimated 3d points.\n'
+    '@param K Input/Output camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$. Input parameters '
+    'used as initial guess.\n'
+    '@param is_projective if true, the cameras are supposed to be projective.\n'
+    '\n'
+    'This method calls below signature and extracts projection matrices from '
+    'estimated K, R and t.\n'
+    '\n'
+    '@note\n'
+    '- Tracks must be as precise as possible. It does not handle outliers and '
+    'is very sensible to them.']
+parse_name: cv.sfm.reconstruct with ['cv', 'cv::sfm'] -> fullname:cv::sfm::reconstruct namespace:cv::sfm classpath: classname: name:reconstruct
+register (function) reconstruct (cv_sfm_reconstruct__InputArray__OutputArray__OutputArray__InputOutputArray_bool)
+
+--- Incoming ---
+[   'cv.sfm.reconstruct',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'points2d', '', []],
+        ['OutputArray', 'Rs', '', []],
+        ['OutputArray', 'Ts', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['OutputArray', 'points3d', '', []],
+        ['bool', 'is_projective', 'false', []]],
+    None,
+    '@brief Reconstruct 3d points from 2d correspondences while performing '
+    'autocalibration.\n'
+    '@param points2d Input vector of vectors of 2d points (the inner vector is '
+    'per image).\n'
+    '@param Rs Output vector of 3x3 rotations of the camera.\n'
+    '@param Ts Output vector of 3x1 translations of the camera.\n'
+    '@param points3d Output array with estimated 3d points.\n'
+    '@param K Input/Output camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$. Input parameters '
+    'used as initial guess.\n'
+    '@param is_projective if true, the cameras are supposed to be projective.\n'
+    '\n'
+    'Internally calls libmv simple pipeline routine with some default '
+    'parameters by instatiating SFMLibmvEuclideanReconstruction class.\n'
+    '\n'
+    '@note\n'
+    '- Tracks must be as precise as possible. It does not handle outliers and '
+    'is very sensible to them.\n'
+    '- To see a working example for camera motion reconstruction, check the '
+    'following tutorial: @ref tutorial_sfm_trajectory_estimation.']
+parse_name: cv.sfm.reconstruct with ['cv', 'cv::sfm'] -> fullname:cv::sfm::reconstruct namespace:cv::sfm classpath: classname: name:reconstruct
+register (function) reconstruct (cv_sfm_reconstruct__InputArray__OutputArray__OutputArray__InputOutputArray__OutputArray_bool)
+
+--- Incoming ---
+[   'cv.sfm.reconstruct',
+    'void',
+    [],
+    [   ['const std::vector<String>', 'images', '', []],
+        ['OutputArray', 'Ps', '', []],
+        ['OutputArray', 'points3d', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['bool', 'is_projective', 'false', []]],
+    None,
+    '@brief Reconstruct 3d points from 2d images while performing '
+    'autocalibration.\n'
+    '@param images a vector of string with the images paths.\n'
+    '@param Ps Output vector with the 3x4 projections matrices of each image.\n'
+    '@param points3d Output array with estimated 3d points.\n'
+    '@param K Input/Output camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$. Input parameters '
+    'used as initial guess.\n'
+    '@param is_projective if true, the cameras are supposed to be projective.\n'
+    '\n'
+    'This method calls below signature and extracts projection matrices from '
+    'estimated K, R and t.\n'
+    '\n'
+    '@note\n'
+    '- The images must be ordered as they were an image sequence. '
+    'Additionally, each frame should be as close as posible to the previous '
+    'and posterior.\n'
+    '- For now DAISY features are used in order to compute the 2d points '
+    'tracks and it only works for 3-4 images.']
+parse_name: cv.sfm.reconstruct with ['cv', 'cv::sfm'] -> fullname:cv::sfm::reconstruct namespace:cv::sfm classpath: classname: name:reconstruct
+register (function) reconstruct (cv_sfm_reconstruct_VectorOfString__OutputArray__OutputArray__InputOutputArray_bool)
+
+--- Incoming ---
+[   'cv.sfm.reconstruct',
+    'void',
+    [],
+    [   ['const std::vector<String>', 'images', '', []],
+        ['OutputArray', 'Rs', '', []],
+        ['OutputArray', 'Ts', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['OutputArray', 'points3d', '', []],
+        ['bool', 'is_projective', 'false', []]],
+    None,
+    '@brief Reconstruct 3d points from 2d images while performing '
+    'autocalibration.\n'
+    '@param images a vector of string with the images paths.\n'
+    '@param Rs Output vector of 3x3 rotations of the camera.\n'
+    '@param Ts Output vector of 3x1 translations of the camera.\n'
+    '@param points3d Output array with estimated 3d points.\n'
+    '@param K Input/Output camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$. Input parameters '
+    'used as initial guess.\n'
+    '@param is_projective if true, the cameras are supposed to be projective.\n'
+    '\n'
+    'Internally calls libmv simple pipeline routine with some default '
+    'parameters by instatiating SFMLibmvEuclideanReconstruction class.\n'
+    '\n'
+    '@note\n'
+    '- The images must be ordered as they were an image sequence. '
+    'Additionally, each frame should be as close as posible to the previous '
+    'and posterior.\n'
+    '- For now DAISY features are used in order to compute the 2d points '
+    'tracks and it only works for 3-4 images.\n'
+    '- To see a working example for scene reconstruction, check the following '
+    'tutorial: @ref tutorial_sfm_scene_reconstruction.']
+parse_name: cv.sfm.reconstruct with ['cv', 'cv::sfm'] -> fullname:cv::sfm::reconstruct namespace:cv::sfm classpath: classname: name:reconstruct
+register (function) reconstruct (cv_sfm_reconstruct_VectorOfString__OutputArray__OutputArray__InputOutputArray__OutputArray_bool)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/robust.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'cv.sfm.fundamentalFromCorrespondences8PointRobust',
+    'double',
+    [],
+    [   ['InputArray', 'x1', '', []],
+        ['InputArray', 'x2', '', []],
+        ['double', 'max_error', '', []],
+        ['OutputArray', 'F', '', []],
+        ['OutputArray', 'inliers', '', []],
+        ['double', 'outliers_probability', '1e-2', []]],
+    None,
+    '@brief Estimate robustly the fundamental matrix between two dataset of 2D '
+    'point (image coords space).\n'
+    '@param x1 Input 2xN Array of 2D points in view 1.\n'
+    '@param x2 Input 2xN Array of 2D points in view 2.\n'
+    '@param max_error maximum error (in pixels).\n'
+    '@param F Output 3x3 fundamental matrix such that \\f$x_2^T F x_1=0\\f$.\n'
+    '@param inliers Output 1xN vector that contains the indexes of the '
+    'detected inliers.\n'
+    '@param outliers_probability outliers probability (in ]0,1[).\n'
+    'The number of iterations is controlled using the following equation:\n'
+    '\\f$k = \\frac{log(1-p)}{log(1.0 - w^n )}\\f$ where \\f$k\\f$, \\f$w\\f$ '
+    'and \\f$n\\f$ are the number of\n'
+    'iterations, the inliers ratio and minimun number of selected independent '
+    'samples.\n'
+    'The more this value is high, the less the function selects ramdom '
+    'samples.\n'
+    '\n'
+    'The fundamental solver relies on the 8 point solution. Returns the best '
+    'error (in pixels), associated to the solution F.']
+parse_name: cv.sfm.fundamentalFromCorrespondences8PointRobust with ['cv', 'cv::sfm'] -> fullname:cv::sfm::fundamentalFromCorrespondences8PointRobust namespace:cv::sfm classpath: classname: name:fundamentalFromCorrespondences8PointRobust
+register (function) fundamentalFromCorrespondences8PointRobust (cv_sfm_fundamentalFromCorrespondences8PointRobust__InputArray__InputArray_double__OutputArray__OutputArray_double)
+
+--- Incoming ---
+[   'cv.sfm.fundamentalFromCorrespondences7PointRobust',
+    'double',
+    [],
+    [   ['InputArray', 'x1', '', []],
+        ['InputArray', 'x2', '', []],
+        ['double', 'max_error', '', []],
+        ['OutputArray', 'F', '', []],
+        ['OutputArray', 'inliers', '', []],
+        ['double', 'outliers_probability', '1e-2', []]],
+    None,
+    '@brief Estimate robustly the fundamental matrix between two dataset of 2D '
+    'point (image coords space).\n'
+    '@param x1 Input 2xN Array of 2D points in view 1.\n'
+    '@param x2 Input 2xN Array of 2D points in view 2.\n'
+    '@param max_error maximum error (in pixels).\n'
+    '@param F Output 3x3 fundamental matrix such that \\f$x_2^T F x_1=0\\f$.\n'
+    '@param inliers Output 1xN vector that contains the indexes of the '
+    'detected inliers.\n'
+    '@param outliers_probability outliers probability (in ]0,1[).\n'
+    'The number of iterations is controlled using the following equation:\n'
+    '\\f$k = \\frac{log(1-p)}{log(1.0 - w^n )}\\f$ where \\f$k\\f$, \\f$w\\f$ '
+    'and \\f$n\\f$ are the number of\n'
+    'iterations, the inliers ratio and minimun number of selected independent '
+    'samples.\n'
+    'The more this value is high, the less the function selects ramdom '
+    'samples.\n'
+    '\n'
+    'The fundamental solver relies on the 7 point solution. Returns the best '
+    'error (in pixels), associated to the solution F.']
+parse_name: cv.sfm.fundamentalFromCorrespondences7PointRobust with ['cv', 'cv::sfm'] -> fullname:cv::sfm::fundamentalFromCorrespondences7PointRobust namespace:cv::sfm classpath: classname: name:fundamentalFromCorrespondences7PointRobust
+register (function) fundamentalFromCorrespondences7PointRobust (cv_sfm_fundamentalFromCorrespondences7PointRobust__InputArray__InputArray_double__OutputArray__OutputArray_double)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/simple_pipeline.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'enum cv.sfm.<unnamed>',
+    '',
+    [],
+    [   ['const cv.sfm.SFM_DISTORTION_MODEL_POLYNOMIAL', '0', [], [], None, ''],
+        ['const cv.sfm.SFM_DISTORTION_MODEL_DIVISION', '1', [], [], None, '']],
+    None,
+    '@brief Different camera models that libmv supports.']
+parse_name: const cv.sfm.SFM_DISTORTION_MODEL_POLYNOMIAL with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_DISTORTION_MODEL_POLYNOMIAL namespace:cv::sfm classpath: classname: name:SFM_DISTORTION_MODEL_POLYNOMIAL
+parse_name: const cv.sfm.SFM_DISTORTION_MODEL_DIVISION with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_DISTORTION_MODEL_DIVISION namespace:cv::sfm classpath: classname: name:SFM_DISTORTION_MODEL_DIVISION
+
+--- Incoming ---
+[   'class cv.sfm.libmv_CameraIntrinsicsOptions',
+    '',
+    ['/Simple'],
+    [   ['int', 'distortion_model', '', ['/RW']],
+        ['int', 'image_width', '', ['/RW']],
+        ['int', 'image_height', '', ['/RW']],
+        ['double', 'focal_length_x', '', ['/RW']],
+        ['double', 'focal_length_y', '', ['/RW']],
+        ['double', 'principal_point_x', '', ['/RW']],
+        ['double', 'principal_point_y', '', ['/RW']],
+        ['double', 'polynomial_k1', '', ['/RW']],
+        ['double', 'polynomial_k2', '', ['/RW']],
+        ['double', 'polynomial_k3', '', ['/RW']],
+        ['double', 'polynomial_p1', '', ['/RW']],
+        ['double', 'polynomial_p2', '', ['/RW']],
+        ['double', 'division_k1', '', ['/RW']],
+        ['double', 'division_k2', '', ['/RW']]],
+    None,
+    '@brief Data structure describing the camera model and its parameters.\n'
+    '@param _distortion_model Type of camera model.\n'
+    '@param _focal_length_x focal length of the camera (in pixels).\n'
+    '@param _focal_length_y focal length of the camera (in pixels).\n'
+    '@param _principal_point_x principal point of the camera in the x '
+    'direction (in pixels).\n'
+    '@param _principal_point_y principal point of the camera in the y '
+    'direction (in pixels).\n'
+    '@param _polynomial_k1 radial distortion parameter.\n'
+    '@param _polynomial_k2 radial distortion parameter.\n'
+    '@param _polynomial_k3 radial distortion parameter.\n'
+    '@param _polynomial_p1 radial distortion parameter.\n'
+    '@param _polynomial_p2 radial distortion parameter.\n'
+    '\n'
+    'Is assumed that modern cameras have their principal point in the image '
+    'center.\\n\n'
+    "In case that the camera model was SFM_DISTORTION_MODEL_DIVISION, it's "
+    'only needed to provide\n'
+    '_polynomial_k1 and _polynomial_k2 which will be assigned as division '
+    'distortion parameters.']
+parse_name: class cv.sfm.libmv_CameraIntrinsicsOptions with ['cv', 'cv::sfm'] -> fullname:cv::sfm::libmv_CameraIntrinsicsOptions namespace:cv::sfm classpath: classname: name:libmv_CameraIntrinsicsOptions
+register class cv::sfm::libmv_CameraIntrinsicsOptions (['class cv.sfm.libmv_CameraIntrinsicsOptions', '', ['/Simple'], [['int', 'distortion_model', '', ['/RW']], ['int', 'image_width', '', ['/RW']], ['int', 'image_height', '', ['/RW']], ['double', 'focal_length_x', '', ['/RW']], ['double', 'focal_length_y', '', ['/RW']], ['double', 'principal_point_x', '', ['/RW']], ['double', 'principal_point_y', '', ['/RW']], ['double', 'polynomial_k1', '', ['/RW']], ['double', 'polynomial_k2', '', ['/RW']], ['double', 'polynomial_k3', '', ['/RW']], ['double', 'polynomial_p1', '', ['/RW']], ['double', 'polynomial_p2', '', ['/RW']], ['double', 'division_k1', '', ['/RW']], ['double', 'division_k2', '', ['/RW']]], None, "@brief Data structure describing the camera model and its parameters.\n@param _distortion_model Type of camera model.\n@param _focal_length_x focal length of the camera (in pixels).\n@param _focal_length_y focal length of the camera (in pixels).\n@param _principal_point_x principal point of the camera in the x direction (in pixels).\n@param _principal_point_y principal point of the camera in the y direction (in pixels).\n@param _polynomial_k1 radial distortion parameter.\n@param _polynomial_k2 radial distortion parameter.\n@param _polynomial_k3 radial distortion parameter.\n@param _polynomial_p1 radial distortion parameter.\n@param _polynomial_p2 radial distortion parameter.\n\nIs assumed that modern cameras have their principal point in the image center.\\n\nIn case that the camera model was SFM_DISTORTION_MODEL_DIVISION, it's only needed to provide\n_polynomial_k1 and _polynomial_k2 which will be assigned as division distortion parameters."])
+
+--- Incoming ---
+[   'cv.sfm.libmv_CameraIntrinsicsOptions.libmv_CameraIntrinsicsOptions',
+    'l',
+    [],
+    [   ['const int', '_distortion_model', '0', []],
+        ['const double', '_focal_length_x', '0', []],
+        ['const double', '_focal_length_y', '0', []],
+        ['const double', '_principal_point_x', '0', []],
+        ['const double', '_principal_point_y', '0', []],
+        ['const double', '_polynomial_k1', '0', []],
+        ['const double', '_polynomial_k2', '0', []],
+        ['const double', '_polynomial_k3', '0', []],
+        ['const double', '_polynomial_p1', '0', []],
+        ['const double', '_polynomial_p2', '0', []]],
+    None,
+    '']
+parse_name: cv.sfm.libmv_CameraIntrinsicsOptions.libmv_CameraIntrinsicsOptions with ['cv', 'cv::sfm'] -> fullname:cv::sfm::libmv_CameraIntrinsicsOptions::libmv_CameraIntrinsicsOptions namespace:cv::sfm classpath:libmv_CameraIntrinsicsOptions classname:libmv_CameraIntrinsicsOptions name:libmv_CameraIntrinsicsOptions
+register (constructor) new in cv::sfm::libmv_CameraIntrinsicsOptions (simple) (cv_sfm_libmv_CameraIntrinsicsOptions_libmv_CameraIntrinsicsOptions_int_double_double_double_double_double_double_double_double_double)
+
+--- Incoming ---
+[   'enum cv.sfm.<unnamed>',
+    '',
+    [],
+    [   ['const cv.sfm.SFM_REFINE_FOCAL_LENGTH', '(1 << 0)', [], [], None, ''],
+        [   'const cv.sfm.SFM_REFINE_PRINCIPAL_POINT',
+            '(1 << 1)',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.sfm.SFM_REFINE_RADIAL_DISTORTION_K1',
+            '(1 << 2)',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.sfm.SFM_REFINE_RADIAL_DISTORTION_K2',
+            '(1 << 4)',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    '@brief All internal camera parameters that libmv is able to refine.']
+parse_name: const cv.sfm.SFM_REFINE_FOCAL_LENGTH with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_REFINE_FOCAL_LENGTH namespace:cv::sfm classpath: classname: name:SFM_REFINE_FOCAL_LENGTH
+parse_name: const cv.sfm.SFM_REFINE_PRINCIPAL_POINT with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_REFINE_PRINCIPAL_POINT namespace:cv::sfm classpath: classname: name:SFM_REFINE_PRINCIPAL_POINT
+parse_name: const cv.sfm.SFM_REFINE_RADIAL_DISTORTION_K1 with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_REFINE_RADIAL_DISTORTION_K1 namespace:cv::sfm classpath: classname: name:SFM_REFINE_RADIAL_DISTORTION_K1
+parse_name: const cv.sfm.SFM_REFINE_RADIAL_DISTORTION_K2 with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFM_REFINE_RADIAL_DISTORTION_K2 namespace:cv::sfm classpath: classname: name:SFM_REFINE_RADIAL_DISTORTION_K2
+
+--- Incoming ---
+[   'class cv.sfm.libmv_ReconstructionOptions',
+    '',
+    ['/Simple'],
+    [   ['int', 'keyframe1', '', ['/RW']],
+        ['int', 'keyframe2', '', ['/RW']],
+        ['int', 'refine_intrinsics', '', ['/RW']],
+        ['int', 'select_keyframes', '', ['/RW']],
+        ['int', 'verbosity_level', '', ['/RW']]],
+    None,
+    '@brief Data structure describing the reconstruction options.\n'
+    '@param _keyframe1 first keyframe used in order to initialize the '
+    'reconstruction.\n'
+    '@param _keyframe2 second keyframe used in order to initialize the '
+    'reconstruction.\n'
+    '@param _refine_intrinsics camera parameter or combination of parameters '
+    'to refine.\n'
+    '@param _select_keyframes allows to select automatically the initial '
+    'keyframes. If 1 then autoselection is enabled. If 0 then is disabled.\n'
+    '@param _verbosity_level verbosity logs level for Glog. If -1 then logs '
+    'are disabled, otherwise the log level will be the input integer.']
+parse_name: class cv.sfm.libmv_ReconstructionOptions with ['cv', 'cv::sfm'] -> fullname:cv::sfm::libmv_ReconstructionOptions namespace:cv::sfm classpath: classname: name:libmv_ReconstructionOptions
+register class cv::sfm::libmv_ReconstructionOptions (['class cv.sfm.libmv_ReconstructionOptions', '', ['/Simple'], [['int', 'keyframe1', '', ['/RW']], ['int', 'keyframe2', '', ['/RW']], ['int', 'refine_intrinsics', '', ['/RW']], ['int', 'select_keyframes', '', ['/RW']], ['int', 'verbosity_level', '', ['/RW']]], None, '@brief Data structure describing the reconstruction options.\n@param _keyframe1 first keyframe used in order to initialize the reconstruction.\n@param _keyframe2 second keyframe used in order to initialize the reconstruction.\n@param _refine_intrinsics camera parameter or combination of parameters to refine.\n@param _select_keyframes allows to select automatically the initial keyframes. If 1 then autoselection is enabled. If 0 then is disabled.\n@param _verbosity_level verbosity logs level for Glog. If -1 then logs are disabled, otherwise the log level will be the input integer.'])
+
+--- Incoming ---
+[   'cv.sfm.libmv_ReconstructionOptions.libmv_ReconstructionOptions',
+    'l',
+    [],
+    [   ['const int', '_keyframe1', '1', []],
+        ['const int', '_keyframe2', '2', []],
+        ['const int', '_refine_intrinsics', '1', []],
+        ['const int', '_select_keyframes', '1', []],
+        ['const int', '_verbosity_level', '-1', []]],
+    None,
+    '']
+parse_name: cv.sfm.libmv_ReconstructionOptions.libmv_ReconstructionOptions with ['cv', 'cv::sfm'] -> fullname:cv::sfm::libmv_ReconstructionOptions::libmv_ReconstructionOptions namespace:cv::sfm classpath:libmv_ReconstructionOptions classname:libmv_ReconstructionOptions name:libmv_ReconstructionOptions
+register (constructor) new in cv::sfm::libmv_ReconstructionOptions (simple) (cv_sfm_libmv_ReconstructionOptions_libmv_ReconstructionOptions_int_int_int_int_int)
+
+--- Incoming ---
+[   'class cv.sfm.BaseSFM',
+    '',
+    [],
+    [],
+    None,
+    '@brief base class BaseSFM declares a common API that would be used in a '
+    'typical scene reconstruction scenario']
+parse_name: class cv.sfm.BaseSFM with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM namespace:cv::sfm classpath: classname: name:BaseSFM
+register class cv::sfm::BaseSFM (['class cv.sfm.BaseSFM', '', [], [], None, '@brief base class BaseSFM declares a common API that would be used in a typical scene reconstruction scenario'])
+
+--- Incoming ---
+['cv.sfm.BaseSFM.~BaseSFM', '~', [], [], None, '']
+parse_name: cv.sfm.BaseSFM.~BaseSFM with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::~BaseSFM namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:~BaseSFM
+Registering an unknown type: ~
+ignore destructor (method) ~BaseSFM in cv::sfm::BaseSFM
+
+--- Incoming ---
+[   'cv.sfm.BaseSFM.run',
+    'void',
+    ['/A'],
+    [['InputArrayOfArrays', 'points2d', '', []]],
+    None,
+    '']
+parse_name: cv.sfm.BaseSFM.run with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::run namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:run
+register (method) run in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_run__InputArray)
+
+--- Incoming ---
+[   'cv.sfm.BaseSFM.run',
+    'void',
+    ['/A'],
+    [   ['InputArrayOfArrays', 'points2d', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['OutputArray', 'Rs', '', []],
+        ['OutputArray', 'Ts', '', []],
+        ['OutputArray', 'points3d', '', []]],
+    None,
+    '']
+parse_name: cv.sfm.BaseSFM.run with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::run namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:run
+register (method) run in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_run__InputArray__InputOutputArray__OutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.BaseSFM.run',
+    'void',
+    ['/A'],
+    [['const std::vector<String> &', 'images', '', []]],
+    None,
+    '']
+parse_name: cv.sfm.BaseSFM.run with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::run namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:run
+register (method) run in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_run_VectorOfString)
+
+--- Incoming ---
+[   'cv.sfm.BaseSFM.run',
+    'void',
+    ['/A'],
+    [   ['const std::vector<String> &', 'images', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['OutputArray', 'Rs', '', []],
+        ['OutputArray', 'Ts', '', []],
+        ['OutputArray', 'points3d', '', []]],
+    None,
+    '']
+parse_name: cv.sfm.BaseSFM.run with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::run namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:run
+register (method) run in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_run_VectorOfString__InputOutputArray__OutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+['cv.sfm.BaseSFM.getError', 'double', ['/A', '/C'], [], None, '']
+parse_name: cv.sfm.BaseSFM.getError with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::getError namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:getError
+register (method) getError in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_getError_const)
+
+--- Incoming ---
+[   'cv.sfm.BaseSFM.getPoints',
+    'void',
+    ['/A'],
+    [['OutputArray', 'points3d', '', []]],
+    None,
+    '']
+parse_name: cv.sfm.BaseSFM.getPoints with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::getPoints namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:getPoints
+register (method) getPoints in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_getPoints__OutputArray)
+
+--- Incoming ---
+['cv.sfm.BaseSFM.getIntrinsics', 'cv::Mat', ['/A', '/C'], [], None, '']
+parse_name: cv.sfm.BaseSFM.getIntrinsics with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::getIntrinsics namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:getIntrinsics
+register (method) getIntrinsics in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_getIntrinsics_const)
+
+--- Incoming ---
+[   'cv.sfm.BaseSFM.getCameras',
+    'void',
+    ['/A'],
+    [['OutputArray', 'Rs', '', []], ['OutputArray', 'Ts', '', []]],
+    None,
+    '']
+parse_name: cv.sfm.BaseSFM.getCameras with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::getCameras namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:getCameras
+register (method) getCameras in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_getCameras__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.BaseSFM.setReconstructionOptions',
+    'void',
+    ['/A'],
+    [   [   'const libmv_ReconstructionOptions &',
+            'libmv_reconstruction_options',
+            '',
+            []]],
+    None,
+    '']
+parse_name: cv.sfm.BaseSFM.setReconstructionOptions with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::setReconstructionOptions namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:setReconstructionOptions
+register (method) setReconstructionOptions in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_setReconstructionOptions_libmv_ReconstructionOptions)
+
+--- Incoming ---
+[   'cv.sfm.BaseSFM.setCameraIntrinsicOptions',
+    'void',
+    ['/A'],
+    [   [   'const libmv_CameraIntrinsicsOptions &',
+            'libmv_camera_intrinsics_options',
+            '',
+            []]],
+    None,
+    '']
+parse_name: cv.sfm.BaseSFM.setCameraIntrinsicOptions with ['cv', 'cv::sfm'] -> fullname:cv::sfm::BaseSFM::setCameraIntrinsicOptions namespace:cv::sfm classpath:BaseSFM classname:BaseSFM name:setCameraIntrinsicOptions
+register (method) setCameraIntrinsicOptions in cv::sfm::BaseSFM (trait) (cv_sfm_BaseSFM_setCameraIntrinsicOptions_libmv_CameraIntrinsicsOptions)
+
+--- Incoming ---
+[   'class cv.sfm.SFMLibmvEuclideanReconstruction',
+    ': cv::sfm::BaseSFM',
+    [],
+    [],
+    None,
+    '@brief SFMLibmvEuclideanReconstruction class provides an interface with '
+    'the Libmv Structure From Motion pipeline.']
+parse_name: class cv.sfm.SFMLibmvEuclideanReconstruction with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction namespace:cv::sfm classpath: classname: name:SFMLibmvEuclideanReconstruction
+register class cv::sfm::SFMLibmvEuclideanReconstruction (['class cv.sfm.SFMLibmvEuclideanReconstruction', ': cv::sfm::BaseSFM', [], [], None, '@brief SFMLibmvEuclideanReconstruction class provides an interface with the Libmv Structure From Motion pipeline.']) impl:cv::sfm::BaseSFM
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.run',
+    'void',
+    [],
+    [['InputArrayOfArrays', 'points2d', '', []]],
+    None,
+    '@brief Calls the pipeline in order to perform Eclidean reconstruction.\n'
+    '@param points2d Input vector of vectors of 2d points (the inner vector is '
+    'per image).\n'
+    '\n'
+    '@note\n'
+    '- Tracks must be as precise as possible. It does not handle outliers and '
+    'is very sensible to them.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.run with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::run namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:run
+register (method) run in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_run__InputArray)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.run',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'points2d', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['OutputArray', 'Rs', '', []],
+        ['OutputArray', 'Ts', '', []],
+        ['OutputArray', 'points3d', '', []]],
+    None,
+    '@brief Calls the pipeline in order to perform Eclidean reconstruction.\n'
+    '@param points2d Input vector of vectors of 2d points (the inner vector is '
+    'per image).\n'
+    '@param K Input/Output camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$. Input parameters '
+    'used as initial guess.\n'
+    '@param Rs Output vector of 3x3 rotations of the camera.\n'
+    '@param Ts Output vector of 3x1 translations of the camera.\n'
+    '@param points3d Output array with estimated 3d points.\n'
+    '\n'
+    '@note\n'
+    '- Tracks must be as precise as possible. It does not handle outliers and '
+    'is very sensible to them.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.run with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::run namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:run
+register (method) run in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_run__InputArray__InputOutputArray__OutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.run',
+    'void',
+    [],
+    [['const std::vector<String> &', 'images', '', []]],
+    None,
+    '@brief Calls the pipeline in order to perform Eclidean reconstruction.\n'
+    '@param images a vector of string with the images paths.\n'
+    '\n'
+    '@note\n'
+    '- The images must be ordered as they were an image sequence. '
+    'Additionally, each frame should be as close as posible to the previous '
+    'and posterior.\n'
+    '- For now DAISY features are used in order to compute the 2d points '
+    'tracks and it only works for 3-4 images.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.run with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::run namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:run
+register (method) run in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_run_VectorOfString)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.run',
+    'void',
+    [],
+    [   ['const std::vector<String> &', 'images', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['OutputArray', 'Rs', '', []],
+        ['OutputArray', 'Ts', '', []],
+        ['OutputArray', 'points3d', '', []]],
+    None,
+    '@brief Calls the pipeline in order to perform Eclidean reconstruction.\n'
+    '@param images a vector of string with the images paths.\n'
+    '@param K Input/Output camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$. Input parameters '
+    'used as initial guess.\n'
+    '@param Rs Output vector of 3x3 rotations of the camera.\n'
+    '@param Ts Output vector of 3x1 translations of the camera.\n'
+    '@param points3d Output array with estimated 3d points.\n'
+    '\n'
+    '@note\n'
+    '- The images must be ordered as they were an image sequence. '
+    'Additionally, each frame should be as close as posible to the previous '
+    'and posterior.\n'
+    '- For now DAISY features are used in order to compute the 2d points '
+    'tracks and it only works for 3-4 images.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.run with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::run namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:run
+register (method) run in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_run_VectorOfString__InputOutputArray__OutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.getError',
+    'double',
+    ['/C'],
+    [],
+    None,
+    '@brief Returns the computed reprojection error.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.getError with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::getError namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:getError
+register (method) getError in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_getError_const)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.getPoints',
+    'void',
+    [],
+    [['OutputArray', 'points3d', '', []]],
+    None,
+    '@brief Returns the estimated 3d points.\n'
+    '@param points3d Output array with estimated 3d points.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.getPoints with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::getPoints namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:getPoints
+register (method) getPoints in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_getPoints__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.getIntrinsics',
+    'cv::Mat',
+    ['/C'],
+    [],
+    None,
+    '@brief Returns the refined camera calibration matrix.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.getIntrinsics with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::getIntrinsics namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:getIntrinsics
+register (method) getIntrinsics in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_getIntrinsics_const)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.getCameras',
+    'void',
+    [],
+    [['OutputArray', 'Rs', '', []], ['OutputArray', 'Ts', '', []]],
+    None,
+    '@brief Returns the estimated camera extrinsic parameters.\n'
+    '@param Rs Output vector of 3x3 rotations of the camera.\n'
+    '@param Ts Output vector of 3x1 translations of the camera.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.getCameras with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::getCameras namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:getCameras
+register (method) getCameras in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_getCameras__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.setReconstructionOptions',
+    'void',
+    [],
+    [   [   'const libmv_ReconstructionOptions &',
+            'libmv_reconstruction_options',
+            '',
+            []]],
+    None,
+    '@brief Setter method for reconstruction options.\n'
+    '@param libmv_reconstruction_options struct with reconstruction options '
+    'such as initial keyframes,\n'
+    'automatic keyframe selection, parameters to refine and the verbosity '
+    'level.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.setReconstructionOptions with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::setReconstructionOptions namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:setReconstructionOptions
+register (method) setReconstructionOptions in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_setReconstructionOptions_libmv_ReconstructionOptions)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.setCameraIntrinsicOptions',
+    'void',
+    [],
+    [   [   'const libmv_CameraIntrinsicsOptions &',
+            'libmv_camera_intrinsics_options',
+            '',
+            []]],
+    None,
+    '@brief Setter method for camera intrinsic options.\n'
+    '@param libmv_camera_intrinsics_options struct with camera intrinsic '
+    'options such as camera model and\n'
+    'the internal camera parameters.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.setCameraIntrinsicOptions with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::setCameraIntrinsicOptions namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:setCameraIntrinsicOptions
+register (method) setCameraIntrinsicOptions in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_setCameraIntrinsicOptions_libmv_CameraIntrinsicsOptions)
+
+--- Incoming ---
+[   'cv.sfm.SFMLibmvEuclideanReconstruction.create',
+    'Ptr<SFMLibmvEuclideanReconstruction>',
+    ['/S'],
+    [   [   'const libmv_CameraIntrinsicsOptions &',
+            'camera_instrinsic_options',
+            'libmv_CameraIntrinsicsOptions()',
+            []],
+        [   'const libmv_ReconstructionOptions &',
+            'reconstruction_options',
+            'libmv_ReconstructionOptions()',
+            []]],
+    None,
+    '@brief Creates an instance of the SFMLibmvEuclideanReconstruction class. '
+    'Initializes Libmv.']
+parse_name: cv.sfm.SFMLibmvEuclideanReconstruction.create with ['cv', 'cv::sfm'] -> fullname:cv::sfm::SFMLibmvEuclideanReconstruction::create namespace:cv::sfm classpath:SFMLibmvEuclideanReconstruction classname:SFMLibmvEuclideanReconstruction name:create
+register (method) create in cv::sfm::SFMLibmvEuclideanReconstruction (cv_sfm_SFMLibmvEuclideanReconstruction_create_libmv_CameraIntrinsicsOptions_libmv_ReconstructionOptions)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/triangulation.hpp ================
+
+
+Namespaces: ['cv', 'cv.sfm']
+Comment: {'sfm': " @defgroup sfm Structure From Motion\n\nThe opencv_sfm module contains algorithms to perform 3d reconstruction\nfrom 2d images.\\n\nThe core of the module is based on a light version of\n[Libmv](https://developer.blender.org/project/profile/59) originally\ndeveloped by Sameer Agarwal and Keir Mierle.\n\n__Whats is libmv?__ \\n\nlibmv, also known as the Library for Multiview Reconstruction (or LMV),\nis the computer vision backend for Blender's motion tracking abilities.\nUnlike other vision libraries with general ambitions, libmv is focused\non algorithms for match moving, specifically targeting [Blender](https://developer.blender.org) as the\nprimary customer. Dense reconstruction, reconstruction from unorganized\nphoto collections, image recognition, and other tasks are not a focus\nof libmv.\n\n__Development__ \\n\nlibmv is officially under the Blender umbrella, and so is developed\non developer.blender.org. The [source repository](https://developer.blender.org/diffusion/LMV) can get checked out\nindependently from Blender.\n\nThis module has been originally developed as a project for Google Summer of Code 2012-2015.\n\n@note\n- Notice that it is compiled only when Eigen, GLog and GFlags are correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@{\n@defgroup conditioning Conditioning\n@defgroup fundamental Fundamental\n@defgroup io Input/Output\n@defgroup numeric Numeric\n@defgroup projection Projection\n@defgroup robust Robust Estimation\n@defgroup triangulation Triangulation\n\n@defgroup reconstruction Reconstruction\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n\n@defgroup simple_pipeline Simple Pipeline\n@note\n- Notice that it is compiled only when Ceres Solver is correctly installed.\\n\nCheck installation instructions in the following tutorial: @ref tutorial_sfm_installation\n\n@}\n\n\n"}
+
+--- Incoming ---
+[   'cv.sfm.triangulatePoints',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'points2d', '', []],
+        ['InputArrayOfArrays', 'projection_matrices', '', []],
+        ['OutputArray', 'points3d', '', []]],
+    None,
+    '@brief Reconstructs bunch of points by triangulation.\n'
+    '@param points2d Input vector of vectors of 2d points (the inner vector is '
+    'per image). Has to be 2 X N.\n'
+    '@param projection_matrices Input vector with 3x4 projections matrices of '
+    'each image.\n'
+    '@param points3d Output array with computed 3d points. Is 3 x N.\n'
+    '\n'
+    'Triangulates the 3d position of 2d correspondences between several '
+    'images.\n'
+    'Reference: Internally it uses DLT method @cite HartleyZ00 12.2 pag.312']
+parse_name: cv.sfm.triangulatePoints with ['cv', 'cv::sfm'] -> fullname:cv::sfm::triangulatePoints namespace:cv::sfm classpath: classname: name:triangulatePoints
+register (function) triangulatePoints (cv_sfm_triangulatePoints__InputArray__InputArray__OutputArray)
+
+
+===== Generating... =====
+Generating func cv_sfm_KRtFromProjection__InputArray__OutputArray__OutputArray__OutputArray
+Generating func cv_sfm_applyTransformationToPoints__InputArray__InputArray__OutputArray
+Generating func cv_sfm_computeOrientation__InputArray__InputArray__OutputArray__OutputArray_double
+Generating func cv_sfm_depth__InputArray__InputArray__InputArray
+Generating func cv_sfm_essentialFromFundamental__InputArray__InputArray__InputArray__OutputArray
+Generating func cv_sfm_essentialFromRt__InputArray__InputArray__InputArray__InputArray__OutputArray
+Generating func cv_sfm_euclideanToHomogeneous__InputArray__OutputArray
+Generating func cv_sfm_fundamentalFromCorrespondences7PointRobust__InputArray__InputArray_double__OutputArray__OutputArray_double
+Generating func cv_sfm_fundamentalFromCorrespondences8PointRobust__InputArray__InputArray_double__OutputArray__OutputArray_double
+Generating func cv_sfm_fundamentalFromEssential__InputArray__InputArray__InputArray__OutputArray
+Generating func cv_sfm_fundamentalFromProjections__InputArray__InputArray__OutputArray
+Generating func cv_sfm_homogeneousToEuclidean__InputArray__OutputArray
+Generating func cv_sfm_importReconstruction_String__OutputArray__OutputArray__OutputArray__OutputArray_int
+Generating func cv_sfm_isotropicPreconditionerFromPoints__InputArray__OutputArray
+Generating func cv_sfm_meanAndVarianceAlongRows__InputArray__OutputArray__OutputArray
+Generating func cv_sfm_motionFromEssentialChooseSolution__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray
+Generating func cv_sfm_motionFromEssential__InputArray__OutputArray__OutputArray
+Generating func cv_sfm_normalizeFundamental__InputArray__OutputArray
+Generating func cv_sfm_normalizeIsotropicPoints__InputArray__OutputArray__OutputArray
+Generating func cv_sfm_normalizePoints__InputArray__OutputArray__OutputArray
+Generating func cv_sfm_normalizedEightPointSolver__InputArray__InputArray__OutputArray
+Generating func cv_sfm_preconditionerFromPoints__InputArray__OutputArray
+Generating func cv_sfm_projectionFromKRt__InputArray__InputArray__InputArray__OutputArray
+Generating func cv_sfm_projectionsFromFundamental__InputArray__OutputArray__OutputArray
+Generating func cv_sfm_reconstruct_VectorOfString__OutputArray__OutputArray__InputOutputArray__OutputArray_bool
+Generating func cv_sfm_reconstruct_VectorOfString__OutputArray__OutputArray__InputOutputArray_bool
+Generating func cv_sfm_reconstruct__InputArray__OutputArray__OutputArray__InputOutputArray__OutputArray_bool
+Generating func cv_sfm_reconstruct__InputArray__OutputArray__OutputArray__InputOutputArray_bool
+Generating func cv_sfm_relativeCameraMotion__InputArray__InputArray__InputArray__InputArray__OutputArray__OutputArray
+Generating func cv_sfm_skew__InputArray
+Generating func cv_sfm_triangulatePoints__InputArray__InputArray__OutputArray
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Generating impl for trait cv::sfm::BaseSFM (trait)
+Generating func cv_sfm_BaseSFM_run__InputArray
+Generating func cv_sfm_BaseSFM_run__InputArray__InputOutputArray__OutputArray__OutputArray__OutputArray
+Generating func cv_sfm_BaseSFM_run_VectorOfString
+Generating func cv_sfm_BaseSFM_run_VectorOfString__InputOutputArray__OutputArray__OutputArray__OutputArray
+Generating func cv_sfm_BaseSFM_getError_const
+Generating func cv_sfm_BaseSFM_getPoints__OutputArray
+Generating func cv_sfm_BaseSFM_getIntrinsics_const
+Generating func cv_sfm_BaseSFM_getCameras__OutputArray__OutputArray
+Generating func cv_sfm_BaseSFM_setReconstructionOptions_libmv_ReconstructionOptions
+Generating func cv_sfm_BaseSFM_setCameraIntrinsicOptions_libmv_CameraIntrinsicsOptions
+Generating box for cv::sfm::SFMLibmvEuclideanReconstruction
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_run__InputArray
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_run__InputArray__InputOutputArray__OutputArray__OutputArray__OutputArray
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_run_VectorOfString
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_run_VectorOfString__InputOutputArray__OutputArray__OutputArray__OutputArray
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_getError_const
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_getPoints__OutputArray
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_getIntrinsics_const
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_getCameras__OutputArray__OutputArray
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_setReconstructionOptions_libmv_ReconstructionOptions
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_setCameraIntrinsicOptions_libmv_CameraIntrinsicsOptions
+Generating func cv_sfm_SFMLibmvEuclideanReconstruction_create_libmv_CameraIntrinsicsOptions_libmv_ReconstructionOptions
+Generating func cv_sfm_libmv_CameraIntrinsicsOptions_libmv_CameraIntrinsicsOptions_int_double_double_double_double_double_double_double_double_double
+Generating func cv_sfm_libmv_ReconstructionOptions_libmv_ReconstructionOptions_int_int_int_int_int
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

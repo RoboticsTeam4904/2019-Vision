@@ -1,0 +1,24 @@
+FOUND FUNCs: 20
+
+PORTED FUNCs: 20
+
+PORTED: cv::plot::Plot2d::setMinX (method) cv::plot::Plot2d (trait) . setMinX
+PORTED: cv::plot::Plot2d::setMinY (method) cv::plot::Plot2d (trait) . setMinY
+PORTED: cv::plot::Plot2d::setMaxX (method) cv::plot::Plot2d (trait) . setMaxX
+PORTED: cv::plot::Plot2d::setMaxY (method) cv::plot::Plot2d (trait) . setMaxY
+PORTED: cv::plot::Plot2d::setPlotLineWidth (method) cv::plot::Plot2d (trait) . setPlotLineWidth
+PORTED: cv::plot::Plot2d::setNeedPlotLine (method) cv::plot::Plot2d (trait) . setNeedPlotLine
+PORTED: cv::plot::Plot2d::setPlotLineColor (method) cv::plot::Plot2d (trait) . setPlotLineColor
+PORTED: cv::plot::Plot2d::setPlotBackgroundColor (method) cv::plot::Plot2d (trait) . setPlotBackgroundColor
+PORTED: cv::plot::Plot2d::setPlotAxisColor (method) cv::plot::Plot2d (trait) . setPlotAxisColor
+PORTED: cv::plot::Plot2d::setPlotGridColor (method) cv::plot::Plot2d (trait) . setPlotGridColor
+PORTED: cv::plot::Plot2d::setPlotTextColor (method) cv::plot::Plot2d (trait) . setPlotTextColor
+PORTED: cv::plot::Plot2d::setPlotSize (method) cv::plot::Plot2d (trait) . setPlotSize
+PORTED: cv::plot::Plot2d::setShowGrid (method) cv::plot::Plot2d (trait) . setShowGrid
+PORTED: cv::plot::Plot2d::setShowText (method) cv::plot::Plot2d (trait) . setShowText
+PORTED: cv::plot::Plot2d::setGridLinesNumber (method) cv::plot::Plot2d (trait) . setGridLinesNumber
+PORTED: cv::plot::Plot2d::setInvertOrientation (method) cv::plot::Plot2d (trait) . setInvertOrientation
+PORTED: cv::plot::Plot2d::setPointIdxToPrint (method) cv::plot::Plot2d (trait) . setPointIdxToPrint
+PORTED: cv::plot::Plot2d::render (method) cv::plot::Plot2d (trait) . render
+PORTED: cv::plot::Plot2d::create (method) cv::plot::Plot2d (trait) . create
+PORTED: cv::plot::Plot2d::create (method) cv::plot::Plot2d (trait) . create

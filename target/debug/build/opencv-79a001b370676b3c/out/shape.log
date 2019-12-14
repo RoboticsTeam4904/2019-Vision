@@ -1,0 +1,1316 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape.hpp ================
+
+
+Namespaces: []
+Comment: {'shape': '\n@defgroup shape Shape Distance and Matching\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/emdL1.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'shape': '\n@defgroup shape Shape Distance and Matching\n\n'}
+
+--- Incoming ---
+[   'cv.EMDL1',
+    'float',
+    [],
+    [   ['InputArray', 'signature1', '', []],
+        ['InputArray', 'signature2', '', []]],
+    None,
+    '@brief Computes the "minimal work" distance between two weighted point '
+    'configurations base on the papers\n'
+    '"EMD-L1: An efficient and Robust Algorithm for comparing histogram-based '
+    'descriptors", by Haibin\n'
+    'Ling and Kazunori Okuda; and "The Earth Mover\'s Distance is the Mallows '
+    'Distance: Some Insights from\n'
+    'Statistics", by Elizaveta Levina and Peter Bickel.\n'
+    '\n'
+    '@param signature1 First signature, a single column floating-point matrix. '
+    'Each row is the value of\n'
+    'the histogram in each bin.\n'
+    '@param signature2 Second signature of the same format and size as '
+    'signature1.']
+parse_name: cv.EMDL1 with ['cv'] -> fullname:cv::EMDL1 namespace:cv classpath: classname: name:EMDL1
+register (function) EMDL1 (cv_EMDL1__InputArray__InputArray)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/hist_cost.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'shape': '\n@defgroup shape Shape Distance and Matching\n\n'}
+
+--- Incoming ---
+[   'class cv.HistogramCostExtractor',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for histogram cost algorithms.']
+parse_name: class cv.HistogramCostExtractor with ['cv'] -> fullname:cv::HistogramCostExtractor namespace:cv classpath: classname: name:HistogramCostExtractor
+register class cv::HistogramCostExtractor (['class cv.HistogramCostExtractor', ': cv::Algorithm', [], [], None, '@brief Abstract base class for histogram cost algorithms.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.HistogramCostExtractor.buildCostMatrix',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'descriptors1', '', []],
+        ['InputArray', 'descriptors2', '', []],
+        ['OutputArray', 'costMatrix', '', []]],
+    None,
+    '']
+parse_name: cv.HistogramCostExtractor.buildCostMatrix with ['cv'] -> fullname:cv::HistogramCostExtractor::buildCostMatrix namespace:cv classpath:HistogramCostExtractor classname:HistogramCostExtractor name:buildCostMatrix
+register (method) buildCostMatrix in cv::HistogramCostExtractor (trait) (cv_HistogramCostExtractor_buildCostMatrix__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.HistogramCostExtractor.setNDummies',
+    'void',
+    ['/A'],
+    [['int', 'nDummies', '', []]],
+    None,
+    '']
+parse_name: cv.HistogramCostExtractor.setNDummies with ['cv'] -> fullname:cv::HistogramCostExtractor::setNDummies namespace:cv classpath:HistogramCostExtractor classname:HistogramCostExtractor name:setNDummies
+register (method) setNDummies in cv::HistogramCostExtractor (trait) (cv_HistogramCostExtractor_setNDummies_int)
+
+--- Incoming ---
+['cv.HistogramCostExtractor.getNDummies', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.HistogramCostExtractor.getNDummies with ['cv'] -> fullname:cv::HistogramCostExtractor::getNDummies namespace:cv classpath:HistogramCostExtractor classname:HistogramCostExtractor name:getNDummies
+register (method) getNDummies in cv::HistogramCostExtractor (trait) (cv_HistogramCostExtractor_getNDummies_const)
+
+--- Incoming ---
+[   'cv.HistogramCostExtractor.setDefaultCost',
+    'void',
+    ['/A'],
+    [['float', 'defaultCost', '', []]],
+    None,
+    '']
+parse_name: cv.HistogramCostExtractor.setDefaultCost with ['cv'] -> fullname:cv::HistogramCostExtractor::setDefaultCost namespace:cv classpath:HistogramCostExtractor classname:HistogramCostExtractor name:setDefaultCost
+register (method) setDefaultCost in cv::HistogramCostExtractor (trait) (cv_HistogramCostExtractor_setDefaultCost_float)
+
+--- Incoming ---
+[   'cv.HistogramCostExtractor.getDefaultCost',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.HistogramCostExtractor.getDefaultCost with ['cv'] -> fullname:cv::HistogramCostExtractor::getDefaultCost namespace:cv classpath:HistogramCostExtractor classname:HistogramCostExtractor name:getDefaultCost
+register (method) getDefaultCost in cv::HistogramCostExtractor (trait) (cv_HistogramCostExtractor_getDefaultCost_const)
+
+--- Incoming ---
+[   'class cv.NormHistogramCostExtractor',
+    ': cv::HistogramCostExtractor',
+    [],
+    [],
+    None,
+    '@brief A norm based cost extraction. :']
+parse_name: class cv.NormHistogramCostExtractor with ['cv'] -> fullname:cv::NormHistogramCostExtractor namespace:cv classpath: classname: name:NormHistogramCostExtractor
+register class cv::NormHistogramCostExtractor (['class cv.NormHistogramCostExtractor', ': cv::HistogramCostExtractor', [], [], None, '@brief A norm based cost extraction. :']) impl:cv::HistogramCostExtractor
+
+--- Incoming ---
+[   'cv.NormHistogramCostExtractor.setNormFlag',
+    'void',
+    ['/A'],
+    [['int', 'flag', '', []]],
+    None,
+    '']
+parse_name: cv.NormHistogramCostExtractor.setNormFlag with ['cv'] -> fullname:cv::NormHistogramCostExtractor::setNormFlag namespace:cv classpath:NormHistogramCostExtractor classname:NormHistogramCostExtractor name:setNormFlag
+register (method) setNormFlag in cv::NormHistogramCostExtractor (trait) (cv_NormHistogramCostExtractor_setNormFlag_int)
+
+--- Incoming ---
+['cv.NormHistogramCostExtractor.getNormFlag', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.NormHistogramCostExtractor.getNormFlag with ['cv'] -> fullname:cv::NormHistogramCostExtractor::getNormFlag namespace:cv classpath:NormHistogramCostExtractor classname:NormHistogramCostExtractor name:getNormFlag
+register (method) getNormFlag in cv::NormHistogramCostExtractor (trait) (cv_NormHistogramCostExtractor_getNormFlag_const)
+
+--- Incoming ---
+[   'cv.createNormHistogramCostExtractor',
+    'Ptr<HistogramCostExtractor>',
+    [],
+    [   ['int', 'flag', 'DIST_L2', []],
+        ['int', 'nDummies', '25', []],
+        ['float', 'defaultCost', '0.2f', []]],
+    None,
+    '']
+parse_name: cv.createNormHistogramCostExtractor with ['cv'] -> fullname:cv::createNormHistogramCostExtractor namespace:cv classpath: classname: name:createNormHistogramCostExtractor
+register (function) createNormHistogramCostExtractor (cv_createNormHistogramCostExtractor_int_int_float)
+
+--- Incoming ---
+[   'class cv.EMDHistogramCostExtractor',
+    ': cv::HistogramCostExtractor',
+    [],
+    [],
+    None,
+    '@brief An EMD based cost extraction. :']
+parse_name: class cv.EMDHistogramCostExtractor with ['cv'] -> fullname:cv::EMDHistogramCostExtractor namespace:cv classpath: classname: name:EMDHistogramCostExtractor
+register class cv::EMDHistogramCostExtractor (['class cv.EMDHistogramCostExtractor', ': cv::HistogramCostExtractor', [], [], None, '@brief An EMD based cost extraction. :']) impl:cv::HistogramCostExtractor
+
+--- Incoming ---
+[   'cv.EMDHistogramCostExtractor.setNormFlag',
+    'void',
+    ['/A'],
+    [['int', 'flag', '', []]],
+    None,
+    '']
+parse_name: cv.EMDHistogramCostExtractor.setNormFlag with ['cv'] -> fullname:cv::EMDHistogramCostExtractor::setNormFlag namespace:cv classpath:EMDHistogramCostExtractor classname:EMDHistogramCostExtractor name:setNormFlag
+register (method) setNormFlag in cv::EMDHistogramCostExtractor (trait) (cv_EMDHistogramCostExtractor_setNormFlag_int)
+
+--- Incoming ---
+['cv.EMDHistogramCostExtractor.getNormFlag', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.EMDHistogramCostExtractor.getNormFlag with ['cv'] -> fullname:cv::EMDHistogramCostExtractor::getNormFlag namespace:cv classpath:EMDHistogramCostExtractor classname:EMDHistogramCostExtractor name:getNormFlag
+register (method) getNormFlag in cv::EMDHistogramCostExtractor (trait) (cv_EMDHistogramCostExtractor_getNormFlag_const)
+
+--- Incoming ---
+[   'cv.createEMDHistogramCostExtractor',
+    'Ptr<HistogramCostExtractor>',
+    [],
+    [   ['int', 'flag', 'DIST_L2', []],
+        ['int', 'nDummies', '25', []],
+        ['float', 'defaultCost', '0.2f', []]],
+    None,
+    '']
+parse_name: cv.createEMDHistogramCostExtractor with ['cv'] -> fullname:cv::createEMDHistogramCostExtractor namespace:cv classpath: classname: name:createEMDHistogramCostExtractor
+register (function) createEMDHistogramCostExtractor (cv_createEMDHistogramCostExtractor_int_int_float)
+
+--- Incoming ---
+[   'class cv.ChiHistogramCostExtractor',
+    ': cv::HistogramCostExtractor',
+    [],
+    [],
+    None,
+    '@brief An Chi based cost extraction. :']
+parse_name: class cv.ChiHistogramCostExtractor with ['cv'] -> fullname:cv::ChiHistogramCostExtractor namespace:cv classpath: classname: name:ChiHistogramCostExtractor
+register class cv::ChiHistogramCostExtractor (['class cv.ChiHistogramCostExtractor', ': cv::HistogramCostExtractor', [], [], None, '@brief An Chi based cost extraction. :']) impl:cv::HistogramCostExtractor
+
+--- Incoming ---
+[   'cv.createChiHistogramCostExtractor',
+    'Ptr<HistogramCostExtractor>',
+    [],
+    [['int', 'nDummies', '25', []], ['float', 'defaultCost', '0.2f', []]],
+    None,
+    '']
+parse_name: cv.createChiHistogramCostExtractor with ['cv'] -> fullname:cv::createChiHistogramCostExtractor namespace:cv classpath: classname: name:createChiHistogramCostExtractor
+register (function) createChiHistogramCostExtractor (cv_createChiHistogramCostExtractor_int_float)
+
+--- Incoming ---
+[   'class cv.EMDL1HistogramCostExtractor',
+    ': cv::HistogramCostExtractor',
+    [],
+    [],
+    None,
+    '@brief An EMD-L1 based cost extraction. :']
+parse_name: class cv.EMDL1HistogramCostExtractor with ['cv'] -> fullname:cv::EMDL1HistogramCostExtractor namespace:cv classpath: classname: name:EMDL1HistogramCostExtractor
+register class cv::EMDL1HistogramCostExtractor (['class cv.EMDL1HistogramCostExtractor', ': cv::HistogramCostExtractor', [], [], None, '@brief An EMD-L1 based cost extraction. :']) impl:cv::HistogramCostExtractor
+
+--- Incoming ---
+[   'cv.createEMDL1HistogramCostExtractor',
+    'Ptr<HistogramCostExtractor>',
+    [],
+    [['int', 'nDummies', '25', []], ['float', 'defaultCost', '0.2f', []]],
+    None,
+    '']
+parse_name: cv.createEMDL1HistogramCostExtractor with ['cv'] -> fullname:cv::createEMDL1HistogramCostExtractor namespace:cv classpath: classname: name:createEMDL1HistogramCostExtractor
+register (function) createEMDL1HistogramCostExtractor (cv_createEMDL1HistogramCostExtractor_int_float)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/shape.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'shape': '\n@defgroup shape Shape Distance and Matching\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/shape_distance.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'shape': '\n@defgroup shape Shape Distance and Matching\n\n'}
+
+--- Incoming ---
+[   'class cv.ShapeDistanceExtractor',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for shape distance algorithms.']
+parse_name: class cv.ShapeDistanceExtractor with ['cv'] -> fullname:cv::ShapeDistanceExtractor namespace:cv classpath: classname: name:ShapeDistanceExtractor
+register class cv::ShapeDistanceExtractor (['class cv.ShapeDistanceExtractor', ': cv::Algorithm', [], [], None, '@brief Abstract base class for shape distance algorithms.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.ShapeDistanceExtractor.computeDistance',
+    'float',
+    ['/A'],
+    [['InputArray', 'contour1', '', []], ['InputArray', 'contour2', '', []]],
+    None,
+    '@brief Compute the shape distance between two shapes defined by its '
+    'contours.\n'
+    '\n'
+    '@param contour1 Contour defining first shape.\n'
+    '@param contour2 Contour defining second shape.']
+parse_name: cv.ShapeDistanceExtractor.computeDistance with ['cv'] -> fullname:cv::ShapeDistanceExtractor::computeDistance namespace:cv classpath:ShapeDistanceExtractor classname:ShapeDistanceExtractor name:computeDistance
+register (method) computeDistance in cv::ShapeDistanceExtractor (trait) (cv_ShapeDistanceExtractor_computeDistance__InputArray__InputArray)
+
+--- Incoming ---
+[   'class cv.ShapeContextDistanceExtractor',
+    ': cv::ShapeDistanceExtractor',
+    [],
+    [],
+    None,
+    '@brief Implementation of the Shape Context descriptor and matching '
+    'algorithm\n'
+    '\n'
+    'proposed by Belongie et al. in "Shape Matching and Object Recognition '
+    'Using Shape Contexts" (PAMI\n'
+    '2002). This implementation is packaged in a generic scheme, in order to '
+    'allow you the\n'
+    'implementation of the common variations of the original pipeline.']
+parse_name: class cv.ShapeContextDistanceExtractor with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor namespace:cv classpath: classname: name:ShapeContextDistanceExtractor
+register class cv::ShapeContextDistanceExtractor (['class cv.ShapeContextDistanceExtractor', ': cv::ShapeDistanceExtractor', [], [], None, '@brief Implementation of the Shape Context descriptor and matching algorithm\n\nproposed by Belongie et al. in "Shape Matching and Object Recognition Using Shape Contexts" (PAMI\n2002). This implementation is packaged in a generic scheme, in order to allow you the\nimplementation of the common variations of the original pipeline.']) impl:cv::ShapeDistanceExtractor
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setAngularBins',
+    'void',
+    ['/A'],
+    [['int', 'nAngularBins', '', []]],
+    None,
+    '@brief Establish the number of angular bins for the Shape Context '
+    'Descriptor used in the shape matching\n'
+    'pipeline.\n'
+    '\n'
+    '@param nAngularBins The number of angular bins in the shape context '
+    'descriptor.']
+parse_name: cv.ShapeContextDistanceExtractor.setAngularBins with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setAngularBins namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setAngularBins
+register (method) setAngularBins in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setAngularBins_int)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getAngularBins',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getAngularBins with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getAngularBins namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getAngularBins
+register (method) getAngularBins in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getAngularBins_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setRadialBins',
+    'void',
+    ['/A'],
+    [['int', 'nRadialBins', '', []]],
+    None,
+    '@brief Establish the number of radial bins for the Shape Context '
+    'Descriptor used in the shape matching\n'
+    'pipeline.\n'
+    '\n'
+    '@param nRadialBins The number of radial bins in the shape context '
+    'descriptor.']
+parse_name: cv.ShapeContextDistanceExtractor.setRadialBins with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setRadialBins namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setRadialBins
+register (method) setRadialBins in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setRadialBins_int)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getRadialBins',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getRadialBins with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getRadialBins namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getRadialBins
+register (method) getRadialBins in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getRadialBins_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setInnerRadius',
+    'void',
+    ['/A'],
+    [['float', 'innerRadius', '', []]],
+    None,
+    '@brief Set the inner radius of the shape context descriptor.\n'
+    '\n'
+    '@param innerRadius The value of the inner radius.']
+parse_name: cv.ShapeContextDistanceExtractor.setInnerRadius with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setInnerRadius namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setInnerRadius
+register (method) setInnerRadius in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setInnerRadius_float)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getInnerRadius',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getInnerRadius with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getInnerRadius namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getInnerRadius
+register (method) getInnerRadius in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getInnerRadius_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setOuterRadius',
+    'void',
+    ['/A'],
+    [['float', 'outerRadius', '', []]],
+    None,
+    '@brief Set the outer radius of the shape context descriptor.\n'
+    '\n'
+    '@param outerRadius The value of the outer radius.']
+parse_name: cv.ShapeContextDistanceExtractor.setOuterRadius with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setOuterRadius namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setOuterRadius
+register (method) setOuterRadius in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setOuterRadius_float)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getOuterRadius',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getOuterRadius with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getOuterRadius namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getOuterRadius
+register (method) getOuterRadius in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getOuterRadius_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setRotationInvariant',
+    'void',
+    ['/A'],
+    [['bool', 'rotationInvariant', '', []]],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.setRotationInvariant with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setRotationInvariant namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setRotationInvariant
+register (method) setRotationInvariant in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setRotationInvariant_bool)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getRotationInvariant',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getRotationInvariant with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getRotationInvariant namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getRotationInvariant
+register (method) getRotationInvariant in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getRotationInvariant_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setShapeContextWeight',
+    'void',
+    ['/A'],
+    [['float', 'shapeContextWeight', '', []]],
+    None,
+    '@brief Set the weight of the shape context distance in the final value of '
+    'the shape distance. The shape\n'
+    'context distance between two shapes is defined as the symmetric sum of '
+    'shape context matching costs\n'
+    'over best matching points. The final value of the shape distance is a '
+    'user-defined linear\n'
+    'combination of the shape context distance, an image appearance distance, '
+    'and a bending energy.\n'
+    '\n'
+    '@param shapeContextWeight The weight of the shape context distance in the '
+    'final distance value.']
+parse_name: cv.ShapeContextDistanceExtractor.setShapeContextWeight with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setShapeContextWeight namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setShapeContextWeight
+register (method) setShapeContextWeight in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setShapeContextWeight_float)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getShapeContextWeight',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getShapeContextWeight with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getShapeContextWeight namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getShapeContextWeight
+register (method) getShapeContextWeight in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getShapeContextWeight_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setImageAppearanceWeight',
+    'void',
+    ['/A'],
+    [['float', 'imageAppearanceWeight', '', []]],
+    None,
+    '@brief Set the weight of the Image Appearance cost in the final value of '
+    'the shape distance. The image\n'
+    'appearance cost is defined as the sum of squared brightness differences '
+    'in Gaussian windows around\n'
+    'corresponding image points. The final value of the shape distance is a '
+    'user-defined linear\n'
+    'combination of the shape context distance, an image appearance distance, '
+    'and a bending energy. If\n'
+    'this value is set to a number different from 0, is mandatory to set the '
+    'images that correspond to\n'
+    'each shape.\n'
+    '\n'
+    '@param imageAppearanceWeight The weight of the appearance cost in the '
+    'final distance value.']
+parse_name: cv.ShapeContextDistanceExtractor.setImageAppearanceWeight with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setImageAppearanceWeight namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setImageAppearanceWeight
+register (method) setImageAppearanceWeight in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setImageAppearanceWeight_float)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getImageAppearanceWeight',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getImageAppearanceWeight with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getImageAppearanceWeight namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getImageAppearanceWeight
+register (method) getImageAppearanceWeight in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getImageAppearanceWeight_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setBendingEnergyWeight',
+    'void',
+    ['/A'],
+    [['float', 'bendingEnergyWeight', '', []]],
+    None,
+    '@brief Set the weight of the Bending Energy in the final value of the '
+    'shape distance. The bending energy\n'
+    'definition depends on what transformation is being used to align the '
+    'shapes. The final value of the\n'
+    'shape distance is a user-defined linear combination of the shape context '
+    'distance, an image\n'
+    'appearance distance, and a bending energy.\n'
+    '\n'
+    '@param bendingEnergyWeight The weight of the Bending Energy in the final '
+    'distance value.']
+parse_name: cv.ShapeContextDistanceExtractor.setBendingEnergyWeight with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setBendingEnergyWeight namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setBendingEnergyWeight
+register (method) setBendingEnergyWeight in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setBendingEnergyWeight_float)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getBendingEnergyWeight',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getBendingEnergyWeight with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getBendingEnergyWeight namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getBendingEnergyWeight
+register (method) getBendingEnergyWeight in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getBendingEnergyWeight_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setImages',
+    'void',
+    ['/A'],
+    [['InputArray', 'image1', '', []], ['InputArray', 'image2', '', []]],
+    None,
+    '@brief Set the images that correspond to each shape. This images are used '
+    'in the calculation of the Image\n'
+    'Appearance cost.\n'
+    '\n'
+    '@param image1 Image corresponding to the shape defined by contours1.\n'
+    '@param image2 Image corresponding to the shape defined by contours2.']
+parse_name: cv.ShapeContextDistanceExtractor.setImages with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setImages namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setImages
+register (method) setImages in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setImages__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getImages',
+    'void',
+    ['/A', '/C'],
+    [['OutputArray', 'image1', '', []], ['OutputArray', 'image2', '', []]],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getImages with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getImages namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getImages
+register (method) getImages in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getImages_const__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setIterations',
+    'void',
+    ['/A'],
+    [['int', 'iterations', '', []]],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.setIterations with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setIterations namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setIterations
+register (method) setIterations in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setIterations_int)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getIterations',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getIterations with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getIterations namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getIterations
+register (method) getIterations in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getIterations_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setCostExtractor',
+    'void',
+    ['/A'],
+    [['Ptr<HistogramCostExtractor>', 'comparer', '', []]],
+    None,
+    '@brief Set the algorithm used for building the shape context descriptor '
+    'cost matrix.\n'
+    '\n'
+    '@param comparer Smart pointer to a HistogramCostExtractor, an algorithm '
+    'that defines the cost\n'
+    'matrix between descriptors.']
+parse_name: cv.ShapeContextDistanceExtractor.setCostExtractor with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setCostExtractor namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setCostExtractor
+register (method) setCostExtractor in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setCostExtractor_PtrOfHistogramCostExtractor)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getCostExtractor',
+    'Ptr<HistogramCostExtractor>',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getCostExtractor with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getCostExtractor namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getCostExtractor
+register (method) getCostExtractor in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getCostExtractor_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setStdDev',
+    'void',
+    ['/A'],
+    [['float', 'sigma', '', []]],
+    None,
+    '@brief Set the value of the standard deviation for the Gaussian window '
+    'for the image appearance cost.\n'
+    '\n'
+    '@param sigma Standard Deviation.']
+parse_name: cv.ShapeContextDistanceExtractor.setStdDev with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setStdDev namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setStdDev
+register (method) setStdDev in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setStdDev_float)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getStdDev',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getStdDev with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getStdDev namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getStdDev
+register (method) getStdDev in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getStdDev_const)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.setTransformAlgorithm',
+    'void',
+    ['/A'],
+    [['Ptr<ShapeTransformer>', 'transformer', '', []]],
+    None,
+    '@brief Set the algorithm used for aligning the shapes.\n'
+    '\n'
+    '@param transformer Smart pointer to a ShapeTransformer, an algorithm that '
+    'defines the aligning\n'
+    'transformation.']
+parse_name: cv.ShapeContextDistanceExtractor.setTransformAlgorithm with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::setTransformAlgorithm namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:setTransformAlgorithm
+Registering an unknown type: ShapeTransformer
+register (method) setTransformAlgorithm in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_setTransformAlgorithm_Ptr<ShapeTransformer>)
+
+--- Incoming ---
+[   'cv.ShapeContextDistanceExtractor.getTransformAlgorithm',
+    'Ptr<ShapeTransformer>',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ShapeContextDistanceExtractor.getTransformAlgorithm with ['cv'] -> fullname:cv::ShapeContextDistanceExtractor::getTransformAlgorithm namespace:cv classpath:ShapeContextDistanceExtractor classname:ShapeContextDistanceExtractor name:getTransformAlgorithm
+register (method) getTransformAlgorithm in cv::ShapeContextDistanceExtractor (trait) (cv_ShapeContextDistanceExtractor_getTransformAlgorithm_const)
+
+--- Incoming ---
+[   'cv.createShapeContextDistanceExtractor',
+    'Ptr<ShapeContextDistanceExtractor>',
+    [],
+    [   ['int', 'nAngularBins', '12', []],
+        ['int', 'nRadialBins', '4', []],
+        ['float', 'innerRadius', '0.2f', []],
+        ['float', 'outerRadius', '2', []],
+        ['int', 'iterations', '3', []],
+        [   'const Ptr<HistogramCostExtractor> &',
+            'comparer',
+            'createChiHistogramCostExtractor()',
+            []],
+        [   'const Ptr<ShapeTransformer> &',
+            'transformer',
+            'createThinPlateSplineShapeTransformer()',
+            []]],
+    None,
+    '']
+parse_name: cv.createShapeContextDistanceExtractor with ['cv'] -> fullname:cv::createShapeContextDistanceExtractor namespace:cv classpath: classname: name:createShapeContextDistanceExtractor
+register (function) createShapeContextDistanceExtractor (cv_createShapeContextDistanceExtractor_int_int_float_float_int_PtrOfHistogramCostExtractor_Ptr<ShapeTransformer>)
+
+--- Incoming ---
+[   'class cv.HausdorffDistanceExtractor',
+    ': cv::ShapeDistanceExtractor',
+    [],
+    [],
+    None,
+    '@brief A simple Hausdorff distance measure between shapes defined by '
+    'contours\n'
+    '\n'
+    'according to the paper "Comparing Images using the Hausdorff distance." '
+    'by D.P. Huttenlocher, G.A.\n'
+    'Klanderman, and W.J. Rucklidge. (PAMI 1993). :']
+parse_name: class cv.HausdorffDistanceExtractor with ['cv'] -> fullname:cv::HausdorffDistanceExtractor namespace:cv classpath: classname: name:HausdorffDistanceExtractor
+register class cv::HausdorffDistanceExtractor (['class cv.HausdorffDistanceExtractor', ': cv::ShapeDistanceExtractor', [], [], None, '@brief A simple Hausdorff distance measure between shapes defined by contours\n\naccording to the paper "Comparing Images using the Hausdorff distance." by D.P. Huttenlocher, G.A.\nKlanderman, and W.J. Rucklidge. (PAMI 1993). :']) impl:cv::ShapeDistanceExtractor
+
+--- Incoming ---
+[   'cv.HausdorffDistanceExtractor.setDistanceFlag',
+    'void',
+    ['/A'],
+    [['int', 'distanceFlag', '', []]],
+    None,
+    '@brief Set the norm used to compute the Hausdorff value between two '
+    'shapes. It can be L1 or L2 norm.\n'
+    '\n'
+    '@param distanceFlag Flag indicating which norm is used to compute the '
+    'Hausdorff distance\n'
+    '(NORM_L1, NORM_L2).']
+parse_name: cv.HausdorffDistanceExtractor.setDistanceFlag with ['cv'] -> fullname:cv::HausdorffDistanceExtractor::setDistanceFlag namespace:cv classpath:HausdorffDistanceExtractor classname:HausdorffDistanceExtractor name:setDistanceFlag
+register (method) setDistanceFlag in cv::HausdorffDistanceExtractor (trait) (cv_HausdorffDistanceExtractor_setDistanceFlag_int)
+
+--- Incoming ---
+[   'cv.HausdorffDistanceExtractor.getDistanceFlag',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.HausdorffDistanceExtractor.getDistanceFlag with ['cv'] -> fullname:cv::HausdorffDistanceExtractor::getDistanceFlag namespace:cv classpath:HausdorffDistanceExtractor classname:HausdorffDistanceExtractor name:getDistanceFlag
+register (method) getDistanceFlag in cv::HausdorffDistanceExtractor (trait) (cv_HausdorffDistanceExtractor_getDistanceFlag_const)
+
+--- Incoming ---
+[   'cv.HausdorffDistanceExtractor.setRankProportion',
+    'void',
+    ['/A'],
+    [['float', 'rankProportion', '', []]],
+    None,
+    '@brief This method sets the rank proportion (or fractional value) that '
+    'establish the Kth ranked value of\n'
+    'the partial Hausdorff distance. Experimentally had been shown that 0.6 is '
+    'a good value to compare\n'
+    'shapes.\n'
+    '\n'
+    '@param rankProportion fractional value (between 0 and 1).']
+parse_name: cv.HausdorffDistanceExtractor.setRankProportion with ['cv'] -> fullname:cv::HausdorffDistanceExtractor::setRankProportion namespace:cv classpath:HausdorffDistanceExtractor classname:HausdorffDistanceExtractor name:setRankProportion
+register (method) setRankProportion in cv::HausdorffDistanceExtractor (trait) (cv_HausdorffDistanceExtractor_setRankProportion_float)
+
+--- Incoming ---
+[   'cv.HausdorffDistanceExtractor.getRankProportion',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.HausdorffDistanceExtractor.getRankProportion with ['cv'] -> fullname:cv::HausdorffDistanceExtractor::getRankProportion namespace:cv classpath:HausdorffDistanceExtractor classname:HausdorffDistanceExtractor name:getRankProportion
+register (method) getRankProportion in cv::HausdorffDistanceExtractor (trait) (cv_HausdorffDistanceExtractor_getRankProportion_const)
+
+--- Incoming ---
+[   'cv.createHausdorffDistanceExtractor',
+    'Ptr<HausdorffDistanceExtractor>',
+    [],
+    [   ['int', 'distanceFlag', 'cv::NORM_L2', []],
+        ['float', 'rankProp', '0.6f', []]],
+    None,
+    '']
+parse_name: cv.createHausdorffDistanceExtractor with ['cv'] -> fullname:cv::createHausdorffDistanceExtractor namespace:cv classpath: classname: name:createHausdorffDistanceExtractor
+register (function) createHausdorffDistanceExtractor (cv_createHausdorffDistanceExtractor_int_float)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/shape_transformer.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'shape': '\n@defgroup shape Shape Distance and Matching\n\n'}
+
+--- Incoming ---
+[   'class cv.ShapeTransformer',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for shape transformation algorithms.']
+parse_name: class cv.ShapeTransformer with ['cv'] -> fullname:cv::ShapeTransformer namespace:cv classpath: classname: name:ShapeTransformer
+register class cv::ShapeTransformer (['class cv.ShapeTransformer', ': cv::Algorithm', [], [], None, '@brief Abstract base class for shape transformation algorithms.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.ShapeTransformer.estimateTransformation',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'transformingShape', '', []],
+        ['InputArray', 'targetShape', '', []],
+        ['std::vector<DMatch>&', 'matches', '', []]],
+    None,
+    '@brief Estimate the transformation parameters of the current transformer '
+    'algorithm, based on point matches.\n'
+    '\n'
+    '@param transformingShape Contour defining first shape.\n'
+    '@param targetShape Contour defining second shape (Target).\n'
+    '@param matches Standard vector of Matches between points.']
+parse_name: cv.ShapeTransformer.estimateTransformation with ['cv'] -> fullname:cv::ShapeTransformer::estimateTransformation namespace:cv classpath:ShapeTransformer classname:ShapeTransformer name:estimateTransformation
+register (method) estimateTransformation in cv::ShapeTransformer (trait) (cv_ShapeTransformer_estimateTransformation__InputArray__InputArray_VectorOfDMatch)
+
+--- Incoming ---
+[   'cv.ShapeTransformer.applyTransformation',
+    'float',
+    ['/A'],
+    [   ['InputArray', 'input', '', []],
+        ['OutputArray', 'output', 'noArray()', []]],
+    None,
+    '@brief Apply a transformation, given a pre-estimated transformation '
+    'parameters.\n'
+    '\n'
+    '@param input Contour (set of points) to apply the transformation.\n'
+    '@param output Output contour.']
+parse_name: cv.ShapeTransformer.applyTransformation with ['cv'] -> fullname:cv::ShapeTransformer::applyTransformation namespace:cv classpath:ShapeTransformer classname:ShapeTransformer name:applyTransformation
+register (method) applyTransformation in cv::ShapeTransformer (trait) (cv_ShapeTransformer_applyTransformation__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.ShapeTransformer.warpImage',
+    'void',
+    ['/A', '/C'],
+    [   ['InputArray', 'transformingImage', '', []],
+        ['OutputArray', 'output', '', []],
+        ['int', 'flags', 'INTER_LINEAR', []],
+        ['int', 'borderMode', 'BORDER_CONSTANT', []],
+        ['const Scalar&', 'borderValue', 'Scalar()', []]],
+    None,
+    '@brief Apply a transformation, given a pre-estimated transformation '
+    'parameters, to an Image.\n'
+    '\n'
+    '@param transformingImage Input image.\n'
+    '@param output Output image.\n'
+    '@param flags Image interpolation method.\n'
+    '@param borderMode border style.\n'
+    '@param borderValue border value.']
+parse_name: cv.ShapeTransformer.warpImage with ['cv'] -> fullname:cv::ShapeTransformer::warpImage namespace:cv classpath:ShapeTransformer classname:ShapeTransformer name:warpImage
+register (method) warpImage in cv::ShapeTransformer (trait) (cv_ShapeTransformer_warpImage_const__InputArray__OutputArray_int_int_Scalar)
+
+--- Incoming ---
+[   'class cv.ThinPlateSplineShapeTransformer',
+    ': cv::ShapeTransformer',
+    [],
+    [],
+    None,
+    '@brief Definition of the transformation\n'
+    '\n'
+    'occupied in the paper "Principal Warps: Thin-Plate Splines and '
+    'Decomposition of Deformations", by\n'
+    'F.L. Bookstein (PAMI 1989). :']
+parse_name: class cv.ThinPlateSplineShapeTransformer with ['cv'] -> fullname:cv::ThinPlateSplineShapeTransformer namespace:cv classpath: classname: name:ThinPlateSplineShapeTransformer
+register class cv::ThinPlateSplineShapeTransformer (['class cv.ThinPlateSplineShapeTransformer', ': cv::ShapeTransformer', [], [], None, '@brief Definition of the transformation\n\noccupied in the paper "Principal Warps: Thin-Plate Splines and Decomposition of Deformations", by\nF.L. Bookstein (PAMI 1989). :']) impl:cv::ShapeTransformer
+
+--- Incoming ---
+[   'cv.ThinPlateSplineShapeTransformer.setRegularizationParameter',
+    'void',
+    ['/A'],
+    [['double', 'beta', '', []]],
+    None,
+    '@brief Set the regularization parameter for relaxing the exact '
+    'interpolation requirements of the TPS\n'
+    'algorithm.\n'
+    '\n'
+    '@param beta value of the regularization parameter.']
+parse_name: cv.ThinPlateSplineShapeTransformer.setRegularizationParameter with ['cv'] -> fullname:cv::ThinPlateSplineShapeTransformer::setRegularizationParameter namespace:cv classpath:ThinPlateSplineShapeTransformer classname:ThinPlateSplineShapeTransformer name:setRegularizationParameter
+register (method) setRegularizationParameter in cv::ThinPlateSplineShapeTransformer (trait) (cv_ThinPlateSplineShapeTransformer_setRegularizationParameter_double)
+
+--- Incoming ---
+[   'cv.ThinPlateSplineShapeTransformer.getRegularizationParameter',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.ThinPlateSplineShapeTransformer.getRegularizationParameter with ['cv'] -> fullname:cv::ThinPlateSplineShapeTransformer::getRegularizationParameter namespace:cv classpath:ThinPlateSplineShapeTransformer classname:ThinPlateSplineShapeTransformer name:getRegularizationParameter
+register (method) getRegularizationParameter in cv::ThinPlateSplineShapeTransformer (trait) (cv_ThinPlateSplineShapeTransformer_getRegularizationParameter_const)
+
+--- Incoming ---
+[   'cv.createThinPlateSplineShapeTransformer',
+    'Ptr<ThinPlateSplineShapeTransformer>',
+    [],
+    [['double', 'regularizationParameter', '0', []]],
+    None,
+    'Complete constructor']
+parse_name: cv.createThinPlateSplineShapeTransformer with ['cv'] -> fullname:cv::createThinPlateSplineShapeTransformer namespace:cv classpath: classname: name:createThinPlateSplineShapeTransformer
+register (function) createThinPlateSplineShapeTransformer (cv_createThinPlateSplineShapeTransformer_double)
+
+--- Incoming ---
+[   'class cv.AffineTransformer',
+    ': cv::ShapeTransformer',
+    [],
+    [],
+    None,
+    '@brief Wrapper class for the OpenCV Affine Transformation algorithm. :']
+parse_name: class cv.AffineTransformer with ['cv'] -> fullname:cv::AffineTransformer namespace:cv classpath: classname: name:AffineTransformer
+register class cv::AffineTransformer (['class cv.AffineTransformer', ': cv::ShapeTransformer', [], [], None, '@brief Wrapper class for the OpenCV Affine Transformation algorithm. :']) impl:cv::ShapeTransformer
+
+--- Incoming ---
+[   'cv.AffineTransformer.setFullAffine',
+    'void',
+    ['/A'],
+    [['bool', 'fullAffine', '', []]],
+    None,
+    '']
+parse_name: cv.AffineTransformer.setFullAffine with ['cv'] -> fullname:cv::AffineTransformer::setFullAffine namespace:cv classpath:AffineTransformer classname:AffineTransformer name:setFullAffine
+register (method) setFullAffine in cv::AffineTransformer (trait) (cv_AffineTransformer_setFullAffine_bool)
+
+--- Incoming ---
+['cv.AffineTransformer.getFullAffine', 'bool', ['/A', '/C'], [], None, '']
+parse_name: cv.AffineTransformer.getFullAffine with ['cv'] -> fullname:cv::AffineTransformer::getFullAffine namespace:cv classpath:AffineTransformer classname:AffineTransformer name:getFullAffine
+register (method) getFullAffine in cv::AffineTransformer (trait) (cv_AffineTransformer_getFullAffine_const)
+
+--- Incoming ---
+[   'cv.createAffineTransformer',
+    'Ptr<AffineTransformer>',
+    [],
+    [['bool', 'fullAffine', '', []]],
+    None,
+    'Complete constructor']
+parse_name: cv.createAffineTransformer with ['cv'] -> fullname:cv::createAffineTransformer namespace:cv classpath: classname: name:createAffineTransformer
+register (function) createAffineTransformer (cv_createAffineTransformer_bool)
+
+
+===== Generating... =====
+Generating func cv_EMDL1__InputArray__InputArray
+Generating func cv_createAffineTransformer_bool
+Generating func cv_createChiHistogramCostExtractor_int_float
+Generating func cv_createEMDHistogramCostExtractor_int_int_float
+Generating func cv_createEMDL1HistogramCostExtractor_int_float
+Generating func cv_createHausdorffDistanceExtractor_int_float
+Generating func cv_createNormHistogramCostExtractor_int_int_float
+Generating func cv_createShapeContextDistanceExtractor_int_int_float_float_int_PtrOfHistogramCostExtractor_Ptr<ShapeTransformer>
+  ignored: can not map type SmartPtr[Unknown[ShapeTransformer]] yet
+Generating func cv_createThinPlateSplineShapeTransformer_double
+Generating impl for trait cv::AffineTransformer (trait)
+Generating func cv_AffineTransformer_setFullAffine_bool
+Generating func cv_AffineTransformer_getFullAffine_const
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Generating box for cv::ChiHistogramCostExtractor
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Generating impl for trait cv::EMDHistogramCostExtractor (trait)
+Generating func cv_EMDHistogramCostExtractor_setNormFlag_int
+Generating func cv_EMDHistogramCostExtractor_getNormFlag_const
+Generating box for cv::EMDL1HistogramCostExtractor
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Generating impl for trait cv::HausdorffDistanceExtractor (trait)
+Generating func cv_HausdorffDistanceExtractor_setDistanceFlag_int
+Generating func cv_HausdorffDistanceExtractor_getDistanceFlag_const
+Generating func cv_HausdorffDistanceExtractor_setRankProportion_float
+Generating func cv_HausdorffDistanceExtractor_getRankProportion_const
+Generating impl for trait cv::HistogramCostExtractor (trait)
+Generating func cv_HistogramCostExtractor_buildCostMatrix__InputArray__InputArray__OutputArray
+Generating func cv_HistogramCostExtractor_setNDummies_int
+Generating func cv_HistogramCostExtractor_getNDummies_const
+Generating func cv_HistogramCostExtractor_setDefaultCost_float
+Generating func cv_HistogramCostExtractor_getDefaultCost_const
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Generating impl for trait cv::NormHistogramCostExtractor (trait)
+Generating func cv_NormHistogramCostExtractor_setNormFlag_int
+Generating func cv_NormHistogramCostExtractor_getNormFlag_const
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Generating impl for trait cv::ShapeContextDistanceExtractor (trait)
+Generating func cv_ShapeContextDistanceExtractor_setAngularBins_int
+Generating func cv_ShapeContextDistanceExtractor_getAngularBins_const
+Generating func cv_ShapeContextDistanceExtractor_setRadialBins_int
+Generating func cv_ShapeContextDistanceExtractor_getRadialBins_const
+Generating func cv_ShapeContextDistanceExtractor_setInnerRadius_float
+Generating func cv_ShapeContextDistanceExtractor_getInnerRadius_const
+Generating func cv_ShapeContextDistanceExtractor_setOuterRadius_float
+Generating func cv_ShapeContextDistanceExtractor_getOuterRadius_const
+Generating func cv_ShapeContextDistanceExtractor_setRotationInvariant_bool
+Generating func cv_ShapeContextDistanceExtractor_getRotationInvariant_const
+Generating func cv_ShapeContextDistanceExtractor_setShapeContextWeight_float
+Generating func cv_ShapeContextDistanceExtractor_getShapeContextWeight_const
+Generating func cv_ShapeContextDistanceExtractor_setImageAppearanceWeight_float
+Generating func cv_ShapeContextDistanceExtractor_getImageAppearanceWeight_const
+Generating func cv_ShapeContextDistanceExtractor_setBendingEnergyWeight_float
+Generating func cv_ShapeContextDistanceExtractor_getBendingEnergyWeight_const
+Generating func cv_ShapeContextDistanceExtractor_setImages__InputArray__InputArray
+Generating func cv_ShapeContextDistanceExtractor_getImages_const__OutputArray__OutputArray
+Generating func cv_ShapeContextDistanceExtractor_setIterations_int
+Generating func cv_ShapeContextDistanceExtractor_getIterations_const
+Generating func cv_ShapeContextDistanceExtractor_setCostExtractor_PtrOfHistogramCostExtractor
+Generating func cv_ShapeContextDistanceExtractor_getCostExtractor_const
+Generating func cv_ShapeContextDistanceExtractor_setStdDev_float
+Generating func cv_ShapeContextDistanceExtractor_getStdDev_const
+Generating func cv_ShapeContextDistanceExtractor_setTransformAlgorithm_Ptr<ShapeTransformer>
+  ignored: can not map type SmartPtr[Unknown[ShapeTransformer]] yet
+Generating func cv_ShapeContextDistanceExtractor_getTransformAlgorithm_const
+  ignored: return type class SmartPtr[Unknown[ShapeTransformer]] is ignored
+Generating impl for trait cv::ShapeDistanceExtractor (trait)
+Generating func cv_ShapeDistanceExtractor_computeDistance__InputArray__InputArray
+Generating impl for trait cv::ShapeTransformer (trait)
+Generating func cv_ShapeTransformer_estimateTransformation__InputArray__InputArray_VectorOfDMatch
+Generating func cv_ShapeTransformer_applyTransformation__InputArray__OutputArray
+Generating func cv_ShapeTransformer_warpImage_const__InputArray__OutputArray_int_int_Scalar
+Ghost class cv::TermCriteria (ghost), ignoring
+Generating impl for trait cv::ThinPlateSplineShapeTransformer (trait)
+Generating func cv_ThinPlateSplineShapeTransformer_setRegularizationParameter_double
+Generating func cv_ThinPlateSplineShapeTransformer_getRegularizationParameter_const
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

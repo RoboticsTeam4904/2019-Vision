@@ -1,0 +1,1257 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto.hpp ================
+
+
+Namespaces: []
+Comment: {'xphoto': ' @defgroup xphoto Additional photo processing algorithms\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/bm3d_image_denoising.hpp ================
+
+
+Namespaces: ['cv', 'cv.xphoto']
+Comment: {'xphoto': ' @defgroup xphoto Additional photo processing algorithms\n\n'}
+
+--- Incoming ---
+[   'enum cv.xphoto.TransformTypes',
+    '',
+    [],
+    [['const cv.xphoto.HAAR', '0', [], [], None, '']],
+    None,
+    '@addtogroup xphoto\n@{\nBM3D transform types']
+parse_name: const cv.xphoto.HAAR with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::HAAR namespace:cv::xphoto classpath: classname: name:HAAR
+parse_name: enum cv.xphoto.TransformTypes with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TransformTypes namespace:cv::xphoto classpath: classname: name:TransformTypes
+parse_name: const cv.xphoto.HAAR with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::HAAR namespace:cv::xphoto classpath: classname: name:HAAR
+
+--- Incoming ---
+[   'enum cv.xphoto.Bm3dSteps',
+    '',
+    [],
+    [   ['const cv.xphoto.BM3D_STEPALL', '0', [], [], None, ''],
+        ['const cv.xphoto.BM3D_STEP1', '1', [], [], None, ''],
+        ['const cv.xphoto.BM3D_STEP2', '2', [], [], None, '']],
+    None,
+    'BM3D algorithm steps']
+parse_name: const cv.xphoto.BM3D_STEPALL with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::BM3D_STEPALL namespace:cv::xphoto classpath: classname: name:BM3D_STEPALL
+parse_name: const cv.xphoto.BM3D_STEP1 with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::BM3D_STEP1 namespace:cv::xphoto classpath: classname: name:BM3D_STEP1
+parse_name: const cv.xphoto.BM3D_STEP2 with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::BM3D_STEP2 namespace:cv::xphoto classpath: classname: name:BM3D_STEP2
+parse_name: enum cv.xphoto.Bm3dSteps with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::Bm3dSteps namespace:cv::xphoto classpath: classname: name:Bm3dSteps
+parse_name: const cv.xphoto.BM3D_STEPALL with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::BM3D_STEPALL namespace:cv::xphoto classpath: classname: name:BM3D_STEPALL
+parse_name: const cv.xphoto.BM3D_STEP1 with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::BM3D_STEP1 namespace:cv::xphoto classpath: classname: name:BM3D_STEP1
+parse_name: const cv.xphoto.BM3D_STEP2 with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::BM3D_STEP2 namespace:cv::xphoto classpath: classname: name:BM3D_STEP2
+
+--- Incoming ---
+[   'cv.xphoto.bm3dDenoising',
+    'void',
+    [],
+    [   ['InputArray', 'src', '', []],
+        ['InputOutputArray', 'dstStep1', '', []],
+        ['OutputArray', 'dstStep2', '', []],
+        ['float', 'h', '1', []],
+        ['int', 'templateWindowSize', '4', []],
+        ['int', 'searchWindowSize', '16', []],
+        ['int', 'blockMatchingStep1', '2500', []],
+        ['int', 'blockMatchingStep2', '400', []],
+        ['int', 'groupSize', '8', []],
+        ['int', 'slidingStep', '1', []],
+        ['float', 'beta', '2.0f', []],
+        ['int', 'normType', 'cv::NORM_L2', []],
+        ['int', 'step', 'cv::xphoto::BM3D_STEPALL', []],
+        ['int', 'transformType', 'cv::xphoto::HAAR', []]],
+    None,
+    '@brief Performs image denoising using the Block-Matching and 3D-filtering '
+    'algorithm\n'
+    '<http://www.cs.tut.fi/~foi/GCF-BM3D/BM3D_TIP_2007.pdf> with several '
+    'computational\n'
+    'optimizations. Noise expected to be a gaussian white noise.\n'
+    '\n'
+    '@param src Input 8-bit or 16-bit 1-channel image.\n'
+    '@param dstStep1 Output image of the first step of BM3D with the same size '
+    'and type as src.\n'
+    '@param dstStep2 Output image of the second step of BM3D with the same '
+    'size and type as src.\n'
+    '@param h Parameter regulating filter strength. Big h value perfectly '
+    'removes noise but also\n'
+    'removes image details, smaller h value preserves details but also '
+    'preserves some noise.\n'
+    '@param templateWindowSize Size in pixels of the template patch that is '
+    'used for block-matching.\n'
+    'Should be power of 2.\n'
+    '@param searchWindowSize Size in pixels of the window that is used to '
+    'perform block-matching.\n'
+    'Affect performance linearly: greater searchWindowsSize - greater '
+    'denoising time.\n'
+    'Must be larger than templateWindowSize.\n'
+    '@param blockMatchingStep1 Block matching threshold for the first step of '
+    'BM3D (hard thresholding),\n'
+    'i.e. maximum distance for which two blocks are considered similar.\n'
+    'Value expressed in euclidean distance.\n'
+    '@param blockMatchingStep2 Block matching threshold for the second step of '
+    'BM3D (Wiener filtering),\n'
+    'i.e. maximum distance for which two blocks are considered similar.\n'
+    'Value expressed in euclidean distance.\n'
+    '@param groupSize Maximum size of the 3D group for collaborative '
+    'filtering.\n'
+    '@param slidingStep Sliding step to process every next reference block.\n'
+    '@param beta Kaiser window parameter that affects the sidelobe attenuation '
+    'of the transform of the\n'
+    'window. Kaiser window is used in order to reduce border effects. To '
+    'prevent usage of the window,\n'
+    'set beta to zero.\n'
+    '@param normType Norm used to calculate distance between blocks. L2 is '
+    'slower than L1\n'
+    'but yields more accurate results.\n'
+    '@param step Step of BM3D to be executed. Possible variants are: step 1, '
+    'step 2, both steps.\n'
+    '@param transformType Type of the orthogonal transform used in '
+    'collaborative filtering step.\n'
+    'Currently only Haar transform is supported.\n'
+    '\n'
+    'This function expected to be applied to grayscale images. Advanced usage '
+    'of this function\n'
+    'can be manual denoising of colored image in different colorspaces.\n'
+    '\n'
+    '@sa\n'
+    'fastNlMeansDenoising']
+parse_name: cv.xphoto.bm3dDenoising with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::bm3dDenoising namespace:cv::xphoto classpath: classname: name:bm3dDenoising
+register (function) bm3dDenoising (cv_xphoto_bm3dDenoising__InputArray__InputOutputArray__OutputArray_float_int_int_int_int_int_int_float_int_int_int)
+
+--- Incoming ---
+[   'cv.xphoto.bm3dDenoising',
+    'void',
+    [],
+    [   ['InputArray', 'src', '', []],
+        ['OutputArray', 'dst', '', []],
+        ['float', 'h', '1', []],
+        ['int', 'templateWindowSize', '4', []],
+        ['int', 'searchWindowSize', '16', []],
+        ['int', 'blockMatchingStep1', '2500', []],
+        ['int', 'blockMatchingStep2', '400', []],
+        ['int', 'groupSize', '8', []],
+        ['int', 'slidingStep', '1', []],
+        ['float', 'beta', '2.0f', []],
+        ['int', 'normType', 'cv::NORM_L2', []],
+        ['int', 'step', 'cv::xphoto::BM3D_STEPALL', []],
+        ['int', 'transformType', 'cv::xphoto::HAAR', []]],
+    None,
+    '@brief Performs image denoising using the Block-Matching and 3D-filtering '
+    'algorithm\n'
+    '<http://www.cs.tut.fi/~foi/GCF-BM3D/BM3D_TIP_2007.pdf> with several '
+    'computational\n'
+    'optimizations. Noise expected to be a gaussian white noise.\n'
+    '\n'
+    '@param src Input 8-bit or 16-bit 1-channel image.\n'
+    '@param dst Output image with the same size and type as src.\n'
+    '@param h Parameter regulating filter strength. Big h value perfectly '
+    'removes noise but also\n'
+    'removes image details, smaller h value preserves details but also '
+    'preserves some noise.\n'
+    '@param templateWindowSize Size in pixels of the template patch that is '
+    'used for block-matching.\n'
+    'Should be power of 2.\n'
+    '@param searchWindowSize Size in pixels of the window that is used to '
+    'perform block-matching.\n'
+    'Affect performance linearly: greater searchWindowsSize - greater '
+    'denoising time.\n'
+    'Must be larger than templateWindowSize.\n'
+    '@param blockMatchingStep1 Block matching threshold for the first step of '
+    'BM3D (hard thresholding),\n'
+    'i.e. maximum distance for which two blocks are considered similar.\n'
+    'Value expressed in euclidean distance.\n'
+    '@param blockMatchingStep2 Block matching threshold for the second step of '
+    'BM3D (Wiener filtering),\n'
+    'i.e. maximum distance for which two blocks are considered similar.\n'
+    'Value expressed in euclidean distance.\n'
+    '@param groupSize Maximum size of the 3D group for collaborative '
+    'filtering.\n'
+    '@param slidingStep Sliding step to process every next reference block.\n'
+    '@param beta Kaiser window parameter that affects the sidelobe attenuation '
+    'of the transform of the\n'
+    'window. Kaiser window is used in order to reduce border effects. To '
+    'prevent usage of the window,\n'
+    'set beta to zero.\n'
+    '@param normType Norm used to calculate distance between blocks. L2 is '
+    'slower than L1\n'
+    'but yields more accurate results.\n'
+    '@param step Step of BM3D to be executed. Allowed are only BM3D_STEP1 and '
+    'BM3D_STEPALL.\n'
+    'BM3D_STEP2 is not allowed as it requires basic estimate to be present.\n'
+    '@param transformType Type of the orthogonal transform used in '
+    'collaborative filtering step.\n'
+    'Currently only Haar transform is supported.\n'
+    '\n'
+    'This function expected to be applied to grayscale images. Advanced usage '
+    'of this function\n'
+    'can be manual denoising of colored image in different colorspaces.\n'
+    '\n'
+    '@sa\n'
+    'fastNlMeansDenoising']
+parse_name: cv.xphoto.bm3dDenoising with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::bm3dDenoising namespace:cv::xphoto classpath: classname: name:bm3dDenoising
+register (function) bm3dDenoising (cv_xphoto_bm3dDenoising__InputArray__OutputArray_float_int_int_int_int_int_int_float_int_int_int)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/dct_image_denoising.hpp ================
+
+
+Namespaces: ['cv', 'cv.xphoto']
+Comment: {'xphoto': ' @defgroup xphoto Additional photo processing algorithms\n\n'}
+
+--- Incoming ---
+[   'cv.xphoto.dctDenoising',
+    'void',
+    [],
+    [   ['const Mat &', 'src', '', []],
+        ['Mat &', 'dst', '', []],
+        ['const double', 'sigma', '', []],
+        ['const int', 'psize', '16', []]],
+    None,
+    '@brief The function implements simple dct-based denoising\n'
+    '\n'
+    '<http://www.ipol.im/pub/art/2011/ys-dct/>.\n'
+    '@param src source image\n'
+    '@param dst destination image\n'
+    '@param sigma expected noise standard deviation\n'
+    '@param psize size of block side where dct is computed\n'
+    '\n'
+    '@sa\n'
+    'fastNlMeansDenoising']
+parse_name: cv.xphoto.dctDenoising with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::dctDenoising namespace:cv::xphoto classpath: classname: name:dctDenoising
+register (function) dctDenoising (cv_xphoto_dctDenoising_Mat_Mat_double_int)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/inpainting.hpp ================
+
+
+Namespaces: ['cv', 'cv.xphoto']
+Comment: {'xphoto': ' @defgroup xphoto Additional photo processing algorithms\n\n'}
+
+--- Incoming ---
+[   'enum cv.xphoto.InpaintTypes',
+    '',
+    [],
+    [['const cv.xphoto.INPAINT_SHIFTMAP', '0', [], [], None, '']],
+    None,
+    '@addtogroup xphoto\n@{\nvarious inpainting algorithms']
+parse_name: const cv.xphoto.INPAINT_SHIFTMAP with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::INPAINT_SHIFTMAP namespace:cv::xphoto classpath: classname: name:INPAINT_SHIFTMAP
+parse_name: enum cv.xphoto.InpaintTypes with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::InpaintTypes namespace:cv::xphoto classpath: classname: name:InpaintTypes
+parse_name: const cv.xphoto.INPAINT_SHIFTMAP with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::INPAINT_SHIFTMAP namespace:cv::xphoto classpath: classname: name:INPAINT_SHIFTMAP
+
+--- Incoming ---
+[   'cv.xphoto.inpaint',
+    'void',
+    [],
+    [   ['const Mat &', 'src', '', []],
+        ['const Mat &', 'mask', '', []],
+        ['Mat &', 'dst', '', []],
+        ['const int', 'algorithmType', '', []]],
+    None,
+    '@brief The function implements different single-image inpainting '
+    'algorithms.\n'
+    '\n'
+    'See the original paper @cite He2012 for details.\n'
+    '\n'
+    '@param src source image, it could be of any type and any number of '
+    'channels from 1 to 4. In case of\n'
+    '3- and 4-channels images the function expect them in CIELab colorspace or '
+    'similar one, where first\n'
+    'color component shows intensity, while second and third shows colors. '
+    'Nonetheless you can try any\n'
+    'colorspaces.\n'
+    '@param mask mask (CV_8UC1), where non-zero pixels indicate valid image '
+    'area, while zero pixels\n'
+    'indicate area to be inpainted\n'
+    '@param dst destination image\n'
+    '@param algorithmType see xphoto::InpaintTypes']
+parse_name: cv.xphoto.inpaint with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::inpaint namespace:cv::xphoto classpath: classname: name:inpaint
+register (function) inpaint (cv_xphoto_inpaint_Mat_Mat_Mat_int)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/oilpainting.hpp ================
+
+
+Namespaces: ['cv', 'cv.xphoto']
+Comment: {'xphoto': ' @defgroup xphoto Additional photo processing algorithms\n\n'}
+
+--- Incoming ---
+[   'cv.xphoto.oilPainting',
+    'void',
+    [],
+    [   ['InputArray', 'src', '', []],
+        ['OutputArray', 'dst', '', []],
+        ['int', 'size', '', []],
+        ['int', 'dynRatio', '', []],
+        ['int', 'code', '', []]],
+    None,
+    '@brief oilPainting\n'
+    'See the book @cite Holzmann1988 for details.\n'
+    '@param src Input three-channel or one channel image (either CV_8UC3 or '
+    'CV_8UC1)\n'
+    '@param dst Output image of the same size and type as src.\n'
+    '@param size neighbouring size is 2-size+1\n'
+    '@param dynRatio image is divided by dynRatio before histogram processing\n'
+    '@param code\tcolor space conversion code(see ColorConversionCodes). '
+    'Histogram will used only first plane']
+parse_name: cv.xphoto.oilPainting with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::oilPainting namespace:cv::xphoto classpath: classname: name:oilPainting
+register (function) oilPainting (cv_xphoto_oilPainting__InputArray__OutputArray_int_int_int)
+
+--- Incoming ---
+[   'cv.xphoto.oilPainting',
+    'void',
+    [],
+    [   ['InputArray', 'src', '', []],
+        ['OutputArray', 'dst', '', []],
+        ['int', 'size', '', []],
+        ['int', 'dynRatio', '', []]],
+    None,
+    '@brief oilPainting\n'
+    'See the book @cite Holzmann1988 for details.\n'
+    '@param src Input three-channel or one channel image (either CV_8UC3 or '
+    'CV_8UC1)\n'
+    '@param dst Output image of the same size and type as src.\n'
+    '@param size neighbouring size is 2-size+1\n'
+    '@param dynRatio image is divided by dynRatio before histogram processing']
+parse_name: cv.xphoto.oilPainting with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::oilPainting namespace:cv::xphoto classpath: classname: name:oilPainting
+register (function) oilPainting (cv_xphoto_oilPainting__InputArray__OutputArray_int_int)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/tonemap.hpp ================
+
+
+Namespaces: ['cv', 'cv.xphoto']
+Comment: {'xphoto': ' @defgroup xphoto Additional photo processing algorithms\n\n'}
+
+--- Incoming ---
+[   'class cv.xphoto.TonemapDurand',
+    ': cv::xphoto::Tonemap',
+    [],
+    [],
+    None,
+    '@brief This algorithm decomposes image into two layers: base layer and '
+    'detail layer using bilateral filter\n'
+    'and compresses contrast of the base layer thus preserving all the '
+    'details.\n'
+    '\n'
+    'This implementation uses regular bilateral filter from OpenCV.\n'
+    '\n'
+    'Saturation enhancement is possible as in cv::TonemapDrago.\n'
+    '\n'
+    'For more information see @cite DD02 .']
+parse_name: class cv.xphoto.TonemapDurand with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand namespace:cv::xphoto classpath: classname: name:TonemapDurand
+register class cv::xphoto::TonemapDurand (['class cv.xphoto.TonemapDurand', ': cv::xphoto::Tonemap', [], [], None, '@brief This algorithm decomposes image into two layers: base layer and detail layer using bilateral filter\nand compresses contrast of the base layer thus preserving all the details.\n\nThis implementation uses regular bilateral filter from OpenCV.\n\nSaturation enhancement is possible as in cv::TonemapDrago.\n\nFor more information see @cite DD02 .']) impl:cv::xphoto::Tonemap
+
+--- Incoming ---
+['cv.xphoto.TonemapDurand.getSaturation', 'float', ['/A', '/C'], [], None, '']
+parse_name: cv.xphoto.TonemapDurand.getSaturation with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand::getSaturation namespace:cv::xphoto classpath:TonemapDurand classname:TonemapDurand name:getSaturation
+register (method) getSaturation in cv::xphoto::TonemapDurand (trait) (cv_xphoto_TonemapDurand_getSaturation_const)
+
+--- Incoming ---
+[   'cv.xphoto.TonemapDurand.setSaturation',
+    'void',
+    ['/A'],
+    [['float', 'saturation', '', []]],
+    None,
+    '']
+parse_name: cv.xphoto.TonemapDurand.setSaturation with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand::setSaturation namespace:cv::xphoto classpath:TonemapDurand classname:TonemapDurand name:setSaturation
+register (method) setSaturation in cv::xphoto::TonemapDurand (trait) (cv_xphoto_TonemapDurand_setSaturation_float)
+
+--- Incoming ---
+['cv.xphoto.TonemapDurand.getContrast', 'float', ['/A', '/C'], [], None, '']
+parse_name: cv.xphoto.TonemapDurand.getContrast with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand::getContrast namespace:cv::xphoto classpath:TonemapDurand classname:TonemapDurand name:getContrast
+register (method) getContrast in cv::xphoto::TonemapDurand (trait) (cv_xphoto_TonemapDurand_getContrast_const)
+
+--- Incoming ---
+[   'cv.xphoto.TonemapDurand.setContrast',
+    'void',
+    ['/A'],
+    [['float', 'contrast', '', []]],
+    None,
+    '']
+parse_name: cv.xphoto.TonemapDurand.setContrast with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand::setContrast namespace:cv::xphoto classpath:TonemapDurand classname:TonemapDurand name:setContrast
+register (method) setContrast in cv::xphoto::TonemapDurand (trait) (cv_xphoto_TonemapDurand_setContrast_float)
+
+--- Incoming ---
+['cv.xphoto.TonemapDurand.getSigmaSpace', 'float', ['/A', '/C'], [], None, '']
+parse_name: cv.xphoto.TonemapDurand.getSigmaSpace with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand::getSigmaSpace namespace:cv::xphoto classpath:TonemapDurand classname:TonemapDurand name:getSigmaSpace
+register (method) getSigmaSpace in cv::xphoto::TonemapDurand (trait) (cv_xphoto_TonemapDurand_getSigmaSpace_const)
+
+--- Incoming ---
+[   'cv.xphoto.TonemapDurand.setSigmaSpace',
+    'void',
+    ['/A'],
+    [['float', 'sigma_space', '', []]],
+    None,
+    '']
+parse_name: cv.xphoto.TonemapDurand.setSigmaSpace with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand::setSigmaSpace namespace:cv::xphoto classpath:TonemapDurand classname:TonemapDurand name:setSigmaSpace
+register (method) setSigmaSpace in cv::xphoto::TonemapDurand (trait) (cv_xphoto_TonemapDurand_setSigmaSpace_float)
+
+--- Incoming ---
+['cv.xphoto.TonemapDurand.getSigmaColor', 'float', ['/A', '/C'], [], None, '']
+parse_name: cv.xphoto.TonemapDurand.getSigmaColor with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand::getSigmaColor namespace:cv::xphoto classpath:TonemapDurand classname:TonemapDurand name:getSigmaColor
+register (method) getSigmaColor in cv::xphoto::TonemapDurand (trait) (cv_xphoto_TonemapDurand_getSigmaColor_const)
+
+--- Incoming ---
+[   'cv.xphoto.TonemapDurand.setSigmaColor',
+    'void',
+    ['/A'],
+    [['float', 'sigma_color', '', []]],
+    None,
+    '']
+parse_name: cv.xphoto.TonemapDurand.setSigmaColor with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::TonemapDurand::setSigmaColor namespace:cv::xphoto classpath:TonemapDurand classname:TonemapDurand name:setSigmaColor
+register (method) setSigmaColor in cv::xphoto::TonemapDurand (trait) (cv_xphoto_TonemapDurand_setSigmaColor_float)
+
+--- Incoming ---
+[   'cv.xphoto.createTonemapDurand',
+    'Ptr<TonemapDurand>',
+    [],
+    [   ['float', 'gamma', '1.0f', []],
+        ['float', 'contrast', '4.0f', []],
+        ['float', 'saturation', '1.0f', []],
+        ['float', 'sigma_space', '2.0f', []],
+        ['float', 'sigma_color', '2.0f', []]],
+    None,
+    '@brief Creates TonemapDurand object\n'
+    '\n'
+    'You need to set the OPENCV_ENABLE_NONFREE option in cmake to use those. '
+    'Use them at your own risk.\n'
+    '\n'
+    '@param gamma gamma value for gamma correction. See createTonemap\n'
+    '@param contrast resulting contrast on logarithmic scale, i. e. log(max / '
+    'min), where max and min\n'
+    'are maximum and minimum luminance values of the resulting image.\n'
+    '@param saturation saturation enhancement value. See createTonemapDrago\n'
+    '@param sigma_space bilateral filter sigma in color space\n'
+    '@param sigma_color bilateral filter sigma in coordinate space']
+parse_name: cv.xphoto.createTonemapDurand with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::createTonemapDurand namespace:cv::xphoto classpath: classname: name:createTonemapDurand
+register (function) createTonemapDurand (cv_xphoto_createTonemapDurand_float_float_float_float_float)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/white_balance.hpp ================
+
+
+Namespaces: ['cv', 'cv.xphoto']
+Comment: {'xphoto': ' @defgroup xphoto Additional photo processing algorithms\n\n'}
+
+--- Incoming ---
+[   'class cv.xphoto.WhiteBalancer',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief The base class for auto white balance algorithms.']
+parse_name: class cv.xphoto.WhiteBalancer with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::WhiteBalancer namespace:cv::xphoto classpath: classname: name:WhiteBalancer
+register class cv::xphoto::WhiteBalancer (['class cv.xphoto.WhiteBalancer', ': cv::Algorithm', [], [], None, '@brief The base class for auto white balance algorithms.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.xphoto.WhiteBalancer.balanceWhite',
+    'void',
+    ['/A'],
+    [['InputArray', 'src', '', []], ['OutputArray', 'dst', '', []]],
+    None,
+    '@brief Applies white balancing to the input image\n'
+    '\n'
+    '@param src Input image\n'
+    '@param dst White balancing result\n'
+    '@sa cvtColor, equalizeHist']
+parse_name: cv.xphoto.WhiteBalancer.balanceWhite with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::WhiteBalancer::balanceWhite namespace:cv::xphoto classpath:WhiteBalancer classname:WhiteBalancer name:balanceWhite
+register (method) balanceWhite in cv::xphoto::WhiteBalancer (trait) (cv_xphoto_WhiteBalancer_balanceWhite__InputArray__OutputArray)
+
+--- Incoming ---
+[   'class cv.xphoto.SimpleWB',
+    ': cv::xphoto::WhiteBalancer',
+    [],
+    [],
+    None,
+    '@brief A simple white balance algorithm that works by independently '
+    'stretching\n'
+    'each of the input image channels to the specified range. For increased '
+    'robustness\n'
+    'it ignores the top and bottom \\f$p\\%\\f$ of pixel values.']
+parse_name: class cv.xphoto.SimpleWB with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB namespace:cv::xphoto classpath: classname: name:SimpleWB
+register class cv::xphoto::SimpleWB (['class cv.xphoto.SimpleWB', ': cv::xphoto::WhiteBalancer', [], [], None, '@brief A simple white balance algorithm that works by independently stretching\neach of the input image channels to the specified range. For increased robustness\nit ignores the top and bottom \\f$p\\%\\f$ of pixel values.']) impl:cv::xphoto::WhiteBalancer
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.getInputMin',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Input image range minimum value\n@see setInputMin']
+parse_name: cv.xphoto.SimpleWB.getInputMin with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::getInputMin namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:getInputMin
+register (method) getInputMin in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_getInputMin_const)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.setInputMin',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getInputMin @see getInputMin']
+parse_name: cv.xphoto.SimpleWB.setInputMin with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::setInputMin namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:setInputMin
+register (method) setInputMin in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_setInputMin_float)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.getInputMax',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Input image range maximum value\n@see setInputMax']
+parse_name: cv.xphoto.SimpleWB.getInputMax with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::getInputMax namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:getInputMax
+register (method) getInputMax in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_getInputMax_const)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.setInputMax',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getInputMax @see getInputMax']
+parse_name: cv.xphoto.SimpleWB.setInputMax with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::setInputMax namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:setInputMax
+register (method) setInputMax in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_setInputMax_float)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.getOutputMin',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Output image range minimum value\n@see setOutputMin']
+parse_name: cv.xphoto.SimpleWB.getOutputMin with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::getOutputMin namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:getOutputMin
+register (method) getOutputMin in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_getOutputMin_const)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.setOutputMin',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getOutputMin @see getOutputMin']
+parse_name: cv.xphoto.SimpleWB.setOutputMin with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::setOutputMin namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:setOutputMin
+register (method) setOutputMin in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_setOutputMin_float)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.getOutputMax',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Output image range maximum value\n@see setOutputMax']
+parse_name: cv.xphoto.SimpleWB.getOutputMax with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::getOutputMax namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:getOutputMax
+register (method) getOutputMax in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_getOutputMax_const)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.setOutputMax',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getOutputMax @see getOutputMax']
+parse_name: cv.xphoto.SimpleWB.setOutputMax with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::setOutputMax namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:setOutputMax
+register (method) setOutputMax in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_setOutputMax_float)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.getP',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Percent of top/bottom values to ignore\n@see setP']
+parse_name: cv.xphoto.SimpleWB.getP with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::getP namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:getP
+register (method) getP in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_getP_const)
+
+--- Incoming ---
+[   'cv.xphoto.SimpleWB.setP',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getP @see getP']
+parse_name: cv.xphoto.SimpleWB.setP with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::SimpleWB::setP namespace:cv::xphoto classpath:SimpleWB classname:SimpleWB name:setP
+register (method) setP in cv::xphoto::SimpleWB (trait) (cv_xphoto_SimpleWB_setP_float)
+
+--- Incoming ---
+[   'cv.xphoto.createSimpleWB',
+    'Ptr<SimpleWB>',
+    [],
+    [],
+    None,
+    '@brief Creates an instance of SimpleWB']
+parse_name: cv.xphoto.createSimpleWB with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::createSimpleWB namespace:cv::xphoto classpath: classname: name:createSimpleWB
+register (function) createSimpleWB (cv_xphoto_createSimpleWB)
+
+--- Incoming ---
+[   'class cv.xphoto.GrayworldWB',
+    ': cv::xphoto::WhiteBalancer',
+    [],
+    [],
+    None,
+    '@brief Gray-world white balance algorithm\n'
+    '\n'
+    'This algorithm scales the values of pixels based on a\n'
+    'gray-world assumption which states that the average of all channels\n'
+    'should result in a gray image.\n'
+    '\n'
+    'It adds a modification which thresholds pixels based on their\n'
+    'saturation value and only uses pixels below the provided threshold in\n'
+    'finding average pixel values.\n'
+    '\n'
+    'Saturation is calculated using the following for a 3-channel RGB image '
+    'per\n'
+    'pixel I and is in the range [0, 1]:\n'
+    '\n'
+    '\\f[ \\texttt{Saturation} [I] = \\frac{\\textrm{max}(R,G,B) - '
+    '\\textrm{min}(R,G,B)\n'
+    '}{\\textrm{max}(R,G,B)} \\f]\n'
+    '\n'
+    'A threshold of 1 means that all pixels are used to white-balance, while '
+    'a\n'
+    'threshold of 0 means no pixels are used. Lower thresholds are useful in\n'
+    'white-balancing saturated images.\n'
+    '\n'
+    'Currently supports images of type @ref CV_8UC3 and @ref CV_16UC3.']
+parse_name: class cv.xphoto.GrayworldWB with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::GrayworldWB namespace:cv::xphoto classpath: classname: name:GrayworldWB
+register class cv::xphoto::GrayworldWB (['class cv.xphoto.GrayworldWB', ': cv::xphoto::WhiteBalancer', [], [], None, '@brief Gray-world white balance algorithm\n\nThis algorithm scales the values of pixels based on a\ngray-world assumption which states that the average of all channels\nshould result in a gray image.\n\nIt adds a modification which thresholds pixels based on their\nsaturation value and only uses pixels below the provided threshold in\nfinding average pixel values.\n\nSaturation is calculated using the following for a 3-channel RGB image per\npixel I and is in the range [0, 1]:\n\n\\f[ \\texttt{Saturation} [I] = \\frac{\\textrm{max}(R,G,B) - \\textrm{min}(R,G,B)\n}{\\textrm{max}(R,G,B)} \\f]\n\nA threshold of 1 means that all pixels are used to white-balance, while a\nthreshold of 0 means no pixels are used. Lower thresholds are useful in\nwhite-balancing saturated images.\n\nCurrently supports images of type @ref CV_8UC3 and @ref CV_16UC3.']) impl:cv::xphoto::WhiteBalancer
+
+--- Incoming ---
+[   'cv.xphoto.GrayworldWB.getSaturationThreshold',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Maximum saturation for a pixel to be included in the\n'
+    'gray-world assumption\n'
+    '@see setSaturationThreshold']
+parse_name: cv.xphoto.GrayworldWB.getSaturationThreshold with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::GrayworldWB::getSaturationThreshold namespace:cv::xphoto classpath:GrayworldWB classname:GrayworldWB name:getSaturationThreshold
+register (method) getSaturationThreshold in cv::xphoto::GrayworldWB (trait) (cv_xphoto_GrayworldWB_getSaturationThreshold_const)
+
+--- Incoming ---
+[   'cv.xphoto.GrayworldWB.setSaturationThreshold',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getSaturationThreshold @see getSaturationThreshold']
+parse_name: cv.xphoto.GrayworldWB.setSaturationThreshold with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::GrayworldWB::setSaturationThreshold namespace:cv::xphoto classpath:GrayworldWB classname:GrayworldWB name:setSaturationThreshold
+register (method) setSaturationThreshold in cv::xphoto::GrayworldWB (trait) (cv_xphoto_GrayworldWB_setSaturationThreshold_float)
+
+--- Incoming ---
+[   'cv.xphoto.createGrayworldWB',
+    'Ptr<GrayworldWB>',
+    [],
+    [],
+    None,
+    '@brief Creates an instance of GrayworldWB']
+parse_name: cv.xphoto.createGrayworldWB with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::createGrayworldWB namespace:cv::xphoto classpath: classname: name:createGrayworldWB
+register (function) createGrayworldWB (cv_xphoto_createGrayworldWB)
+
+--- Incoming ---
+[   'class cv.xphoto.LearningBasedWB',
+    ': cv::xphoto::WhiteBalancer',
+    [],
+    [],
+    None,
+    '@brief More sophisticated learning-based automatic white balance '
+    'algorithm.\n'
+    '\n'
+    'As @ref GrayworldWB, this algorithm works by applying different gains to '
+    'the input\n'
+    'image channels, but their computation is a bit more involved compared to '
+    'the\n'
+    'simple gray-world assumption. More details about the algorithm can be '
+    'found in\n'
+    '@cite Cheng2015 .\n'
+    '\n'
+    'To mask out saturated pixels this function uses only pixels that satisfy '
+    'the\n'
+    'following condition:\n'
+    '\n'
+    '\\f[ \\frac{\\textrm{max}(R,G,B)}{\\texttt{range_max_val}} < '
+    '\\texttt{saturation_thresh} \\f]\n'
+    '\n'
+    'Currently supports images of type @ref CV_8UC3 and @ref CV_16UC3.']
+parse_name: class cv.xphoto.LearningBasedWB with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::LearningBasedWB namespace:cv::xphoto classpath: classname: name:LearningBasedWB
+register class cv::xphoto::LearningBasedWB (['class cv.xphoto.LearningBasedWB', ': cv::xphoto::WhiteBalancer', [], [], None, '@brief More sophisticated learning-based automatic white balance algorithm.\n\nAs @ref GrayworldWB, this algorithm works by applying different gains to the input\nimage channels, but their computation is a bit more involved compared to the\nsimple gray-world assumption. More details about the algorithm can be found in\n@cite Cheng2015 .\n\nTo mask out saturated pixels this function uses only pixels that satisfy the\nfollowing condition:\n\n\\f[ \\frac{\\textrm{max}(R,G,B)}{\\texttt{range_max_val}} < \\texttt{saturation_thresh} \\f]\n\nCurrently supports images of type @ref CV_8UC3 and @ref CV_16UC3.']) impl:cv::xphoto::WhiteBalancer
+
+--- Incoming ---
+[   'cv.xphoto.LearningBasedWB.extractSimpleFeatures',
+    'void',
+    ['/A'],
+    [['InputArray', 'src', '', []], ['OutputArray', 'dst', '', []]],
+    None,
+    '@brief Implements the feature extraction part of the algorithm.\n'
+    '\n'
+    'In accordance with @cite Cheng2015 , computes the following features for '
+    'the input image:\n'
+    '1. Chromaticity of an average (R,G,B) tuple\n'
+    '2. Chromaticity of the brightest (R,G,B) tuple (while ignoring saturated '
+    'pixels)\n'
+    '3. Chromaticity of the dominant (R,G,B) tuple (the one that has the '
+    'highest value in the RGB histogram)\n'
+    '4. Mode of the chromaticity palette, that is constructed by taking 300 '
+    'most common colors according to\n'
+    'the RGB histogram and projecting them on the chromaticity plane. Mode is '
+    'the most high-density point\n'
+    'of the palette, which is computed by a straightforward fixed-bandwidth '
+    'kernel density estimator with\n'
+    'a Epanechnikov kernel function.\n'
+    '\n'
+    '@param src Input three-channel image (BGR color space is assumed).\n'
+    '@param dst An array of four (r,g) chromaticity tuples corresponding to '
+    'the features listed above.']
+parse_name: cv.xphoto.LearningBasedWB.extractSimpleFeatures with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::LearningBasedWB::extractSimpleFeatures namespace:cv::xphoto classpath:LearningBasedWB classname:LearningBasedWB name:extractSimpleFeatures
+register (method) extractSimpleFeatures in cv::xphoto::LearningBasedWB (trait) (cv_xphoto_LearningBasedWB_extractSimpleFeatures__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.xphoto.LearningBasedWB.getRangeMaxVal',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Maximum possible value of the input image (e.g. 255 for 8 bit '
+    'images,\n'
+    '4095 for 12 bit images)\n'
+    '@see setRangeMaxVal']
+parse_name: cv.xphoto.LearningBasedWB.getRangeMaxVal with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::LearningBasedWB::getRangeMaxVal namespace:cv::xphoto classpath:LearningBasedWB classname:LearningBasedWB name:getRangeMaxVal
+register (method) getRangeMaxVal in cv::xphoto::LearningBasedWB (trait) (cv_xphoto_LearningBasedWB_getRangeMaxVal_const)
+
+--- Incoming ---
+[   'cv.xphoto.LearningBasedWB.setRangeMaxVal',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getRangeMaxVal @see getRangeMaxVal']
+parse_name: cv.xphoto.LearningBasedWB.setRangeMaxVal with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::LearningBasedWB::setRangeMaxVal namespace:cv::xphoto classpath:LearningBasedWB classname:LearningBasedWB name:setRangeMaxVal
+register (method) setRangeMaxVal in cv::xphoto::LearningBasedWB (trait) (cv_xphoto_LearningBasedWB_setRangeMaxVal_int)
+
+--- Incoming ---
+[   'cv.xphoto.LearningBasedWB.getSaturationThreshold',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Threshold that is used to determine saturated pixels, i.e. pixels '
+    'where at least one of the\n'
+    'channels exceeds '
+    '\\f$\\texttt{saturation_threshold}\\times\\texttt{range_max_val}\\f$ are '
+    'ignored.\n'
+    '@see setSaturationThreshold']
+parse_name: cv.xphoto.LearningBasedWB.getSaturationThreshold with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::LearningBasedWB::getSaturationThreshold namespace:cv::xphoto classpath:LearningBasedWB classname:LearningBasedWB name:getSaturationThreshold
+register (method) getSaturationThreshold in cv::xphoto::LearningBasedWB (trait) (cv_xphoto_LearningBasedWB_getSaturationThreshold_const)
+
+--- Incoming ---
+[   'cv.xphoto.LearningBasedWB.setSaturationThreshold',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getSaturationThreshold @see getSaturationThreshold']
+parse_name: cv.xphoto.LearningBasedWB.setSaturationThreshold with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::LearningBasedWB::setSaturationThreshold namespace:cv::xphoto classpath:LearningBasedWB classname:LearningBasedWB name:setSaturationThreshold
+register (method) setSaturationThreshold in cv::xphoto::LearningBasedWB (trait) (cv_xphoto_LearningBasedWB_setSaturationThreshold_float)
+
+--- Incoming ---
+[   'cv.xphoto.LearningBasedWB.getHistBinNum',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Defines the size of one dimension of a three-dimensional RGB '
+    'histogram that is used internally\n'
+    'by the algorithm. It often makes sense to increase the number of bins for '
+    'images with higher bit depth\n'
+    '(e.g. 256 bins for a 12 bit image).\n'
+    '@see setHistBinNum']
+parse_name: cv.xphoto.LearningBasedWB.getHistBinNum with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::LearningBasedWB::getHistBinNum namespace:cv::xphoto classpath:LearningBasedWB classname:LearningBasedWB name:getHistBinNum
+register (method) getHistBinNum in cv::xphoto::LearningBasedWB (trait) (cv_xphoto_LearningBasedWB_getHistBinNum_const)
+
+--- Incoming ---
+[   'cv.xphoto.LearningBasedWB.setHistBinNum',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getHistBinNum @see getHistBinNum']
+parse_name: cv.xphoto.LearningBasedWB.setHistBinNum with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::LearningBasedWB::setHistBinNum namespace:cv::xphoto classpath:LearningBasedWB classname:LearningBasedWB name:setHistBinNum
+register (method) setHistBinNum in cv::xphoto::LearningBasedWB (trait) (cv_xphoto_LearningBasedWB_setHistBinNum_int)
+
+--- Incoming ---
+[   'cv.xphoto.createLearningBasedWB',
+    'Ptr<LearningBasedWB>',
+    [],
+    [['const String&', 'path_to_model', 'String()', []]],
+    None,
+    '@brief Creates an instance of LearningBasedWB\n'
+    '\n'
+    '@param path_to_model Path to a .yml file with the model. If not '
+    'specified, the default model is used']
+parse_name: cv.xphoto.createLearningBasedWB with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::createLearningBasedWB namespace:cv::xphoto classpath: classname: name:createLearningBasedWB
+register (function) createLearningBasedWB (cv_xphoto_createLearningBasedWB_String)
+
+--- Incoming ---
+[   'cv.xphoto.applyChannelGains',
+    'void',
+    [],
+    [   ['InputArray', 'src', '', []],
+        ['OutputArray', 'dst', '', []],
+        ['float', 'gainB', '', []],
+        ['float', 'gainG', '', []],
+        ['float', 'gainR', '', []]],
+    None,
+    '@brief Implements an efficient fixed-point approximation for applying '
+    'channel gains, which is\n'
+    'the last step of multiple white balance algorithms.\n'
+    '\n'
+    '@param src Input three-channel image in the BGR color space (either '
+    'CV_8UC3 or CV_16UC3)\n'
+    '@param dst Output image of the same size and type as src.\n'
+    '@param gainB gain for the B channel\n'
+    '@param gainG gain for the G channel\n'
+    '@param gainR gain for the R channel']
+parse_name: cv.xphoto.applyChannelGains with ['cv', 'cv::xphoto'] -> fullname:cv::xphoto::applyChannelGains namespace:cv::xphoto classpath: classname: name:applyChannelGains
+register (function) applyChannelGains (cv_xphoto_applyChannelGains__InputArray__OutputArray_float_float_float)
+
+
+===== Generating... =====
+Registering an unknown type: cv::xphoto::Tonemap
+Generating func cv_xphoto_applyChannelGains__InputArray__OutputArray_float_float_float
+Generating func cv_xphoto_bm3dDenoising__InputArray__InputOutputArray__OutputArray_float_int_int_int_int_int_int_float_int_int_int
+Generating func cv_xphoto_bm3dDenoising__InputArray__OutputArray_float_int_int_int_int_int_int_float_int_int_int
+Generating func cv_xphoto_createGrayworldWB
+Generating func cv_xphoto_createLearningBasedWB_String
+Generating func cv_xphoto_createSimpleWB
+Generating func cv_xphoto_createTonemapDurand_float_float_float_float_float
+Generating func cv_xphoto_dctDenoising_Mat_Mat_double_int
+Generating func cv_xphoto_inpaint_Mat_Mat_Mat_int
+Generating func cv_xphoto_oilPainting__InputArray__OutputArray_int_int
+Generating func cv_xphoto_oilPainting__InputArray__OutputArray_int_int_int
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring
+Generating impl for trait cv::xphoto::GrayworldWB (trait)
+Generating func cv_xphoto_GrayworldWB_getSaturationThreshold_const
+Generating func cv_xphoto_GrayworldWB_setSaturationThreshold_float
+Generating impl for trait cv::xphoto::LearningBasedWB (trait)
+Generating func cv_xphoto_LearningBasedWB_extractSimpleFeatures__InputArray__OutputArray
+Generating func cv_xphoto_LearningBasedWB_getRangeMaxVal_const
+Generating func cv_xphoto_LearningBasedWB_setRangeMaxVal_int
+Generating func cv_xphoto_LearningBasedWB_getSaturationThreshold_const
+Generating func cv_xphoto_LearningBasedWB_setSaturationThreshold_float
+Generating func cv_xphoto_LearningBasedWB_getHistBinNum_const
+Generating func cv_xphoto_LearningBasedWB_setHistBinNum_int
+Generating impl for trait cv::xphoto::SimpleWB (trait)
+Generating func cv_xphoto_SimpleWB_getInputMin_const
+Generating func cv_xphoto_SimpleWB_setInputMin_float
+Generating func cv_xphoto_SimpleWB_getInputMax_const
+Generating func cv_xphoto_SimpleWB_setInputMax_float
+Generating func cv_xphoto_SimpleWB_getOutputMin_const
+Generating func cv_xphoto_SimpleWB_setOutputMin_float
+Generating func cv_xphoto_SimpleWB_getOutputMax_const
+Generating func cv_xphoto_SimpleWB_setOutputMax_float
+Generating func cv_xphoto_SimpleWB_getP_const
+Generating func cv_xphoto_SimpleWB_setP_float
+Generating impl for trait cv::xphoto::TonemapDurand (trait)
+Generating func cv_xphoto_TonemapDurand_getSaturation_const
+Generating func cv_xphoto_TonemapDurand_setSaturation_float
+Generating func cv_xphoto_TonemapDurand_getContrast_const
+Generating func cv_xphoto_TonemapDurand_setContrast_float
+Generating func cv_xphoto_TonemapDurand_getSigmaSpace_const
+Generating func cv_xphoto_TonemapDurand_setSigmaSpace_float
+Generating func cv_xphoto_TonemapDurand_getSigmaColor_const
+Generating func cv_xphoto_TonemapDurand_setSigmaColor_float
+Generating impl for trait cv::xphoto::WhiteBalancer (trait)
+Generating func cv_xphoto_WhiteBalancer_balanceWhite__InputArray__OutputArray

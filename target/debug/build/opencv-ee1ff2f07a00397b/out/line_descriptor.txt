@@ -1,0 +1,50 @@
+FOUND FUNCs: 46
+
+PORTED FUNCs: 46
+
+PORTED: cv::line_descriptor::drawKeylines (function)
+PORTED: cv::line_descriptor::drawLineMatches (function)
+PORTED: cv::line_descriptor::BinaryDescriptor::BinaryDescriptor (constructor) cv::line_descriptor::BinaryDescriptor . new
+PORTED: cv::line_descriptor::BinaryDescriptor::createBinaryDescriptor (method) cv::line_descriptor::BinaryDescriptor . createBinaryDescriptor
+PORTED: cv::line_descriptor::BinaryDescriptor::createBinaryDescriptor (method) cv::line_descriptor::BinaryDescriptor . createBinaryDescriptor
+PORTED: cv::line_descriptor::BinaryDescriptor::getNumOfOctaves (method) cv::line_descriptor::BinaryDescriptor . getNumOfOctaves
+PORTED: cv::line_descriptor::BinaryDescriptor::setNumOfOctaves (method) cv::line_descriptor::BinaryDescriptor . setNumOfOctaves
+PORTED: cv::line_descriptor::BinaryDescriptor::getWidthOfBand (method) cv::line_descriptor::BinaryDescriptor . getWidthOfBand
+PORTED: cv::line_descriptor::BinaryDescriptor::setWidthOfBand (method) cv::line_descriptor::BinaryDescriptor . setWidthOfBand
+PORTED: cv::line_descriptor::BinaryDescriptor::getReductionRatio (method) cv::line_descriptor::BinaryDescriptor . getReductionRatio
+PORTED: cv::line_descriptor::BinaryDescriptor::setReductionRatio (method) cv::line_descriptor::BinaryDescriptor . setReductionRatio
+PORTED: cv::line_descriptor::BinaryDescriptor::read (method) cv::line_descriptor::BinaryDescriptor . read
+PORTED: cv::line_descriptor::BinaryDescriptor::write (method) cv::line_descriptor::BinaryDescriptor . write
+PORTED: cv::line_descriptor::BinaryDescriptor::detect (method) cv::line_descriptor::BinaryDescriptor . detect
+PORTED: cv::line_descriptor::BinaryDescriptor::detect (method) cv::line_descriptor::BinaryDescriptor . detect
+PORTED: cv::line_descriptor::BinaryDescriptor::compute (method) cv::line_descriptor::BinaryDescriptor . compute
+PORTED: cv::line_descriptor::BinaryDescriptor::compute (method) cv::line_descriptor::BinaryDescriptor . compute
+PORTED: cv::line_descriptor::BinaryDescriptor::descriptorSize (method) cv::line_descriptor::BinaryDescriptor . descriptorSize
+PORTED: cv::line_descriptor::BinaryDescriptor::descriptorType (method) cv::line_descriptor::BinaryDescriptor . descriptorType
+PORTED: cv::line_descriptor::BinaryDescriptor::defaultNorm (method) cv::line_descriptor::BinaryDescriptor . defaultNorm
+PORTED: cv::line_descriptor::BinaryDescriptor::Params::Params (constructor) cv::line_descriptor::BinaryDescriptor::Params . default
+PORTED: cv::line_descriptor::BinaryDescriptor::Params::read (method) cv::line_descriptor::BinaryDescriptor::Params . read
+PORTED: cv::line_descriptor::BinaryDescriptor::Params::write (method) cv::line_descriptor::BinaryDescriptor::Params . write
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::match (method) cv::line_descriptor::BinaryDescriptorMatcher . match
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::match (method) cv::line_descriptor::BinaryDescriptorMatcher . match
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::knnMatch (method) cv::line_descriptor::BinaryDescriptorMatcher . knnMatch
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::knnMatch (method) cv::line_descriptor::BinaryDescriptorMatcher . knnMatch
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::radiusMatch (method) cv::line_descriptor::BinaryDescriptorMatcher . radiusMatch
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::radiusMatch (method) cv::line_descriptor::BinaryDescriptorMatcher . radiusMatch
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::add (method) cv::line_descriptor::BinaryDescriptorMatcher . add
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::train (method) cv::line_descriptor::BinaryDescriptorMatcher . train
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::createBinaryDescriptorMatcher (method) cv::line_descriptor::BinaryDescriptorMatcher . createBinaryDescriptorMatcher
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::clear (method) cv::line_descriptor::BinaryDescriptorMatcher . clear
+PORTED: cv::line_descriptor::BinaryDescriptorMatcher::BinaryDescriptorMatcher (constructor) cv::line_descriptor::BinaryDescriptorMatcher . default
+PORTED: cv::line_descriptor::KeyLine::getStartPoint (method) cv::line_descriptor::KeyLine (simple) . getStartPoint
+PORTED: cv::line_descriptor::KeyLine::getEndPoint (method) cv::line_descriptor::KeyLine (simple) . getEndPoint
+PORTED: cv::line_descriptor::KeyLine::getStartPointInOctave (method) cv::line_descriptor::KeyLine (simple) . getStartPointInOctave
+PORTED: cv::line_descriptor::KeyLine::getEndPointInOctave (method) cv::line_descriptor::KeyLine (simple) . getEndPointInOctave
+PORTED: cv::line_descriptor::KeyLine::KeyLine (constructor) cv::line_descriptor::KeyLine (simple) . default
+PORTED: cv::line_descriptor::LSDDetector::LSDDetector (constructor) cv::line_descriptor::LSDDetector . default
+PORTED: cv::line_descriptor::LSDDetector::LSDDetector (constructor) cv::line_descriptor::LSDDetector . new
+PORTED: cv::line_descriptor::LSDDetector::createLSDDetector (method) cv::line_descriptor::LSDDetector . createLSDDetector
+PORTED: cv::line_descriptor::LSDDetector::createLSDDetector (method) cv::line_descriptor::LSDDetector . createLSDDetector
+PORTED: cv::line_descriptor::LSDDetector::detect (method) cv::line_descriptor::LSDDetector . detect
+PORTED: cv::line_descriptor::LSDDetector::detect (method) cv::line_descriptor::LSDDetector . detect
+PORTED: cv::line_descriptor::LSDParam::LSDParam (constructor) cv::line_descriptor::LSDParam (simple) . default

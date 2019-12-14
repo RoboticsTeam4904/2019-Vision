@@ -1,0 +1,2091 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/aruco/dictionary.hpp ================
+
+
+Namespaces: ['cv', 'cv.aruco']
+Comment: {}
+
+--- Incoming ---
+[   'class cv.aruco.Dictionary',
+    '',
+    [],
+    [   ['Mat', 'bytesList', '', ['/RW']],
+        ['int', 'markerSize', '', ['/RW']],
+        ['int', 'maxCorrectionBits', '', ['/RW']]],
+    None,
+    '* @brief Dictionary/Set of markers. It contains the inner codification\n'
+    '*\n'
+    '* bytesList contains the marker codewords where\n'
+    '* - bytesList.rows is the dictionary size\n'
+    '* - each marker is encoded using `nbytes = '
+    'ceil(markerSize*markerSize/8.)`\n'
+    '* - each row contains all 4 rotations of the marker, so its length is '
+    '`4*nbytes`\n'
+    '*\n'
+    '* `bytesList.ptr(i)[k*nbytes + j]` is then the j-th byte of i-th marker, '
+    'in its k-th rotation.']
+parse_name: class cv.aruco.Dictionary with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary namespace:cv::aruco classpath: classname: name:Dictionary
+register class cv::aruco::Dictionary (['class cv.aruco.Dictionary', '', [], [['Mat', 'bytesList', '', ['/RW']], ['int', 'markerSize', '', ['/RW']], ['int', 'maxCorrectionBits', '', ['/RW']]], None, '* @brief Dictionary/Set of markers. It contains the inner codification\n*\n* bytesList contains the marker codewords where\n* - bytesList.rows is the dictionary size\n* - each marker is encoded using `nbytes = ceil(markerSize*markerSize/8.)`\n* - each row contains all 4 rotations of the marker, so its length is `4*nbytes`\n*\n* `bytesList.ptr(i)[k*nbytes + j]` is then the j-th byte of i-th marker, in its k-th rotation.'])
+parse_name: cv.aruco.Dictionary.bytesList with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::bytesList namespace:cv::aruco classpath:Dictionary classname:Dictionary name:bytesList
+register (method) bytesList in cv::aruco::Dictionary (cv_aruco_Dictionary_bytesList)
+parse_name: cv.aruco.Dictionary.set_bytesList with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::set_bytesList namespace:cv::aruco classpath:Dictionary classname:Dictionary name:set_bytesList
+register (method) set_bytesList in cv::aruco::Dictionary (cv_aruco_Dictionary_set_bytesList_Mat)
+parse_name: cv.aruco.Dictionary.markerSize with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::markerSize namespace:cv::aruco classpath:Dictionary classname:Dictionary name:markerSize
+register (method) markerSize in cv::aruco::Dictionary (cv_aruco_Dictionary_markerSize_const)
+parse_name: cv.aruco.Dictionary.maxCorrectionBits with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::maxCorrectionBits namespace:cv::aruco classpath:Dictionary classname:Dictionary name:maxCorrectionBits
+register (method) maxCorrectionBits in cv::aruco::Dictionary (cv_aruco_Dictionary_maxCorrectionBits_const)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.Dictionary',
+    'D',
+    [],
+    [   ['const Mat &', '_bytesList', 'Mat()', []],
+        ['int', '_markerSize', '0', []],
+        ['int', '_maxcorr', '0', []]],
+    None,
+    '']
+parse_name: cv.aruco.Dictionary.Dictionary with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::Dictionary namespace:cv::aruco classpath:Dictionary classname:Dictionary name:Dictionary
+register (constructor) new in cv::aruco::Dictionary (cv_aruco_Dictionary_Dictionary_Mat_int_int)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.Dictionary',
+    'D',
+    [],
+    [['const Ptr<Dictionary> &', '_dictionary', '', []]],
+    None,
+    '']
+parse_name: cv.aruco.Dictionary.Dictionary with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::Dictionary namespace:cv::aruco classpath:Dictionary classname:Dictionary name:Dictionary
+register (constructor) new in cv::aruco::Dictionary (cv_aruco_Dictionary_Dictionary_PtrOfDictionary)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.create',
+    'Ptr<Dictionary>',
+    ['/S'],
+    [   ['int', 'nMarkers', '', []],
+        ['int', 'markerSize', '', []],
+        ['int', 'randomSeed', '0', []]],
+    None,
+    '* @see generateCustomDictionary']
+parse_name: cv.aruco.Dictionary.create with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::create namespace:cv::aruco classpath:Dictionary classname:Dictionary name:create
+register (method) create in cv::aruco::Dictionary (cv_aruco_Dictionary_create_int_int_int)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.create',
+    'Ptr<Dictionary>',
+    ['/S'],
+    [   ['int', 'nMarkers', '', []],
+        ['int', 'markerSize', '', []],
+        ['const Ptr<Dictionary> &', 'baseDictionary', '', []],
+        ['int', 'randomSeed', '0', []]],
+    None,
+    '* @see generateCustomDictionary']
+parse_name: cv.aruco.Dictionary.create with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::create namespace:cv::aruco classpath:Dictionary classname:Dictionary name:create
+register (method) create in cv::aruco::Dictionary (cv_aruco_Dictionary_create_int_int_PtrOfDictionary_int)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.get',
+    'Ptr<Dictionary>',
+    ['/S'],
+    [['int', 'dict', '', []]],
+    None,
+    '* @see getPredefinedDictionary']
+parse_name: cv.aruco.Dictionary.get with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::get namespace:cv::aruco classpath:Dictionary classname:Dictionary name:get
+register (method) get in cv::aruco::Dictionary (cv_aruco_Dictionary_get_int)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.identify',
+    'bool',
+    ['/C'],
+    [   ['const Mat &', 'onlyBits', '', []],
+        ['int &', 'idx', '', []],
+        ['int &', 'rotation', '', []],
+        ['double', 'maxCorrectionRate', '', []]],
+    None,
+    '* @brief Given a matrix of bits. Returns whether if marker is identified '
+    'or not.\n'
+    '* It returns by reference the correct id (if any) and the correct '
+    'rotation']
+parse_name: cv.aruco.Dictionary.identify with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::identify namespace:cv::aruco classpath:Dictionary classname:Dictionary name:identify
+register (method) identify in cv::aruco::Dictionary (cv_aruco_Dictionary_identify_const_Mat_int_int_double)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.getDistanceToId',
+    'int',
+    ['/C'],
+    [   ['InputArray', 'bits', '', []],
+        ['int', 'id', '', []],
+        ['bool', 'allRotations', 'true', []]],
+    None,
+    '* @brief Returns the distance of the input bits to the specific id. If '
+    'allRotations is true,\n'
+    '* the four posible bits rotation are considered']
+parse_name: cv.aruco.Dictionary.getDistanceToId with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::getDistanceToId namespace:cv::aruco classpath:Dictionary classname:Dictionary name:getDistanceToId
+register (method) getDistanceToId in cv::aruco::Dictionary (cv_aruco_Dictionary_getDistanceToId_const__InputArray_int_bool)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.drawMarker',
+    'void',
+    ['/C'],
+    [   ['int', 'id', '', []],
+        ['int', 'sidePixels', '', []],
+        ['OutputArray', '_img', '', []],
+        ['int', 'borderBits', '1', []]],
+    None,
+    '* @brief Draw a canonical marker image']
+parse_name: cv.aruco.Dictionary.drawMarker with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::drawMarker namespace:cv::aruco classpath:Dictionary classname:Dictionary name:drawMarker
+register (method) drawMarker in cv::aruco::Dictionary (cv_aruco_Dictionary_drawMarker_const_int_int__OutputArray_int)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.getByteListFromBits',
+    'Mat',
+    ['/S'],
+    [['const Mat &', 'bits', '', []]],
+    None,
+    '* @brief Transform matrix of bits to list of bytes in the 4 rotations']
+parse_name: cv.aruco.Dictionary.getByteListFromBits with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::getByteListFromBits namespace:cv::aruco classpath:Dictionary classname:Dictionary name:getByteListFromBits
+register (method) getByteListFromBits in cv::aruco::Dictionary (cv_aruco_Dictionary_getByteListFromBits_Mat)
+
+--- Incoming ---
+[   'cv.aruco.Dictionary.getBitsFromByteList',
+    'Mat',
+    ['/S'],
+    [['const Mat &', 'byteList', '', []], ['int', 'markerSize', '', []]],
+    None,
+    '* @brief Transform list of bytes to matrix of bits']
+parse_name: cv.aruco.Dictionary.getBitsFromByteList with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Dictionary::getBitsFromByteList namespace:cv::aruco classpath:Dictionary classname:Dictionary name:getBitsFromByteList
+register (method) getBitsFromByteList in cv::aruco::Dictionary (cv_aruco_Dictionary_getBitsFromByteList_Mat_int)
+
+--- Incoming ---
+[   'enum cv.aruco.PREDEFINED_DICTIONARY_NAME',
+    '',
+    [],
+    [   ['const cv.aruco.DICT_4X4_50', '0', [], [], None, ''],
+        ['const cv.aruco.DICT_4X4_100', '0+1', [], [], None, ''],
+        ['const cv.aruco.DICT_4X4_250', '0+2', [], [], None, ''],
+        ['const cv.aruco.DICT_4X4_1000', '0+3', [], [], None, ''],
+        ['const cv.aruco.DICT_5X5_50', '0+4', [], [], None, ''],
+        ['const cv.aruco.DICT_5X5_100', '0+5', [], [], None, ''],
+        ['const cv.aruco.DICT_5X5_250', '0+6', [], [], None, ''],
+        ['const cv.aruco.DICT_5X5_1000', '0+7', [], [], None, ''],
+        ['const cv.aruco.DICT_6X6_50', '0+8', [], [], None, ''],
+        ['const cv.aruco.DICT_6X6_100', '0+9', [], [], None, ''],
+        ['const cv.aruco.DICT_6X6_250', '0+10', [], [], None, ''],
+        ['const cv.aruco.DICT_6X6_1000', '0+11', [], [], None, ''],
+        ['const cv.aruco.DICT_7X7_50', '0+12', [], [], None, ''],
+        ['const cv.aruco.DICT_7X7_100', '0+13', [], [], None, ''],
+        ['const cv.aruco.DICT_7X7_250', '0+14', [], [], None, ''],
+        ['const cv.aruco.DICT_7X7_1000', '0+15', [], [], None, ''],
+        ['const cv.aruco.DICT_ARUCO_ORIGINAL', '0+16', [], [], None, ''],
+        ['const cv.aruco.DICT_APRILTAG_16h5', '0+17', [], [], None, ''],
+        ['const cv.aruco.DICT_APRILTAG_25h9', '0+18', [], [], None, ''],
+        ['const cv.aruco.DICT_APRILTAG_36h10', '0+19', [], [], None, ''],
+        ['const cv.aruco.DICT_APRILTAG_36h11', '0+20', [], [], None, '']],
+    None,
+    '* @brief Predefined markers dictionaries/sets\n'
+    '* Each dictionary indicates the number of bits and the number of markers '
+    'contained\n'
+    '* - DICT_ARUCO_ORIGINAL: standard ArUco Library Markers. 1024 markers, '
+    '5x5 bits, 0 minimum\n'
+    'distance']
+parse_name: const cv.aruco.DICT_4X4_50 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_4X4_50 namespace:cv::aruco classpath: classname: name:DICT_4X4_50
+parse_name: const cv.aruco.DICT_4X4_100 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_4X4_100 namespace:cv::aruco classpath: classname: name:DICT_4X4_100
+parse_name: const cv.aruco.DICT_4X4_250 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_4X4_250 namespace:cv::aruco classpath: classname: name:DICT_4X4_250
+parse_name: const cv.aruco.DICT_4X4_1000 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_4X4_1000 namespace:cv::aruco classpath: classname: name:DICT_4X4_1000
+parse_name: const cv.aruco.DICT_5X5_50 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_5X5_50 namespace:cv::aruco classpath: classname: name:DICT_5X5_50
+parse_name: const cv.aruco.DICT_5X5_100 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_5X5_100 namespace:cv::aruco classpath: classname: name:DICT_5X5_100
+parse_name: const cv.aruco.DICT_5X5_250 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_5X5_250 namespace:cv::aruco classpath: classname: name:DICT_5X5_250
+parse_name: const cv.aruco.DICT_5X5_1000 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_5X5_1000 namespace:cv::aruco classpath: classname: name:DICT_5X5_1000
+parse_name: const cv.aruco.DICT_6X6_50 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_6X6_50 namespace:cv::aruco classpath: classname: name:DICT_6X6_50
+parse_name: const cv.aruco.DICT_6X6_100 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_6X6_100 namespace:cv::aruco classpath: classname: name:DICT_6X6_100
+parse_name: const cv.aruco.DICT_6X6_250 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_6X6_250 namespace:cv::aruco classpath: classname: name:DICT_6X6_250
+parse_name: const cv.aruco.DICT_6X6_1000 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_6X6_1000 namespace:cv::aruco classpath: classname: name:DICT_6X6_1000
+parse_name: const cv.aruco.DICT_7X7_50 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_7X7_50 namespace:cv::aruco classpath: classname: name:DICT_7X7_50
+parse_name: const cv.aruco.DICT_7X7_100 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_7X7_100 namespace:cv::aruco classpath: classname: name:DICT_7X7_100
+parse_name: const cv.aruco.DICT_7X7_250 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_7X7_250 namespace:cv::aruco classpath: classname: name:DICT_7X7_250
+parse_name: const cv.aruco.DICT_7X7_1000 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_7X7_1000 namespace:cv::aruco classpath: classname: name:DICT_7X7_1000
+parse_name: const cv.aruco.DICT_ARUCO_ORIGINAL with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_ARUCO_ORIGINAL namespace:cv::aruco classpath: classname: name:DICT_ARUCO_ORIGINAL
+parse_name: const cv.aruco.DICT_APRILTAG_16h5 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_APRILTAG_16h5 namespace:cv::aruco classpath: classname: name:DICT_APRILTAG_16h5
+parse_name: const cv.aruco.DICT_APRILTAG_25h9 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_APRILTAG_25h9 namespace:cv::aruco classpath: classname: name:DICT_APRILTAG_25h9
+parse_name: const cv.aruco.DICT_APRILTAG_36h10 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_APRILTAG_36h10 namespace:cv::aruco classpath: classname: name:DICT_APRILTAG_36h10
+parse_name: const cv.aruco.DICT_APRILTAG_36h11 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_APRILTAG_36h11 namespace:cv::aruco classpath: classname: name:DICT_APRILTAG_36h11
+parse_name: enum cv.aruco.PREDEFINED_DICTIONARY_NAME with ['cv', 'cv::aruco'] -> fullname:cv::aruco::PREDEFINED_DICTIONARY_NAME namespace:cv::aruco classpath: classname: name:PREDEFINED_DICTIONARY_NAME
+parse_name: const cv.aruco.DICT_4X4_50 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_4X4_50 namespace:cv::aruco classpath: classname: name:DICT_4X4_50
+parse_name: const cv.aruco.DICT_4X4_100 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_4X4_100 namespace:cv::aruco classpath: classname: name:DICT_4X4_100
+parse_name: const cv.aruco.DICT_4X4_250 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_4X4_250 namespace:cv::aruco classpath: classname: name:DICT_4X4_250
+parse_name: const cv.aruco.DICT_4X4_1000 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_4X4_1000 namespace:cv::aruco classpath: classname: name:DICT_4X4_1000
+parse_name: const cv.aruco.DICT_5X5_50 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_5X5_50 namespace:cv::aruco classpath: classname: name:DICT_5X5_50
+parse_name: const cv.aruco.DICT_5X5_100 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_5X5_100 namespace:cv::aruco classpath: classname: name:DICT_5X5_100
+parse_name: const cv.aruco.DICT_5X5_250 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_5X5_250 namespace:cv::aruco classpath: classname: name:DICT_5X5_250
+parse_name: const cv.aruco.DICT_5X5_1000 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_5X5_1000 namespace:cv::aruco classpath: classname: name:DICT_5X5_1000
+parse_name: const cv.aruco.DICT_6X6_50 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_6X6_50 namespace:cv::aruco classpath: classname: name:DICT_6X6_50
+parse_name: const cv.aruco.DICT_6X6_100 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_6X6_100 namespace:cv::aruco classpath: classname: name:DICT_6X6_100
+parse_name: const cv.aruco.DICT_6X6_250 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_6X6_250 namespace:cv::aruco classpath: classname: name:DICT_6X6_250
+parse_name: const cv.aruco.DICT_6X6_1000 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_6X6_1000 namespace:cv::aruco classpath: classname: name:DICT_6X6_1000
+parse_name: const cv.aruco.DICT_7X7_50 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_7X7_50 namespace:cv::aruco classpath: classname: name:DICT_7X7_50
+parse_name: const cv.aruco.DICT_7X7_100 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_7X7_100 namespace:cv::aruco classpath: classname: name:DICT_7X7_100
+parse_name: const cv.aruco.DICT_7X7_250 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_7X7_250 namespace:cv::aruco classpath: classname: name:DICT_7X7_250
+parse_name: const cv.aruco.DICT_7X7_1000 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_7X7_1000 namespace:cv::aruco classpath: classname: name:DICT_7X7_1000
+parse_name: const cv.aruco.DICT_ARUCO_ORIGINAL with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_ARUCO_ORIGINAL namespace:cv::aruco classpath: classname: name:DICT_ARUCO_ORIGINAL
+parse_name: const cv.aruco.DICT_APRILTAG_16h5 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_APRILTAG_16h5 namespace:cv::aruco classpath: classname: name:DICT_APRILTAG_16h5
+parse_name: const cv.aruco.DICT_APRILTAG_25h9 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_APRILTAG_25h9 namespace:cv::aruco classpath: classname: name:DICT_APRILTAG_25h9
+parse_name: const cv.aruco.DICT_APRILTAG_36h10 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_APRILTAG_36h10 namespace:cv::aruco classpath: classname: name:DICT_APRILTAG_36h10
+parse_name: const cv.aruco.DICT_APRILTAG_36h11 with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DICT_APRILTAG_36h11 namespace:cv::aruco classpath: classname: name:DICT_APRILTAG_36h11
+
+--- Incoming ---
+[   'cv.aruco.getPredefinedDictionary',
+    'Ptr<Dictionary>',
+    [],
+    [['PREDEFINED_DICTIONARY_NAME', 'name', '', []]],
+    None,
+    '* @brief Returns one of the predefined dictionaries defined in '
+    'PREDEFINED_DICTIONARY_NAME']
+parse_name: cv.aruco.getPredefinedDictionary with ['cv', 'cv::aruco'] -> fullname:cv::aruco::getPredefinedDictionary namespace:cv::aruco classpath: classname: name:getPredefinedDictionary
+register (function) getPredefinedDictionary (cv_aruco_getPredefinedDictionary_PREDEFINED_DICTIONARY_NAME)
+
+--- Incoming ---
+[   'cv.aruco.getPredefinedDictionary',
+    'Ptr<Dictionary>',
+    [],
+    [['int', 'dict', '', []]],
+    None,
+    '* @brief Returns one of the predefined dictionaries referenced by DICT_*.']
+parse_name: cv.aruco.getPredefinedDictionary with ['cv', 'cv::aruco'] -> fullname:cv::aruco::getPredefinedDictionary namespace:cv::aruco classpath: classname: name:getPredefinedDictionary
+register (function) getPredefinedDictionary (cv_aruco_getPredefinedDictionary_int)
+
+--- Incoming ---
+[   'cv.aruco.generateCustomDictionary',
+    'Ptr<Dictionary>',
+    [],
+    [   ['int', 'nMarkers', '', []],
+        ['int', 'markerSize', '', []],
+        ['int', 'randomSeed', '0', []]],
+    None,
+    '* @see generateCustomDictionary']
+parse_name: cv.aruco.generateCustomDictionary with ['cv', 'cv::aruco'] -> fullname:cv::aruco::generateCustomDictionary namespace:cv::aruco classpath: classname: name:generateCustomDictionary
+register (function) generateCustomDictionary (cv_aruco_generateCustomDictionary_int_int_int)
+
+--- Incoming ---
+[   'cv.aruco.generateCustomDictionary',
+    'Ptr<Dictionary>',
+    [],
+    [   ['int', 'nMarkers', '', []],
+        ['int', 'markerSize', '', []],
+        ['const Ptr<Dictionary> &', 'baseDictionary', '', []],
+        ['int', 'randomSeed', '0', []]],
+    None,
+    '* @brief Generates a new customizable marker dictionary\n'
+    '*\n'
+    '* @param nMarkers number of markers in the dictionary\n'
+    '* @param markerSize number of bits per dimension of each markers\n'
+    '* @param baseDictionary Include the markers in this dictionary at the '
+    'beginning (optional)\n'
+    '* @param randomSeed a user supplied seed for theRNG()\n'
+    '*\n'
+    '* This function creates a new dictionary composed by nMarkers markers and '
+    'each markers composed\n'
+    '* by markerSize x markerSize bits. If baseDictionary is provided, its '
+    'markers are directly\n'
+    '* included and the rest are generated based on them. If the size of '
+    'baseDictionary is higher\n'
+    '* than nMarkers, only the first nMarkers in baseDictionary are taken and '
+    'no new marker is added.']
+parse_name: cv.aruco.generateCustomDictionary with ['cv', 'cv::aruco'] -> fullname:cv::aruco::generateCustomDictionary namespace:cv::aruco classpath: classname: name:generateCustomDictionary
+register (function) generateCustomDictionary (cv_aruco_generateCustomDictionary_int_int_PtrOfDictionary_int)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/aruco.hpp ================
+
+
+Namespaces: ['cv', 'cv.aruco']
+Comment: {'aruco': '\n* @defgroup aruco ArUco Marker Detection\n* This module is dedicated to square fiducial markers (also known as Augmented Reality Markers)\n* These markers are useful for easy, fast and robust camera pose estimation.ç\n*\n* The main functionalities are:\n* - Detection of markers in an image\n* - Pose estimation from a single marker or from a board/set of markers\n* - Detection of ChArUco board for high subpixel accuracy\n* - Camera calibration from both, ArUco boards and ChArUco boards.\n* - Detection of ChArUco diamond markers\n* The samples directory includes easy examples of how to use the module.\n*\n* The implementation is based on the ArUco Library by R. Muñoz-Salinas and S. Garrido-Jurado @cite Aruco2014.\n*\n* Markers can also be detected based on the AprilTag 2 @cite wang2016iros fiducial detection method.\n*\n* @sa S. Garrido-Jurado, R. Muñoz-Salinas, F. J. Madrid-Cuevas, and M. J. Marín-Jiménez. 2014.\n* "Automatic generation and detection of highly reliable fiducial markers under occlusion".\n* Pattern Recogn. 47, 6 (June 2014), 2280-2292. DOI=10.1016/j.patcog.2014.01.005\n*\n* @sa http://www.uco.es/investiga/grupos/ava/node/26\n*\n* This module has been originally developed by Sergio Garrido-Jurado as a project\n* for Google Summer of Code 2015 (GSoC 15).\n*\n*\n\n'}
+
+--- Incoming ---
+[   'enum cv.aruco.CornerRefineMethod',
+    '',
+    [],
+    [   ['const cv.aruco.CORNER_REFINE_NONE', '0', [], [], None, ''],
+        ['const cv.aruco.CORNER_REFINE_SUBPIX', '1', [], [], None, ''],
+        ['const cv.aruco.CORNER_REFINE_CONTOUR', '2', [], [], None, ''],
+        ['const cv.aruco.CORNER_REFINE_APRILTAG', '3', [], [], None, '']],
+    None,
+    '@addtogroup aruco\n@{']
+parse_name: const cv.aruco.CORNER_REFINE_NONE with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CORNER_REFINE_NONE namespace:cv::aruco classpath: classname: name:CORNER_REFINE_NONE
+parse_name: const cv.aruco.CORNER_REFINE_SUBPIX with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CORNER_REFINE_SUBPIX namespace:cv::aruco classpath: classname: name:CORNER_REFINE_SUBPIX
+parse_name: const cv.aruco.CORNER_REFINE_CONTOUR with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CORNER_REFINE_CONTOUR namespace:cv::aruco classpath: classname: name:CORNER_REFINE_CONTOUR
+parse_name: const cv.aruco.CORNER_REFINE_APRILTAG with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CORNER_REFINE_APRILTAG namespace:cv::aruco classpath: classname: name:CORNER_REFINE_APRILTAG
+parse_name: enum cv.aruco.CornerRefineMethod with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CornerRefineMethod namespace:cv::aruco classpath: classname: name:CornerRefineMethod
+parse_name: const cv.aruco.CORNER_REFINE_NONE with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CORNER_REFINE_NONE namespace:cv::aruco classpath: classname: name:CORNER_REFINE_NONE
+parse_name: const cv.aruco.CORNER_REFINE_SUBPIX with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CORNER_REFINE_SUBPIX namespace:cv::aruco classpath: classname: name:CORNER_REFINE_SUBPIX
+parse_name: const cv.aruco.CORNER_REFINE_CONTOUR with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CORNER_REFINE_CONTOUR namespace:cv::aruco classpath: classname: name:CORNER_REFINE_CONTOUR
+parse_name: const cv.aruco.CORNER_REFINE_APRILTAG with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CORNER_REFINE_APRILTAG namespace:cv::aruco classpath: classname: name:CORNER_REFINE_APRILTAG
+
+--- Incoming ---
+[   'struct cv.aruco.DetectorParameters',
+    '',
+    [],
+    [   ['int', 'adaptiveThreshWinSizeMin', '', ['/RW']],
+        ['int', 'adaptiveThreshWinSizeMax', '', ['/RW']],
+        ['int', 'adaptiveThreshWinSizeStep', '', ['/RW']],
+        ['double', 'adaptiveThreshConstant', '', ['/RW']],
+        ['double', 'minMarkerPerimeterRate', '', ['/RW']],
+        ['double', 'maxMarkerPerimeterRate', '', ['/RW']],
+        ['double', 'polygonalApproxAccuracyRate', '', ['/RW']],
+        ['double', 'minCornerDistanceRate', '', ['/RW']],
+        ['int', 'minDistanceToBorder', '', ['/RW']],
+        ['double', 'minMarkerDistanceRate', '', ['/RW']],
+        ['int', 'cornerRefinementMethod', '', ['/RW']],
+        ['int', 'cornerRefinementWinSize', '', ['/RW']],
+        ['int', 'cornerRefinementMaxIterations', '', ['/RW']],
+        ['double', 'cornerRefinementMinAccuracy', '', ['/RW']],
+        ['int', 'markerBorderBits', '', ['/RW']],
+        ['int', 'perspectiveRemovePixelPerCell', '', ['/RW']],
+        ['double', 'perspectiveRemoveIgnoredMarginPerCell', '', ['/RW']],
+        ['double', 'maxErroneousBitsInBorderRate', '', ['/RW']],
+        ['double', 'minOtsuStdDev', '', ['/RW']],
+        ['double', 'errorCorrectionRate', '', ['/RW']],
+        ['float', 'aprilTagQuadDecimate', '', ['/RW']],
+        ['float', 'aprilTagQuadSigma', '', ['/RW']],
+        ['int', 'aprilTagMinClusterPixels', '', ['/RW']],
+        ['int', 'aprilTagMaxNmaxima', '', ['/RW']],
+        ['float', 'aprilTagCriticalRad', '', ['/RW']],
+        ['float', 'aprilTagMaxLineFitMse', '', ['/RW']],
+        ['int', 'aprilTagMinWhiteBlackDiff', '', ['/RW']],
+        ['int', 'aprilTagDeglitch', '', ['/RW']],
+        ['bool', 'detectInvertedMarker', '', ['/RW']]],
+    None,
+    '* @brief Parameters for the detectMarker process:\n'
+    '* - adaptiveThreshWinSizeMin: minimum window size for adaptive '
+    'thresholding before finding\n'
+    '*   contours (default 3).\n'
+    '* - adaptiveThreshWinSizeMax: maximum window size for adaptive '
+    'thresholding before finding\n'
+    '*   contours (default 23).\n'
+    '* - adaptiveThreshWinSizeStep: increments from adaptiveThreshWinSizeMin '
+    'to adaptiveThreshWinSizeMax\n'
+    '*   during the thresholding (default 10).\n'
+    '* - adaptiveThreshConstant: constant for adaptive thresholding before '
+    'finding contours (default 7)\n'
+    '* - minMarkerPerimeterRate: determine minimum perimeter for marker '
+    'contour to be detected. This\n'
+    '*   is defined as a rate respect to the maximum dimension of the input '
+    'image (default 0.03).\n'
+    '* - maxMarkerPerimeterRate:  determine maximum perimeter for marker '
+    'contour to be detected. This\n'
+    '*   is defined as a rate respect to the maximum dimension of the input '
+    'image (default 4.0).\n'
+    '* - polygonalApproxAccuracyRate: minimum accuracy during the polygonal '
+    'approximation process to\n'
+    '*   determine which contours are squares.\n'
+    '* - minCornerDistanceRate: minimum distance between corners for detected '
+    'markers relative to its\n'
+    '*   perimeter (default 0.05)\n'
+    '* - minDistanceToBorder: minimum distance of any corner to the image '
+    'border for detected markers\n'
+    '*   (in pixels) (default 3)\n'
+    '* - minMarkerDistanceRate: minimum mean distance beetween two marker '
+    'corners to be considered\n'
+    '*   similar, so that the smaller one is removed. The rate is relative to '
+    'the smaller perimeter\n'
+    '*   of the two markers (default 0.05).\n'
+    '* - cornerRefinementMethod: corner refinement method. '
+    '(CORNER_REFINE_NONE, no refinement.\n'
+    '*   CORNER_REFINE_SUBPIX, do subpixel refinement. CORNER_REFINE_CONTOUR '
+    'use contour-Points,\n'
+    '*   CORNER_REFINE_APRILTAG  use the AprilTag2 approach)\n'
+    '* - cornerRefinementWinSize: window size for the corner refinement '
+    'process (in pixels) (default 5).\n'
+    '* - cornerRefinementMaxIterations: maximum number of iterations for stop '
+    'criteria of the corner\n'
+    '*   refinement process (default 30).\n'
+    '* - cornerRefinementMinAccuracy: minimum error for the stop cristeria of '
+    'the corner refinement\n'
+    '*   process (default: 0.1)\n'
+    '* - markerBorderBits: number of bits of the marker border, i.e. marker '
+    'border width (default 1).\n'
+    '* - perspectiveRemovePixelPerCell: number of bits (per dimension) for '
+    'each cell of the marker\n'
+    '*   when removing the perspective (default 8).\n'
+    '* - perspectiveRemoveIgnoredMarginPerCell: width of the margin of pixels '
+    'on each cell not\n'
+    '*   considered for the determination of the cell bit. Represents the rate '
+    'respect to the total\n'
+    '*   size of the cell, i.e. perspectiveRemovePixelPerCell (default 0.13)\n'
+    '* - maxErroneousBitsInBorderRate: maximum number of accepted erroneous '
+    'bits in the border (i.e.\n'
+    '*   number of allowed white bits in the border). Represented as a rate '
+    'respect to the total\n'
+    '*   number of bits per marker (default 0.35).\n'
+    '* - minOtsuStdDev: minimun standard deviation in pixels values during the '
+    'decodification step to\n'
+    '*   apply Otsu thresholding (otherwise, all the bits are set to 0 or 1 '
+    'depending on mean higher\n'
+    '*   than 128 or not) (default 5.0)\n'
+    '* - errorCorrectionRate error correction rate respect to the maximun '
+    'error correction capability\n'
+    '*   for each dictionary. (default 0.6).\n'
+    '* - aprilTagMinClusterPixels: reject quads containing too few pixels.\n'
+    '* - aprilTagMaxNmaxima: how many corner candidates to consider when '
+    'segmenting a group of pixels into a quad.\n'
+    '* - aprilTagCriticalRad: Reject quads where pairs of edges have angles '
+    'that are close to straight or close to\n'
+    '*   180 degrees. Zero means that no quads are rejected. (In radians).\n'
+    '* - aprilTagMaxLineFitMse:  When fitting lines to the contours, what is '
+    'the maximum mean squared error\n'
+    '*   allowed?  This is useful in rejecting contours that are far from '
+    'being quad shaped; rejecting\n'
+    '*   these quads "early" saves expensive decoding processing.\n'
+    '* - aprilTagMinWhiteBlackDiff: When we build our model of black & white '
+    'pixels, we add an extra check that\n'
+    '*   the white model must be (overall) brighter than the black model.  How '
+    'much brighter? (in pixel values, [0,255]).\n'
+    '* - aprilTagDeglitch:  should the thresholded image be deglitched? Only '
+    'useful for very noisy images\n'
+    '* - aprilTagQuadDecimate: Detection of quads can be done on a '
+    'lower-resolution image, improving speed at a\n'
+    '*   cost of pose accuracy and a slight decrease in detection rate. '
+    'Decoding the binary payload is still\n'
+    '*   done at full resolution.\n'
+    '* - aprilTagQuadSigma: What Gaussian blur should be applied to the '
+    'segmented image (used for quad detection?)\n'
+    '*   Parameter is the standard deviation in pixels.  Very noisy images '
+    'benefit from non-zero values (e.g. 0.8).\n'
+    '* - detectInvertedMarker: to check if there is a white marker. In order '
+    'to generate a "white" marker just\n'
+    '*   invert a normal marker by using a tilde, ~markerImage. (default '
+    'false)']
+parse_name: struct cv.aruco.DetectorParameters with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters namespace:cv::aruco classpath: classname: name:DetectorParameters
+register class cv::aruco::DetectorParameters (['struct cv.aruco.DetectorParameters', '', [], [['int', 'adaptiveThreshWinSizeMin', '', ['/RW']], ['int', 'adaptiveThreshWinSizeMax', '', ['/RW']], ['int', 'adaptiveThreshWinSizeStep', '', ['/RW']], ['double', 'adaptiveThreshConstant', '', ['/RW']], ['double', 'minMarkerPerimeterRate', '', ['/RW']], ['double', 'maxMarkerPerimeterRate', '', ['/RW']], ['double', 'polygonalApproxAccuracyRate', '', ['/RW']], ['double', 'minCornerDistanceRate', '', ['/RW']], ['int', 'minDistanceToBorder', '', ['/RW']], ['double', 'minMarkerDistanceRate', '', ['/RW']], ['int', 'cornerRefinementMethod', '', ['/RW']], ['int', 'cornerRefinementWinSize', '', ['/RW']], ['int', 'cornerRefinementMaxIterations', '', ['/RW']], ['double', 'cornerRefinementMinAccuracy', '', ['/RW']], ['int', 'markerBorderBits', '', ['/RW']], ['int', 'perspectiveRemovePixelPerCell', '', ['/RW']], ['double', 'perspectiveRemoveIgnoredMarginPerCell', '', ['/RW']], ['double', 'maxErroneousBitsInBorderRate', '', ['/RW']], ['double', 'minOtsuStdDev', '', ['/RW']], ['double', 'errorCorrectionRate', '', ['/RW']], ['float', 'aprilTagQuadDecimate', '', ['/RW']], ['float', 'aprilTagQuadSigma', '', ['/RW']], ['int', 'aprilTagMinClusterPixels', '', ['/RW']], ['int', 'aprilTagMaxNmaxima', '', ['/RW']], ['float', 'aprilTagCriticalRad', '', ['/RW']], ['float', 'aprilTagMaxLineFitMse', '', ['/RW']], ['int', 'aprilTagMinWhiteBlackDiff', '', ['/RW']], ['int', 'aprilTagDeglitch', '', ['/RW']], ['bool', 'detectInvertedMarker', '', ['/RW']]], None, '* @brief Parameters for the detectMarker process:\n* - adaptiveThreshWinSizeMin: minimum window size for adaptive thresholding before finding\n*   contours (default 3).\n* - adaptiveThreshWinSizeMax: maximum window size for adaptive thresholding before finding\n*   contours (default 23).\n* - adaptiveThreshWinSizeStep: increments from adaptiveThreshWinSizeMin to adaptiveThreshWinSizeMax\n*   during the thresholding (default 10).\n* - adaptiveThreshConstant: constant for adaptive thresholding before finding contours (default 7)\n* - minMarkerPerimeterRate: determine minimum perimeter for marker contour to be detected. This\n*   is defined as a rate respect to the maximum dimension of the input image (default 0.03).\n* - maxMarkerPerimeterRate:  determine maximum perimeter for marker contour to be detected. This\n*   is defined as a rate respect to the maximum dimension of the input image (default 4.0).\n* - polygonalApproxAccuracyRate: minimum accuracy during the polygonal approximation process to\n*   determine which contours are squares.\n* - minCornerDistanceRate: minimum distance between corners for detected markers relative to its\n*   perimeter (default 0.05)\n* - minDistanceToBorder: minimum distance of any corner to the image border for detected markers\n*   (in pixels) (default 3)\n* - minMarkerDistanceRate: minimum mean distance beetween two marker corners to be considered\n*   similar, so that the smaller one is removed. The rate is relative to the smaller perimeter\n*   of the two markers (default 0.05).\n* - cornerRefinementMethod: corner refinement method. (CORNER_REFINE_NONE, no refinement.\n*   CORNER_REFINE_SUBPIX, do subpixel refinement. CORNER_REFINE_CONTOUR use contour-Points,\n*   CORNER_REFINE_APRILTAG  use the AprilTag2 approach)\n* - cornerRefinementWinSize: window size for the corner refinement process (in pixels) (default 5).\n* - cornerRefinementMaxIterations: maximum number of iterations for stop criteria of the corner\n*   refinement process (default 30).\n* - cornerRefinementMinAccuracy: minimum error for the stop cristeria of the corner refinement\n*   process (default: 0.1)\n* - markerBorderBits: number of bits of the marker border, i.e. marker border width (default 1).\n* - perspectiveRemovePixelPerCell: number of bits (per dimension) for each cell of the marker\n*   when removing the perspective (default 8).\n* - perspectiveRemoveIgnoredMarginPerCell: width of the margin of pixels on each cell not\n*   considered for the determination of the cell bit. Represents the rate respect to the total\n*   size of the cell, i.e. perspectiveRemovePixelPerCell (default 0.13)\n* - maxErroneousBitsInBorderRate: maximum number of accepted erroneous bits in the border (i.e.\n*   number of allowed white bits in the border). Represented as a rate respect to the total\n*   number of bits per marker (default 0.35).\n* - minOtsuStdDev: minimun standard deviation in pixels values during the decodification step to\n*   apply Otsu thresholding (otherwise, all the bits are set to 0 or 1 depending on mean higher\n*   than 128 or not) (default 5.0)\n* - errorCorrectionRate error correction rate respect to the maximun error correction capability\n*   for each dictionary. (default 0.6).\n* - aprilTagMinClusterPixels: reject quads containing too few pixels.\n* - aprilTagMaxNmaxima: how many corner candidates to consider when segmenting a group of pixels into a quad.\n* - aprilTagCriticalRad: Reject quads where pairs of edges have angles that are close to straight or close to\n*   180 degrees. Zero means that no quads are rejected. (In radians).\n* - aprilTagMaxLineFitMse:  When fitting lines to the contours, what is the maximum mean squared error\n*   allowed?  This is useful in rejecting contours that are far from being quad shaped; rejecting\n*   these quads "early" saves expensive decoding processing.\n* - aprilTagMinWhiteBlackDiff: When we build our model of black & white pixels, we add an extra check that\n*   the white model must be (overall) brighter than the black model.  How much brighter? (in pixel values, [0,255]).\n* - aprilTagDeglitch:  should the thresholded image be deglitched? Only useful for very noisy images\n* - aprilTagQuadDecimate: Detection of quads can be done on a lower-resolution image, improving speed at a\n*   cost of pose accuracy and a slight decrease in detection rate. Decoding the binary payload is still\n*   done at full resolution.\n* - aprilTagQuadSigma: What Gaussian blur should be applied to the segmented image (used for quad detection?)\n*   Parameter is the standard deviation in pixels.  Very noisy images benefit from non-zero values (e.g. 0.8).\n* - detectInvertedMarker: to check if there is a white marker. In order to generate a "white" marker just\n*   invert a normal marker by using a tilde, ~markerImage. (default false)'])
+parse_name: cv.aruco.DetectorParameters.adaptiveThreshWinSizeMin with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::adaptiveThreshWinSizeMin namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:adaptiveThreshWinSizeMin
+register (method) adaptiveThreshWinSizeMin in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_adaptiveThreshWinSizeMin_const)
+parse_name: cv.aruco.DetectorParameters.adaptiveThreshWinSizeMax with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::adaptiveThreshWinSizeMax namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:adaptiveThreshWinSizeMax
+register (method) adaptiveThreshWinSizeMax in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_adaptiveThreshWinSizeMax_const)
+parse_name: cv.aruco.DetectorParameters.adaptiveThreshWinSizeStep with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::adaptiveThreshWinSizeStep namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:adaptiveThreshWinSizeStep
+register (method) adaptiveThreshWinSizeStep in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_adaptiveThreshWinSizeStep_const)
+parse_name: cv.aruco.DetectorParameters.adaptiveThreshConstant with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::adaptiveThreshConstant namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:adaptiveThreshConstant
+register (method) adaptiveThreshConstant in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_adaptiveThreshConstant_const)
+parse_name: cv.aruco.DetectorParameters.minMarkerPerimeterRate with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::minMarkerPerimeterRate namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:minMarkerPerimeterRate
+register (method) minMarkerPerimeterRate in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_minMarkerPerimeterRate_const)
+parse_name: cv.aruco.DetectorParameters.maxMarkerPerimeterRate with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::maxMarkerPerimeterRate namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:maxMarkerPerimeterRate
+register (method) maxMarkerPerimeterRate in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_maxMarkerPerimeterRate_const)
+parse_name: cv.aruco.DetectorParameters.polygonalApproxAccuracyRate with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::polygonalApproxAccuracyRate namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:polygonalApproxAccuracyRate
+register (method) polygonalApproxAccuracyRate in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_polygonalApproxAccuracyRate_const)
+parse_name: cv.aruco.DetectorParameters.minCornerDistanceRate with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::minCornerDistanceRate namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:minCornerDistanceRate
+register (method) minCornerDistanceRate in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_minCornerDistanceRate_const)
+parse_name: cv.aruco.DetectorParameters.minDistanceToBorder with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::minDistanceToBorder namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:minDistanceToBorder
+register (method) minDistanceToBorder in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_minDistanceToBorder_const)
+parse_name: cv.aruco.DetectorParameters.minMarkerDistanceRate with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::minMarkerDistanceRate namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:minMarkerDistanceRate
+register (method) minMarkerDistanceRate in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_minMarkerDistanceRate_const)
+parse_name: cv.aruco.DetectorParameters.cornerRefinementMethod with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::cornerRefinementMethod namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:cornerRefinementMethod
+register (method) cornerRefinementMethod in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_cornerRefinementMethod_const)
+parse_name: cv.aruco.DetectorParameters.cornerRefinementWinSize with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::cornerRefinementWinSize namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:cornerRefinementWinSize
+register (method) cornerRefinementWinSize in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_cornerRefinementWinSize_const)
+parse_name: cv.aruco.DetectorParameters.cornerRefinementMaxIterations with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::cornerRefinementMaxIterations namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:cornerRefinementMaxIterations
+register (method) cornerRefinementMaxIterations in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_cornerRefinementMaxIterations_const)
+parse_name: cv.aruco.DetectorParameters.cornerRefinementMinAccuracy with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::cornerRefinementMinAccuracy namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:cornerRefinementMinAccuracy
+register (method) cornerRefinementMinAccuracy in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_cornerRefinementMinAccuracy_const)
+parse_name: cv.aruco.DetectorParameters.markerBorderBits with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::markerBorderBits namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:markerBorderBits
+register (method) markerBorderBits in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_markerBorderBits_const)
+parse_name: cv.aruco.DetectorParameters.perspectiveRemovePixelPerCell with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::perspectiveRemovePixelPerCell namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:perspectiveRemovePixelPerCell
+register (method) perspectiveRemovePixelPerCell in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_perspectiveRemovePixelPerCell_const)
+parse_name: cv.aruco.DetectorParameters.perspectiveRemoveIgnoredMarginPerCell with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::perspectiveRemoveIgnoredMarginPerCell namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:perspectiveRemoveIgnoredMarginPerCell
+register (method) perspectiveRemoveIgnoredMarginPerCell in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_perspectiveRemoveIgnoredMarginPerCell_const)
+parse_name: cv.aruco.DetectorParameters.maxErroneousBitsInBorderRate with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::maxErroneousBitsInBorderRate namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:maxErroneousBitsInBorderRate
+register (method) maxErroneousBitsInBorderRate in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_maxErroneousBitsInBorderRate_const)
+parse_name: cv.aruco.DetectorParameters.minOtsuStdDev with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::minOtsuStdDev namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:minOtsuStdDev
+register (method) minOtsuStdDev in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_minOtsuStdDev_const)
+parse_name: cv.aruco.DetectorParameters.errorCorrectionRate with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::errorCorrectionRate namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:errorCorrectionRate
+register (method) errorCorrectionRate in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_errorCorrectionRate_const)
+parse_name: cv.aruco.DetectorParameters.aprilTagQuadDecimate with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::aprilTagQuadDecimate namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:aprilTagQuadDecimate
+register (method) aprilTagQuadDecimate in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_aprilTagQuadDecimate_const)
+parse_name: cv.aruco.DetectorParameters.aprilTagQuadSigma with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::aprilTagQuadSigma namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:aprilTagQuadSigma
+register (method) aprilTagQuadSigma in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_aprilTagQuadSigma_const)
+parse_name: cv.aruco.DetectorParameters.aprilTagMinClusterPixels with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::aprilTagMinClusterPixels namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:aprilTagMinClusterPixels
+register (method) aprilTagMinClusterPixels in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_aprilTagMinClusterPixels_const)
+parse_name: cv.aruco.DetectorParameters.aprilTagMaxNmaxima with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::aprilTagMaxNmaxima namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:aprilTagMaxNmaxima
+register (method) aprilTagMaxNmaxima in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_aprilTagMaxNmaxima_const)
+parse_name: cv.aruco.DetectorParameters.aprilTagCriticalRad with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::aprilTagCriticalRad namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:aprilTagCriticalRad
+register (method) aprilTagCriticalRad in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_aprilTagCriticalRad_const)
+parse_name: cv.aruco.DetectorParameters.aprilTagMaxLineFitMse with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::aprilTagMaxLineFitMse namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:aprilTagMaxLineFitMse
+register (method) aprilTagMaxLineFitMse in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_aprilTagMaxLineFitMse_const)
+parse_name: cv.aruco.DetectorParameters.aprilTagMinWhiteBlackDiff with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::aprilTagMinWhiteBlackDiff namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:aprilTagMinWhiteBlackDiff
+register (method) aprilTagMinWhiteBlackDiff in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_aprilTagMinWhiteBlackDiff_const)
+parse_name: cv.aruco.DetectorParameters.aprilTagDeglitch with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::aprilTagDeglitch namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:aprilTagDeglitch
+register (method) aprilTagDeglitch in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_aprilTagDeglitch_const)
+parse_name: cv.aruco.DetectorParameters.detectInvertedMarker with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::detectInvertedMarker namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:detectInvertedMarker
+register (method) detectInvertedMarker in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_detectInvertedMarker_const)
+
+--- Incoming ---
+['cv.aruco.DetectorParameters.DetectorParameters', 'D', [], [], None, '']
+parse_name: cv.aruco.DetectorParameters.DetectorParameters with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::DetectorParameters namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:DetectorParameters
+register (constructor) default in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_DetectorParameters)
+
+--- Incoming ---
+[   'cv.aruco.DetectorParameters.create',
+    'Ptr<DetectorParameters>',
+    ['/S'],
+    [],
+    None,
+    '']
+parse_name: cv.aruco.DetectorParameters.create with ['cv', 'cv::aruco'] -> fullname:cv::aruco::DetectorParameters::create namespace:cv::aruco classpath:DetectorParameters classname:DetectorParameters name:create
+register (method) create in cv::aruco::DetectorParameters (cv_aruco_DetectorParameters_create)
+
+--- Incoming ---
+[   'cv.aruco.detectMarkers',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['const Ptr<Dictionary> &', 'dictionary', '', []],
+        ['OutputArrayOfArrays', 'corners', '', []],
+        ['OutputArray', 'ids', '', []],
+        [   'const Ptr<DetectorParameters> &',
+            'parameters',
+            'DetectorParameters::create()',
+            []],
+        ['OutputArrayOfArrays', 'rejectedImgPoints', 'noArray()', []],
+        ['InputArray', 'cameraMatrix', 'noArray()', []],
+        ['InputArray', 'distCoeff', 'noArray()', []]],
+    None,
+    '* @brief Basic marker detection\n'
+    '*\n'
+    '* @param image input image\n'
+    '* @param dictionary indicates the type of markers that will be searched\n'
+    '* @param corners vector of detected marker corners. For each marker, its '
+    'four corners\n'
+    '* are provided, (e.g std::vector<std::vector<cv::Point2f> > ). For N '
+    'detected markers,\n'
+    '* the dimensions of this array is Nx4. The order of the corners is '
+    'clockwise.\n'
+    '* @param ids vector of identifiers of the detected markers. The '
+    'identifier is of type int\n'
+    '* (e.g. std::vector<int>). For N detected markers, the size of ids is '
+    'also N.\n'
+    '* The identifiers have the same order than the markers in the imgPoints '
+    'array.\n'
+    '* @param parameters marker detection parameters\n'
+    '* @param rejectedImgPoints contains the imgPoints of those squares whose '
+    'inner code has not a\n'
+    '* correct codification. Useful for debugging purposes.\n'
+    '* @param cameraMatrix optional input 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$\n'
+    '* @param distCoeff optional vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '*\n'
+    '* Performs marker detection in the input image. Only markers included in '
+    'the specific dictionary\n'
+    '* are searched. For each detected marker, it returns the 2D position of '
+    'its corner in the image\n'
+    '* and its corresponding identifier.\n'
+    '* Note that this function does not perform pose estimation.\n'
+    '* @sa estimatePoseSingleMarkers,  estimatePoseBoard\n'
+    '*']
+parse_name: cv.aruco.detectMarkers with ['cv', 'cv::aruco'] -> fullname:cv::aruco::detectMarkers namespace:cv::aruco classpath: classname: name:detectMarkers
+register (function) detectMarkers (cv_aruco_detectMarkers__InputArray_PtrOfDictionary__OutputArray__OutputArray_PtrOfDetectorParameters__OutputArray__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.aruco.estimatePoseSingleMarkers',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'corners', '', []],
+        ['float', 'markerLength', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['OutputArray', 'rvecs', '', []],
+        ['OutputArray', 'tvecs', '', []],
+        ['OutputArray', '_objPoints', 'noArray()', []]],
+    None,
+    '* @brief Pose estimation for single markers\n'
+    '*\n'
+    '* @param corners vector of already detected markers corners. For each '
+    'marker, its four corners\n'
+    '* are provided, (e.g std::vector<std::vector<cv::Point2f> > ). For N '
+    'detected markers,\n'
+    '* the dimensions of this array should be Nx4. The order of the corners '
+    'should be clockwise.\n'
+    '* @sa detectMarkers\n'
+    "* @param markerLength the length of the markers' side. The returning "
+    'translation vectors will\n'
+    '* be in the same unit. Normally, unit is meters.\n'
+    '* @param cameraMatrix input 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$\n'
+    '* @param distCoeffs vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '* @param rvecs array of output rotation vectors (@sa Rodrigues) (e.g. '
+    'std::vector<cv::Vec3d>).\n'
+    '* Each element in rvecs corresponds to the specific marker in imgPoints.\n'
+    '* @param tvecs array of output translation vectors (e.g. '
+    'std::vector<cv::Vec3d>).\n'
+    '* Each element in tvecs corresponds to the specific marker in imgPoints.\n'
+    '* @param _objPoints array of object points of all the marker corners\n'
+    '*\n'
+    '* This function receives the detected markers and returns their pose '
+    'estimation respect to\n'
+    '* the camera individually. So for each marker, one rotation and '
+    'translation vector is returned.\n'
+    '* The returned transformation is the one that transforms points from each '
+    'marker coordinate system\n'
+    '* to the camera coordinate system.\n'
+    '* The marker corrdinate system is centered on the middle of the marker, '
+    'with the Z axis\n'
+    '* perpendicular to the marker plane.\n'
+    '* The coordinates of the four corners of the marker in its own coordinate '
+    'system are:\n'
+    '* (-markerLength/2, markerLength/2, 0), (markerLength/2, markerLength/2, '
+    '0),\n'
+    '* (markerLength/2, -markerLength/2, 0), (-markerLength/2, '
+    '-markerLength/2, 0)']
+parse_name: cv.aruco.estimatePoseSingleMarkers with ['cv', 'cv::aruco'] -> fullname:cv::aruco::estimatePoseSingleMarkers namespace:cv::aruco classpath: classname: name:estimatePoseSingleMarkers
+register (function) estimatePoseSingleMarkers (cv_aruco_estimatePoseSingleMarkers__InputArray_float__InputArray__InputArray__OutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'class cv.aruco.Board',
+    '',
+    [],
+    [   ['vector_vector_Point3f', 'objPoints', '', []],
+        ['Ptr_Dictionary', 'dictionary', '', []],
+        ['vector_int', 'ids', '', []]],
+    None,
+    '* @brief Board of markers\n'
+    '*\n'
+    '* A board is a set of markers in the 3D space with a common coordinate '
+    'system.\n'
+    '* The common form of a board of marker is a planar (2D) board, however '
+    'any 3D layout can be used.\n'
+    '* A Board object is composed by:\n'
+    '* - The object points of the marker corners, i.e. their coordinates '
+    'respect to the board system.\n'
+    '* - The dictionary which indicates the type of markers of the board\n'
+    '* - The identifier of all the markers in the board.']
+parse_name: class cv.aruco.Board with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Board namespace:cv::aruco classpath: classname: name:Board
+register class cv::aruco::Board (['class cv.aruco.Board', '', [], [['vector_vector_Point3f', 'objPoints', '', []], ['Ptr_Dictionary', 'dictionary', '', []], ['vector_int', 'ids', '', []]], None, '* @brief Board of markers\n*\n* A board is a set of markers in the 3D space with a common coordinate system.\n* The common form of a board of marker is a planar (2D) board, however any 3D layout can be used.\n* A Board object is composed by:\n* - The object points of the marker corners, i.e. their coordinates respect to the board system.\n* - The dictionary which indicates the type of markers of the board\n* - The identifier of all the markers in the board.'])
+Registering an unknown type: vector_vector_Point3f
+parse_name: cv.aruco.Board.objPoints with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Board::objPoints namespace:cv::aruco classpath:Board classname:Board name:objPoints
+register (method) objPoints in cv::aruco::Board (trait) (cv_aruco_Board_objPoints)
+Registering an unknown type: Ptr_Dictionary
+parse_name: cv.aruco.Board.dictionary with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Board::dictionary namespace:cv::aruco classpath:Board classname:Board name:dictionary
+register (method) dictionary in cv::aruco::Board (trait) (cv_aruco_Board_dictionary)
+Registering an unknown type: vector_int
+parse_name: cv.aruco.Board.ids with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Board::ids namespace:cv::aruco classpath:Board classname:Board name:ids
+register (method) ids in cv::aruco::Board (trait) (cv_aruco_Board_ids)
+
+--- Incoming ---
+[   'cv.aruco.Board.create',
+    'Ptr<Board>',
+    ['/S'],
+    [   ['InputArrayOfArrays', 'objPoints', '', []],
+        ['const Ptr<Dictionary> &', 'dictionary', '', []],
+        ['InputArray', 'ids', '', []]],
+    None,
+    '* @brief Provide way to create Board by passing necessary data. Specially '
+    'needed in Python.\n'
+    '*\n'
+    '* @param objPoints array of object points of all the marker corners in '
+    'the board\n'
+    '* @param dictionary the dictionary of markers employed for this board\n'
+    '* @param ids vector of the identifiers of the markers in the board\n'
+    '*']
+parse_name: cv.aruco.Board.create with ['cv', 'cv::aruco'] -> fullname:cv::aruco::Board::create namespace:cv::aruco classpath:Board classname:Board name:create
+register (method) create in cv::aruco::Board (trait) (cv_aruco_Board_create__InputArray_PtrOfDictionary__InputArray)
+
+--- Incoming ---
+[   'class cv.aruco.GridBoard',
+    ': cv::aruco::Board',
+    [],
+    [],
+    None,
+    '* @brief Planar board with grid arrangement of markers\n'
+    '* More common type of board. All markers are placed in the same plane in '
+    'a grid arrangement.\n'
+    '* The board can be drawn using drawPlanarBoard() function (@sa '
+    'drawPlanarBoard)']
+parse_name: class cv.aruco.GridBoard with ['cv', 'cv::aruco'] -> fullname:cv::aruco::GridBoard namespace:cv::aruco classpath: classname: name:GridBoard
+register class cv::aruco::GridBoard (['class cv.aruco.GridBoard', ': cv::aruco::Board', [], [], None, '* @brief Planar board with grid arrangement of markers\n* More common type of board. All markers are placed in the same plane in a grid arrangement.\n* The board can be drawn using drawPlanarBoard() function (@sa drawPlanarBoard)']) impl:cv::aruco::Board
+
+--- Incoming ---
+[   'cv.aruco.GridBoard.draw',
+    'void',
+    [],
+    [   ['Size', 'outSize', '', []],
+        ['OutputArray', 'img', '', []],
+        ['int', 'marginSize', '0', []],
+        ['int', 'borderBits', '1', []]],
+    None,
+    '* @brief Draw a GridBoard\n'
+    '*\n'
+    '* @param outSize size of the output image in pixels.\n'
+    '* @param img output image with the board. The size of this image will be '
+    'outSize\n'
+    '* and the board will be on the center, keeping the board proportions.\n'
+    '* @param marginSize minimum margins (in pixels) of the board in the '
+    'output image\n'
+    '* @param borderBits width of the marker borders.\n'
+    '*\n'
+    '* This function return the image of the GridBoard, ready to be printed.']
+parse_name: cv.aruco.GridBoard.draw with ['cv', 'cv::aruco'] -> fullname:cv::aruco::GridBoard::draw namespace:cv::aruco classpath:GridBoard classname:GridBoard name:draw
+register (method) draw in cv::aruco::GridBoard (cv_aruco_GridBoard_draw_Size__OutputArray_int_int)
+
+--- Incoming ---
+[   'cv.aruco.GridBoard.create',
+    'Ptr<GridBoard>',
+    ['/S'],
+    [   ['int', 'markersX', '', []],
+        ['int', 'markersY', '', []],
+        ['float', 'markerLength', '', []],
+        ['float', 'markerSeparation', '', []],
+        ['const Ptr<Dictionary> &', 'dictionary', '', []],
+        ['int', 'firstMarker', '0', []]],
+    None,
+    '* @brief Create a GridBoard object\n'
+    '*\n'
+    '* @param markersX number of markers in X direction\n'
+    '* @param markersY number of markers in Y direction\n'
+    '* @param markerLength marker side length (normally in meters)\n'
+    '* @param markerSeparation separation between two markers (same unit as '
+    'markerLength)\n'
+    '* @param dictionary dictionary of markers indicating the type of markers\n'
+    '* @param firstMarker id of first marker in dictionary to use on board.\n'
+    '* @return the output GridBoard object\n'
+    '*\n'
+    '* This functions creates a GridBoard object given the number of markers '
+    'in each direction and\n'
+    '* the marker size and marker separation.']
+parse_name: cv.aruco.GridBoard.create with ['cv', 'cv::aruco'] -> fullname:cv::aruco::GridBoard::create namespace:cv::aruco classpath:GridBoard classname:GridBoard name:create
+register (method) create in cv::aruco::GridBoard (cv_aruco_GridBoard_create_int_int_float_float_PtrOfDictionary_int)
+
+--- Incoming ---
+['cv.aruco.GridBoard.getGridSize', 'Size', ['/C'], [], None, '*']
+parse_name: cv.aruco.GridBoard.getGridSize with ['cv', 'cv::aruco'] -> fullname:cv::aruco::GridBoard::getGridSize namespace:cv::aruco classpath:GridBoard classname:GridBoard name:getGridSize
+register (method) getGridSize in cv::aruco::GridBoard (cv_aruco_GridBoard_getGridSize_const)
+
+--- Incoming ---
+['cv.aruco.GridBoard.getMarkerLength', 'float', ['/C'], [], None, '*']
+parse_name: cv.aruco.GridBoard.getMarkerLength with ['cv', 'cv::aruco'] -> fullname:cv::aruco::GridBoard::getMarkerLength namespace:cv::aruco classpath:GridBoard classname:GridBoard name:getMarkerLength
+register (method) getMarkerLength in cv::aruco::GridBoard (cv_aruco_GridBoard_getMarkerLength_const)
+
+--- Incoming ---
+['cv.aruco.GridBoard.getMarkerSeparation', 'float', ['/C'], [], None, '*']
+parse_name: cv.aruco.GridBoard.getMarkerSeparation with ['cv', 'cv::aruco'] -> fullname:cv::aruco::GridBoard::getMarkerSeparation namespace:cv::aruco classpath:GridBoard classname:GridBoard name:getMarkerSeparation
+register (method) getMarkerSeparation in cv::aruco::GridBoard (cv_aruco_GridBoard_getMarkerSeparation_const)
+
+--- Incoming ---
+[   'cv.aruco.estimatePoseBoard',
+    'int',
+    [],
+    [   ['InputArrayOfArrays', 'corners', '', []],
+        ['InputArray', 'ids', '', []],
+        ['const Ptr<Board> &', 'board', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['InputOutputArray', 'rvec', '', []],
+        ['InputOutputArray', 'tvec', '', []],
+        ['bool', 'useExtrinsicGuess', 'false', []]],
+    None,
+    '* @brief Pose estimation for a board of markers\n'
+    '*\n'
+    '* @param corners vector of already detected markers corners. For each '
+    'marker, its four corners\n'
+    '* are provided, (e.g std::vector<std::vector<cv::Point2f> > ). For N '
+    'detected markers, the\n'
+    '* dimensions of this array should be Nx4. The order of the corners should '
+    'be clockwise.\n'
+    '* @param ids list of identifiers for each marker in corners\n'
+    '* @param board layout of markers in the board. The layout is composed by '
+    'the marker identifiers\n'
+    '* and the positions of each marker corner in the board reference system.\n'
+    '* @param cameraMatrix input 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$\n'
+    '* @param distCoeffs vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '* @param rvec Output vector (e.g. cv::Mat) corresponding to the rotation '
+    'vector of the board\n'
+    '* (see cv::Rodrigues). Used as initial guess if not empty.\n'
+    '* @param tvec Output vector (e.g. cv::Mat) corresponding to the '
+    'translation vector of the board.\n'
+    '* @param useExtrinsicGuess defines whether initial guess for \\b rvec and '
+    '\\b tvec will be used or not.\n'
+    '* Used as initial guess if not empty.\n'
+    '*\n'
+    '* This function receives the detected markers and returns the pose of a '
+    'marker board composed\n'
+    '* by those markers.\n'
+    '* A Board of marker has a single world coordinate system which is defined '
+    'by the board layout.\n'
+    '* The returned transformation is the one that transforms points from the '
+    'board coordinate system\n'
+    '* to the camera coordinate system.\n'
+    '* Input markers that are not included in the board layout are ignored.\n'
+    '* The function returns the number of markers from the input employed for '
+    'the board pose estimation.\n'
+    '* Note that returning a 0 means the pose has not been estimated.']
+parse_name: cv.aruco.estimatePoseBoard with ['cv', 'cv::aruco'] -> fullname:cv::aruco::estimatePoseBoard namespace:cv::aruco classpath: classname: name:estimatePoseBoard
+register (function) estimatePoseBoard (cv_aruco_estimatePoseBoard__InputArray__InputArray_PtrOfBoard__InputArray__InputArray__InputOutputArray__InputOutputArray_bool)
+
+--- Incoming ---
+[   'cv.aruco.refineDetectedMarkers',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['const Ptr<Board> &', 'board', '', []],
+        ['InputOutputArrayOfArrays', 'detectedCorners', '', []],
+        ['InputOutputArray', 'detectedIds', '', []],
+        ['InputOutputArrayOfArrays', 'rejectedCorners', '', []],
+        ['InputArray', 'cameraMatrix', 'noArray()', []],
+        ['InputArray', 'distCoeffs', 'noArray()', []],
+        ['float', 'minRepDistance', '10.f', []],
+        ['float', 'errorCorrectionRate', '3.f', []],
+        ['bool', 'checkAllOrders', 'true', []],
+        ['OutputArray', 'recoveredIdxs', 'noArray()', []],
+        [   'const Ptr<DetectorParameters> &',
+            'parameters',
+            'DetectorParameters::create()',
+            []]],
+    None,
+    '* @brief Refind not detected markers based on the already detected and '
+    'the board layout\n'
+    '*\n'
+    '* @param image input image\n'
+    '* @param board layout of markers in the board.\n'
+    '* @param detectedCorners vector of already detected marker corners.\n'
+    '* @param detectedIds vector of already detected marker identifiers.\n'
+    '* @param rejectedCorners vector of rejected candidates during the marker '
+    'detection process.\n'
+    '* @param cameraMatrix optional input 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$\n'
+    '* @param distCoeffs optional vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '* @param minRepDistance minimum distance between the corners of the '
+    'rejected candidate and the\n'
+    '* reprojected marker in order to consider it as a correspondence.\n'
+    '* @param errorCorrectionRate rate of allowed erroneous bits respect to '
+    'the error correction\n'
+    '* capability of the used dictionary. -1 ignores the error correction '
+    'step.\n'
+    '* @param checkAllOrders Consider the four posible corner orders in the '
+    'rejectedCorners array.\n'
+    '* If it set to false, only the provided corner order is considered '
+    '(default true).\n'
+    '* @param recoveredIdxs Optional array to returns the indexes of the '
+    'recovered candidates in the\n'
+    '* original rejectedCorners array.\n'
+    '* @param parameters marker detection parameters\n'
+    '*\n'
+    '* This function tries to find markers that were not detected in the basic '
+    'detecMarkers function.\n'
+    '* First, based on the current detected marker and the board layout, the '
+    'function interpolates\n'
+    '* the position of the missing markers. Then it tries to find '
+    'correspondence between the reprojected\n'
+    '* markers and the rejected candidates based on the minRepDistance and '
+    'errorCorrectionRate\n'
+    '* parameters.\n'
+    '* If camera parameters and distortion coefficients are provided, missing '
+    'markers are reprojected\n'
+    '* using projectPoint function. If not, missing marker projections are '
+    'interpolated using global\n'
+    '* homography, and all the marker corners in the board must have the same '
+    'Z coordinate.']
+parse_name: cv.aruco.refineDetectedMarkers with ['cv', 'cv::aruco'] -> fullname:cv::aruco::refineDetectedMarkers namespace:cv::aruco classpath: classname: name:refineDetectedMarkers
+register (function) refineDetectedMarkers (cv_aruco_refineDetectedMarkers__InputArray_PtrOfBoard__InputOutputArray__InputOutputArray__InputOutputArray__InputArray__InputArray_float_float_bool__OutputArray_PtrOfDetectorParameters)
+
+--- Incoming ---
+[   'cv.aruco.drawDetectedMarkers',
+    'void',
+    [],
+    [   ['InputOutputArray', 'image', '', []],
+        ['InputArrayOfArrays', 'corners', '', []],
+        ['InputArray', 'ids', 'noArray()', []],
+        ['Scalar', 'borderColor', 'Scalar(0, 255, 0)', []]],
+    None,
+    '* @brief Draw detected markers in image\n'
+    '*\n'
+    '* @param image input/output image. It must have 1 or 3 channels. The '
+    'number of channels is not\n'
+    '* altered.\n'
+    '* @param corners positions of marker corners on input image.\n'
+    '* (e.g std::vector<std::vector<cv::Point2f> > ). For N detected markers, '
+    'the dimensions of\n'
+    '* this array should be Nx4. The order of the corners should be '
+    'clockwise.\n'
+    '* @param ids vector of identifiers for markers in markersCorners .\n'
+    '* Optional, if not provided, ids are not painted.\n'
+    '* @param borderColor color of marker borders. Rest of colors (text color '
+    'and first corner color)\n'
+    '* are calculated based on this one to improve visualization.\n'
+    '*\n'
+    '* Given an array of detected marker corners and its corresponding ids, '
+    'this functions draws\n'
+    '* the markers in the image. The marker borders are painted and the '
+    'markers identifiers if provided.\n'
+    '* Useful for debugging purposes.']
+parse_name: cv.aruco.drawDetectedMarkers with ['cv', 'cv::aruco'] -> fullname:cv::aruco::drawDetectedMarkers namespace:cv::aruco classpath: classname: name:drawDetectedMarkers
+register (function) drawDetectedMarkers (cv_aruco_drawDetectedMarkers__InputOutputArray__InputArray__InputArray_Scalar)
+
+--- Incoming ---
+[   'cv.aruco.drawAxis',
+    'void',
+    [],
+    [   ['InputOutputArray', 'image', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['InputArray', 'rvec', '', []],
+        ['InputArray', 'tvec', '', []],
+        ['float', 'length', '', []]],
+    None,
+    '* @brief Draw coordinate system axis from pose estimation\n'
+    '*\n'
+    '* @param image input/output image. It must have 1 or 3 channels. The '
+    'number of channels is not\n'
+    '* altered.\n'
+    '* @param cameraMatrix input 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$\n'
+    '* @param distCoeffs vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '* @param rvec rotation vector of the coordinate system that will be '
+    'drawn. (@sa Rodrigues).\n'
+    '* @param tvec translation vector of the coordinate system that will be '
+    'drawn.\n'
+    '* @param length length of the painted axis in the same unit than tvec '
+    '(usually in meters)\n'
+    '*\n'
+    '* Given the pose estimation of a marker or board, this function draws the '
+    'axis of the world\n'
+    '* coordinate system, i.e. the system centered on the marker/board. Useful '
+    'for debugging purposes.\n'
+    '*\n'
+    '* @deprecated use cv::drawFrameAxes']
+parse_name: cv.aruco.drawAxis with ['cv', 'cv::aruco'] -> fullname:cv::aruco::drawAxis namespace:cv::aruco classpath: classname: name:drawAxis
+register (function) drawAxis (cv_aruco_drawAxis__InputOutputArray__InputArray__InputArray__InputArray__InputArray_float)
+
+--- Incoming ---
+[   'cv.aruco.drawMarker',
+    'void',
+    [],
+    [   ['const Ptr<Dictionary> &', 'dictionary', '', []],
+        ['int', 'id', '', []],
+        ['int', 'sidePixels', '', []],
+        ['OutputArray', 'img', '', []],
+        ['int', 'borderBits', '1', []]],
+    None,
+    '* @brief Draw a canonical marker image\n'
+    '*\n'
+    '* @param dictionary dictionary of markers indicating the type of markers\n'
+    '* @param id identifier of the marker that will be returned. It has to be '
+    'a valid id\n'
+    '* in the specified dictionary.\n'
+    '* @param sidePixels size of the image in pixels\n'
+    '* @param img output image with the marker\n'
+    '* @param borderBits width of the marker border.\n'
+    '*\n'
+    '* This function returns a marker image in its canonical form (i.e. ready '
+    'to be printed)']
+parse_name: cv.aruco.drawMarker with ['cv', 'cv::aruco'] -> fullname:cv::aruco::drawMarker namespace:cv::aruco classpath: classname: name:drawMarker
+register (function) drawMarker (cv_aruco_drawMarker_PtrOfDictionary_int_int__OutputArray_int)
+
+--- Incoming ---
+[   'cv.aruco.drawPlanarBoard',
+    'void',
+    [],
+    [   ['const Ptr<Board> &', 'board', '', []],
+        ['Size', 'outSize', '', []],
+        ['OutputArray', 'img', '', []],
+        ['int', 'marginSize', '0', []],
+        ['int', 'borderBits', '1', []]],
+    None,
+    '* @brief Draw a planar board\n'
+    '* @sa _drawPlanarBoardImpl\n'
+    '*\n'
+    '* @param board layout of the board that will be drawn. The board should '
+    'be planar,\n'
+    '* z coordinate is ignored\n'
+    '* @param outSize size of the output image in pixels.\n'
+    '* @param img output image with the board. The size of this image will be '
+    'outSize\n'
+    '* and the board will be on the center, keeping the board proportions.\n'
+    '* @param marginSize minimum margins (in pixels) of the board in the '
+    'output image\n'
+    '* @param borderBits width of the marker borders.\n'
+    '*\n'
+    '* This function return the image of a planar board, ready to be printed. '
+    'It assumes\n'
+    '* the Board layout specified is planar by ignoring the z coordinates of '
+    'the object points.']
+parse_name: cv.aruco.drawPlanarBoard with ['cv', 'cv::aruco'] -> fullname:cv::aruco::drawPlanarBoard namespace:cv::aruco classpath: classname: name:drawPlanarBoard
+register (function) drawPlanarBoard (cv_aruco_drawPlanarBoard_PtrOfBoard_Size__OutputArray_int_int)
+
+--- Incoming ---
+[   'cv.aruco._drawPlanarBoardImpl',
+    'void',
+    [],
+    [   ['Board *', 'board', '', []],
+        ['Size', 'outSize', '', []],
+        ['OutputArray', 'img', '', []],
+        ['int', 'marginSize', '0', []],
+        ['int', 'borderBits', '1', []]],
+    None,
+    '* @brief Implementation of drawPlanarBoard that accepts a raw Board '
+    'pointer.']
+parse_name: cv.aruco._drawPlanarBoardImpl with ['cv', 'cv::aruco'] -> fullname:cv::aruco::_drawPlanarBoardImpl namespace:cv::aruco classpath: classname: name:_drawPlanarBoardImpl
+register (function) _drawPlanarBoardImpl (cv_aruco__drawPlanarBoardImpl_Board_Size__OutputArray_int_int)
+
+--- Incoming ---
+[   'cv.aruco.calibrateCameraAruco',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'corners', '', []],
+        ['InputArray', 'ids', '', []],
+        ['InputArray', 'counter', '', []],
+        ['const Ptr<Board> &', 'board', '', []],
+        ['Size', 'imageSize', '', []],
+        ['InputOutputArray', 'cameraMatrix', '', []],
+        ['InputOutputArray', 'distCoeffs', '', []],
+        ['OutputArrayOfArrays', 'rvecs', '', []],
+        ['OutputArrayOfArrays', 'tvecs', '', []],
+        ['OutputArray', 'stdDeviationsIntrinsics', '', []],
+        ['OutputArray', 'stdDeviationsExtrinsics', '', []],
+        ['OutputArray', 'perViewErrors', '', []],
+        ['int', 'flags', '0', []],
+        [   'TermCriteria',
+            'criteria',
+            'TermCriteria(TermCriteria::COUNT + TermCriteria::EPS, 30, '
+            'DBL_EPSILON)',
+            []]],
+    None,
+    '* @brief Calibrate a camera using aruco markers\n'
+    '*\n'
+    '* @param corners vector of detected marker corners in all frames.\n'
+    '* The corners should have the same format returned by detectMarkers (see '
+    '#detectMarkers).\n'
+    '* @param ids list of identifiers for each marker in corners\n'
+    '* @param counter number of markers in each frame so that corners and ids '
+    'can be split\n'
+    '* @param board Marker Board layout\n'
+    '* @param imageSize Size of the image used only to initialize the '
+    'intrinsic camera matrix.\n'
+    '* @param cameraMatrix Output 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$ . If '
+    'CV\\_CALIB\\_USE\\_INTRINSIC\\_GUESS\n'
+    '* and/or CV_CALIB_FIX_ASPECT_RATIO are specified, some or all of fx, fy, '
+    'cx, cy must be\n'
+    '* initialized before calling the function.\n'
+    '* @param distCoeffs Output vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '* @param rvecs Output vector of rotation vectors (see Rodrigues ) '
+    'estimated for each board view\n'
+    '* (e.g. std::vector<cv::Mat>>). That is, each k-th rotation vector '
+    'together with the corresponding\n'
+    '* k-th translation vector (see the next output parameter description) '
+    'brings the board pattern\n'
+    '* from the model coordinate space (in which object points are specified) '
+    'to the world coordinate\n'
+    '* space, that is, a real position of the board pattern in the k-th '
+    'pattern view (k=0.. *M* -1).\n'
+    '* @param tvecs Output vector of translation vectors estimated for each '
+    'pattern view.\n'
+    '* @param stdDeviationsIntrinsics Output vector of standard deviations '
+    'estimated for intrinsic parameters.\n'
+    '* Order of deviations values:\n'
+    '* \\f$(f_x, f_y, c_x, c_y, k_1, k_2, p_1, p_2, k_3, k_4, k_5, k_6 , s_1, '
+    's_2, s_3,\n'
+    "* s_4, \\tau_x, \\tau_y)\\f$ If one of parameters is not estimated, it's "
+    'deviation is equals to zero.\n'
+    '* @param stdDeviationsExtrinsics Output vector of standard deviations '
+    'estimated for extrinsic parameters.\n'
+    '* Order of deviations values: \\f$(R_1, T_1, \\dotsc , R_M, T_M)\\f$ '
+    'where M is number of pattern views,\n'
+    '* \\f$R_i, T_i\\f$ are concatenated 1x3 vectors.\n'
+    '* @param perViewErrors Output vector of average re-projection errors '
+    'estimated for each pattern view.\n'
+    '* @param flags flags Different flags  for the calibration process (see '
+    '#calibrateCamera for details).\n'
+    '* @param criteria Termination criteria for the iterative optimization '
+    'algorithm.\n'
+    '*\n'
+    '* This function calibrates a camera using an Aruco Board. The function '
+    'receives a list of\n'
+    '* detected markers from several views of the Board. The process is '
+    'similar to the chessboard\n'
+    '* calibration in calibrateCamera(). The function returns the final '
+    're-projection error.']
+parse_name: cv.aruco.calibrateCameraAruco with ['cv', 'cv::aruco'] -> fullname:cv::aruco::calibrateCameraAruco namespace:cv::aruco classpath: classname: name:calibrateCameraAruco
+register (function) calibrateCameraAruco (cv_aruco_calibrateCameraAruco__InputArray__InputArray__InputArray_PtrOfBoard_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray_int_TermCriteria)
+
+--- Incoming ---
+[   'cv.aruco.calibrateCameraAruco',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'corners', '', []],
+        ['InputArray', 'ids', '', []],
+        ['InputArray', 'counter', '', []],
+        ['const Ptr<Board> &', 'board', '', []],
+        ['Size', 'imageSize', '', []],
+        ['InputOutputArray', 'cameraMatrix', '', []],
+        ['InputOutputArray', 'distCoeffs', '', []],
+        ['OutputArrayOfArrays', 'rvecs', 'noArray()', []],
+        ['OutputArrayOfArrays', 'tvecs', 'noArray()', []],
+        ['int', 'flags', '0', []],
+        [   'TermCriteria',
+            'criteria',
+            'TermCriteria(TermCriteria::COUNT + TermCriteria::EPS, 30, '
+            'DBL_EPSILON)',
+            []]],
+    None,
+    "@brief It's the same function as #calibrateCameraAruco but without "
+    'calibration error estimation.']
+parse_name: cv.aruco.calibrateCameraAruco with ['cv', 'cv::aruco'] -> fullname:cv::aruco::calibrateCameraAruco namespace:cv::aruco classpath: classname: name:calibrateCameraAruco
+register (function) calibrateCameraAruco (cv_aruco_calibrateCameraAruco__InputArray__InputArray__InputArray_PtrOfBoard_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray_int_TermCriteria)
+
+--- Incoming ---
+[   'cv.aruco.getBoardObjectAndImagePoints',
+    'void',
+    [],
+    [   ['const Ptr<Board> &', 'board', '', []],
+        ['InputArrayOfArrays', 'detectedCorners', '', []],
+        ['InputArray', 'detectedIds', '', []],
+        ['OutputArray', 'objPoints', '', []],
+        ['OutputArray', 'imgPoints', '', []]],
+    None,
+    '* @brief Given a board configuration and a set of detected markers, '
+    'returns the corresponding\n'
+    '* image points and object points to call solvePnP\n'
+    '*\n'
+    '* @param board Marker board layout.\n'
+    '* @param detectedCorners List of detected marker corners of the board.\n'
+    '* @param detectedIds List of identifiers for each marker.\n'
+    '* @param objPoints Vector of vectors of board marker points in the board '
+    'coordinate space.\n'
+    '* @param imgPoints Vector of vectors of the projections of board marker '
+    'corner points.']
+parse_name: cv.aruco.getBoardObjectAndImagePoints with ['cv', 'cv::aruco'] -> fullname:cv::aruco::getBoardObjectAndImagePoints namespace:cv::aruco classpath: classname: name:getBoardObjectAndImagePoints
+register (function) getBoardObjectAndImagePoints (cv_aruco_getBoardObjectAndImagePoints_PtrOfBoard__InputArray__InputArray__OutputArray__OutputArray)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/aruco/charuco.hpp ================
+
+
+Namespaces: ['cv', 'cv.aruco']
+Comment: {'aruco': '\n* @defgroup aruco ArUco Marker Detection\n* This module is dedicated to square fiducial markers (also known as Augmented Reality Markers)\n* These markers are useful for easy, fast and robust camera pose estimation.ç\n*\n* The main functionalities are:\n* - Detection of markers in an image\n* - Pose estimation from a single marker or from a board/set of markers\n* - Detection of ChArUco board for high subpixel accuracy\n* - Camera calibration from both, ArUco boards and ChArUco boards.\n* - Detection of ChArUco diamond markers\n* The samples directory includes easy examples of how to use the module.\n*\n* The implementation is based on the ArUco Library by R. Muñoz-Salinas and S. Garrido-Jurado @cite Aruco2014.\n*\n* Markers can also be detected based on the AprilTag 2 @cite wang2016iros fiducial detection method.\n*\n* @sa S. Garrido-Jurado, R. Muñoz-Salinas, F. J. Madrid-Cuevas, and M. J. Marín-Jiménez. 2014.\n* "Automatic generation and detection of highly reliable fiducial markers under occlusion".\n* Pattern Recogn. 47, 6 (June 2014), 2280-2292. DOI=10.1016/j.patcog.2014.01.005\n*\n* @sa http://www.uco.es/investiga/grupos/ava/node/26\n*\n* This module has been originally developed by Sergio Garrido-Jurado as a project\n* for Google Summer of Code 2015 (GSoC 15).\n*\n*\n\n'}
+
+--- Incoming ---
+[   'class cv.aruco.CharucoBoard',
+    ': cv::aruco::Board',
+    [],
+    [   ['vector_Point3f', 'chessboardCorners', '', []],
+        ['vector_vector_int', 'nearestMarkerIdx', '', []],
+        ['vector_vector_int', 'nearestMarkerCorners', '', []]],
+    None,
+    '* @brief ChArUco board\n'
+    '* Specific class for ChArUco boards. A ChArUco board is a planar board '
+    'where the markers are placed\n'
+    '* inside the white squares of a chessboard. The benefits of ChArUco '
+    'boards is that they provide\n'
+    '* both, ArUco markers versatility and chessboard corner precision, which '
+    'is important for\n'
+    '* calibration and pose estimation.\n'
+    '* This class also allows the easy creation and drawing of ChArUco boards.']
+parse_name: class cv.aruco.CharucoBoard with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard namespace:cv::aruco classpath: classname: name:CharucoBoard
+register class cv::aruco::CharucoBoard (['class cv.aruco.CharucoBoard', ': cv::aruco::Board', [], [['vector_Point3f', 'chessboardCorners', '', []], ['vector_vector_int', 'nearestMarkerIdx', '', []], ['vector_vector_int', 'nearestMarkerCorners', '', []]], None, '* @brief ChArUco board\n* Specific class for ChArUco boards. A ChArUco board is a planar board where the markers are placed\n* inside the white squares of a chessboard. The benefits of ChArUco boards is that they provide\n* both, ArUco markers versatility and chessboard corner precision, which is important for\n* calibration and pose estimation.\n* This class also allows the easy creation and drawing of ChArUco boards.']) impl:cv::aruco::Board
+Registering an unknown type: vector_Point3f
+parse_name: cv.aruco.CharucoBoard.chessboardCorners with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard::chessboardCorners namespace:cv::aruco classpath:CharucoBoard classname:CharucoBoard name:chessboardCorners
+register (method) chessboardCorners in cv::aruco::CharucoBoard (cv_aruco_CharucoBoard_chessboardCorners)
+Registering an unknown type: vector_vector_int
+parse_name: cv.aruco.CharucoBoard.nearestMarkerIdx with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard::nearestMarkerIdx namespace:cv::aruco classpath:CharucoBoard classname:CharucoBoard name:nearestMarkerIdx
+register (method) nearestMarkerIdx in cv::aruco::CharucoBoard (cv_aruco_CharucoBoard_nearestMarkerIdx)
+parse_name: cv.aruco.CharucoBoard.nearestMarkerCorners with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard::nearestMarkerCorners namespace:cv::aruco classpath:CharucoBoard classname:CharucoBoard name:nearestMarkerCorners
+register (method) nearestMarkerCorners in cv::aruco::CharucoBoard (cv_aruco_CharucoBoard_nearestMarkerCorners)
+
+--- Incoming ---
+[   'cv.aruco.CharucoBoard.draw',
+    'void',
+    [],
+    [   ['Size', 'outSize', '', []],
+        ['OutputArray', 'img', '', []],
+        ['int', 'marginSize', '0', []],
+        ['int', 'borderBits', '1', []]],
+    None,
+    '* @brief Draw a ChArUco board\n'
+    '*\n'
+    '* @param outSize size of the output image in pixels.\n'
+    '* @param img output image with the board. The size of this image will be '
+    'outSize\n'
+    '* and the board will be on the center, keeping the board proportions.\n'
+    '* @param marginSize minimum margins (in pixels) of the board in the '
+    'output image\n'
+    '* @param borderBits width of the marker borders.\n'
+    '*\n'
+    '* This function return the image of the ChArUco board, ready to be '
+    'printed.']
+parse_name: cv.aruco.CharucoBoard.draw with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard::draw namespace:cv::aruco classpath:CharucoBoard classname:CharucoBoard name:draw
+register (method) draw in cv::aruco::CharucoBoard (cv_aruco_CharucoBoard_draw_Size__OutputArray_int_int)
+
+--- Incoming ---
+[   'cv.aruco.CharucoBoard.create',
+    'Ptr<CharucoBoard>',
+    ['/S'],
+    [   ['int', 'squaresX', '', []],
+        ['int', 'squaresY', '', []],
+        ['float', 'squareLength', '', []],
+        ['float', 'markerLength', '', []],
+        ['const Ptr<Dictionary> &', 'dictionary', '', []]],
+    None,
+    '* @brief Create a CharucoBoard object\n'
+    '*\n'
+    '* @param squaresX number of chessboard squares in X direction\n'
+    '* @param squaresY number of chessboard squares in Y direction\n'
+    '* @param squareLength chessboard square side length (normally in meters)\n'
+    '* @param markerLength marker side length (same unit than squareLength)\n'
+    '* @param dictionary dictionary of markers indicating the type of '
+    'markers.\n'
+    '* The first markers in the dictionary are used to fill the white '
+    'chessboard squares.\n'
+    '* @return the output CharucoBoard object\n'
+    '*\n'
+    '* This functions creates a CharucoBoard object given the number of '
+    'squares in each direction\n'
+    '* and the size of the markers and chessboard squares.']
+parse_name: cv.aruco.CharucoBoard.create with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard::create namespace:cv::aruco classpath:CharucoBoard classname:CharucoBoard name:create
+register (method) create in cv::aruco::CharucoBoard (cv_aruco_CharucoBoard_create_int_int_float_float_PtrOfDictionary)
+
+--- Incoming ---
+['cv.aruco.CharucoBoard.getChessboardSize', 'Size', ['/C'], [], None, '*']
+parse_name: cv.aruco.CharucoBoard.getChessboardSize with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard::getChessboardSize namespace:cv::aruco classpath:CharucoBoard classname:CharucoBoard name:getChessboardSize
+register (method) getChessboardSize in cv::aruco::CharucoBoard (cv_aruco_CharucoBoard_getChessboardSize_const)
+
+--- Incoming ---
+['cv.aruco.CharucoBoard.getSquareLength', 'float', ['/C'], [], None, '*']
+parse_name: cv.aruco.CharucoBoard.getSquareLength with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard::getSquareLength namespace:cv::aruco classpath:CharucoBoard classname:CharucoBoard name:getSquareLength
+register (method) getSquareLength in cv::aruco::CharucoBoard (cv_aruco_CharucoBoard_getSquareLength_const)
+
+--- Incoming ---
+['cv.aruco.CharucoBoard.getMarkerLength', 'float', ['/C'], [], None, '*']
+parse_name: cv.aruco.CharucoBoard.getMarkerLength with ['cv', 'cv::aruco'] -> fullname:cv::aruco::CharucoBoard::getMarkerLength namespace:cv::aruco classpath:CharucoBoard classname:CharucoBoard name:getMarkerLength
+register (method) getMarkerLength in cv::aruco::CharucoBoard (cv_aruco_CharucoBoard_getMarkerLength_const)
+
+--- Incoming ---
+[   'cv.aruco.interpolateCornersCharuco',
+    'int',
+    [],
+    [   ['InputArrayOfArrays', 'markerCorners', '', []],
+        ['InputArray', 'markerIds', '', []],
+        ['InputArray', 'image', '', []],
+        ['const Ptr<CharucoBoard> &', 'board', '', []],
+        ['OutputArray', 'charucoCorners', '', []],
+        ['OutputArray', 'charucoIds', '', []],
+        ['InputArray', 'cameraMatrix', 'noArray()', []],
+        ['InputArray', 'distCoeffs', 'noArray()', []],
+        ['int', 'minMarkers', '2', []]],
+    None,
+    '* @brief Interpolate position of ChArUco board corners\n'
+    '* @param markerCorners vector of already detected markers corners. For '
+    'each marker, its four\n'
+    '* corners are provided, (e.g std::vector<std::vector<cv::Point2f> > ). '
+    'For N detected markers, the\n'
+    '* dimensions of this array should be Nx4. The order of the corners should '
+    'be clockwise.\n'
+    '* @param markerIds list of identifiers for each marker in corners\n'
+    '* @param image input image necesary for corner refinement. Note that '
+    'markers are not detected and\n'
+    '* should be sent in corners and ids parameters.\n'
+    '* @param board layout of ChArUco board.\n'
+    '* @param charucoCorners interpolated chessboard corners\n'
+    '* @param charucoIds interpolated chessboard corners identifiers\n'
+    '* @param cameraMatrix optional 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$\n'
+    '* @param distCoeffs optional vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '* @param minMarkers number of adjacent markers that must be detected to '
+    'return a charuco corner\n'
+    '*\n'
+    '* This function receives the detected markers and returns the 2D position '
+    'of the chessboard corners\n'
+    '* from a ChArUco board using the detected Aruco markers. If camera '
+    'parameters are provided,\n'
+    '* the process is based in an approximated pose estimation, else it is '
+    'based on local homography.\n'
+    '* Only visible corners are returned. For each corner, its corresponding '
+    'identifier is\n'
+    '* also returned in charucoIds.\n'
+    '* The function returns the number of interpolated corners.']
+parse_name: cv.aruco.interpolateCornersCharuco with ['cv', 'cv::aruco'] -> fullname:cv::aruco::interpolateCornersCharuco namespace:cv::aruco classpath: classname: name:interpolateCornersCharuco
+register (function) interpolateCornersCharuco (cv_aruco_interpolateCornersCharuco__InputArray__InputArray__InputArray_PtrOfCharucoBoard__OutputArray__OutputArray__InputArray__InputArray_int)
+
+--- Incoming ---
+[   'cv.aruco.estimatePoseCharucoBoard',
+    'bool',
+    [],
+    [   ['InputArray', 'charucoCorners', '', []],
+        ['InputArray', 'charucoIds', '', []],
+        ['const Ptr<CharucoBoard> &', 'board', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['InputOutputArray', 'rvec', '', []],
+        ['InputOutputArray', 'tvec', '', []],
+        ['bool', 'useExtrinsicGuess', 'false', []]],
+    None,
+    '* @brief Pose estimation for a ChArUco board given some of their corners\n'
+    '* @param charucoCorners vector of detected charuco corners\n'
+    '* @param charucoIds list of identifiers for each corner in '
+    'charucoCorners\n'
+    '* @param board layout of ChArUco board.\n'
+    '* @param cameraMatrix input 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$\n'
+    '* @param distCoeffs vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '* @param rvec Output vector (e.g. cv::Mat) corresponding to the rotation '
+    'vector of the board\n'
+    '* (see cv::Rodrigues).\n'
+    '* @param tvec Output vector (e.g. cv::Mat) corresponding to the '
+    'translation vector of the board.\n'
+    '* @param useExtrinsicGuess defines whether initial guess for \\b rvec and '
+    '\\b tvec will be used or not.\n'
+    '*\n'
+    '* This function estimates a Charuco board pose from some detected '
+    'corners.\n'
+    '* The function checks if the input corners are enough and valid to '
+    'perform pose estimation.\n'
+    '* If pose estimation is valid, returns true, else returns false.']
+parse_name: cv.aruco.estimatePoseCharucoBoard with ['cv', 'cv::aruco'] -> fullname:cv::aruco::estimatePoseCharucoBoard namespace:cv::aruco classpath: classname: name:estimatePoseCharucoBoard
+register (function) estimatePoseCharucoBoard (cv_aruco_estimatePoseCharucoBoard__InputArray__InputArray_PtrOfCharucoBoard__InputArray__InputArray__InputOutputArray__InputOutputArray_bool)
+
+--- Incoming ---
+[   'cv.aruco.drawDetectedCornersCharuco',
+    'void',
+    [],
+    [   ['InputOutputArray', 'image', '', []],
+        ['InputArray', 'charucoCorners', '', []],
+        ['InputArray', 'charucoIds', 'noArray()', []],
+        ['Scalar', 'cornerColor', 'Scalar(255, 0, 0)', []]],
+    None,
+    '* @brief Draws a set of Charuco corners\n'
+    '* @param image input/output image. It must have 1 or 3 channels. The '
+    'number of channels is not\n'
+    '* altered.\n'
+    '* @param charucoCorners vector of detected charuco corners\n'
+    '* @param charucoIds list of identifiers for each corner in '
+    'charucoCorners\n'
+    '* @param cornerColor color of the square surrounding each corner\n'
+    '*\n'
+    '* This function draws a set of detected Charuco corners. If identifiers '
+    'vector is provided, it also\n'
+    '* draws the id of each corner.']
+parse_name: cv.aruco.drawDetectedCornersCharuco with ['cv', 'cv::aruco'] -> fullname:cv::aruco::drawDetectedCornersCharuco namespace:cv::aruco classpath: classname: name:drawDetectedCornersCharuco
+register (function) drawDetectedCornersCharuco (cv_aruco_drawDetectedCornersCharuco__InputOutputArray__InputArray__InputArray_Scalar)
+
+--- Incoming ---
+[   'cv.aruco.calibrateCameraCharuco',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'charucoCorners', '', []],
+        ['InputArrayOfArrays', 'charucoIds', '', []],
+        ['const Ptr<CharucoBoard> &', 'board', '', []],
+        ['Size', 'imageSize', '', []],
+        ['InputOutputArray', 'cameraMatrix', '', []],
+        ['InputOutputArray', 'distCoeffs', '', []],
+        ['OutputArrayOfArrays', 'rvecs', '', []],
+        ['OutputArrayOfArrays', 'tvecs', '', []],
+        ['OutputArray', 'stdDeviationsIntrinsics', '', []],
+        ['OutputArray', 'stdDeviationsExtrinsics', '', []],
+        ['OutputArray', 'perViewErrors', '', []],
+        ['int', 'flags', '0', []],
+        [   'TermCriteria',
+            'criteria',
+            'TermCriteria(TermCriteria::COUNT + TermCriteria::EPS, 30, '
+            'DBL_EPSILON)',
+            []]],
+    None,
+    '* @brief Calibrate a camera using Charuco corners\n'
+    '*\n'
+    '* @param charucoCorners vector of detected charuco corners per frame\n'
+    '* @param charucoIds list of identifiers for each corner in charucoCorners '
+    'per frame\n'
+    '* @param board Marker Board layout\n'
+    '* @param imageSize input image size\n'
+    '* @param cameraMatrix Output 3x3 floating-point camera matrix\n'
+    '* \\f$A = \\vecthreethree{f_x}{0}{c_x}{0}{f_y}{c_y}{0}{0}{1}\\f$ . If '
+    'CV\\_CALIB\\_USE\\_INTRINSIC\\_GUESS\n'
+    '* and/or CV_CALIB_FIX_ASPECT_RATIO are specified, some or all of fx, fy, '
+    'cx, cy must be\n'
+    '* initialized before calling the function.\n'
+    '* @param distCoeffs Output vector of distortion coefficients\n'
+    '* \\f$(k_1, k_2, p_1, p_2[, k_3[, k_4, k_5, k_6],[s_1, s_2, s_3, '
+    's_4]])\\f$ of 4, 5, 8 or 12 elements\n'
+    '* @param rvecs Output vector of rotation vectors (see Rodrigues ) '
+    'estimated for each board view\n'
+    '* (e.g. std::vector<cv::Mat>>). That is, each k-th rotation vector '
+    'together with the corresponding\n'
+    '* k-th translation vector (see the next output parameter description) '
+    'brings the board pattern\n'
+    '* from the model coordinate space (in which object points are specified) '
+    'to the world coordinate\n'
+    '* space, that is, a real position of the board pattern in the k-th '
+    'pattern view (k=0.. *M* -1).\n'
+    '* @param tvecs Output vector of translation vectors estimated for each '
+    'pattern view.\n'
+    '* @param stdDeviationsIntrinsics Output vector of standard deviations '
+    'estimated for intrinsic parameters.\n'
+    '* Order of deviations values:\n'
+    '* \\f$(f_x, f_y, c_x, c_y, k_1, k_2, p_1, p_2, k_3, k_4, k_5, k_6 , s_1, '
+    's_2, s_3,\n'
+    "* s_4, \\tau_x, \\tau_y)\\f$ If one of parameters is not estimated, it's "
+    'deviation is equals to zero.\n'
+    '* @param stdDeviationsExtrinsics Output vector of standard deviations '
+    'estimated for extrinsic parameters.\n'
+    '* Order of deviations values: \\f$(R_1, T_1, \\dotsc , R_M, T_M)\\f$ '
+    'where M is number of pattern views,\n'
+    '* \\f$R_i, T_i\\f$ are concatenated 1x3 vectors.\n'
+    '* @param perViewErrors Output vector of average re-projection errors '
+    'estimated for each pattern view.\n'
+    '* @param flags flags Different flags  for the calibration process (see '
+    '#calibrateCamera for details).\n'
+    '* @param criteria Termination criteria for the iterative optimization '
+    'algorithm.\n'
+    '*\n'
+    '* This function calibrates a camera using a set of corners of a  Charuco '
+    'Board. The function\n'
+    '* receives a list of detected corners and its identifiers from several '
+    'views of the Board.\n'
+    '* The function returns the final re-projection error.']
+parse_name: cv.aruco.calibrateCameraCharuco with ['cv', 'cv::aruco'] -> fullname:cv::aruco::calibrateCameraCharuco namespace:cv::aruco classpath: classname: name:calibrateCameraCharuco
+register (function) calibrateCameraCharuco (cv_aruco_calibrateCameraCharuco__InputArray__InputArray_PtrOfCharucoBoard_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray_int_TermCriteria)
+
+--- Incoming ---
+[   'cv.aruco.calibrateCameraCharuco',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'charucoCorners', '', []],
+        ['InputArrayOfArrays', 'charucoIds', '', []],
+        ['const Ptr<CharucoBoard> &', 'board', '', []],
+        ['Size', 'imageSize', '', []],
+        ['InputOutputArray', 'cameraMatrix', '', []],
+        ['InputOutputArray', 'distCoeffs', '', []],
+        ['OutputArrayOfArrays', 'rvecs', 'noArray()', []],
+        ['OutputArrayOfArrays', 'tvecs', 'noArray()', []],
+        ['int', 'flags', '0', []],
+        [   'TermCriteria',
+            'criteria',
+            'TermCriteria(TermCriteria::COUNT + TermCriteria::EPS, 30, '
+            'DBL_EPSILON)',
+            []]],
+    None,
+    "@brief It's the same function as #calibrateCameraCharuco but without "
+    'calibration error estimation.']
+parse_name: cv.aruco.calibrateCameraCharuco with ['cv', 'cv::aruco'] -> fullname:cv::aruco::calibrateCameraCharuco namespace:cv::aruco classpath: classname: name:calibrateCameraCharuco
+register (function) calibrateCameraCharuco (cv_aruco_calibrateCameraCharuco__InputArray__InputArray_PtrOfCharucoBoard_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray_int_TermCriteria)
+
+--- Incoming ---
+[   'cv.aruco.detectCharucoDiamond',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['InputArrayOfArrays', 'markerCorners', '', []],
+        ['InputArray', 'markerIds', '', []],
+        ['float', 'squareMarkerLengthRate', '', []],
+        ['OutputArrayOfArrays', 'diamondCorners', '', []],
+        ['OutputArray', 'diamondIds', '', []],
+        ['InputArray', 'cameraMatrix', 'noArray()', []],
+        ['InputArray', 'distCoeffs', 'noArray()', []]],
+    None,
+    '* @brief Detect ChArUco Diamond markers\n'
+    '*\n'
+    '* @param image input image necessary for corner subpixel.\n'
+    '* @param markerCorners list of detected marker corners from detectMarkers '
+    'function.\n'
+    '* @param markerIds list of marker ids in markerCorners.\n'
+    '* @param squareMarkerLengthRate rate between square and marker length:\n'
+    '* squareMarkerLengthRate = squareLength/markerLength. The real units are '
+    'not necessary.\n'
+    '* @param diamondCorners output list of detected diamond corners (4 '
+    'corners per diamond). The order\n'
+    '* is the same than in marker corners: top left, top right, bottom right '
+    'and bottom left. Similar\n'
+    '* format than the corners returned by detectMarkers (e.g '
+    'std::vector<std::vector<cv::Point2f> > ).\n'
+    '* @param diamondIds ids of the diamonds in diamondCorners. The id of each '
+    'diamond is in fact of\n'
+    '* type Vec4i, so each diamond has 4 ids, which are the ids of the aruco '
+    'markers composing the\n'
+    '* diamond.\n'
+    '* @param cameraMatrix Optional camera calibration matrix.\n'
+    '* @param distCoeffs Optional camera distortion coefficients.\n'
+    '*\n'
+    '* This function detects Diamond markers from the previous detected ArUco '
+    'markers. The diamonds\n'
+    '* are returned in the diamondCorners and diamondIds parameters. If camera '
+    'calibration parameters\n'
+    '* are provided, the diamond search is based on reprojection. If not, '
+    'diamond search is based on\n'
+    '* homography. Homography is faster than reprojection but can slightly '
+    'reduce the detection rate.']
+parse_name: cv.aruco.detectCharucoDiamond with ['cv', 'cv::aruco'] -> fullname:cv::aruco::detectCharucoDiamond namespace:cv::aruco classpath: classname: name:detectCharucoDiamond
+register (function) detectCharucoDiamond (cv_aruco_detectCharucoDiamond__InputArray__InputArray__InputArray_float__OutputArray__OutputArray__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.aruco.drawDetectedDiamonds',
+    'void',
+    [],
+    [   ['InputOutputArray', 'image', '', []],
+        ['InputArrayOfArrays', 'diamondCorners', '', []],
+        ['InputArray', 'diamondIds', 'noArray()', []],
+        ['Scalar', 'borderColor', 'Scalar(0, 0, 255)', []]],
+    None,
+    '* @brief Draw a set of detected ChArUco Diamond markers\n'
+    '*\n'
+    '* @param image input/output image. It must have 1 or 3 channels. The '
+    'number of channels is not\n'
+    '* altered.\n'
+    '* @param diamondCorners positions of diamond corners in the same format '
+    'returned by\n'
+    '* detectCharucoDiamond(). (e.g std::vector<std::vector<cv::Point2f> > ). '
+    'For N detected markers,\n'
+    '* the dimensions of this array should be Nx4. The order of the corners '
+    'should be clockwise.\n'
+    '* @param diamondIds vector of identifiers for diamonds in diamondCorners, '
+    'in the same format\n'
+    '* returned by detectCharucoDiamond() (e.g. std::vector<Vec4i>).\n'
+    '* Optional, if not provided, ids are not painted.\n'
+    '* @param borderColor color of marker borders. Rest of colors (text color '
+    'and first corner color)\n'
+    '* are calculated based on this one.\n'
+    '*\n'
+    '* Given an array of detected diamonds, this functions draws them in the '
+    'image. The marker borders\n'
+    '* are painted and the markers identifiers if provided.\n'
+    '* Useful for debugging purposes.']
+parse_name: cv.aruco.drawDetectedDiamonds with ['cv', 'cv::aruco'] -> fullname:cv::aruco::drawDetectedDiamonds namespace:cv::aruco classpath: classname: name:drawDetectedDiamonds
+register (function) drawDetectedDiamonds (cv_aruco_drawDetectedDiamonds__InputOutputArray__InputArray__InputArray_Scalar)
+
+--- Incoming ---
+[   'cv.aruco.drawCharucoDiamond',
+    'void',
+    [],
+    [   ['const Ptr<Dictionary> &', 'dictionary', '', []],
+        ['Vec4i', 'ids', '', []],
+        ['int', 'squareLength', '', []],
+        ['int', 'markerLength', '', []],
+        ['OutputArray', 'img', '', []],
+        ['int', 'marginSize', '0', []],
+        ['int', 'borderBits', '1', []]],
+    None,
+    '* @brief Draw a ChArUco Diamond marker\n'
+    '*\n'
+    '* @param dictionary dictionary of markers indicating the type of '
+    'markers.\n'
+    '* @param ids list of 4 ids for each ArUco marker in the ChArUco marker.\n'
+    '* @param squareLength size of the chessboard squares in pixels.\n'
+    '* @param markerLength size of the markers in pixels.\n'
+    '* @param img output image with the marker. The size of this image will '
+    'be\n'
+    '* 3*squareLength + 2*marginSize,.\n'
+    '* @param marginSize minimum margins (in pixels) of the marker in the '
+    'output image\n'
+    '* @param borderBits width of the marker borders.\n'
+    '*\n'
+    '* This function return the image of a ChArUco marker, ready to be '
+    'printed.']
+parse_name: cv.aruco.drawCharucoDiamond with ['cv', 'cv::aruco'] -> fullname:cv::aruco::drawCharucoDiamond namespace:cv::aruco classpath: classname: name:drawCharucoDiamond
+register (function) drawCharucoDiamond (cv_aruco_drawCharucoDiamond_PtrOfDictionary_Vec4i_int_int__OutputArray_int_int)
+
+
+===== Generating... =====
+Generating func cv_aruco__drawPlanarBoardImpl_Board_Size__OutputArray_int_int
+Generating func cv_aruco_calibrateCameraAruco__InputArray__InputArray__InputArray_PtrOfBoard_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray_int_TermCriteria
+Generating func cv_aruco_calibrateCameraAruco__InputArray__InputArray__InputArray_PtrOfBoard_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray_int_TermCriteria
+Generating func cv_aruco_calibrateCameraCharuco__InputArray__InputArray_PtrOfCharucoBoard_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray_int_TermCriteria
+Generating func cv_aruco_calibrateCameraCharuco__InputArray__InputArray_PtrOfCharucoBoard_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray_int_TermCriteria
+Generating func cv_aruco_detectCharucoDiamond__InputArray__InputArray__InputArray_float__OutputArray__OutputArray__InputArray__InputArray
+Generating func cv_aruco_detectMarkers__InputArray_PtrOfDictionary__OutputArray__OutputArray_PtrOfDetectorParameters__OutputArray__InputArray__InputArray
+Generating func cv_aruco_drawAxis__InputOutputArray__InputArray__InputArray__InputArray__InputArray_float
+Generating func cv_aruco_drawCharucoDiamond_PtrOfDictionary_Vec4i_int_int__OutputArray_int_int
+Generating func cv_aruco_drawDetectedCornersCharuco__InputOutputArray__InputArray__InputArray_Scalar
+Generating func cv_aruco_drawDetectedDiamonds__InputOutputArray__InputArray__InputArray_Scalar
+Generating func cv_aruco_drawDetectedMarkers__InputOutputArray__InputArray__InputArray_Scalar
+Generating func cv_aruco_drawMarker_PtrOfDictionary_int_int__OutputArray_int
+Generating func cv_aruco_drawPlanarBoard_PtrOfBoard_Size__OutputArray_int_int
+Generating func cv_aruco_estimatePoseBoard__InputArray__InputArray_PtrOfBoard__InputArray__InputArray__InputOutputArray__InputOutputArray_bool
+Generating func cv_aruco_estimatePoseCharucoBoard__InputArray__InputArray_PtrOfCharucoBoard__InputArray__InputArray__InputOutputArray__InputOutputArray_bool
+Generating func cv_aruco_estimatePoseSingleMarkers__InputArray_float__InputArray__InputArray__OutputArray__OutputArray__OutputArray
+Generating func cv_aruco_generateCustomDictionary_int_int_PtrOfDictionary_int
+Generating func cv_aruco_generateCustomDictionary_int_int_int
+Generating func cv_aruco_getBoardObjectAndImagePoints_PtrOfBoard__InputArray__InputArray__OutputArray__OutputArray
+Generating func cv_aruco_getPredefinedDictionary_PREDEFINED_DICTIONARY_NAME
+Generating func cv_aruco_getPredefinedDictionary_int
+Generating func cv_aruco_interpolateCornersCharuco__InputArray__InputArray__InputArray_PtrOfCharucoBoard__OutputArray__OutputArray__InputArray__InputArray_int
+Generating func cv_aruco_refineDetectedMarkers__InputArray_PtrOfBoard__InputOutputArray__InputOutputArray__InputOutputArray__InputArray__InputArray_float_float_bool__OutputArray_PtrOfDetectorParameters
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Generating impl for trait cv::aruco::Board (trait)
+Generating func cv_aruco_Board_objPoints
+  ignored: return type class Unknown[vector_vector_Point3f] is ignored
+Generating func cv_aruco_Board_dictionary
+  ignored: return type class Unknown[Ptr_Dictionary] is ignored
+Generating func cv_aruco_Board_ids
+  ignored: return type class Unknown[vector_int] is ignored
+Generating box for cv::aruco::Board (trait)
+Generating func cv_aruco_Board_create__InputArray_PtrOfDictionary__InputArray
+Generating box for cv::aruco::CharucoBoard
+Generating func cv_aruco_CharucoBoard_chessboardCorners
+  ignored: return type class Unknown[vector_Point3f] is ignored
+Generating func cv_aruco_CharucoBoard_nearestMarkerIdx
+  ignored: return type class Unknown[vector_vector_int] is ignored
+Generating func cv_aruco_CharucoBoard_nearestMarkerCorners
+  ignored: return type class Unknown[vector_vector_int] is ignored
+Generating func cv_aruco_CharucoBoard_draw_Size__OutputArray_int_int
+Generating func cv_aruco_CharucoBoard_create_int_int_float_float_PtrOfDictionary
+Generating func cv_aruco_CharucoBoard_getChessboardSize_const
+Generating func cv_aruco_CharucoBoard_getSquareLength_const
+Generating func cv_aruco_CharucoBoard_getMarkerLength_const
+Generating box for cv::aruco::DetectorParameters
+Generating func cv_aruco_DetectorParameters_adaptiveThreshWinSizeMin_const
+Generating func cv_aruco_DetectorParameters_adaptiveThreshWinSizeMax_const
+Generating func cv_aruco_DetectorParameters_adaptiveThreshWinSizeStep_const
+Generating func cv_aruco_DetectorParameters_adaptiveThreshConstant_const
+Generating func cv_aruco_DetectorParameters_minMarkerPerimeterRate_const
+Generating func cv_aruco_DetectorParameters_maxMarkerPerimeterRate_const
+Generating func cv_aruco_DetectorParameters_polygonalApproxAccuracyRate_const
+Generating func cv_aruco_DetectorParameters_minCornerDistanceRate_const
+Generating func cv_aruco_DetectorParameters_minDistanceToBorder_const
+Generating func cv_aruco_DetectorParameters_minMarkerDistanceRate_const
+Generating func cv_aruco_DetectorParameters_cornerRefinementMethod_const
+Generating func cv_aruco_DetectorParameters_cornerRefinementWinSize_const
+Generating func cv_aruco_DetectorParameters_cornerRefinementMaxIterations_const
+Generating func cv_aruco_DetectorParameters_cornerRefinementMinAccuracy_const
+Generating func cv_aruco_DetectorParameters_markerBorderBits_const
+Generating func cv_aruco_DetectorParameters_perspectiveRemovePixelPerCell_const
+Generating func cv_aruco_DetectorParameters_perspectiveRemoveIgnoredMarginPerCell_const
+Generating func cv_aruco_DetectorParameters_maxErroneousBitsInBorderRate_const
+Generating func cv_aruco_DetectorParameters_minOtsuStdDev_const
+Generating func cv_aruco_DetectorParameters_errorCorrectionRate_const
+Generating func cv_aruco_DetectorParameters_aprilTagQuadDecimate_const
+Generating func cv_aruco_DetectorParameters_aprilTagQuadSigma_const
+Generating func cv_aruco_DetectorParameters_aprilTagMinClusterPixels_const
+Generating func cv_aruco_DetectorParameters_aprilTagMaxNmaxima_const
+Generating func cv_aruco_DetectorParameters_aprilTagCriticalRad_const
+Generating func cv_aruco_DetectorParameters_aprilTagMaxLineFitMse_const
+Generating func cv_aruco_DetectorParameters_aprilTagMinWhiteBlackDiff_const
+Generating func cv_aruco_DetectorParameters_aprilTagDeglitch_const
+Generating func cv_aruco_DetectorParameters_detectInvertedMarker_const
+Generating func cv_aruco_DetectorParameters_DetectorParameters
+Generating func cv_aruco_DetectorParameters_create
+Generating box for cv::aruco::Dictionary
+Generating func cv_aruco_Dictionary_bytesList
+Generating func cv_aruco_Dictionary_set_bytesList_Mat
+Generating func cv_aruco_Dictionary_markerSize_const
+Generating func cv_aruco_Dictionary_maxCorrectionBits_const
+Generating func cv_aruco_Dictionary_Dictionary_Mat_int_int
+Generating func cv_aruco_Dictionary_Dictionary_PtrOfDictionary
+Generating func cv_aruco_Dictionary_create_int_int_int
+Generating func cv_aruco_Dictionary_create_int_int_PtrOfDictionary_int
+Generating func cv_aruco_Dictionary_get_int
+Generating func cv_aruco_Dictionary_identify_const_Mat_int_int_double
+Generating func cv_aruco_Dictionary_getDistanceToId_const__InputArray_int_bool
+Generating func cv_aruco_Dictionary_drawMarker_const_int_int__OutputArray_int
+Generating func cv_aruco_Dictionary_getByteListFromBits_Mat
+Generating func cv_aruco_Dictionary_getBitsFromByteList_Mat_int
+Generating box for cv::aruco::GridBoard
+Generating func cv_aruco_GridBoard_draw_Size__OutputArray_int_int
+Generating func cv_aruco_GridBoard_create_int_int_float_float_PtrOfDictionary_int
+Generating func cv_aruco_GridBoard_getGridSize_const
+Generating func cv_aruco_GridBoard_getMarkerLength_const
+Generating func cv_aruco_GridBoard_getMarkerSeparation_const
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

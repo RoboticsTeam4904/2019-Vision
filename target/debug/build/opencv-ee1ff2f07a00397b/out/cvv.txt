@@ -1,0 +1,61 @@
+FOUND FUNCs: 23
+
+PORTED FUNCs: 8
+
+PORTED: cvv::debugMode (function)
+PORTED: cvv::finalShow (function)
+PORTED: cvv::impl::finalShow (function)
+PORTED: cvv::impl::getDebugFlag (function)
+PORTED: cvv::setDebugFlag (function)
+PORTED: cvv::impl::CallMetaData::CallMetaData (constructor) cvv::impl::CallMetaData . default
+PORTED: cvv::impl::CallMetaData::CallMetaData (constructor) cvv::impl::CallMetaData . new
+PORTED: cvv::impl::CallMetaData::operator bool (convertor method) cvv::impl::CallMetaData . operator bool
+
+
+SKIPPED FUNCs: 15
+
+SKIPPED: cvv::debugDMatch (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::debugDMatch (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::debugDMatch (function)
+   can not map type Unknown[cv::] yet
+
+SKIPPED: cvv::debugDMatch (function)
+   can not map type Unknown[cv::] yet
+
+SKIPPED: cvv::debugFilter (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::debugFilter (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::debugFilter (function)
+   can not map type Unknown[cv::] yet
+
+SKIPPED: cvv::debugFilter (function)
+   can not map type Unknown[cv::] yet
+
+SKIPPED: cvv::impl::debugDMatch (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::impl::debugFilter (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::impl::showImage (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::showImage (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::showImage (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cvv::showImage (function)
+   can not map type Unknown[cv::] yet
+
+SKIPPED: cvv::showImage (function)
+   can not map type Unknown[cv::] yet
+

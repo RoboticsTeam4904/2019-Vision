@@ -1,0 +1,541 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/phase_unwrapping.hpp ================
+
+
+Namespaces: []
+Comment: {'phase_unwrapping': ' @defgroup phase_unwrapping Phase Unwrapping API\n\nTwo-dimensional phase unwrapping is found in different applications like terrain elevation estimation\nin synthetic aperture radar (SAR), field mapping in magnetic resonance imaging or as a way of finding\ncorresponding pixels in structured light reconstruction with sinusoidal patterns.\n\nGiven a phase map, wrapped between [-pi; pi], phase unwrapping aims at finding the "true" phase map\nby adding the right number of 2*pi to each pixel.\n\nThe problem is straightforward for perfect wrapped phase map, but real data are usually not noise-free.\nAmong the different algorithms that were developed, quality-guided phase unwrapping methods are fast\nand efficient. They follow a path that unwraps high quality pixels first,\navoiding error propagation from the start.\n\nIn this module, a quality-guided phase unwrapping is implemented following the approach described in @cite histogramUnwrapping .\n\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/phase_unwrapping/histogramphaseunwrapping.hpp ================
+
+
+Namespaces: ['cv', 'cv.phase_unwrapping']
+Comment: {'phase_unwrapping': ' @defgroup phase_unwrapping Phase Unwrapping API\n\nTwo-dimensional phase unwrapping is found in different applications like terrain elevation estimation\nin synthetic aperture radar (SAR), field mapping in magnetic resonance imaging or as a way of finding\ncorresponding pixels in structured light reconstruction with sinusoidal patterns.\n\nGiven a phase map, wrapped between [-pi; pi], phase unwrapping aims at finding the "true" phase map\nby adding the right number of 2*pi to each pixel.\n\nThe problem is straightforward for perfect wrapped phase map, but real data are usually not noise-free.\nAmong the different algorithms that were developed, quality-guided phase unwrapping methods are fast\nand efficient. They follow a path that unwraps high quality pixels first,\navoiding error propagation from the start.\n\nIn this module, a quality-guided phase unwrapping is implemented following the approach described in @cite histogramUnwrapping .\n\n\n'}
+
+--- Incoming ---
+[   'class cv.phase_unwrapping.HistogramPhaseUnwrapping',
+    ': cv::phase_unwrapping::PhaseUnwrapping',
+    [],
+    [],
+    None,
+    '@brief Class implementing two-dimensional phase unwrapping based on @cite '
+    'histogramUnwrapping\n'
+    '* This algorithm belongs to the quality-guided phase unwrapping methods.\n'
+    '* First, it computes a reliability map from second differences between a '
+    'pixel and its eight neighbours.\n'
+    '* Reliability values lie between 0 and 16*pi*pi. Then, this reliability '
+    'map is used to compute\n'
+    '* the reliabilities of "edges". An edge is an entity defined by two '
+    'pixels that are connected\n'
+    '* horizontally or vertically. Its reliability is found by adding the the '
+    'reliabilities of the\n'
+    '* two pixels connected through it. Edges are sorted in a histogram based '
+    'on their reliability values.\n'
+    '* This histogram is then used to unwrap pixels, starting from the highest '
+    'quality pixel.\n'
+    '\n'
+    '* The wrapped phase map and the unwrapped result are stored in CV_32FC1 '
+    'Mat.']
+parse_name: class cv.phase_unwrapping.HistogramPhaseUnwrapping with ['cv', 'cv::phase_unwrapping'] -> fullname:cv::phase_unwrapping::HistogramPhaseUnwrapping namespace:cv::phase_unwrapping classpath: classname: name:HistogramPhaseUnwrapping
+register class cv::phase_unwrapping::HistogramPhaseUnwrapping (['class cv.phase_unwrapping.HistogramPhaseUnwrapping', ': cv::phase_unwrapping::PhaseUnwrapping', [], [], None, '@brief Class implementing two-dimensional phase unwrapping based on @cite histogramUnwrapping\n* This algorithm belongs to the quality-guided phase unwrapping methods.\n* First, it computes a reliability map from second differences between a pixel and its eight neighbours.\n* Reliability values lie between 0 and 16*pi*pi. Then, this reliability map is used to compute\n* the reliabilities of "edges". An edge is an entity defined by two pixels that are connected\n* horizontally or vertically. Its reliability is found by adding the the reliabilities of the\n* two pixels connected through it. Edges are sorted in a histogram based on their reliability values.\n* This histogram is then used to unwrap pixels, starting from the highest quality pixel.\n\n* The wrapped phase map and the unwrapped result are stored in CV_32FC1 Mat.']) impl:cv::phase_unwrapping::PhaseUnwrapping
+
+--- Incoming ---
+[   'struct cv.phase_unwrapping.HistogramPhaseUnwrapping.Params',
+    '',
+    [],
+    [],
+    None,
+    '* @brief Parameters of phaseUnwrapping constructor.\n'
+    '\n'
+    '* @param width Phase map width.\n'
+    '* @param height Phase map height.\n'
+    '* @param histThresh Bins in the histogram are not of equal size. Default '
+    'value is 3*pi*pi. The one before "histThresh" value are smaller.\n'
+    '* @param nbrOfSmallBins Number of bins between 0 and "histThresh". '
+    'Default value is 10.\n'
+    '* @param nbrOfLargeBins Number of bins between "histThresh" and 32*pi*pi '
+    '(highest edge reliability value). Default value is 5.']
+parse_name: struct cv.phase_unwrapping.HistogramPhaseUnwrapping.Params with ['cv', 'cv::phase_unwrapping'] -> fullname:cv::phase_unwrapping::HistogramPhaseUnwrapping::Params namespace:cv::phase_unwrapping classpath:HistogramPhaseUnwrapping classname:HistogramPhaseUnwrapping name:Params
+register class cv::phase_unwrapping::HistogramPhaseUnwrapping::Params (['struct cv.phase_unwrapping.HistogramPhaseUnwrapping.Params', '', [], [], None, '* @brief Parameters of phaseUnwrapping constructor.\n\n* @param width Phase map width.\n* @param height Phase map height.\n* @param histThresh Bins in the histogram are not of equal size. Default value is 3*pi*pi. The one before "histThresh" value are smaller.\n* @param nbrOfSmallBins Number of bins between 0 and "histThresh". Default value is 10.\n* @param nbrOfLargeBins Number of bins between "histThresh" and 32*pi*pi (highest edge reliability value). Default value is 5.'])
+
+--- Incoming ---
+[   'cv.phase_unwrapping.HistogramPhaseUnwrapping.Params.Params',
+    'P',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.phase_unwrapping.HistogramPhaseUnwrapping.Params.Params with ['cv', 'cv::phase_unwrapping'] -> fullname:cv::phase_unwrapping::HistogramPhaseUnwrapping::Params::Params namespace:cv::phase_unwrapping classpath:HistogramPhaseUnwrapping::Params classname:Params name:Params
+register (constructor) default in cv::phase_unwrapping::HistogramPhaseUnwrapping::Params (cv_phase_unwrapping_HistogramPhaseUnwrapping_Params_Params)
+
+--- Incoming ---
+[   'cv.phase_unwrapping.HistogramPhaseUnwrapping.create',
+    'Ptr<HistogramPhaseUnwrapping>',
+    ['/S'],
+    [   [   'const HistogramPhaseUnwrapping::Params &',
+            'parameters',
+            'HistogramPhaseUnwrapping::Params()',
+            []]],
+    None,
+    '* @brief Constructor\n'
+    '\n'
+    '* @param parameters HistogramPhaseUnwrapping parameters '
+    'HistogramPhaseUnwrapping::Params: width,height of the phase map and '
+    'histogram characteristics.']
+parse_name: cv.phase_unwrapping.HistogramPhaseUnwrapping.create with ['cv', 'cv::phase_unwrapping'] -> fullname:cv::phase_unwrapping::HistogramPhaseUnwrapping::create namespace:cv::phase_unwrapping classpath:HistogramPhaseUnwrapping classname:HistogramPhaseUnwrapping name:create
+register (method) create in cv::phase_unwrapping::HistogramPhaseUnwrapping (cv_phase_unwrapping_HistogramPhaseUnwrapping_create_Params)
+
+--- Incoming ---
+[   'cv.phase_unwrapping.HistogramPhaseUnwrapping.getInverseReliabilityMap',
+    'void',
+    ['/A'],
+    [['OutputArray', 'reliabilityMap', '', []]],
+    None,
+    '* @brief Get the reliability map computed from the wrapped phase map.\n'
+    '\n'
+    '* @param reliabilityMap Image where the reliability map is stored.']
+parse_name: cv.phase_unwrapping.HistogramPhaseUnwrapping.getInverseReliabilityMap with ['cv', 'cv::phase_unwrapping'] -> fullname:cv::phase_unwrapping::HistogramPhaseUnwrapping::getInverseReliabilityMap namespace:cv::phase_unwrapping classpath:HistogramPhaseUnwrapping classname:HistogramPhaseUnwrapping name:getInverseReliabilityMap
+register (method) getInverseReliabilityMap in cv::phase_unwrapping::HistogramPhaseUnwrapping (trait) (cv_phase_unwrapping_HistogramPhaseUnwrapping_getInverseReliabilityMap__OutputArray)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/phase_unwrapping/phase_unwrapping.hpp ================
+
+
+Namespaces: ['cv', 'cv.phase_unwrapping']
+Comment: {'phase_unwrapping': ' @defgroup phase_unwrapping Phase Unwrapping API\n\nTwo-dimensional phase unwrapping is found in different applications like terrain elevation estimation\nin synthetic aperture radar (SAR), field mapping in magnetic resonance imaging or as a way of finding\ncorresponding pixels in structured light reconstruction with sinusoidal patterns.\n\nGiven a phase map, wrapped between [-pi; pi], phase unwrapping aims at finding the "true" phase map\nby adding the right number of 2*pi to each pixel.\n\nThe problem is straightforward for perfect wrapped phase map, but real data are usually not noise-free.\nAmong the different algorithms that were developed, quality-guided phase unwrapping methods are fast\nand efficient. They follow a path that unwraps high quality pixels first,\navoiding error propagation from the start.\n\nIn this module, a quality-guided phase unwrapping is implemented following the approach described in @cite histogramUnwrapping .\n\n\n'}
+
+--- Incoming ---
+[   'class cv.phase_unwrapping.PhaseUnwrapping',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for phase unwrapping.']
+parse_name: class cv.phase_unwrapping.PhaseUnwrapping with ['cv', 'cv::phase_unwrapping'] -> fullname:cv::phase_unwrapping::PhaseUnwrapping namespace:cv::phase_unwrapping classpath: classname: name:PhaseUnwrapping
+register class cv::phase_unwrapping::PhaseUnwrapping (['class cv.phase_unwrapping.PhaseUnwrapping', ': cv::Algorithm', [], [], None, '@brief Abstract base class for phase unwrapping.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.phase_unwrapping.PhaseUnwrapping.unwrapPhaseMap',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'wrappedPhaseMap', '', []],
+        ['OutputArray', 'unwrappedPhaseMap', '', []],
+        ['InputArray', 'shadowMask', 'noArray()', []]],
+    None,
+    '* @brief Unwraps a 2D phase map.\n'
+    '\n'
+    '* @param wrappedPhaseMap The wrapped phase map that needs to be '
+    'unwrapped.\n'
+    '* @param unwrappedPhaseMap The unwrapped phase map.\n'
+    '* @param shadowMask Optional parameter used when some pixels do not hold '
+    'any phase information in the wrapped phase map.']
+parse_name: cv.phase_unwrapping.PhaseUnwrapping.unwrapPhaseMap with ['cv', 'cv::phase_unwrapping'] -> fullname:cv::phase_unwrapping::PhaseUnwrapping::unwrapPhaseMap namespace:cv::phase_unwrapping classpath:PhaseUnwrapping classname:PhaseUnwrapping name:unwrapPhaseMap
+register (method) unwrapPhaseMap in cv::phase_unwrapping::PhaseUnwrapping (trait) (cv_phase_unwrapping_PhaseUnwrapping_unwrapPhaseMap__InputArray__OutputArray__InputArray)
+
+
+===== Generating... =====
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Generating impl for trait cv::phase_unwrapping::HistogramPhaseUnwrapping (trait)
+Generating func cv_phase_unwrapping_HistogramPhaseUnwrapping_getInverseReliabilityMap__OutputArray
+Generating func cv_phase_unwrapping_HistogramPhaseUnwrapping_create_Params
+Generating box for cv::phase_unwrapping::HistogramPhaseUnwrapping::Params
+Generating func cv_phase_unwrapping_HistogramPhaseUnwrapping_Params_Params
+Generating impl for trait cv::phase_unwrapping::PhaseUnwrapping (trait)
+Generating func cv_phase_unwrapping_PhaseUnwrapping_unwrapPhaseMap__InputArray__OutputArray__InputArray
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

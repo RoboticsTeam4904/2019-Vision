@@ -1,0 +1,1466 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/line_descriptor.hpp ================
+
+
+Namespaces: []
+Comment: {'line_descriptor': " @defgroup line_descriptor Binary descriptors for lines extracted from an image\n\nIntroduction\n------------\n\nOne of the most challenging activities in computer vision is the extraction of useful information\nfrom a given image. Such information, usually comes in the form of points that preserve some kind of\nproperty (for instance, they are scale-invariant) and are actually representative of input image.\n\nThe goal of this module is seeking a new kind of representative information inside an image and\nproviding the functionalities for its extraction and representation. In particular, differently from\nprevious methods for detection of relevant elements inside an image, lines are extracted in place of\npoints; a new class is defined ad hoc to summarize a line's properties, for reuse and plotting\npurposes.\n\nComputation of binary descriptors\n---------------------------------\n\nTo obtatin a binary descriptor representing a certain line detected from a certain octave of an\nimage, we first compute a non-binary descriptor as described in @cite LBD . Such algorithm works on\nlines extracted using EDLine detector, as explained in @cite EDL . Given a line, we consider a\nrectangular region centered at it and called *line support region (LSR)*. Such region is divided\ninto a set of bands \\f$\\{B_1, B_2, ..., B_m\\}\\f$, whose length equals the one of line.\n\nIf we indicate with \\f$\\bf{d}_L\\f$ the direction of line, the orthogonal and clockwise direction to line\n\\f$\\bf{d}_{\\perp}\\f$ can be determined; these two directions, are used to construct a reference frame\ncentered in the middle point of line. The gradients of pixels \\f$\\bf{g'}\\f$ inside LSR can be projected\nto the newly determined frame, obtaining their local equivalent\n\\f$\\bf{g'} = (\\bf{g}^T \\cdot \\bf{d}_{\\perp}, \\bf{g}^T \\cdot \\bf{d}_L)^T \\triangleq (\\bf{g'}_{d_{\\perp}}, \\bf{g'}_{d_L})^T\\f$.\n\nLater on, a Gaussian function is applied to all LSR's pixels along \\f$\\bf{d}_\\perp\\f$ direction; first,\nwe assign a global weighting coefficient \\f$f_g(i) = (1/\\sqrt{2\\pi}\\sigma_g)e^{-d^2_i/2\\sigma^2_g}\\f$ to\n*i*-th row in LSR, where \\f$d_i\\f$ is the distance of *i*-th row from the center row in LSR,\n\\f$\\sigma_g = 0.5(m \\cdot w - 1)\\f$ and \\f$w\\f$ is the width of bands (the same for every band). Secondly,\nconsidering a band \\f$B_j\\f$ and its neighbor bands \\f$B_{j-1}, B_{j+1}\\f$, we assign a local weighting\n\\f$F_l(k) = (1/\\sqrt{2\\pi}\\sigma_l)e^{-d'^2_k/2\\sigma_l^2}\\f$, where \\f$d'_k\\f$ is the distance of *k*-th\nrow from the center row in \\f$B_j\\f$ and \\f$\\sigma_l = w\\f$. Using the global and local weights, we obtain,\nat the same time, the reduction of role played by gradients far from line and of boundary effect,\nrespectively.\n\nEach band \\f$B_j\\f$ in LSR has an associated *band descriptor(BD)* which is computed considering\nprevious and next band (top and bottom bands are ignored when computing descriptor for first and\nlast band). Once each band has been assignen its BD, the LBD descriptor of line is simply given by\n\n\\f[LBD = (BD_1^T, BD_2^T, ... , BD^T_m)^T.\\f]\n\nTo compute a band descriptor \\f$B_j\\f$, each *k*-th row in it is considered and the gradients in such\nrow are accumulated:\n\n\\f[\\begin{matrix} \\bf{V1}^k_j = \\lambda \\sum\\limits_{\\bf{g}'_{d_\\perp}>0}\\bf{g}'_{d_\\perp}, &  \\bf{V2}^k_j = \\lambda \\sum\\limits_{\\bf{g}'_{d_\\perp}<0} -\\bf{g}'_{d_\\perp}, \\\\ \\bf{V3}^k_j = \\lambda \\sum\\limits_{\\bf{g}'_{d_L}>0}\\bf{g}'_{d_L}, & \\bf{V4}^k_j = \\lambda \\sum\\limits_{\\bf{g}'_{d_L}<0} -\\bf{g}'_{d_L}\\end{matrix}.\\f]\n\nwith \\f$\\lambda = f_g(k)f_l(k)\\f$.\n\nBy stacking previous results, we obtain the *band description matrix (BDM)*\n\n\\f[BDM_j = \\left(\\begin{matrix} \\bf{V1}_j^1 & \\bf{V1}_j^2 & \\ldots & \\bf{V1}_j^n \\\\ \\bf{V2}_j^1 & \\bf{V2}_j^2 & \\ldots & \\bf{V2}_j^n \\\\ \\bf{V3}_j^1 & \\bf{V3}_j^2 & \\ldots & \\bf{V3}_j^n \\\\ \\bf{V4}_j^1 & \\bf{V4}_j^2 & \\ldots & \\bf{V4}_j^n \\end{matrix} \\right) \\in \\mathbb{R}^{4\\times n},\\f]\n\nwith \\f$n\\f$ the number of rows in band \\f$B_j\\f$:\n\n\\f[n = \\begin{cases} 2w, & j = 1||m; \\\\ 3w, & \\mbox{else}. \\end{cases}\\f]\n\nEach \\f$BD_j\\f$ can be obtained using the standard deviation vector \\f$S_j\\f$ and mean vector \\f$M_j\\f$ of\n\\f$BDM_J\\f$. Thus, finally:\n\n\\f[LBD = (M_1^T, S_1^T, M_2^T, S_2^T, \\ldots, M_m^T, S_m^T)^T \\in \\mathbb{R}^{8m}\\f]\n\nOnce the LBD has been obtained, it must be converted into a binary form. For such purpose, we\nconsider 32 possible pairs of BD inside it; each couple of BD is compared bit by bit and comparison\ngenerates an 8 bit string. Concatenating 32 comparison strings, we get the 256-bit final binary\nrepresentation of a single LBD.\n\n"}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/line_descriptor/descriptor.hpp ================
+
+
+Namespaces: ['cv', 'cv.line_descriptor']
+Comment: {'line_descriptor': " @defgroup line_descriptor Binary descriptors for lines extracted from an image\n\nIntroduction\n------------\n\nOne of the most challenging activities in computer vision is the extraction of useful information\nfrom a given image. Such information, usually comes in the form of points that preserve some kind of\nproperty (for instance, they are scale-invariant) and are actually representative of input image.\n\nThe goal of this module is seeking a new kind of representative information inside an image and\nproviding the functionalities for its extraction and representation. In particular, differently from\nprevious methods for detection of relevant elements inside an image, lines are extracted in place of\npoints; a new class is defined ad hoc to summarize a line's properties, for reuse and plotting\npurposes.\n\nComputation of binary descriptors\n---------------------------------\n\nTo obtatin a binary descriptor representing a certain line detected from a certain octave of an\nimage, we first compute a non-binary descriptor as described in @cite LBD . Such algorithm works on\nlines extracted using EDLine detector, as explained in @cite EDL . Given a line, we consider a\nrectangular region centered at it and called *line support region (LSR)*. Such region is divided\ninto a set of bands \\f$\\{B_1, B_2, ..., B_m\\}\\f$, whose length equals the one of line.\n\nIf we indicate with \\f$\\bf{d}_L\\f$ the direction of line, the orthogonal and clockwise direction to line\n\\f$\\bf{d}_{\\perp}\\f$ can be determined; these two directions, are used to construct a reference frame\ncentered in the middle point of line. The gradients of pixels \\f$\\bf{g'}\\f$ inside LSR can be projected\nto the newly determined frame, obtaining their local equivalent\n\\f$\\bf{g'} = (\\bf{g}^T \\cdot \\bf{d}_{\\perp}, \\bf{g}^T \\cdot \\bf{d}_L)^T \\triangleq (\\bf{g'}_{d_{\\perp}}, \\bf{g'}_{d_L})^T\\f$.\n\nLater on, a Gaussian function is applied to all LSR's pixels along \\f$\\bf{d}_\\perp\\f$ direction; first,\nwe assign a global weighting coefficient \\f$f_g(i) = (1/\\sqrt{2\\pi}\\sigma_g)e^{-d^2_i/2\\sigma^2_g}\\f$ to\n*i*-th row in LSR, where \\f$d_i\\f$ is the distance of *i*-th row from the center row in LSR,\n\\f$\\sigma_g = 0.5(m \\cdot w - 1)\\f$ and \\f$w\\f$ is the width of bands (the same for every band). Secondly,\nconsidering a band \\f$B_j\\f$ and its neighbor bands \\f$B_{j-1}, B_{j+1}\\f$, we assign a local weighting\n\\f$F_l(k) = (1/\\sqrt{2\\pi}\\sigma_l)e^{-d'^2_k/2\\sigma_l^2}\\f$, where \\f$d'_k\\f$ is the distance of *k*-th\nrow from the center row in \\f$B_j\\f$ and \\f$\\sigma_l = w\\f$. Using the global and local weights, we obtain,\nat the same time, the reduction of role played by gradients far from line and of boundary effect,\nrespectively.\n\nEach band \\f$B_j\\f$ in LSR has an associated *band descriptor(BD)* which is computed considering\nprevious and next band (top and bottom bands are ignored when computing descriptor for first and\nlast band). Once each band has been assignen its BD, the LBD descriptor of line is simply given by\n\n\\f[LBD = (BD_1^T, BD_2^T, ... , BD^T_m)^T.\\f]\n\nTo compute a band descriptor \\f$B_j\\f$, each *k*-th row in it is considered and the gradients in such\nrow are accumulated:\n\n\\f[\\begin{matrix} \\bf{V1}^k_j = \\lambda \\sum\\limits_{\\bf{g}'_{d_\\perp}>0}\\bf{g}'_{d_\\perp}, &  \\bf{V2}^k_j = \\lambda \\sum\\limits_{\\bf{g}'_{d_\\perp}<0} -\\bf{g}'_{d_\\perp}, \\\\ \\bf{V3}^k_j = \\lambda \\sum\\limits_{\\bf{g}'_{d_L}>0}\\bf{g}'_{d_L}, & \\bf{V4}^k_j = \\lambda \\sum\\limits_{\\bf{g}'_{d_L}<0} -\\bf{g}'_{d_L}\\end{matrix}.\\f]\n\nwith \\f$\\lambda = f_g(k)f_l(k)\\f$.\n\nBy stacking previous results, we obtain the *band description matrix (BDM)*\n\n\\f[BDM_j = \\left(\\begin{matrix} \\bf{V1}_j^1 & \\bf{V1}_j^2 & \\ldots & \\bf{V1}_j^n \\\\ \\bf{V2}_j^1 & \\bf{V2}_j^2 & \\ldots & \\bf{V2}_j^n \\\\ \\bf{V3}_j^1 & \\bf{V3}_j^2 & \\ldots & \\bf{V3}_j^n \\\\ \\bf{V4}_j^1 & \\bf{V4}_j^2 & \\ldots & \\bf{V4}_j^n \\end{matrix} \\right) \\in \\mathbb{R}^{4\\times n},\\f]\n\nwith \\f$n\\f$ the number of rows in band \\f$B_j\\f$:\n\n\\f[n = \\begin{cases} 2w, & j = 1||m; \\\\ 3w, & \\mbox{else}. \\end{cases}\\f]\n\nEach \\f$BD_j\\f$ can be obtained using the standard deviation vector \\f$S_j\\f$ and mean vector \\f$M_j\\f$ of\n\\f$BDM_J\\f$. Thus, finally:\n\n\\f[LBD = (M_1^T, S_1^T, M_2^T, S_2^T, \\ldots, M_m^T, S_m^T)^T \\in \\mathbb{R}^{8m}\\f]\n\nOnce the LBD has been obtained, it must be converted into a binary form. For such purpose, we\nconsider 32 possible pairs of BD inside it; each couple of BD is compared bit by bit and comparison\ngenerates an 8 bit string. Concatenating 32 comparison strings, we get the 256-bit final binary\nrepresentation of a single LBD.\n\n"}
+
+--- Incoming ---
+['typedef UINT64', 'uint64_t', '', [], None, '']
+parse_name: typedef UINT64 with ['cv', 'cv::line_descriptor'] -> fullname:UINT64 namespace: classpath: classname: name:UINT64
+Registering an unknown type: UINT64
+
+--- Incoming ---
+['typedef UINT32', 'uint32_t', '', [], None, '']
+parse_name: typedef UINT32 with ['cv', 'cv::line_descriptor'] -> fullname:UINT32 namespace: classpath: classname: name:UINT32
+Registering an unknown type: UINT32
+
+--- Incoming ---
+['typedef UINT16', 'uint16_t', '', [], None, '']
+parse_name: typedef UINT16 with ['cv', 'cv::line_descriptor'] -> fullname:UINT16 namespace: classpath: classname: name:UINT16
+Registering an unknown type: uint16_t
+
+--- Incoming ---
+['typedef UINT8', 'uint8_t', '', [], None, '']
+parse_name: typedef UINT8 with ['cv', 'cv::line_descriptor'] -> fullname:UINT8 namespace: classpath: classname: name:UINT8
+Registering an unknown type: uint8_t
+
+--- Incoming ---
+['const UINT64_1', '((UINT64)0x01)', [], [], '']
+parse_name: const UINT64_1 with ['cv', 'cv::line_descriptor'] -> fullname:UINT64_1 namespace: classpath: classname: name:UINT64_1
+ignored: CONST UINT64_1=((UINT64)0x01)
+
+--- Incoming ---
+['const UINT32_1', '((UINT32)0x01)', [], [], '']
+parse_name: const UINT32_1 with ['cv', 'cv::line_descriptor'] -> fullname:UINT32_1 namespace: classpath: classname: name:UINT32_1
+
+--- Incoming ---
+[   'struct cv.line_descriptor.KeyLine',
+    '',
+    ['/Simple'],
+    [   ['float', 'angle', 'orientation of the line', ['/RW']],
+        [   'int',
+            'class_id',
+            'object ID, that can be used to cluster keylines by the line they '
+            'represent',
+            ['/RW']],
+        [   'int',
+            'octave',
+            'octave (pyramid layer), from which the keyline has been extracted',
+            ['/RW']],
+        ['Point2f', 'pt', 'coordinates of the middlepoint', ['/RW']],
+        [   'float',
+            'response',
+            'the response, by which the strongest keylines have been '
+            'selected.\n'
+            "It's represented by the ratio between line's length and maximum "
+            'between\n'
+            "image's width and height",
+            ['/RW']],
+        ['float', 'size', 'minimum area containing line', ['/RW']],
+        ['float', 'startPointX', "lines's extremes in original image", ['/RW']],
+        ['float', 'startPointY', '', ['/RW']],
+        ['float', 'endPointX', '', ['/RW']],
+        ['float', 'endPointY', '', ['/RW']],
+        [   'float',
+            'sPointInOctaveX',
+            "line's extremes in image it was extracted from",
+            ['/RW']],
+        ['float', 'sPointInOctaveY', '', ['/RW']],
+        ['float', 'ePointInOctaveX', '', ['/RW']],
+        ['float', 'ePointInOctaveY', '', ['/RW']],
+        ['float', 'lineLength', 'the length of line', ['/RW']],
+        [   'int',
+            'numOfPixels',
+            'number of pixels covered by the line',
+            ['/RW']]],
+    None,
+    '@brief A class to represent a line\n'
+    '\n'
+    'As aformentioned, it is been necessary to design a class that fully '
+    'stores the information needed to\n'
+    'characterize completely a line and plot it on image it was extracted '
+    'from, when required.\n'
+    '\n'
+    '*KeyLine* class has been created for such goal; it is mainly inspired to '
+    "Feature2d's KeyPoint class,\n"
+    "since KeyLine shares some of *KeyPoint*'s fields, even if a part of them "
+    'assumes a different\n'
+    'meaning, when speaking about lines. In particular:\n'
+    '\n'
+    '-   the *class_id* field is used to gather lines extracted from different '
+    'octaves which refer to\n'
+    'same line inside original image (such lines and the one they represent in '
+    'original image share\n'
+    'the same *class_id* value)\n'
+    "-   the *angle* field represents line's slope with respect to (positive) "
+    'X axis\n'
+    "-   the *pt* field represents line's midpoint\n"
+    "-   the *response* field is computed as the ratio between the line's "
+    'length and maximum between\n'
+    "image's width and height\n"
+    '-   the *size* field is the area of the smallest rectangle containing '
+    'line\n'
+    '\n'
+    'Apart from fields inspired to KeyPoint class, KeyLines stores information '
+    'about extremes of line in\n'
+    "original image and in octave it was extracted from, about line's length "
+    'and number of pixels it\n'
+    'covers.']
+parse_name: struct cv.line_descriptor.KeyLine with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::KeyLine namespace:cv::line_descriptor classpath: classname: name:KeyLine
+register class cv::line_descriptor::KeyLine (['struct cv.line_descriptor.KeyLine', '', ['/Simple'], [['float', 'angle', 'orientation of the line', ['/RW']], ['int', 'class_id', 'object ID, that can be used to cluster keylines by the line they represent', ['/RW']], ['int', 'octave', 'octave (pyramid layer), from which the keyline has been extracted', ['/RW']], ['Point2f', 'pt', 'coordinates of the middlepoint', ['/RW']], ['float', 'response', "the response, by which the strongest keylines have been selected.\nIt's represented by the ratio between line's length and maximum between\nimage's width and height", ['/RW']], ['float', 'size', 'minimum area containing line', ['/RW']], ['float', 'startPointX', "lines's extremes in original image", ['/RW']], ['float', 'startPointY', '', ['/RW']], ['float', 'endPointX', '', ['/RW']], ['float', 'endPointY', '', ['/RW']], ['float', 'sPointInOctaveX', "line's extremes in image it was extracted from", ['/RW']], ['float', 'sPointInOctaveY', '', ['/RW']], ['float', 'ePointInOctaveX', '', ['/RW']], ['float', 'ePointInOctaveY', '', ['/RW']], ['float', 'lineLength', 'the length of line', ['/RW']], ['int', 'numOfPixels', 'number of pixels covered by the line', ['/RW']]], None, "@brief A class to represent a line\n\nAs aformentioned, it is been necessary to design a class that fully stores the information needed to\ncharacterize completely a line and plot it on image it was extracted from, when required.\n\n*KeyLine* class has been created for such goal; it is mainly inspired to Feature2d's KeyPoint class,\nsince KeyLine shares some of *KeyPoint*'s fields, even if a part of them assumes a different\nmeaning, when speaking about lines. In particular:\n\n-   the *class_id* field is used to gather lines extracted from different octaves which refer to\nsame line inside original image (such lines and the one they represent in original image share\nthe same *class_id* value)\n-   the *angle* field represents line's slope with respect to (positive) X axis\n-   the *pt* field represents line's midpoint\n-   the *response* field is computed as the ratio between the line's length and maximum between\nimage's width and height\n-   the *size* field is the area of the smallest rectangle containing line\n\nApart from fields inspired to KeyPoint class, KeyLines stores information about extremes of line in\noriginal image and in octave it was extracted from, about line's length and number of pixels it\ncovers."])
+
+--- Incoming ---
+[   'cv.line_descriptor.KeyLine.getStartPoint',
+    'Point2f',
+    ['/C'],
+    [],
+    None,
+    'Returns the start point of the line in the original image']
+parse_name: cv.line_descriptor.KeyLine.getStartPoint with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::KeyLine::getStartPoint namespace:cv::line_descriptor classpath:KeyLine classname:KeyLine name:getStartPoint
+register (method) getStartPoint in cv::line_descriptor::KeyLine (simple) (cv_line_descriptor_KeyLine_getStartPoint_const)
+
+--- Incoming ---
+[   'cv.line_descriptor.KeyLine.getEndPoint',
+    'Point2f',
+    ['/C'],
+    [],
+    None,
+    'Returns the end point of the line in the original image']
+parse_name: cv.line_descriptor.KeyLine.getEndPoint with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::KeyLine::getEndPoint namespace:cv::line_descriptor classpath:KeyLine classname:KeyLine name:getEndPoint
+register (method) getEndPoint in cv::line_descriptor::KeyLine (simple) (cv_line_descriptor_KeyLine_getEndPoint_const)
+
+--- Incoming ---
+[   'cv.line_descriptor.KeyLine.getStartPointInOctave',
+    'Point2f',
+    ['/C'],
+    [],
+    None,
+    'Returns the start point of the line in the octave it was extracted from']
+parse_name: cv.line_descriptor.KeyLine.getStartPointInOctave with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::KeyLine::getStartPointInOctave namespace:cv::line_descriptor classpath:KeyLine classname:KeyLine name:getStartPointInOctave
+register (method) getStartPointInOctave in cv::line_descriptor::KeyLine (simple) (cv_line_descriptor_KeyLine_getStartPointInOctave_const)
+
+--- Incoming ---
+[   'cv.line_descriptor.KeyLine.getEndPointInOctave',
+    'Point2f',
+    ['/C'],
+    [],
+    None,
+    'Returns the end point of the line in the octave it was extracted from']
+parse_name: cv.line_descriptor.KeyLine.getEndPointInOctave with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::KeyLine::getEndPointInOctave namespace:cv::line_descriptor classpath:KeyLine classname:KeyLine name:getEndPointInOctave
+register (method) getEndPointInOctave in cv::line_descriptor::KeyLine (simple) (cv_line_descriptor_KeyLine_getEndPointInOctave_const)
+
+--- Incoming ---
+['cv.line_descriptor.KeyLine.KeyLine', 'K', [], [], None, 'constructor']
+parse_name: cv.line_descriptor.KeyLine.KeyLine with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::KeyLine::KeyLine namespace:cv::line_descriptor classpath:KeyLine classname:KeyLine name:KeyLine
+register (constructor) default in cv::line_descriptor::KeyLine (simple) (cv_line_descriptor_KeyLine_KeyLine)
+
+--- Incoming ---
+[   'class cv.line_descriptor.BinaryDescriptor',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Class implements both functionalities for detection of lines and '
+    'computation of their\n'
+    'binary descriptor.\n'
+    '\n'
+    "Class' interface is mainly based on the ones of classical detectors and "
+    'extractors, such as\n'
+    "Feature2d's @ref features2d_main and @ref features2d_match. Retrieved "
+    'information about lines is\n'
+    'stored in line_descriptor::KeyLine objects.']
+parse_name: class cv.line_descriptor.BinaryDescriptor with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor namespace:cv::line_descriptor classpath: classname: name:BinaryDescriptor
+register class cv::line_descriptor::BinaryDescriptor (['class cv.line_descriptor.BinaryDescriptor', ': cv::Algorithm', [], [], None, "@brief Class implements both functionalities for detection of lines and computation of their\nbinary descriptor.\n\nClass' interface is mainly based on the ones of classical detectors and extractors, such as\nFeature2d's @ref features2d_main and @ref features2d_match. Retrieved information about lines is\nstored in line_descriptor::KeyLine objects."]) impl:cv::Algorithm
+
+--- Incoming ---
+[   'struct cv.line_descriptor.BinaryDescriptor.Params',
+    '',
+    [],
+    [],
+    None,
+    '@brief List of BinaryDescriptor parameters:']
+parse_name: struct cv.line_descriptor.BinaryDescriptor.Params with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::Params namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:Params
+register class cv::line_descriptor::BinaryDescriptor::Params (['struct cv.line_descriptor.BinaryDescriptor.Params', '', [], [], None, '@brief List of BinaryDescriptor parameters:'])
+
+--- Incoming ---
+['cv.line_descriptor.BinaryDescriptor.Params.Params', 'P', [], [], None, '']
+parse_name: cv.line_descriptor.BinaryDescriptor.Params.Params with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::Params::Params namespace:cv::line_descriptor classpath:BinaryDescriptor::Params classname:Params name:Params
+register (constructor) default in cv::line_descriptor::BinaryDescriptor::Params (cv_line_descriptor_BinaryDescriptor_Params_Params)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.Params.read',
+    'void',
+    [],
+    [['const FileNode&', 'fn', '', []]],
+    None,
+    'read parameters from a FileNode object and store them (struct function)']
+parse_name: cv.line_descriptor.BinaryDescriptor.Params.read with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::Params::read namespace:cv::line_descriptor classpath:BinaryDescriptor::Params classname:Params name:read
+register (method) read in cv::line_descriptor::BinaryDescriptor::Params (cv_line_descriptor_BinaryDescriptor_Params_read_FileNode)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.Params.write',
+    'void',
+    ['/C'],
+    [['FileStorage&', 'fs', '', []]],
+    None,
+    'store parameters to a FileStorage object (struct function)']
+parse_name: cv.line_descriptor.BinaryDescriptor.Params.write with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::Params::write namespace:cv::line_descriptor classpath:BinaryDescriptor::Params classname:Params name:write
+register (method) write in cv::line_descriptor::BinaryDescriptor::Params (cv_line_descriptor_BinaryDescriptor_Params_write_const_FileStorage)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.BinaryDescriptor',
+    'B',
+    [],
+    [   [   'const BinaryDescriptor::Params &',
+            'parameters',
+            'BinaryDescriptor::Params()',
+            []]],
+    None,
+    '@brief Constructor\n'
+    '\n'
+    '@param parameters configuration parameters BinaryDescriptor::Params\n'
+    '\n'
+    'If no argument is provided, constructor sets default values (see comments '
+    'in the code snippet in\n'
+    'previous section). Default values are strongly reccomended.']
+parse_name: cv.line_descriptor.BinaryDescriptor.BinaryDescriptor with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::BinaryDescriptor namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:BinaryDescriptor
+register (constructor) new in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_BinaryDescriptor_Params)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.createBinaryDescriptor',
+    'Ptr<BinaryDescriptor>',
+    ['/S'],
+    [],
+    None,
+    '@brief Create a BinaryDescriptor object with default parameters (or with '
+    'the ones provided)\n'
+    'and return a smart pointer to it']
+parse_name: cv.line_descriptor.BinaryDescriptor.createBinaryDescriptor with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::createBinaryDescriptor namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:createBinaryDescriptor
+register (method) createBinaryDescriptor in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_createBinaryDescriptor)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.createBinaryDescriptor',
+    'Ptr<BinaryDescriptor>',
+    ['/S'],
+    [['Params', 'parameters', '', []]],
+    None,
+    '']
+parse_name: cv.line_descriptor.BinaryDescriptor.createBinaryDescriptor with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::createBinaryDescriptor namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:createBinaryDescriptor
+register (method) createBinaryDescriptor in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_createBinaryDescriptor_Params)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.~BinaryDescriptor',
+    '~',
+    [],
+    [],
+    None,
+    'destructor']
+parse_name: cv.line_descriptor.BinaryDescriptor.~BinaryDescriptor with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::~BinaryDescriptor namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:~BinaryDescriptor
+Registering an unknown type: ~
+ignore destructor (method) ~BinaryDescriptor in cv::line_descriptor::BinaryDescriptor
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.getNumOfOctaves',
+    'int',
+    [],
+    [],
+    None,
+    '@brief Get current number of octaves']
+parse_name: cv.line_descriptor.BinaryDescriptor.getNumOfOctaves with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::getNumOfOctaves namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:getNumOfOctaves
+register (method) getNumOfOctaves in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_getNumOfOctaves)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.setNumOfOctaves',
+    'void',
+    [],
+    [['int', 'octaves', '', []]],
+    None,
+    '@brief Set number of octaves\n@param octaves number of octaves']
+parse_name: cv.line_descriptor.BinaryDescriptor.setNumOfOctaves with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::setNumOfOctaves namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:setNumOfOctaves
+register (method) setNumOfOctaves in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_setNumOfOctaves_int)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.getWidthOfBand',
+    'int',
+    [],
+    [],
+    None,
+    '@brief Get current width of bands']
+parse_name: cv.line_descriptor.BinaryDescriptor.getWidthOfBand with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::getWidthOfBand namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:getWidthOfBand
+register (method) getWidthOfBand in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_getWidthOfBand)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.setWidthOfBand',
+    'void',
+    [],
+    [['int', 'width', '', []]],
+    None,
+    '@brief Set width of bands\n@param width width of bands']
+parse_name: cv.line_descriptor.BinaryDescriptor.setWidthOfBand with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::setWidthOfBand namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:setWidthOfBand
+register (method) setWidthOfBand in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_setWidthOfBand_int)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.getReductionRatio',
+    'int',
+    [],
+    [],
+    None,
+    '@brief Get current reduction ratio (used in Gaussian pyramids)']
+parse_name: cv.line_descriptor.BinaryDescriptor.getReductionRatio with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::getReductionRatio namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:getReductionRatio
+register (method) getReductionRatio in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_getReductionRatio)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.setReductionRatio',
+    'void',
+    [],
+    [['int', 'rRatio', '', []]],
+    None,
+    '@brief Set reduction ratio (used in Gaussian pyramids)\n'
+    '@param rRatio reduction ratio']
+parse_name: cv.line_descriptor.BinaryDescriptor.setReductionRatio with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::setReductionRatio namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:setReductionRatio
+register (method) setReductionRatio in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_setReductionRatio_int)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.read',
+    'void',
+    [],
+    [['const cv::FileNode&', 'fn', '', []]],
+    None,
+    '@brief Read parameters from a FileNode object and store them\n'
+    '\n'
+    '@param fn source FileNode file']
+parse_name: cv.line_descriptor.BinaryDescriptor.read with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::read namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:read
+register (method) read in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_read_FileNode)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.write',
+    'void',
+    ['/C'],
+    [['cv::FileStorage&', 'fs', '', []]],
+    None,
+    '@brief Store parameters to a FileStorage object\n'
+    '\n'
+    '@param fs output FileStorage file']
+parse_name: cv.line_descriptor.BinaryDescriptor.write with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::write namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:write
+register (method) write in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_write_const_FileStorage)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.detect',
+    'void',
+    [],
+    [   ['const Mat&', 'image', '', []],
+        ['std::vector<KeyLine>&', 'keypoints', '', []],
+        ['const Mat&', 'mask', 'Mat()', []]],
+    None,
+    '@brief Requires line detection\n'
+    '\n'
+    '@param image input image\n'
+    '@param keypoints vector that will store extracted lines for one or more '
+    'images\n'
+    '@param mask mask matrix to detect only KeyLines of interest']
+parse_name: cv.line_descriptor.BinaryDescriptor.detect with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::detect namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:detect
+register (method) detect in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_detect_Mat_VectorOfKeyLine_Mat)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.detect',
+    'void',
+    ['/C'],
+    [   ['const std::vector<Mat>&', 'images', '', []],
+        ['std::vector<std::vector<KeyLine> >&', 'keylines', '', []],
+        ['const std::vector<Mat>&', 'masks', 'std::vector<Mat>()', []]],
+    None,
+    '@overload\n'
+    '\n'
+    '@param images input images\n'
+    '@param keylines set of vectors that will store extracted lines for one or '
+    'more images\n'
+    '@param masks vector of mask matrices to detect only KeyLines of interest '
+    'from each input image']
+parse_name: cv.line_descriptor.BinaryDescriptor.detect with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::detect namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:detect
+register (method) detect in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_detect_const_VectorOfMat_VectorOfVectorOfKeyLine_VectorOfMat)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.compute',
+    'void',
+    ['/C'],
+    [   ['const Mat&', 'image', '', []],
+        ['std::vector<KeyLine>&', 'keylines', '', []],
+        ['Mat&', 'descriptors', '', []],
+        ['bool', 'returnFloatDescr', 'false', []]],
+    None,
+    '@brief Requires descriptors computation\n'
+    '\n'
+    '@param image input image\n'
+    '@param keylines vector containing lines for which descriptors must be '
+    'computed\n'
+    '@param descriptors\n'
+    '@param returnFloatDescr flag (when set to true, original non-binary '
+    'descriptors are returned)']
+parse_name: cv.line_descriptor.BinaryDescriptor.compute with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::compute namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:compute
+register (method) compute in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_compute_const_Mat_VectorOfKeyLine_Mat_bool)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.compute',
+    'void',
+    ['/C'],
+    [   ['const std::vector<Mat>&', 'images', '', []],
+        ['std::vector<std::vector<KeyLine> >&', 'keylines', '', []],
+        ['std::vector<Mat>&', 'descriptors', '', []],
+        ['bool', 'returnFloatDescr', 'false', []]],
+    None,
+    '@overload\n'
+    '\n'
+    '@param images input images\n'
+    '@param keylines set of vectors containing lines for which descriptors '
+    'must be computed\n'
+    '@param descriptors\n'
+    '@param returnFloatDescr flag (when set to true, original non-binary '
+    'descriptors are returned)']
+parse_name: cv.line_descriptor.BinaryDescriptor.compute with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::compute namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:compute
+register (method) compute in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_compute_const_VectorOfMat_VectorOfVectorOfKeyLine_VectorOfMat_bool)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.descriptorSize',
+    'int',
+    ['/C'],
+    [],
+    None,
+    '@brief Return descriptor size']
+parse_name: cv.line_descriptor.BinaryDescriptor.descriptorSize with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::descriptorSize namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:descriptorSize
+register (method) descriptorSize in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_descriptorSize_const)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.descriptorType',
+    'int',
+    ['/C'],
+    [],
+    None,
+    '@brief Return data type']
+parse_name: cv.line_descriptor.BinaryDescriptor.descriptorType with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::descriptorType namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:descriptorType
+register (method) descriptorType in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_descriptorType_const)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.defaultNorm',
+    'int',
+    ['/C'],
+    [],
+    None,
+    'returns norm mode']
+parse_name: cv.line_descriptor.BinaryDescriptor.defaultNorm with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::defaultNorm namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:defaultNorm
+register (method) defaultNorm in cv::line_descriptor::BinaryDescriptor (cv_line_descriptor_BinaryDescriptor_defaultNorm_const)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.operator ()',
+    'void',
+    ['/C'],
+    [   ['InputArray', 'image', '', []],
+        ['InputArray', 'mask', '', []],
+        ['std::vector<KeyLine>&', 'keylines', '', []],
+        ['OutputArray', 'descriptors', '', []],
+        ['bool', 'useProvidedKeyLines', 'false', []],
+        ['bool', 'returnFloatDescr', 'false', []]],
+    None,
+    "@brief Define operator '()' to perform detection of KeyLines and "
+    'computation of descriptors in a row.\n'
+    '\n'
+    '@param image input image\n'
+    '@param mask mask matrix to select which lines in KeyLines must be '
+    'accepted among the ones\n'
+    'extracted (used when *keylines* is not empty)\n'
+    '@param keylines vector that contains input lines (when filled, the '
+    'detection part will be skipped\n'
+    'and input lines will be passed as input to the algorithm computing '
+    'descriptors)\n'
+    '@param descriptors matrix that will store final descriptors\n'
+    '@param useProvidedKeyLines flag (when set to true, detection phase will '
+    'be skipped and only\n'
+    'computation of descriptors will be executed, using lines provided in '
+    '*keylines*)\n'
+    '@param returnFloatDescr flag (when set to true, original non-binary '
+    'descriptors are returned)']
+parse_name: cv.line_descriptor.BinaryDescriptor.operator () with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::operator () namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:operator ()
+ignore (method) operator () in cv::line_descriptor::BinaryDescriptor
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.detectImpl',
+    'void',
+    ['/C', '/H'],
+    [   ['const Mat&', 'imageSrc', '', []],
+        ['std::vector<KeyLine>&', 'keylines', '', []],
+        ['const Mat&', 'mask', 'Mat()', []]],
+    None,
+    'implementation of line detection']
+parse_name: cv.line_descriptor.BinaryDescriptor.detectImpl with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::detectImpl namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:detectImpl
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptor.computeImpl',
+    'void',
+    ['/C', '/H'],
+    [   ['const Mat&', 'imageSrc', '', []],
+        ['std::vector<KeyLine>&', 'keylines', '', []],
+        ['Mat&', 'descriptors', '', []],
+        ['bool', 'returnFloatDescr', '', []],
+        ['bool', 'useDetectionData', '', []]],
+    None,
+    "implementation of descriptors' computation"]
+parse_name: cv.line_descriptor.BinaryDescriptor.computeImpl with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptor::computeImpl namespace:cv::line_descriptor classpath:BinaryDescriptor classname:BinaryDescriptor name:computeImpl
+
+--- Incoming ---
+['const RELATIVE_ERROR_FACTOR', '100.0', [], [], '']
+parse_name: const RELATIVE_ERROR_FACTOR with ['cv', 'cv::line_descriptor'] -> fullname:RELATIVE_ERROR_FACTOR namespace: classpath: classname: name:RELATIVE_ERROR_FACTOR
+
+--- Incoming ---
+['const MLN10', '2.30258509299404568402', [], [], '']
+parse_name: const MLN10 with ['cv', 'cv::line_descriptor'] -> fullname:MLN10 namespace: classpath: classname: name:MLN10
+
+--- Incoming ---
+[   'struct cv.line_descriptor.LSDParam',
+    '',
+    ['/Simple'],
+    [   ['double', 'scale', '', ['/RW']],
+        ['double', 'sigma_scale', '', ['/RW']],
+        ['double', 'quant', '', ['/RW']],
+        ['double', 'ang_th', '', ['/RW']],
+        ['double', 'log_eps', '', ['/RW']],
+        ['double', 'density_th', '', ['/RW']],
+        ['int', 'n_bins', '', ['/RW']]],
+    None,
+    'Lines extraction methodology\n'
+    '----------------------------\n'
+    '\n'
+    'The lines extraction methodology described in the following is mainly '
+    'based on @cite EDL . The\n'
+    'extraction starts with a Gaussian pyramid generated from an original '
+    'image, downsampled N-1 times,\n'
+    'blurred N times, to obtain N layers (one for each octave), with layer 0 '
+    'corresponding to input\n'
+    'image. Then, from each layer (octave) in the pyramid, lines are extracted '
+    'using LSD algorithm.\n'
+    '\n'
+    'Differently from EDLine lines extractor used in original article, LSD '
+    'furnishes information only\n'
+    'about lines extremes; thus, additional information regarding slope and '
+    'equation of line are computed\n'
+    'via analytic methods. The number of pixels is obtained using '
+    '*LineIterator*. Extracted lines are\n'
+    'returned in the form of KeyLine objects, but since extraction is based on '
+    'a method different from\n'
+    "the one used in *BinaryDescriptor* class, data associated to a line's "
+    'extremes in original image and\n'
+    "in octave it was extracted from, coincide. KeyLine's field *class_id* is "
+    'used as an index to\n'
+    'indicate the order of extraction of a line inside a single octave.']
+parse_name: struct cv.line_descriptor.LSDParam with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDParam namespace:cv::line_descriptor classpath: classname: name:LSDParam
+register class cv::line_descriptor::LSDParam (['struct cv.line_descriptor.LSDParam', '', ['/Simple'], [['double', 'scale', '', ['/RW']], ['double', 'sigma_scale', '', ['/RW']], ['double', 'quant', '', ['/RW']], ['double', 'ang_th', '', ['/RW']], ['double', 'log_eps', '', ['/RW']], ['double', 'density_th', '', ['/RW']], ['int', 'n_bins', '', ['/RW']]], None, "Lines extraction methodology\n----------------------------\n\nThe lines extraction methodology described in the following is mainly based on @cite EDL . The\nextraction starts with a Gaussian pyramid generated from an original image, downsampled N-1 times,\nblurred N times, to obtain N layers (one for each octave), with layer 0 corresponding to input\nimage. Then, from each layer (octave) in the pyramid, lines are extracted using LSD algorithm.\n\nDifferently from EDLine lines extractor used in original article, LSD furnishes information only\nabout lines extremes; thus, additional information regarding slope and equation of line are computed\nvia analytic methods. The number of pixels is obtained using *LineIterator*. Extracted lines are\nreturned in the form of KeyLine objects, but since extraction is based on a method different from\nthe one used in *BinaryDescriptor* class, data associated to a line's extremes in original image and\nin octave it was extracted from, coincide. KeyLine's field *class_id* is used as an index to\nindicate the order of extraction of a line inside a single octave."])
+
+--- Incoming ---
+['cv.line_descriptor.LSDParam.LSDParam', 'L', [], [], None, '']
+parse_name: cv.line_descriptor.LSDParam.LSDParam with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDParam::LSDParam namespace:cv::line_descriptor classpath:LSDParam classname:LSDParam name:LSDParam
+register (constructor) default in cv::line_descriptor::LSDParam (simple) (cv_line_descriptor_LSDParam_LSDParam)
+
+--- Incoming ---
+['class cv.line_descriptor.LSDDetector', ': cv::Algorithm', [], [], None, '']
+parse_name: class cv.line_descriptor.LSDDetector with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDDetector namespace:cv::line_descriptor classpath: classname: name:LSDDetector
+register class cv::line_descriptor::LSDDetector (['class cv.line_descriptor.LSDDetector', ': cv::Algorithm', [], [], None, '']) impl:cv::Algorithm
+
+--- Incoming ---
+['cv.line_descriptor.LSDDetector.LSDDetector', 'L', [], [], None, '']
+parse_name: cv.line_descriptor.LSDDetector.LSDDetector with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDDetector::LSDDetector namespace:cv::line_descriptor classpath:LSDDetector classname:LSDDetector name:LSDDetector
+register (constructor) default in cv::line_descriptor::LSDDetector (cv_line_descriptor_LSDDetector_LSDDetector)
+
+--- Incoming ---
+[   'cv.line_descriptor.LSDDetector.LSDDetector',
+    'L',
+    [],
+    [['LSDParam', '_params', '', []]],
+    None,
+    '']
+parse_name: cv.line_descriptor.LSDDetector.LSDDetector with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDDetector::LSDDetector namespace:cv::line_descriptor classpath:LSDDetector classname:LSDDetector name:LSDDetector
+register (constructor) new in cv::line_descriptor::LSDDetector (cv_line_descriptor_LSDDetector_LSDDetector_LSDParam)
+
+--- Incoming ---
+[   'cv.line_descriptor.LSDDetector.createLSDDetector',
+    'Ptr<LSDDetector>',
+    ['/S'],
+    [],
+    None,
+    '@brief Creates ad LSDDetector object, using smart pointers.']
+parse_name: cv.line_descriptor.LSDDetector.createLSDDetector with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDDetector::createLSDDetector namespace:cv::line_descriptor classpath:LSDDetector classname:LSDDetector name:createLSDDetector
+register (method) createLSDDetector in cv::line_descriptor::LSDDetector (cv_line_descriptor_LSDDetector_createLSDDetector)
+
+--- Incoming ---
+[   'cv.line_descriptor.LSDDetector.createLSDDetector',
+    'Ptr<LSDDetector>',
+    ['/S'],
+    [['LSDParam', 'params', '', []]],
+    None,
+    '']
+parse_name: cv.line_descriptor.LSDDetector.createLSDDetector with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDDetector::createLSDDetector namespace:cv::line_descriptor classpath:LSDDetector classname:LSDDetector name:createLSDDetector
+register (method) createLSDDetector in cv::line_descriptor::LSDDetector (cv_line_descriptor_LSDDetector_createLSDDetector_LSDParam)
+
+--- Incoming ---
+[   'cv.line_descriptor.LSDDetector.detect',
+    'void',
+    [],
+    [   ['const Mat&', 'image', '', []],
+        ['std::vector<KeyLine>&', 'keypoints', '', []],
+        ['int', 'scale', '', []],
+        ['int', 'numOctaves', '', []],
+        ['const Mat&', 'mask', 'Mat()', []]],
+    None,
+    '@brief Detect lines inside an image.\n'
+    '\n'
+    '@param image input image\n'
+    '@param keypoints vector that will store extracted lines for one or more '
+    'images\n'
+    '@param scale scale factor used in pyramids generation\n'
+    '@param numOctaves number of octaves inside pyramid\n'
+    '@param mask mask matrix to detect only KeyLines of interest']
+parse_name: cv.line_descriptor.LSDDetector.detect with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDDetector::detect namespace:cv::line_descriptor classpath:LSDDetector classname:LSDDetector name:detect
+register (method) detect in cv::line_descriptor::LSDDetector (cv_line_descriptor_LSDDetector_detect_Mat_VectorOfKeyLine_int_int_Mat)
+
+--- Incoming ---
+[   'cv.line_descriptor.LSDDetector.detect',
+    'void',
+    ['/C'],
+    [   ['const std::vector<Mat>&', 'images', '', []],
+        ['std::vector<std::vector<KeyLine> >&', 'keylines', '', []],
+        ['int', 'scale', '', []],
+        ['int', 'numOctaves', '', []],
+        ['const std::vector<Mat>&', 'masks', 'std::vector<Mat>()', []]],
+    None,
+    '@overload\n'
+    '@param images input images\n'
+    '@param keylines set of vectors that will store extracted lines for one or '
+    'more images\n'
+    '@param scale scale factor used in pyramids generation\n'
+    '@param numOctaves number of octaves inside pyramid\n'
+    '@param masks vector of mask matrices to detect only KeyLines of interest '
+    'from each input image']
+parse_name: cv.line_descriptor.LSDDetector.detect with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::LSDDetector::detect namespace:cv::line_descriptor classpath:LSDDetector classname:LSDDetector name:detect
+register (method) detect in cv::line_descriptor::LSDDetector (cv_line_descriptor_LSDDetector_detect_const_VectorOfMat_VectorOfVectorOfKeyLine_int_int_VectorOfMat)
+
+--- Incoming ---
+[   'class cv.line_descriptor.BinaryDescriptorMatcher',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief furnishes all functionalities for querying a dataset provided by '
+    'user or internal to\n'
+    'class (that user must, anyway, populate) on the model of @ref '
+    'features2d_match\n'
+    '\n'
+    '\n'
+    'Once descriptors have been extracted from an image (both they represent '
+    'lines and points), it\n'
+    'becomes interesting to be able to match a descriptor with another one '
+    'extracted from a different\n'
+    'image and representing the same line or point, seen from a differente '
+    'perspective or on a different\n'
+    'scale. In reaching such goal, the main headache is designing an efficient '
+    'search algorithm to\n'
+    'associate a query descriptor to one extracted from a dataset. In the '
+    'following, a matching modality\n'
+    'based on *Multi-Index Hashing (MiHashing)* will be described.\n'
+    '\n'
+    'Multi-Index Hashing\n'
+    '-------------------\n'
+    '\n'
+    'The theory described in this section is based on @cite MIH . Given a '
+    'dataset populated with binary\n'
+    'codes, each code is indexed *m* times into *m* different hash tables, '
+    'according to *m* substrings it\n'
+    'has been divided into. Thus, given a query code, all the entries close to '
+    'it at least in one\n'
+    'substring are returned by search as *neighbor candidates*. Returned '
+    'entries are then checked for\n'
+    'validity by verifying that their full codes are not distant (in Hamming '
+    'space) more than *r* bits\n'
+    'from query code. In details, each binary code **h** composed of *b* bits '
+    'is divided into *m*\n'
+    'disjoint substrings \\f$\\mathbf{h}^{(1)}, ..., \\mathbf{h}^{(m)}\\f$, '
+    'each with length\n'
+    '\\f$\\lfloor b/m \\rfloor\\f$ or \\f$\\lceil b/m \\rceil\\f$ bits. '
+    'Formally, when two codes **h** and **g** differ\n'
+    'by at the most *r* bits, in at the least one of their *m* substrings they '
+    'differ by at the most\n'
+    '\\f$\\lfloor r/m \\rfloor\\f$ bits. In particular, when '
+    '\\f$||\\mathbf{h}-\\mathbf{g}||_H \\le r\\f$ (where \\f$||.||_H\\f$\n'
+    'is the Hamming norm), there must exist a substring *k* (with \\f$1 \\le k '
+    '\\le m\\f$) such that\n'
+    '\n'
+    '\\f[||\\mathbf{h}^{(k)} - \\mathbf{g}^{(k)}||_H \\le \\left\\lfloor '
+    '\\frac{r}{m} \\right\\rfloor .\\f]\n'
+    '\n'
+    'That means that if Hamming distance between each of the *m* substring is '
+    'strictly greater than\n'
+    '\\f$\\lfloor r/m \\rfloor\\f$, then \\f$||\\mathbf{h}-\\mathbf{g}||_H\\f$ '
+    'must be larger that *r* and that is a\n'
+    'contradiction. If the codes in dataset are divided into *m* substrings, '
+    'then *m* tables will be\n'
+    'built. Given a query **q** with substrings '
+    '\\f$\\{\\mathbf{q}^{(i)}\\}^m_{i=1}\\f$, *i*-th hash table is\n'
+    'searched for entries distant at the most \\f$\\lfloor r/m \\rfloor\\f$ '
+    'from \\f$\\mathbf{q}^{(i)}\\f$ and a set of\n'
+    'candidates \\f$\\mathcal{N}_i(\\mathbf{q})\\f$ is obtained. The union of '
+    'sets\n'
+    '\\f$\\mathcal{N}(\\mathbf{q}) = \\bigcup_i '
+    '\\mathcal{N}_i(\\mathbf{q})\\f$ is a superset of the *r*-neighbors\n'
+    'of **q**. Then, last step of algorithm is computing the Hamming distance '
+    'between **q** and each\n'
+    'element in \\f$\\mathcal{N}(\\mathbf{q})\\f$, deleting the codes that are '
+    'distant more that *r* from **q**.']
+parse_name: class cv.line_descriptor.BinaryDescriptorMatcher with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher namespace:cv::line_descriptor classpath: classname: name:BinaryDescriptorMatcher
+register class cv::line_descriptor::BinaryDescriptorMatcher (['class cv.line_descriptor.BinaryDescriptorMatcher', ': cv::Algorithm', [], [], None, '@brief furnishes all functionalities for querying a dataset provided by user or internal to\nclass (that user must, anyway, populate) on the model of @ref features2d_match\n\n\nOnce descriptors have been extracted from an image (both they represent lines and points), it\nbecomes interesting to be able to match a descriptor with another one extracted from a different\nimage and representing the same line or point, seen from a differente perspective or on a different\nscale. In reaching such goal, the main headache is designing an efficient search algorithm to\nassociate a query descriptor to one extracted from a dataset. In the following, a matching modality\nbased on *Multi-Index Hashing (MiHashing)* will be described.\n\nMulti-Index Hashing\n-------------------\n\nThe theory described in this section is based on @cite MIH . Given a dataset populated with binary\ncodes, each code is indexed *m* times into *m* different hash tables, according to *m* substrings it\nhas been divided into. Thus, given a query code, all the entries close to it at least in one\nsubstring are returned by search as *neighbor candidates*. Returned entries are then checked for\nvalidity by verifying that their full codes are not distant (in Hamming space) more than *r* bits\nfrom query code. In details, each binary code **h** composed of *b* bits is divided into *m*\ndisjoint substrings \\f$\\mathbf{h}^{(1)}, ..., \\mathbf{h}^{(m)}\\f$, each with length\n\\f$\\lfloor b/m \\rfloor\\f$ or \\f$\\lceil b/m \\rceil\\f$ bits. Formally, when two codes **h** and **g** differ\nby at the most *r* bits, in at the least one of their *m* substrings they differ by at the most\n\\f$\\lfloor r/m \\rfloor\\f$ bits. In particular, when \\f$||\\mathbf{h}-\\mathbf{g}||_H \\le r\\f$ (where \\f$||.||_H\\f$\nis the Hamming norm), there must exist a substring *k* (with \\f$1 \\le k \\le m\\f$) such that\n\n\\f[||\\mathbf{h}^{(k)} - \\mathbf{g}^{(k)}||_H \\le \\left\\lfloor \\frac{r}{m} \\right\\rfloor .\\f]\n\nThat means that if Hamming distance between each of the *m* substring is strictly greater than\n\\f$\\lfloor r/m \\rfloor\\f$, then \\f$||\\mathbf{h}-\\mathbf{g}||_H\\f$ must be larger that *r* and that is a\ncontradiction. If the codes in dataset are divided into *m* substrings, then *m* tables will be\nbuilt. Given a query **q** with substrings \\f$\\{\\mathbf{q}^{(i)}\\}^m_{i=1}\\f$, *i*-th hash table is\nsearched for entries distant at the most \\f$\\lfloor r/m \\rfloor\\f$ from \\f$\\mathbf{q}^{(i)}\\f$ and a set of\ncandidates \\f$\\mathcal{N}_i(\\mathbf{q})\\f$ is obtained. The union of sets\n\\f$\\mathcal{N}(\\mathbf{q}) = \\bigcup_i \\mathcal{N}_i(\\mathbf{q})\\f$ is a superset of the *r*-neighbors\nof **q**. Then, last step of algorithm is computing the Hamming distance between **q** and each\nelement in \\f$\\mathcal{N}(\\mathbf{q})\\f$, deleting the codes that are distant more that *r* from **q**.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.match',
+    'void',
+    ['/C'],
+    [   ['const Mat&', 'queryDescriptors', '', []],
+        ['const Mat&', 'trainDescriptors', '', []],
+        ['std::vector<DMatch>&', 'matches', '', []],
+        ['const Mat&', 'mask', 'Mat()', []]],
+    None,
+    '@brief For every input query descriptor, retrieve the best matching one '
+    'from a dataset provided from user\n'
+    'or from the one internal to class\n'
+    '\n'
+    '@param queryDescriptors query descriptors\n'
+    '@param trainDescriptors dataset of descriptors furnished by user\n'
+    '@param matches vector to host retrieved matches\n'
+    '@param mask mask to select which input descriptors must be matched to one '
+    'in dataset']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.match with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::match namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:match
+register (method) match in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_match_const_Mat_Mat_VectorOfDMatch_Mat)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.match',
+    'void',
+    [],
+    [   ['const Mat&', 'queryDescriptors', '', []],
+        ['std::vector<DMatch>&', 'matches', '', []],
+        ['const std::vector<Mat>&', 'masks', 'std::vector<Mat>()', []]],
+    None,
+    '@overload\n'
+    '@param queryDescriptors query descriptors\n'
+    '@param matches vector to host retrieved matches\n'
+    '@param masks vector of masks to select which input descriptors must be '
+    'matched to one in dataset\n'
+    '(the *i*-th mask in vector indicates whether each input query can be '
+    'matched with descriptors in\n'
+    'dataset relative to *i*-th image)']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.match with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::match namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:match
+register (method) match in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_match_Mat_VectorOfDMatch_VectorOfMat)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.knnMatch',
+    'void',
+    ['/C'],
+    [   ['const Mat&', 'queryDescriptors', '', []],
+        ['const Mat&', 'trainDescriptors', '', []],
+        ['std::vector<std::vector<DMatch> >&', 'matches', '', []],
+        ['int', 'k', '', []],
+        ['const Mat&', 'mask', 'Mat()', []],
+        ['bool', 'compactResult', 'false', []]],
+    None,
+    '@brief For every input query descriptor, retrieve the best *k* matching '
+    'ones from a dataset provided from\n'
+    'user or from the one internal to class\n'
+    '\n'
+    '@param queryDescriptors query descriptors\n'
+    '@param trainDescriptors dataset of descriptors furnished by user\n'
+    '@param matches vector to host retrieved matches\n'
+    '@param k number of the closest descriptors to be returned for every input '
+    'query\n'
+    '@param mask mask to select which input descriptors must be matched to '
+    'ones in dataset\n'
+    '@param compactResult flag to obtain a compact result (if true, a vector '
+    "that doesn't contain any\n"
+    'matches for a given query is not inserted in final result)']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.knnMatch with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::knnMatch namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:knnMatch
+register (method) knnMatch in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_knnMatch_const_Mat_Mat_VectorOfVectorOfDMatch_int_Mat_bool)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.knnMatch',
+    'void',
+    [],
+    [   ['const Mat&', 'queryDescriptors', '', []],
+        ['std::vector<std::vector<DMatch> >&', 'matches', '', []],
+        ['int', 'k', '', []],
+        ['const std::vector<Mat>&', 'masks', 'std::vector<Mat>()', []],
+        ['bool', 'compactResult', 'false', []]],
+    None,
+    '@overload\n'
+    '@param queryDescriptors query descriptors\n'
+    '@param matches vector to host retrieved matches\n'
+    '@param k number of the closest descriptors to be returned for every input '
+    'query\n'
+    '@param masks vector of masks to select which input descriptors must be '
+    'matched to ones in dataset\n'
+    '(the *i*-th mask in vector indicates whether each input query can be '
+    'matched with descriptors in\n'
+    'dataset relative to *i*-th image)\n'
+    '@param compactResult flag to obtain a compact result (if true, a vector '
+    "that doesn't contain any\n"
+    'matches for a given query is not inserted in final result)']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.knnMatch with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::knnMatch namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:knnMatch
+register (method) knnMatch in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_knnMatch_Mat_VectorOfVectorOfDMatch_int_VectorOfMat_bool)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.radiusMatch',
+    'void',
+    ['/C'],
+    [   ['const Mat&', 'queryDescriptors', '', []],
+        ['const Mat&', 'trainDescriptors', '', []],
+        ['std::vector<std::vector<DMatch> >&', 'matches', '', []],
+        ['float', 'maxDistance', '', []],
+        ['const Mat&', 'mask', 'Mat()', []],
+        ['bool', 'compactResult', 'false', []]],
+    None,
+    '@brief For every input query descriptor, retrieve, from a dataset '
+    'provided from user or from the one\n'
+    'internal to class, all the descriptors that are not further than '
+    '*maxDist* from input query\n'
+    '\n'
+    '@param queryDescriptors query descriptors\n'
+    '@param trainDescriptors dataset of descriptors furnished by user\n'
+    '@param matches vector to host retrieved matches\n'
+    '@param maxDistance search radius\n'
+    '@param mask mask to select which input descriptors must be matched to '
+    'ones in dataset\n'
+    '@param compactResult flag to obtain a compact result (if true, a vector '
+    "that doesn't contain any\n"
+    'matches for a given query is not inserted in final result)']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.radiusMatch with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::radiusMatch namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:radiusMatch
+register (method) radiusMatch in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_radiusMatch_const_Mat_Mat_VectorOfVectorOfDMatch_float_Mat_bool)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.radiusMatch',
+    'void',
+    [],
+    [   ['const Mat&', 'queryDescriptors', '', []],
+        ['std::vector<std::vector<DMatch> >&', 'matches', '', []],
+        ['float', 'maxDistance', '', []],
+        ['const std::vector<Mat>&', 'masks', 'std::vector<Mat>()', []],
+        ['bool', 'compactResult', 'false', []]],
+    None,
+    '@overload\n'
+    '@param queryDescriptors query descriptors\n'
+    '@param matches vector to host retrieved matches\n'
+    '@param maxDistance search radius\n'
+    '@param masks vector of masks to select which input descriptors must be '
+    'matched to ones in dataset\n'
+    '(the *i*-th mask in vector indicates whether each input query can be '
+    'matched with descriptors in\n'
+    'dataset relative to *i*-th image)\n'
+    '@param compactResult flag to obtain a compact result (if true, a vector '
+    "that doesn't contain any\n"
+    'matches for a given query is not inserted in final result)']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.radiusMatch with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::radiusMatch namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:radiusMatch
+register (method) radiusMatch in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_radiusMatch_Mat_VectorOfVectorOfDMatch_float_VectorOfMat_bool)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.add',
+    'void',
+    [],
+    [['const std::vector<Mat>&', 'descriptors', '', []]],
+    None,
+    '@brief Store locally new descriptors to be inserted in dataset, without '
+    'updating dataset.\n'
+    '\n'
+    '@param descriptors matrices containing descriptors to be inserted into '
+    'dataset\n'
+    '\n'
+    '@note Each matrix *i* in **descriptors** should contain descriptors '
+    'relative to lines extracted from\n'
+    '*i*-th image.']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.add with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::add namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:add
+register (method) add in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_add_VectorOfMat)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.train',
+    'void',
+    [],
+    [],
+    None,
+    '@brief Update dataset by inserting into it all descriptors that were '
+    'stored locally by *add* function.\n'
+    '\n'
+    '@note Every time this function is invoked, current dataset is deleted and '
+    'locally stored descriptors\n'
+    'are inserted into dataset. The locally stored copy of just inserted '
+    'descriptors is then removed.']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.train with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::train namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:train
+register (method) train in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_train)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.createBinaryDescriptorMatcher',
+    'Ptr<BinaryDescriptorMatcher>',
+    ['/S'],
+    [],
+    None,
+    '@brief Create a BinaryDescriptorMatcher object and return a smart pointer '
+    'to it.']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.createBinaryDescriptorMatcher with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::createBinaryDescriptorMatcher namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:createBinaryDescriptorMatcher
+register (method) createBinaryDescriptorMatcher in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_createBinaryDescriptorMatcher)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.clear',
+    'void',
+    [],
+    [],
+    None,
+    '@brief Clear dataset and internal data']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.clear with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::clear namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:clear
+register (method) clear in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_clear)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.BinaryDescriptorMatcher',
+    'B',
+    [],
+    [],
+    None,
+    '@brief Constructor.\n'
+    '\n'
+    'The BinaryDescriptorMatcher constructed is able to store and manage '
+    '256-bits long entries.']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.BinaryDescriptorMatcher with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::BinaryDescriptorMatcher namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:BinaryDescriptorMatcher
+register (constructor) default in cv::line_descriptor::BinaryDescriptorMatcher (cv_line_descriptor_BinaryDescriptorMatcher_BinaryDescriptorMatcher)
+
+--- Incoming ---
+[   'cv.line_descriptor.BinaryDescriptorMatcher.~BinaryDescriptorMatcher',
+    '~',
+    [],
+    [],
+    None,
+    'destructor']
+parse_name: cv.line_descriptor.BinaryDescriptorMatcher.~BinaryDescriptorMatcher with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::BinaryDescriptorMatcher::~BinaryDescriptorMatcher namespace:cv::line_descriptor classpath:BinaryDescriptorMatcher classname:BinaryDescriptorMatcher name:~BinaryDescriptorMatcher
+ignore destructor (method) ~BinaryDescriptorMatcher in cv::line_descriptor::BinaryDescriptorMatcher
+
+--- Incoming ---
+[   'struct cv.line_descriptor.DrawLinesMatchesFlags',
+    '',
+    ['/Simple'],
+    [],
+    None,
+    'struct for drawing options']
+parse_name: struct cv.line_descriptor.DrawLinesMatchesFlags with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::DrawLinesMatchesFlags namespace:cv::line_descriptor classpath: classname: name:DrawLinesMatchesFlags
+register class cv::line_descriptor::DrawLinesMatchesFlags (['struct cv.line_descriptor.DrawLinesMatchesFlags', '', ['/Simple'], [], None, 'struct for drawing options'])
+
+--- Incoming ---
+[   'cv.line_descriptor.drawLineMatches',
+    'void',
+    [],
+    [   ['const Mat&', 'img1', '', []],
+        ['const std::vector<KeyLine>&', 'keylines1', '', []],
+        ['const Mat&', 'img2', '', []],
+        ['const std::vector<KeyLine>&', 'keylines2', '', []],
+        ['const std::vector<DMatch>&', 'matches1to2', '', []],
+        ['Mat&', 'outImg', '', []],
+        ['const Scalar&', 'matchColor', 'Scalar::all( -1 )', []],
+        ['const Scalar&', 'singleLineColor', 'Scalar::all( -1 )', []],
+        ['const std::vector<char>&', 'matchesMask', 'std::vector<char>()', []],
+        ['int', 'flags', 'DrawLinesMatchesFlags::DEFAULT', []]],
+    None,
+    '@brief Draws the found matches of keylines from two images.\n'
+    '\n'
+    '@param img1 first image\n'
+    '@param keylines1 keylines extracted from first image\n'
+    '@param img2 second image\n'
+    '@param keylines2 keylines extracted from second image\n'
+    '@param matches1to2 vector of matches\n'
+    '@param outImg output matrix to draw on\n'
+    '@param matchColor drawing color for matches (chosen randomly in case of '
+    'default value)\n'
+    '@param singleLineColor drawing color for keylines (chosen randomly in '
+    'case of default value)\n'
+    '@param matchesMask mask to indicate which matches must be drawn\n'
+    '@param flags drawing flags, see DrawLinesMatchesFlags\n'
+    '\n'
+    '@note If both *matchColor* and *singleLineColor* are set to their default '
+    'values, function draws\n'
+    'matched lines and line connecting them with same color']
+parse_name: cv.line_descriptor.drawLineMatches with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::drawLineMatches namespace:cv::line_descriptor classpath: classname: name:drawLineMatches
+register (function) drawLineMatches (cv_line_descriptor_drawLineMatches_Mat_VectorOfKeyLine_Mat_VectorOfKeyLine_VectorOfDMatch_Mat_Scalar_Scalar_VectorOfchar_int)
+
+--- Incoming ---
+[   'cv.line_descriptor.drawKeylines',
+    'void',
+    [],
+    [   ['const Mat&', 'image', '', []],
+        ['const std::vector<KeyLine>&', 'keylines', '', []],
+        ['Mat&', 'outImage', '', []],
+        ['const Scalar&', 'color', 'Scalar::all( -1 )', []],
+        ['int', 'flags', 'DrawLinesMatchesFlags::DEFAULT', []]],
+    None,
+    '@brief Draws keylines.\n'
+    '\n'
+    '@param image input image\n'
+    '@param keylines keylines to be drawn\n'
+    '@param outImage output image to draw on\n'
+    '@param color color of lines to be drawn (if set to defaul value, color is '
+    'chosen randomly)\n'
+    '@param flags drawing flags']
+parse_name: cv.line_descriptor.drawKeylines with ['cv', 'cv::line_descriptor'] -> fullname:cv::line_descriptor::drawKeylines namespace:cv::line_descriptor classpath: classname: name:drawKeylines
+register (function) drawKeylines (cv_line_descriptor_drawKeylines_Mat_VectorOfKeyLine_Mat_Scalar_int)
+
+
+===== Generating... =====
+Generating func cv_line_descriptor_drawKeylines_Mat_VectorOfKeyLine_Mat_Scalar_int
+Generating func cv_line_descriptor_drawLineMatches_Mat_VectorOfKeyLine_Mat_VectorOfKeyLine_VectorOfDMatch_Mat_Scalar_Scalar_VectorOfchar_int
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Generating box for cv::line_descriptor::BinaryDescriptor
+Generating func cv_line_descriptor_BinaryDescriptor_BinaryDescriptor_Params
+Generating func cv_line_descriptor_BinaryDescriptor_createBinaryDescriptor
+Generating func cv_line_descriptor_BinaryDescriptor_createBinaryDescriptor_Params
+Generating func cv_line_descriptor_BinaryDescriptor_getNumOfOctaves
+Generating func cv_line_descriptor_BinaryDescriptor_setNumOfOctaves_int
+Generating func cv_line_descriptor_BinaryDescriptor_getWidthOfBand
+Generating func cv_line_descriptor_BinaryDescriptor_setWidthOfBand_int
+Generating func cv_line_descriptor_BinaryDescriptor_getReductionRatio
+Generating func cv_line_descriptor_BinaryDescriptor_setReductionRatio_int
+Generating func cv_line_descriptor_BinaryDescriptor_read_FileNode
+Generating func cv_line_descriptor_BinaryDescriptor_write_const_FileStorage
+Generating func cv_line_descriptor_BinaryDescriptor_detect_Mat_VectorOfKeyLine_Mat
+Generating func cv_line_descriptor_BinaryDescriptor_detect_const_VectorOfMat_VectorOfVectorOfKeyLine_VectorOfMat
+Generating func cv_line_descriptor_BinaryDescriptor_compute_const_Mat_VectorOfKeyLine_Mat_bool
+Generating func cv_line_descriptor_BinaryDescriptor_compute_const_VectorOfMat_VectorOfVectorOfKeyLine_VectorOfMat_bool
+Generating func cv_line_descriptor_BinaryDescriptor_descriptorSize_const
+Generating func cv_line_descriptor_BinaryDescriptor_descriptorType_const
+Generating func cv_line_descriptor_BinaryDescriptor_defaultNorm_const
+Generating box for cv::line_descriptor::BinaryDescriptor::Params
+Generating func cv_line_descriptor_BinaryDescriptor_Params_Params
+Generating func cv_line_descriptor_BinaryDescriptor_Params_read_FileNode
+Generating func cv_line_descriptor_BinaryDescriptor_Params_write_const_FileStorage
+Generating box for cv::line_descriptor::BinaryDescriptorMatcher
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_match_const_Mat_Mat_VectorOfDMatch_Mat
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_match_Mat_VectorOfDMatch_VectorOfMat
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_knnMatch_const_Mat_Mat_VectorOfVectorOfDMatch_int_Mat_bool
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_knnMatch_Mat_VectorOfVectorOfDMatch_int_VectorOfMat_bool
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_radiusMatch_const_Mat_Mat_VectorOfVectorOfDMatch_float_Mat_bool
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_radiusMatch_Mat_VectorOfVectorOfDMatch_float_VectorOfMat_bool
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_add_VectorOfMat
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_train
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_createBinaryDescriptorMatcher
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_clear
+Generating func cv_line_descriptor_BinaryDescriptorMatcher_BinaryDescriptorMatcher
+Generating func cv_line_descriptor_KeyLine_getStartPoint_const
+Generating func cv_line_descriptor_KeyLine_getEndPoint_const
+Generating func cv_line_descriptor_KeyLine_getStartPointInOctave_const
+Generating func cv_line_descriptor_KeyLine_getEndPointInOctave_const
+Generating func cv_line_descriptor_KeyLine_KeyLine
+Generating box for cv::line_descriptor::LSDDetector
+Generating func cv_line_descriptor_LSDDetector_LSDDetector
+Generating func cv_line_descriptor_LSDDetector_LSDDetector_LSDParam
+Generating func cv_line_descriptor_LSDDetector_createLSDDetector
+Generating func cv_line_descriptor_LSDDetector_createLSDDetector_LSDParam
+Generating func cv_line_descriptor_LSDDetector_detect_Mat_VectorOfKeyLine_int_int_Mat
+Generating func cv_line_descriptor_LSDDetector_detect_const_VectorOfMat_VectorOfVectorOfKeyLine_int_int_VectorOfMat
+Generating func cv_line_descriptor_LSDParam_LSDParam
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

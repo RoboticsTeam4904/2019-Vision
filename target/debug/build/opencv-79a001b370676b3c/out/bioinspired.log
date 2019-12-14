@@ -1,0 +1,1494 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired.hpp ================
+
+
+Namespaces: []
+Comment: {'bioinspired': ' @defgroup bioinspired Biologically inspired vision models and derivated tools\n\nThe module provides biological visual systems models (human visual system and others). It also\nprovides derivated objects that take advantage of those bio-inspired models.\n\n@ref bioinspired_retina\n\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired/bioinspired.hpp ================
+
+
+Namespaces: []
+Comment: {'bioinspired': ' @defgroup bioinspired Biologically inspired vision models and derivated tools\n\nThe module provides biological visual systems models (human visual system and others). It also\nprovides derivated objects that take advantage of those bio-inspired models.\n\n@ref bioinspired_retina\n\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired/retina.hpp ================
+
+
+Namespaces: ['cv', 'cv.bioinspired']
+Comment: {'bioinspired': ' @defgroup bioinspired Biologically inspired vision models and derivated tools\n\nThe module provides biological visual systems models (human visual system and others). It also\nprovides derivated objects that take advantage of those bio-inspired models.\n\n@ref bioinspired_retina\n\n\n'}
+
+--- Incoming ---
+[   'enum cv.bioinspired.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.bioinspired.RETINA_COLOR_RANDOM',
+            '0',
+            [],
+            [],
+            None,
+            'each pixel position is either R, G or B in a random choice\n'],
+        [   'const cv.bioinspired.RETINA_COLOR_DIAGONAL',
+            '1',
+            [],
+            [],
+            None,
+            'color sampling is RGBRGBRGB..., line 2 BRGBRGBRG..., line 3, '
+            'GBRGBRGBR...\n'],
+        [   'const cv.bioinspired.RETINA_COLOR_BAYER',
+            '2',
+            [],
+            [],
+            None,
+            'standard bayer sampling\n']],
+    None,
+    '@addtogroup bioinspired\n@{']
+parse_name: const cv.bioinspired.RETINA_COLOR_RANDOM with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RETINA_COLOR_RANDOM namespace:cv::bioinspired classpath: classname: name:RETINA_COLOR_RANDOM
+parse_name: const cv.bioinspired.RETINA_COLOR_DIAGONAL with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RETINA_COLOR_DIAGONAL namespace:cv::bioinspired classpath: classname: name:RETINA_COLOR_DIAGONAL
+parse_name: const cv.bioinspired.RETINA_COLOR_BAYER with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RETINA_COLOR_BAYER namespace:cv::bioinspired classpath: classname: name:RETINA_COLOR_BAYER
+
+--- Incoming ---
+[   'struct cv.bioinspired.RetinaParameters',
+    '',
+    [],
+    [],
+    None,
+    '@brief retina model parameters structure\n'
+    '\n'
+    'For better clarity, check explenations on the comments of methods : '
+    'setupOPLandIPLParvoChannel and setupIPLMagnoChannel\n'
+    '\n'
+    'Here is the default configuration file of the retina module. It gives '
+    'results such as the first\n'
+    'retina output shown on the top of this page.\n'
+    '\n'
+    '@code{xml}\n'
+    '<?xml version="1.0"?>\n'
+    '<opencv_storage>\n'
+    '<OPLandIPLparvo>\n'
+    '<colorMode>1</colorMode>\n'
+    '<normaliseOutput>1</normaliseOutput>\n'
+    '<photoreceptorsLocalAdaptationSensitivity>7.5e-01</photoreceptorsLocalAdaptationSensitivity>\n'
+    '<photoreceptorsTemporalConstant>9.0e-01</photoreceptorsTemporalConstant>\n'
+    '<photoreceptorsSpatialConstant>5.3e-01</photoreceptorsSpatialConstant>\n'
+    '<horizontalCellsGain>0.01</horizontalCellsGain>\n'
+    '<hcellsTemporalConstant>0.5</hcellsTemporalConstant>\n'
+    '<hcellsSpatialConstant>7.</hcellsSpatialConstant>\n'
+    '<ganglionCellsSensitivity>7.5e-01</ganglionCellsSensitivity></OPLandIPLparvo>\n'
+    '<IPLmagno>\n'
+    '<normaliseOutput>1</normaliseOutput>\n'
+    '<parasolCells_beta>0.</parasolCells_beta>\n'
+    '<parasolCells_tau>0.</parasolCells_tau>\n'
+    '<parasolCells_k>7.</parasolCells_k>\n'
+    '<amacrinCellsTemporalCutFrequency>2.0e+00</amacrinCellsTemporalCutFrequency>\n'
+    '<V0CompressionParameter>9.5e-01</V0CompressionParameter>\n'
+    '<localAdaptintegration_tau>0.</localAdaptintegration_tau>\n'
+    '<localAdaptintegration_k>7.</localAdaptintegration_k></IPLmagno>\n'
+    '</opencv_storage>\n'
+    '@endcode\n'
+    '\n'
+    'Here is the \'realistic" setup used to obtain the second retina output '
+    'shown on the top of this page.\n'
+    '\n'
+    '@code{xml}\n'
+    '<?xml version="1.0"?>\n'
+    '<opencv_storage>\n'
+    '<OPLandIPLparvo>\n'
+    '<colorMode>1</colorMode>\n'
+    '<normaliseOutput>1</normaliseOutput>\n'
+    '<photoreceptorsLocalAdaptationSensitivity>8.9e-01</photoreceptorsLocalAdaptationSensitivity>\n'
+    '<photoreceptorsTemporalConstant>9.0e-01</photoreceptorsTemporalConstant>\n'
+    '<photoreceptorsSpatialConstant>5.3e-01</photoreceptorsSpatialConstant>\n'
+    '<horizontalCellsGain>0.3</horizontalCellsGain>\n'
+    '<hcellsTemporalConstant>0.5</hcellsTemporalConstant>\n'
+    '<hcellsSpatialConstant>7.</hcellsSpatialConstant>\n'
+    '<ganglionCellsSensitivity>8.9e-01</ganglionCellsSensitivity></OPLandIPLparvo>\n'
+    '<IPLmagno>\n'
+    '<normaliseOutput>1</normaliseOutput>\n'
+    '<parasolCells_beta>0.</parasolCells_beta>\n'
+    '<parasolCells_tau>0.</parasolCells_tau>\n'
+    '<parasolCells_k>7.</parasolCells_k>\n'
+    '<amacrinCellsTemporalCutFrequency>2.0e+00</amacrinCellsTemporalCutFrequency>\n'
+    '<V0CompressionParameter>9.5e-01</V0CompressionParameter>\n'
+    '<localAdaptintegration_tau>0.</localAdaptintegration_tau>\n'
+    '<localAdaptintegration_k>7.</localAdaptintegration_k></IPLmagno>\n'
+    '</opencv_storage>\n'
+    '@endcode']
+parse_name: struct cv.bioinspired.RetinaParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaParameters namespace:cv::bioinspired classpath: classname: name:RetinaParameters
+register class cv::bioinspired::RetinaParameters (['struct cv.bioinspired.RetinaParameters', '', [], [], None, '@brief retina model parameters structure\n\nFor better clarity, check explenations on the comments of methods : setupOPLandIPLParvoChannel and setupIPLMagnoChannel\n\nHere is the default configuration file of the retina module. It gives results such as the first\nretina output shown on the top of this page.\n\n@code{xml}\n<?xml version="1.0"?>\n<opencv_storage>\n<OPLandIPLparvo>\n<colorMode>1</colorMode>\n<normaliseOutput>1</normaliseOutput>\n<photoreceptorsLocalAdaptationSensitivity>7.5e-01</photoreceptorsLocalAdaptationSensitivity>\n<photoreceptorsTemporalConstant>9.0e-01</photoreceptorsTemporalConstant>\n<photoreceptorsSpatialConstant>5.3e-01</photoreceptorsSpatialConstant>\n<horizontalCellsGain>0.01</horizontalCellsGain>\n<hcellsTemporalConstant>0.5</hcellsTemporalConstant>\n<hcellsSpatialConstant>7.</hcellsSpatialConstant>\n<ganglionCellsSensitivity>7.5e-01</ganglionCellsSensitivity></OPLandIPLparvo>\n<IPLmagno>\n<normaliseOutput>1</normaliseOutput>\n<parasolCells_beta>0.</parasolCells_beta>\n<parasolCells_tau>0.</parasolCells_tau>\n<parasolCells_k>7.</parasolCells_k>\n<amacrinCellsTemporalCutFrequency>2.0e+00</amacrinCellsTemporalCutFrequency>\n<V0CompressionParameter>9.5e-01</V0CompressionParameter>\n<localAdaptintegration_tau>0.</localAdaptintegration_tau>\n<localAdaptintegration_k>7.</localAdaptintegration_k></IPLmagno>\n</opencv_storage>\n@endcode\n\nHere is the \'realistic" setup used to obtain the second retina output shown on the top of this page.\n\n@code{xml}\n<?xml version="1.0"?>\n<opencv_storage>\n<OPLandIPLparvo>\n<colorMode>1</colorMode>\n<normaliseOutput>1</normaliseOutput>\n<photoreceptorsLocalAdaptationSensitivity>8.9e-01</photoreceptorsLocalAdaptationSensitivity>\n<photoreceptorsTemporalConstant>9.0e-01</photoreceptorsTemporalConstant>\n<photoreceptorsSpatialConstant>5.3e-01</photoreceptorsSpatialConstant>\n<horizontalCellsGain>0.3</horizontalCellsGain>\n<hcellsTemporalConstant>0.5</hcellsTemporalConstant>\n<hcellsSpatialConstant>7.</hcellsSpatialConstant>\n<ganglionCellsSensitivity>8.9e-01</ganglionCellsSensitivity></OPLandIPLparvo>\n<IPLmagno>\n<normaliseOutput>1</normaliseOutput>\n<parasolCells_beta>0.</parasolCells_beta>\n<parasolCells_tau>0.</parasolCells_tau>\n<parasolCells_k>7.</parasolCells_k>\n<amacrinCellsTemporalCutFrequency>2.0e+00</amacrinCellsTemporalCutFrequency>\n<V0CompressionParameter>9.5e-01</V0CompressionParameter>\n<localAdaptintegration_tau>0.</localAdaptintegration_tau>\n<localAdaptintegration_k>7.</localAdaptintegration_k></IPLmagno>\n</opencv_storage>\n@endcode'])
+
+--- Incoming ---
+[   'struct cv.bioinspired.RetinaParameters.OPLandIplParvoParameters',
+    '',
+    [],
+    [],
+    None,
+    'Outer Plexiform Layer (OPL) and Inner Plexiform Layer Parvocellular '
+    '(IplParvo) parameters']
+parse_name: struct cv.bioinspired.RetinaParameters.OPLandIplParvoParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaParameters::OPLandIplParvoParameters namespace:cv::bioinspired classpath:RetinaParameters classname:RetinaParameters name:OPLandIplParvoParameters
+register class cv::bioinspired::RetinaParameters::OPLandIplParvoParameters (['struct cv.bioinspired.RetinaParameters.OPLandIplParvoParameters', '', [], [], None, 'Outer Plexiform Layer (OPL) and Inner Plexiform Layer Parvocellular (IplParvo) parameters'])
+
+--- Incoming ---
+[   'cv.bioinspired.RetinaParameters.OPLandIplParvoParameters.OPLandIplParvoParameters',
+    'O',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.bioinspired.RetinaParameters.OPLandIplParvoParameters.OPLandIplParvoParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaParameters::OPLandIplParvoParameters::OPLandIplParvoParameters namespace:cv::bioinspired classpath:RetinaParameters::OPLandIplParvoParameters classname:OPLandIplParvoParameters name:OPLandIplParvoParameters
+register (constructor) default in cv::bioinspired::RetinaParameters::OPLandIplParvoParameters (cv_bioinspired_RetinaParameters_OPLandIplParvoParameters_OPLandIplParvoParameters)
+
+--- Incoming ---
+[   'struct cv.bioinspired.RetinaParameters.IplMagnoParameters',
+    '',
+    [],
+    [],
+    None,
+    'Inner Plexiform Layer Magnocellular channel (IplMagno)']
+parse_name: struct cv.bioinspired.RetinaParameters.IplMagnoParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaParameters::IplMagnoParameters namespace:cv::bioinspired classpath:RetinaParameters classname:RetinaParameters name:IplMagnoParameters
+register class cv::bioinspired::RetinaParameters::IplMagnoParameters (['struct cv.bioinspired.RetinaParameters.IplMagnoParameters', '', [], [], None, 'Inner Plexiform Layer Magnocellular channel (IplMagno)'])
+
+--- Incoming ---
+[   'cv.bioinspired.RetinaParameters.IplMagnoParameters.IplMagnoParameters',
+    'I',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.bioinspired.RetinaParameters.IplMagnoParameters.IplMagnoParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaParameters::IplMagnoParameters::IplMagnoParameters namespace:cv::bioinspired classpath:RetinaParameters::IplMagnoParameters classname:IplMagnoParameters name:IplMagnoParameters
+register (constructor) default in cv::bioinspired::RetinaParameters::IplMagnoParameters (cv_bioinspired_RetinaParameters_IplMagnoParameters_IplMagnoParameters)
+
+--- Incoming ---
+[   'class cv.bioinspired.Retina',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief class which allows the Gipsa/Listic Labs model to be used with '
+    'OpenCV.\n'
+    '\n'
+    'This retina model allows spatio-temporal image processing (applied on '
+    'still images, video sequences).\n'
+    'As a summary, these are the retina model properties:\n'
+    '- It applies a spectral whithening (mid-frequency details enhancement)\n'
+    '- high frequency spatio-temporal noise reduction\n'
+    '- low frequency luminance to be reduced (luminance range compression)\n'
+    '- local logarithmic luminance compression allows details to be enhanced '
+    'in low light conditions\n'
+    '\n'
+    'USE : this model can be used basically for spatio-temporal video effects '
+    'but also for :\n'
+    '_using the getParvo method output matrix : texture analysiswith enhanced '
+    'signal to noise ratio and enhanced details robust against input images '
+    'luminance ranges\n'
+    '_using the getMagno method output matrix : motion analysis also with the '
+    'previously cited properties\n'
+    '\n'
+    'for more information, reer to the following papers :\n'
+    'Benoit A., Caplier A., Durette B., Herault, J., "USING HUMAN VISUAL '
+    'SYSTEM MODELING FOR BIO-INSPIRED LOW LEVEL IMAGE PROCESSING", Elsevier, '
+    'Computer Vision and Image Understanding 114 (2010), pp. 758-773, DOI: '
+    'http://dx.doi.org/10.1016/j.cviu.2010.01.011\n'
+    'Vision: Images, Signals and Neural Networks: Models of Neural Processing '
+    'in Visual Perception (Progress in Neural Processing),By: Jeanny Herault, '
+    'ISBN: 9814273686. WAPI (Tower ID): 113266891.\n'
+    '\n'
+    'The retina filter includes the research contributions of phd/research '
+    'collegues from which code has been redrawn by the author :\n'
+    'take a look at the retinacolor.hpp module to discover Brice Chaix de '
+    'Lavarene color mosaicing/demosaicing and the reference paper:\n'
+    'B. Chaix de Lavarene, D. Alleysson, B. Durette, J. Herault (2007). '
+    '"Efficient demosaicing through recursive filtering", IEEE International '
+    'Conference on Image Processing ICIP 2007\n'
+    'take a look at imagelogpolprojection.hpp to discover retina spatial log '
+    'sampling which originates from Barthelemy Durette phd with Jeanny '
+    'Herault. A Retina / V1 cortex projection is also proposed and originates '
+    "from Jeanny's discussions.\n"
+    "more informations in the above cited Jeanny Heraults's book."]
+parse_name: class cv.bioinspired.Retina with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina namespace:cv::bioinspired classpath: classname: name:Retina
+register class cv::bioinspired::Retina (['class cv.bioinspired.Retina', ': cv::Algorithm', [], [], None, '@brief class which allows the Gipsa/Listic Labs model to be used with OpenCV.\n\nThis retina model allows spatio-temporal image processing (applied on still images, video sequences).\nAs a summary, these are the retina model properties:\n- It applies a spectral whithening (mid-frequency details enhancement)\n- high frequency spatio-temporal noise reduction\n- low frequency luminance to be reduced (luminance range compression)\n- local logarithmic luminance compression allows details to be enhanced in low light conditions\n\nUSE : this model can be used basically for spatio-temporal video effects but also for :\n_using the getParvo method output matrix : texture analysiswith enhanced signal to noise ratio and enhanced details robust against input images luminance ranges\n_using the getMagno method output matrix : motion analysis also with the previously cited properties\n\nfor more information, reer to the following papers :\nBenoit A., Caplier A., Durette B., Herault, J., "USING HUMAN VISUAL SYSTEM MODELING FOR BIO-INSPIRED LOW LEVEL IMAGE PROCESSING", Elsevier, Computer Vision and Image Understanding 114 (2010), pp. 758-773, DOI: http://dx.doi.org/10.1016/j.cviu.2010.01.011\nVision: Images, Signals and Neural Networks: Models of Neural Processing in Visual Perception (Progress in Neural Processing),By: Jeanny Herault, ISBN: 9814273686. WAPI (Tower ID): 113266891.\n\nThe retina filter includes the research contributions of phd/research collegues from which code has been redrawn by the author :\ntake a look at the retinacolor.hpp module to discover Brice Chaix de Lavarene color mosaicing/demosaicing and the reference paper:\nB. Chaix de Lavarene, D. Alleysson, B. Durette, J. Herault (2007). "Efficient demosaicing through recursive filtering", IEEE International Conference on Image Processing ICIP 2007\ntake a look at imagelogpolprojection.hpp to discover retina spatial log sampling which originates from Barthelemy Durette phd with Jeanny Herault. A Retina / V1 cortex projection is also proposed and originates from Jeanny\'s discussions.\nmore informations in the above cited Jeanny Heraults\'s book.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getInputSize',
+    'Size',
+    ['/A'],
+    [],
+    None,
+    '@brief Retreive retina input buffer size\n'
+    '@return the retina input buffer size']
+parse_name: cv.bioinspired.Retina.getInputSize with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getInputSize namespace:cv::bioinspired classpath:Retina classname:Retina name:getInputSize
+register (method) getInputSize in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getInputSize)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getOutputSize',
+    'Size',
+    ['/A'],
+    [],
+    None,
+    '@brief Retreive retina output buffer size that can be different from the '
+    'input if a spatial log\n'
+    'transformation is applied\n'
+    '@return the retina output buffer size']
+parse_name: cv.bioinspired.Retina.getOutputSize with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getOutputSize namespace:cv::bioinspired classpath:Retina classname:Retina name:getOutputSize
+register (method) getOutputSize in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getOutputSize)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.setup',
+    'void',
+    ['/A'],
+    [   ['String', 'retinaParameterFile', '""', []],
+        ['const bool', 'applyDefaultSetupOnFailure', 'true', []]],
+    None,
+    '@brief Try to open an XML retina parameters file to adjust current retina '
+    'instance setup\n'
+    '\n'
+    '- if the xml file does not exist, then default setup is applied\n'
+    '- warning, Exceptions are thrown if read XML file is not valid\n'
+    '@param retinaParameterFile the parameters filename\n'
+    '@param applyDefaultSetupOnFailure set to true if an error must be thrown '
+    'on error\n'
+    '\n'
+    'You can retrieve the current parameters structure using the method '
+    'Retina::getParameters and update\n'
+    'it before running method Retina::setup.']
+parse_name: cv.bioinspired.Retina.setup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::setup namespace:cv::bioinspired classpath:Retina classname:Retina name:setup
+register (method) setup in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_setup_String_bool)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.setup',
+    'void',
+    ['/A'],
+    [   ['cv::FileStorage &', 'fs', '', []],
+        ['const bool', 'applyDefaultSetupOnFailure', 'true', []]],
+    None,
+    '@overload\n'
+    '@param fs the open Filestorage which contains retina parameters\n'
+    '@param applyDefaultSetupOnFailure set to true if an error must be thrown '
+    'on error']
+parse_name: cv.bioinspired.Retina.setup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::setup namespace:cv::bioinspired classpath:Retina classname:Retina name:setup
+register (method) setup in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_setup_FileStorage_bool)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.setup',
+    'void',
+    ['/A'],
+    [['RetinaParameters', 'newParameters', '', []]],
+    None,
+    '@overload\n'
+    '@param newParameters a parameters structures updated with the new target '
+    'configuration.']
+parse_name: cv.bioinspired.Retina.setup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::setup namespace:cv::bioinspired classpath:Retina classname:Retina name:setup
+register (method) setup in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_setup_RetinaParameters)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getParameters',
+    'RetinaParameters',
+    ['/A'],
+    [],
+    None,
+    '@return the current parameters setup']
+parse_name: cv.bioinspired.Retina.getParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getParameters namespace:cv::bioinspired classpath:Retina classname:Retina name:getParameters
+register (method) getParameters in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getParameters)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.printSetup',
+    'const String',
+    ['/A'],
+    [],
+    None,
+    '@brief Outputs a string showing the used parameters setup\n'
+    '@return a string which contains formated parameters information']
+parse_name: cv.bioinspired.Retina.printSetup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::printSetup namespace:cv::bioinspired classpath:Retina classname:Retina name:printSetup
+register (method) printSetup in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_printSetup)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.write',
+    'void',
+    ['/A', '/C'],
+    [['String', 'fs', '', []]],
+    None,
+    '@brief Write xml/yml formated parameters information\n'
+    '@param fs the filename of the xml file that will be open and writen with '
+    'formatted parameters\n'
+    'information']
+parse_name: cv.bioinspired.Retina.write with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::write namespace:cv::bioinspired classpath:Retina classname:Retina name:write
+register (method) write in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_write_const_String)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.write',
+    'void',
+    ['/C'],
+    [['FileStorage&', 'fs', '', []]],
+    None,
+    '@overload']
+parse_name: cv.bioinspired.Retina.write with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::write namespace:cv::bioinspired classpath:Retina classname:Retina name:write
+register (method) write in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_write_const_FileStorage)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.setupOPLandIPLParvoChannel',
+    'void',
+    ['/A'],
+    [   ['const bool', 'colorMode', 'true', []],
+        ['const bool', 'normaliseOutput', 'true', []],
+        ['const float', 'photoreceptorsLocalAdaptationSensitivity', '0.7f', []],
+        ['const float', 'photoreceptorsTemporalConstant', '0.5f', []],
+        ['const float', 'photoreceptorsSpatialConstant', '0.53f', []],
+        ['const float', 'horizontalCellsGain', '0.f', []],
+        ['const float', 'HcellsTemporalConstant', '1.f', []],
+        ['const float', 'HcellsSpatialConstant', '7.f', []],
+        ['const float', 'ganglionCellsSensitivity', '0.7f', []]],
+    None,
+    '@brief Setup the OPL and IPL parvo channels (see biologocal model)\n'
+    '\n'
+    'OPL is referred as Outer Plexiform Layer of the retina, it allows the '
+    'spatio-temporal filtering\n'
+    'which withens the spectrum and reduces spatio-temporal noise while '
+    'attenuating global luminance\n'
+    '(low frequency energy) IPL parvo is the OPL next processing stage, it '
+    'refers to a part of the\n'
+    'Inner Plexiform layer of the retina, it allows high contours sensitivity '
+    'in foveal vision. See\n'
+    'reference papers for more informations.\n'
+    'for more informations, please have a look at the paper Benoit A., Caplier '
+    'A., Durette B., Herault, J., "USING HUMAN VISUAL SYSTEM MODELING FOR '
+    'BIO-INSPIRED LOW LEVEL IMAGE PROCESSING", Elsevier, Computer Vision and '
+    'Image Understanding 114 (2010), pp. 758-773, DOI: '
+    'http://dx.doi.org/10.1016/j.cviu.2010.01.011\n'
+    '@param colorMode specifies if (true) color is processed of not (false) to '
+    'then processing gray\n'
+    'level image\n'
+    '@param normaliseOutput specifies if (true) output is rescaled between 0 '
+    'and 255 of not (false)\n'
+    '@param photoreceptorsLocalAdaptationSensitivity the photoreceptors '
+    'sensitivity renage is 0-1\n'
+    '(more log compression effect when value increases)\n'
+    '@param photoreceptorsTemporalConstant the time constant of the first '
+    'order low pass filter of\n'
+    'the photoreceptors, use it to cut high temporal frequencies (noise or '
+    'fast motion), unit is\n'
+    'frames, typical value is 1 frame\n'
+    '@param photoreceptorsSpatialConstant the spatial constant of the first '
+    'order low pass filter of\n'
+    'the photoreceptors, use it to cut high spatial frequencies (noise or '
+    'thick contours), unit is\n'
+    'pixels, typical value is 1 pixel\n'
+    '@param horizontalCellsGain gain of the horizontal cells network, if 0, '
+    'then the mean value of\n'
+    'the output is zero, if the parameter is near 1, then, the luminance is '
+    'not filtered and is\n'
+    'still reachable at the output, typicall value is 0\n'
+    '@param HcellsTemporalConstant the time constant of the first order low '
+    'pass filter of the\n'
+    'horizontal cells, use it to cut low temporal frequencies (local luminance '
+    'variations), unit is\n'
+    'frames, typical value is 1 frame, as the photoreceptors\n'
+    '@param HcellsSpatialConstant the spatial constant of the first order low '
+    'pass filter of the\n'
+    'horizontal cells, use it to cut low spatial frequencies (local '
+    'luminance), unit is pixels,\n'
+    'typical value is 5 pixel, this value is also used for local contrast '
+    'computing when computing\n'
+    'the local contrast adaptation at the ganglion cells level (Inner '
+    'Plexiform Layer parvocellular\n'
+    'channel model)\n'
+    '@param ganglionCellsSensitivity the compression strengh of the ganglion '
+    'cells local adaptation\n'
+    'output, set a value between 0.6 and 1 for best results, a high value '
+    'increases more the low\n'
+    'value sensitivity... and the output saturates faster, recommended value: '
+    '0.7']
+parse_name: cv.bioinspired.Retina.setupOPLandIPLParvoChannel with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::setupOPLandIPLParvoChannel namespace:cv::bioinspired classpath:Retina classname:Retina name:setupOPLandIPLParvoChannel
+register (method) setupOPLandIPLParvoChannel in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_setupOPLandIPLParvoChannel_bool_bool_float_float_float_float_float_float_float)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.setupIPLMagnoChannel',
+    'void',
+    ['/A'],
+    [   ['const bool', 'normaliseOutput', 'true', []],
+        ['const float', 'parasolCells_beta', '0.f', []],
+        ['const float', 'parasolCells_tau', '0.f', []],
+        ['const float', 'parasolCells_k', '7.f', []],
+        ['const float', 'amacrinCellsTemporalCutFrequency', '1.2f', []],
+        ['const float', 'V0CompressionParameter', '0.95f', []],
+        ['const float', 'localAdaptintegration_tau', '0.f', []],
+        ['const float', 'localAdaptintegration_k', '7.f', []]],
+    None,
+    '@brief Set parameters values for the Inner Plexiform Layer (IPL) '
+    'magnocellular channel\n'
+    '\n'
+    'this channel processes signals output from OPL processing stage in '
+    'peripheral vision, it allows\n'
+    'motion information enhancement. It is decorrelated from the details '
+    'channel. See reference\n'
+    'papers for more details.\n'
+    '\n'
+    '@param normaliseOutput specifies if (true) output is rescaled between 0 '
+    'and 255 of not (false)\n'
+    '@param parasolCells_beta the low pass filter gain used for local contrast '
+    'adaptation at the\n'
+    'IPL level of the retina (for ganglion cells local adaptation), typical '
+    'value is 0\n'
+    '@param parasolCells_tau the low pass filter time constant used for local '
+    'contrast adaptation\n'
+    'at the IPL level of the retina (for ganglion cells local adaptation), '
+    'unit is frame, typical\n'
+    'value is 0 (immediate response)\n'
+    '@param parasolCells_k the low pass filter spatial constant used for local '
+    'contrast adaptation\n'
+    'at the IPL level of the retina (for ganglion cells local adaptation), '
+    'unit is pixels, typical\n'
+    'value is 5\n'
+    '@param amacrinCellsTemporalCutFrequency the time constant of the first '
+    'order high pass fiter of\n'
+    'the magnocellular way (motion information channel), unit is frames, '
+    'typical value is 1.2\n'
+    '@param V0CompressionParameter the compression strengh of the ganglion '
+    'cells local adaptation\n'
+    'output, set a value between 0.6 and 1 for best results, a high value '
+    'increases more the low\n'
+    'value sensitivity... and the output saturates faster, recommended value: '
+    '0.95\n'
+    '@param localAdaptintegration_tau specifies the temporal constant of the '
+    'low pas filter\n'
+    'involved in the computation of the local "motion mean" for the local '
+    'adaptation computation\n'
+    '@param localAdaptintegration_k specifies the spatial constant of the low '
+    'pas filter involved\n'
+    'in the computation of the local "motion mean" for the local adaptation '
+    'computation']
+parse_name: cv.bioinspired.Retina.setupIPLMagnoChannel with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::setupIPLMagnoChannel namespace:cv::bioinspired classpath:Retina classname:Retina name:setupIPLMagnoChannel
+register (method) setupIPLMagnoChannel in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_setupIPLMagnoChannel_bool_float_float_float_float_float_float_float)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.run',
+    'void',
+    ['/A'],
+    [['InputArray', 'inputImage', '', []]],
+    None,
+    '@brief Method which allows retina to be applied on an input image,\n'
+    '\n'
+    'after run, encapsulated retina module is ready to deliver its outputs '
+    'using dedicated\n'
+    'acccessors, see getParvo and getMagno methods\n'
+    '@param inputImage the input Mat image to be processed, can be gray level '
+    'or BGR coded in any\n'
+    'format (from 8bit to 16bits)']
+parse_name: cv.bioinspired.Retina.run with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::run namespace:cv::bioinspired classpath:Retina classname:Retina name:run
+register (method) run in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_run__InputArray)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.applyFastToneMapping',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'inputImage', '', []],
+        ['OutputArray', 'outputToneMappedImage', '', []]],
+    None,
+    '@brief Method which processes an image in the aim to correct its '
+    'luminance correct\n'
+    'backlight problems, enhance details in shadows.\n'
+    '\n'
+    'This method is designed to perform High Dynamic Range image tone mapping '
+    '(compress \\>8bit/pixel\n'
+    'images to 8bit/pixel). This is a simplified version of the Retina '
+    'Parvocellular model\n'
+    '(simplified version of the run/getParvo methods call) since it does not '
+    'include the\n'
+    'spatio-temporal filter modelling the Outer Plexiform Layer of the retina '
+    'that performs spectral\n'
+    'whitening and many other stuff. However, it works great for tone mapping '
+    'and in a faster way.\n'
+    '\n'
+    'Check the demos and experiments section to see examples and the way to '
+    'perform tone mapping\n'
+    'using the original retina model and the method.\n'
+    '\n'
+    '@param inputImage the input image to process (should be coded in float '
+    'format : CV_32F,\n'
+    "CV_32FC1, CV_32F_C3, CV_32F_C4, the 4th channel won't be considered).\n"
+    '@param outputToneMappedImage the output 8bit/channel tone mapped image '
+    '(CV_8U or CV_8UC3 format).']
+parse_name: cv.bioinspired.Retina.applyFastToneMapping with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::applyFastToneMapping namespace:cv::bioinspired classpath:Retina classname:Retina name:applyFastToneMapping
+register (method) applyFastToneMapping in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_applyFastToneMapping__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getParvo',
+    'void',
+    ['/A'],
+    [['OutputArray', 'retinaOutput_parvo', '', []]],
+    None,
+    '@brief Accessor of the details channel of the retina (models foveal '
+    'vision).\n'
+    '\n'
+    'Warning, getParvoRAW methods return buffers that are not rescaled within '
+    'range [0;255] while\n'
+    'the non RAW method allows a normalized matrix to be retrieved.\n'
+    '\n'
+    '@param retinaOutput_parvo the output buffer (reallocated if necessary), '
+    'format can be :\n'
+    '-   a Mat, this output is rescaled for standard 8bits image processing '
+    'use in OpenCV\n'
+    '-   RAW methods actually return a 1D matrix (encoding is R1, R2, ... Rn, '
+    'G1, G2, ..., Gn, B1,\n'
+    'B2, ...Bn), this output is the original retina filter model output, '
+    'without any\n'
+    'quantification or rescaling.\n'
+    '@see getParvoRAW']
+parse_name: cv.bioinspired.Retina.getParvo with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getParvo namespace:cv::bioinspired classpath:Retina classname:Retina name:getParvo
+register (method) getParvo in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getParvo__OutputArray)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getParvoRAW',
+    'void',
+    ['/A'],
+    [['OutputArray', 'retinaOutput_parvo', '', []]],
+    None,
+    '@brief Accessor of the details channel of the retina (models foveal '
+    'vision).\n'
+    '@see getParvo']
+parse_name: cv.bioinspired.Retina.getParvoRAW with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getParvoRAW namespace:cv::bioinspired classpath:Retina classname:Retina name:getParvoRAW
+register (method) getParvoRAW in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getParvoRAW__OutputArray)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getMagno',
+    'void',
+    ['/A'],
+    [['OutputArray', 'retinaOutput_magno', '', []]],
+    None,
+    '@brief Accessor of the motion channel of the retina (models peripheral '
+    'vision).\n'
+    '\n'
+    'Warning, getMagnoRAW methods return buffers that are not rescaled within '
+    'range [0;255] while\n'
+    'the non RAW method allows a normalized matrix to be retrieved.\n'
+    '@param retinaOutput_magno the output buffer (reallocated if necessary), '
+    'format can be :\n'
+    '-   a Mat, this output is rescaled for standard 8bits image processing '
+    'use in OpenCV\n'
+    '-   RAW methods actually return a 1D matrix (encoding is M1, M2,... Mn), '
+    'this output is the\n'
+    'original retina filter model output, without any quantification or '
+    'rescaling.\n'
+    '@see getMagnoRAW']
+parse_name: cv.bioinspired.Retina.getMagno with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getMagno namespace:cv::bioinspired classpath:Retina classname:Retina name:getMagno
+register (method) getMagno in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getMagno__OutputArray)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getMagnoRAW',
+    'void',
+    ['/A'],
+    [['OutputArray', 'retinaOutput_magno', '', []]],
+    None,
+    '@brief Accessor of the motion channel of the retina (models peripheral '
+    'vision).\n'
+    '@see getMagno']
+parse_name: cv.bioinspired.Retina.getMagnoRAW with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getMagnoRAW namespace:cv::bioinspired classpath:Retina classname:Retina name:getMagnoRAW
+register (method) getMagnoRAW in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getMagnoRAW__OutputArray)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getMagnoRAW',
+    'const Mat',
+    ['/A', '/C'],
+    [],
+    None,
+    '@overload']
+parse_name: cv.bioinspired.Retina.getMagnoRAW with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getMagnoRAW namespace:cv::bioinspired classpath:Retina classname:Retina name:getMagnoRAW
+register (method) getMagnoRAW in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getMagnoRAW_const)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.getParvoRAW',
+    'const Mat',
+    ['/A', '/C'],
+    [],
+    None,
+    '@overload']
+parse_name: cv.bioinspired.Retina.getParvoRAW with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::getParvoRAW namespace:cv::bioinspired classpath:Retina classname:Retina name:getParvoRAW
+register (method) getParvoRAW in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_getParvoRAW_const)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.setColorSaturation',
+    'void',
+    ['/A'],
+    [   ['const bool', 'saturateColors', 'true', []],
+        ['const float', 'colorSaturationValue', '4.0f', []]],
+    None,
+    '@brief Activate color saturation as the final step of the color '
+    'demultiplexing process -\\> this\n'
+    'saturation is a sigmoide function applied to each channel of the '
+    'demultiplexed image.\n'
+    '@param saturateColors boolean that activates color saturation (if true) '
+    'or desactivate (if false)\n'
+    '@param colorSaturationValue the saturation factor : a simple factor '
+    'applied on the chrominance\n'
+    'buffers']
+parse_name: cv.bioinspired.Retina.setColorSaturation with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::setColorSaturation namespace:cv::bioinspired classpath:Retina classname:Retina name:setColorSaturation
+register (method) setColorSaturation in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_setColorSaturation_bool_float)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.clearBuffers',
+    'void',
+    ['/A'],
+    [],
+    None,
+    '@brief Clears all retina buffers\n'
+    '\n'
+    '(equivalent to opening the eyes after a long period of eye close ;o) '
+    'whatchout the temporal\n'
+    'transition occuring just after this method call.']
+parse_name: cv.bioinspired.Retina.clearBuffers with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::clearBuffers namespace:cv::bioinspired classpath:Retina classname:Retina name:clearBuffers
+register (method) clearBuffers in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_clearBuffers)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.activateMovingContoursProcessing',
+    'void',
+    ['/A'],
+    [['const bool', 'activate', '', []]],
+    None,
+    '@brief Activate/desactivate the Magnocellular pathway processing (motion '
+    'information extraction), by\n'
+    'default, it is activated\n'
+    '@param activate true if Magnocellular output should be activated, false '
+    'if not... if activated,\n'
+    'the Magnocellular output can be retrieved using the **getMagno** methods']
+parse_name: cv.bioinspired.Retina.activateMovingContoursProcessing with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::activateMovingContoursProcessing namespace:cv::bioinspired classpath:Retina classname:Retina name:activateMovingContoursProcessing
+register (method) activateMovingContoursProcessing in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_activateMovingContoursProcessing_bool)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.activateContoursProcessing',
+    'void',
+    ['/A'],
+    [['const bool', 'activate', '', []]],
+    None,
+    '@brief Activate/desactivate the Parvocellular pathway processing '
+    '(contours information extraction), by\n'
+    'default, it is activated\n'
+    '@param activate true if Parvocellular (contours information extraction) '
+    'output should be\n'
+    'activated, false if not... if activated, the Parvocellular output can be '
+    'retrieved using the\n'
+    'Retina::getParvo methods']
+parse_name: cv.bioinspired.Retina.activateContoursProcessing with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::activateContoursProcessing namespace:cv::bioinspired classpath:Retina classname:Retina name:activateContoursProcessing
+register (method) activateContoursProcessing in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_activateContoursProcessing_bool)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.create',
+    'Ptr<Retina>',
+    ['/S'],
+    [['Size', 'inputSize', '', []]],
+    None,
+    '@overload']
+parse_name: cv.bioinspired.Retina.create with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::create namespace:cv::bioinspired classpath:Retina classname:Retina name:create
+register (method) create in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_create_Size)
+
+--- Incoming ---
+[   'cv.bioinspired.Retina.create',
+    'Ptr<Retina>',
+    ['/S'],
+    [   ['Size', 'inputSize', '', []],
+        ['const bool', 'colorMode', '', []],
+        ['int', 'colorSamplingMethod', 'RETINA_COLOR_BAYER', []],
+        ['const bool', 'useRetinaLogSampling', 'false', []],
+        ['const float', 'reductionFactor', '1.0f', []],
+        ['const float', 'samplingStrenght', '10.0f', []]],
+    None,
+    '@brief Constructors from standardized interfaces : retreive a smart '
+    'pointer to a Retina instance\n'
+    '\n'
+    '@param inputSize the input frame size\n'
+    '@param colorMode the chosen processing mode : with or without color '
+    'processing\n'
+    '@param colorSamplingMethod specifies which kind of color sampling will be '
+    'used :\n'
+    '-   cv::bioinspired::RETINA_COLOR_RANDOM: each pixel position is either '
+    'R, G or B in a random choice\n'
+    '-   cv::bioinspired::RETINA_COLOR_DIAGONAL: color sampling is '
+    'RGBRGBRGB..., line 2 BRGBRGBRG..., line 3, GBRGBRGBR...\n'
+    '-   cv::bioinspired::RETINA_COLOR_BAYER: standard bayer sampling\n'
+    '@param useRetinaLogSampling activate retina log sampling, if true, the 2 '
+    'following parameters can\n'
+    'be used\n'
+    '@param reductionFactor only usefull if param useRetinaLogSampling=true, '
+    'specifies the reduction\n'
+    'factor of the output frame (as the center (fovea) is high resolution and '
+    'corners can be\n'
+    'underscaled, then a reduction of the output is allowed without precision '
+    'leak\n'
+    '@param samplingStrenght only usefull if param useRetinaLogSampling=true, '
+    'specifies the strenght of\n'
+    'the log scale that is applied']
+parse_name: cv.bioinspired.Retina.create with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::Retina::create namespace:cv::bioinspired classpath:Retina classname:Retina name:create
+register (method) create in cv::bioinspired::Retina (trait) (cv_bioinspired_Retina_create_Size_bool_int_bool_float_float)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired/retinafasttonemapping.hpp ================
+
+
+Namespaces: ['cv', 'cv.bioinspired']
+Comment: {'bioinspired': ' @defgroup bioinspired Biologically inspired vision models and derivated tools\n\nThe module provides biological visual systems models (human visual system and others). It also\nprovides derivated objects that take advantage of those bio-inspired models.\n\n@ref bioinspired_retina\n\n\n'}
+
+--- Incoming ---
+[   'class cv.bioinspired.RetinaFastToneMapping',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief  a wrapper class which allows the tone mapping algorithm of '
+    'Meylan&al(2007) to be used with OpenCV.\n'
+    '\n'
+    'This algorithm is already implemented in thre Retina class '
+    '(retina::applyFastToneMapping) but used it does not require all the '
+    'retina model to be allocated. This allows a light memory use for low '
+    'memory devices (smartphones, etc.\n'
+    'As a summary, these are the model properties:\n'
+    '- 2 stages of local luminance adaptation with a different local '
+    'neighborhood for each.\n'
+    '- first stage models the retina photorecetors local luminance adaptation\n'
+    '- second stage models th ganglion cells local information adaptation\n'
+    '- compared to the initial publication, this class uses spatio-temporal '
+    'low pass filters instead of spatial only filters.\n'
+    'this can help noise robustness and temporal stability for video sequence '
+    'use cases.\n'
+    '\n'
+    'for more information, read to the following papers :\n'
+    'Meylan L., Alleysson D., and Susstrunk S., A Model of Retinal Local '
+    'Adaptation for the Tone Mapping of Color Filter Array Images, Journal of '
+    'Optical Society of America, A, Vol. 24, N 9, September, 1st, 2007, pp. '
+    '2807-2816Benoit A., Caplier A., Durette B., Herault, J., "USING HUMAN '
+    'VISUAL SYSTEM MODELING FOR BIO-INSPIRED LOW LEVEL IMAGE PROCESSING", '
+    'Elsevier, Computer Vision and Image Understanding 114 (2010), pp. '
+    '758-773, DOI: http://dx.doi.org/10.1016/j.cviu.2010.01.011\n'
+    'regarding spatio-temporal filter and the bigger retina model :\n'
+    'Vision: Images, Signals and Neural Networks: Models of Neural Processing '
+    'in Visual Perception (Progress in Neural Processing),By: Jeanny Herault, '
+    'ISBN: 9814273686. WAPI (Tower ID): 113266891.']
+parse_name: class cv.bioinspired.RetinaFastToneMapping with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaFastToneMapping namespace:cv::bioinspired classpath: classname: name:RetinaFastToneMapping
+register class cv::bioinspired::RetinaFastToneMapping (['class cv.bioinspired.RetinaFastToneMapping', ': cv::Algorithm', [], [], None, '@brief  a wrapper class which allows the tone mapping algorithm of Meylan&al(2007) to be used with OpenCV.\n\nThis algorithm is already implemented in thre Retina class (retina::applyFastToneMapping) but used it does not require all the retina model to be allocated. This allows a light memory use for low memory devices (smartphones, etc.\nAs a summary, these are the model properties:\n- 2 stages of local luminance adaptation with a different local neighborhood for each.\n- first stage models the retina photorecetors local luminance adaptation\n- second stage models th ganglion cells local information adaptation\n- compared to the initial publication, this class uses spatio-temporal low pass filters instead of spatial only filters.\nthis can help noise robustness and temporal stability for video sequence use cases.\n\nfor more information, read to the following papers :\nMeylan L., Alleysson D., and Susstrunk S., A Model of Retinal Local Adaptation for the Tone Mapping of Color Filter Array Images, Journal of Optical Society of America, A, Vol. 24, N 9, September, 1st, 2007, pp. 2807-2816Benoit A., Caplier A., Durette B., Herault, J., "USING HUMAN VISUAL SYSTEM MODELING FOR BIO-INSPIRED LOW LEVEL IMAGE PROCESSING", Elsevier, Computer Vision and Image Understanding 114 (2010), pp. 758-773, DOI: http://dx.doi.org/10.1016/j.cviu.2010.01.011\nregarding spatio-temporal filter and the bigger retina model :\nVision: Images, Signals and Neural Networks: Models of Neural Processing in Visual Perception (Progress in Neural Processing),By: Jeanny Herault, ISBN: 9814273686. WAPI (Tower ID): 113266891.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.bioinspired.RetinaFastToneMapping.applyFastToneMapping',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'inputImage', '', []],
+        ['OutputArray', 'outputToneMappedImage', '', []]],
+    None,
+    '@brief applies a luminance correction (initially High Dynamic Range (HDR) '
+    'tone mapping)\n'
+    '\n'
+    'using only the 2 local adaptation stages of the retina parvocellular '
+    'channel : photoreceptors\n'
+    'level and ganlion cells level. Spatio temporal filtering is applied but '
+    'limited to temporal\n'
+    'smoothing and eventually high frequencies attenuation. This is a lighter '
+    'method than the one\n'
+    'available using the regular retina::run method. It is then faster but it '
+    'does not include\n'
+    'complete temporal filtering nor retina spectral whitening. Then, it can '
+    'have a more limited\n'
+    'effect on images with a very high dynamic range. This is an adptation of '
+    'the original still\n'
+    'image HDR tone mapping algorithm of David Alleyson, Sabine Susstruck and '
+    "Laurence Meylan's\n"
+    'work, please cite: -> Meylan L., Alleysson D., and Susstrunk S., A Model '
+    'of Retinal Local\n'
+    'Adaptation for the Tone Mapping of Color Filter Array Images, Journal of '
+    'Optical Society of\n'
+    'America, A, Vol. 24, N 9, September, 1st, 2007, pp. 2807-2816\n'
+    '\n'
+    '@param inputImage the input image to process RGB or gray levels\n'
+    '@param outputToneMappedImage the output tone mapped image']
+parse_name: cv.bioinspired.RetinaFastToneMapping.applyFastToneMapping with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaFastToneMapping::applyFastToneMapping namespace:cv::bioinspired classpath:RetinaFastToneMapping classname:RetinaFastToneMapping name:applyFastToneMapping
+register (method) applyFastToneMapping in cv::bioinspired::RetinaFastToneMapping (trait) (cv_bioinspired_RetinaFastToneMapping_applyFastToneMapping__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.bioinspired.RetinaFastToneMapping.setup',
+    'void',
+    ['/A'],
+    [   ['const float', 'photoreceptorsNeighborhoodRadius', '3.f', []],
+        ['const float', 'ganglioncellsNeighborhoodRadius', '1.f', []],
+        ['const float', 'meanLuminanceModulatorK', '1.f', []]],
+    None,
+    '@brief updates tone mapping behaviors by adjusing the local luminance '
+    'computation area\n'
+    '\n'
+    '@param photoreceptorsNeighborhoodRadius the first stage local adaptation '
+    'area\n'
+    '@param ganglioncellsNeighborhoodRadius the second stage local adaptation '
+    'area\n'
+    '@param meanLuminanceModulatorK the factor applied to modulate the '
+    'meanLuminance information\n'
+    '(default is 1, see reference paper)']
+parse_name: cv.bioinspired.RetinaFastToneMapping.setup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaFastToneMapping::setup namespace:cv::bioinspired classpath:RetinaFastToneMapping classname:RetinaFastToneMapping name:setup
+register (method) setup in cv::bioinspired::RetinaFastToneMapping (trait) (cv_bioinspired_RetinaFastToneMapping_setup_float_float_float)
+
+--- Incoming ---
+[   'cv.bioinspired.RetinaFastToneMapping.create',
+    'Ptr<RetinaFastToneMapping>',
+    ['/S'],
+    [['Size', 'inputSize', '', []]],
+    None,
+    '']
+parse_name: cv.bioinspired.RetinaFastToneMapping.create with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::RetinaFastToneMapping::create namespace:cv::bioinspired classpath:RetinaFastToneMapping classname:RetinaFastToneMapping name:create
+register (method) create in cv::bioinspired::RetinaFastToneMapping (trait) (cv_bioinspired_RetinaFastToneMapping_create_Size)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired/transientareassegmentationmodule.hpp ================
+
+
+Namespaces: ['cv', 'cv.bioinspired']
+Comment: {'bioinspired': ' @defgroup bioinspired Biologically inspired vision models and derivated tools\n\nThe module provides biological visual systems models (human visual system and others). It also\nprovides derivated objects that take advantage of those bio-inspired models.\n\n@ref bioinspired_retina\n\n\n'}
+
+--- Incoming ---
+[   'struct cv.bioinspired.SegmentationParameters',
+    '',
+    [],
+    [],
+    None,
+    '@brief parameter structure that stores the transient events detector '
+    'setup parameters']
+parse_name: struct cv.bioinspired.SegmentationParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::SegmentationParameters namespace:cv::bioinspired classpath: classname: name:SegmentationParameters
+register class cv::bioinspired::SegmentationParameters (['struct cv.bioinspired.SegmentationParameters', '', [], [], None, '@brief parameter structure that stores the transient events detector setup parameters'])
+
+--- Incoming ---
+[   'cv.bioinspired.SegmentationParameters.SegmentationParameters',
+    'S',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.bioinspired.SegmentationParameters.SegmentationParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::SegmentationParameters::SegmentationParameters namespace:cv::bioinspired classpath:SegmentationParameters classname:SegmentationParameters name:SegmentationParameters
+register (constructor) default in cv::bioinspired::SegmentationParameters (cv_bioinspired_SegmentationParameters_SegmentationParameters)
+
+--- Incoming ---
+[   'class cv.bioinspired.TransientAreasSegmentationModule',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief class which provides a transient/moving areas segmentation module\n'
+    '\n'
+    'perform a locally adapted segmentation by using the retina magno input '
+    'data Based on Alexandre\n'
+    'BENOIT thesis: "Le système visuel humain au secours de la vision par '
+    'ordinateur"\n'
+    '\n'
+    '3 spatio temporal filters are used:\n'
+    '- a first one which filters the noise and local variations of the input '
+    'motion energy\n'
+    '- a second (more powerfull low pass spatial filter) which gives the '
+    'neighborhood motion energy the\n'
+    'segmentation consists in the comparison of these both outputs, if the '
+    'local motion energy is higher\n'
+    'to the neighborhood otion energy, then the area is considered as moving '
+    'and is segmented\n'
+    '- a stronger third low pass filter helps decision by providing a smooth '
+    'information about the\n'
+    '"motion context" in a wider area']
+parse_name: class cv.bioinspired.TransientAreasSegmentationModule with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule namespace:cv::bioinspired classpath: classname: name:TransientAreasSegmentationModule
+register class cv::bioinspired::TransientAreasSegmentationModule (['class cv.bioinspired.TransientAreasSegmentationModule', ': cv::Algorithm', [], [], None, '@brief class which provides a transient/moving areas segmentation module\n\nperform a locally adapted segmentation by using the retina magno input data Based on Alexandre\nBENOIT thesis: "Le système visuel humain au secours de la vision par ordinateur"\n\n3 spatio temporal filters are used:\n- a first one which filters the noise and local variations of the input motion energy\n- a second (more powerfull low pass spatial filter) which gives the neighborhood motion energy the\nsegmentation consists in the comparison of these both outputs, if the local motion energy is higher\nto the neighborhood otion energy, then the area is considered as moving and is segmented\n- a stronger third low pass filter helps decision by providing a smooth information about the\n"motion context" in a wider area']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.getSize',
+    'Size',
+    ['/A'],
+    [],
+    None,
+    '@brief return the sze of the manage input and output images']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.getSize with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::getSize namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:getSize
+register (method) getSize in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_getSize)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.setup',
+    'void',
+    ['/A'],
+    [   ['String', 'segmentationParameterFile', '""', []],
+        ['const bool', 'applyDefaultSetupOnFailure', 'true', []]],
+    None,
+    '@brief try to open an XML segmentation parameters file to adjust current '
+    'segmentation instance setup\n'
+    '\n'
+    '- if the xml file does not exist, then default setup is applied\n'
+    '- warning, Exceptions are thrown if read XML file is not valid\n'
+    '@param segmentationParameterFile : the parameters filename\n'
+    '@param applyDefaultSetupOnFailure : set to true if an error must be '
+    'thrown on error']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.setup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::setup namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:setup
+register (method) setup in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_setup_String_bool)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.setup',
+    'void',
+    ['/A'],
+    [   ['cv::FileStorage &', 'fs', '', []],
+        ['const bool', 'applyDefaultSetupOnFailure', 'true', []]],
+    None,
+    '@brief try to open an XML segmentation parameters file to adjust current '
+    'segmentation instance setup\n'
+    '\n'
+    '- if the xml file does not exist, then default setup is applied\n'
+    '- warning, Exceptions are thrown if read XML file is not valid\n'
+    '@param fs : the open Filestorage which contains segmentation parameters\n'
+    '@param applyDefaultSetupOnFailure : set to true if an error must be '
+    'thrown on error']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.setup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::setup namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:setup
+register (method) setup in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_setup_FileStorage_bool)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.setup',
+    'void',
+    ['/A'],
+    [['SegmentationParameters', 'newParameters', '', []]],
+    None,
+    '@brief try to open an XML segmentation parameters file to adjust current '
+    'segmentation instance setup\n'
+    '\n'
+    '- if the xml file does not exist, then default setup is applied\n'
+    '- warning, Exceptions are thrown if read XML file is not valid\n'
+    '@param newParameters : a parameters structures updated with the new '
+    'target configuration']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.setup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::setup namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:setup
+register (method) setup in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_setup_SegmentationParameters)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.getParameters',
+    'SegmentationParameters',
+    ['/A'],
+    [],
+    None,
+    '@brief return the current parameters setup']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.getParameters with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::getParameters namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:getParameters
+register (method) getParameters in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_getParameters)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.printSetup',
+    'const String',
+    ['/A'],
+    [],
+    None,
+    '@brief parameters setup display method\n'
+    '@return a string which contains formatted parameters information']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.printSetup with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::printSetup namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:printSetup
+register (method) printSetup in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_printSetup)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.write',
+    'void',
+    ['/A', '/C'],
+    [['String', 'fs', '', []]],
+    None,
+    '@brief write xml/yml formated parameters information\n'
+    '@param fs : the filename of the xml file that will be open and writen '
+    'with formatted parameters information']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.write with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::write namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:write
+register (method) write in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_write_const_String)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.write',
+    'void',
+    ['/C'],
+    [['cv::FileStorage&', 'fs', '', []]],
+    None,
+    '@brief write xml/yml formated parameters information\n'
+    '@param fs : a cv::Filestorage object ready to be filled']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.write with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::write namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:write
+register (method) write in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_write_const_FileStorage)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.run',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'inputToSegment', '', []],
+        ['const int', 'channelIndex', '0', []]],
+    None,
+    '@brief main processing method, get result using methods '
+    'getSegmentationPicture()\n'
+    '@param inputToSegment : the image to process, it must match the instance '
+    'buffer size !\n'
+    '@param channelIndex : the channel to process in case of multichannel '
+    'images']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.run with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::run namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:run
+register (method) run in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_run__InputArray_int)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.getSegmentationPicture',
+    'void',
+    ['/A'],
+    [['OutputArray', 'transientAreas', '', []]],
+    None,
+    '@brief access function\n'
+    'return the last segmentation result: a boolean picture which is resampled '
+    'between 0 and 255 for a display purpose']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.getSegmentationPicture with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::getSegmentationPicture namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:getSegmentationPicture
+register (method) getSegmentationPicture in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_getSegmentationPicture__OutputArray)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.clearAllBuffers',
+    'void',
+    ['/A'],
+    [],
+    None,
+    '@brief cleans all the buffers of the instance']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.clearAllBuffers with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::clearAllBuffers namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:clearAllBuffers
+register (method) clearAllBuffers in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_clearAllBuffers)
+
+--- Incoming ---
+[   'cv.bioinspired.TransientAreasSegmentationModule.create',
+    'Ptr<TransientAreasSegmentationModule>',
+    ['/S'],
+    [['Size', 'inputSize', '', []]],
+    None,
+    '@brief allocator\n'
+    '@param inputSize : size of the images input to segment (output will be '
+    'the same size)']
+parse_name: cv.bioinspired.TransientAreasSegmentationModule.create with ['cv', 'cv::bioinspired'] -> fullname:cv::bioinspired::TransientAreasSegmentationModule::create namespace:cv::bioinspired classpath:TransientAreasSegmentationModule classname:TransientAreasSegmentationModule name:create
+register (method) create in cv::bioinspired::TransientAreasSegmentationModule (trait) (cv_bioinspired_TransientAreasSegmentationModule_create_Size)
+
+
+===== Generating... =====
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Generating impl for trait cv::bioinspired::Retina (trait)
+Generating func cv_bioinspired_Retina_getInputSize
+Generating func cv_bioinspired_Retina_getOutputSize
+Generating func cv_bioinspired_Retina_setup_String_bool
+Generating func cv_bioinspired_Retina_setup_FileStorage_bool
+Generating func cv_bioinspired_Retina_setup_RetinaParameters
+Generating func cv_bioinspired_Retina_getParameters
+Generating func cv_bioinspired_Retina_printSetup
+Generating func cv_bioinspired_Retina_write_const_String
+Generating func cv_bioinspired_Retina_write_const_FileStorage
+Generating func cv_bioinspired_Retina_setupOPLandIPLParvoChannel_bool_bool_float_float_float_float_float_float_float
+Generating func cv_bioinspired_Retina_setupIPLMagnoChannel_bool_float_float_float_float_float_float_float
+Generating func cv_bioinspired_Retina_run__InputArray
+Generating func cv_bioinspired_Retina_applyFastToneMapping__InputArray__OutputArray
+Generating func cv_bioinspired_Retina_getParvo__OutputArray
+Generating func cv_bioinspired_Retina_getParvoRAW__OutputArray
+Generating func cv_bioinspired_Retina_getMagno__OutputArray
+Generating func cv_bioinspired_Retina_getMagnoRAW__OutputArray
+Generating func cv_bioinspired_Retina_getMagnoRAW_const
+Generating func cv_bioinspired_Retina_getParvoRAW_const
+Generating func cv_bioinspired_Retina_setColorSaturation_bool_float
+Generating func cv_bioinspired_Retina_clearBuffers
+Generating func cv_bioinspired_Retina_activateMovingContoursProcessing_bool
+Generating func cv_bioinspired_Retina_activateContoursProcessing_bool
+Generating func cv_bioinspired_Retina_create_Size
+Generating func cv_bioinspired_Retina_create_Size_bool_int_bool_float_float
+Generating impl for trait cv::bioinspired::RetinaFastToneMapping (trait)
+Generating func cv_bioinspired_RetinaFastToneMapping_applyFastToneMapping__InputArray__OutputArray
+Generating func cv_bioinspired_RetinaFastToneMapping_setup_float_float_float
+Generating func cv_bioinspired_RetinaFastToneMapping_create_Size
+Generating box for cv::bioinspired::RetinaParameters
+Generating box for cv::bioinspired::RetinaParameters::IplMagnoParameters
+Generating func cv_bioinspired_RetinaParameters_IplMagnoParameters_IplMagnoParameters
+Generating box for cv::bioinspired::RetinaParameters::OPLandIplParvoParameters
+Generating func cv_bioinspired_RetinaParameters_OPLandIplParvoParameters_OPLandIplParvoParameters
+Generating box for cv::bioinspired::SegmentationParameters
+Generating func cv_bioinspired_SegmentationParameters_SegmentationParameters
+Generating impl for trait cv::bioinspired::TransientAreasSegmentationModule (trait)
+Generating func cv_bioinspired_TransientAreasSegmentationModule_getSize
+Generating func cv_bioinspired_TransientAreasSegmentationModule_setup_String_bool
+Generating func cv_bioinspired_TransientAreasSegmentationModule_setup_FileStorage_bool
+Generating func cv_bioinspired_TransientAreasSegmentationModule_setup_SegmentationParameters
+Generating func cv_bioinspired_TransientAreasSegmentationModule_getParameters
+Generating func cv_bioinspired_TransientAreasSegmentationModule_printSetup
+Generating func cv_bioinspired_TransientAreasSegmentationModule_write_const_String
+Generating func cv_bioinspired_TransientAreasSegmentationModule_write_const_FileStorage
+Generating func cv_bioinspired_TransientAreasSegmentationModule_run__InputArray_int
+Generating func cv_bioinspired_TransientAreasSegmentationModule_getSegmentationPicture__OutputArray
+Generating func cv_bioinspired_TransientAreasSegmentationModule_clearAllBuffers
+Generating func cv_bioinspired_TransientAreasSegmentationModule_create_Size
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

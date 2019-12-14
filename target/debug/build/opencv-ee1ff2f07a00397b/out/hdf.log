@@ -1,0 +1,1660 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/hdf.hpp ================
+
+
+Namespaces: []
+Comment: {'hdf': ' @defgroup hdf Hierarchical Data Format I/O routines\n\nThis module provides storage routines for Hierarchical Data Format objects.\n\n@{\n@defgroup hdf5 Hierarchical Data Format version 5\n\nHierarchical Data Format version 5\n--------------------------------------------------------\n\nIn order to use it, the hdf5 library has to be installed, which\nmeans cmake should find it using `find_package(HDF5)` .\n\n\n@}\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/hdf/hdf5.hpp ================
+
+
+Namespaces: ['cv', 'cv.hdf']
+Comment: {'hdf': ' @defgroup hdf Hierarchical Data Format I/O routines\n\nThis module provides storage routines for Hierarchical Data Format objects.\n\n@{\n@defgroup hdf5 Hierarchical Data Format version 5\n\nHierarchical Data Format version 5\n--------------------------------------------------------\n\nIn order to use it, the hdf5 library has to be installed, which\nmeans cmake should find it using `find_package(HDF5)` .\n\n\n@}\n\n'}
+
+--- Incoming ---
+[   'class cv.hdf.HDF5',
+    '',
+    [],
+    [],
+    None,
+    '@brief Hierarchical Data Format version 5 interface.\n'
+    '\n'
+    'Notice that this module is compiled only when hdf5 is correctly '
+    'installed.']
+parse_name: class cv.hdf.HDF5 with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5 namespace:cv::hdf classpath: classname: name:HDF5
+register class cv::hdf::HDF5 (['class cv.hdf.HDF5', '', [], [], None, '@brief Hierarchical Data Format version 5 interface.\n\nNotice that this module is compiled only when hdf5 is correctly installed.'])
+
+--- Incoming ---
+['cv.hdf.HDF5.~HDF5', '~', [], [], None, '']
+parse_name: cv.hdf.HDF5.~HDF5 with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::~HDF5 namespace:cv::hdf classpath:HDF5 classname:HDF5 name:~HDF5
+Registering an unknown type: ~
+ignore destructor (method) ~HDF5 in cv::hdf::HDF5
+
+--- Incoming ---
+[   'cv.hdf.HDF5.close',
+    'void',
+    ['/A'],
+    [],
+    None,
+    '@brief Close and release hdf5 object.']
+parse_name: cv.hdf.HDF5.close with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::close namespace:cv::hdf classpath:HDF5 classname:HDF5 name:close
+register (method) close in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_close)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.grcreate',
+    'void',
+    ['/A'],
+    [['const String&', 'grlabel', '', []]],
+    None,
+    '@brief Create a group.\n'
+    '@param grlabel specify the hdf5 group label.\n'
+    '\n'
+    'Create a hdf5 group with default properties. The group is closed '
+    'automatically after creation.\n'
+    '\n'
+    '@note Groups are useful for better organising multiple datasets. It is '
+    'possible to create subgroups within any group.\n'
+    'Existence of a particular group can be checked using hlexists(). In case '
+    "of subgroups, a label would be e.g: 'Group1/SubGroup1'\n"
+    'where SubGroup1 is within the root group Group1. Before creating a '
+    'subgroup, its parent group MUST be created.\n'
+    '\n'
+    '- In this example, Group1 will have one subgroup called SubGroup1:\n'
+    '\n'
+    '@snippet samples/create_groups.cpp create_group\n'
+    '\n'
+    'The corresponding result visualized using the HDFView tool is\n'
+    '\n'
+    '![Visualization of groups using the HDFView '
+    'tool](pics/create_groups.png)\n'
+    '\n'
+    '@note When a dataset is created with dscreate() or kpcreate(), it can be '
+    'created within a group by specifying the\n'
+    'full path within the label. In our example, it would be: '
+    "'Group1/SubGroup1/MyDataSet'. It is not thread safe."]
+parse_name: cv.hdf.HDF5.grcreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::grcreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:grcreate
+register (method) grcreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_grcreate_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.hlexists',
+    'bool',
+    ['/A', '/C'],
+    [['const String&', 'label', '', []]],
+    None,
+    '@brief Check if label exists or not.\n'
+    '@param label specify the hdf5 dataset label.\n'
+    '\n'
+    'Returns **true** if dataset exists, and **false** otherwise.\n'
+    '\n'
+    '@note Checks if dataset, group or other object type (hdf5 link) exists '
+    'under the label name. It is thread safe.']
+parse_name: cv.hdf.HDF5.hlexists with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::hlexists namespace:cv::hdf classpath:HDF5 classname:HDF5 name:hlexists
+register (method) hlexists in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_hlexists_const_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atexists',
+    'bool',
+    ['/A', '/C'],
+    [['const String&', 'atlabel', '', []]],
+    None,
+    '* Check whether a given attribute exits or not in the root group.\n'
+    '*\n'
+    '* @param atlabel the attribute name to be checked.\n'
+    '* @return true if the attribute exists, false otherwise.\n'
+    '*\n'
+    '* @sa atdelete, atwrite, atread']
+parse_name: cv.hdf.HDF5.atexists with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atexists namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atexists
+register (method) atexists in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atexists_const_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atdelete',
+    'void',
+    ['/A'],
+    [['const String&', 'atlabel', '', []]],
+    None,
+    '* Delete an attribute from the root group.\n'
+    '*\n'
+    '* @param atlabel the attribute to be deleted.\n'
+    '*\n'
+    '* @note CV_Error() is called if the given attribute does not exist. Use '
+    'atexists()\n'
+    '* to check whether it exists or not beforehand.\n'
+    '*\n'
+    '* @sa atexists, atwrite, atread']
+parse_name: cv.hdf.HDF5.atdelete with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atdelete namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atdelete
+register (method) atdelete in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atdelete_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atwrite',
+    'void',
+    ['/A'],
+    [['const int', 'value', '', []], ['const String&', 'atlabel', '', []]],
+    None,
+    '* Write an attribute inside the root group.\n'
+    '*\n'
+    '* @param value attribute value.\n'
+    '* @param atlabel attribute name.\n'
+    '*\n'
+    '* The following example demonstrates how to write an attribute of type '
+    'cv::String:\n'
+    '*\n'
+    '*  @snippet samples/read_write_attributes.cpp snippets_write_str\n'
+    '*\n'
+    '* @note CV_Error() is called if the given attribute already exists. Use '
+    'atexists()\n'
+    '* to check whether it exists or not beforehand. And use atdelete() to '
+    'delete\n'
+    '* it if it already exists.\n'
+    '*\n'
+    '* @sa atexists, atdelete, atread']
+parse_name: cv.hdf.HDF5.atwrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atwrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atwrite
+register (method) atwrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atwrite_int_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atread',
+    'void',
+    ['/A'],
+    [['int*', 'value', '', []], ['const String&', 'atlabel', '', []]],
+    None,
+    '* Read an attribute from the root group.\n'
+    '*\n'
+    '* @param value address where the attribute is read into\n'
+    '* @param atlabel attribute name\n'
+    '*\n'
+    '* The following example demonstrates how to read an attribute of type '
+    'cv::String:\n'
+    '*\n'
+    '*  @snippet samples/read_write_attributes.cpp snippets_read_str\n'
+    '*\n'
+    '* @note The attribute MUST exist, otherwise CV_Error() is called. Use '
+    'atexists()\n'
+    '* to check if it exists beforehand.\n'
+    '*\n'
+    '* @sa atexists, atdelete, atwrite']
+parse_name: cv.hdf.HDF5.atread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atread
+register (method) atread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atread_int_X_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atwrite',
+    'void',
+    ['/A'],
+    [['const double', 'value', '', []], ['const String&', 'atlabel', '', []]],
+    None,
+    '@overload']
+parse_name: cv.hdf.HDF5.atwrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atwrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atwrite
+register (method) atwrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atwrite_double_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atread',
+    'void',
+    ['/A'],
+    [['double*', 'value', '', []], ['const String&', 'atlabel', '', []]],
+    None,
+    '@overload']
+parse_name: cv.hdf.HDF5.atread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atread
+register (method) atread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atread_double_X_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atwrite',
+    'void',
+    ['/A'],
+    [['const String&', 'value', '', []], ['const String&', 'atlabel', '', []]],
+    None,
+    '@overload']
+parse_name: cv.hdf.HDF5.atwrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atwrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atwrite
+register (method) atwrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atwrite_String_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atread',
+    'void',
+    ['/A'],
+    [['String*', 'value', '', []], ['const String&', 'atlabel', '', []]],
+    None,
+    '@overload']
+parse_name: cv.hdf.HDF5.atread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atread
+register (method) atread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atread_String_X_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atwrite',
+    'void',
+    ['/A'],
+    [['InputArray', 'value', '', []], ['const String&', 'atlabel', '', []]],
+    None,
+    '* Write an attribute into the root group.\n'
+    '*\n'
+    '* @param value attribute value. Currently, only n-d continuous '
+    'multi-channel arrays are supported.\n'
+    '* @param atlabel attribute name.\n'
+    '*\n'
+    '* @note CV_Error() is called if the given attribute already exists. Use '
+    'atexists()\n'
+    '* to check whether it exists or not beforehand. And use atdelete() to '
+    'delete\n'
+    '* it if it already exists.\n'
+    '*\n'
+    '* @sa atexists, atdelete, atread.']
+parse_name: cv.hdf.HDF5.atwrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atwrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atwrite
+register (method) atwrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atwrite__InputArray_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.atread',
+    'void',
+    ['/A'],
+    [['OutputArray', 'value', '', []], ['const String&', 'atlabel', '', []]],
+    None,
+    '* Read an attribute from the root group.\n'
+    '*\n'
+    '* @param value attribute value. Currently, only n-d continuous '
+    'multi-channel arrays are supported.\n'
+    '* @param atlabel attribute name.\n'
+    '*\n'
+    '* @note The attribute MUST exist, otherwise CV_Error() is called. Use '
+    'atexists()\n'
+    '* to check if it exists beforehand.\n'
+    '*\n'
+    '* @sa atexists, atdelete, atwrite']
+parse_name: cv.hdf.HDF5.atread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::atread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:atread
+register (method) atread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_atread__OutputArray_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dscreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const int', 'rows', '', []],
+        ['const int', 'cols', '', []],
+        ['const int', 'type', '', []],
+        ['const String&', 'dslabel', '', []]],
+    None,
+    '@overload']
+parse_name: cv.hdf.HDF5.dscreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dscreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dscreate
+register (method) dscreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dscreate_const_int_int_int_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dscreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const int', 'rows', '', []],
+        ['const int', 'cols', '', []],
+        ['const int', 'type', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int', 'compresslevel', '', []]],
+    None,
+    '@overload']
+parse_name: cv.hdf.HDF5.dscreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dscreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dscreate
+register (method) dscreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dscreate_const_int_int_int_String_int)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dscreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const int', 'rows', '', []],
+        ['const int', 'cols', '', []],
+        ['const int', 'type', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int', 'compresslevel', '', []],
+        ['const vector<int>&', 'dims_chunks', '', []]],
+    None,
+    '@overload']
+parse_name: cv.hdf.HDF5.dscreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dscreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dscreate
+register (method) dscreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dscreate_const_int_int_int_String_int_VectorOfint)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dscreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const int', 'rows', '', []],
+        ['const int', 'cols', '', []],
+        ['const int', 'type', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int', 'compresslevel', '', []],
+        ['const int*', 'dims_chunks', '', []]],
+    None,
+    '@brief Create and allocate storage for two dimensional single or multi '
+    'channel dataset.\n'
+    '@param rows declare amount of rows\n'
+    '@param cols declare amount of columns\n'
+    '@param type type to be used, e.g, CV_8UC3, CV_32FC1 and etc.\n'
+    '@param dslabel specify the hdf5 dataset label. Existing dataset label '
+    'will cause an error.\n'
+    '@param compresslevel specify the compression level 0-9 to be used, '
+    'H5_NONE is the default value and means no compression.\n'
+    'The value 0 also means no compression.\n'
+    'A value 9 indicating the best compression ration. Note\n'
+    'that a higher compression level indicates a higher computational cost. It '
+    'relies\n'
+    'on GNU gzip for compression.\n'
+    '@param dims_chunks each array member specifies the chunking size to be '
+    'used for block I/O,\n'
+    'by default NULL means none at all.\n'
+    '\n'
+    '@note If the dataset already exists, an exception will be thrown '
+    '(CV_Error() is called).\n'
+    '\n'
+    '- Existence of the dataset can be checked using hlexists(), see in this '
+    'example:\n'
+    '@code{.cpp}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// create space for 100x50 CV_64FC2 matrix\n'
+    'if ( ! h5io->hlexists( "hilbert" ) )\n'
+    'h5io->dscreate( 100, 50, CV_64FC2, "hilbert" );\n'
+    'else\n'
+    'printf("DS already created, skipping\\n" );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '@note Activating compression requires internal chunking. Chunking can '
+    'significantly improve access\n'
+    'speed both at read and write time, especially for windowed access logic '
+    'that shifts offset inside dataset.\n'
+    'If no custom chunking is specified, the default one will be invoked by '
+    'the size of the **whole** dataset\n'
+    'as a single big chunk of data.\n'
+    '\n'
+    '- See example of level 9 compression using internal default chunking:\n'
+    '@code{.cpp}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// create level 9 compressed space for CV_64FC2 matrix\n'
+    'if ( ! h5io->hlexists( "hilbert", 9 ) )\n'
+    'h5io->dscreate( 100, 50, CV_64FC2, "hilbert", 9 );\n'
+    'else\n'
+    'printf("DS already created, skipping\\n" );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '@note A value of H5_UNLIMITED for **rows** or **cols** or both means '
+    '**unlimited** data on the specified dimension,\n'
+    'thus, it is possible to expand anytime such a dataset on row, col or on '
+    'both directions. Presence of H5_UNLIMITED on any\n'
+    'dimension **requires** to define custom chunking. No default chunking '
+    'will be defined in the unlimited scenario since\n'
+    'default size on that dimension will be zero, and will grow once dataset '
+    'is written. Writing into a dataset that has\n'
+    'H5_UNLIMITED on some of its dimensions requires dsinsert() that allows '
+    'growth on unlimited dimensions, instead of dswrite()\n'
+    'that allows to write only in predefined data space.\n'
+    '\n'
+    '- Example below shows no compression but unlimited dimension on cols '
+    'using 100x100 internal chunking:\n'
+    '@code{.cpp}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// create level 9 compressed space for CV_64FC2 matrix\n'
+    'int chunks[2] = { 100, 100 };\n'
+    'h5io->dscreate( 100, cv::hdf::HDF5::H5_UNLIMITED, CV_64FC2, "hilbert", '
+    'cv::hdf::HDF5::H5_NONE, chunks );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '@note It is **not** thread safe, it must be called only once at dataset '
+    'creation, otherwise an exception will occur.\n'
+    'Multiple datasets inside a single hdf5 file are allowed.']
+parse_name: cv.hdf.HDF5.dscreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dscreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dscreate
+register (method) dscreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dscreate_const_int_int_int_String_int_const_int_X)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dscreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const int', 'n_dims', '', []],
+        ['const int*', 'sizes', '', []],
+        ['const int', 'type', '', []],
+        ['const String&', 'dslabel', '', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dscreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dscreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dscreate
+register (method) dscreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dscreate_const_int_const_int_X_int_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dscreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const int', 'n_dims', '', []],
+        ['const int*', 'sizes', '', []],
+        ['const int', 'type', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int', 'compresslevel', '', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dscreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dscreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dscreate
+register (method) dscreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dscreate_const_int_const_int_X_int_String_int)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dscreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const vector<int>&', 'sizes', '', []],
+        ['const int', 'type', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int', 'compresslevel', 'HDF5::H5_NONE', []],
+        ['const vector<int>&', 'dims_chunks', 'vector<int>()', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dscreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dscreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dscreate
+register (method) dscreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dscreate_const_VectorOfint_int_String_int_VectorOfint)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dscreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const int', 'n_dims', '', []],
+        ['const int*', 'sizes', '', []],
+        ['const int', 'type', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int', 'compresslevel', '', []],
+        ['const int*', 'dims_chunks', '', []]],
+    None,
+    '@brief Create and allocate storage for n-dimensional dataset, single or '
+    'multichannel type.\n'
+    '@param n_dims declare number of dimensions\n'
+    '@param sizes array containing sizes for each dimensions\n'
+    '@param type type to be used, e.g., CV_8UC3, CV_32FC1, etc.\n'
+    '@param dslabel specify the hdf5 dataset label. Existing dataset label '
+    'will cause an error.\n'
+    '@param compresslevel specify the compression level 0-9 to be used, '
+    'H5_NONE is the default value and means no compression.\n'
+    'The value 0 also means no compression.\n'
+    'A value 9 indicating the best compression ration. Note\n'
+    'that a higher compression level indicates a higher computational cost. It '
+    'relies\n'
+    'on GNU gzip for compression.\n'
+    '@param dims_chunks each array member specifies chunking sizes to be used '
+    'for block I/O,\n'
+    'by default NULL means none at all.\n'
+    '@note If the dataset already exists, an exception will be thrown. '
+    'Existence of the dataset can be checked\n'
+    'using hlexists().\n'
+    '\n'
+    '- See example below that creates a 6 dimensional storage space:\n'
+    '@code{.cpp}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// create space for 6 dimensional CV_64FC2 matrix\n'
+    'if ( ! h5io->hlexists( "nddata" ) )\n'
+    'int n_dims = 5;\n'
+    'int dsdims[n_dims] = { 100, 100, 20, 10, 5, 5 };\n'
+    'h5io->dscreate( n_dims, sizes, CV_64FC2, "nddata" );\n'
+    'else\n'
+    'printf("DS already created, skipping\\n" );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '@note Activating compression requires internal chunking. Chunking can '
+    'significantly improve access\n'
+    'speed both at read and write time, especially for windowed access logic '
+    'that shifts offset inside dataset.\n'
+    'If no custom chunking is specified, the default one will be invoked by '
+    'the size of **whole** dataset\n'
+    'as single big chunk of data.\n'
+    '\n'
+    '- See example of level 0 compression (shallow) using chunking against the '
+    'first\n'
+    'dimension, thus storage will consists of 100 chunks of data:\n'
+    '@code{.cpp}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// create space for 6 dimensional CV_64FC2 matrix\n'
+    'if ( ! h5io->hlexists( "nddata" ) )\n'
+    'int n_dims = 5;\n'
+    'int dsdims[n_dims] = { 100, 100, 20, 10, 5, 5 };\n'
+    'int chunks[n_dims] = {   1, 100, 20, 10, 5, 5 };\n'
+    'h5io->dscreate( n_dims, dsdims, CV_64FC2, "nddata", 0, chunks );\n'
+    'else\n'
+    'printf("DS already created, skipping\\n" );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '@note A value of H5_UNLIMITED inside the **sizes** array means '
+    '**unlimited** data on that dimension, thus it is\n'
+    'possible to expand anytime such dataset on those unlimited directions. '
+    'Presence of H5_UNLIMITED on any dimension\n'
+    '**requires** to define custom chunking. No default chunking will be '
+    'defined in unlimited scenario since the default size\n'
+    'on that dimension will be zero, and will grow once dataset is written. '
+    'Writing into dataset that has H5_UNLIMITED on\n'
+    'some of its dimension requires dsinsert() instead of dswrite() that '
+    'allows growth on unlimited dimension instead of\n'
+    'dswrite() that allows to write only in predefined data space.\n'
+    '\n'
+    '- Example below shows a 3 dimensional dataset using no compression with '
+    'all unlimited sizes and one unit chunking:\n'
+    '@code{.cpp}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    'int n_dims = 3;\n'
+    'int chunks[n_dims] = { 1, 1, 1 };\n'
+    'int dsdims[n_dims] = { cv::hdf::HDF5::H5_UNLIMITED, '
+    'cv::hdf::HDF5::H5_UNLIMITED, cv::hdf::HDF5::H5_UNLIMITED };\n'
+    'h5io->dscreate( n_dims, dsdims, CV_64FC2, "nddata", '
+    'cv::hdf::HDF5::H5_NONE, chunks );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode']
+parse_name: cv.hdf.HDF5.dscreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dscreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dscreate
+register (method) dscreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dscreate_const_int_const_int_X_int_String_int_const_int_X)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsgetsize',
+    'vector<int>',
+    ['/A', '/C'],
+    [   ['const String&', 'dslabel', '', []],
+        ['int', 'dims_flag', 'HDF5::H5_GETDIMS', []]],
+    None,
+    '@brief Fetch dataset sizes\n'
+    '@param dslabel specify the hdf5 dataset label to be measured.\n'
+    '@param dims_flag will fetch dataset dimensions on H5_GETDIMS, dataset '
+    'maximum dimensions on H5_GETMAXDIMS,\n'
+    'and chunk sizes on H5_GETCHUNKDIMS.\n'
+    '\n'
+    'Returns vector object containing sizes of dataset on each dimensions.\n'
+    '\n'
+    '@note Resulting vector size will match the amount of dataset dimensions. '
+    'By default H5_GETDIMS will return\n'
+    'actual dataset dimensions. Using H5_GETMAXDIM flag will get maximum '
+    'allowed dimension which normally match\n'
+    'actual dataset dimension but can hold H5_UNLIMITED value if dataset was '
+    'prepared in **unlimited** mode on\n'
+    'some of its dimension. It can be useful to check existing dataset '
+    'dimensions before overwrite it as whole or subset.\n'
+    'Trying to write with oversized source data into dataset target will '
+    'thrown exception. The H5_GETCHUNKDIMS will\n'
+    'return the dimension of chunk if dataset was created with chunking '
+    'options otherwise returned vector size\n'
+    'will be zero.']
+parse_name: cv.hdf.HDF5.dsgetsize with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsgetsize namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsgetsize
+register (method) dsgetsize in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsgetsize_const_String_int)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsgettype',
+    'int',
+    ['/A', '/C'],
+    [['const String&', 'dslabel', '', []]],
+    None,
+    '@brief Fetch dataset type\n'
+    '@param dslabel specify the hdf5 dataset label to be checked.\n'
+    '\n'
+    'Returns the stored matrix type. This is an identifier compatible with the '
+    'CvMat type system,\n'
+    'like e.g. CV_16SC5 (16-bit signed 5-channel array), and so on.\n'
+    '\n'
+    '@note Result can be parsed with CV_MAT_CN() to obtain amount of channels '
+    'and CV_MAT_DEPTH() to obtain native cvdata type.\n'
+    'It is thread safe.']
+parse_name: cv.hdf.HDF5.dsgettype with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsgettype namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsgettype
+register (method) dsgettype in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsgettype_const_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dswrite',
+    'void',
+    ['/A', '/C'],
+    [['InputArray', 'Array', '', []], ['const String&', 'dslabel', '', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dswrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dswrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dswrite
+register (method) dswrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dswrite_const__InputArray_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dswrite',
+    'void',
+    ['/A', '/C'],
+    [   ['InputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int*', 'dims_offset', '', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dswrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dswrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dswrite
+register (method) dswrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dswrite_const__InputArray_String_const_int_X)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dswrite',
+    'void',
+    ['/A', '/C'],
+    [   ['InputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const vector<int>&', 'dims_offset', '', []],
+        ['const vector<int>&', 'dims_counts', 'vector<int>()', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dswrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dswrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dswrite
+register (method) dswrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dswrite_const__InputArray_String_VectorOfint_VectorOfint)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dswrite',
+    'void',
+    ['/A', '/C'],
+    [   ['InputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int*', 'dims_offset', '', []],
+        ['const int*', 'dims_counts', '', []]],
+    None,
+    '@brief Write or overwrite a Mat object into specified dataset of hdf5 '
+    'file.\n'
+    '@param Array specify Mat data array to be written.\n'
+    '@param dslabel specify the target hdf5 dataset label.\n'
+    '@param dims_offset each array member specify the offset location\n'
+    "over dataset's each dimensions from where InputArray will be "
+    '(over)written into dataset.\n'
+    '@param dims_counts each array member specifies the amount of data over '
+    "dataset's\n"
+    'each dimensions from InputArray that will be written into dataset.\n'
+    '\n'
+    'Writes Mat object into targeted dataset.\n'
+    '\n'
+    '@note If dataset is not created and does not exist it will be created '
+    '**automatically**. Only Mat is supported and\n'
+    'it must be **continuous**. It is thread safe but it is recommended that '
+    'writes to happen over separate non-overlapping\n'
+    'regions. Multiple datasets can be written inside a single hdf5 file.\n'
+    '\n'
+    '- Example below writes a 100x100 CV_64FC2 matrix into a dataset. No '
+    'dataset pre-creation required. If routine\n'
+    'is called multiple times dataset will be just overwritten:\n'
+    '@code{.cpp}\n'
+    '// dual channel hilbert matrix\n'
+    'cv::Mat H(100, 100, CV_64FC2);\n'
+    'for(int i = 0; i < H.rows; i++)\n'
+    'for(int j = 0; j < H.cols; j++)\n'
+    '{\n'
+    'H.at<cv::Vec2d>(i,j)[0] =  1./(i+j+1);\n'
+    'H.at<cv::Vec2d>(i,j)[1] = -1./(i+j+1);\n'
+    'count++;\n'
+    '}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// write / overwrite dataset\n'
+    'h5io->dswrite( H, "hilbert" );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '- Example below writes a smaller 50x100 matrix into 100x100 compressed '
+    'space optimised by two 50x100 chunks.\n'
+    'Matrix is written twice into first half (0->50) and second half (50->100) '
+    'of data space using offset.\n'
+    '@code{.cpp}\n'
+    '// dual channel hilbert matrix\n'
+    'cv::Mat H(50, 100, CV_64FC2);\n'
+    'for(int i = 0; i < H.rows; i++)\n'
+    'for(int j = 0; j < H.cols; j++)\n'
+    '{\n'
+    'H.at<cv::Vec2d>(i,j)[0] =  1./(i+j+1);\n'
+    'H.at<cv::Vec2d>(i,j)[1] = -1./(i+j+1);\n'
+    'count++;\n'
+    '}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// optimise dataset by two chunks\n'
+    'int chunks[2] = { 50, 100 };\n'
+    '// create 100x100 CV_64FC2 compressed space\n'
+    'h5io->dscreate( 100, 100, CV_64FC2, "hilbert", 9, chunks );\n'
+    '// write into first half\n'
+    'int offset1[2] = { 0, 0 };\n'
+    'h5io->dswrite( H, "hilbert", offset1 );\n'
+    '// write into second half\n'
+    'int offset2[2] = { 50, 0 };\n'
+    'h5io->dswrite( H, "hilbert", offset2 );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode']
+parse_name: cv.hdf.HDF5.dswrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dswrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dswrite
+register (method) dswrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dswrite_const__InputArray_String_const_int_X_const_int_X)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsinsert',
+    'void',
+    ['/A', '/C'],
+    [['InputArray', 'Array', '', []], ['const String&', 'dslabel', '', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dsinsert with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsinsert namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsinsert
+register (method) dsinsert in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsinsert_const__InputArray_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsinsert',
+    'void',
+    ['/A', '/C'],
+    [   ['InputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int*', 'dims_offset', '', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dsinsert with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsinsert namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsinsert
+register (method) dsinsert in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsinsert_const__InputArray_String_const_int_X)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsinsert',
+    'void',
+    ['/A', '/C'],
+    [   ['InputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const vector<int>&', 'dims_offset', '', []],
+        ['const vector<int>&', 'dims_counts', 'vector<int>()', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dsinsert with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsinsert namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsinsert
+register (method) dsinsert in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsinsert_const__InputArray_String_VectorOfint_VectorOfint)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsinsert',
+    'void',
+    ['/A', '/C'],
+    [   ['InputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int*', 'dims_offset', '', []],
+        ['const int*', 'dims_counts', '', []]],
+    None,
+    '@brief Insert or overwrite a Mat object into specified dataset and auto '
+    'expand dataset size if **unlimited** property allows.\n'
+    '@param Array specify Mat data array to be written.\n'
+    '@param dslabel specify the target hdf5 dataset label.\n'
+    '@param dims_offset each array member specify the offset location\n'
+    "over dataset's each dimensions from where InputArray will be "
+    '(over)written into dataset.\n'
+    '@param dims_counts each array member specify the amount of data over '
+    "dataset's\n"
+    'each dimensions from InputArray that will be written into dataset.\n'
+    '\n'
+    'Writes Mat object into targeted dataset and **autoexpand** dataset '
+    'dimension if allowed.\n'
+    '\n'
+    '@note Unlike dswrite(), datasets are **not** created **automatically**. '
+    'Only Mat is supported and it must be **continuous**.\n'
+    'If dsinsert() happens over outer regions of dataset dimensions and on '
+    'that dimension of dataset is in **unlimited** mode then\n'
+    'dataset is expanded, otherwise exception is thrown. To create datasets '
+    'with **unlimited** property on specific or more\n'
+    'dimensions see dscreate() and the optional H5_UNLIMITED flag at creation '
+    'time. It is not thread safe over same dataset\n'
+    'but multiple datasets can be merged inside a single hdf5 file.\n'
+    '\n'
+    '- Example below creates **unlimited** rows x 100 cols and expands rows 5 '
+    'times with dsinsert() using single 100x100 CV_64FC2\n'
+    'over the dataset. Final size will have 5x100 rows and 100 cols, '
+    "reflecting H matrix five times over row's span. Chunks size is\n"
+    '100x100 just optimized against the H matrix size having compression '
+    'disabled. If routine is called multiple times dataset will be\n'
+    'just overwritten:\n'
+    '@code{.cpp}\n'
+    '// dual channel hilbert matrix\n'
+    'cv::Mat H(50, 100, CV_64FC2);\n'
+    'for(int i = 0; i < H.rows; i++)\n'
+    'for(int j = 0; j < H.cols; j++)\n'
+    '{\n'
+    'H.at<cv::Vec2d>(i,j)[0] =  1./(i+j+1);\n'
+    'H.at<cv::Vec2d>(i,j)[1] = -1./(i+j+1);\n'
+    'count++;\n'
+    '}\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// optimise dataset by chunks\n'
+    'int chunks[2] = { 100, 100 };\n'
+    '// create Unlimited x 100 CV_64FC2 space\n'
+    'h5io->dscreate( cv::hdf::HDF5::H5_UNLIMITED, 100, CV_64FC2, "hilbert", '
+    'cv::hdf::HDF5::H5_NONE, chunks );\n'
+    '// write into first half\n'
+    'int offset[2] = { 0, 0 };\n'
+    'for ( int t = 0; t < 5; t++ )\n'
+    '{\n'
+    'offset[0] += 100 * t;\n'
+    'h5io->dsinsert( H, "hilbert", offset );\n'
+    '}\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode']
+parse_name: cv.hdf.HDF5.dsinsert with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsinsert namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsinsert
+register (method) dsinsert in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsinsert_const__InputArray_String_const_int_X_const_int_X)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsread',
+    'void',
+    ['/A', '/C'],
+    [['OutputArray', 'Array', '', []], ['const String&', 'dslabel', '', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dsread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsread
+register (method) dsread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsread_const__OutputArray_String)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsread',
+    'void',
+    ['/A', '/C'],
+    [   ['OutputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int*', 'dims_offset', '', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dsread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsread
+register (method) dsread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsread_const__OutputArray_String_const_int_X)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsread',
+    'void',
+    ['/A', '/C'],
+    [   ['OutputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const vector<int>&', 'dims_offset', '', []],
+        ['const vector<int>&', 'dims_counts', 'vector<int>()', []]],
+    None,
+    '']
+parse_name: cv.hdf.HDF5.dsread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsread
+register (method) dsread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsread_const__OutputArray_String_VectorOfint_VectorOfint)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.dsread',
+    'void',
+    ['/A', '/C'],
+    [   ['OutputArray', 'Array', '', []],
+        ['const String&', 'dslabel', '', []],
+        ['const int*', 'dims_offset', '', []],
+        ['const int*', 'dims_counts', '', []]],
+    None,
+    '@brief Read specific dataset from hdf5 file into Mat object.\n'
+    '@param Array Mat container where data reads will be returned.\n'
+    '@param dslabel specify the source hdf5 dataset label.\n'
+    '@param dims_offset each array member specify the offset location over\n'
+    'each dimensions from where dataset starts to read into OutputArray.\n'
+    "@param dims_counts each array member specify the amount over dataset's "
+    'each\n'
+    'dimensions of dataset to read into OutputArray.\n'
+    '\n'
+    'Reads out Mat object reflecting the stored dataset.\n'
+    '\n'
+    '@note If hdf5 file does not exist an exception will be thrown. Use '
+    'hlexists() to check dataset presence.\n'
+    'It is thread safe.\n'
+    '\n'
+    '- Example below reads a dataset:\n'
+    '@code{.cpp}\n'
+    '// open hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// blank Mat container\n'
+    'cv::Mat H;\n'
+    '// read hibert dataset\n'
+    'h5io->read( H, "hilbert" );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '- Example below perform read of 3x5 submatrix from second row and third '
+    'element.\n'
+    '@code{.cpp}\n'
+    '// open hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// blank Mat container\n'
+    'cv::Mat H;\n'
+    'int offset[2] = { 1, 2 };\n'
+    'int counts[2] = { 3, 5 };\n'
+    '// read hibert dataset\n'
+    'h5io->read( H, "hilbert", offset, counts );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode']
+parse_name: cv.hdf.HDF5.dsread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::dsread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:dsread
+register (method) dsread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_dsread_const__OutputArray_String_const_int_X_const_int_X)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.kpgetsize',
+    'int',
+    ['/A', '/C'],
+    [   ['const String&', 'kplabel', '', []],
+        ['int', 'dims_flag', 'HDF5::H5_GETDIMS', []]],
+    None,
+    '@brief Fetch keypoint dataset size\n'
+    '@param kplabel specify the hdf5 dataset label to be measured.\n'
+    '@param dims_flag will fetch dataset dimensions on H5_GETDIMS, and dataset '
+    'maximum dimensions on H5_GETMAXDIMS.\n'
+    '\n'
+    'Returns size of keypoints dataset.\n'
+    '\n'
+    '@note Resulting size will match the amount of keypoints. By default '
+    'H5_GETDIMS will return actual dataset dimension.\n'
+    'Using H5_GETMAXDIM flag will get maximum allowed dimension which normally '
+    'match actual dataset dimension but can hold\n'
+    'H5_UNLIMITED value if dataset was prepared in **unlimited** mode. It can '
+    'be useful to check existing dataset dimension\n'
+    'before overwrite it as whole or subset. Trying to write with oversized '
+    'source data into dataset target will thrown\n'
+    'exception. The H5_GETCHUNKDIMS will return the dimension of chunk if '
+    'dataset was created with chunking options otherwise\n'
+    'returned vector size will be zero.']
+parse_name: cv.hdf.HDF5.kpgetsize with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::kpgetsize namespace:cv::hdf classpath:HDF5 classname:HDF5 name:kpgetsize
+register (method) kpgetsize in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_kpgetsize_const_String_int)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.kpcreate',
+    'void',
+    ['/A', '/C'],
+    [   ['const int', 'size', '', []],
+        ['const String&', 'kplabel', '', []],
+        ['const int', 'compresslevel', 'H5_NONE', []],
+        ['const int', 'chunks', 'H5_NONE', []]],
+    None,
+    '@brief Create and allocate special storage for cv::KeyPoint dataset.\n'
+    '@param size declare fixed number of KeyPoints\n'
+    '@param kplabel specify the hdf5 dataset label, any existing dataset with '
+    'the same label will be overwritten.\n'
+    '@param compresslevel specify the compression level 0-9 to be used, '
+    'H5_NONE is default and means no compression.\n'
+    '@param chunks each array member specifies chunking sizes to be used for '
+    'block I/O,\n'
+    'H5_NONE is default and means no compression.\n'
+    '@note If the dataset already exists an exception will be thrown. '
+    'Existence of the dataset can be checked\n'
+    'using hlexists().\n'
+    '\n'
+    '- See example below that creates space for 100 keypoints in the dataset:\n'
+    '@code{.cpp}\n'
+    '// open hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    'if ( ! h5io->hlexists( "keypoints" ) )\n'
+    'h5io->kpcreate( 100, "keypoints" );\n'
+    'else\n'
+    'printf("DS already created, skipping\\n" );\n'
+    '@endcode\n'
+    '\n'
+    '@note A value of H5_UNLIMITED for **size** means **unlimited** keypoints, '
+    'thus is possible to expand anytime such\n'
+    'dataset by adding or inserting. Presence of H5_UNLIMITED **require** to '
+    'define custom chunking. No default chunking\n'
+    'will be defined in unlimited scenario since default size on that '
+    'dimension will be zero, and will grow once dataset\n'
+    'is written. Writing into dataset that have H5_UNLIMITED on some of its '
+    'dimension requires kpinsert() that allow\n'
+    'growth on unlimited dimension instead of kpwrite() that allows to write '
+    'only in predefined data space.\n'
+    '\n'
+    '- See example below that creates unlimited space for keypoints chunking '
+    'size of 100 but no compression:\n'
+    '@code{.cpp}\n'
+    '// open hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    'if ( ! h5io->hlexists( "keypoints" ) )\n'
+    'h5io->kpcreate( cv::hdf::HDF5::H5_UNLIMITED, "keypoints", '
+    'cv::hdf::HDF5::H5_NONE, 100 );\n'
+    'else\n'
+    'printf("DS already created, skipping\\n" );\n'
+    '@endcode']
+parse_name: cv.hdf.HDF5.kpcreate with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::kpcreate namespace:cv::hdf classpath:HDF5 classname:HDF5 name:kpcreate
+register (method) kpcreate in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_kpcreate_const_int_String_int_int)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.kpwrite',
+    'void',
+    ['/A', '/C'],
+    [   ['const vector<KeyPoint>', 'keypoints', '', []],
+        ['const String&', 'kplabel', '', []],
+        ['const int', 'offset', 'H5_NONE', []],
+        ['const int', 'counts', 'H5_NONE', []]],
+    None,
+    '@brief Write or overwrite list of KeyPoint into specified dataset of hdf5 '
+    'file.\n'
+    '@param keypoints specify keypoints data list to be written.\n'
+    '@param kplabel specify the target hdf5 dataset label.\n'
+    '@param offset specify the offset location on dataset from where keypoints '
+    'will be (over)written into dataset.\n'
+    '@param counts specify the amount of keypoints that will be written into '
+    'dataset.\n'
+    '\n'
+    'Writes vector<KeyPoint> object into targeted dataset.\n'
+    '\n'
+    '@note If dataset is not created and does not exist it will be created '
+    '**automatically**. It is thread safe but\n'
+    'it is recommended that writes to happen over separate non overlapping '
+    'regions. Multiple datasets can be written\n'
+    'inside single hdf5 file.\n'
+    '\n'
+    '- Example below writes a 100 keypoints into a dataset. No dataset '
+    'precreation required. If routine is called multiple\n'
+    'times dataset will be just overwritten:\n'
+    '@code{.cpp}\n'
+    '// generate 100 dummy keypoints\n'
+    'std::vector<cv::KeyPoint> keypoints;\n'
+    'for(int i = 0; i < 100; i++)\n'
+    'keypoints.push_back( cv::KeyPoint(i, -i, 1, -1, 0, 0, -1) );\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// write / overwrite dataset\n'
+    'h5io->kpwrite( keypoints, "keypoints" );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '- Example below uses smaller set of 50 keypoints and writes into '
+    'compressed space of 100 keypoints optimised by 10 chunks.\n'
+    'Same keypoint set is written three times, first into first half (0->50) '
+    'and at second half (50->75) then into remaining slots\n'
+    '(75->99) of data space using offset and count parameters to settle the '
+    'window for write access.If routine is called multiple times\n'
+    'dataset will be just overwritten:\n'
+    '@code{.cpp}\n'
+    '// generate 50 dummy keypoints\n'
+    'std::vector<cv::KeyPoint> keypoints;\n'
+    'for(int i = 0; i < 50; i++)\n'
+    'keypoints.push_back( cv::KeyPoint(i, -i, 1, -1, 0, 0, -1) );\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// create maximum compressed space of size 100 with chunk size 10\n'
+    'h5io->kpcreate( 100, "keypoints", 9, 10 );\n'
+    '// write into first half\n'
+    'h5io->kpwrite( keypoints, "keypoints", 0 );\n'
+    '// write first 25 keypoints into second half\n'
+    'h5io->kpwrite( keypoints, "keypoints", 50, 25 );\n'
+    '// write first 25 keypoints into remained space of second half\n'
+    'h5io->kpwrite( keypoints, "keypoints", 75, 25 );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode']
+parse_name: cv.hdf.HDF5.kpwrite with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::kpwrite namespace:cv::hdf classpath:HDF5 classname:HDF5 name:kpwrite
+register (method) kpwrite in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_kpwrite_const_VectorOfKeyPoint_String_int_int)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.kpinsert',
+    'void',
+    ['/A', '/C'],
+    [   ['const vector<KeyPoint>', 'keypoints', '', []],
+        ['const String&', 'kplabel', '', []],
+        ['const int', 'offset', 'H5_NONE', []],
+        ['const int', 'counts', 'H5_NONE', []]],
+    None,
+    '@brief Insert or overwrite list of KeyPoint into specified dataset and '
+    'autoexpand dataset size if **unlimited** property allows.\n'
+    '@param keypoints specify keypoints data list to be written.\n'
+    '@param kplabel specify the target hdf5 dataset label.\n'
+    '@param offset specify the offset location on dataset from where keypoints '
+    'will be (over)written into dataset.\n'
+    '@param counts specify the amount of keypoints that will be written into '
+    'dataset.\n'
+    '\n'
+    'Writes vector<KeyPoint> object into targeted dataset and **autoexpand** '
+    'dataset dimension if allowed.\n'
+    '\n'
+    '@note Unlike kpwrite(), datasets are **not** created **automatically**. '
+    'If dsinsert() happen over outer region of dataset\n'
+    'and dataset has been created in **unlimited** mode then dataset is '
+    'expanded, otherwise exception is thrown. To create datasets\n'
+    'with **unlimited** property see kpcreate() and the optional H5_UNLIMITED '
+    'flag at creation time. It is not thread safe over same\n'
+    'dataset but multiple datasets can be merged inside single hdf5 file.\n'
+    '\n'
+    '- Example below creates **unlimited** space for keypoints storage, and '
+    'inserts a list of 10 keypoints ten times into that space.\n'
+    'Final dataset will have 100 keypoints. Chunks size is 10 just optimized '
+    'against list of keypoints. If routine is called multiple\n'
+    'times dataset will be just overwritten:\n'
+    '@code{.cpp}\n'
+    '// generate 10 dummy keypoints\n'
+    'std::vector<cv::KeyPoint> keypoints;\n'
+    'for(int i = 0; i < 10; i++)\n'
+    'keypoints.push_back( cv::KeyPoint(i, -i, 1, -1, 0, 0, -1) );\n'
+    '// open / autocreate hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// create unlimited size space with chunk size of 10\n'
+    'h5io->kpcreate( cv::hdf::HDF5::H5_UNLIMITED, "keypoints", -1, 10 );\n'
+    '// insert 10 times same 10 keypoints\n'
+    'for(int i = 0; i < 10; i++)\n'
+    'h5io->kpinsert( keypoints, "keypoints", i * 10 );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode']
+parse_name: cv.hdf.HDF5.kpinsert with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::kpinsert namespace:cv::hdf classpath:HDF5 classname:HDF5 name:kpinsert
+register (method) kpinsert in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_kpinsert_const_VectorOfKeyPoint_String_int_int)
+
+--- Incoming ---
+[   'cv.hdf.HDF5.kpread',
+    'void',
+    ['/A', '/C'],
+    [   ['vector<KeyPoint>&', 'keypoints', '', []],
+        ['const String&', 'kplabel', '', []],
+        ['const int', 'offset', 'H5_NONE', []],
+        ['const int', 'counts', 'H5_NONE', []]],
+    None,
+    '@brief Read specific keypoint dataset from hdf5 file into '
+    'vector<KeyPoint> object.\n'
+    '@param keypoints vector<KeyPoint> container where data reads will be '
+    'returned.\n'
+    '@param kplabel specify the source hdf5 dataset label.\n'
+    '@param offset specify the offset location over dataset from where read '
+    'starts.\n'
+    '@param counts specify the amount of keypoints from dataset to read.\n'
+    '\n'
+    'Reads out vector<KeyPoint> object reflecting the stored dataset.\n'
+    '\n'
+    '@note If hdf5 file does not exist an exception will be thrown. Use '
+    'hlexists() to check dataset presence.\n'
+    'It is thread safe.\n'
+    '\n'
+    '- Example below reads a dataset containing keypoints starting with second '
+    'entry:\n'
+    '@code{.cpp}\n'
+    '// open hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// blank KeyPoint container\n'
+    'std::vector<cv::KeyPoint> keypoints;\n'
+    '// read keypoints starting second one\n'
+    'h5io->kpread( keypoints, "keypoints", 1 );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '- Example below perform read of 3 keypoints from second entry.\n'
+    '@code{.cpp}\n'
+    '// open hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// blank KeyPoint container\n'
+    'std::vector<cv::KeyPoint> keypoints;\n'
+    '// read three keypoints starting second one\n'
+    'h5io->kpread( keypoints, "keypoints", 1, 3 );\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode']
+parse_name: cv.hdf.HDF5.kpread with ['cv', 'cv::hdf'] -> fullname:cv::hdf::HDF5::kpread namespace:cv::hdf classpath:HDF5 classname:HDF5 name:kpread
+register (method) kpread in cv::hdf::HDF5 (trait) (cv_hdf_HDF5_kpread_const_VectorOfKeyPoint_String_int_int)
+
+--- Incoming ---
+[   'cv.hdf.open',
+    'Ptr<HDF5>',
+    [],
+    [['const String&', 'HDF5Filename', '', []]],
+    None,
+    '@brief Open or create hdf5 file\n'
+    '@param HDF5Filename specify the HDF5 filename.\n'
+    '\n'
+    'Returns a pointer to the hdf5 object class\n'
+    '\n'
+    '@note If the specified file does not exist, it will be created using '
+    'default properties.\n'
+    'Otherwise, it is opened in read and write mode with default access '
+    'properties.\n'
+    'Any operations except dscreate() functions on object\n'
+    'will be thread safe. Multiple datasets can be created inside a single '
+    'hdf5 file, and can be accessed\n'
+    'from the same hdf5 object from multiple instances as long read or write '
+    'operations are done over\n'
+    'non-overlapping regions of dataset. Single hdf5 file also can be opened '
+    'by multiple instances,\n'
+    'reads and writes can be instantiated at the same time as long as '
+    'non-overlapping regions are involved. Object\n'
+    'is released using close().\n'
+    '\n'
+    '- Example below opens and then releases the file.\n'
+    '@code{.cpp}\n'
+    '// open / auto create hdf5 file\n'
+    'cv::Ptr<cv::hdf::HDF5> h5io = cv::hdf::open( "mytest.h5" );\n'
+    '// ...\n'
+    '// release\n'
+    'h5io->close();\n'
+    '@endcode\n'
+    '\n'
+    '![Visualization of 10x10 CV_64FC2 (Hilbert matrix) using HDFView '
+    'tool](pics/hdfview_demo.gif)\n'
+    '\n'
+    '- Text dump (3x3 Hilbert matrix) of hdf5 dataset using **h5dump** tool:\n'
+    '@code{.txt}\n'
+    '$ h5dump test.h5\n'
+    'HDF5 "test.h5" {\n'
+    'GROUP "/" {\n'
+    'DATASET "hilbert" {\n'
+    'DATATYPE  H5T_ARRAY { [2] H5T_IEEE_F64LE }\n'
+    'DATASPACE  SIMPLE { ( 3, 3 ) / ( 3, 3 ) }\n'
+    'DATA {\n'
+    '(0,0): [ 1, -1 ], [ 0.5, -0.5 ], [ 0.333333, -0.333333 ],\n'
+    '(1,0): [ 0.5, -0.5 ], [ 0.333333, -0.333333 ], [ 0.25, -0.25 ],\n'
+    '(2,0): [ 0.333333, -0.333333 ], [ 0.25, -0.25 ], [ 0.2, -0.2 ]\n'
+    '}\n'
+    '}\n'
+    '}\n'
+    '}\n'
+    '@endcode']
+parse_name: cv.hdf.open with ['cv', 'cv::hdf'] -> fullname:cv::hdf::open namespace:cv::hdf classpath: classname: name:open
+register (function) open (cv_hdf_open_String)
+
+
+===== Generating... =====
+Generating func cv_hdf_open_String
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Generating impl for trait cv::hdf::HDF5 (trait)
+Generating func cv_hdf_HDF5_close
+Generating func cv_hdf_HDF5_grcreate_String
+Generating func cv_hdf_HDF5_hlexists_const_String
+Generating func cv_hdf_HDF5_atexists_const_String
+Generating func cv_hdf_HDF5_atdelete_String
+Generating func cv_hdf_HDF5_atwrite_int_String
+Generating func cv_hdf_HDF5_atread_int_X_String
+Generating func cv_hdf_HDF5_atwrite_double_String
+Generating func cv_hdf_HDF5_atread_double_X_String
+Generating func cv_hdf_HDF5_atwrite_String_String
+Generating func cv_hdf_HDF5_atread_String_X_String
+  ignored: ignored by rename table
+Generating func cv_hdf_HDF5_atwrite__InputArray_String
+Generating func cv_hdf_HDF5_atread__OutputArray_String
+Generating func cv_hdf_HDF5_dscreate_const_int_int_int_String
+Generating func cv_hdf_HDF5_dscreate_const_int_int_int_String_int
+Generating func cv_hdf_HDF5_dscreate_const_int_int_int_String_int_VectorOfint
+Generating func cv_hdf_HDF5_dscreate_const_int_int_int_String_int_const_int_X
+Generating func cv_hdf_HDF5_dscreate_const_int_const_int_X_int_String
+Generating func cv_hdf_HDF5_dscreate_const_int_const_int_X_int_String_int
+Generating func cv_hdf_HDF5_dscreate_const_VectorOfint_int_String_int_VectorOfint
+Generating func cv_hdf_HDF5_dscreate_const_int_const_int_X_int_String_int_const_int_X
+Generating func cv_hdf_HDF5_dsgetsize_const_String_int
+Generating func cv_hdf_HDF5_dsgettype_const_String
+Generating func cv_hdf_HDF5_dswrite_const__InputArray_String
+Generating func cv_hdf_HDF5_dswrite_const__InputArray_String_const_int_X
+Generating func cv_hdf_HDF5_dswrite_const__InputArray_String_VectorOfint_VectorOfint
+Generating func cv_hdf_HDF5_dswrite_const__InputArray_String_const_int_X_const_int_X
+Generating func cv_hdf_HDF5_dsinsert_const__InputArray_String
+Generating func cv_hdf_HDF5_dsinsert_const__InputArray_String_const_int_X
+Generating func cv_hdf_HDF5_dsinsert_const__InputArray_String_VectorOfint_VectorOfint
+Generating func cv_hdf_HDF5_dsinsert_const__InputArray_String_const_int_X_const_int_X
+Generating func cv_hdf_HDF5_dsread_const__OutputArray_String
+Generating func cv_hdf_HDF5_dsread_const__OutputArray_String_const_int_X
+Generating func cv_hdf_HDF5_dsread_const__OutputArray_String_VectorOfint_VectorOfint
+Generating func cv_hdf_HDF5_dsread_const__OutputArray_String_const_int_X_const_int_X
+Generating func cv_hdf_HDF5_kpgetsize_const_String_int
+Generating func cv_hdf_HDF5_kpcreate_const_int_String_int_int
+Generating func cv_hdf_HDF5_kpwrite_const_VectorOfKeyPoint_String_int_int
+Generating func cv_hdf_HDF5_kpinsert_const_VectorOfKeyPoint_String_int_int
+Generating func cv_hdf_HDF5_kpread_const_VectorOfKeyPoint_String_int_int
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

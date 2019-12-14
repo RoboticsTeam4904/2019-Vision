@@ -1,0 +1,1783 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ccalib.hpp ================
+
+
+Namespaces: ['cv', 'cv.ccalib']
+Comment: {'ccalib': ' @defgroup ccalib Custom Calibration Pattern for 3D reconstruction\n\n'}
+
+--- Incoming ---
+[   'class cv.ccalib.CustomPattern',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@addtogroup ccalib\n@{']
+parse_name: class cv.ccalib.CustomPattern with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern namespace:cv::ccalib classpath: classname: name:CustomPattern
+register class cv::ccalib::CustomPattern (['class cv.ccalib.CustomPattern', ': cv::Algorithm', [], [], None, '@addtogroup ccalib\n@{']) impl:cv::Algorithm
+
+--- Incoming ---
+['cv.ccalib.CustomPattern.CustomPattern', 'C', [], [], None, '']
+parse_name: cv.ccalib.CustomPattern.CustomPattern with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::CustomPattern namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:CustomPattern
+register (constructor) default in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_CustomPattern)
+
+--- Incoming ---
+['cv.ccalib.CustomPattern.~CustomPattern', '~', [], [], None, '']
+parse_name: cv.ccalib.CustomPattern.~CustomPattern with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::~CustomPattern namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:~CustomPattern
+Registering an unknown type: ~
+ignore destructor (method) ~CustomPattern in cv::ccalib::CustomPattern
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.create',
+    'bool',
+    [],
+    [   ['InputArray', 'pattern', '', []],
+        ['const Size2f', 'boardSize', '', []],
+        ['OutputArray', 'output', 'noArray()', []]],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.create with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::create namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:create
+register (method) create in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_create__InputArray_Size2f__OutputArray)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.findPattern',
+    'bool',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['OutputArray', 'matched_features', '', []],
+        ['OutputArray', 'pattern_points', '', []],
+        ['const double', 'ratio', '0.7', []],
+        ['const double', 'proj_error', '8.0', []],
+        ['const bool', 'refine_position', 'false', []],
+        ['OutputArray', 'out', 'noArray()', []],
+        ['OutputArray', 'H', 'noArray()', []],
+        ['OutputArray', 'pattern_corners', 'noArray()', []]],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.findPattern with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::findPattern namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:findPattern
+register (method) findPattern in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_findPattern__InputArray__OutputArray__OutputArray_double_double_bool__OutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+['cv.ccalib.CustomPattern.isInitialized', 'bool', [], [], None, '']
+parse_name: cv.ccalib.CustomPattern.isInitialized with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::isInitialized namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:isInitialized
+register (method) isInitialized in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_isInitialized)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.getPatternPoints',
+    'void',
+    [],
+    [['std::vector<KeyPoint>&', 'original_points', '', []]],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.getPatternPoints with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::getPatternPoints namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:getPatternPoints
+register (method) getPatternPoints in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_getPatternPoints_VectorOfKeyPoint)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.getPixelSize',
+    'double',
+    [],
+    [],
+    None,
+    '<\nReturns a vector<Point> of the original points.']
+parse_name: cv.ccalib.CustomPattern.getPixelSize with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::getPixelSize namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:getPixelSize
+register (method) getPixelSize in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_getPixelSize)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.setFeatureDetector',
+    'bool',
+    [],
+    [['Ptr<FeatureDetector>', 'featureDetector', '', []]],
+    None,
+    '<\nGet the pixel size of the pattern']
+parse_name: cv.ccalib.CustomPattern.setFeatureDetector with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::setFeatureDetector namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:setFeatureDetector
+register (method) setFeatureDetector in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_setFeatureDetector_PtrOfFeature2D)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.setDescriptorExtractor',
+    'bool',
+    [],
+    [['Ptr<DescriptorExtractor>', 'extractor', '', []]],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.setDescriptorExtractor with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::setDescriptorExtractor namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:setDescriptorExtractor
+register (method) setDescriptorExtractor in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_setDescriptorExtractor_PtrOfFeature2D)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.setDescriptorMatcher',
+    'bool',
+    [],
+    [['Ptr<DescriptorMatcher>', 'matcher', '', []]],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.setDescriptorMatcher with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::setDescriptorMatcher namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:setDescriptorMatcher
+register (method) setDescriptorMatcher in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_setDescriptorMatcher_PtrOfDescriptorMatcher)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.getFeatureDetector',
+    'Ptr<FeatureDetector>',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.getFeatureDetector with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::getFeatureDetector namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:getFeatureDetector
+register (method) getFeatureDetector in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_getFeatureDetector)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.getDescriptorExtractor',
+    'Ptr<DescriptorExtractor>',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.getDescriptorExtractor with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::getDescriptorExtractor namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:getDescriptorExtractor
+register (method) getDescriptorExtractor in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_getDescriptorExtractor)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.getDescriptorMatcher',
+    'Ptr<DescriptorMatcher>',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.getDescriptorMatcher with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::getDescriptorMatcher namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:getDescriptorMatcher
+register (method) getDescriptorMatcher in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_getDescriptorMatcher)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.calibrate',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints', '', []],
+        ['Size', 'imageSize', '', []],
+        ['InputOutputArray', 'cameraMatrix', '', []],
+        ['InputOutputArray', 'distCoeffs', '', []],
+        ['OutputArrayOfArrays', 'rvecs', '', []],
+        ['OutputArrayOfArrays', 'tvecs', '', []],
+        ['int', 'flags', '0', []],
+        [   'TermCriteria',
+            'criteria',
+            'TermCriteria(TermCriteria::COUNT + TermCriteria::EPS, 30, '
+            'DBL_EPSILON)',
+            []]],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.calibrate with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::calibrate namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:calibrate
+register (method) calibrate in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_calibrate__InputArray__InputArray_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray_int_TermCriteria)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.findRt',
+    'bool',
+    [],
+    [   ['InputArray', 'objectPoints', '', []],
+        ['InputArray', 'imagePoints', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['InputOutputArray', 'rvec', '', []],
+        ['InputOutputArray', 'tvec', '', []],
+        ['bool', 'useExtrinsicGuess', 'false', []],
+        ['int', 'flags', 'SOLVEPNP_ITERATIVE', []]],
+    None,
+    '<\nCalls the calirateCamera function with the same inputs.']
+parse_name: cv.ccalib.CustomPattern.findRt with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::findRt namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:findRt
+register (method) findRt in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_findRt__InputArray__InputArray__InputArray__InputArray__InputOutputArray__InputOutputArray_bool_int)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.findRt',
+    'bool',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['InputOutputArray', 'rvec', '', []],
+        ['InputOutputArray', 'tvec', '', []],
+        ['bool', 'useExtrinsicGuess', 'false', []],
+        ['int', 'flags', 'SOLVEPNP_ITERATIVE', []]],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.findRt with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::findRt namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:findRt
+register (method) findRt in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_findRt__InputArray__InputArray__InputArray__InputOutputArray__InputOutputArray_bool_int)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.findRtRANSAC',
+    'bool',
+    [],
+    [   ['InputArray', 'objectPoints', '', []],
+        ['InputArray', 'imagePoints', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['InputOutputArray', 'rvec', '', []],
+        ['InputOutputArray', 'tvec', '', []],
+        ['bool', 'useExtrinsicGuess', 'false', []],
+        ['int', 'iterationsCount', '100', []],
+        ['float', 'reprojectionError', '8.0', []],
+        ['int', 'minInliersCount', '100', []],
+        ['OutputArray', 'inliers', 'noArray()', []],
+        ['int', 'flags', 'SOLVEPNP_ITERATIVE', []]],
+    None,
+    '<\n'
+    'Uses solvePnP to find the rotation and translation of the pattern\n'
+    'with respect to the camera frame.']
+parse_name: cv.ccalib.CustomPattern.findRtRANSAC with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::findRtRANSAC namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:findRtRANSAC
+register (method) findRtRANSAC in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_findRtRANSAC__InputArray__InputArray__InputArray__InputArray__InputOutputArray__InputOutputArray_bool_int_float_int__OutputArray_int)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.findRtRANSAC',
+    'bool',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['InputOutputArray', 'rvec', '', []],
+        ['InputOutputArray', 'tvec', '', []],
+        ['bool', 'useExtrinsicGuess', 'false', []],
+        ['int', 'iterationsCount', '100', []],
+        ['float', 'reprojectionError', '8.0', []],
+        ['int', 'minInliersCount', '100', []],
+        ['OutputArray', 'inliers', 'noArray()', []],
+        ['int', 'flags', 'SOLVEPNP_ITERATIVE', []]],
+    None,
+    '']
+parse_name: cv.ccalib.CustomPattern.findRtRANSAC with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::findRtRANSAC namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:findRtRANSAC
+register (method) findRtRANSAC in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_findRtRANSAC__InputArray__InputArray__InputArray__InputOutputArray__InputOutputArray_bool_int_float_int__OutputArray_int)
+
+--- Incoming ---
+[   'cv.ccalib.CustomPattern.drawOrientation',
+    'void',
+    [],
+    [   ['InputOutputArray', 'image', '', []],
+        ['InputArray', 'tvec', '', []],
+        ['InputArray', 'rvec', '', []],
+        ['InputArray', 'cameraMatrix', '', []],
+        ['InputArray', 'distCoeffs', '', []],
+        ['double', 'axis_length', '3', []],
+        ['int', 'axis_width', '2', []]],
+    None,
+    '<\nUses solvePnPRansac()']
+parse_name: cv.ccalib.CustomPattern.drawOrientation with ['cv', 'cv::ccalib'] -> fullname:cv::ccalib::CustomPattern::drawOrientation namespace:cv::ccalib classpath:CustomPattern classname:CustomPattern name:drawOrientation
+register (method) drawOrientation in cv::ccalib::CustomPattern (cv_ccalib_CustomPattern_drawOrientation__InputOutputArray__InputArray__InputArray__InputArray__InputArray_double_int)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ccalib/multicalib.hpp ================
+
+
+Namespaces: ['cv', 'cv.ccalib', 'cv.multicalib']
+Comment: {'ccalib': ' @defgroup ccalib Custom Calibration Pattern for 3D reconstruction\n\n'}
+
+--- Incoming ---
+['const HEAD', '-1', [], [], '@addtogroup ccalib\n@{\n']
+parse_name: const HEAD with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:HEAD namespace: classpath: classname: name:HEAD
+
+--- Incoming ---
+['const INVALID', '-2', [], [], '@addtogroup ccalib\n@{\n']
+parse_name: const INVALID with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:INVALID namespace: classpath: classname: name:INVALID
+
+--- Incoming ---
+[   'class cv.multicalib.MultiCameraCalibration',
+    '',
+    [],
+    [],
+    None,
+    '@brief Class for multiple camera calibration that supports pinhole camera '
+    'and omnidirection camera.\n'
+    'For omnidirectional camera model, please refer to omnidir.hpp in ccalib '
+    'module.\n'
+    'It first calibrate each camera individually, then a bundle adjustment '
+    'like optimization is applied to\n'
+    'refine extrinsic parameters. So far, it only support "random" pattern for '
+    'calibration,\n'
+    'see randomPattern.hpp in ccalib module for details.\n'
+    'Images that are used should be named by "cameraIdx-timestamp.*", several '
+    'images with the same timestamp\n'
+    'means that they are the same pattern that are photographed. cameraIdx '
+    'should start from 0.\n'
+    '\n'
+    'For more details, please refer to paper\n'
+    'B. Li, L. Heng, K. Kevin  and M. Pollefeys, "A Multiple-Camera System\n'
+    'Calibration Toolbox Using A Feature Descriptor-Based Calibration\n'
+    'Pattern", in IROS 2013.']
+parse_name: class cv.multicalib.MultiCameraCalibration with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration namespace:cv::multicalib classpath: classname: name:MultiCameraCalibration
+register class cv::multicalib::MultiCameraCalibration (['class cv.multicalib.MultiCameraCalibration', '', [], [], None, '@brief Class for multiple camera calibration that supports pinhole camera and omnidirection camera.\nFor omnidirectional camera model, please refer to omnidir.hpp in ccalib module.\nIt first calibrate each camera individually, then a bundle adjustment like optimization is applied to\nrefine extrinsic parameters. So far, it only support "random" pattern for calibration,\nsee randomPattern.hpp in ccalib module for details.\nImages that are used should be named by "cameraIdx-timestamp.*", several images with the same timestamp\nmeans that they are the same pattern that are photographed. cameraIdx should start from 0.\n\nFor more details, please refer to paper\nB. Li, L. Heng, K. Kevin  and M. Pollefeys, "A Multiple-Camera System\nCalibration Toolbox Using A Feature Descriptor-Based Calibration\nPattern", in IROS 2013.'])
+
+--- Incoming ---
+[   'enum cv.multicalib.MultiCameraCalibration.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.multicalib.MultiCameraCalibration.PINHOLE',
+            '0',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.multicalib.MultiCameraCalibration.OMNIDIRECTIONAL',
+            '1',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    '']
+parse_name: const cv.multicalib.MultiCameraCalibration.PINHOLE with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::PINHOLE namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:PINHOLE
+parse_name: const cv.multicalib.MultiCameraCalibration.OMNIDIRECTIONAL with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::OMNIDIRECTIONAL namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:OMNIDIRECTIONAL
+
+--- Incoming ---
+['struct cv.multicalib.MultiCameraCalibration.edge', '', [], [], None, '']
+parse_name: struct cv.multicalib.MultiCameraCalibration.edge with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::edge namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:edge
+register class cv::multicalib::MultiCameraCalibration::edge (['struct cv.multicalib.MultiCameraCalibration.edge', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.multicalib.MultiCameraCalibration.edge.edge',
+    'e',
+    [],
+    [   ['int', 'cv', '', []],
+        ['int', 'pv', '', []],
+        ['int', 'pi', '', []],
+        ['Mat', 'trans', '', []]],
+    None,
+    '']
+parse_name: cv.multicalib.MultiCameraCalibration.edge.edge with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::edge::edge namespace:cv::multicalib classpath:MultiCameraCalibration::edge classname:edge name:edge
+register (constructor) new in cv::multicalib::MultiCameraCalibration::edge (cv_multicalib_MultiCameraCalibration_edge_edge_int_int_int_Mat)
+
+--- Incoming ---
+['struct cv.multicalib.MultiCameraCalibration.vertex', '', [], [], None, '']
+parse_name: struct cv.multicalib.MultiCameraCalibration.vertex with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::vertex namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:vertex
+register class cv::multicalib::MultiCameraCalibration::vertex (['struct cv.multicalib.MultiCameraCalibration.vertex', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.multicalib.MultiCameraCalibration.vertex.vertex',
+    'v',
+    [],
+    [['Mat', 'po', '', []], ['int', 'ts', '', []]],
+    None,
+    '']
+parse_name: cv.multicalib.MultiCameraCalibration.vertex.vertex with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::vertex::vertex namespace:cv::multicalib classpath:MultiCameraCalibration::vertex classname:vertex name:vertex
+register (constructor) new in cv::multicalib::MultiCameraCalibration::vertex (cv_multicalib_MultiCameraCalibration_vertex_vertex_Mat_int)
+
+--- Incoming ---
+['cv.multicalib.MultiCameraCalibration.vertex.vertex', 'v', [], [], None, '']
+parse_name: cv.multicalib.MultiCameraCalibration.vertex.vertex with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::vertex::vertex namespace:cv::multicalib classpath:MultiCameraCalibration::vertex classname:vertex name:vertex
+register (constructor) default in cv::multicalib::MultiCameraCalibration::vertex (cv_multicalib_MultiCameraCalibration_vertex_vertex)
+
+--- Incoming ---
+[   'cv.multicalib.MultiCameraCalibration.MultiCameraCalibration',
+    'M',
+    [],
+    [   ['int', 'cameraType', '', []],
+        ['int', 'nCameras', '', []],
+        ['const std::string&', 'fileName', '', []],
+        ['float', 'patternWidth', '', []],
+        ['float', 'patternHeight', '', []],
+        ['int', 'verbose', '0', []],
+        ['int', 'showExtration', '0', []],
+        ['int', 'nMiniMatches', '20', []],
+        ['int', 'flags', '0', []],
+        [   'TermCriteria',
+            'criteria',
+            'TermCriteria(TermCriteria::COUNT + TermCriteria::EPS, 200, 1e-7)',
+            []],
+        [   'Ptr<FeatureDetector>',
+            'detector',
+            'AKAZE::create(AKAZE::DESCRIPTOR_MLDB, 0, 3, 0.006f)',
+            []],
+        [   'Ptr<DescriptorExtractor>',
+            'descriptor',
+            'AKAZE::create(AKAZE::DESCRIPTOR_MLDB,0, 3, 0.006f)',
+            []],
+        [   'Ptr<DescriptorMatcher>',
+            'matcher',
+            'DescriptorMatcher::create("BruteForce-L1" )',
+            []]],
+    None,
+    '']
+parse_name: cv.multicalib.MultiCameraCalibration.MultiCameraCalibration with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::MultiCameraCalibration namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:MultiCameraCalibration
+register (constructor) new in cv::multicalib::MultiCameraCalibration (cv_multicalib_MultiCameraCalibration_MultiCameraCalibration_int_int_std_string_float_float_int_int_int_int_TermCriteria_PtrOfFeature2D_PtrOfFeature2D_PtrOfDescriptorMatcher)
+
+--- Incoming ---
+['cv.multicalib.MultiCameraCalibration.loadImages', 'void', [], [], None, '']
+parse_name: cv.multicalib.MultiCameraCalibration.loadImages with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::loadImages namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:loadImages
+register (method) loadImages in cv::multicalib::MultiCameraCalibration (cv_multicalib_MultiCameraCalibration_loadImages)
+
+--- Incoming ---
+['cv.multicalib.MultiCameraCalibration.initialize', 'void', [], [], None, '']
+parse_name: cv.multicalib.MultiCameraCalibration.initialize with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::initialize namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:initialize
+register (method) initialize in cv::multicalib::MultiCameraCalibration (cv_multicalib_MultiCameraCalibration_initialize)
+
+--- Incoming ---
+[   'cv.multicalib.MultiCameraCalibration.optimizeExtrinsics',
+    'double',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.multicalib.MultiCameraCalibration.optimizeExtrinsics with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::optimizeExtrinsics namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:optimizeExtrinsics
+register (method) optimizeExtrinsics in cv::multicalib::MultiCameraCalibration (cv_multicalib_MultiCameraCalibration_optimizeExtrinsics)
+
+--- Incoming ---
+['cv.multicalib.MultiCameraCalibration.run', 'double', [], [], None, '']
+parse_name: cv.multicalib.MultiCameraCalibration.run with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::run namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:run
+register (method) run in cv::multicalib::MultiCameraCalibration (cv_multicalib_MultiCameraCalibration_run)
+
+--- Incoming ---
+[   'cv.multicalib.MultiCameraCalibration.writeParameters',
+    'void',
+    [],
+    [['const std::string&', 'filename', '', []]],
+    None,
+    '']
+parse_name: cv.multicalib.MultiCameraCalibration.writeParameters with ['cv', 'cv::ccalib', 'cv::multicalib'] -> fullname:cv::multicalib::MultiCameraCalibration::writeParameters namespace:cv::multicalib classpath:MultiCameraCalibration classname:MultiCameraCalibration name:writeParameters
+register (method) writeParameters in cv::multicalib::MultiCameraCalibration (cv_multicalib_MultiCameraCalibration_writeParameters_std_string)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ccalib/omnidir.hpp ================
+
+
+Namespaces: ['cv', 'cv.ccalib', 'cv.multicalib', 'cv.omnidir', 'cv.omnidir.internal']
+Comment: {'ccalib': ' @defgroup ccalib Custom Calibration Pattern for 3D reconstruction\n\n'}
+
+--- Incoming ---
+[   'enum cv.omnidir.<unnamed>',
+    '',
+    [],
+    [   ['const cv.omnidir.CALIB_USE_GUESS', '1', [], [], None, ''],
+        ['const cv.omnidir.CALIB_FIX_SKEW', '2', [], [], None, ''],
+        ['const cv.omnidir.CALIB_FIX_K1', '4', [], [], None, ''],
+        ['const cv.omnidir.CALIB_FIX_K2', '8', [], [], None, ''],
+        ['const cv.omnidir.CALIB_FIX_P1', '16', [], [], None, ''],
+        ['const cv.omnidir.CALIB_FIX_P2', '32', [], [], None, ''],
+        ['const cv.omnidir.CALIB_FIX_XI', '64', [], [], None, ''],
+        ['const cv.omnidir.CALIB_FIX_GAMMA', '128', [], [], None, ''],
+        ['const cv.omnidir.CALIB_FIX_CENTER', '256', [], [], None, '']],
+    None,
+    '@addtogroup ccalib\n@{']
+parse_name: const cv.omnidir.CALIB_USE_GUESS with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_USE_GUESS namespace:cv::omnidir classpath: classname: name:CALIB_USE_GUESS
+parse_name: const cv.omnidir.CALIB_FIX_SKEW with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_FIX_SKEW namespace:cv::omnidir classpath: classname: name:CALIB_FIX_SKEW
+parse_name: const cv.omnidir.CALIB_FIX_K1 with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_FIX_K1 namespace:cv::omnidir classpath: classname: name:CALIB_FIX_K1
+parse_name: const cv.omnidir.CALIB_FIX_K2 with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_FIX_K2 namespace:cv::omnidir classpath: classname: name:CALIB_FIX_K2
+parse_name: const cv.omnidir.CALIB_FIX_P1 with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_FIX_P1 namespace:cv::omnidir classpath: classname: name:CALIB_FIX_P1
+parse_name: const cv.omnidir.CALIB_FIX_P2 with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_FIX_P2 namespace:cv::omnidir classpath: classname: name:CALIB_FIX_P2
+parse_name: const cv.omnidir.CALIB_FIX_XI with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_FIX_XI namespace:cv::omnidir classpath: classname: name:CALIB_FIX_XI
+parse_name: const cv.omnidir.CALIB_FIX_GAMMA with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_FIX_GAMMA namespace:cv::omnidir classpath: classname: name:CALIB_FIX_GAMMA
+parse_name: const cv.omnidir.CALIB_FIX_CENTER with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::CALIB_FIX_CENTER namespace:cv::omnidir classpath: classname: name:CALIB_FIX_CENTER
+
+--- Incoming ---
+[   'enum cv.omnidir.<unnamed>',
+    '',
+    [],
+    [   ['const cv.omnidir.RECTIFY_PERSPECTIVE', '1', [], [], None, ''],
+        ['const cv.omnidir.RECTIFY_CYLINDRICAL', '2', [], [], None, ''],
+        ['const cv.omnidir.RECTIFY_LONGLATI', '3', [], [], None, ''],
+        ['const cv.omnidir.RECTIFY_STEREOGRAPHIC', '4', [], [], None, '']],
+    None,
+    '']
+parse_name: const cv.omnidir.RECTIFY_PERSPECTIVE with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::RECTIFY_PERSPECTIVE namespace:cv::omnidir classpath: classname: name:RECTIFY_PERSPECTIVE
+parse_name: const cv.omnidir.RECTIFY_CYLINDRICAL with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::RECTIFY_CYLINDRICAL namespace:cv::omnidir classpath: classname: name:RECTIFY_CYLINDRICAL
+parse_name: const cv.omnidir.RECTIFY_LONGLATI with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::RECTIFY_LONGLATI namespace:cv::omnidir classpath: classname: name:RECTIFY_LONGLATI
+parse_name: const cv.omnidir.RECTIFY_STEREOGRAPHIC with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::RECTIFY_STEREOGRAPHIC namespace:cv::omnidir classpath: classname: name:RECTIFY_STEREOGRAPHIC
+
+--- Incoming ---
+[   'enum cv.omnidir.<unnamed>',
+    '',
+    [],
+    [   ['const cv.omnidir.XYZRGB', '1', [], [], None, ''],
+        ['const cv.omnidir.XYZ', '2', [], [], None, '']],
+    None,
+    '']
+parse_name: const cv.omnidir.XYZRGB with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::XYZRGB namespace:cv::omnidir classpath: classname: name:XYZRGB
+parse_name: const cv.omnidir.XYZ with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::XYZ namespace:cv::omnidir classpath: classname: name:XYZ
+
+--- Incoming ---
+[   'cv.omnidir.projectPoints',
+    'void',
+    [],
+    [   ['InputArray', 'objectPoints', '', []],
+        ['OutputArray', 'imagePoints', '', []],
+        ['InputArray', 'rvec', '', []],
+        ['InputArray', 'tvec', '', []],
+        ['InputArray', 'K', '', []],
+        ['double', 'xi', '', []],
+        ['InputArray', 'D', '', []],
+        ['OutputArray', 'jacobian', 'noArray()', []]],
+    None,
+    "@brief Projects points for omnidirectional camera using CMei's model\n"
+    '\n'
+    '@param objectPoints Object points in world coordinate, vector of vector '
+    'of Vec3f or Mat of\n'
+    '1xN/Nx1 3-channel of type CV_32F and N is the number of points. 64F is '
+    'also acceptable.\n'
+    '@param imagePoints Output array of image points, vector of vector of '
+    'Vec2f or\n'
+    '1xN/Nx1 2-channel of type CV_32F. 64F is also acceptable.\n'
+    '@param rvec vector of rotation between world coordinate and camera '
+    'coordinate, i.e., om\n'
+    '@param tvec vector of translation between pattern coordinate and camera '
+    'coordinate\n'
+    '@param K Camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{s}{c_x}{0}{f_y}{c_y}{0}{0}{_1}\\f$.\n'
+    '@param D Input vector of distortion coefficients \\f$(k_1, k_2, p_1, '
+    'p_2)\\f$.\n'
+    "@param xi The parameter xi for CMei's model\n"
+    '@param jacobian Optional output 2Nx16 of type CV_64F jacobian matrix, '
+    'contains the derivatives of\n'
+    'image pixel points wrt parameters including \\f$om, T, f_x, f_y, s, c_x, '
+    'c_y, xi, k_1, k_2, p_1, p_2\\f$.\n'
+    'This matrix will be used in calibration by optimization.\n'
+    '\n'
+    'The function projects object 3D points of world coordinate to image '
+    'pixels, parameter by intrinsic\n'
+    'and extrinsic parameters. Also, it optionally compute a by-product: the '
+    'jacobian matrix containing\n'
+    'contains the derivatives of image pixel points wrt intrinsic and '
+    'extrinsic parameters.']
+parse_name: cv.omnidir.projectPoints with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::projectPoints namespace:cv::omnidir classpath: classname: name:projectPoints
+register (function) projectPoints (cv_omnidir_projectPoints__InputArray__OutputArray__InputArray__InputArray__InputArray_double__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.undistortPoints',
+    'void',
+    [],
+    [   ['InputArray', 'distorted', '', []],
+        ['OutputArray', 'undistorted', '', []],
+        ['InputArray', 'K', '', []],
+        ['InputArray', 'D', '', []],
+        ['InputArray', 'xi', '', []],
+        ['InputArray', 'R', '', []]],
+    None,
+    "@brief Undistort 2D image points for omnidirectional camera using CMei's "
+    'model\n'
+    '\n'
+    '@param distorted Array of distorted image points, vector of Vec2f\n'
+    'or 1xN/Nx1 2-channel Mat of type CV_32F, 64F depth is also acceptable\n'
+    '@param K Camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{s}{c_x}{0}{f_y}{c_y}{0}{0}{_1}\\f$.\n'
+    '@param D Distortion coefficients \\f$(k_1, k_2, p_1, p_2)\\f$.\n'
+    "@param xi The parameter xi for CMei's model\n"
+    '@param R Rotation trainsform between the original and object space : 3x3 '
+    '1-channel, or vector: 3x1/1x3\n'
+    '1-channel or 1x1 3-channel\n'
+    '@param undistorted array of normalized object points, vector of '
+    'Vec2f/Vec2d or 1xN/Nx1 2-channel Mat with the same\n'
+    'depth of distorted points.']
+parse_name: cv.omnidir.undistortPoints with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::undistortPoints namespace:cv::omnidir classpath: classname: name:undistortPoints
+register (function) undistortPoints (cv_omnidir_undistortPoints__InputArray__OutputArray__InputArray__InputArray__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.omnidir.initUndistortRectifyMap',
+    'void',
+    [],
+    [   ['InputArray', 'K', '', []],
+        ['InputArray', 'D', '', []],
+        ['InputArray', 'xi', '', []],
+        ['InputArray', 'R', '', []],
+        ['InputArray', 'P', '', []],
+        ['const cv::Size&', 'size', '', []],
+        ['int', 'mltype', '', []],
+        ['OutputArray', 'map1', '', []],
+        ['OutputArray', 'map2', '', []],
+        ['int', 'flags', '', []]],
+    None,
+    '@brief Computes undistortion and rectification maps for omnidirectional '
+    'camera image transform by a rotation R.\n'
+    'It output two maps that are used for cv::remap(). If D is empty then zero '
+    'distortion is used,\n'
+    'if R or P is empty then identity matrices are used.\n'
+    '\n'
+    '@param K Camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{s}{c_x}{0}{f_y}{c_y}{0}{0}{_1}\\f$, with depth '
+    'CV_32F or CV_64F\n'
+    '@param D Input vector of distortion coefficients \\f$(k_1, k_2, p_1, '
+    'p_2)\\f$, with depth CV_32F or CV_64F\n'
+    "@param xi The parameter xi for CMei's model\n"
+    '@param R Rotation transform between the original and object space : 3x3 '
+    '1-channel, or vector: 3x1/1x3, with depth CV_32F or CV_64F\n'
+    '@param P New camera matrix (3x3) or new projection matrix (3x4)\n'
+    '@param size Undistorted image size.\n'
+    '@param mltype Type of the first output map that can be CV_32FC1 or '
+    'CV_16SC2 . See convertMaps()\n'
+    'for details.\n'
+    '@param map1 The first output map.\n'
+    '@param map2 The second output map.\n'
+    '@param flags Flags indicates the rectification type,  '
+    'RECTIFY_PERSPECTIVE, RECTIFY_CYLINDRICAL, RECTIFY_LONGLATI and '
+    'RECTIFY_STEREOGRAPHIC\n'
+    'are supported.']
+parse_name: cv.omnidir.initUndistortRectifyMap with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::initUndistortRectifyMap namespace:cv::omnidir classpath: classname: name:initUndistortRectifyMap
+register (function) initUndistortRectifyMap (cv_omnidir_initUndistortRectifyMap__InputArray__InputArray__InputArray__InputArray__InputArray_Size_int__OutputArray__OutputArray_int)
+
+--- Incoming ---
+[   'cv.omnidir.undistortImage',
+    'void',
+    [],
+    [   ['InputArray', 'distorted', '', []],
+        ['OutputArray', 'undistorted', '', []],
+        ['InputArray', 'K', '', []],
+        ['InputArray', 'D', '', []],
+        ['InputArray', 'xi', '', []],
+        ['int', 'flags', '', []],
+        ['InputArray', 'Knew', 'cv::noArray()', []],
+        ['const Size&', 'new_size', 'Size()', []],
+        ['InputArray', 'R', 'Mat::eye(3, 3, CV_64F)', []]],
+    None,
+    '@brief Undistort omnidirectional images to perspective images\n'
+    '\n'
+    '@param distorted The input omnidirectional image.\n'
+    '@param undistorted The output undistorted image.\n'
+    '@param K Camera matrix \\f$K = '
+    '\\vecthreethree{f_x}{s}{c_x}{0}{f_y}{c_y}{0}{0}{_1}\\f$.\n'
+    '@param D Input vector of distortion coefficients \\f$(k_1, k_2, p_1, '
+    'p_2)\\f$.\n'
+    "@param xi The parameter xi for CMei's model.\n"
+    '@param flags Flags indicates the rectification type,  '
+    'RECTIFY_PERSPECTIVE, RECTIFY_CYLINDRICAL, RECTIFY_LONGLATI and '
+    'RECTIFY_STEREOGRAPHIC\n'
+    '@param Knew Camera matrix of the distorted image. If it is not assigned, '
+    'it is just K.\n'
+    '@param new_size The new image size. By default, it is the size of '
+    'distorted.\n'
+    '@param R Rotation matrix between the input and output images. By default, '
+    'it is identity matrix.']
+parse_name: cv.omnidir.undistortImage with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::undistortImage namespace:cv::omnidir classpath: classname: name:undistortImage
+register (function) undistortImage (cv_omnidir_undistortImage__InputArray__OutputArray__InputArray__InputArray__InputArray_int__InputArray_Size__InputArray)
+
+--- Incoming ---
+[   'cv.omnidir.calibrate',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints', '', []],
+        ['Size', 'size', '', []],
+        ['InputOutputArray', 'K', '', []],
+        ['InputOutputArray', 'xi', '', []],
+        ['InputOutputArray', 'D', '', []],
+        ['OutputArrayOfArrays', 'rvecs', '', []],
+        ['OutputArrayOfArrays', 'tvecs', '', []],
+        ['int', 'flags', '', []],
+        ['TermCriteria', 'criteria', '', []],
+        ['OutputArray', 'idx', 'noArray()', []]],
+    None,
+    '@brief Perform omnidirectional camera calibration, the default depth of '
+    'outputs is CV_64F.\n'
+    '\n'
+    '@param objectPoints Vector of vector of Vec3f object points in world '
+    '(pattern) coordinate.\n'
+    'It also can be vector of Mat with size 1xN/Nx1 and type CV_32FC3. Data '
+    'with depth of 64_F is also acceptable.\n'
+    '@param imagePoints Vector of vector of Vec2f corresponding image points '
+    'of objectPoints. It must be the same\n'
+    'size and the same type with objectPoints.\n'
+    '@param size Image size of calibration images.\n'
+    '@param K Output calibrated camera matrix.\n'
+    "@param xi Output parameter xi for CMei's model\n"
+    '@param D Output distortion parameters \\f$(k_1, k_2, p_1, p_2)\\f$\n'
+    '@param rvecs Output rotations for each calibration images\n'
+    '@param tvecs Output translation for each calibration images\n'
+    '@param flags The flags that control calibrate\n'
+    '@param criteria Termination criteria for optimization\n'
+    '@param idx Indices of images that pass initialization, which are really '
+    'used in calibration. So the size of rvecs is the\n'
+    'same as idx.total().']
+parse_name: cv.omnidir.calibrate with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::calibrate namespace:cv::omnidir classpath: classname: name:calibrate
+register (function) calibrate (cv_omnidir_calibrate__InputArray__InputArray_Size__InputOutputArray__InputOutputArray__InputOutputArray__OutputArray__OutputArray_int_TermCriteria__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.stereoCalibrate',
+    'double',
+    [],
+    [   ['InputOutputArrayOfArrays', 'objectPoints', '', []],
+        ['InputOutputArrayOfArrays', 'imagePoints1', '', []],
+        ['InputOutputArrayOfArrays', 'imagePoints2', '', []],
+        ['const Size&', 'imageSize1', '', []],
+        ['const Size&', 'imageSize2', '', []],
+        ['InputOutputArray', 'K1', '', []],
+        ['InputOutputArray', 'xi1', '', []],
+        ['InputOutputArray', 'D1', '', []],
+        ['InputOutputArray', 'K2', '', []],
+        ['InputOutputArray', 'xi2', '', []],
+        ['InputOutputArray', 'D2', '', []],
+        ['OutputArray', 'rvec', '', []],
+        ['OutputArray', 'tvec', '', []],
+        ['OutputArrayOfArrays', 'rvecsL', '', []],
+        ['OutputArrayOfArrays', 'tvecsL', '', []],
+        ['int', 'flags', '', []],
+        ['TermCriteria', 'criteria', '', []],
+        ['OutputArray', 'idx', 'noArray()', []]],
+    None,
+    '@brief Stereo calibration for omnidirectional camera model. It computes '
+    'the intrinsic parameters for two\n'
+    'cameras and the extrinsic parameters between two cameras. The default '
+    'depth of outputs is CV_64F.\n'
+    '\n'
+    '@param objectPoints Object points in world (pattern) coordinate. Its type '
+    'is vector<vector<Vec3f> >.\n'
+    'It also can be vector of Mat with size 1xN/Nx1 and type CV_32FC3. Data '
+    'with depth of 64_F is also acceptable.\n'
+    '@param imagePoints1 The corresponding image points of the first camera, '
+    'with type vector<vector<Vec2f> >.\n'
+    'It must be the same size and the same type as objectPoints.\n'
+    '@param imagePoints2 The corresponding image points of the second camera, '
+    'with type vector<vector<Vec2f> >.\n'
+    'It must be the same size and the same type as objectPoints.\n'
+    '@param imageSize1 Image size of calibration images of the first camera.\n'
+    '@param imageSize2 Image size of calibration images of the second camera.\n'
+    '@param K1 Output camera matrix for the first camera.\n'
+    "@param xi1 Output parameter xi of Mei's model for the first camera\n"
+    '@param D1 Output distortion parameters \\f$(k_1, k_2, p_1, p_2)\\f$ for '
+    'the first camera\n'
+    '@param K2 Output camera matrix for the first camera.\n'
+    "@param xi2 Output parameter xi of CMei's model for the second camera\n"
+    '@param D2 Output distortion parameters \\f$(k_1, k_2, p_1, p_2)\\f$ for '
+    'the second camera\n'
+    '@param rvec Output rotation between the first and second camera\n'
+    '@param tvec Output translation between the first and second camera\n'
+    '@param rvecsL Output rotation for each image of the first camera\n'
+    '@param tvecsL Output translation for each image of the first camera\n'
+    '@param flags The flags that control stereoCalibrate\n'
+    '@param criteria Termination criteria for optimization\n'
+    '@param idx Indices of image pairs that pass initialization, which are '
+    'really used in calibration. So the size of rvecs is the\n'
+    'same as idx.total().\n'
+    '@']
+parse_name: cv.omnidir.stereoCalibrate with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::stereoCalibrate namespace:cv::omnidir classpath: classname: name:stereoCalibrate
+register (function) stereoCalibrate (cv_omnidir_stereoCalibrate__InputOutputArray__InputOutputArray__InputOutputArray_Size_Size__InputOutputArray__InputOutputArray__InputOutputArray__InputOutputArray__InputOutputArray__InputOutputArray__OutputArray__OutputArray__OutputArray__OutputArray_int_TermCriteria__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.stereoRectify',
+    'void',
+    [],
+    [   ['InputArray', 'R', '', []],
+        ['InputArray', 'T', '', []],
+        ['OutputArray', 'R1', '', []],
+        ['OutputArray', 'R2', '', []]],
+    None,
+    '@brief Stereo rectification for omnidirectional camera model. It computes '
+    'the rectification rotations for two cameras\n'
+    '\n'
+    '@param R Rotation between the first and second camera\n'
+    '@param T Translation between the first and second camera\n'
+    '@param R1 Output 3x3 rotation matrix for the first camera\n'
+    '@param R2 Output 3x3 rotation matrix for the second camera']
+parse_name: cv.omnidir.stereoRectify with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::stereoRectify namespace:cv::omnidir classpath: classname: name:stereoRectify
+register (function) stereoRectify (cv_omnidir_stereoRectify__InputArray__InputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.stereoReconstruct',
+    'void',
+    [],
+    [   ['InputArray', 'image1', '', []],
+        ['InputArray', 'image2', '', []],
+        ['InputArray', 'K1', '', []],
+        ['InputArray', 'D1', '', []],
+        ['InputArray', 'xi1', '', []],
+        ['InputArray', 'K2', '', []],
+        ['InputArray', 'D2', '', []],
+        ['InputArray', 'xi2', '', []],
+        ['InputArray', 'R', '', []],
+        ['InputArray', 'T', '', []],
+        ['int', 'flag', '', []],
+        ['int', 'numDisparities', '', []],
+        ['int', 'SADWindowSize', '', []],
+        ['OutputArray', 'disparity', '', []],
+        ['OutputArray', 'image1Rec', '', []],
+        ['OutputArray', 'image2Rec', '', []],
+        ['const Size&', 'newSize', 'Size()', []],
+        ['InputArray', 'Knew', 'cv::noArray()', []],
+        ['OutputArray', 'pointCloud', 'cv::noArray()', []],
+        ['int', 'pointType', 'XYZRGB', []]],
+    None,
+    '@brief Stereo 3D reconstruction from a pair of images\n'
+    '\n'
+    '@param image1 The first input image\n'
+    '@param image2 The second input image\n'
+    '@param K1 Input camera matrix of the first camera\n'
+    '@param D1 Input distortion parameters \\f$(k_1, k_2, p_1, p_2)\\f$ for '
+    'the first camera\n'
+    "@param xi1 Input parameter xi for the first camera for CMei's model\n"
+    '@param K2 Input camera matrix of the second camera\n'
+    '@param D2 Input distortion parameters \\f$(k_1, k_2, p_1, p_2)\\f$ for '
+    'the second camera\n'
+    "@param xi2 Input parameter xi for the second camera for CMei's model\n"
+    '@param R Rotation between the first and second camera\n'
+    '@param T Translation between the first and second camera\n'
+    '@param flag Flag of rectification type, RECTIFY_PERSPECTIVE or '
+    'RECTIFY_LONGLATI\n'
+    "@param numDisparities The parameter 'numDisparities' in StereoSGBM, see "
+    'StereoSGBM for details.\n'
+    "@param SADWindowSize The parameter 'SADWindowSize' in StereoSGBM, see "
+    'StereoSGBM for details.\n'
+    '@param disparity Disparity map generated by stereo matching\n'
+    '@param image1Rec Rectified image of the first image\n'
+    '@param image2Rec rectified image of the second image\n'
+    '@param newSize Image size of rectified image, see '
+    'omnidir::undistortImage\n'
+    '@param Knew New camera matrix of rectified image, see '
+    'omnidir::undistortImage\n'
+    '@param pointCloud Point cloud of 3D reconstruction, with type CV_64FC3\n'
+    '@param pointType Point cloud type, it can be XYZRGB or XYZ']
+parse_name: cv.omnidir.stereoReconstruct with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::stereoReconstruct namespace:cv::omnidir classpath: classname: name:stereoReconstruct
+register (function) stereoReconstruct (cv_omnidir_stereoReconstruct__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray_int_int_int__OutputArray__OutputArray__OutputArray_Size__InputArray__OutputArray_int)
+
+--- Incoming ---
+[   'cv.omnidir.internal.initializeCalibration',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints', '', []],
+        ['Size', 'size', '', []],
+        ['OutputArrayOfArrays', 'omAll', '', []],
+        ['OutputArrayOfArrays', 'tAll', '', []],
+        ['OutputArray', 'K', '', []],
+        ['double&', 'xi', '', []],
+        ['OutputArray', 'idx', 'noArray()', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.initializeCalibration with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::initializeCalibration namespace:cv::omnidir::internal classpath: classname: name:initializeCalibration
+register (function) initializeCalibration (cv_omnidir_internal_initializeCalibration__InputArray__InputArray_Size__OutputArray__OutputArray__OutputArray_double__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.initializeStereoCalibration',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints1', '', []],
+        ['InputArrayOfArrays', 'imagePoints2', '', []],
+        ['const Size&', 'size1', '', []],
+        ['const Size&', 'size2', '', []],
+        ['OutputArray', 'om', '', []],
+        ['OutputArray', 'T', '', []],
+        ['OutputArrayOfArrays', 'omL', '', []],
+        ['OutputArrayOfArrays', 'tL', '', []],
+        ['OutputArray', 'K1', '', []],
+        ['OutputArray', 'D1', '', []],
+        ['OutputArray', 'K2', '', []],
+        ['OutputArray', 'D2', '', []],
+        ['double &', 'xi1', '', []],
+        ['double &', 'xi2', '', []],
+        ['int', 'flags', '', []],
+        ['OutputArray', 'idx', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.initializeStereoCalibration with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::initializeStereoCalibration namespace:cv::omnidir::internal classpath: classname: name:initializeStereoCalibration
+register (function) initializeStereoCalibration (cv_omnidir_internal_initializeStereoCalibration__InputArray__InputArray__InputArray_Size_Size__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray_double_double_int__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.computeJacobian',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints', '', []],
+        ['InputArray', 'parameters', '', []],
+        ['Mat&', 'JTJ_inv', '', []],
+        ['Mat&', 'JTE', '', []],
+        ['int', 'flags', '', []],
+        ['double', 'epsilon', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.computeJacobian with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::computeJacobian namespace:cv::omnidir::internal classpath: classname: name:computeJacobian
+register (function) computeJacobian (cv_omnidir_internal_computeJacobian__InputArray__InputArray__InputArray_Mat_Mat_int_double)
+
+--- Incoming ---
+[   'cv.omnidir.internal.computeJacobianStereo',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints1', '', []],
+        ['InputArrayOfArrays', 'imagePoints2', '', []],
+        ['InputArray', 'parameters', '', []],
+        ['Mat&', 'JTJ_inv', '', []],
+        ['Mat&', 'JTE', '', []],
+        ['int', 'flags', '', []],
+        ['double', 'epsilon', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.computeJacobianStereo with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::computeJacobianStereo namespace:cv::omnidir::internal classpath: classname: name:computeJacobianStereo
+register (function) computeJacobianStereo (cv_omnidir_internal_computeJacobianStereo__InputArray__InputArray__InputArray__InputArray_Mat_Mat_int_double)
+
+--- Incoming ---
+[   'cv.omnidir.internal.encodeParameters',
+    'void',
+    [],
+    [   ['InputArray', 'K', '', []],
+        ['InputArrayOfArrays', 'omAll', '', []],
+        ['InputArrayOfArrays', 'tAll', '', []],
+        ['InputArray', 'distoaration', '', []],
+        ['double', 'xi', '', []],
+        ['OutputArray', 'parameters', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.encodeParameters with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::encodeParameters namespace:cv::omnidir::internal classpath: classname: name:encodeParameters
+register (function) encodeParameters (cv_omnidir_internal_encodeParameters__InputArray__InputArray__InputArray__InputArray_double__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.encodeParametersStereo',
+    'void',
+    [],
+    [   ['InputArray', 'K1', '', []],
+        ['InputArray', 'K2', '', []],
+        ['InputArray', 'om', '', []],
+        ['InputArray', 'T', '', []],
+        ['InputArrayOfArrays', 'omL', '', []],
+        ['InputArrayOfArrays', 'tL', '', []],
+        ['InputArray', 'D1', '', []],
+        ['InputArray', 'D2', '', []],
+        ['double', 'xi1', '', []],
+        ['double', 'xi2', '', []],
+        ['OutputArray', 'parameters', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.encodeParametersStereo with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::encodeParametersStereo namespace:cv::omnidir::internal classpath: classname: name:encodeParametersStereo
+register (function) encodeParametersStereo (cv_omnidir_internal_encodeParametersStereo__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray_double_double__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.decodeParameters',
+    'void',
+    [],
+    [   ['InputArray', 'paramsters', '', []],
+        ['OutputArray', 'K', '', []],
+        ['OutputArrayOfArrays', 'omAll', '', []],
+        ['OutputArrayOfArrays', 'tAll', '', []],
+        ['OutputArray', 'distoration', '', []],
+        ['double&', 'xi', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.decodeParameters with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::decodeParameters namespace:cv::omnidir::internal classpath: classname: name:decodeParameters
+register (function) decodeParameters (cv_omnidir_internal_decodeParameters__InputArray__OutputArray__OutputArray__OutputArray__OutputArray_double)
+
+--- Incoming ---
+[   'cv.omnidir.internal.decodeParametersStereo',
+    'void',
+    [],
+    [   ['InputArray', 'parameters', '', []],
+        ['OutputArray', 'K1', '', []],
+        ['OutputArray', 'K2', '', []],
+        ['OutputArray', 'om', '', []],
+        ['OutputArray', 'T', '', []],
+        ['OutputArrayOfArrays', 'omL', '', []],
+        ['OutputArrayOfArrays', 'tL', '', []],
+        ['OutputArray', 'D1', '', []],
+        ['OutputArray', 'D2', '', []],
+        ['double&', 'xi1', '', []],
+        ['double&', 'xi2', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.decodeParametersStereo with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::decodeParametersStereo namespace:cv::omnidir::internal classpath: classname: name:decodeParametersStereo
+register (function) decodeParametersStereo (cv_omnidir_internal_decodeParametersStereo__InputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray_double_double)
+
+--- Incoming ---
+[   'cv.omnidir.internal.estimateUncertainties',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints', '', []],
+        ['InputArray', 'parameters', '', []],
+        ['Mat&', 'errors', '', []],
+        ['Vec2d&', 'std_error', '', []],
+        ['double&', 'rms', '', []],
+        ['int', 'flags', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.estimateUncertainties with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::estimateUncertainties namespace:cv::omnidir::internal classpath: classname: name:estimateUncertainties
+register (function) estimateUncertainties (cv_omnidir_internal_estimateUncertainties__InputArray__InputArray__InputArray_Mat_Vec2d_double_int)
+
+--- Incoming ---
+[   'cv.omnidir.internal.estimateUncertaintiesStereo',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints1', '', []],
+        ['InputArrayOfArrays', 'imagePoints2', '', []],
+        ['InputArray', 'parameters', '', []],
+        ['Mat&', 'errors', '', []],
+        ['Vec2d&', 'std_error', '', []],
+        ['double&', 'rms', '', []],
+        ['int', 'flags', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.estimateUncertaintiesStereo with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::estimateUncertaintiesStereo namespace:cv::omnidir::internal classpath: classname: name:estimateUncertaintiesStereo
+register (function) estimateUncertaintiesStereo (cv_omnidir_internal_estimateUncertaintiesStereo__InputArray__InputArray__InputArray__InputArray_Mat_Vec2d_double_int)
+
+--- Incoming ---
+[   'cv.omnidir.internal.computeMeanReproErr',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'imagePoints', '', []],
+        ['InputArrayOfArrays', 'proImagePoints', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.computeMeanReproErr with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::computeMeanReproErr namespace:cv::omnidir::internal classpath: classname: name:computeMeanReproErr
+register (function) computeMeanReproErr (cv_omnidir_internal_computeMeanReproErr__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.computeMeanReproErr',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints', '', []],
+        ['InputArray', 'K', '', []],
+        ['InputArray', 'D', '', []],
+        ['double', 'xi', '', []],
+        ['InputArrayOfArrays', 'omAll', '', []],
+        ['InputArrayOfArrays', 'tAll', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.computeMeanReproErr with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::computeMeanReproErr namespace:cv::omnidir::internal classpath: classname: name:computeMeanReproErr
+register (function) computeMeanReproErr (cv_omnidir_internal_computeMeanReproErr__InputArray__InputArray__InputArray__InputArray_double__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.computeMeanReproErrStereo',
+    'double',
+    [],
+    [   ['InputArrayOfArrays', 'objectPoints', '', []],
+        ['InputArrayOfArrays', 'imagePoints1', '', []],
+        ['InputArrayOfArrays', 'imagePoints2', '', []],
+        ['InputArray', 'K1', '', []],
+        ['InputArray', 'K2', '', []],
+        ['InputArray', 'D1', '', []],
+        ['InputArray', 'D2', '', []],
+        ['double', 'xi1', '', []],
+        ['double', 'xi2', '', []],
+        ['InputArray', 'om', '', []],
+        ['InputArray', 'T', '', []],
+        ['InputArrayOfArrays', 'omL', '', []],
+        ['InputArrayOfArrays', 'TL', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.computeMeanReproErrStereo with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::computeMeanReproErrStereo namespace:cv::omnidir::internal classpath: classname: name:computeMeanReproErrStereo
+register (function) computeMeanReproErrStereo (cv_omnidir_internal_computeMeanReproErrStereo__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray_double_double__InputArray__InputArray__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.subMatrix',
+    'void',
+    [],
+    [   ['const Mat&', 'src', '', []],
+        ['Mat&', 'dst', '', []],
+        ['const std::vector<int>&', 'cols', '', []],
+        ['const std::vector<int>&', 'rows', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.subMatrix with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::subMatrix namespace:cv::omnidir::internal classpath: classname: name:subMatrix
+register (function) subMatrix (cv_omnidir_internal_subMatrix_Mat_Mat_VectorOfint_VectorOfint)
+
+--- Incoming ---
+[   'cv.omnidir.internal.flags2idx',
+    'void',
+    [],
+    [   ['int', 'flags', '', []],
+        ['std::vector<int>&', 'idx', '', []],
+        ['int', 'n', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.flags2idx with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::flags2idx namespace:cv::omnidir::internal classpath: classname: name:flags2idx
+register (function) flags2idx (cv_omnidir_internal_flags2idx_int_VectorOfint_int)
+
+--- Incoming ---
+[   'cv.omnidir.internal.flags2idxStereo',
+    'void',
+    [],
+    [   ['int', 'flags', '', []],
+        ['std::vector<int>&', 'idx', '', []],
+        ['int', 'n', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.flags2idxStereo with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::flags2idxStereo namespace:cv::omnidir::internal classpath: classname: name:flags2idxStereo
+register (function) flags2idxStereo (cv_omnidir_internal_flags2idxStereo_int_VectorOfint_int)
+
+--- Incoming ---
+[   'cv.omnidir.internal.fillFixed',
+    'void',
+    [],
+    [['Mat&', 'G', '', []], ['int', 'flags', '', []], ['int', 'n', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.fillFixed with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::fillFixed namespace:cv::omnidir::internal classpath: classname: name:fillFixed
+register (function) fillFixed (cv_omnidir_internal_fillFixed_Mat_int_int)
+
+--- Incoming ---
+[   'cv.omnidir.internal.fillFixedStereo',
+    'void',
+    [],
+    [['Mat&', 'G', '', []], ['int', 'flags', '', []], ['int', 'n', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.fillFixedStereo with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::fillFixedStereo namespace:cv::omnidir::internal classpath: classname: name:fillFixedStereo
+register (function) fillFixedStereo (cv_omnidir_internal_fillFixedStereo_Mat_int_int)
+
+--- Incoming ---
+[   'cv.omnidir.internal.findMedian',
+    'double',
+    [],
+    [['const Mat&', 'row', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.findMedian with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::findMedian namespace:cv::omnidir::internal classpath: classname: name:findMedian
+register (function) findMedian (cv_omnidir_internal_findMedian_Mat)
+
+--- Incoming ---
+[   'cv.omnidir.internal.findMedian3',
+    'Vec3d',
+    [],
+    [['InputArray', 'mat', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.findMedian3 with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::findMedian3 namespace:cv::omnidir::internal classpath: classname: name:findMedian3
+register (function) findMedian3 (cv_omnidir_internal_findMedian3__InputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.getInterset',
+    'void',
+    [],
+    [   ['InputArray', 'idx1', '', []],
+        ['InputArray', 'idx2', '', []],
+        ['OutputArray', 'inter1', '', []],
+        ['OutputArray', 'inter2', '', []],
+        ['OutputArray', 'inter_ori', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.getInterset with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::getInterset namespace:cv::omnidir::internal classpath: classname: name:getInterset
+register (function) getInterset (cv_omnidir_internal_getInterset__InputArray__InputArray__OutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.omnidir.internal.compose_motion',
+    'void',
+    [],
+    [   ['InputArray', '_om1', '', []],
+        ['InputArray', '_T1', '', []],
+        ['InputArray', '_om2', '', []],
+        ['InputArray', '_T2', '', []],
+        ['Mat&', 'om3', '', []],
+        ['Mat&', 'T3', '', []],
+        ['Mat&', 'dom3dom1', '', []],
+        ['Mat&', 'dom3dT1', '', []],
+        ['Mat&', 'dom3dom2', '', []],
+        ['Mat&', 'dom3dT2', '', []],
+        ['Mat&', 'dT3dom1', '', []],
+        ['Mat&', 'dT3dT1', '', []],
+        ['Mat&', 'dT3dom2', '', []],
+        ['Mat&', 'dT3dT2', '', []]],
+    None,
+    '']
+parse_name: cv.omnidir.internal.compose_motion with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal'] -> fullname:cv::omnidir::internal::compose_motion namespace:cv::omnidir::internal classpath: classname: name:compose_motion
+register (function) compose_motion (cv_omnidir_internal_compose_motion__InputArray__InputArray__InputArray__InputArray_Mat_Mat_Mat_Mat_Mat_Mat_Mat_Mat_Mat_Mat)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ccalib/randpattern.hpp ================
+
+
+Namespaces: ['cv', 'cv.ccalib', 'cv.multicalib', 'cv.omnidir', 'cv.omnidir.internal', 'cv.randpattern']
+Comment: {'ccalib': ' @defgroup ccalib Custom Calibration Pattern for 3D reconstruction\n\n'}
+
+--- Incoming ---
+[   'class cv.randpattern.RandomPatternCornerFinder',
+    '',
+    [],
+    [],
+    None,
+    '@brief Class for finding features points and corresponding 3D in world '
+    'coordinate of\n'
+    'a "random" pattern, which can be to be used in calibration. It is useful '
+    'when pattern is\n'
+    'partly occluded or only a part of pattern can be observed in multiple '
+    'cameras calibration.\n'
+    'The pattern can be generated by RandomPatternGenerator class described in '
+    'this file.\n'
+    '\n'
+    'Please refer to paper\n'
+    'B. Li, L. Heng, K. Kevin  and M. Pollefeys, "A Multiple-Camera System\n'
+    'Calibration Toolbox Using A Feature Descriptor-Based Calibration\n'
+    'Pattern", in IROS 2013.']
+parse_name: class cv.randpattern.RandomPatternCornerFinder with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternCornerFinder namespace:cv::randpattern classpath: classname: name:RandomPatternCornerFinder
+register class cv::randpattern::RandomPatternCornerFinder (['class cv.randpattern.RandomPatternCornerFinder', '', [], [], None, '@brief Class for finding features points and corresponding 3D in world coordinate of\na "random" pattern, which can be to be used in calibration. It is useful when pattern is\npartly occluded or only a part of pattern can be observed in multiple cameras calibration.\nThe pattern can be generated by RandomPatternGenerator class described in this file.\n\nPlease refer to paper\nB. Li, L. Heng, K. Kevin  and M. Pollefeys, "A Multiple-Camera System\nCalibration Toolbox Using A Feature Descriptor-Based Calibration\nPattern", in IROS 2013.'])
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternCornerFinder.RandomPatternCornerFinder',
+    'R',
+    [],
+    [   ['float', 'patternWidth', '', []],
+        ['float', 'patternHeight', '', []],
+        ['int', 'nminiMatch', '20', []],
+        ['int', 'depth', 'CV_32F', []],
+        ['int', 'verbose', '0', []],
+        ['int', 'showExtraction', '0', []],
+        [   'Ptr<FeatureDetector>',
+            'detector',
+            'AKAZE::create(AKAZE::DESCRIPTOR_MLDB, 0, 3, 0.005f)',
+            []],
+        [   'Ptr<DescriptorExtractor>',
+            'descriptor',
+            'AKAZE::create(AKAZE::DESCRIPTOR_MLDB,0, 3, 0.005f)',
+            []],
+        [   'Ptr<DescriptorMatcher>',
+            'matcher',
+            'DescriptorMatcher::create("BruteForce-L1" )',
+            []]],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternCornerFinder.RandomPatternCornerFinder with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternCornerFinder::RandomPatternCornerFinder namespace:cv::randpattern classpath:RandomPatternCornerFinder classname:RandomPatternCornerFinder name:RandomPatternCornerFinder
+register (constructor) new in cv::randpattern::RandomPatternCornerFinder (cv_randpattern_RandomPatternCornerFinder_RandomPatternCornerFinder_float_float_int_int_int_int_PtrOfFeature2D_PtrOfFeature2D_PtrOfDescriptorMatcher)
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternCornerFinder.loadPattern',
+    'void',
+    [],
+    [['const cv::Mat &', 'patternImage', '', []]],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternCornerFinder.loadPattern with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternCornerFinder::loadPattern namespace:cv::randpattern classpath:RandomPatternCornerFinder classname:RandomPatternCornerFinder name:loadPattern
+register (method) loadPattern in cv::randpattern::RandomPatternCornerFinder (cv_randpattern_RandomPatternCornerFinder_loadPattern_Mat)
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternCornerFinder.loadPattern',
+    'void',
+    [],
+    [   ['const cv::Mat &', 'patternImage', '', []],
+        ['const std::vector<cv::KeyPoint> &', 'patternKeyPoints', '', []],
+        ['const cv::Mat &', 'patternDescriptors', '', []]],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternCornerFinder.loadPattern with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternCornerFinder::loadPattern namespace:cv::randpattern classpath:RandomPatternCornerFinder classname:RandomPatternCornerFinder name:loadPattern
+register (method) loadPattern in cv::randpattern::RandomPatternCornerFinder (cv_randpattern_RandomPatternCornerFinder_loadPattern_Mat_VectorOfKeyPoint_Mat)
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternCornerFinder.computeObjectImagePoints',
+    'void',
+    [],
+    [['std::vector<cv::Mat>', 'inputImages', '', []]],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternCornerFinder.computeObjectImagePoints with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternCornerFinder::computeObjectImagePoints namespace:cv::randpattern classpath:RandomPatternCornerFinder classname:RandomPatternCornerFinder name:computeObjectImagePoints
+register (method) computeObjectImagePoints in cv::randpattern::RandomPatternCornerFinder (cv_randpattern_RandomPatternCornerFinder_computeObjectImagePoints_VectorOfMat)
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternCornerFinder.computeObjectImagePointsForSingle',
+    'std::vector<cv::Mat>',
+    [],
+    [['cv::Mat', 'inputImage', '', []]],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternCornerFinder.computeObjectImagePointsForSingle with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternCornerFinder::computeObjectImagePointsForSingle namespace:cv::randpattern classpath:RandomPatternCornerFinder classname:RandomPatternCornerFinder name:computeObjectImagePointsForSingle
+register (method) computeObjectImagePointsForSingle in cv::randpattern::RandomPatternCornerFinder (cv_randpattern_RandomPatternCornerFinder_computeObjectImagePointsForSingle_Mat)
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternCornerFinder.getObjectPoints',
+    'const std::vector<cv::Mat> &',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternCornerFinder.getObjectPoints with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternCornerFinder::getObjectPoints namespace:cv::randpattern classpath:RandomPatternCornerFinder classname:RandomPatternCornerFinder name:getObjectPoints
+register (method) getObjectPoints in cv::randpattern::RandomPatternCornerFinder (cv_randpattern_RandomPatternCornerFinder_getObjectPoints)
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternCornerFinder.getImagePoints',
+    'const std::vector<cv::Mat> &',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternCornerFinder.getImagePoints with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternCornerFinder::getImagePoints namespace:cv::randpattern classpath:RandomPatternCornerFinder classname:RandomPatternCornerFinder name:getImagePoints
+register (method) getImagePoints in cv::randpattern::RandomPatternCornerFinder (cv_randpattern_RandomPatternCornerFinder_getImagePoints)
+
+--- Incoming ---
+['class cv.randpattern.RandomPatternGenerator', '', [], [], None, '']
+parse_name: class cv.randpattern.RandomPatternGenerator with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternGenerator namespace:cv::randpattern classpath: classname: name:RandomPatternGenerator
+register class cv::randpattern::RandomPatternGenerator (['class cv.randpattern.RandomPatternGenerator', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternGenerator.RandomPatternGenerator',
+    'R',
+    [],
+    [['int', 'imageWidth', '', []], ['int', 'imageHeight', '', []]],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternGenerator.RandomPatternGenerator with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternGenerator::RandomPatternGenerator namespace:cv::randpattern classpath:RandomPatternGenerator classname:RandomPatternGenerator name:RandomPatternGenerator
+register (constructor) new in cv::randpattern::RandomPatternGenerator (cv_randpattern_RandomPatternGenerator_RandomPatternGenerator_int_int)
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternGenerator.generatePattern',
+    'void',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternGenerator.generatePattern with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternGenerator::generatePattern namespace:cv::randpattern classpath:RandomPatternGenerator classname:RandomPatternGenerator name:generatePattern
+register (method) generatePattern in cv::randpattern::RandomPatternGenerator (cv_randpattern_RandomPatternGenerator_generatePattern)
+
+--- Incoming ---
+[   'cv.randpattern.RandomPatternGenerator.getPattern',
+    'cv::Mat',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.randpattern.RandomPatternGenerator.getPattern with ['cv', 'cv::ccalib', 'cv::multicalib', 'cv::omnidir', 'cv::omnidir::internal', 'cv::randpattern'] -> fullname:cv::randpattern::RandomPatternGenerator::getPattern namespace:cv::randpattern classpath:RandomPatternGenerator classname:RandomPatternGenerator name:getPattern
+register (method) getPattern in cv::randpattern::RandomPatternGenerator (cv_randpattern_RandomPatternGenerator_getPattern)
+
+
+===== Generating... =====
+Generating func cv_omnidir_calibrate__InputArray__InputArray_Size__InputOutputArray__InputOutputArray__InputOutputArray__OutputArray__OutputArray_int_TermCriteria__OutputArray
+Generating func cv_omnidir_initUndistortRectifyMap__InputArray__InputArray__InputArray__InputArray__InputArray_Size_int__OutputArray__OutputArray_int
+Generating func cv_omnidir_internal_compose_motion__InputArray__InputArray__InputArray__InputArray_Mat_Mat_Mat_Mat_Mat_Mat_Mat_Mat_Mat_Mat
+Generating func cv_omnidir_internal_computeJacobianStereo__InputArray__InputArray__InputArray__InputArray_Mat_Mat_int_double
+Generating func cv_omnidir_internal_computeJacobian__InputArray__InputArray__InputArray_Mat_Mat_int_double
+Generating func cv_omnidir_internal_computeMeanReproErrStereo__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray_double_double__InputArray__InputArray__InputArray__InputArray
+Generating func cv_omnidir_internal_computeMeanReproErr__InputArray__InputArray
+Generating func cv_omnidir_internal_computeMeanReproErr__InputArray__InputArray__InputArray__InputArray_double__InputArray__InputArray
+Generating func cv_omnidir_internal_decodeParametersStereo__InputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray_double_double
+Generating func cv_omnidir_internal_decodeParameters__InputArray__OutputArray__OutputArray__OutputArray__OutputArray_double
+Generating func cv_omnidir_internal_encodeParametersStereo__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray_double_double__OutputArray
+Generating func cv_omnidir_internal_encodeParameters__InputArray__InputArray__InputArray__InputArray_double__OutputArray
+Generating func cv_omnidir_internal_estimateUncertaintiesStereo__InputArray__InputArray__InputArray__InputArray_Mat_Vec2d_double_int
+Generating func cv_omnidir_internal_estimateUncertainties__InputArray__InputArray__InputArray_Mat_Vec2d_double_int
+Generating func cv_omnidir_internal_fillFixedStereo_Mat_int_int
+Generating func cv_omnidir_internal_fillFixed_Mat_int_int
+Generating func cv_omnidir_internal_findMedian3__InputArray
+Generating func cv_omnidir_internal_findMedian_Mat
+Generating func cv_omnidir_internal_flags2idxStereo_int_VectorOfint_int
+Generating func cv_omnidir_internal_flags2idx_int_VectorOfint_int
+Generating func cv_omnidir_internal_getInterset__InputArray__InputArray__OutputArray__OutputArray__OutputArray
+Generating func cv_omnidir_internal_initializeCalibration__InputArray__InputArray_Size__OutputArray__OutputArray__OutputArray_double__OutputArray
+Generating func cv_omnidir_internal_initializeStereoCalibration__InputArray__InputArray__InputArray_Size_Size__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray__OutputArray_double_double_int__OutputArray
+Generating func cv_omnidir_internal_subMatrix_Mat_Mat_VectorOfint_VectorOfint
+Generating func cv_omnidir_projectPoints__InputArray__OutputArray__InputArray__InputArray__InputArray_double__InputArray__OutputArray
+Generating func cv_omnidir_stereoCalibrate__InputOutputArray__InputOutputArray__InputOutputArray_Size_Size__InputOutputArray__InputOutputArray__InputOutputArray__InputOutputArray__InputOutputArray__InputOutputArray__OutputArray__OutputArray__OutputArray__OutputArray_int_TermCriteria__OutputArray
+Generating func cv_omnidir_stereoReconstruct__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray__InputArray_int_int_int__OutputArray__OutputArray__OutputArray_Size__InputArray__OutputArray_int
+Generating func cv_omnidir_stereoRectify__InputArray__InputArray__OutputArray__OutputArray
+Generating func cv_omnidir_undistortImage__InputArray__OutputArray__InputArray__InputArray__InputArray_int__InputArray_Size__InputArray
+Generating func cv_omnidir_undistortPoints__InputArray__OutputArray__InputArray__InputArray__InputArray__InputArray
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Generating box for cv::ccalib::CustomPattern
+Generating func cv_ccalib_CustomPattern_CustomPattern
+Generating func cv_ccalib_CustomPattern_create__InputArray_Size2f__OutputArray
+Generating func cv_ccalib_CustomPattern_findPattern__InputArray__OutputArray__OutputArray_double_double_bool__OutputArray__OutputArray__OutputArray
+Generating func cv_ccalib_CustomPattern_isInitialized
+Generating func cv_ccalib_CustomPattern_getPatternPoints_VectorOfKeyPoint
+Generating func cv_ccalib_CustomPattern_getPixelSize
+Generating func cv_ccalib_CustomPattern_setFeatureDetector_PtrOfFeature2D
+Generating func cv_ccalib_CustomPattern_setDescriptorExtractor_PtrOfFeature2D
+Generating func cv_ccalib_CustomPattern_setDescriptorMatcher_PtrOfDescriptorMatcher
+Generating func cv_ccalib_CustomPattern_getFeatureDetector
+Generating func cv_ccalib_CustomPattern_getDescriptorExtractor
+Generating func cv_ccalib_CustomPattern_getDescriptorMatcher
+Generating func cv_ccalib_CustomPattern_calibrate__InputArray__InputArray_Size__InputOutputArray__InputOutputArray__OutputArray__OutputArray_int_TermCriteria
+Generating func cv_ccalib_CustomPattern_findRt__InputArray__InputArray__InputArray__InputArray__InputOutputArray__InputOutputArray_bool_int
+Generating func cv_ccalib_CustomPattern_findRt__InputArray__InputArray__InputArray__InputOutputArray__InputOutputArray_bool_int
+Generating func cv_ccalib_CustomPattern_findRtRANSAC__InputArray__InputArray__InputArray__InputArray__InputOutputArray__InputOutputArray_bool_int_float_int__OutputArray_int
+Generating func cv_ccalib_CustomPattern_findRtRANSAC__InputArray__InputArray__InputArray__InputOutputArray__InputOutputArray_bool_int_float_int__OutputArray_int
+Generating func cv_ccalib_CustomPattern_drawOrientation__InputOutputArray__InputArray__InputArray__InputArray__InputArray_double_int
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Generating box for cv::multicalib::MultiCameraCalibration
+Generating func cv_multicalib_MultiCameraCalibration_MultiCameraCalibration_int_int_std_string_float_float_int_int_int_int_TermCriteria_PtrOfFeature2D_PtrOfFeature2D_PtrOfDescriptorMatcher
+Generating func cv_multicalib_MultiCameraCalibration_loadImages
+Generating func cv_multicalib_MultiCameraCalibration_initialize
+Generating func cv_multicalib_MultiCameraCalibration_optimizeExtrinsics
+Generating func cv_multicalib_MultiCameraCalibration_run
+Generating func cv_multicalib_MultiCameraCalibration_writeParameters_std_string
+Generating box for cv::multicalib::MultiCameraCalibration::edge
+Generating func cv_multicalib_MultiCameraCalibration_edge_edge_int_int_int_Mat
+Generating box for cv::multicalib::MultiCameraCalibration::vertex
+Generating func cv_multicalib_MultiCameraCalibration_vertex_vertex_Mat_int
+Generating func cv_multicalib_MultiCameraCalibration_vertex_vertex
+Generating box for cv::randpattern::RandomPatternCornerFinder
+Generating func cv_randpattern_RandomPatternCornerFinder_RandomPatternCornerFinder_float_float_int_int_int_int_PtrOfFeature2D_PtrOfFeature2D_PtrOfDescriptorMatcher
+Generating func cv_randpattern_RandomPatternCornerFinder_loadPattern_Mat
+Generating func cv_randpattern_RandomPatternCornerFinder_loadPattern_Mat_VectorOfKeyPoint_Mat
+Generating func cv_randpattern_RandomPatternCornerFinder_computeObjectImagePoints_VectorOfMat
+Generating func cv_randpattern_RandomPatternCornerFinder_computeObjectImagePointsForSingle_Mat
+Generating func cv_randpattern_RandomPatternCornerFinder_getObjectPoints
+Generating func cv_randpattern_RandomPatternCornerFinder_getImagePoints
+Generating box for cv::randpattern::RandomPatternGenerator
+Generating func cv_randpattern_RandomPatternGenerator_RandomPatternGenerator_int_int
+Generating func cv_randpattern_RandomPatternGenerator_generatePattern
+Generating func cv_randpattern_RandomPatternGenerator_getPattern
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

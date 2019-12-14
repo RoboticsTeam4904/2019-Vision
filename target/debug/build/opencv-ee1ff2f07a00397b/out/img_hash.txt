@@ -1,0 +1,59 @@
+FOUND FUNCs: 29
+
+PORTED FUNCs: 18
+
+PORTED: cv::img_hash::AverageHash::create (method) cv::img_hash::AverageHash . create
+PORTED: cv::img_hash::BlockMeanHash::setMode (method) cv::img_hash::BlockMeanHash . setMode
+PORTED: cv::img_hash::BlockMeanHash::getMean (method) cv::img_hash::BlockMeanHash . getMean
+PORTED: cv::img_hash::BlockMeanHash::create (method) cv::img_hash::BlockMeanHash . create
+PORTED: cv::img_hash::ColorMomentHash::create (method) cv::img_hash::ColorMomentHash . create
+PORTED: cv::img_hash::MarrHildrethHash::getAlpha (method) cv::img_hash::MarrHildrethHash . getAlpha
+PORTED: cv::img_hash::MarrHildrethHash::getScale (method) cv::img_hash::MarrHildrethHash . getScale
+PORTED: cv::img_hash::MarrHildrethHash::setKernelParam (method) cv::img_hash::MarrHildrethHash . setKernelParam
+PORTED: cv::img_hash::MarrHildrethHash::create (method) cv::img_hash::MarrHildrethHash . create
+PORTED: cv::img_hash::PHash::create (method) cv::img_hash::PHash . create
+PORTED: cv::img_hash::RadialVarianceHash::create (method) cv::img_hash::RadialVarianceHash . create
+PORTED: cv::img_hash::RadialVarianceHash::getNumOfAngleLine (method) cv::img_hash::RadialVarianceHash . getNumOfAngleLine
+PORTED: cv::img_hash::RadialVarianceHash::getSigma (method) cv::img_hash::RadialVarianceHash . getSigma
+PORTED: cv::img_hash::RadialVarianceHash::setNumOfAngleLine (method) cv::img_hash::RadialVarianceHash . setNumOfAngleLine
+PORTED: cv::img_hash::RadialVarianceHash::setSigma (method) cv::img_hash::RadialVarianceHash . setSigma
+PORTED: cv::img_hash::RadialVarianceHash::getFeatures (method) cv::img_hash::RadialVarianceHash . getFeatures
+PORTED: cv::img_hash::RadialVarianceHash::getHash (method) cv::img_hash::RadialVarianceHash . getHash
+PORTED: cv::img_hash::RadialVarianceHash::getProjection (method) cv::img_hash::RadialVarianceHash . getProjection
+
+
+SKIPPED FUNCs: 11
+
+SKIPPED: cv::img_hash::averageHash (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::blockMeanHash (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::colorMomentHash (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::marrHildrethHash (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::pHash (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::radialVarianceHash (function)
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::ImgHashBase::compute (method) cv::img_hash::ImgHashBase (trait) . compute
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::ImgHashBase::compare (method) cv::img_hash::ImgHashBase (trait) . compare
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::ImgHashBase::compute (method) cv::img_hash::ImgHashBase (trait) . compute
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::ImgHashBase::compare (method) cv::img_hash::ImgHashBase (trait) . compare
+   can not map type Unknown[cv::InputArray] yet
+
+SKIPPED: cv::img_hash::RadialVarianceHash::getPixPerLine (method) cv::img_hash::RadialVarianceHash . getPixPerLine
+   can not map type Unknown[Mat const] yet
+

@@ -1,0 +1,384 @@
+FOUND FUNCs: 252
+
+PORTED FUNCs: 190
+
+PORTED: cv::dnn::NMSBoxes (function)
+PORTED: cv::dnn::NMSBoxes (function)
+PORTED: cv::dnn::NMSBoxes (function)
+PORTED: cv::dnn::blobFromImage (function)
+PORTED: cv::dnn::blobFromImage (function)
+PORTED: cv::dnn::blobFromImages (function)
+PORTED: cv::dnn::blobFromImages (function)
+PORTED: cv::dnn::clamp (function)
+PORTED: cv::dnn::clamp (function)
+PORTED: cv::dnn::getAvailableTargets (function)
+PORTED: cv::dnn::getInferenceEngineVPUType (function)
+PORTED: cv::dnn::getPlane (function)
+PORTED: cv::dnn::imagesFromBlob (function)
+PORTED: cv::dnn::readNetFromCaffe (function)
+PORTED: cv::dnn::readNetFromCaffe (function)
+PORTED: cv::dnn::readNetFromCaffe (function)
+PORTED: cv::dnn::readNetFromDarknet (function)
+PORTED: cv::dnn::readNetFromDarknet (function)
+PORTED: cv::dnn::readNetFromDarknet (function)
+PORTED: cv::dnn::readNetFromModelOptimizer (function)
+PORTED: cv::dnn::readNetFromONNX (function)
+PORTED: cv::dnn::readNetFromONNX (function)
+PORTED: cv::dnn::readNetFromONNX (function)
+PORTED: cv::dnn::readNetFromTensorflow (function)
+PORTED: cv::dnn::readNetFromTensorflow (function)
+PORTED: cv::dnn::readNetFromTensorflow (function)
+PORTED: cv::dnn::readNetFromTorch (function)
+PORTED: cv::dnn::readNet (function)
+PORTED: cv::dnn::readNet (function)
+PORTED: cv::dnn::readTensorFromONNX (function)
+PORTED: cv::dnn::readTorchBlob (function)
+PORTED: cv::dnn::resetMyriadDevice (function)
+PORTED: cv::dnn::shape (function)
+PORTED: cv::dnn::shape (function)
+PORTED: cv::dnn::shape (function)
+PORTED: cv::dnn::shape (function)
+PORTED: cv::dnn::shrinkCaffeModel (function)
+PORTED: cv::dnn::slice (function)
+PORTED: cv::dnn::slice (function)
+PORTED: cv::dnn::slice (function)
+PORTED: cv::dnn::slice (function)
+PORTED: cv::dnn::writeTextGraph (function)
+PORTED: cv::dnn::AbsLayer::create (method) cv::dnn::AbsLayer . create
+PORTED: cv::dnn::ActivationLayer::forwardSlice (method) cv::dnn::ActivationLayer (trait) . forwardSlice
+PORTED: cv::dnn::BNLLLayer::create (method) cv::dnn::BNLLLayer . create
+PORTED: cv::dnn::BackendNode::BackendNode (constructor) cv::dnn::BackendNode . new
+PORTED: cv::dnn::BackendWrapper::copyToHost (method) cv::dnn::BackendWrapper (trait) . copyToHost
+PORTED: cv::dnn::BackendWrapper::setHostDirty (method) cv::dnn::BackendWrapper (trait) . setHostDirty
+PORTED: cv::dnn::BatchNormLayer::create (method) cv::dnn::BatchNormLayer . create
+PORTED: cv::dnn::BlankLayer::create (method) cv::dnn::BlankLayer . create
+PORTED: cv::dnn::ChannelsPReLULayer::create (method) cv::dnn::ChannelsPReLULayer . create
+PORTED: cv::dnn::ConcatLayer::create (method) cv::dnn::ConcatLayer . create
+PORTED: cv::dnn::ConstLayer::create (method) cv::dnn::ConstLayer . create
+PORTED: cv::dnn::ConvolutionLayer::create (method) cv::dnn::ConvolutionLayer . create
+PORTED: cv::dnn::CropAndResizeLayer::create (method) cv::dnn::CropAndResizeLayer . create
+PORTED: cv::dnn::CropLayer::create (method) cv::dnn::CropLayer . create
+PORTED: cv::dnn::DeconvolutionLayer::create (method) cv::dnn::DeconvolutionLayer . create
+PORTED: cv::dnn::DetectionOutputLayer::create (method) cv::dnn::DetectionOutputLayer . create
+PORTED: cv::dnn::Dict::has (method) cv::dnn::Dict (trait) . has
+PORTED: cv::dnn::Dict::ptr (method) cv::dnn::Dict (trait) . ptr
+PORTED: cv::dnn::Dict::ptr (method) cv::dnn::Dict (trait) . ptr
+PORTED: cv::dnn::Dict::get (method) cv::dnn::Dict (trait) . get
+PORTED: cv::dnn::Dict::set (method) cv::dnn::Dict (trait) . set
+PORTED: cv::dnn::Dict::erase (method) cv::dnn::Dict (trait) . erase
+PORTED: cv::dnn::DictValue::DictValue (constructor) cv::dnn::DictValue . copy
+PORTED: cv::dnn::DictValue::DictValue (constructor) cv::dnn::DictValue . new
+PORTED: cv::dnn::DictValue::DictValue (constructor) cv::dnn::DictValue . new
+PORTED: cv::dnn::DictValue::DictValue (constructor) cv::dnn::DictValue . new
+PORTED: cv::dnn::DictValue::DictValue (constructor) cv::dnn::DictValue . new
+PORTED: cv::dnn::DictValue::DictValue (constructor) cv::dnn::DictValue . new
+PORTED: cv::dnn::DictValue::DictValue (constructor) cv::dnn::DictValue . new
+PORTED: cv::dnn::DictValue::size (method) cv::dnn::DictValue . size
+PORTED: cv::dnn::DictValue::isInt (method) cv::dnn::DictValue . isInt
+PORTED: cv::dnn::DictValue::isString (method) cv::dnn::DictValue . isString
+PORTED: cv::dnn::DictValue::isReal (method) cv::dnn::DictValue . isReal
+PORTED: cv::dnn::DictValue::getIntValue (method) cv::dnn::DictValue . getIntValue
+PORTED: cv::dnn::DictValue::getRealValue (method) cv::dnn::DictValue . getRealValue
+PORTED: cv::dnn::DictValue::getStringValue (method) cv::dnn::DictValue . getStringValue
+PORTED: cv::dnn::ELULayer::create (method) cv::dnn::ELULayer . create
+PORTED: cv::dnn::EltwiseLayer::create (method) cv::dnn::EltwiseLayer . create
+PORTED: cv::dnn::FlattenLayer::create (method) cv::dnn::FlattenLayer . create
+PORTED: cv::dnn::InnerProductLayer::create (method) cv::dnn::InnerProductLayer . create
+PORTED: cv::dnn::InterpLayer::create (method) cv::dnn::InterpLayer . create
+PORTED: cv::dnn::LRNLayer::create (method) cv::dnn::LRNLayer . create
+PORTED: cv::dnn::LSTMLayer::setWeights (method) cv::dnn::LSTMLayer (trait) . setWeights
+PORTED: cv::dnn::LSTMLayer::setUseTimstampsDim (method) cv::dnn::LSTMLayer (trait) . setUseTimstampsDim
+PORTED: cv::dnn::LSTMLayer::setProduceCellOutput (method) cv::dnn::LSTMLayer (trait) . setProduceCellOutput
+PORTED: cv::dnn::LSTMLayer::inputNameToIndex (method) cv::dnn::LSTMLayer (trait) . inputNameToIndex
+PORTED: cv::dnn::LSTMLayer::outputNameToIndex (method) cv::dnn::LSTMLayer (trait) . outputNameToIndex
+PORTED: cv::dnn::LSTMLayer::create (method) cv::dnn::LSTMLayer (trait) . create
+PORTED: cv::dnn::Layer::blobs (method) cv::dnn::Layer (trait) . blobs
+PORTED: cv::dnn::Layer::set_blobs (method) cv::dnn::Layer (trait) . set_blobs
+PORTED: cv::dnn::Layer::name (method) cv::dnn::Layer (trait) . name
+PORTED: cv::dnn::Layer::set_name (method) cv::dnn::Layer (trait) . set_name
+PORTED: cv::dnn::Layer::type (method) cv::dnn::Layer (trait) . type
+PORTED: cv::dnn::Layer::set_type (method) cv::dnn::Layer (trait) . set_type
+PORTED: cv::dnn::Layer::preferableTarget (method) cv::dnn::Layer (trait) . preferableTarget
+PORTED: cv::dnn::Layer::finalize (method) cv::dnn::Layer (trait) . finalize
+PORTED: cv::dnn::Layer::forward (method) cv::dnn::Layer (trait) . forward
+PORTED: cv::dnn::Layer::forward_fallback (method) cv::dnn::Layer (trait) . forward_fallback
+PORTED: cv::dnn::Layer::finalize (method) cv::dnn::Layer (trait) . finalize
+PORTED: cv::dnn::Layer::run (method) cv::dnn::Layer (trait) . run
+PORTED: cv::dnn::Layer::inputNameToIndex (method) cv::dnn::Layer (trait) . inputNameToIndex
+PORTED: cv::dnn::Layer::outputNameToIndex (method) cv::dnn::Layer (trait) . outputNameToIndex
+PORTED: cv::dnn::Layer::supportBackend (method) cv::dnn::Layer (trait) . supportBackend
+PORTED: cv::dnn::Layer::initHalide (method) cv::dnn::Layer (trait) . initHalide
+PORTED: cv::dnn::Layer::initInfEngine (method) cv::dnn::Layer (trait) . initInfEngine
+PORTED: cv::dnn::Layer::initVkCom (method) cv::dnn::Layer (trait) . initVkCom
+PORTED: cv::dnn::Layer::tryAttach (method) cv::dnn::Layer (trait) . tryAttach
+PORTED: cv::dnn::Layer::setActivation (method) cv::dnn::Layer (trait) . setActivation
+PORTED: cv::dnn::Layer::tryFuse (method) cv::dnn::Layer (trait) . tryFuse
+PORTED: cv::dnn::Layer::getScaleShift (method) cv::dnn::Layer (trait) . getScaleShift
+PORTED: cv::dnn::Layer::unsetAttached (method) cv::dnn::Layer (trait) . unsetAttached
+PORTED: cv::dnn::Layer::getMemoryShapes (method) cv::dnn::Layer (trait) . getMemoryShapes
+PORTED: cv::dnn::Layer::getFLOPS (method) cv::dnn::Layer (trait) . getFLOPS
+PORTED: cv::dnn::Layer::setParamsFrom (method) cv::dnn::Layer (trait) . setParamsFrom
+PORTED: cv::dnn::Layer::Layer (constructor) cv::dnn::Layer (trait) . default
+PORTED: cv::dnn::Layer::Layer (constructor) cv::dnn::Layer (trait) . new
+PORTED: cv::dnn::LayerFactory::unregisterLayer (method) cv::dnn::LayerFactory . unregisterLayer
+PORTED: cv::dnn::LayerFactory::createLayerInstance (method) cv::dnn::LayerFactory . createLayerInstance
+PORTED: cv::dnn::LayerParams::blobs (method) cv::dnn::LayerParams . blobs
+PORTED: cv::dnn::LayerParams::set_blobs (method) cv::dnn::LayerParams . set_blobs
+PORTED: cv::dnn::LayerParams::name (method) cv::dnn::LayerParams . name
+PORTED: cv::dnn::LayerParams::set_name (method) cv::dnn::LayerParams . set_name
+PORTED: cv::dnn::LayerParams::type (method) cv::dnn::LayerParams . type
+PORTED: cv::dnn::LayerParams::set_type (method) cv::dnn::LayerParams . set_type
+PORTED: cv::dnn::LayerParams::LayerParams (constructor) cv::dnn::LayerParams . default
+PORTED: cv::dnn::MVNLayer::create (method) cv::dnn::MVNLayer . create
+PORTED: cv::dnn::MaxUnpoolLayer::create (method) cv::dnn::MaxUnpoolLayer . create
+PORTED: cv::dnn::Net::Net (constructor) cv::dnn::Net . default
+PORTED: cv::dnn::Net::readFromModelOptimizer (method) cv::dnn::Net . readFromModelOptimizer
+PORTED: cv::dnn::Net::empty (method) cv::dnn::Net . empty
+PORTED: cv::dnn::Net::dump (method) cv::dnn::Net . dump
+PORTED: cv::dnn::Net::dumpToFile (method) cv::dnn::Net . dumpToFile
+PORTED: cv::dnn::Net::addLayer (method) cv::dnn::Net . addLayer
+PORTED: cv::dnn::Net::addLayerToPrev (method) cv::dnn::Net . addLayerToPrev
+PORTED: cv::dnn::Net::getLayerId (method) cv::dnn::Net . getLayerId
+PORTED: cv::dnn::Net::getLayerNames (method) cv::dnn::Net . getLayerNames
+PORTED: cv::dnn::Net::getLayer (method) cv::dnn::Net . getLayer
+PORTED: cv::dnn::Net::getLayerInputs (method) cv::dnn::Net . getLayerInputs
+PORTED: cv::dnn::Net::connect (method) cv::dnn::Net . connect
+PORTED: cv::dnn::Net::connect (method) cv::dnn::Net . connect
+PORTED: cv::dnn::Net::setInputsNames (method) cv::dnn::Net . setInputsNames
+PORTED: cv::dnn::Net::forward (method) cv::dnn::Net . forward
+PORTED: cv::dnn::Net::forward (method) cv::dnn::Net . forward
+PORTED: cv::dnn::Net::forward (method) cv::dnn::Net . forward
+PORTED: cv::dnn::Net::forward (method) cv::dnn::Net . forward
+PORTED: cv::dnn::Net::setHalideScheduler (method) cv::dnn::Net . setHalideScheduler
+PORTED: cv::dnn::Net::setPreferableBackend (method) cv::dnn::Net . setPreferableBackend
+PORTED: cv::dnn::Net::setPreferableTarget (method) cv::dnn::Net . setPreferableTarget
+PORTED: cv::dnn::Net::setInput (method) cv::dnn::Net . setInput
+PORTED: cv::dnn::Net::setParam (method) cv::dnn::Net . setParam
+PORTED: cv::dnn::Net::getParam (method) cv::dnn::Net . getParam
+PORTED: cv::dnn::Net::getUnconnectedOutLayers (method) cv::dnn::Net . getUnconnectedOutLayers
+PORTED: cv::dnn::Net::getUnconnectedOutLayersNames (method) cv::dnn::Net . getUnconnectedOutLayersNames
+PORTED: cv::dnn::Net::getLayersShapes (method) cv::dnn::Net . getLayersShapes
+PORTED: cv::dnn::Net::getLayerShapes (method) cv::dnn::Net . getLayerShapes
+PORTED: cv::dnn::Net::getFLOPS (method) cv::dnn::Net . getFLOPS
+PORTED: cv::dnn::Net::getFLOPS (method) cv::dnn::Net . getFLOPS
+PORTED: cv::dnn::Net::getLayerTypes (method) cv::dnn::Net . getLayerTypes
+PORTED: cv::dnn::Net::getLayersCount (method) cv::dnn::Net . getLayersCount
+PORTED: cv::dnn::Net::getMemoryConsumption (method) cv::dnn::Net . getMemoryConsumption
+PORTED: cv::dnn::Net::getMemoryConsumption (method) cv::dnn::Net . getMemoryConsumption
+PORTED: cv::dnn::Net::getMemoryConsumption (method) cv::dnn::Net . getMemoryConsumption
+PORTED: cv::dnn::Net::enableFusion (method) cv::dnn::Net . enableFusion
+PORTED: cv::dnn::Net::getPerfProfile (method) cv::dnn::Net . getPerfProfile
+PORTED: cv::dnn::NormalizeBBoxLayer::create (method) cv::dnn::NormalizeBBoxLayer . create
+PORTED: cv::dnn::PaddingLayer::create (method) cv::dnn::PaddingLayer . create
+PORTED: cv::dnn::PermuteLayer::create (method) cv::dnn::PermuteLayer . create
+PORTED: cv::dnn::PoolingLayer::create (method) cv::dnn::PoolingLayer . create
+PORTED: cv::dnn::PowerLayer::create (method) cv::dnn::PowerLayer . create
+PORTED: cv::dnn::PriorBoxLayer::create (method) cv::dnn::PriorBoxLayer . create
+PORTED: cv::dnn::ProposalLayer::create (method) cv::dnn::ProposalLayer . create
+PORTED: cv::dnn::RNNLayer::setWeights (method) cv::dnn::RNNLayer (trait) . setWeights
+PORTED: cv::dnn::RNNLayer::setProduceHiddenOutput (method) cv::dnn::RNNLayer (trait) . setProduceHiddenOutput
+PORTED: cv::dnn::RNNLayer::create (method) cv::dnn::RNNLayer (trait) . create
+PORTED: cv::dnn::ReLU6Layer::create (method) cv::dnn::ReLU6Layer . create
+PORTED: cv::dnn::ReLULayer::create (method) cv::dnn::ReLULayer . create
+PORTED: cv::dnn::RegionLayer::create (method) cv::dnn::RegionLayer . create
+PORTED: cv::dnn::ReorgLayer::create (method) cv::dnn::ReorgLayer . create
+PORTED: cv::dnn::ReshapeLayer::create (method) cv::dnn::ReshapeLayer . create
+PORTED: cv::dnn::ResizeLayer::create (method) cv::dnn::ResizeLayer . create
+PORTED: cv::dnn::ScaleLayer::create (method) cv::dnn::ScaleLayer . create
+PORTED: cv::dnn::ShiftLayer::create (method) cv::dnn::ShiftLayer . create
+PORTED: cv::dnn::ShuffleChannelLayer::create (method) cv::dnn::ShuffleChannelLayer . create
+PORTED: cv::dnn::SigmoidLayer::create (method) cv::dnn::SigmoidLayer . create
+PORTED: cv::dnn::SliceLayer::create (method) cv::dnn::SliceLayer . create
+PORTED: cv::dnn::SoftmaxLayer::create (method) cv::dnn::SoftmaxLayer . create
+PORTED: cv::dnn::SplitLayer::create (method) cv::dnn::SplitLayer . create
+PORTED: cv::dnn::TanHLayer::create (method) cv::dnn::TanHLayer . create
+
+
+SKIPPED FUNCs: 62
+
+SKIPPED: cv::dnn::<unnamed>::is_neg (function)
+   ignored by rename table
+
+SKIPPED: cv::dnn::::const_iterator begin (function)
+   return type class Unknown[std::map<String, DictValue>::const_iterator] is ignored
+
+SKIPPED: cv::dnn::::const_iterator end (function)
+   return type class Unknown[std::map<String, DictValue>::const_iterator] is ignored
+
+SKIPPED: cv::dnn::clamp (function)
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::concat (function)
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::getAvailableBackends (function)
+   return type class Vector[Unknown[std::pair<Backend, Target>]] is ignored
+
+SKIPPED: cv::dnn::print (function)
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::shape (function)
+   can not map type Unknown[MatSize] yet
+
+SKIPPED: cv::dnn::toString (function)
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::total (function)
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::Dict::get (method) cv::dnn::Dict (trait) . get
+   already there
+
+SKIPPED: cv::dnn::Dict::get (method) cv::dnn::Dict (trait) . get
+   return type class Unknown[template <typename T> T] is ignored
+
+SKIPPED: cv::dnn::Dict::has (method) cv::dnn::Dict (trait) . has
+   already there
+
+SKIPPED: cv::dnn::Dict::ptr (method) cv::dnn::Dict (trait) . ptr
+   already there
+
+SKIPPED: cv::dnn::Dict::ptr (method) cv::dnn::Dict (trait) . ptr
+   already there
+
+SKIPPED: cv::dnn::Dict::get (method) cv::dnn::Dict (trait) . get
+   already there
+
+SKIPPED: cv::dnn::Dict::get (method) cv::dnn::Dict (trait) . get
+   already there
+
+SKIPPED: cv::dnn::Dict::get (method) cv::dnn::Dict (trait) . get
+   return type class Unknown[template <typename T> T] is ignored
+
+SKIPPED: cv::dnn::Dict::set (method) cv::dnn::Dict (trait) . set
+   already there
+
+SKIPPED: cv::dnn::Dict::erase (method) cv::dnn::Dict (trait) . erase
+   already there
+
+SKIPPED: cv::dnn::DictValue::DictValue (constructor) cv::dnn::DictValue . new
+   ignored by rename table
+
+SKIPPED: cv::dnn::DictValue::DictValue arrayInt (method) cv::dnn::DictValue . DictValue arrayInt
+   return type class Unknown[template<typename TypeIter> static DictValue] is ignored
+
+SKIPPED: cv::dnn::DictValue::DictValue arrayReal (method) cv::dnn::DictValue . DictValue arrayReal
+   return type class Unknown[template<typename TypeIter> static DictValue] is ignored
+
+SKIPPED: cv::dnn::DictValue::DictValue arrayString (method) cv::dnn::DictValue . DictValue arrayString
+   return type class Unknown[template<typename TypeIter> static DictValue] is ignored
+
+SKIPPED: cv::dnn::DictValue::get (method) cv::dnn::DictValue . get
+   return type class Unknown[template<typename T> T] is ignored
+
+SKIPPED: cv::dnn::LSTMLayer::setOutShape (method) cv::dnn::LSTMLayer (trait) . setOutShape
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::Layer::void finalize (method) cv::dnn::Layer (trait) . void finalize
+   return type class Unknown[_EXTERNAL void] is ignored
+
+SKIPPED: cv::dnn::Layer::void forward (method) cv::dnn::Layer (trait) . void forward
+   return type class Unknown[_EXTERNAL void] is ignored
+
+SKIPPED: cv::dnn::Layer::void finalize (method) cv::dnn::Layer (trait) . void finalize
+   return type class Unknown[_EXTERNAL void] is ignored
+
+SKIPPED: cv::dnn::Layer::applyHalideScheduler (method) cv::dnn::Layer (trait) . applyHalideScheduler
+   can not map type Vector[RawPtr[cv::Mat (boxed)]] yet
+
+SKIPPED: cv::dnn::Layer::void finalize (method) cv::dnn::Layer (trait) . void finalize
+   return type class Unknown[_EXTERNAL void] is ignored
+
+SKIPPED: cv::dnn::Layer::finalize (method) cv::dnn::Layer (trait) . finalize
+   already there
+
+SKIPPED: cv::dnn::Layer::void forward (method) cv::dnn::Layer (trait) . void forward
+   return type class Unknown[_EXTERNAL void] is ignored
+
+SKIPPED: cv::dnn::Layer::forward (method) cv::dnn::Layer (trait) . forward
+   already there
+
+SKIPPED: cv::dnn::Layer::forward_fallback (method) cv::dnn::Layer (trait) . forward_fallback
+   already there
+
+SKIPPED: cv::dnn::Layer::void finalize (method) cv::dnn::Layer (trait) . void finalize
+   return type class Unknown[_EXTERNAL void] is ignored
+
+SKIPPED: cv::dnn::Layer::finalize (method) cv::dnn::Layer (trait) . finalize
+   already there
+
+SKIPPED: cv::dnn::Layer::run (method) cv::dnn::Layer (trait) . run
+   already there
+
+SKIPPED: cv::dnn::Layer::inputNameToIndex (method) cv::dnn::Layer (trait) . inputNameToIndex
+   already there
+
+SKIPPED: cv::dnn::Layer::outputNameToIndex (method) cv::dnn::Layer (trait) . outputNameToIndex
+   already there
+
+SKIPPED: cv::dnn::Layer::supportBackend (method) cv::dnn::Layer (trait) . supportBackend
+   already there
+
+SKIPPED: cv::dnn::Layer::initHalide (method) cv::dnn::Layer (trait) . initHalide
+   already there
+
+SKIPPED: cv::dnn::Layer::initInfEngine (method) cv::dnn::Layer (trait) . initInfEngine
+   already there
+
+SKIPPED: cv::dnn::Layer::initVkCom (method) cv::dnn::Layer (trait) . initVkCom
+   already there
+
+SKIPPED: cv::dnn::Layer::applyHalideScheduler (method) cv::dnn::Layer (trait) . applyHalideScheduler
+   can not map type Vector[RawPtr[cv::Mat (boxed)]] yet
+
+SKIPPED: cv::dnn::Layer::tryAttach (method) cv::dnn::Layer (trait) . tryAttach
+   already there
+
+SKIPPED: cv::dnn::Layer::setActivation (method) cv::dnn::Layer (trait) . setActivation
+   already there
+
+SKIPPED: cv::dnn::Layer::tryFuse (method) cv::dnn::Layer (trait) . tryFuse
+   already there
+
+SKIPPED: cv::dnn::Layer::getScaleShift (method) cv::dnn::Layer (trait) . getScaleShift
+   already there
+
+SKIPPED: cv::dnn::Layer::unsetAttached (method) cv::dnn::Layer (trait) . unsetAttached
+   already there
+
+SKIPPED: cv::dnn::Layer::getMemoryShapes (method) cv::dnn::Layer (trait) . getMemoryShapes
+   already there
+
+SKIPPED: cv::dnn::Layer::getFLOPS (method) cv::dnn::Layer (trait) . getFLOPS
+   already there
+
+SKIPPED: cv::dnn::Layer::setParamsFrom (method) cv::dnn::Layer (trait) . setParamsFrom
+   already there
+
+SKIPPED: cv::dnn::LayerFactory::registerLayer (method) cv::dnn::LayerFactory . registerLayer
+   can not map type Unknown[Constructor] yet
+
+SKIPPED: cv::dnn::Net::forwardAsync (method) cv::dnn::Net . forwardAsync
+   return type class Unknown[AsyncArray] is ignored
+
+SKIPPED: cv::dnn::Net::getLayersShapes (method) cv::dnn::Net . getLayersShapes
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::Net::getLayerShapes (method) cv::dnn::Net . getLayerShapes
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::Net::getFLOPS (method) cv::dnn::Net . getFLOPS
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::Net::getFLOPS (method) cv::dnn::Net . getFLOPS
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::Net::getMemoryConsumption (method) cv::dnn::Net . getMemoryConsumption
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::Net::getMemoryConsumption (method) cv::dnn::Net . getMemoryConsumption
+   can not map type Unknown[MatShape] yet
+
+SKIPPED: cv::dnn::Net::getMemoryConsumption (method) cv::dnn::Net . getMemoryConsumption
+   can not map type Unknown[MatShape] yet
+

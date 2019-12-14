@@ -1,0 +1,2458 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xfeatures2d.hpp ================
+
+
+Namespaces: ['cv', 'cv.xfeatures2d']
+Comment: {'xfeatures2d': ' @defgroup xfeatures2d Extra 2D Features Framework\n@{\n@defgroup xfeatures2d_experiment Experimental 2D Features Algorithms\n\nThis section describes experimental algorithms for 2d feature detection.\n\n@defgroup xfeatures2d_nonfree Non-free 2D Features Algorithms\n\nThis section describes two popular algorithms for 2d feature detection, SIFT and SURF, that are\nknown to be patented. You need to set the OPENCV_ENABLE_NONFREE option in cmake to use those. Use them at your own risk.\n\n@defgroup xfeatures2d_match Experimental 2D Features Matching Algorithm\n\nThis section describes the GMS (Grid-based Motion Statistics) matching strategy.\n\n@}\n\n'}
+
+--- Incoming ---
+[   'class cv.xfeatures2d.FREAK',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class implementing the FREAK (*Fast Retina Keypoint*) keypoint '
+    'descriptor, described in @cite AOV12 .\n'
+    '\n'
+    'The algorithm propose a novel keypoint descriptor inspired by the human '
+    'visual system and more\n'
+    'precisely the retina, coined Fast Retina Key- point (FREAK). A cascade of '
+    'binary strings is\n'
+    'computed by efficiently comparing image intensities over a retinal '
+    'sampling pattern. FREAKs are in\n'
+    'general faster to compute with lower memory load and also more robust '
+    'than SIFT, SURF or BRISK.\n'
+    'They are competitive alternatives to existing keypoints in particular for '
+    'embedded applications.\n'
+    '\n'
+    '@note\n'
+    '-   An example on how to use the FREAK descriptor can be found at\n'
+    'opencv_source_code/samples/cpp/freak_demo.cpp']
+parse_name: class cv.xfeatures2d.FREAK with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::FREAK namespace:cv::xfeatures2d classpath: classname: name:FREAK
+register class cv::xfeatures2d::FREAK (['class cv.xfeatures2d.FREAK', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class implementing the FREAK (*Fast Retina Keypoint*) keypoint descriptor, described in @cite AOV12 .\n\nThe algorithm propose a novel keypoint descriptor inspired by the human visual system and more\nprecisely the retina, coined Fast Retina Key- point (FREAK). A cascade of binary strings is\ncomputed by efficiently comparing image intensities over a retinal sampling pattern. FREAKs are in\ngeneral faster to compute with lower memory load and also more robust than SIFT, SURF or BRISK.\nThey are competitive alternatives to existing keypoints in particular for embedded applications.\n\n@note\n-   An example on how to use the FREAK descriptor can be found at\nopencv_source_code/samples/cpp/freak_demo.cpp']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.FREAK.create',
+    'Ptr<FREAK>',
+    ['/S'],
+    [   ['bool', 'orientationNormalized', 'true', []],
+        ['bool', 'scaleNormalized', 'true', []],
+        ['float', 'patternScale', '22.0f', []],
+        ['int', 'nOctaves', '4', []],
+        ['const std::vector<int>&', 'selectedPairs', 'std::vector<int>()', []]],
+    None,
+    '@param orientationNormalized Enable orientation normalization.\n'
+    '@param scaleNormalized Enable scale normalization.\n'
+    '@param patternScale Scaling of the description pattern.\n'
+    '@param nOctaves Number of octaves covered by the detected keypoints.\n'
+    '@param selectedPairs (Optional) user defined selected pairs indexes,']
+parse_name: cv.xfeatures2d.FREAK.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::FREAK::create namespace:cv::xfeatures2d classpath:FREAK classname:FREAK name:create
+register (method) create in cv::xfeatures2d::FREAK (cv_xfeatures2d_FREAK_create_bool_bool_float_int_VectorOfint)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.StarDetector',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief The class implements the keypoint detector introduced by @cite '
+    'Agrawal08, synonym of StarDetector. :']
+parse_name: class cv.xfeatures2d.StarDetector with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::StarDetector namespace:cv::xfeatures2d classpath: classname: name:StarDetector
+register class cv::xfeatures2d::StarDetector (['class cv.xfeatures2d.StarDetector', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief The class implements the keypoint detector introduced by @cite Agrawal08, synonym of StarDetector. :']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.StarDetector.create',
+    'Ptr<StarDetector>',
+    ['/S'],
+    [   ['int', 'maxSize', '45', []],
+        ['int', 'responseThreshold', '30', []],
+        ['int', 'lineThresholdProjected', '10', []],
+        ['int', 'lineThresholdBinarized', '8', []],
+        ['int', 'suppressNonmaxSize', '5', []]],
+    None,
+    'the full constructor']
+parse_name: cv.xfeatures2d.StarDetector.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::StarDetector::create namespace:cv::xfeatures2d classpath:StarDetector classname:StarDetector name:create
+register (method) create in cv::xfeatures2d::StarDetector (cv_xfeatures2d_StarDetector_create_int_int_int_int_int)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.BriefDescriptorExtractor',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class for computing BRIEF descriptors described in @cite calon2010 '
+    '.\n'
+    '\n'
+    '@param bytes legth of the descriptor in bytes, valid values are: 16, 32 '
+    '(default) or 64 .\n'
+    '@param use_orientation sample patterns using keypoints orientation, '
+    'disabled by default.']
+parse_name: class cv.xfeatures2d.BriefDescriptorExtractor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::BriefDescriptorExtractor namespace:cv::xfeatures2d classpath: classname: name:BriefDescriptorExtractor
+register class cv::xfeatures2d::BriefDescriptorExtractor (['class cv.xfeatures2d.BriefDescriptorExtractor', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class for computing BRIEF descriptors described in @cite calon2010 .\n\n@param bytes legth of the descriptor in bytes, valid values are: 16, 32 (default) or 64 .\n@param use_orientation sample patterns using keypoints orientation, disabled by default.']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.BriefDescriptorExtractor.create',
+    'Ptr<BriefDescriptorExtractor>',
+    ['/S'],
+    [['int', 'bytes', '32', []], ['bool', 'use_orientation', 'false', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.BriefDescriptorExtractor.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::BriefDescriptorExtractor::create namespace:cv::xfeatures2d classpath:BriefDescriptorExtractor classname:BriefDescriptorExtractor name:create
+register (method) create in cv::xfeatures2d::BriefDescriptorExtractor (cv_xfeatures2d_BriefDescriptorExtractor_create_int_bool)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.LUCID',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class implementing the locally uniform comparison image '
+    'descriptor, described in @cite LUCID\n'
+    '\n'
+    'An image descriptor that can be computed very fast, while being\n'
+    'about as robust as, for example, SURF or BRIEF.\n'
+    '\n'
+    '@note It requires a color image as input.']
+parse_name: class cv.xfeatures2d.LUCID with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::LUCID namespace:cv::xfeatures2d classpath: classname: name:LUCID
+register class cv::xfeatures2d::LUCID (['class cv.xfeatures2d.LUCID', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class implementing the locally uniform comparison image descriptor, described in @cite LUCID\n\nAn image descriptor that can be computed very fast, while being\nabout as robust as, for example, SURF or BRIEF.\n\n@note It requires a color image as input.']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.LUCID.create',
+    'Ptr<LUCID>',
+    ['/S'],
+    [   ['const int', 'lucid_kernel', '1', []],
+        ['const int', 'blur_kernel', '2', []]],
+    None,
+    '* @param lucid_kernel kernel for descriptor construction, where 1=3x3, '
+    '2=5x5, 3=7x7 and so forth\n'
+    '* @param blur_kernel kernel for blurring image prior to descriptor '
+    'construction, where 1=3x3, 2=5x5, 3=7x7 and so forth']
+parse_name: cv.xfeatures2d.LUCID.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::LUCID::create namespace:cv::xfeatures2d classpath:LUCID classname:LUCID name:create
+register (method) create in cv::xfeatures2d::LUCID (cv_xfeatures2d_LUCID_create_int_int)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.LATCH',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    'latch Class for computing the LATCH descriptor.\n'
+    'If you find this code useful, please add a reference to the following '
+    'paper in your work:\n'
+    'Gil Levi and Tal Hassner, "LATCH: Learned Arrangements of Three Patch '
+    'Codes", arXiv preprint arXiv:1501.03719, 15 Jan. 2015\n'
+    '\n'
+    'LATCH is a binary descriptor based on learned comparisons of triplets of '
+    'image patches.\n'
+    '\n'
+    '* bytes is the size of the descriptor - can be 64, 32, 16, 8, 4, 2 or 1\n'
+    '* rotationInvariance - whether or not the descriptor should compansate '
+    'for orientation changes.\n'
+    '* half_ssd_size - the size of half of the mini-patches size. For example, '
+    'if we would like to compare triplets of patches of size 7x7x\n'
+    'then the half_ssd_size should be (7-1)/2 = 3.\n'
+    '* sigma - sigma value for GaussianBlur smoothing of the source image. '
+    'Source image will be used without smoothing in case sigma value is 0.\n'
+    '\n'
+    'Note: the descriptor can be coupled with any keypoint extractor. The only '
+    'demand is that if you use set rotationInvariance = True then\n'
+    'you will have to use an extractor which estimates the patch orientation '
+    '(in degrees). Examples for such extractors are ORB and SIFT.\n'
+    '\n'
+    'Note: a complete example can be found under '
+    '/samples/cpp/tutorial_code/xfeatures2D/latch_match.cpp']
+parse_name: class cv.xfeatures2d.LATCH with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::LATCH namespace:cv::xfeatures2d classpath: classname: name:LATCH
+register class cv::xfeatures2d::LATCH (['class cv.xfeatures2d.LATCH', ': cv::xfeatures2d::Feature2D', [], [], None, 'latch Class for computing the LATCH descriptor.\nIf you find this code useful, please add a reference to the following paper in your work:\nGil Levi and Tal Hassner, "LATCH: Learned Arrangements of Three Patch Codes", arXiv preprint arXiv:1501.03719, 15 Jan. 2015\n\nLATCH is a binary descriptor based on learned comparisons of triplets of image patches.\n\n* bytes is the size of the descriptor - can be 64, 32, 16, 8, 4, 2 or 1\n* rotationInvariance - whether or not the descriptor should compansate for orientation changes.\n* half_ssd_size - the size of half of the mini-patches size. For example, if we would like to compare triplets of patches of size 7x7x\nthen the half_ssd_size should be (7-1)/2 = 3.\n* sigma - sigma value for GaussianBlur smoothing of the source image. Source image will be used without smoothing in case sigma value is 0.\n\nNote: the descriptor can be coupled with any keypoint extractor. The only demand is that if you use set rotationInvariance = True then\nyou will have to use an extractor which estimates the patch orientation (in degrees). Examples for such extractors are ORB and SIFT.\n\nNote: a complete example can be found under /samples/cpp/tutorial_code/xfeatures2D/latch_match.cpp']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.LATCH.create',
+    'Ptr<LATCH>',
+    ['/S'],
+    [   ['int', 'bytes', '32', []],
+        ['bool', 'rotationInvariance', 'true', []],
+        ['int', 'half_ssd_size', '3', []],
+        ['double', 'sigma', '2.0', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.LATCH.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::LATCH::create namespace:cv::xfeatures2d classpath:LATCH classname:LATCH name:create
+register (method) create in cv::xfeatures2d::LATCH (cv_xfeatures2d_LATCH_create_int_bool_int_double)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.DAISY',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class implementing DAISY descriptor, described in @cite Tola10\n'
+    '\n'
+    '@param radius radius of the descriptor at the initial scale\n'
+    '@param q_radius amount of radial range division quantity\n'
+    '@param q_theta amount of angular range division quantity\n'
+    '@param q_hist amount of gradient orientations range division quantity\n'
+    '@param norm choose descriptors normalization type, where\n'
+    'DAISY::NRM_NONE will not do any normalization (default),\n'
+    'DAISY::NRM_PARTIAL mean that histograms are normalized independently for '
+    'L2 norm equal to 1.0,\n'
+    'DAISY::NRM_FULL mean that descriptors are normalized for L2 norm equal to '
+    '1.0,\n'
+    'DAISY::NRM_SIFT mean that descriptors are normalized for L2 norm equal to '
+    '1.0 but no individual one is bigger than 0.154 as in SIFT\n'
+    '@param H optional 3x3 homography matrix used to warp the grid of daisy '
+    'but sampling keypoints remains unwarped on image\n'
+    '@param interpolation switch to disable interpolation for speed '
+    'improvement at minor quality loss\n'
+    '@param use_orientation sample patterns using keypoints orientation, '
+    'disabled by default.']
+parse_name: class cv.xfeatures2d.DAISY with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY namespace:cv::xfeatures2d classpath: classname: name:DAISY
+register class cv::xfeatures2d::DAISY (['class cv.xfeatures2d.DAISY', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class implementing DAISY descriptor, described in @cite Tola10\n\n@param radius radius of the descriptor at the initial scale\n@param q_radius amount of radial range division quantity\n@param q_theta amount of angular range division quantity\n@param q_hist amount of gradient orientations range division quantity\n@param norm choose descriptors normalization type, where\nDAISY::NRM_NONE will not do any normalization (default),\nDAISY::NRM_PARTIAL mean that histograms are normalized independently for L2 norm equal to 1.0,\nDAISY::NRM_FULL mean that descriptors are normalized for L2 norm equal to 1.0,\nDAISY::NRM_SIFT mean that descriptors are normalized for L2 norm equal to 1.0 but no individual one is bigger than 0.154 as in SIFT\n@param H optional 3x3 homography matrix used to warp the grid of daisy but sampling keypoints remains unwarped on image\n@param interpolation switch to disable interpolation for speed improvement at minor quality loss\n@param use_orientation sample patterns using keypoints orientation, disabled by default.']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'enum cv.xfeatures2d.DAISY.NormalizationType',
+    '',
+    [],
+    [   ['const cv.xfeatures2d.DAISY.NRM_NONE', '100', [], [], None, ''],
+        ['const cv.xfeatures2d.DAISY.NRM_PARTIAL', '101', [], [], None, ''],
+        ['const cv.xfeatures2d.DAISY.NRM_FULL', '102', [], [], None, ''],
+        ['const cv.xfeatures2d.DAISY.NRM_SIFT', '103', [], [], None, '']],
+    None,
+    '']
+parse_name: const cv.xfeatures2d.DAISY.NRM_NONE with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NRM_NONE namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NRM_NONE
+parse_name: const cv.xfeatures2d.DAISY.NRM_PARTIAL with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NRM_PARTIAL namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NRM_PARTIAL
+parse_name: const cv.xfeatures2d.DAISY.NRM_FULL with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NRM_FULL namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NRM_FULL
+parse_name: const cv.xfeatures2d.DAISY.NRM_SIFT with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NRM_SIFT namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NRM_SIFT
+parse_name: enum cv.xfeatures2d.DAISY.NormalizationType with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NormalizationType namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NormalizationType
+parse_name: const cv.xfeatures2d.DAISY.NRM_NONE with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NRM_NONE namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NRM_NONE
+parse_name: const cv.xfeatures2d.DAISY.NRM_PARTIAL with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NRM_PARTIAL namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NRM_PARTIAL
+parse_name: const cv.xfeatures2d.DAISY.NRM_FULL with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NRM_FULL namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NRM_FULL
+parse_name: const cv.xfeatures2d.DAISY.NRM_SIFT with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::NRM_SIFT namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:NRM_SIFT
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.create',
+    'Ptr<DAISY>',
+    ['/S'],
+    [   ['float', 'radius', '15', []],
+        ['int', 'q_radius', '3', []],
+        ['int', 'q_theta', '8', []],
+        ['int', 'q_hist', '8', []],
+        ['DAISY::NormalizationType', 'norm', 'DAISY::NRM_NONE', []],
+        ['InputArray', 'H', 'noArray()', []],
+        ['bool', 'interpolation', 'true', []],
+        ['bool', 'use_orientation', 'false', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.DAISY.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::create namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:create
+register (method) create in cv::xfeatures2d::DAISY (cv_xfeatures2d_DAISY_create_float_int_int_int_DAISY_NormalizationType__InputArray_bool_bool)
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.compute',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['std::vector<KeyPoint>&', 'keypoints', '', []],
+        ['OutputArray', 'descriptors', '', []]],
+    None,
+    '@overload\n'
+    '* @param image image to extract descriptors\n'
+    '* @param keypoints of interest within image\n'
+    '* @param descriptors resulted descriptors array']
+parse_name: cv.xfeatures2d.DAISY.compute with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::compute namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:compute
+register (method) compute in cv::xfeatures2d::DAISY (cv_xfeatures2d_DAISY_compute__InputArray_VectorOfKeyPoint__OutputArray)
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.compute',
+    'void',
+    [],
+    [   ['InputArrayOfArrays', 'images', '', []],
+        ['std::vector<std::vector<KeyPoint> >&', 'keypoints', '', []],
+        ['OutputArrayOfArrays', 'descriptors', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.DAISY.compute with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::compute namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:compute
+register (method) compute in cv::xfeatures2d::DAISY (cv_xfeatures2d_DAISY_compute__InputArray_VectorOfVectorOfKeyPoint__OutputArray)
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.compute',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'image', '', []],
+        ['Rect', 'roi', '', []],
+        ['OutputArray', 'descriptors', '', []]],
+    None,
+    '@overload\n'
+    '* @param image image to extract descriptors\n'
+    '* @param roi region of interest within image\n'
+    '* @param descriptors resulted descriptors array for roi image pixels']
+parse_name: cv.xfeatures2d.DAISY.compute with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::compute namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:compute
+register (method) compute in cv::xfeatures2d::DAISY (trait) (cv_xfeatures2d_DAISY_compute__InputArray_Rect__OutputArray)
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.compute',
+    'void',
+    ['/A'],
+    [['InputArray', 'image', '', []], ['OutputArray', 'descriptors', '', []]],
+    None,
+    '@overload\n'
+    '* @param image image to extract descriptors\n'
+    '* @param descriptors resulted descriptors array for all image pixels']
+parse_name: cv.xfeatures2d.DAISY.compute with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::compute namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:compute
+register (method) compute in cv::xfeatures2d::DAISY (trait) (cv_xfeatures2d_DAISY_compute__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.GetDescriptor',
+    'void',
+    ['/A', '/C'],
+    [   ['double', 'y', '', []],
+        ['double', 'x', '', []],
+        ['int', 'orientation', '', []],
+        ['float*', 'descriptor', '', []]],
+    None,
+    '* @param y position y on image\n'
+    '* @param x position x on image\n'
+    '* @param orientation orientation on image (0->360)\n'
+    '* @param descriptor supplied array for descriptor storage']
+parse_name: cv.xfeatures2d.DAISY.GetDescriptor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::GetDescriptor namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:GetDescriptor
+register (method) GetDescriptor in cv::xfeatures2d::DAISY (trait) (cv_xfeatures2d_DAISY_GetDescriptor_const_double_double_int_float_X)
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.GetDescriptor',
+    'bool',
+    ['/A', '/C'],
+    [   ['double', 'y', '', []],
+        ['double', 'x', '', []],
+        ['int', 'orientation', '', []],
+        ['float*', 'descriptor', '', []],
+        ['double*', 'H', '', []]],
+    None,
+    '* @param y position y on image\n'
+    '* @param x position x on image\n'
+    '* @param orientation orientation on image (0->360)\n'
+    '* @param descriptor supplied array for descriptor storage\n'
+    '* @param H homography matrix for warped grid']
+parse_name: cv.xfeatures2d.DAISY.GetDescriptor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::GetDescriptor namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:GetDescriptor
+register (method) GetDescriptor in cv::xfeatures2d::DAISY (trait) (cv_xfeatures2d_DAISY_GetDescriptor_const_double_double_int_float_X_double_X)
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.GetUnnormalizedDescriptor',
+    'void',
+    ['/A', '/C'],
+    [   ['double', 'y', '', []],
+        ['double', 'x', '', []],
+        ['int', 'orientation', '', []],
+        ['float*', 'descriptor', '', []]],
+    None,
+    '* @param y position y on image\n'
+    '* @param x position x on image\n'
+    '* @param orientation orientation on image (0->360)\n'
+    '* @param descriptor supplied array for descriptor storage']
+parse_name: cv.xfeatures2d.DAISY.GetUnnormalizedDescriptor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::GetUnnormalizedDescriptor namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:GetUnnormalizedDescriptor
+register (method) GetUnnormalizedDescriptor in cv::xfeatures2d::DAISY (trait) (cv_xfeatures2d_DAISY_GetUnnormalizedDescriptor_const_double_double_int_float_X)
+
+--- Incoming ---
+[   'cv.xfeatures2d.DAISY.GetUnnormalizedDescriptor',
+    'bool',
+    ['/A', '/C'],
+    [   ['double', 'y', '', []],
+        ['double', 'x', '', []],
+        ['int', 'orientation', '', []],
+        ['float*', 'descriptor', '', []],
+        ['double *', 'H', '', []]],
+    None,
+    '* @param y position y on image\n'
+    '* @param x position x on image\n'
+    '* @param orientation orientation on image (0->360)\n'
+    '* @param descriptor supplied array for descriptor storage\n'
+    '* @param H homography matrix for warped grid']
+parse_name: cv.xfeatures2d.DAISY.GetUnnormalizedDescriptor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::DAISY::GetUnnormalizedDescriptor namespace:cv::xfeatures2d classpath:DAISY classname:DAISY name:GetUnnormalizedDescriptor
+register (method) GetUnnormalizedDescriptor in cv::xfeatures2d::DAISY (trait) (cv_xfeatures2d_DAISY_GetUnnormalizedDescriptor_const_double_double_int_float_X_double_X)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.MSDDetector',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class implementing the MSD (*Maximal Self-Dissimilarity*) keypoint '
+    'detector, described in @cite Tombari14.\n'
+    '\n'
+    'The algorithm implements a novel interest point detector stemming from '
+    'the intuition that image patches\n'
+    'which are highly dissimilar over a relatively large extent of their '
+    'surroundings hold the property of\n'
+    'being repeatable and distinctive. This concept of "contextual '
+    'self-dissimilarity" reverses the key\n'
+    'paradigm of recent successful techniques such as the Local '
+    'Self-Similarity descriptor and the Non-Local\n'
+    'Means filter, which build upon the presence of similar - rather than '
+    'dissimilar - patches. Moreover,\n'
+    'it extends to contextual information the local self-dissimilarity notion '
+    'embedded in established\n'
+    'detectors of corner-like interest points, thereby achieving enhanced '
+    'repeatability, distinctiveness and\n'
+    'localization accuracy.']
+parse_name: class cv.xfeatures2d.MSDDetector with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::MSDDetector namespace:cv::xfeatures2d classpath: classname: name:MSDDetector
+register class cv::xfeatures2d::MSDDetector (['class cv.xfeatures2d.MSDDetector', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class implementing the MSD (*Maximal Self-Dissimilarity*) keypoint detector, described in @cite Tombari14.\n\nThe algorithm implements a novel interest point detector stemming from the intuition that image patches\nwhich are highly dissimilar over a relatively large extent of their surroundings hold the property of\nbeing repeatable and distinctive. This concept of "contextual self-dissimilarity" reverses the key\nparadigm of recent successful techniques such as the Local Self-Similarity descriptor and the Non-Local\nMeans filter, which build upon the presence of similar - rather than dissimilar - patches. Moreover,\nit extends to contextual information the local self-dissimilarity notion embedded in established\ndetectors of corner-like interest points, thereby achieving enhanced repeatability, distinctiveness and\nlocalization accuracy.']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.MSDDetector.create',
+    'Ptr<MSDDetector>',
+    ['/S'],
+    [   ['int', 'm_patch_radius', '3', []],
+        ['int', 'm_search_area_radius', '5', []],
+        ['int', 'm_nms_radius', '5', []],
+        ['int', 'm_nms_scale_radius', '0', []],
+        ['float', 'm_th_saliency', '250.0f', []],
+        ['int', 'm_kNN', '4', []],
+        ['float', 'm_scale_factor', '1.25f', []],
+        ['int', 'm_n_scales', '-1', []],
+        ['bool', 'm_compute_orientation', 'false', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.MSDDetector.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::MSDDetector::create namespace:cv::xfeatures2d classpath:MSDDetector classname:MSDDetector name:create
+register (method) create in cv::xfeatures2d::MSDDetector (cv_xfeatures2d_MSDDetector_create_int_int_int_int_float_int_float_int_bool)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.VGG',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class implementing VGG (Oxford Visual Geometry Group) descriptor '
+    'trained end to end\n'
+    'using "Descriptor Learning Using Convex Optimisation" (DLCO) aparatus '
+    'described in @cite Simonyan14.\n'
+    '\n'
+    '@param desc type of descriptor to use, VGG::VGG_120 is default (120 '
+    'dimensions float)\n'
+    'Available types are VGG::VGG_120, VGG::VGG_80, VGG::VGG_64, VGG::VGG_48\n'
+    '@param isigma gaussian kernel value for image blur (default is 1.4f)\n'
+    '@param img_normalize use image sample intensity normalization (enabled by '
+    'default)\n'
+    '@param use_orientation sample patterns using keypoints orientation, '
+    'enabled by default\n'
+    '@param scale_factor adjust the sampling window of detected keypoints to '
+    '64.0f (VGG sampling window)\n'
+    '6.25f is default and fits for KAZE, SURF detected keypoints window ratio\n'
+    '6.75f should be the scale for SIFT detected keypoints window ratio\n'
+    '5.00f should be the scale for AKAZE, MSD, AGAST, FAST, BRISK keypoints '
+    'window ratio\n'
+    '0.75f should be the scale for ORB keypoints ratio\n'
+    '\n'
+    '@param dsc_normalize clamp descriptors to 255 and convert to uchar '
+    'CV_8UC1 (disabled by default)']
+parse_name: class cv.xfeatures2d.VGG with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG namespace:cv::xfeatures2d classpath: classname: name:VGG
+register class cv::xfeatures2d::VGG (['class cv.xfeatures2d.VGG', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class implementing VGG (Oxford Visual Geometry Group) descriptor trained end to end\nusing "Descriptor Learning Using Convex Optimisation" (DLCO) aparatus described in @cite Simonyan14.\n\n@param desc type of descriptor to use, VGG::VGG_120 is default (120 dimensions float)\nAvailable types are VGG::VGG_120, VGG::VGG_80, VGG::VGG_64, VGG::VGG_48\n@param isigma gaussian kernel value for image blur (default is 1.4f)\n@param img_normalize use image sample intensity normalization (enabled by default)\n@param use_orientation sample patterns using keypoints orientation, enabled by default\n@param scale_factor adjust the sampling window of detected keypoints to 64.0f (VGG sampling window)\n6.25f is default and fits for KAZE, SURF detected keypoints window ratio\n6.75f should be the scale for SIFT detected keypoints window ratio\n5.00f should be the scale for AKAZE, MSD, AGAST, FAST, BRISK keypoints window ratio\n0.75f should be the scale for ORB keypoints ratio\n\n@param dsc_normalize clamp descriptors to 255 and convert to uchar CV_8UC1 (disabled by default)']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.VGG.create',
+    'Ptr<VGG>',
+    ['/S'],
+    [   ['int', 'desc', 'VGG::VGG_120', []],
+        ['float', 'isigma', '1.4f', []],
+        ['bool', 'img_normalize', 'true', []],
+        ['bool', 'use_scale_orientation', 'true', []],
+        ['float', 'scale_factor', '6.25f', []],
+        ['bool', 'dsc_normalize', 'false', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.VGG.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::create namespace:cv::xfeatures2d classpath:VGG classname:VGG name:create
+register (method) create in cv::xfeatures2d::VGG (cv_xfeatures2d_VGG_create_int_float_bool_bool_float_bool)
+
+--- Incoming ---
+[   'cv.xfeatures2d.VGG.setSigma',
+    'void',
+    ['/A'],
+    [['const float', 'isigma', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.VGG.setSigma with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::setSigma namespace:cv::xfeatures2d classpath:VGG classname:VGG name:setSigma
+register (method) setSigma in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_setSigma_float)
+
+--- Incoming ---
+['cv.xfeatures2d.VGG.getSigma', 'float', ['/A', '/C'], [], None, '']
+parse_name: cv.xfeatures2d.VGG.getSigma with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::getSigma namespace:cv::xfeatures2d classpath:VGG classname:VGG name:getSigma
+register (method) getSigma in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_getSigma_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.VGG.setUseNormalizeImage',
+    'void',
+    ['/A'],
+    [['const bool', 'img_normalize', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.VGG.setUseNormalizeImage with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::setUseNormalizeImage namespace:cv::xfeatures2d classpath:VGG classname:VGG name:setUseNormalizeImage
+register (method) setUseNormalizeImage in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_setUseNormalizeImage_bool)
+
+--- Incoming ---
+['cv.xfeatures2d.VGG.getUseNormalizeImage', 'bool', ['/A', '/C'], [], None, '']
+parse_name: cv.xfeatures2d.VGG.getUseNormalizeImage with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::getUseNormalizeImage namespace:cv::xfeatures2d classpath:VGG classname:VGG name:getUseNormalizeImage
+register (method) getUseNormalizeImage in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_getUseNormalizeImage_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.VGG.setUseScaleOrientation',
+    'void',
+    ['/A'],
+    [['const bool', 'use_scale_orientation', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.VGG.setUseScaleOrientation with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::setUseScaleOrientation namespace:cv::xfeatures2d classpath:VGG classname:VGG name:setUseScaleOrientation
+register (method) setUseScaleOrientation in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_setUseScaleOrientation_bool)
+
+--- Incoming ---
+[   'cv.xfeatures2d.VGG.getUseScaleOrientation',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.xfeatures2d.VGG.getUseScaleOrientation with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::getUseScaleOrientation namespace:cv::xfeatures2d classpath:VGG classname:VGG name:getUseScaleOrientation
+register (method) getUseScaleOrientation in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_getUseScaleOrientation_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.VGG.setScaleFactor',
+    'void',
+    ['/A'],
+    [['const float', 'scale_factor', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.VGG.setScaleFactor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::setScaleFactor namespace:cv::xfeatures2d classpath:VGG classname:VGG name:setScaleFactor
+register (method) setScaleFactor in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_setScaleFactor_float)
+
+--- Incoming ---
+['cv.xfeatures2d.VGG.getScaleFactor', 'float', ['/A', '/C'], [], None, '']
+parse_name: cv.xfeatures2d.VGG.getScaleFactor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::getScaleFactor namespace:cv::xfeatures2d classpath:VGG classname:VGG name:getScaleFactor
+register (method) getScaleFactor in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_getScaleFactor_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.VGG.setUseNormalizeDescriptor',
+    'void',
+    ['/A'],
+    [['const bool', 'dsc_normalize', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.VGG.setUseNormalizeDescriptor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::setUseNormalizeDescriptor namespace:cv::xfeatures2d classpath:VGG classname:VGG name:setUseNormalizeDescriptor
+register (method) setUseNormalizeDescriptor in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_setUseNormalizeDescriptor_bool)
+
+--- Incoming ---
+[   'cv.xfeatures2d.VGG.getUseNormalizeDescriptor',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.xfeatures2d.VGG.getUseNormalizeDescriptor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::VGG::getUseNormalizeDescriptor namespace:cv::xfeatures2d classpath:VGG classname:VGG name:getUseNormalizeDescriptor
+register (method) getUseNormalizeDescriptor in cv::xfeatures2d::VGG (trait) (cv_xfeatures2d_VGG_getUseNormalizeDescriptor_const)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.BoostDesc',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class implementing BoostDesc (Learning Image Descriptors with '
+    'Boosting), described in\n'
+    '@cite Trzcinski13a and @cite Trzcinski13b.\n'
+    '\n'
+    '@param desc type of descriptor to use, BoostDesc::BINBOOST_256 is default '
+    '(256 bit long dimension)\n'
+    'Available types are: BoostDesc::BGM, BoostDesc::BGM_HARD, '
+    'BoostDesc::BGM_BILINEAR, BoostDesc::LBGM,\n'
+    'BoostDesc::BINBOOST_64, BoostDesc::BINBOOST_128, BoostDesc::BINBOOST_256\n'
+    '@param use_orientation sample patterns using keypoints orientation, '
+    'enabled by default\n'
+    '@param scale_factor adjust the sampling window of detected keypoints\n'
+    '6.25f is default and fits for KAZE, SURF detected keypoints window ratio\n'
+    '6.75f should be the scale for SIFT detected keypoints window ratio\n'
+    '5.00f should be the scale for AKAZE, MSD, AGAST, FAST, BRISK keypoints '
+    'window ratio\n'
+    '0.75f should be the scale for ORB keypoints ratio\n'
+    '1.50f was the default in original implementation\n'
+    '\n'
+    '@note BGM is the base descriptor where each binary dimension is computed '
+    'as the output of a single weak learner.\n'
+    'BGM_HARD and BGM_BILINEAR refers to same BGM but use different type of '
+    'gradient binning. In the BGM_HARD that\n'
+    'use ASSIGN_HARD binning type the gradient is assigned to the nearest '
+    'orientation bin. In the BGM_BILINEAR that use\n'
+    'ASSIGN_BILINEAR binning type the gradient is assigned to the two '
+    'neighbouring bins. In the BGM and all other modes that use\n'
+    'ASSIGN_SOFT binning type the gradient is assigned to 8 nearest bins '
+    'according to the cosine value between the gradient\n'
+    'angle and the bin center. LBGM (alias FP-Boost) is the floating point '
+    'extension where each dimension is computed\n'
+    'as a linear combination of the weak learner responses. BINBOOST and '
+    'subvariants are the binary extensions of LBGM\n'
+    'where each bit is computed as a thresholded linear combination of a set '
+    'of weak learners.\n'
+    'BoostDesc header files (boostdesc_*.i) was exported from original '
+    'binaries with export-boostdesc.py script from\n'
+    'samples subfolder.']
+parse_name: class cv.xfeatures2d.BoostDesc with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::BoostDesc namespace:cv::xfeatures2d classpath: classname: name:BoostDesc
+register class cv::xfeatures2d::BoostDesc (['class cv.xfeatures2d.BoostDesc', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class implementing BoostDesc (Learning Image Descriptors with Boosting), described in\n@cite Trzcinski13a and @cite Trzcinski13b.\n\n@param desc type of descriptor to use, BoostDesc::BINBOOST_256 is default (256 bit long dimension)\nAvailable types are: BoostDesc::BGM, BoostDesc::BGM_HARD, BoostDesc::BGM_BILINEAR, BoostDesc::LBGM,\nBoostDesc::BINBOOST_64, BoostDesc::BINBOOST_128, BoostDesc::BINBOOST_256\n@param use_orientation sample patterns using keypoints orientation, enabled by default\n@param scale_factor adjust the sampling window of detected keypoints\n6.25f is default and fits for KAZE, SURF detected keypoints window ratio\n6.75f should be the scale for SIFT detected keypoints window ratio\n5.00f should be the scale for AKAZE, MSD, AGAST, FAST, BRISK keypoints window ratio\n0.75f should be the scale for ORB keypoints ratio\n1.50f was the default in original implementation\n\n@note BGM is the base descriptor where each binary dimension is computed as the output of a single weak learner.\nBGM_HARD and BGM_BILINEAR refers to same BGM but use different type of gradient binning. In the BGM_HARD that\nuse ASSIGN_HARD binning type the gradient is assigned to the nearest orientation bin. In the BGM_BILINEAR that use\nASSIGN_BILINEAR binning type the gradient is assigned to the two neighbouring bins. In the BGM and all other modes that use\nASSIGN_SOFT binning type the gradient is assigned to 8 nearest bins according to the cosine value between the gradient\nangle and the bin center. LBGM (alias FP-Boost) is the floating point extension where each dimension is computed\nas a linear combination of the weak learner responses. BINBOOST and subvariants are the binary extensions of LBGM\nwhere each bit is computed as a thresholded linear combination of a set of weak learners.\nBoostDesc header files (boostdesc_*.i) was exported from original binaries with export-boostdesc.py script from\nsamples subfolder.']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.BoostDesc.create',
+    'Ptr<BoostDesc>',
+    ['/S'],
+    [   ['int', 'desc', 'BoostDesc::BINBOOST_256', []],
+        ['bool', 'use_scale_orientation', 'true', []],
+        ['float', 'scale_factor', '6.25f', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.BoostDesc.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::BoostDesc::create namespace:cv::xfeatures2d classpath:BoostDesc classname:BoostDesc name:create
+register (method) create in cv::xfeatures2d::BoostDesc (cv_xfeatures2d_BoostDesc_create_int_bool_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.BoostDesc.setUseScaleOrientation',
+    'void',
+    ['/A'],
+    [['const bool', 'use_scale_orientation', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.BoostDesc.setUseScaleOrientation with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::BoostDesc::setUseScaleOrientation namespace:cv::xfeatures2d classpath:BoostDesc classname:BoostDesc name:setUseScaleOrientation
+register (method) setUseScaleOrientation in cv::xfeatures2d::BoostDesc (trait) (cv_xfeatures2d_BoostDesc_setUseScaleOrientation_bool)
+
+--- Incoming ---
+[   'cv.xfeatures2d.BoostDesc.getUseScaleOrientation',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.xfeatures2d.BoostDesc.getUseScaleOrientation with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::BoostDesc::getUseScaleOrientation namespace:cv::xfeatures2d classpath:BoostDesc classname:BoostDesc name:getUseScaleOrientation
+register (method) getUseScaleOrientation in cv::xfeatures2d::BoostDesc (trait) (cv_xfeatures2d_BoostDesc_getUseScaleOrientation_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.BoostDesc.setScaleFactor',
+    'void',
+    ['/A'],
+    [['const float', 'scale_factor', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.BoostDesc.setScaleFactor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::BoostDesc::setScaleFactor namespace:cv::xfeatures2d classpath:BoostDesc classname:BoostDesc name:setScaleFactor
+register (method) setScaleFactor in cv::xfeatures2d::BoostDesc (trait) (cv_xfeatures2d_BoostDesc_setScaleFactor_float)
+
+--- Incoming ---
+['cv.xfeatures2d.BoostDesc.getScaleFactor', 'float', ['/A', '/C'], [], None, '']
+parse_name: cv.xfeatures2d.BoostDesc.getScaleFactor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::BoostDesc::getScaleFactor namespace:cv::xfeatures2d classpath:BoostDesc classname:BoostDesc name:getScaleFactor
+register (method) getScaleFactor in cv::xfeatures2d::BoostDesc (trait) (cv_xfeatures2d_BoostDesc_getScaleFactor_const)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.PCTSignatures',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '* @brief Class implementing PCT (position-color-texture) signature '
+    'extraction\n'
+    '*       as described in @cite KrulisLS16.\n'
+    '*       The algorithm is divided to a feature sampler and a clusterizer.\n'
+    '*       Feature sampler produces samples at given set of coordinates.\n'
+    '*       Clusterizer then produces clusters of these samples using k-means '
+    'algorithm.\n'
+    '*       Resulting set of clusters is the signature of the input image.\n'
+    '*\n'
+    '*       A signature is an array of SIGNATURE_DIMENSION-dimensional '
+    'points.\n'
+    '*       Used dimensions are:\n'
+    '*       weight, x, y position; lab color, contrast, entropy.\n'
+    '* @cite KrulisLS16\n'
+    '* @cite BeecksUS10']
+parse_name: class cv.xfeatures2d.PCTSignatures with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures namespace:cv::xfeatures2d classpath: classname: name:PCTSignatures
+register class cv::xfeatures2d::PCTSignatures (['class cv.xfeatures2d.PCTSignatures', ': cv::Algorithm', [], [], None, '* @brief Class implementing PCT (position-color-texture) signature extraction\n*       as described in @cite KrulisLS16.\n*       The algorithm is divided to a feature sampler and a clusterizer.\n*       Feature sampler produces samples at given set of coordinates.\n*       Clusterizer then produces clusters of these samples using k-means algorithm.\n*       Resulting set of clusters is the signature of the input image.\n*\n*       A signature is an array of SIGNATURE_DIMENSION-dimensional points.\n*       Used dimensions are:\n*       weight, x, y position; lab color, contrast, entropy.\n* @cite KrulisLS16\n* @cite BeecksUS10']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'enum cv.xfeatures2d.PCTSignatures.DistanceFunction',
+    '',
+    [],
+    [   ['const cv.xfeatures2d.PCTSignatures.L0_25', '0', [], [], None, ''],
+        ['const cv.xfeatures2d.PCTSignatures.L0_5', '1', [], [], None, ''],
+        ['const cv.xfeatures2d.PCTSignatures.L1', '2', [], [], None, ''],
+        ['const cv.xfeatures2d.PCTSignatures.L2', '3', [], [], None, ''],
+        ['const cv.xfeatures2d.PCTSignatures.L2SQUARED', '4', [], [], None, ''],
+        ['const cv.xfeatures2d.PCTSignatures.L5', '5', [], [], None, ''],
+        [   'const cv.xfeatures2d.PCTSignatures.L_INFINITY',
+            '6',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    '* @brief Lp distance function selector.']
+parse_name: const cv.xfeatures2d.PCTSignatures.L0_25 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L0_25 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L0_25
+parse_name: const cv.xfeatures2d.PCTSignatures.L0_5 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L0_5 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L0_5
+parse_name: const cv.xfeatures2d.PCTSignatures.L1 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L1 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L1
+parse_name: const cv.xfeatures2d.PCTSignatures.L2 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L2 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L2
+parse_name: const cv.xfeatures2d.PCTSignatures.L2SQUARED with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L2SQUARED namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L2SQUARED
+parse_name: const cv.xfeatures2d.PCTSignatures.L5 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L5 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L5
+parse_name: const cv.xfeatures2d.PCTSignatures.L_INFINITY with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L_INFINITY namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L_INFINITY
+parse_name: enum cv.xfeatures2d.PCTSignatures.DistanceFunction with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::DistanceFunction namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:DistanceFunction
+parse_name: const cv.xfeatures2d.PCTSignatures.L0_25 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L0_25 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L0_25
+parse_name: const cv.xfeatures2d.PCTSignatures.L0_5 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L0_5 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L0_5
+parse_name: const cv.xfeatures2d.PCTSignatures.L1 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L1 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L1
+parse_name: const cv.xfeatures2d.PCTSignatures.L2 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L2 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L2
+parse_name: const cv.xfeatures2d.PCTSignatures.L2SQUARED with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L2SQUARED namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L2SQUARED
+parse_name: const cv.xfeatures2d.PCTSignatures.L5 with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L5 namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L5
+parse_name: const cv.xfeatures2d.PCTSignatures.L_INFINITY with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::L_INFINITY namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:L_INFINITY
+
+--- Incoming ---
+[   'enum cv.xfeatures2d.PCTSignatures.PointDistribution',
+    '',
+    [],
+    [   [   'const cv.xfeatures2d.PCTSignatures.UNIFORM',
+            '0',
+            [],
+            [],
+            None,
+            'Generate numbers uniformly.\n'],
+        [   'const cv.xfeatures2d.PCTSignatures.REGULAR',
+            '1',
+            [],
+            [],
+            None,
+            'Generate points in a regular grid.\n'],
+        [   'const cv.xfeatures2d.PCTSignatures.NORMAL',
+            '2',
+            [],
+            [],
+            None,
+            'Generate points with normal (gaussian) distribution.\n']],
+    None,
+    '* @brief Point distributions supported by random point generator.']
+parse_name: const cv.xfeatures2d.PCTSignatures.UNIFORM with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::UNIFORM namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:UNIFORM
+parse_name: const cv.xfeatures2d.PCTSignatures.REGULAR with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::REGULAR namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:REGULAR
+parse_name: const cv.xfeatures2d.PCTSignatures.NORMAL with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::NORMAL namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:NORMAL
+parse_name: enum cv.xfeatures2d.PCTSignatures.PointDistribution with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::PointDistribution namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:PointDistribution
+parse_name: const cv.xfeatures2d.PCTSignatures.UNIFORM with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::UNIFORM namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:UNIFORM
+parse_name: const cv.xfeatures2d.PCTSignatures.REGULAR with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::REGULAR namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:REGULAR
+parse_name: const cv.xfeatures2d.PCTSignatures.NORMAL with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::NORMAL namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:NORMAL
+
+--- Incoming ---
+[   'enum cv.xfeatures2d.PCTSignatures.SimilarityFunction',
+    '',
+    [],
+    [   [   'const cv.xfeatures2d.PCTSignatures.MINUS',
+            '0',
+            [],
+            [],
+            None,
+            '\\f[ -d(c_i, c_j) \\f]\n'],
+        [   'const cv.xfeatures2d.PCTSignatures.GAUSSIAN',
+            '1',
+            [],
+            [],
+            None,
+            '\\f[ e^{ -\\alpha * d^2(c_i, c_j)} \\f]\n'],
+        [   'const cv.xfeatures2d.PCTSignatures.HEURISTIC',
+            '2',
+            [],
+            [],
+            None,
+            '\\f[ \\frac{1}{\\alpha + d(c_i, c_j)} \\f]\n']],
+    None,
+    '* @brief Similarity function selector.\n'
+    '* @see\n'
+    '*       Christian Beecks, Merih Seran Uysal, Thomas Seidl.\n'
+    '*       Signature quadratic form distance.\n'
+    '*       In Proceedings of the ACM International Conference on Image and '
+    'Video Retrieval, pages 438-445.\n'
+    '*       ACM, 2010.\n'
+    '* @cite BeecksUS10\n'
+    '* @note For selected distance function: \\f[ d(c_i, c_j) \\f]  and '
+    'parameter: \\f[ \\alpha \\f]']
+parse_name: const cv.xfeatures2d.PCTSignatures.MINUS with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::MINUS namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:MINUS
+parse_name: const cv.xfeatures2d.PCTSignatures.GAUSSIAN with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::GAUSSIAN namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:GAUSSIAN
+parse_name: const cv.xfeatures2d.PCTSignatures.HEURISTIC with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::HEURISTIC namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:HEURISTIC
+parse_name: enum cv.xfeatures2d.PCTSignatures.SimilarityFunction with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::SimilarityFunction namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:SimilarityFunction
+parse_name: const cv.xfeatures2d.PCTSignatures.MINUS with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::MINUS namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:MINUS
+parse_name: const cv.xfeatures2d.PCTSignatures.GAUSSIAN with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::GAUSSIAN namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:GAUSSIAN
+parse_name: const cv.xfeatures2d.PCTSignatures.HEURISTIC with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::HEURISTIC namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:HEURISTIC
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.create',
+    'Ptr<PCTSignatures>',
+    ['/S'],
+    [   ['const int', 'initSampleCount', '2000', []],
+        ['const int', 'initSeedCount', '400', []],
+        ['const int', 'pointDistribution', '0', []]],
+    None,
+    '* @brief Creates PCTSignatures algorithm using sample and seed count.\n'
+    '*       It generates its own sets of sampling points and clusterization '
+    'seed indexes.\n'
+    '* @param initSampleCount Number of points used for image sampling.\n'
+    '* @param initSeedCount Number of initial clusterization seeds.\n'
+    '*       Must be lower or equal to initSampleCount\n'
+    '* @param pointDistribution Distribution of generated points. Default: '
+    'UNIFORM.\n'
+    '*       Available: UNIFORM, REGULAR, NORMAL.\n'
+    '* @return Created algorithm.']
+parse_name: cv.xfeatures2d.PCTSignatures.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::create namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:create
+register (method) create in cv::xfeatures2d::PCTSignatures (cv_xfeatures2d_PCTSignatures_create_int_int_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.create',
+    'Ptr<PCTSignatures>',
+    ['/S'],
+    [   ['const std::vector<Point2f>&', 'initSamplingPoints', '', []],
+        ['const int', 'initSeedCount', '', []]],
+    None,
+    '* @brief Creates PCTSignatures algorithm using pre-generated sampling '
+    'points\n'
+    '*       and number of clusterization seeds. It uses the provided\n'
+    '*       sampling points and generates its own clusterization seed '
+    'indexes.\n'
+    '* @param initSamplingPoints Sampling points used in image sampling.\n'
+    '* @param initSeedCount Number of initial clusterization seeds.\n'
+    '*       Must be lower or equal to initSamplingPoints.size().\n'
+    '* @return Created algorithm.']
+parse_name: cv.xfeatures2d.PCTSignatures.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::create namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:create
+register (method) create in cv::xfeatures2d::PCTSignatures (cv_xfeatures2d_PCTSignatures_create_VectorOfPoint2f_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.create',
+    'Ptr<PCTSignatures>',
+    ['/S'],
+    [   ['const std::vector<Point2f>&', 'initSamplingPoints', '', []],
+        ['const std::vector<int>&', 'initClusterSeedIndexes', '', []]],
+    None,
+    '* @brief Creates PCTSignatures algorithm using pre-generated sampling '
+    'points\n'
+    '*       and clusterization seeds indexes.\n'
+    '* @param initSamplingPoints Sampling points used in image sampling.\n'
+    '* @param initClusterSeedIndexes Indexes of initial clusterization seeds.\n'
+    '*       Its size must be lower or equal to initSamplingPoints.size().\n'
+    '* @return Created algorithm.']
+parse_name: cv.xfeatures2d.PCTSignatures.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::create namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:create
+register (method) create in cv::xfeatures2d::PCTSignatures (cv_xfeatures2d_PCTSignatures_create_VectorOfPoint2f_VectorOfint)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.computeSignature',
+    'void',
+    ['/A', '/C'],
+    [['InputArray', 'image', '', []], ['OutputArray', 'signature', '', []]],
+    None,
+    '* @brief Computes signature of given image.\n'
+    '* @param image Input image of CV_8U type.\n'
+    '* @param signature Output computed signature.']
+parse_name: cv.xfeatures2d.PCTSignatures.computeSignature with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::computeSignature namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:computeSignature
+register (method) computeSignature in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_computeSignature_const__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.computeSignatures',
+    'void',
+    ['/A', '/C'],
+    [   ['const std::vector<Mat>&', 'images', '', []],
+        ['std::vector<Mat>&', 'signatures', '', []]],
+    None,
+    '* @brief Computes signatures for multiple images in parallel.\n'
+    '* @param images Vector of input images of CV_8U type.\n'
+    '* @param signatures Vector of computed signatures.']
+parse_name: cv.xfeatures2d.PCTSignatures.computeSignatures with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::computeSignatures namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:computeSignatures
+register (method) computeSignatures in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_computeSignatures_const_VectorOfMat_VectorOfMat)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.drawSignature',
+    'void',
+    ['/S'],
+    [   ['InputArray', 'source', '', []],
+        ['InputArray', 'signature', '', []],
+        ['OutputArray', 'result', '', []],
+        ['float', 'radiusToShorterSideRatio', '1.0 / 8', []],
+        ['int', 'borderThickness', '1', []]],
+    None,
+    '* @brief Draws signature in the source image and outputs the result.\n'
+    '*       Signatures are visualized as a circle\n'
+    '*       with radius based on signature weight\n'
+    '*       and color based on signature color.\n'
+    '*       Contrast and entropy are not visualized.\n'
+    '* @param source Source image.\n'
+    '* @param signature Image signature.\n'
+    '* @param result Output result.\n'
+    '* @param radiusToShorterSideRatio Determines maximal radius of signature '
+    'in the output image.\n'
+    '* @param borderThickness Border thickness of the visualized signature.']
+parse_name: cv.xfeatures2d.PCTSignatures.drawSignature with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::drawSignature namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:drawSignature
+register (method) drawSignature in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_drawSignature__InputArray__InputArray__OutputArray_float_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.generateInitPoints',
+    'void',
+    ['/S'],
+    [   ['std::vector<Point2f>&', 'initPoints', '', []],
+        ['const int', 'count', '', []],
+        ['int', 'pointDistribution', '', []]],
+    None,
+    '* @brief Generates initial sampling points according to selected point '
+    'distribution.\n'
+    '* @param initPoints Output vector where the generated points will be '
+    'saved.\n'
+    '* @param count Number of points to generate.\n'
+    '* @param pointDistribution Point distribution selector.\n'
+    '*       Available: UNIFORM, REGULAR, NORMAL.\n'
+    '* @note Generated coordinates are in range [0..1)']
+parse_name: cv.xfeatures2d.PCTSignatures.generateInitPoints with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::generateInitPoints namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:generateInitPoints
+register (method) generateInitPoints in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_generateInitPoints_VectorOfPoint2f_int_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getSampleCount',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Number of initial samples taken from the image.']
+parse_name: cv.xfeatures2d.PCTSignatures.getSampleCount with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getSampleCount namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getSampleCount
+register (method) getSampleCount in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getSampleCount_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getGrayscaleBits',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Color resolution of the greyscale bitmap represented in '
+    'allocated bits\n'
+    '*       (i.e., value 4 means that 16 shades of grey are used).\n'
+    '*       The greyscale bitmap is used for computing contrast and entropy '
+    'values.']
+parse_name: cv.xfeatures2d.PCTSignatures.getGrayscaleBits with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getGrayscaleBits namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getGrayscaleBits
+register (method) getGrayscaleBits in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getGrayscaleBits_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setGrayscaleBits',
+    'void',
+    ['/A'],
+    [['int', 'grayscaleBits', '', []]],
+    None,
+    '* @brief Color resolution of the greyscale bitmap represented in '
+    'allocated bits\n'
+    '*       (i.e., value 4 means that 16 shades of grey are used).\n'
+    '*       The greyscale bitmap is used for computing contrast and entropy '
+    'values.']
+parse_name: cv.xfeatures2d.PCTSignatures.setGrayscaleBits with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setGrayscaleBits namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setGrayscaleBits
+register (method) setGrayscaleBits in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setGrayscaleBits_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getWindowRadius',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Size of the texture sampling window used to compute contrast and '
+    'entropy\n'
+    '*       (center of the window is always in the pixel selected by x,y '
+    'coordinates\n'
+    '*       of the corresponding feature sample).']
+parse_name: cv.xfeatures2d.PCTSignatures.getWindowRadius with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getWindowRadius namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getWindowRadius
+register (method) getWindowRadius in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getWindowRadius_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWindowRadius',
+    'void',
+    ['/A'],
+    [['int', 'radius', '', []]],
+    None,
+    '* @brief Size of the texture sampling window used to compute contrast and '
+    'entropy\n'
+    '*       (center of the window is always in the pixel selected by x,y '
+    'coordinates\n'
+    '*       of the corresponding feature sample).']
+parse_name: cv.xfeatures2d.PCTSignatures.setWindowRadius with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWindowRadius namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWindowRadius
+register (method) setWindowRadius in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWindowRadius_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getWeightX',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.getWeightX with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getWeightX namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getWeightX
+register (method) getWeightX in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getWeightX_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeightX',
+    'void',
+    ['/A'],
+    [['float', 'weight', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeightX with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeightX namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeightX
+register (method) setWeightX in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeightX_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getWeightY',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.getWeightY with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getWeightY namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getWeightY
+register (method) getWeightY in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getWeightY_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeightY',
+    'void',
+    ['/A'],
+    [['float', 'weight', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeightY with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeightY namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeightY
+register (method) setWeightY in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeightY_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getWeightL',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.getWeightL with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getWeightL namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getWeightL
+register (method) getWeightL in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getWeightL_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeightL',
+    'void',
+    ['/A'],
+    [['float', 'weight', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeightL with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeightL namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeightL
+register (method) setWeightL in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeightL_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getWeightA',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.getWeightA with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getWeightA namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getWeightA
+register (method) getWeightA in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getWeightA_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeightA',
+    'void',
+    ['/A'],
+    [['float', 'weight', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeightA with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeightA namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeightA
+register (method) setWeightA in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeightA_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getWeightB',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.getWeightB with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getWeightB namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getWeightB
+register (method) getWeightB in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getWeightB_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeightB',
+    'void',
+    ['/A'],
+    [['float', 'weight', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeightB with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeightB namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeightB
+register (method) setWeightB in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeightB_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getWeightContrast',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.getWeightContrast with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getWeightContrast namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getWeightContrast
+register (method) getWeightContrast in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getWeightContrast_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeightContrast',
+    'void',
+    ['/A'],
+    [['float', 'weight', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeightContrast with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeightContrast namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeightContrast
+register (method) setWeightContrast in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeightContrast_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getWeightEntropy',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.getWeightEntropy with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getWeightEntropy namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getWeightEntropy
+register (method) getWeightEntropy in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getWeightEntropy_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeightEntropy',
+    'void',
+    ['/A'],
+    [['float', 'weight', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space\n'
+    '*       (x,y = position; L,a,b = color in CIE Lab space; c = contrast. e '
+    '= entropy)']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeightEntropy with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeightEntropy namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeightEntropy
+register (method) setWeightEntropy in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeightEntropy_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getSamplingPoints',
+    'std::vector<Point2f>',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Initial samples taken from the image.\n'
+    '*       These sampled features become the input for clustering.']
+parse_name: cv.xfeatures2d.PCTSignatures.getSamplingPoints with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getSamplingPoints namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getSamplingPoints
+register (method) getSamplingPoints in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getSamplingPoints_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeight',
+    'void',
+    ['/A'],
+    [['int', 'idx', '', []], ['float', 'value', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space.\n'
+    '* @param idx ID of the weight\n'
+    '* @param value Value of the weight\n'
+    '* @note\n'
+    '*       WEIGHT_IDX = 0;\n'
+    '*       X_IDX = 1;\n'
+    '*       Y_IDX = 2;\n'
+    '*       L_IDX = 3;\n'
+    '*       A_IDX = 4;\n'
+    '*       B_IDX = 5;\n'
+    '*       CONTRAST_IDX = 6;\n'
+    '*       ENTROPY_IDX = 7;']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeight with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeight namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeight
+register (method) setWeight in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeight_int_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setWeights',
+    'void',
+    ['/A'],
+    [['const std::vector<float>&', 'weights', '', []]],
+    None,
+    '* @brief Weights (multiplicative constants) that linearly stretch '
+    'individual axes of the feature space.\n'
+    '* @param weights Values of all weights.\n'
+    '* @note\n'
+    '*       WEIGHT_IDX = 0;\n'
+    '*       X_IDX = 1;\n'
+    '*       Y_IDX = 2;\n'
+    '*       L_IDX = 3;\n'
+    '*       A_IDX = 4;\n'
+    '*       B_IDX = 5;\n'
+    '*       CONTRAST_IDX = 6;\n'
+    '*       ENTROPY_IDX = 7;']
+parse_name: cv.xfeatures2d.PCTSignatures.setWeights with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setWeights namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setWeights
+register (method) setWeights in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setWeights_VectorOffloat)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setTranslation',
+    'void',
+    ['/A'],
+    [['int', 'idx', '', []], ['float', 'value', '', []]],
+    None,
+    '* @brief Translations of the individual axes of the feature space.\n'
+    '* @param idx ID of the translation\n'
+    '* @param value Value of the translation\n'
+    '* @note\n'
+    '*       WEIGHT_IDX = 0;\n'
+    '*       X_IDX = 1;\n'
+    '*       Y_IDX = 2;\n'
+    '*       L_IDX = 3;\n'
+    '*       A_IDX = 4;\n'
+    '*       B_IDX = 5;\n'
+    '*       CONTRAST_IDX = 6;\n'
+    '*       ENTROPY_IDX = 7;']
+parse_name: cv.xfeatures2d.PCTSignatures.setTranslation with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setTranslation namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setTranslation
+register (method) setTranslation in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setTranslation_int_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setTranslations',
+    'void',
+    ['/A'],
+    [['const std::vector<float>&', 'translations', '', []]],
+    None,
+    '* @brief Translations of the individual axes of the feature space.\n'
+    '* @param translations Values of all translations.\n'
+    '* @note\n'
+    '*       WEIGHT_IDX = 0;\n'
+    '*       X_IDX = 1;\n'
+    '*       Y_IDX = 2;\n'
+    '*       L_IDX = 3;\n'
+    '*       A_IDX = 4;\n'
+    '*       B_IDX = 5;\n'
+    '*       CONTRAST_IDX = 6;\n'
+    '*       ENTROPY_IDX = 7;']
+parse_name: cv.xfeatures2d.PCTSignatures.setTranslations with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setTranslations namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setTranslations
+register (method) setTranslations in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setTranslations_VectorOffloat)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setSamplingPoints',
+    'void',
+    ['/A'],
+    [['std::vector<Point2f>', 'samplingPoints', '', []]],
+    None,
+    '* @brief Sets sampling points used to sample the input image.\n'
+    '* @param samplingPoints Vector of sampling points in range [0..1)\n'
+    '* @note Number of sampling points must be greater or equal to '
+    'clusterization seed count.']
+parse_name: cv.xfeatures2d.PCTSignatures.setSamplingPoints with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setSamplingPoints namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setSamplingPoints
+register (method) setSamplingPoints in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setSamplingPoints_VectorOfPoint2f)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getInitSeedIndexes',
+    'std::vector<int>',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Initial seeds (initial number of clusters) for the k-means '
+    'algorithm.']
+parse_name: cv.xfeatures2d.PCTSignatures.getInitSeedIndexes with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getInitSeedIndexes namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getInitSeedIndexes
+register (method) getInitSeedIndexes in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getInitSeedIndexes_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setInitSeedIndexes',
+    'void',
+    ['/A'],
+    [['std::vector<int>', 'initSeedIndexes', '', []]],
+    None,
+    '* @brief Initial seed indexes for the k-means algorithm.']
+parse_name: cv.xfeatures2d.PCTSignatures.setInitSeedIndexes with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setInitSeedIndexes namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setInitSeedIndexes
+register (method) setInitSeedIndexes in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setInitSeedIndexes_VectorOfint)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getInitSeedCount',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Number of initial seeds (initial number of clusters) for the '
+    'k-means algorithm.']
+parse_name: cv.xfeatures2d.PCTSignatures.getInitSeedCount with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getInitSeedCount namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getInitSeedCount
+register (method) getInitSeedCount in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getInitSeedCount_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getIterationCount',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Number of iterations of the k-means clustering.\n'
+    '*       We use fixed number of iterations, since the modified clustering '
+    'is pruning clusters\n'
+    '*       (not iteratively refining k clusters).']
+parse_name: cv.xfeatures2d.PCTSignatures.getIterationCount with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getIterationCount namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getIterationCount
+register (method) getIterationCount in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getIterationCount_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setIterationCount',
+    'void',
+    ['/A'],
+    [['int', 'iterationCount', '', []]],
+    None,
+    '* @brief Number of iterations of the k-means clustering.\n'
+    '*       We use fixed number of iterations, since the modified clustering '
+    'is pruning clusters\n'
+    '*       (not iteratively refining k clusters).']
+parse_name: cv.xfeatures2d.PCTSignatures.setIterationCount with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setIterationCount namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setIterationCount
+register (method) setIterationCount in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setIterationCount_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getMaxClustersCount',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Maximal number of generated clusters. If the number is '
+    'exceeded,\n'
+    '*       the clusters are sorted by their weights and the smallest '
+    'clusters are cropped.']
+parse_name: cv.xfeatures2d.PCTSignatures.getMaxClustersCount with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getMaxClustersCount namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getMaxClustersCount
+register (method) getMaxClustersCount in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getMaxClustersCount_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setMaxClustersCount',
+    'void',
+    ['/A'],
+    [['int', 'maxClustersCount', '', []]],
+    None,
+    '* @brief Maximal number of generated clusters. If the number is '
+    'exceeded,\n'
+    '*       the clusters are sorted by their weights and the smallest '
+    'clusters are cropped.']
+parse_name: cv.xfeatures2d.PCTSignatures.setMaxClustersCount with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setMaxClustersCount namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setMaxClustersCount
+register (method) setMaxClustersCount in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setMaxClustersCount_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getClusterMinSize',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief This parameter multiplied by the index of iteration gives lower '
+    'limit for cluster size.\n'
+    '*       Clusters containing fewer points than specified by the limit have '
+    'their centroid dismissed\n'
+    '*       and points are reassigned.']
+parse_name: cv.xfeatures2d.PCTSignatures.getClusterMinSize with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getClusterMinSize namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getClusterMinSize
+register (method) getClusterMinSize in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getClusterMinSize_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setClusterMinSize',
+    'void',
+    ['/A'],
+    [['int', 'clusterMinSize', '', []]],
+    None,
+    '* @brief This parameter multiplied by the index of iteration gives lower '
+    'limit for cluster size.\n'
+    '*       Clusters containing fewer points than specified by the limit have '
+    'their centroid dismissed\n'
+    '*       and points are reassigned.']
+parse_name: cv.xfeatures2d.PCTSignatures.setClusterMinSize with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setClusterMinSize namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setClusterMinSize
+register (method) setClusterMinSize in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setClusterMinSize_int)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getJoiningDistance',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Threshold euclidean distance between two centroids.\n'
+    '*       If two cluster centers are closer than this distance,\n'
+    '*       one of the centroid is dismissed and points are reassigned.']
+parse_name: cv.xfeatures2d.PCTSignatures.getJoiningDistance with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getJoiningDistance namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getJoiningDistance
+register (method) getJoiningDistance in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getJoiningDistance_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setJoiningDistance',
+    'void',
+    ['/A'],
+    [['float', 'joiningDistance', '', []]],
+    None,
+    '* @brief Threshold euclidean distance between two centroids.\n'
+    '*       If two cluster centers are closer than this distance,\n'
+    '*       one of the centroid is dismissed and points are reassigned.']
+parse_name: cv.xfeatures2d.PCTSignatures.setJoiningDistance with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setJoiningDistance namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setJoiningDistance
+register (method) setJoiningDistance in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setJoiningDistance_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getDropThreshold',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Remove centroids in k-means whose weight is lesser or equal to '
+    'given threshold.']
+parse_name: cv.xfeatures2d.PCTSignatures.getDropThreshold with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getDropThreshold namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getDropThreshold
+register (method) getDropThreshold in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getDropThreshold_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setDropThreshold',
+    'void',
+    ['/A'],
+    [['float', 'dropThreshold', '', []]],
+    None,
+    '* @brief Remove centroids in k-means whose weight is lesser or equal to '
+    'given threshold.']
+parse_name: cv.xfeatures2d.PCTSignatures.setDropThreshold with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setDropThreshold namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setDropThreshold
+register (method) setDropThreshold in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setDropThreshold_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.getDistanceFunction',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '* @brief Distance function selector used for measuring distance between '
+    'two points in k-means.']
+parse_name: cv.xfeatures2d.PCTSignatures.getDistanceFunction with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::getDistanceFunction namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:getDistanceFunction
+register (method) getDistanceFunction in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_getDistanceFunction_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignatures.setDistanceFunction',
+    'void',
+    ['/A'],
+    [['int', 'distanceFunction', '', []]],
+    None,
+    '* @brief Distance function selector used for measuring distance between '
+    'two points in k-means.\n'
+    '*       Available: L0_25, L0_5, L1, L2, L2SQUARED, L5, L_INFINITY.']
+parse_name: cv.xfeatures2d.PCTSignatures.setDistanceFunction with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignatures::setDistanceFunction namespace:cv::xfeatures2d classpath:PCTSignatures classname:PCTSignatures name:setDistanceFunction
+register (method) setDistanceFunction in cv::xfeatures2d::PCTSignatures (trait) (cv_xfeatures2d_PCTSignatures_setDistanceFunction_int)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.PCTSignaturesSQFD',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '* @brief Class implementing Signature Quadratic Form Distance (SQFD).\n'
+    '* @see Christian Beecks, Merih Seran Uysal, Thomas Seidl.\n'
+    '*   Signature quadratic form distance.\n'
+    '*   In Proceedings of the ACM International Conference on Image and Video '
+    'Retrieval, pages 438-445.\n'
+    '*   ACM, 2010.\n'
+    '* @cite BeecksUS10']
+parse_name: class cv.xfeatures2d.PCTSignaturesSQFD with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignaturesSQFD namespace:cv::xfeatures2d classpath: classname: name:PCTSignaturesSQFD
+register class cv::xfeatures2d::PCTSignaturesSQFD (['class cv.xfeatures2d.PCTSignaturesSQFD', ': cv::Algorithm', [], [], None, '* @brief Class implementing Signature Quadratic Form Distance (SQFD).\n* @see Christian Beecks, Merih Seran Uysal, Thomas Seidl.\n*   Signature quadratic form distance.\n*   In Proceedings of the ACM International Conference on Image and Video Retrieval, pages 438-445.\n*   ACM, 2010.\n* @cite BeecksUS10']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignaturesSQFD.create',
+    'Ptr<PCTSignaturesSQFD>',
+    ['/S'],
+    [   ['const int', 'distanceFunction', '3', []],
+        ['const int', 'similarityFunction', '2', []],
+        ['const float', 'similarityParameter', '1.0f', []]],
+    None,
+    '* @brief Creates the algorithm instance using selected distance '
+    'function,\n'
+    '*       similarity function and similarity function parameter.\n'
+    '* @param distanceFunction Distance function selector. Default: L2\n'
+    '*       Available: L0_25, L0_5, L1, L2, L2SQUARED, L5, L_INFINITY\n'
+    '* @param similarityFunction Similarity function selector. Default: '
+    'HEURISTIC\n'
+    '*       Available: MINUS, GAUSSIAN, HEURISTIC\n'
+    '* @param similarityParameter Parameter of the similarity function.']
+parse_name: cv.xfeatures2d.PCTSignaturesSQFD.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignaturesSQFD::create namespace:cv::xfeatures2d classpath:PCTSignaturesSQFD classname:PCTSignaturesSQFD name:create
+register (method) create in cv::xfeatures2d::PCTSignaturesSQFD (cv_xfeatures2d_PCTSignaturesSQFD_create_int_int_float)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignaturesSQFD.computeQuadraticFormDistance',
+    'float',
+    ['/A', '/C'],
+    [   ['InputArray', '_signature0', '', []],
+        ['InputArray', '_signature1', '', []]],
+    None,
+    '* @brief Computes Signature Quadratic Form Distance of two signatures.\n'
+    '* @param _signature0 The first signature.\n'
+    '* @param _signature1 The second signature.']
+parse_name: cv.xfeatures2d.PCTSignaturesSQFD.computeQuadraticFormDistance with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignaturesSQFD::computeQuadraticFormDistance namespace:cv::xfeatures2d classpath:PCTSignaturesSQFD classname:PCTSignaturesSQFD name:computeQuadraticFormDistance
+register (method) computeQuadraticFormDistance in cv::xfeatures2d::PCTSignaturesSQFD (trait) (cv_xfeatures2d_PCTSignaturesSQFD_computeQuadraticFormDistance_const__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.xfeatures2d.PCTSignaturesSQFD.computeQuadraticFormDistances',
+    'void',
+    ['/A', '/C'],
+    [   ['const Mat&', 'sourceSignature', '', []],
+        ['const std::vector<Mat>&', 'imageSignatures', '', []],
+        ['std::vector<float>&', 'distances', '', []]],
+    None,
+    '* @brief Computes Signature Quadratic Form Distance between the reference '
+    'signature\n'
+    '*       and each of the other image signatures.\n'
+    '* @param sourceSignature The signature to measure distance of other '
+    'signatures from.\n'
+    '* @param imageSignatures Vector of signatures to measure distance from '
+    'the source signature.\n'
+    '* @param distances Output vector of measured distances.']
+parse_name: cv.xfeatures2d.PCTSignaturesSQFD.computeQuadraticFormDistances with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::PCTSignaturesSQFD::computeQuadraticFormDistances namespace:cv::xfeatures2d classpath:PCTSignaturesSQFD classname:PCTSignaturesSQFD name:computeQuadraticFormDistances
+register (method) computeQuadraticFormDistances in cv::xfeatures2d::PCTSignaturesSQFD (trait) (cv_xfeatures2d_PCTSignaturesSQFD_computeQuadraticFormDistances_const_Mat_VectorOfMat_VectorOffloat)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.Elliptic_KeyPoint',
+    ': cv::xfeatures2d::KeyPoint',
+    [],
+    [],
+    None,
+    '* @brief Elliptic region around an interest point.']
+parse_name: class cv.xfeatures2d.Elliptic_KeyPoint with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::Elliptic_KeyPoint namespace:cv::xfeatures2d classpath: classname: name:Elliptic_KeyPoint
+register class cv::xfeatures2d::Elliptic_KeyPoint (['class cv.xfeatures2d.Elliptic_KeyPoint', ': cv::xfeatures2d::KeyPoint', [], [], None, '* @brief Elliptic region around an interest point.']) impl:cv::xfeatures2d::KeyPoint
+
+--- Incoming ---
+['cv.xfeatures2d.Elliptic_KeyPoint.Elliptic_KeyPoint', 'E', [], [], None, '']
+parse_name: cv.xfeatures2d.Elliptic_KeyPoint.Elliptic_KeyPoint with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::Elliptic_KeyPoint::Elliptic_KeyPoint namespace:cv::xfeatures2d classpath:Elliptic_KeyPoint classname:Elliptic_KeyPoint name:Elliptic_KeyPoint
+register (constructor) default in cv::xfeatures2d::Elliptic_KeyPoint (cv_xfeatures2d_Elliptic_KeyPoint_Elliptic_KeyPoint)
+
+--- Incoming ---
+[   'cv.xfeatures2d.Elliptic_KeyPoint.Elliptic_KeyPoint',
+    'E',
+    [],
+    [   ['Point2f', 'pt', '', []],
+        ['float', 'angle', '', []],
+        ['Size', 'axes', '', []],
+        ['float', 'size', '', []],
+        ['float', 'si', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.Elliptic_KeyPoint.Elliptic_KeyPoint with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::Elliptic_KeyPoint::Elliptic_KeyPoint namespace:cv::xfeatures2d classpath:Elliptic_KeyPoint classname:Elliptic_KeyPoint name:Elliptic_KeyPoint
+register (constructor) new in cv::xfeatures2d::Elliptic_KeyPoint (cv_xfeatures2d_Elliptic_KeyPoint_Elliptic_KeyPoint_Point2f_float_Size_float_float)
+
+--- Incoming ---
+['cv.xfeatures2d.Elliptic_KeyPoint.~Elliptic_KeyPoint', '~', [], [], None, '']
+parse_name: cv.xfeatures2d.Elliptic_KeyPoint.~Elliptic_KeyPoint with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::Elliptic_KeyPoint::~Elliptic_KeyPoint namespace:cv::xfeatures2d classpath:Elliptic_KeyPoint classname:Elliptic_KeyPoint name:~Elliptic_KeyPoint
+Registering an unknown type: ~
+ignore destructor (method) ~Elliptic_KeyPoint in cv::xfeatures2d::Elliptic_KeyPoint
+
+--- Incoming ---
+[   'class cv.xfeatures2d.HarrisLaplaceFeatureDetector',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '* @brief Class implementing the Harris-Laplace feature detector as '
+    'described in @cite Mikolajczyk2004.']
+parse_name: class cv.xfeatures2d.HarrisLaplaceFeatureDetector with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::HarrisLaplaceFeatureDetector namespace:cv::xfeatures2d classpath: classname: name:HarrisLaplaceFeatureDetector
+register class cv::xfeatures2d::HarrisLaplaceFeatureDetector (['class cv.xfeatures2d.HarrisLaplaceFeatureDetector', ': cv::xfeatures2d::Feature2D', [], [], None, '* @brief Class implementing the Harris-Laplace feature detector as described in @cite Mikolajczyk2004.']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.HarrisLaplaceFeatureDetector.create',
+    'Ptr<HarrisLaplaceFeatureDetector>',
+    ['/S'],
+    [   ['int', 'numOctaves', '6', []],
+        ['float', 'corn_thresh', '0.01f', []],
+        ['float', 'DOG_thresh', '0.01f', []],
+        ['int', 'maxCorners', '5000', []],
+        ['int', 'num_layers', '4', []]],
+    None,
+    '* @brief Creates a new implementation instance.\n'
+    '*\n'
+    '* @param numOctaves the number of octaves in the scale-space pyramid\n'
+    '* @param corn_thresh the threshold for the Harris cornerness measure\n'
+    '* @param DOG_thresh the threshold for the Difference-of-Gaussians scale '
+    'selection\n'
+    '* @param maxCorners the maximum number of corners to consider\n'
+    '* @param num_layers the number of intermediate scales per octave']
+parse_name: cv.xfeatures2d.HarrisLaplaceFeatureDetector.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::HarrisLaplaceFeatureDetector::create namespace:cv::xfeatures2d classpath:HarrisLaplaceFeatureDetector classname:HarrisLaplaceFeatureDetector name:create
+register (method) create in cv::xfeatures2d::HarrisLaplaceFeatureDetector (cv_xfeatures2d_HarrisLaplaceFeatureDetector_create_int_float_float_int_int)
+
+--- Incoming ---
+[   'class cv.xfeatures2d.AffineFeature2D',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '* @brief Class implementing affine adaptation for key points.\n'
+    '*\n'
+    '* A @ref FeatureDetector and a @ref DescriptorExtractor are wrapped to '
+    'augment the\n'
+    '* detected points with their affine invariant elliptic region and to '
+    'compute\n'
+    '* the feature descriptors on the regions after warping them into '
+    'circles.\n'
+    '*\n'
+    '* The interface is equivalent to @ref Feature2D, adding operations for\n'
+    '* @ref Elliptic_KeyPoint "Elliptic_KeyPoints" instead of @ref KeyPoint '
+    '"KeyPoints".']
+parse_name: class cv.xfeatures2d.AffineFeature2D with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::AffineFeature2D namespace:cv::xfeatures2d classpath: classname: name:AffineFeature2D
+register class cv::xfeatures2d::AffineFeature2D (['class cv.xfeatures2d.AffineFeature2D', ': cv::xfeatures2d::Feature2D', [], [], None, '* @brief Class implementing affine adaptation for key points.\n*\n* A @ref FeatureDetector and a @ref DescriptorExtractor are wrapped to augment the\n* detected points with their affine invariant elliptic region and to compute\n* the feature descriptors on the regions after warping them into circles.\n*\n* The interface is equivalent to @ref Feature2D, adding operations for\n* @ref Elliptic_KeyPoint "Elliptic_KeyPoints" instead of @ref KeyPoint "KeyPoints".']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.AffineFeature2D.create',
+    'Ptr<AffineFeature2D>',
+    ['/S'],
+    [   ['Ptr<FeatureDetector>', 'keypoint_detector', '', []],
+        ['Ptr<DescriptorExtractor>', 'descriptor_extractor', '', []]],
+    None,
+    '* @brief Creates an instance wrapping the given keypoint detector and\n'
+    '* descriptor extractor.']
+parse_name: cv.xfeatures2d.AffineFeature2D.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::AffineFeature2D::create namespace:cv::xfeatures2d classpath:AffineFeature2D classname:AffineFeature2D name:create
+register (method) create in cv::xfeatures2d::AffineFeature2D (cv_xfeatures2d_AffineFeature2D_create_PtrOfFeature2D_PtrOfFeature2D)
+
+--- Incoming ---
+[   'cv.xfeatures2d.AffineFeature2D.create',
+    'Ptr<AffineFeature2D>',
+    ['/S'],
+    [['Ptr<FeatureDetector>', 'keypoint_detector', '', []]],
+    None,
+    '* @brief Creates an instance where keypoint detector and descriptor\n'
+    '* extractor are identical.']
+parse_name: cv.xfeatures2d.AffineFeature2D.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::AffineFeature2D::create namespace:cv::xfeatures2d classpath:AffineFeature2D classname:AffineFeature2D name:create
+register (method) create in cv::xfeatures2d::AffineFeature2D (cv_xfeatures2d_AffineFeature2D_create_PtrOfFeature2D)
+
+--- Incoming ---
+[   'cv.xfeatures2d.AffineFeature2D.detect',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'image', '', []],
+        ['std::vector<Elliptic_KeyPoint>&', 'keypoints', '', []],
+        ['InputArray', 'mask', 'noArray()', []]],
+    None,
+    '* @brief Detects keypoints in the image using the wrapped detector and\n'
+    '* performs affine adaptation to augment them with their elliptic regions.']
+parse_name: cv.xfeatures2d.AffineFeature2D.detect with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::AffineFeature2D::detect namespace:cv::xfeatures2d classpath:AffineFeature2D classname:AffineFeature2D name:detect
+register (method) detect in cv::xfeatures2d::AffineFeature2D (trait) (cv_xfeatures2d_AffineFeature2D_detect__InputArray_VectorOfElliptic_KeyPoint__InputArray)
+
+--- Incoming ---
+[   'cv.xfeatures2d.AffineFeature2D.detectAndCompute',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'image', '', []],
+        ['InputArray', 'mask', '', []],
+        ['std::vector<Elliptic_KeyPoint>&', 'keypoints', '', []],
+        ['OutputArray', 'descriptors', '', []],
+        ['bool', 'useProvidedKeypoints', 'false', []]],
+    None,
+    '* @brief Detects keypoints and computes descriptors for their '
+    'surrounding\n'
+    '* regions, after warping them into circles.']
+parse_name: cv.xfeatures2d.AffineFeature2D.detectAndCompute with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::AffineFeature2D::detectAndCompute namespace:cv::xfeatures2d classpath:AffineFeature2D classname:AffineFeature2D name:detectAndCompute
+register (method) detectAndCompute in cv::xfeatures2d::AffineFeature2D (trait) (cv_xfeatures2d_AffineFeature2D_detectAndCompute__InputArray__InputArray_VectorOfElliptic_KeyPoint__OutputArray_bool)
+
+--- Incoming ---
+[   'cv.xfeatures2d.FASTForPointSet',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['std::vector<KeyPoint>&', 'keypoints', '', []],
+        ['int', 'threshold', '', []],
+        ['bool', 'nonmaxSuppression', 'true', []],
+        [   'cv::FastFeatureDetector::DetectorType',
+            'type',
+            'FastFeatureDetector::TYPE_9_16',
+            []]],
+    None,
+    '@brief Estimates cornerness for prespecified KeyPoints using the FAST '
+    'algorithm\n'
+    '\n'
+    '@param image grayscale image where keypoints (corners) are detected.\n'
+    '@param keypoints keypoints which should be tested to fit the FAST '
+    'criteria. Keypoints not beeing\n'
+    'detected as corners are removed.\n'
+    '@param threshold threshold on difference between intensity of the central '
+    'pixel and pixels of a\n'
+    'circle around this pixel.\n'
+    '@param nonmaxSuppression if true, non-maximum suppression is applied to '
+    'detected corners\n'
+    '(keypoints).\n'
+    '@param type one of the three neighborhoods as defined in the paper:\n'
+    'FastFeatureDetector::TYPE_9_16, FastFeatureDetector::TYPE_7_12,\n'
+    'FastFeatureDetector::TYPE_5_8\n'
+    '\n'
+    'Detects corners using the FAST algorithm by @cite Rosten06 .']
+parse_name: cv.xfeatures2d.FASTForPointSet with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::FASTForPointSet namespace:cv::xfeatures2d classpath: classname: name:FASTForPointSet
+Registering an unknown type: cv::FastFeatureDetector::DetectorType
+register (function) FASTForPointSet (cv_xfeatures2d_FASTForPointSet__InputArray_VectorOfKeyPoint_int_bool_FastFeatureDetector_DetectorType)
+
+--- Incoming ---
+[   'cv.xfeatures2d.matchGMS',
+    'void',
+    [],
+    [   ['const Size&', 'size1', '', []],
+        ['const Size&', 'size2', '', []],
+        ['const std::vector<KeyPoint>&', 'keypoints1', '', []],
+        ['const std::vector<KeyPoint>&', 'keypoints2', '', []],
+        ['const std::vector<DMatch>&', 'matches1to2', '', []],
+        ['std::vector<DMatch>&', 'matchesGMS', '', []],
+        ['const bool', 'withRotation', 'false', []],
+        ['const bool', 'withScale', 'false', []],
+        ['const double', 'thresholdFactor', '6.0', []]],
+    None,
+    '@brief GMS  (Grid-based Motion Statistics) feature matching strategy by '
+    '@cite Bian2017gms .\n'
+    '@param size1 Input size of image1.\n'
+    '@param size2 Input size of image2.\n'
+    '@param keypoints1 Input keypoints of image1.\n'
+    '@param keypoints2 Input keypoints of image2.\n'
+    '@param matches1to2 Input 1-nearest neighbor matches.\n'
+    '@param matchesGMS Matches returned by the GMS matching strategy.\n'
+    '@param withRotation Take rotation transformation into account.\n'
+    '@param withScale Take scale transformation into account.\n'
+    '@param thresholdFactor The higher, the less matches.\n'
+    '@note\n'
+    'Since GMS works well when the number of features is large, we recommend '
+    'to use the ORB feature and set FastThreshold to 0 to get as many as '
+    'possible features quickly.\n'
+    'If matching results are not satisfying, please add more features. (We use '
+    '10000 for images with 640 X 480).\n'
+    'If your images have big rotation and scale changes, please set '
+    'withRotation or withScale to true.']
+parse_name: cv.xfeatures2d.matchGMS with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::matchGMS namespace:cv::xfeatures2d classpath: classname: name:matchGMS
+register (function) matchGMS (cv_xfeatures2d_matchGMS_Size_Size_VectorOfKeyPoint_VectorOfKeyPoint_VectorOfDMatch_VectorOfDMatch_bool_bool_double)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xfeatures2d/nonfree.hpp ================
+
+
+Namespaces: ['cv', 'cv.xfeatures2d']
+Comment: {'xfeatures2d': ' @defgroup xfeatures2d Extra 2D Features Framework\n@{\n@defgroup xfeatures2d_experiment Experimental 2D Features Algorithms\n\nThis section describes experimental algorithms for 2d feature detection.\n\n@defgroup xfeatures2d_nonfree Non-free 2D Features Algorithms\n\nThis section describes two popular algorithms for 2d feature detection, SIFT and SURF, that are\nknown to be patented. You need to set the OPENCV_ENABLE_NONFREE option in cmake to use those. Use them at your own risk.\n\n@defgroup xfeatures2d_match Experimental 2D Features Matching Algorithm\n\nThis section describes the GMS (Grid-based Motion Statistics) matching strategy.\n\n@}\n\n'}
+
+--- Incoming ---
+[   'class cv.xfeatures2d.SIFT',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class for extracting keypoints and computing descriptors using the '
+    'Scale Invariant Feature Transform\n'
+    '(SIFT) algorithm by D. Lowe @cite Lowe04 .']
+parse_name: class cv.xfeatures2d.SIFT with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SIFT namespace:cv::xfeatures2d classpath: classname: name:SIFT
+register class cv::xfeatures2d::SIFT (['class cv.xfeatures2d.SIFT', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class for extracting keypoints and computing descriptors using the Scale Invariant Feature Transform\n(SIFT) algorithm by D. Lowe @cite Lowe04 .']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.SIFT.create',
+    'Ptr<SIFT>',
+    ['/S'],
+    [   ['int', 'nfeatures', '0', []],
+        ['int', 'nOctaveLayers', '3', []],
+        ['double', 'contrastThreshold', '0.04', []],
+        ['double', 'edgeThreshold', '10', []],
+        ['double', 'sigma', '1.6', []]],
+    None,
+    '@param nfeatures The number of best features to retain. The features are '
+    'ranked by their scores\n'
+    '(measured in SIFT algorithm as the local contrast)\n'
+    '\n'
+    '@param nOctaveLayers The number of layers in each octave. 3 is the value '
+    'used in D. Lowe paper. The\n'
+    'number of octaves is computed automatically from the image resolution.\n'
+    '\n'
+    '@param contrastThreshold The contrast threshold used to filter out weak '
+    'features in semi-uniform\n'
+    '(low-contrast) regions. The larger the threshold, the less features are '
+    'produced by the detector.\n'
+    '\n'
+    '@param edgeThreshold The threshold used to filter out edge-like features. '
+    'Note that the its meaning\n'
+    'is different from the contrastThreshold, i.e. the larger the '
+    'edgeThreshold, the less features are\n'
+    'filtered out (more features are retained).\n'
+    '\n'
+    '@param sigma The sigma of the Gaussian applied to the input image at the '
+    'octave \\#0. If your image\n'
+    'is captured with a weak camera with soft lenses, you might want to reduce '
+    'the number.']
+parse_name: cv.xfeatures2d.SIFT.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SIFT::create namespace:cv::xfeatures2d classpath:SIFT classname:SIFT name:create
+register (method) create in cv::xfeatures2d::SIFT (cv_xfeatures2d_SIFT_create_int_int_double_double_double)
+
+--- Incoming ---
+['typedef cv.xfeatures2d.SiftFeatureDetector', 'SIFT', '', [], None, '']
+parse_name: typedef cv.xfeatures2d.SiftFeatureDetector with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SiftFeatureDetector namespace:cv::xfeatures2d classpath: classname: name:SiftFeatureDetector
+Registering an unknown type: SiftFeatureDetector
+
+--- Incoming ---
+['typedef cv.xfeatures2d.SiftDescriptorExtractor', 'SIFT', '', [], None, '']
+parse_name: typedef cv.xfeatures2d.SiftDescriptorExtractor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SiftDescriptorExtractor namespace:cv::xfeatures2d classpath: classname: name:SiftDescriptorExtractor
+Registering an unknown type: SiftDescriptorExtractor
+
+--- Incoming ---
+[   'class cv.xfeatures2d.SURF',
+    ': cv::xfeatures2d::Feature2D',
+    [],
+    [],
+    None,
+    '@brief Class for extracting Speeded Up Robust Features from an image '
+    '@cite Bay06 .\n'
+    '\n'
+    'The algorithm parameters:\n'
+    '-   member int extended\n'
+    '-   0 means that the basic descriptors (64 elements each) shall be '
+    'computed\n'
+    '-   1 means that the extended descriptors (128 elements each) shall be '
+    'computed\n'
+    '-   member int upright\n'
+    '-   0 means that detector computes orientation of each feature.\n'
+    '-   1 means that the orientation is not computed (which is much, much '
+    'faster). For example,\n'
+    'if you match images from a stereo pair, or do image stitching, the '
+    'matched features\n'
+    'likely have very similar angles, and you can speed up feature extraction '
+    'by setting\n'
+    'upright=1.\n'
+    '-   member double hessianThreshold\n'
+    'Threshold for the keypoint detector. Only features, whose hessian is '
+    'larger than\n'
+    'hessianThreshold are retained by the detector. Therefore, the larger the '
+    'value, the less\n'
+    'keypoints you will get. A good default value could be from 300 to 500, '
+    'depending from the\n'
+    'image contrast.\n'
+    '-   member int nOctaves\n'
+    'The number of a gaussian pyramid octaves that the detector uses. It is '
+    'set to 4 by default.\n'
+    'If you want to get very large features, use the larger value. If you want '
+    'just small\n'
+    'features, decrease it.\n'
+    '-   member int nOctaveLayers\n'
+    'The number of images within each octave of a gaussian pyramid. It is set '
+    'to 2 by default.\n'
+    '@note\n'
+    '-   An example using the SURF feature detector can be found at\n'
+    'opencv_source_code/samples/cpp/generic_descriptor_match.cpp\n'
+    '-   Another example using the SURF feature detector, extractor and '
+    'matcher can be found at\n'
+    'opencv_source_code/samples/cpp/matcher_simple.cpp']
+parse_name: class cv.xfeatures2d.SURF with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF namespace:cv::xfeatures2d classpath: classname: name:SURF
+register class cv::xfeatures2d::SURF (['class cv.xfeatures2d.SURF', ': cv::xfeatures2d::Feature2D', [], [], None, '@brief Class for extracting Speeded Up Robust Features from an image @cite Bay06 .\n\nThe algorithm parameters:\n-   member int extended\n-   0 means that the basic descriptors (64 elements each) shall be computed\n-   1 means that the extended descriptors (128 elements each) shall be computed\n-   member int upright\n-   0 means that detector computes orientation of each feature.\n-   1 means that the orientation is not computed (which is much, much faster). For example,\nif you match images from a stereo pair, or do image stitching, the matched features\nlikely have very similar angles, and you can speed up feature extraction by setting\nupright=1.\n-   member double hessianThreshold\nThreshold for the keypoint detector. Only features, whose hessian is larger than\nhessianThreshold are retained by the detector. Therefore, the larger the value, the less\nkeypoints you will get. A good default value could be from 300 to 500, depending from the\nimage contrast.\n-   member int nOctaves\nThe number of a gaussian pyramid octaves that the detector uses. It is set to 4 by default.\nIf you want to get very large features, use the larger value. If you want just small\nfeatures, decrease it.\n-   member int nOctaveLayers\nThe number of images within each octave of a gaussian pyramid. It is set to 2 by default.\n@note\n-   An example using the SURF feature detector can be found at\nopencv_source_code/samples/cpp/generic_descriptor_match.cpp\n-   Another example using the SURF feature detector, extractor and matcher can be found at\nopencv_source_code/samples/cpp/matcher_simple.cpp']) impl:cv::xfeatures2d::Feature2D
+
+--- Incoming ---
+[   'cv.xfeatures2d.SURF.create',
+    'Ptr<SURF>',
+    ['/S'],
+    [   ['double', 'hessianThreshold', '100', []],
+        ['int', 'nOctaves', '4', []],
+        ['int', 'nOctaveLayers', '3', []],
+        ['bool', 'extended', 'false', []],
+        ['bool', 'upright', 'false', []]],
+    None,
+    '@param hessianThreshold Threshold for hessian keypoint detector used in '
+    'SURF.\n'
+    '@param nOctaves Number of pyramid octaves the keypoint detector will '
+    'use.\n'
+    '@param nOctaveLayers Number of octave layers within each octave.\n'
+    '@param extended Extended descriptor flag (true - use extended 128-element '
+    'descriptors; false - use\n'
+    '64-element descriptors).\n'
+    '@param upright Up-right or rotated features flag (true - do not compute '
+    'orientation of features;\n'
+    'false - compute orientation).']
+parse_name: cv.xfeatures2d.SURF.create with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::create namespace:cv::xfeatures2d classpath:SURF classname:SURF name:create
+register (method) create in cv::xfeatures2d::SURF (cv_xfeatures2d_SURF_create_double_int_int_bool_bool)
+
+--- Incoming ---
+[   'cv.xfeatures2d.SURF.setHessianThreshold',
+    'void',
+    ['/A'],
+    [['double', 'hessianThreshold', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.SURF.setHessianThreshold with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::setHessianThreshold namespace:cv::xfeatures2d classpath:SURF classname:SURF name:setHessianThreshold
+register (method) setHessianThreshold in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_setHessianThreshold_double)
+
+--- Incoming ---
+[   'cv.xfeatures2d.SURF.getHessianThreshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.xfeatures2d.SURF.getHessianThreshold with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::getHessianThreshold namespace:cv::xfeatures2d classpath:SURF classname:SURF name:getHessianThreshold
+register (method) getHessianThreshold in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_getHessianThreshold_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.SURF.setNOctaves',
+    'void',
+    ['/A'],
+    [['int', 'nOctaves', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.SURF.setNOctaves with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::setNOctaves namespace:cv::xfeatures2d classpath:SURF classname:SURF name:setNOctaves
+register (method) setNOctaves in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_setNOctaves_int)
+
+--- Incoming ---
+['cv.xfeatures2d.SURF.getNOctaves', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.xfeatures2d.SURF.getNOctaves with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::getNOctaves namespace:cv::xfeatures2d classpath:SURF classname:SURF name:getNOctaves
+register (method) getNOctaves in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_getNOctaves_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.SURF.setNOctaveLayers',
+    'void',
+    ['/A'],
+    [['int', 'nOctaveLayers', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.SURF.setNOctaveLayers with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::setNOctaveLayers namespace:cv::xfeatures2d classpath:SURF classname:SURF name:setNOctaveLayers
+register (method) setNOctaveLayers in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_setNOctaveLayers_int)
+
+--- Incoming ---
+['cv.xfeatures2d.SURF.getNOctaveLayers', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.xfeatures2d.SURF.getNOctaveLayers with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::getNOctaveLayers namespace:cv::xfeatures2d classpath:SURF classname:SURF name:getNOctaveLayers
+register (method) getNOctaveLayers in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_getNOctaveLayers_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.SURF.setExtended',
+    'void',
+    ['/A'],
+    [['bool', 'extended', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.SURF.setExtended with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::setExtended namespace:cv::xfeatures2d classpath:SURF classname:SURF name:setExtended
+register (method) setExtended in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_setExtended_bool)
+
+--- Incoming ---
+['cv.xfeatures2d.SURF.getExtended', 'bool', ['/A', '/C'], [], None, '']
+parse_name: cv.xfeatures2d.SURF.getExtended with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::getExtended namespace:cv::xfeatures2d classpath:SURF classname:SURF name:getExtended
+register (method) getExtended in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_getExtended_const)
+
+--- Incoming ---
+[   'cv.xfeatures2d.SURF.setUpright',
+    'void',
+    ['/A'],
+    [['bool', 'upright', '', []]],
+    None,
+    '']
+parse_name: cv.xfeatures2d.SURF.setUpright with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::setUpright namespace:cv::xfeatures2d classpath:SURF classname:SURF name:setUpright
+register (method) setUpright in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_setUpright_bool)
+
+--- Incoming ---
+['cv.xfeatures2d.SURF.getUpright', 'bool', ['/A', '/C'], [], None, '']
+parse_name: cv.xfeatures2d.SURF.getUpright with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SURF::getUpright namespace:cv::xfeatures2d classpath:SURF classname:SURF name:getUpright
+register (method) getUpright in cv::xfeatures2d::SURF (trait) (cv_xfeatures2d_SURF_getUpright_const)
+
+--- Incoming ---
+['typedef cv.xfeatures2d.SurfFeatureDetector', 'SURF', '', [], None, '']
+parse_name: typedef cv.xfeatures2d.SurfFeatureDetector with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SurfFeatureDetector namespace:cv::xfeatures2d classpath: classname: name:SurfFeatureDetector
+Registering an unknown type: SurfFeatureDetector
+
+--- Incoming ---
+['typedef cv.xfeatures2d.SurfDescriptorExtractor', 'SURF', '', [], None, '']
+parse_name: typedef cv.xfeatures2d.SurfDescriptorExtractor with ['cv', 'cv::xfeatures2d'] -> fullname:cv::xfeatures2d::SurfDescriptorExtractor namespace:cv::xfeatures2d classpath: classname: name:SurfDescriptorExtractor
+Registering an unknown type: SurfDescriptorExtractor
+
+
+===== Generating... =====
+Generating func cv_xfeatures2d_FASTForPointSet__InputArray_VectorOfKeyPoint_int_bool_FastFeatureDetector_DetectorType
+  ignored: can not map type Unknown[cv::FastFeatureDetector::DetectorType] yet
+Generating func cv_xfeatures2d_matchGMS_Size_Size_VectorOfKeyPoint_VectorOfKeyPoint_VectorOfDMatch_VectorOfDMatch_bool_bool_double
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring
+Generating impl for trait cv::xfeatures2d::AffineFeature2D (trait)
+Generating func cv_xfeatures2d_AffineFeature2D_detect__InputArray_VectorOfElliptic_KeyPoint__InputArray
+Generating func cv_xfeatures2d_AffineFeature2D_detectAndCompute__InputArray__InputArray_VectorOfElliptic_KeyPoint__OutputArray_bool
+Generating func cv_xfeatures2d_AffineFeature2D_create_PtrOfFeature2D_PtrOfFeature2D
+Generating func cv_xfeatures2d_AffineFeature2D_create_PtrOfFeature2D
+Generating impl for trait cv::xfeatures2d::BoostDesc (trait)
+Generating func cv_xfeatures2d_BoostDesc_setUseScaleOrientation_bool
+Generating func cv_xfeatures2d_BoostDesc_getUseScaleOrientation_const
+Generating func cv_xfeatures2d_BoostDesc_setScaleFactor_float
+Generating func cv_xfeatures2d_BoostDesc_getScaleFactor_const
+Generating func cv_xfeatures2d_BoostDesc_create_int_bool_float
+Generating box for cv::xfeatures2d::BriefDescriptorExtractor
+Generating func cv_xfeatures2d_BriefDescriptorExtractor_create_int_bool
+Generating impl for trait cv::xfeatures2d::DAISY (trait)
+Generating func cv_xfeatures2d_DAISY_compute__InputArray_VectorOfKeyPoint__OutputArray
+Generating func cv_xfeatures2d_DAISY_compute__InputArray_VectorOfVectorOfKeyPoint__OutputArray
+Generating func cv_xfeatures2d_DAISY_compute__InputArray_Rect__OutputArray
+Generating func cv_xfeatures2d_DAISY_compute__InputArray__OutputArray
+Generating func cv_xfeatures2d_DAISY_GetDescriptor_const_double_double_int_float_X
+Generating func cv_xfeatures2d_DAISY_GetDescriptor_const_double_double_int_float_X_double_X
+Generating func cv_xfeatures2d_DAISY_GetUnnormalizedDescriptor_const_double_double_int_float_X
+Generating func cv_xfeatures2d_DAISY_GetUnnormalizedDescriptor_const_double_double_int_float_X_double_X
+Generating func cv_xfeatures2d_DAISY_create_float_int_int_int_DAISY_NormalizationType__InputArray_bool_bool
+Generating box for cv::xfeatures2d::Elliptic_KeyPoint
+Generating func cv_xfeatures2d_Elliptic_KeyPoint_Elliptic_KeyPoint
+Generating func cv_xfeatures2d_Elliptic_KeyPoint_Elliptic_KeyPoint_Point2f_float_Size_float_float
+Generating box for cv::xfeatures2d::FREAK
+Generating func cv_xfeatures2d_FREAK_create_bool_bool_float_int_VectorOfint
+Generating box for cv::xfeatures2d::HarrisLaplaceFeatureDetector
+Generating func cv_xfeatures2d_HarrisLaplaceFeatureDetector_create_int_float_float_int_int
+Generating box for cv::xfeatures2d::LATCH
+Generating func cv_xfeatures2d_LATCH_create_int_bool_int_double
+Generating box for cv::xfeatures2d::LUCID
+Generating func cv_xfeatures2d_LUCID_create_int_int
+Generating box for cv::xfeatures2d::MSDDetector
+Generating func cv_xfeatures2d_MSDDetector_create_int_int_int_int_float_int_float_int_bool
+Generating impl for trait cv::xfeatures2d::PCTSignatures (trait)
+Generating func cv_xfeatures2d_PCTSignatures_computeSignature_const__InputArray__OutputArray
+Generating func cv_xfeatures2d_PCTSignatures_computeSignatures_const_VectorOfMat_VectorOfMat
+Generating func cv_xfeatures2d_PCTSignatures_getSampleCount_const
+Generating func cv_xfeatures2d_PCTSignatures_getGrayscaleBits_const
+Generating func cv_xfeatures2d_PCTSignatures_setGrayscaleBits_int
+Generating func cv_xfeatures2d_PCTSignatures_getWindowRadius_const
+Generating func cv_xfeatures2d_PCTSignatures_setWindowRadius_int
+Generating func cv_xfeatures2d_PCTSignatures_getWeightX_const
+Generating func cv_xfeatures2d_PCTSignatures_setWeightX_float
+Generating func cv_xfeatures2d_PCTSignatures_getWeightY_const
+Generating func cv_xfeatures2d_PCTSignatures_setWeightY_float
+Generating func cv_xfeatures2d_PCTSignatures_getWeightL_const
+Generating func cv_xfeatures2d_PCTSignatures_setWeightL_float
+Generating func cv_xfeatures2d_PCTSignatures_getWeightA_const
+Generating func cv_xfeatures2d_PCTSignatures_setWeightA_float
+Generating func cv_xfeatures2d_PCTSignatures_getWeightB_const
+Generating func cv_xfeatures2d_PCTSignatures_setWeightB_float
+Generating func cv_xfeatures2d_PCTSignatures_getWeightContrast_const
+Generating func cv_xfeatures2d_PCTSignatures_setWeightContrast_float
+Generating func cv_xfeatures2d_PCTSignatures_getWeightEntropy_const
+Generating func cv_xfeatures2d_PCTSignatures_setWeightEntropy_float
+Generating func cv_xfeatures2d_PCTSignatures_getSamplingPoints_const
+Generating func cv_xfeatures2d_PCTSignatures_setWeight_int_float
+Generating func cv_xfeatures2d_PCTSignatures_setWeights_VectorOffloat
+Generating func cv_xfeatures2d_PCTSignatures_setTranslation_int_float
+Generating func cv_xfeatures2d_PCTSignatures_setTranslations_VectorOffloat
+Generating func cv_xfeatures2d_PCTSignatures_setSamplingPoints_VectorOfPoint2f
+Generating func cv_xfeatures2d_PCTSignatures_getInitSeedIndexes_const
+Generating func cv_xfeatures2d_PCTSignatures_setInitSeedIndexes_VectorOfint
+Generating func cv_xfeatures2d_PCTSignatures_getInitSeedCount_const
+Generating func cv_xfeatures2d_PCTSignatures_getIterationCount_const
+Generating func cv_xfeatures2d_PCTSignatures_setIterationCount_int
+Generating func cv_xfeatures2d_PCTSignatures_getMaxClustersCount_const
+Generating func cv_xfeatures2d_PCTSignatures_setMaxClustersCount_int
+Generating func cv_xfeatures2d_PCTSignatures_getClusterMinSize_const
+Generating func cv_xfeatures2d_PCTSignatures_setClusterMinSize_int
+Generating func cv_xfeatures2d_PCTSignatures_getJoiningDistance_const
+Generating func cv_xfeatures2d_PCTSignatures_setJoiningDistance_float
+Generating func cv_xfeatures2d_PCTSignatures_getDropThreshold_const
+Generating func cv_xfeatures2d_PCTSignatures_setDropThreshold_float
+Generating func cv_xfeatures2d_PCTSignatures_getDistanceFunction_const
+Generating func cv_xfeatures2d_PCTSignatures_setDistanceFunction_int
+Generating func cv_xfeatures2d_PCTSignatures_create_int_int_int
+Generating func cv_xfeatures2d_PCTSignatures_create_VectorOfPoint2f_int
+Generating func cv_xfeatures2d_PCTSignatures_create_VectorOfPoint2f_VectorOfint
+Generating func cv_xfeatures2d_PCTSignatures_drawSignature__InputArray__InputArray__OutputArray_float_int
+Generating func cv_xfeatures2d_PCTSignatures_generateInitPoints_VectorOfPoint2f_int_int
+Generating impl for trait cv::xfeatures2d::PCTSignaturesSQFD (trait)
+Generating func cv_xfeatures2d_PCTSignaturesSQFD_computeQuadraticFormDistance_const__InputArray__InputArray
+Generating func cv_xfeatures2d_PCTSignaturesSQFD_computeQuadraticFormDistances_const_Mat_VectorOfMat_VectorOffloat
+Generating func cv_xfeatures2d_PCTSignaturesSQFD_create_int_int_float
+Generating box for cv::xfeatures2d::SIFT
+Generating func cv_xfeatures2d_SIFT_create_int_int_double_double_double
+Generating impl for trait cv::xfeatures2d::SURF (trait)
+Generating func cv_xfeatures2d_SURF_setHessianThreshold_double
+Generating func cv_xfeatures2d_SURF_getHessianThreshold_const
+Generating func cv_xfeatures2d_SURF_setNOctaves_int
+Generating func cv_xfeatures2d_SURF_getNOctaves_const
+Generating func cv_xfeatures2d_SURF_setNOctaveLayers_int
+Generating func cv_xfeatures2d_SURF_getNOctaveLayers_const
+Generating func cv_xfeatures2d_SURF_setExtended_bool
+Generating func cv_xfeatures2d_SURF_getExtended_const
+Generating func cv_xfeatures2d_SURF_setUpright_bool
+Generating func cv_xfeatures2d_SURF_getUpright_const
+Generating func cv_xfeatures2d_SURF_create_double_int_int_bool_bool
+Generating box for cv::xfeatures2d::StarDetector
+Generating func cv_xfeatures2d_StarDetector_create_int_int_int_int_int
+Generating impl for trait cv::xfeatures2d::VGG (trait)
+Generating func cv_xfeatures2d_VGG_setSigma_float
+Generating func cv_xfeatures2d_VGG_getSigma_const
+Generating func cv_xfeatures2d_VGG_setUseNormalizeImage_bool
+Generating func cv_xfeatures2d_VGG_getUseNormalizeImage_const
+Generating func cv_xfeatures2d_VGG_setUseScaleOrientation_bool
+Generating func cv_xfeatures2d_VGG_getUseScaleOrientation_const
+Generating func cv_xfeatures2d_VGG_setScaleFactor_float
+Generating func cv_xfeatures2d_VGG_getScaleFactor_const
+Generating func cv_xfeatures2d_VGG_setUseNormalizeDescriptor_bool
+Generating func cv_xfeatures2d_VGG_getUseNormalizeDescriptor_const
+Generating func cv_xfeatures2d_VGG_create_int_float_bool_bool_float_bool

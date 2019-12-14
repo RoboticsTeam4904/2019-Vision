@@ -1,0 +1,2569 @@
+FOUND FUNCs: 1503
+
+PORTED FUNCs: 974
+
+PORTED: cv::Cholesky (function)
+PORTED: cv::Cholesky (function)
+PORTED: cv::LUT (function)
+PORTED: cv::LU (function)
+PORTED: cv::LU (function)
+PORTED: cv::Mahalanobis (function)
+PORTED: cv::PCABackProject (function)
+PORTED: cv::PCACompute (function)
+PORTED: cv::PCACompute (function)
+PORTED: cv::PCACompute (function)
+PORTED: cv::PCACompute (function)
+PORTED: cv::PCAProject (function)
+PORTED: cv::PSNR (function)
+PORTED: cv::SVBackSubst (function)
+PORTED: cv::SVDecomp (function)
+PORTED: cv::abs (function)
+PORTED: cv::abs (function)
+PORTED: cv::absdiff (function)
+PORTED: cv::addWeighted (function)
+PORTED: cv::add (function)
+PORTED: cv::alignSize (function)
+PORTED: cv::batchDistance (function)
+PORTED: cv::bitwise_and (function)
+PORTED: cv::bitwise_not (function)
+PORTED: cv::bitwise_or (function)
+PORTED: cv::bitwise_xor (function)
+PORTED: cv::borderInterpolate (function)
+PORTED: cv::calcCovarMatrix (function)
+PORTED: cv::cartToPolar (function)
+PORTED: cv::checkHardwareSupport (function)
+PORTED: cv::checkRange (function)
+PORTED: cv::compare (function)
+PORTED: cv::completeSymm (function)
+PORTED: cv::convertFp16 (function)
+PORTED: cv::convertScaleAbs (function)
+PORTED: cv::copyMakeBorder (function)
+PORTED: cv::copyTo (function)
+PORTED: cv::countNonZero (function)
+PORTED: cv::cubeRoot (function)
+PORTED: cv::cv_abs (function)
+PORTED: cv::cv_abs (function)
+PORTED: cv::dct (function)
+PORTED: cv::depthToString (function)
+PORTED: cv::detail::check_failed_MatChannels (function)
+PORTED: cv::detail::check_failed_MatChannels (function)
+PORTED: cv::detail::check_failed_MatDepth (function)
+PORTED: cv::detail::check_failed_MatDepth (function)
+PORTED: cv::detail::check_failed_MatType (function)
+PORTED: cv::detail::check_failed_MatType (function)
+PORTED: cv::detail::check_failed_auto (function)
+PORTED: cv::detail::check_failed_auto (function)
+PORTED: cv::detail::check_failed_auto (function)
+PORTED: cv::detail::check_failed_auto (function)
+PORTED: cv::detail::check_failed_auto (function)
+PORTED: cv::detail::check_failed_auto (function)
+PORTED: cv::detail::check_failed_auto (function)
+PORTED: cv::detail::check_failed_auto (function)
+PORTED: cv::determinant (function)
+PORTED: cv::dft (function)
+PORTED: cv::directx::getTypeFromD3DFORMAT (function)
+PORTED: cv::directx::getTypeFromDXGI_FORMAT (function)
+PORTED: cv::divUp (function)
+PORTED: cv::divUp (function)
+PORTED: cv::divide (function)
+PORTED: cv::divide (function)
+PORTED: cv::eigenNonSymmetric (function)
+PORTED: cv::eigen (function)
+PORTED: cv::error (function)
+PORTED: cv::exp (function)
+PORTED: cv::extractChannel (function)
+PORTED: cv::fastAtan2 (function)
+PORTED: cv::findNonZero (function)
+PORTED: cv::flip (function)
+PORTED: cv::gemm (function)
+PORTED: cv::getBuildInformation (function)
+PORTED: cv::getCPUFeaturesLine (function)
+PORTED: cv::getCPUTickCount (function)
+PORTED: cv::getElemSize (function)
+PORTED: cv::getHardwareFeatureName (function)
+PORTED: cv::getNumThreads (function)
+PORTED: cv::getNumberOfCPUs (function)
+PORTED: cv::getOptimalDFTSize (function)
+PORTED: cv::getThreadNum (function)
+PORTED: cv::getTickCount (function)
+PORTED: cv::getTickFrequency (function)
+PORTED: cv::getVersionMajor (function)
+PORTED: cv::getVersionMinor (function)
+PORTED: cv::getVersionRevision (function)
+PORTED: cv::getVersionString (function)
+PORTED: cv::glob (function)
+PORTED: cv::haveOpenVX (function)
+PORTED: cv::hconcat (function)
+PORTED: cv::hconcat (function)
+PORTED: cv::idct (function)
+PORTED: cv::idft (function)
+PORTED: cv::inRange (function)
+PORTED: cv::insertChannel (function)
+PORTED: cv::instr::getFlags (function)
+PORTED: cv::instr::resetTrace (function)
+PORTED: cv::instr::setFlags (function)
+PORTED: cv::instr::setFlags (function)
+PORTED: cv::instr::setUseInstrumentation (function)
+PORTED: cv::instr::useInstrumentation (function)
+PORTED: cv::invert (function)
+PORTED: cv::ipp::getIppErrorLocation (function)
+PORTED: cv::ipp::getIppFeatures (function)
+PORTED: cv::ipp::getIppStatus (function)
+PORTED: cv::ipp::getIppVersion (function)
+PORTED: cv::ipp::setUseIPP_NE (function)
+PORTED: cv::ipp::setUseIPP_NotExact (function)
+PORTED: cv::ipp::setUseIPP (function)
+PORTED: cv::ipp::useIPP (function)
+PORTED: cv::ipp::useIPP_NE (function)
+PORTED: cv::ipp::useIPP_NotExact (function)
+PORTED: cv::kmeans (function)
+PORTED: cv::log (function)
+PORTED: cv::magnitude (function)
+PORTED: cv::max (function)
+PORTED: cv::max (function)
+PORTED: cv::max (function)
+PORTED: cv::max (function)
+PORTED: cv::max (function)
+PORTED: cv::max (function)
+PORTED: cv::meanStdDev (function)
+PORTED: cv::mean (function)
+PORTED: cv::merge (function)
+PORTED: cv::minMaxIdx (function)
+PORTED: cv::minMaxLoc (function)
+PORTED: cv::minMaxLoc (function)
+PORTED: cv::min (function)
+PORTED: cv::min (function)
+PORTED: cv::min (function)
+PORTED: cv::min (function)
+PORTED: cv::min (function)
+PORTED: cv::min (function)
+PORTED: cv::mixChannels (function)
+PORTED: cv::mulSpectrums (function)
+PORTED: cv::mulTransposed (function)
+PORTED: cv::multiply (function)
+PORTED: cv::noArray (function)
+PORTED: cv::normL1 (function)
+PORTED: cv::normL1 (function)
+PORTED: cv::normL2Sqr (function)
+PORTED: cv::norm (function)
+PORTED: cv::norm (function)
+PORTED: cv::norm (function)
+PORTED: cv::normalize (function)
+PORTED: cv::normalize (function)
+PORTED: cv::ocl::attachContext (function)
+PORTED: cv::ocl::buildOptionsAddMatrixDescription (function)
+PORTED: cv::ocl::checkOptimalVectorWidth (function)
+PORTED: cv::ocl::convertFromBuffer (function)
+PORTED: cv::ocl::convertFromImage (function)
+PORTED: cv::ocl::convertTypeStr (function)
+PORTED: cv::ocl::finish (function)
+PORTED: cv::ocl::getOpenCLErrorString (function)
+PORTED: cv::ocl::getPlatfomsInfo (function)
+PORTED: cv::ocl::haveAmdBlas (function)
+PORTED: cv::ocl::haveAmdFft (function)
+PORTED: cv::ocl::haveOpenCL (function)
+PORTED: cv::ocl::haveSVM (function)
+PORTED: cv::ocl::kernelToStr (function)
+PORTED: cv::ocl::memopTypeToStr (function)
+PORTED: cv::ocl::predictOptimalVectorWidthMax (function)
+PORTED: cv::ocl::predictOptimalVectorWidth (function)
+PORTED: cv::ocl::setUseOpenCL (function)
+PORTED: cv::ocl::typeToStr (function)
+PORTED: cv::ocl::useOpenCL (function)
+PORTED: cv::ocl::vecopTypeToStr (function)
+PORTED: cv::parallel_for_ (function)
+PORTED: cv::patchNaNs (function)
+PORTED: cv::perspectiveTransform (function)
+PORTED: cv::phase (function)
+PORTED: cv::polarToCart (function)
+PORTED: cv::pow (function)
+PORTED: cv::randn (function)
+PORTED: cv::randu (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::read (function)
+PORTED: cv::reduce (function)
+PORTED: cv::repeat (function)
+PORTED: cv::repeat (function)
+PORTED: cv::rotate (function)
+PORTED: cv::roundUp (function)
+PORTED: cv::roundUp (function)
+PORTED: cv::samples::addSamplesDataSearchPath (function)
+PORTED: cv::samples::addSamplesDataSearchSubDirectory (function)
+PORTED: cv::samples::findFileOrKeep (function)
+PORTED: cv::samples::findFile (function)
+PORTED: cv::scaleAdd (function)
+PORTED: cv::setBreakOnError (function)
+PORTED: cv::setIdentity (function)
+PORTED: cv::setNumThreads (function)
+PORTED: cv::setRNGSeed (function)
+PORTED: cv::setUseOpenVX (function)
+PORTED: cv::setUseOptimized (function)
+PORTED: cv::solveCubic (function)
+PORTED: cv::solveLP (function)
+PORTED: cv::solvePoly (function)
+PORTED: cv::solve (function)
+PORTED: cv::sortIdx (function)
+PORTED: cv::sort (function)
+PORTED: cv::split (function)
+PORTED: cv::sqrt (function)
+PORTED: cv::subtract (function)
+PORTED: cv::sum (function)
+PORTED: cv::swap (function)
+PORTED: cv::swap (function)
+PORTED: cv::tempfile (function)
+PORTED: cv::trace (function)
+PORTED: cv::transform (function)
+PORTED: cv::transpose (function)
+PORTED: cv::typeToString (function)
+PORTED: cv::useOpenVX (function)
+PORTED: cv::useOptimized (function)
+PORTED: cv::utils::dumpInputArrayOfArrays (function)
+PORTED: cv::utils::dumpInputArray (function)
+PORTED: cv::utils::dumpInputOutputArrayOfArrays (function)
+PORTED: cv::utils::dumpInputOutputArray (function)
+PORTED: cv::utils::getThreadID (function)
+PORTED: cv::utils::logging::getLogLevel (function)
+PORTED: cv::utils::logging::getLogTagLevel (function)
+PORTED: cv::utils::logging::internal::getGlobalLogTag (function)
+PORTED: cv::utils::logging::internal::writeLogMessageEx (function)
+PORTED: cv::utils::logging::internal::writeLogMessage (function)
+PORTED: cv::utils::logging::registerLogTag (function)
+PORTED: cv::utils::logging::setLogLevel (function)
+PORTED: cv::utils::logging::setLogTagLevel (function)
+PORTED: cv::utils::testAsyncArray (function)
+PORTED: cv::utils::testAsyncException (function)
+PORTED: cv::va_intel::convertFromVASurface (function)
+PORTED: cv::va_intel::convertToVASurface (function)
+PORTED: cv::vconcat (function)
+PORTED: cv::vconcat (function)
+PORTED: cv::writeScalar (function)
+PORTED: cv::writeScalar (function)
+PORTED: cv::writeScalar (function)
+PORTED: cv::writeScalar (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::write (function)
+PORTED: cv::Algorithm::clear (method) cv::Algorithm (trait) . clear
+PORTED: cv::Algorithm::write (method) cv::Algorithm (trait) . write
+PORTED: cv::Algorithm::write (method) cv::Algorithm (trait) . write
+PORTED: cv::Algorithm::read (method) cv::Algorithm (trait) . read
+PORTED: cv::Algorithm::empty (method) cv::Algorithm (trait) . empty
+PORTED: cv::Algorithm::save (method) cv::Algorithm (trait) . save
+PORTED: cv::Algorithm::getDefaultName (method) cv::Algorithm (trait) . getDefaultName
+PORTED: cv::Algorithm::Algorithm (constructor) cv::Algorithm (trait) . default
+PORTED: cv::AsyncArray::AsyncArray (constructor) cv::AsyncArray . default
+PORTED: cv::AsyncArray::AsyncArray (constructor) cv::AsyncArray . copy
+PORTED: cv::AsyncArray::release (method) cv::AsyncArray . release
+PORTED: cv::AsyncArray::get (method) cv::AsyncArray . get
+PORTED: cv::AsyncArray::get (method) cv::AsyncArray . get
+PORTED: cv::AsyncArray::get (method) cv::AsyncArray . get
+PORTED: cv::AsyncArray::wait_for (method) cv::AsyncArray . wait_for
+PORTED: cv::AsyncArray::wait_for (method) cv::AsyncArray . wait_for
+PORTED: cv::AsyncArray::valid (method) cv::AsyncArray . valid
+PORTED: cv::BufferPoolController::getReservedSize (method) cv::BufferPoolController (trait) . getReservedSize
+PORTED: cv::BufferPoolController::getMaxReservedSize (method) cv::BufferPoolController (trait) . getMaxReservedSize
+PORTED: cv::BufferPoolController::setMaxReservedSize (method) cv::BufferPoolController (trait) . setMaxReservedSize
+PORTED: cv::BufferPoolController::freeAllReservedBuffers (method) cv::BufferPoolController (trait) . freeAllReservedBuffers
+PORTED: cv::CommandLineParser::CommandLineParser (constructor) cv::CommandLineParser . copy
+PORTED: cv::CommandLineParser::getPathToApplication (method) cv::CommandLineParser . getPathToApplication
+PORTED: cv::CommandLineParser::has (method) cv::CommandLineParser . has
+PORTED: cv::CommandLineParser::check (method) cv::CommandLineParser . check
+PORTED: cv::CommandLineParser::about (method) cv::CommandLineParser . about
+PORTED: cv::CommandLineParser::printMessage (method) cv::CommandLineParser . printMessage
+PORTED: cv::CommandLineParser::printErrors (method) cv::CommandLineParser . printErrors
+PORTED: cv::ConjGradSolver::create (method) cv::ConjGradSolver . create
+PORTED: cv::DMatch::DMatch (constructor) cv::DMatch (simple) . default
+PORTED: cv::DMatch::DMatch (constructor) cv::DMatch (simple) . new
+PORTED: cv::DMatch::DMatch (constructor) cv::DMatch (simple) . new
+PORTED: cv::DownhillSolver::getInitStep (method) cv::DownhillSolver (trait) . getInitStep
+PORTED: cv::DownhillSolver::setInitStep (method) cv::DownhillSolver (trait) . setInitStep
+PORTED: cv::DownhillSolver::create (method) cv::DownhillSolver (trait) . create
+PORTED: cv::FileNode::FileNode (constructor) cv::FileNode . default
+PORTED: cv::FileNode::FileNode (constructor) cv::FileNode . new
+PORTED: cv::FileNode::FileNode (constructor) cv::FileNode . copy
+PORTED: cv::FileNode::keys (method) cv::FileNode . keys
+PORTED: cv::FileNode::type (method) cv::FileNode . type
+PORTED: cv::FileNode::empty (method) cv::FileNode . empty
+PORTED: cv::FileNode::isNone (method) cv::FileNode . isNone
+PORTED: cv::FileNode::isSeq (method) cv::FileNode . isSeq
+PORTED: cv::FileNode::isMap (method) cv::FileNode . isMap
+PORTED: cv::FileNode::isInt (method) cv::FileNode . isInt
+PORTED: cv::FileNode::isReal (method) cv::FileNode . isReal
+PORTED: cv::FileNode::isString (method) cv::FileNode . isString
+PORTED: cv::FileNode::isNamed (method) cv::FileNode . isNamed
+PORTED: cv::FileNode::name (method) cv::FileNode . name
+PORTED: cv::FileNode::size (method) cv::FileNode . size
+PORTED: cv::FileNode::rawSize (method) cv::FileNode . rawSize
+PORTED: cv::FileNode::operator int (convertor method) cv::FileNode . operator int
+PORTED: cv::FileNode::operator float (convertor method) cv::FileNode . operator float
+PORTED: cv::FileNode::operator double (convertor method) cv::FileNode . operator double
+PORTED: cv::FileNode::isMap (method) cv::FileNode . isMap
+PORTED: cv::FileNode::isSeq (method) cv::FileNode . isSeq
+PORTED: cv::FileNode::isCollection (method) cv::FileNode . isCollection
+PORTED: cv::FileNode::isEmptyCollection (method) cv::FileNode . isEmptyCollection
+PORTED: cv::FileNode::isFlow (method) cv::FileNode . isFlow
+PORTED: cv::FileNode::ptr (method) cv::FileNode . ptr
+PORTED: cv::FileNode::ptr (method) cv::FileNode . ptr
+PORTED: cv::FileNode::readRaw (method) cv::FileNode . readRaw
+PORTED: cv::FileNode::setValue (method) cv::FileNode . setValue
+PORTED: cv::FileNode::real (method) cv::FileNode . real
+PORTED: cv::FileNode::string (method) cv::FileNode . string
+PORTED: cv::FileNode::mat (method) cv::FileNode . mat
+PORTED: cv::FileNodeIterator::readRaw (method) cv::FileNodeIterator . readRaw
+PORTED: cv::FileNodeIterator::remaining (method) cv::FileNodeIterator . remaining
+PORTED: cv::FileNodeIterator::equalTo (method) cv::FileNodeIterator . equalTo
+PORTED: cv::FileStorage::FileStorage (constructor) cv::FileStorage . default
+PORTED: cv::FileStorage::FileStorage (constructor) cv::FileStorage . new
+PORTED: cv::FileStorage::open (method) cv::FileStorage . open
+PORTED: cv::FileStorage::isOpened (method) cv::FileStorage . isOpened
+PORTED: cv::FileStorage::release (method) cv::FileStorage . release
+PORTED: cv::FileStorage::releaseAndGetString (method) cv::FileStorage . releaseAndGetString
+PORTED: cv::FileStorage::getFirstTopLevelNode (method) cv::FileStorage . getFirstTopLevelNode
+PORTED: cv::FileStorage::root (method) cv::FileStorage . root
+PORTED: cv::FileStorage::write (method) cv::FileStorage . write
+PORTED: cv::FileStorage::write (method) cv::FileStorage . write
+PORTED: cv::FileStorage::write (method) cv::FileStorage . write
+PORTED: cv::FileStorage::write (method) cv::FileStorage . write
+PORTED: cv::FileStorage::write (method) cv::FileStorage . write
+PORTED: cv::FileStorage::writeRaw (method) cv::FileStorage . writeRaw
+PORTED: cv::FileStorage::writeComment (method) cv::FileStorage . writeComment
+PORTED: cv::FileStorage::startWriteStruct (method) cv::FileStorage . startWriteStruct
+PORTED: cv::FileStorage::endWriteStruct (method) cv::FileStorage . endWriteStruct
+PORTED: cv::FileStorage::getDefaultObjectName (method) cv::FileStorage . getDefaultObjectName
+PORTED: cv::FileStorage::getFormat (method) cv::FileStorage . getFormat
+PORTED: cv::Formatted::next (method) cv::Formatted (trait) . next
+PORTED: cv::Formatted::reset (method) cv::Formatted (trait) . reset
+PORTED: cv::Formatter::format (method) cv::Formatter (trait) . format
+PORTED: cv::Formatter::set16fPrecision (method) cv::Formatter (trait) . set16fPrecision
+PORTED: cv::Formatter::set32fPrecision (method) cv::Formatter (trait) . set32fPrecision
+PORTED: cv::Formatter::set64fPrecision (method) cv::Formatter (trait) . set64fPrecision
+PORTED: cv::Formatter::setMultiline (method) cv::Formatter (trait) . setMultiline
+PORTED: cv::Formatter::get (method) cv::Formatter (trait) . get
+PORTED: cv::KeyPoint::KeyPoint (constructor) cv::KeyPoint (simple) . default
+PORTED: cv::KeyPoint::KeyPoint (constructor) cv::KeyPoint (simple) . new
+PORTED: cv::KeyPoint::KeyPoint (constructor) cv::KeyPoint (simple) . new
+PORTED: cv::KeyPoint::hash (method) cv::KeyPoint (simple) . hash
+PORTED: cv::KeyPoint::convert (method) cv::KeyPoint (simple) . convert
+PORTED: cv::KeyPoint::convert (method) cv::KeyPoint (simple) . convert
+PORTED: cv::KeyPoint::overlap (method) cv::KeyPoint (simple) . overlap
+PORTED: cv::LDA::LDA (constructor) cv::LDA . new
+PORTED: cv::LDA::LDA (constructor) cv::LDA . new
+PORTED: cv::LDA::save (method) cv::LDA . save
+PORTED: cv::LDA::load (method) cv::LDA . load
+PORTED: cv::LDA::save (method) cv::LDA . save
+PORTED: cv::LDA::load (method) cv::LDA . load
+PORTED: cv::LDA::compute (method) cv::LDA . compute
+PORTED: cv::LDA::project (method) cv::LDA . project
+PORTED: cv::LDA::reconstruct (method) cv::LDA . reconstruct
+PORTED: cv::LDA::eigenvectors (method) cv::LDA . eigenvectors
+PORTED: cv::LDA::eigenvalues (method) cv::LDA . eigenvalues
+PORTED: cv::LDA::subspaceProject (method) cv::LDA . subspaceProject
+PORTED: cv::LDA::subspaceReconstruct (method) cv::LDA . subspaceReconstruct
+PORTED: cv::Mat::flags (method) cv::Mat . flags
+PORTED: cv::Mat::dims (method) cv::Mat . dims
+PORTED: cv::Mat::rows (method) cv::Mat . rows
+PORTED: cv::Mat::cols (method) cv::Mat . cols
+PORTED: cv::Mat::data (method) cv::Mat . data
+PORTED: cv::Mat::set_data (method) cv::Mat . set_data
+PORTED: cv::Mat::datastart (method) cv::Mat . datastart
+PORTED: cv::Mat::dataend (method) cv::Mat . dataend
+PORTED: cv::Mat::datalimit (method) cv::Mat . datalimit
+PORTED: cv::Mat::size (method) cv::Mat . size
+PORTED: cv::Mat::step (method) cv::Mat . step
+PORTED: cv::Mat::Mat (constructor) cv::Mat . default
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . copy
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::Mat (constructor) cv::Mat . new
+PORTED: cv::Mat::getUMat (method) cv::Mat . getUMat
+PORTED: cv::Mat::row (method) cv::Mat . row
+PORTED: cv::Mat::col (method) cv::Mat . col
+PORTED: cv::Mat::rowRange (method) cv::Mat . rowRange
+PORTED: cv::Mat::rowRange (method) cv::Mat . rowRange
+PORTED: cv::Mat::colRange (method) cv::Mat . colRange
+PORTED: cv::Mat::colRange (method) cv::Mat . colRange
+PORTED: cv::Mat::diag (method) cv::Mat . diag
+PORTED: cv::Mat::diag (method) cv::Mat . diag
+PORTED: cv::Mat::clone (method) cv::Mat . clone
+PORTED: cv::Mat::copyTo (method) cv::Mat . copyTo
+PORTED: cv::Mat::copyTo (method) cv::Mat . copyTo
+PORTED: cv::Mat::convertTo (method) cv::Mat . convertTo
+PORTED: cv::Mat::assignTo (method) cv::Mat . assignTo
+PORTED: cv::Mat::setTo (method) cv::Mat . setTo
+PORTED: cv::Mat::reshape (method) cv::Mat . reshape
+PORTED: cv::Mat::reshape (method) cv::Mat . reshape
+PORTED: cv::Mat::t (method) cv::Mat . t
+PORTED: cv::Mat::inv (method) cv::Mat . inv
+PORTED: cv::Mat::mul (method) cv::Mat . mul
+PORTED: cv::Mat::cross (method) cv::Mat . cross
+PORTED: cv::Mat::dot (method) cv::Mat . dot
+PORTED: cv::Mat::zeros (method) cv::Mat . zeros
+PORTED: cv::Mat::zeros (method) cv::Mat . zeros
+PORTED: cv::Mat::zeros (method) cv::Mat . zeros
+PORTED: cv::Mat::ones (method) cv::Mat . ones
+PORTED: cv::Mat::ones (method) cv::Mat . ones
+PORTED: cv::Mat::ones (method) cv::Mat . ones
+PORTED: cv::Mat::eye (method) cv::Mat . eye
+PORTED: cv::Mat::eye (method) cv::Mat . eye
+PORTED: cv::Mat::create (method) cv::Mat . create
+PORTED: cv::Mat::create (method) cv::Mat . create
+PORTED: cv::Mat::create (method) cv::Mat . create
+PORTED: cv::Mat::addref (method) cv::Mat . addref
+PORTED: cv::Mat::release (method) cv::Mat . release
+PORTED: cv::Mat::deallocate (method) cv::Mat . deallocate
+PORTED: cv::Mat::reserve (method) cv::Mat . reserve
+PORTED: cv::Mat::reserveBuffer (method) cv::Mat . reserveBuffer
+PORTED: cv::Mat::resize (method) cv::Mat . resize
+PORTED: cv::Mat::resize (method) cv::Mat . resize
+PORTED: cv::Mat::push_back (method) cv::Mat . push_back
+PORTED: cv::Mat::pop_back (method) cv::Mat . pop_back
+PORTED: cv::Mat::locateROI (method) cv::Mat . locateROI
+PORTED: cv::Mat::adjustROI (method) cv::Mat . adjustROI
+PORTED: cv::Mat::isContinuous (method) cv::Mat . isContinuous
+PORTED: cv::Mat::isSubmatrix (method) cv::Mat . isSubmatrix
+PORTED: cv::Mat::elemSize (method) cv::Mat . elemSize
+PORTED: cv::Mat::elemSize1 (method) cv::Mat . elemSize1
+PORTED: cv::Mat::type (method) cv::Mat . type
+PORTED: cv::Mat::depth (method) cv::Mat . depth
+PORTED: cv::Mat::channels (method) cv::Mat . channels
+PORTED: cv::Mat::step1 (method) cv::Mat . step1
+PORTED: cv::Mat::empty (method) cv::Mat . empty
+PORTED: cv::Mat::total (method) cv::Mat . total
+PORTED: cv::Mat::total (method) cv::Mat . total
+PORTED: cv::Mat::checkVector (method) cv::Mat . checkVector
+PORTED: cv::Mat::ptr (method) cv::Mat . ptr
+PORTED: cv::Mat::ptr (method) cv::Mat . ptr
+PORTED: cv::Mat::ptr (method) cv::Mat . ptr
+PORTED: cv::Mat::ptr (method) cv::Mat . ptr
+PORTED: cv::Mat::ptr (method) cv::Mat . ptr
+PORTED: cv::Mat::ptr (method) cv::Mat . ptr
+PORTED: cv::Mat::ptr (method) cv::Mat . ptr
+PORTED: cv::Mat::ptr (method) cv::Mat . ptr
+PORTED: cv::Mat::at (method) cv::Mat . at
+PORTED: cv::Mat::at (method) cv::Mat . at
+PORTED: cv::Mat::at (method) cv::Mat . at
+PORTED: cv::Mat::at (method) cv::Mat . at
+PORTED: cv::Mat::at (method) cv::Mat . at
+PORTED: cv::Mat::at (method) cv::Mat . at
+PORTED: cv::Mat::at (method) cv::Mat . at
+PORTED: cv::Mat::at (method) cv::Mat . at
+PORTED: cv::Mat::updateContinuityFlag (method) cv::Mat . updateContinuityFlag
+PORTED: cv::MatConstIterator::MatConstIterator (constructor) cv::MatConstIterator . default
+PORTED: cv::MatConstIterator::MatConstIterator (constructor) cv::MatConstIterator . new
+PORTED: cv::MatConstIterator::MatConstIterator (constructor) cv::MatConstIterator . new
+PORTED: cv::MatConstIterator::MatConstIterator (constructor) cv::MatConstIterator . new
+PORTED: cv::MatConstIterator::MatConstIterator (constructor) cv::MatConstIterator . new
+PORTED: cv::MatConstIterator::MatConstIterator (constructor) cv::MatConstIterator . copy
+PORTED: cv::MatConstIterator::pos (method) cv::MatConstIterator . pos
+PORTED: cv::MatConstIterator::pos (method) cv::MatConstIterator . pos
+PORTED: cv::MatConstIterator::lpos (method) cv::MatConstIterator . lpos
+PORTED: cv::MatConstIterator::seek (method) cv::MatConstIterator . seek
+PORTED: cv::MatConstIterator::seek (method) cv::MatConstIterator . seek
+PORTED: cv::MatExpr::MatExpr (constructor) cv::MatExpr . default
+PORTED: cv::MatExpr::MatExpr (constructor) cv::MatExpr . new
+PORTED: cv::MatExpr::MatExpr (constructor) cv::MatExpr . new
+PORTED: cv::MatExpr::operator Mat (convertor method) cv::MatExpr . operator Mat
+PORTED: cv::MatExpr::size (method) cv::MatExpr . size
+PORTED: cv::MatExpr::type (method) cv::MatExpr . type
+PORTED: cv::MatExpr::row (method) cv::MatExpr . row
+PORTED: cv::MatExpr::col (method) cv::MatExpr . col
+PORTED: cv::MatExpr::diag (method) cv::MatExpr . diag
+PORTED: cv::MatExpr::t (method) cv::MatExpr . t
+PORTED: cv::MatExpr::inv (method) cv::MatExpr . inv
+PORTED: cv::MatExpr::mul (method) cv::MatExpr . mul
+PORTED: cv::MatExpr::mul (method) cv::MatExpr . mul
+PORTED: cv::MatExpr::cross (method) cv::MatExpr . cross
+PORTED: cv::MatExpr::dot (method) cv::MatExpr . dot
+PORTED: cv::MatOp::elementWise (method) cv::MatOp (trait) . elementWise
+PORTED: cv::MatOp::assign (method) cv::MatOp (trait) . assign
+PORTED: cv::MatOp::roi (method) cv::MatOp (trait) . roi
+PORTED: cv::MatOp::diag (method) cv::MatOp (trait) . diag
+PORTED: cv::MatOp::augAssignAdd (method) cv::MatOp (trait) . augAssignAdd
+PORTED: cv::MatOp::augAssignSubtract (method) cv::MatOp (trait) . augAssignSubtract
+PORTED: cv::MatOp::augAssignMultiply (method) cv::MatOp (trait) . augAssignMultiply
+PORTED: cv::MatOp::augAssignDivide (method) cv::MatOp (trait) . augAssignDivide
+PORTED: cv::MatOp::augAssignAnd (method) cv::MatOp (trait) . augAssignAnd
+PORTED: cv::MatOp::augAssignOr (method) cv::MatOp (trait) . augAssignOr
+PORTED: cv::MatOp::augAssignXor (method) cv::MatOp (trait) . augAssignXor
+PORTED: cv::MatOp::add (method) cv::MatOp (trait) . add
+PORTED: cv::MatOp::add (method) cv::MatOp (trait) . add
+PORTED: cv::MatOp::subtract (method) cv::MatOp (trait) . subtract
+PORTED: cv::MatOp::subtract (method) cv::MatOp (trait) . subtract
+PORTED: cv::MatOp::multiply (method) cv::MatOp (trait) . multiply
+PORTED: cv::MatOp::multiply (method) cv::MatOp (trait) . multiply
+PORTED: cv::MatOp::divide (method) cv::MatOp (trait) . divide
+PORTED: cv::MatOp::divide (method) cv::MatOp (trait) . divide
+PORTED: cv::MatOp::abs (method) cv::MatOp (trait) . abs
+PORTED: cv::MatOp::transpose (method) cv::MatOp (trait) . transpose
+PORTED: cv::MatOp::matmul (method) cv::MatOp (trait) . matmul
+PORTED: cv::MatOp::invert (method) cv::MatOp (trait) . invert
+PORTED: cv::MatOp::size (method) cv::MatOp (trait) . size
+PORTED: cv::MatOp::type (method) cv::MatOp (trait) . type
+PORTED: cv::MatSize::MatSize (constructor) cv::MatSize . new
+PORTED: cv::MatSize::dims (method) cv::MatSize . dims
+PORTED: cv::MatStep::MatStep (constructor) cv::MatStep . default
+PORTED: cv::MatStep::MatStep (constructor) cv::MatStep . new
+PORTED: cv::MatStep::operator size_t (convertor method) cv::MatStep . operator size_t
+PORTED: cv::Matx_AddOp::Matx_AddOp (constructor) cv::Matx_AddOp . default
+PORTED: cv::Matx_AddOp::Matx_AddOp (constructor) cv::Matx_AddOp . copy
+PORTED: cv::Matx_DivOp::Matx_DivOp (constructor) cv::Matx_DivOp . default
+PORTED: cv::Matx_DivOp::Matx_DivOp (constructor) cv::Matx_DivOp . copy
+PORTED: cv::Matx_MatMulOp::Matx_MatMulOp (constructor) cv::Matx_MatMulOp . default
+PORTED: cv::Matx_MatMulOp::Matx_MatMulOp (constructor) cv::Matx_MatMulOp . copy
+PORTED: cv::Matx_MulOp::Matx_MulOp (constructor) cv::Matx_MulOp . default
+PORTED: cv::Matx_MulOp::Matx_MulOp (constructor) cv::Matx_MulOp . copy
+PORTED: cv::Matx_ScaleOp::Matx_ScaleOp (constructor) cv::Matx_ScaleOp . default
+PORTED: cv::Matx_ScaleOp::Matx_ScaleOp (constructor) cv::Matx_ScaleOp . copy
+PORTED: cv::Matx_SubOp::Matx_SubOp (constructor) cv::Matx_SubOp . default
+PORTED: cv::Matx_SubOp::Matx_SubOp (constructor) cv::Matx_SubOp . copy
+PORTED: cv::Matx_TOp::Matx_TOp (constructor) cv::Matx_TOp . default
+PORTED: cv::Matx_TOp::Matx_TOp (constructor) cv::Matx_TOp . copy
+PORTED: cv::MinProblemSolver::getFunction (method) cv::MinProblemSolver (trait) . getFunction
+PORTED: cv::MinProblemSolver::setFunction (method) cv::MinProblemSolver (trait) . setFunction
+PORTED: cv::MinProblemSolver::getTermCriteria (method) cv::MinProblemSolver (trait) . getTermCriteria
+PORTED: cv::MinProblemSolver::setTermCriteria (method) cv::MinProblemSolver (trait) . setTermCriteria
+PORTED: cv::MinProblemSolver::minimize (method) cv::MinProblemSolver (trait) . minimize
+PORTED: cv::MinProblemSolver::Function::getDims (method) cv::MinProblemSolver::Function (trait) . getDims
+PORTED: cv::MinProblemSolver::Function::getGradientEps (method) cv::MinProblemSolver::Function (trait) . getGradientEps
+PORTED: cv::MinProblemSolver::Function::calc (method) cv::MinProblemSolver::Function (trait) . calc
+PORTED: cv::MinProblemSolver::Function::getGradient (method) cv::MinProblemSolver::Function (trait) . getGradient
+PORTED: cv::Moments::Moments (constructor) cv::Moments (simple) . default
+PORTED: cv::Moments::Moments (constructor) cv::Moments (simple) . new
+PORTED: cv::NAryMatIterator::NAryMatIterator (constructor) cv::NAryMatIterator . default
+PORTED: cv::PCA::PCA (constructor) cv::PCA . default
+PORTED: cv::PCA::PCA (constructor) cv::PCA . new
+PORTED: cv::PCA::PCA (constructor) cv::PCA . new
+PORTED: cv::PCA::project (method) cv::PCA . project
+PORTED: cv::PCA::project (method) cv::PCA . project
+PORTED: cv::PCA::backProject (method) cv::PCA . backProject
+PORTED: cv::PCA::backProject (method) cv::PCA . backProject
+PORTED: cv::PCA::write (method) cv::PCA . write
+PORTED: cv::PCA::read (method) cv::PCA . read
+PORTED: cv::Range::start (method) cv::Range . start
+PORTED: cv::Range::end (method) cv::Range . end
+PORTED: cv::Range::Range (constructor) cv::Range . default
+PORTED: cv::Range::Range (constructor) cv::Range . new
+PORTED: cv::Range::size (method) cv::Range . size
+PORTED: cv::Range::empty (method) cv::Range . empty
+PORTED: cv::Range::all (method) cv::Range . all
+PORTED: cv::RotatedRect::center (method) cv::RotatedRect . center
+PORTED: cv::RotatedRect::size (method) cv::RotatedRect . size
+PORTED: cv::RotatedRect::angle (method) cv::RotatedRect . angle
+PORTED: cv::RotatedRect::RotatedRect (constructor) cv::RotatedRect . default
+PORTED: cv::RotatedRect::RotatedRect (constructor) cv::RotatedRect . new
+PORTED: cv::RotatedRect::RotatedRect (constructor) cv::RotatedRect . new
+PORTED: cv::RotatedRect::points (method) cv::RotatedRect . points
+PORTED: cv::RotatedRect::boundingRect (method) cv::RotatedRect . boundingRect
+PORTED: cv::RotatedRect::boundingRect2f (method) cv::RotatedRect . boundingRect2f
+PORTED: cv::SparseMat::SparseMat (constructor) cv::SparseMat . default
+PORTED: cv::SparseMat::SparseMat (constructor) cv::SparseMat . new
+PORTED: cv::SparseMat::SparseMat (constructor) cv::SparseMat . copy
+PORTED: cv::SparseMat::SparseMat (constructor) cv::SparseMat . new
+PORTED: cv::SparseMat::clone (method) cv::SparseMat . clone
+PORTED: cv::SparseMat::copyTo (method) cv::SparseMat . copyTo
+PORTED: cv::SparseMat::copyTo (method) cv::SparseMat . copyTo
+PORTED: cv::SparseMat::convertTo (method) cv::SparseMat . convertTo
+PORTED: cv::SparseMat::convertTo (method) cv::SparseMat . convertTo
+PORTED: cv::SparseMat::assignTo (method) cv::SparseMat . assignTo
+PORTED: cv::SparseMat::create (method) cv::SparseMat . create
+PORTED: cv::SparseMat::clear (method) cv::SparseMat . clear
+PORTED: cv::SparseMat::addref (method) cv::SparseMat . addref
+PORTED: cv::SparseMat::release (method) cv::SparseMat . release
+PORTED: cv::SparseMat::elemSize (method) cv::SparseMat . elemSize
+PORTED: cv::SparseMat::elemSize1 (method) cv::SparseMat . elemSize1
+PORTED: cv::SparseMat::type (method) cv::SparseMat . type
+PORTED: cv::SparseMat::depth (method) cv::SparseMat . depth
+PORTED: cv::SparseMat::channels (method) cv::SparseMat . channels
+PORTED: cv::SparseMat::size (method) cv::SparseMat . size
+PORTED: cv::SparseMat::size (method) cv::SparseMat . size
+PORTED: cv::SparseMat::dims (method) cv::SparseMat . dims
+PORTED: cv::SparseMat::nzcount (method) cv::SparseMat . nzcount
+PORTED: cv::SparseMat::hash (method) cv::SparseMat . hash
+PORTED: cv::SparseMat::hash (method) cv::SparseMat . hash
+PORTED: cv::SparseMat::hash (method) cv::SparseMat . hash
+PORTED: cv::SparseMat::hash (method) cv::SparseMat . hash
+PORTED: cv::SparseMat::ptr (method) cv::SparseMat . ptr
+PORTED: cv::SparseMat::ptr (method) cv::SparseMat . ptr
+PORTED: cv::SparseMat::ptr (method) cv::SparseMat . ptr
+PORTED: cv::SparseMat::ptr (method) cv::SparseMat . ptr
+PORTED: cv::SparseMat::erase (method) cv::SparseMat . erase
+PORTED: cv::SparseMat::erase (method) cv::SparseMat . erase
+PORTED: cv::SparseMat::erase (method) cv::SparseMat . erase
+PORTED: cv::SparseMat::node (method) cv::SparseMat . node
+PORTED: cv::SparseMat::node (method) cv::SparseMat . node
+PORTED: cv::SparseMat::newNode (method) cv::SparseMat . newNode
+PORTED: cv::SparseMat::removeNode (method) cv::SparseMat . removeNode
+PORTED: cv::SparseMat::resizeHashTab (method) cv::SparseMat . resizeHashTab
+PORTED: cv::SparseMat::Hdr::Hdr (constructor) cv::SparseMat::Hdr . new
+PORTED: cv::SparseMat::Hdr::clear (method) cv::SparseMat::Hdr . clear
+PORTED: cv::SparseMatConstIterator::node (method) cv::SparseMatConstIterator (trait) . node
+PORTED: cv::SparseMatConstIterator::seekEnd (method) cv::SparseMatConstIterator (trait) . seekEnd
+PORTED: cv::SparseMatIterator::node (method) cv::SparseMatIterator . node
+PORTED: cv::TermCriteria::type (method) cv::TermCriteria . type
+PORTED: cv::TermCriteria::maxCount (method) cv::TermCriteria . maxCount
+PORTED: cv::TermCriteria::epsilon (method) cv::TermCriteria . epsilon
+PORTED: cv::TermCriteria::TermCriteria (constructor) cv::TermCriteria . default
+PORTED: cv::TermCriteria::TermCriteria (constructor) cv::TermCriteria . new
+PORTED: cv::TermCriteria::isValid (method) cv::TermCriteria . isValid
+PORTED: cv::TickMeter::TickMeter (constructor) cv::TickMeter . default
+PORTED: cv::TickMeter::start (method) cv::TickMeter . start
+PORTED: cv::TickMeter::stop (method) cv::TickMeter . stop
+PORTED: cv::TickMeter::getTimeTicks (method) cv::TickMeter . getTimeTicks
+PORTED: cv::TickMeter::getTimeMicro (method) cv::TickMeter . getTimeMicro
+PORTED: cv::TickMeter::getTimeMilli (method) cv::TickMeter . getTimeMilli
+PORTED: cv::TickMeter::getTimeSec (method) cv::TickMeter . getTimeSec
+PORTED: cv::TickMeter::getCounter (method) cv::TickMeter . getCounter
+PORTED: cv::TickMeter::reset (method) cv::TickMeter . reset
+PORTED: cv::UMat::flags (method) cv::UMat . flags
+PORTED: cv::UMat::dims (method) cv::UMat . dims
+PORTED: cv::UMat::rows (method) cv::UMat . rows
+PORTED: cv::UMat::cols (method) cv::UMat . cols
+PORTED: cv::UMat::usageFlags (method) cv::UMat . usageFlags
+PORTED: cv::UMat::offset (method) cv::UMat . offset
+PORTED: cv::UMat::size (method) cv::UMat . size
+PORTED: cv::UMat::step (method) cv::UMat . step
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . copy
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::UMat (constructor) cv::UMat . new
+PORTED: cv::UMat::getMat (method) cv::UMat . getMat
+PORTED: cv::UMat::row (method) cv::UMat . row
+PORTED: cv::UMat::col (method) cv::UMat . col
+PORTED: cv::UMat::rowRange (method) cv::UMat . rowRange
+PORTED: cv::UMat::rowRange (method) cv::UMat . rowRange
+PORTED: cv::UMat::colRange (method) cv::UMat . colRange
+PORTED: cv::UMat::colRange (method) cv::UMat . colRange
+PORTED: cv::UMat::diag (method) cv::UMat . diag
+PORTED: cv::UMat::diag (method) cv::UMat . diag
+PORTED: cv::UMat::clone (method) cv::UMat . clone
+PORTED: cv::UMat::copyTo (method) cv::UMat . copyTo
+PORTED: cv::UMat::copyTo (method) cv::UMat . copyTo
+PORTED: cv::UMat::convertTo (method) cv::UMat . convertTo
+PORTED: cv::UMat::assignTo (method) cv::UMat . assignTo
+PORTED: cv::UMat::setTo (method) cv::UMat . setTo
+PORTED: cv::UMat::reshape (method) cv::UMat . reshape
+PORTED: cv::UMat::reshape (method) cv::UMat . reshape
+PORTED: cv::UMat::t (method) cv::UMat . t
+PORTED: cv::UMat::inv (method) cv::UMat . inv
+PORTED: cv::UMat::mul (method) cv::UMat . mul
+PORTED: cv::UMat::dot (method) cv::UMat . dot
+PORTED: cv::UMat::zeros (method) cv::UMat . zeros
+PORTED: cv::UMat::zeros (method) cv::UMat . zeros
+PORTED: cv::UMat::zeros (method) cv::UMat . zeros
+PORTED: cv::UMat::ones (method) cv::UMat . ones
+PORTED: cv::UMat::ones (method) cv::UMat . ones
+PORTED: cv::UMat::ones (method) cv::UMat . ones
+PORTED: cv::UMat::eye (method) cv::UMat . eye
+PORTED: cv::UMat::eye (method) cv::UMat . eye
+PORTED: cv::UMat::create (method) cv::UMat . create
+PORTED: cv::UMat::create (method) cv::UMat . create
+PORTED: cv::UMat::create (method) cv::UMat . create
+PORTED: cv::UMat::addref (method) cv::UMat . addref
+PORTED: cv::UMat::release (method) cv::UMat . release
+PORTED: cv::UMat::deallocate (method) cv::UMat . deallocate
+PORTED: cv::UMat::locateROI (method) cv::UMat . locateROI
+PORTED: cv::UMat::adjustROI (method) cv::UMat . adjustROI
+PORTED: cv::UMat::isContinuous (method) cv::UMat . isContinuous
+PORTED: cv::UMat::isSubmatrix (method) cv::UMat . isSubmatrix
+PORTED: cv::UMat::elemSize (method) cv::UMat . elemSize
+PORTED: cv::UMat::elemSize1 (method) cv::UMat . elemSize1
+PORTED: cv::UMat::type (method) cv::UMat . type
+PORTED: cv::UMat::depth (method) cv::UMat . depth
+PORTED: cv::UMat::channels (method) cv::UMat . channels
+PORTED: cv::UMat::step1 (method) cv::UMat . step1
+PORTED: cv::UMat::empty (method) cv::UMat . empty
+PORTED: cv::UMat::total (method) cv::UMat . total
+PORTED: cv::UMat::checkVector (method) cv::UMat . checkVector
+PORTED: cv::UMat::handle (method) cv::UMat . handle
+PORTED: cv::UMat::ndoffset (method) cv::UMat . ndoffset
+PORTED: cv::UMat::updateContinuityFlag (method) cv::UMat . updateContinuityFlag
+PORTED: cv::UMatData::lock (method) cv::UMatData . lock
+PORTED: cv::UMatData::unlock (method) cv::UMatData . unlock
+PORTED: cv::UMatData::hostCopyObsolete (method) cv::UMatData . hostCopyObsolete
+PORTED: cv::UMatData::deviceCopyObsolete (method) cv::UMatData . deviceCopyObsolete
+PORTED: cv::UMatData::deviceMemMapped (method) cv::UMatData . deviceMemMapped
+PORTED: cv::UMatData::copyOnMap (method) cv::UMatData . copyOnMap
+PORTED: cv::UMatData::tempUMat (method) cv::UMatData . tempUMat
+PORTED: cv::UMatData::tempCopiedUMat (method) cv::UMatData . tempCopiedUMat
+PORTED: cv::UMatData::markHostCopyObsolete (method) cv::UMatData . markHostCopyObsolete
+PORTED: cv::UMatData::markDeviceCopyObsolete (method) cv::UMatData . markDeviceCopyObsolete
+PORTED: cv::UMatData::markDeviceMemMapped (method) cv::UMatData . markDeviceMemMapped
+PORTED: cv::_InputArray::getMat (method) cv::_InputArray (trait) . getMat
+PORTED: cv::_InputArray::getMat_ (method) cv::_InputArray (trait) . getMat_
+PORTED: cv::_InputArray::getUMat (method) cv::_InputArray (trait) . getUMat
+PORTED: cv::_InputArray::getMatVector (method) cv::_InputArray (trait) . getMatVector
+PORTED: cv::_InputArray::getUMatVector (method) cv::_InputArray (trait) . getUMatVector
+PORTED: cv::_InputArray::getFlags (method) cv::_InputArray (trait) . getFlags
+PORTED: cv::_InputArray::getObj (method) cv::_InputArray (trait) . getObj
+PORTED: cv::_InputArray::getSz (method) cv::_InputArray (trait) . getSz
+PORTED: cv::_InputArray::kind (method) cv::_InputArray (trait) . kind
+PORTED: cv::_InputArray::dims (method) cv::_InputArray (trait) . dims
+PORTED: cv::_InputArray::cols (method) cv::_InputArray (trait) . cols
+PORTED: cv::_InputArray::rows (method) cv::_InputArray (trait) . rows
+PORTED: cv::_InputArray::size (method) cv::_InputArray (trait) . size
+PORTED: cv::_InputArray::sizend (method) cv::_InputArray (trait) . sizend
+PORTED: cv::_InputArray::sameSize (method) cv::_InputArray (trait) . sameSize
+PORTED: cv::_InputArray::total (method) cv::_InputArray (trait) . total
+PORTED: cv::_InputArray::type (method) cv::_InputArray (trait) . type
+PORTED: cv::_InputArray::depth (method) cv::_InputArray (trait) . depth
+PORTED: cv::_InputArray::channels (method) cv::_InputArray (trait) . channels
+PORTED: cv::_InputArray::isContinuous (method) cv::_InputArray (trait) . isContinuous
+PORTED: cv::_InputArray::isSubmatrix (method) cv::_InputArray (trait) . isSubmatrix
+PORTED: cv::_InputArray::empty (method) cv::_InputArray (trait) . empty
+PORTED: cv::_InputArray::copyTo (method) cv::_InputArray (trait) . copyTo
+PORTED: cv::_InputArray::copyTo (method) cv::_InputArray (trait) . copyTo
+PORTED: cv::_InputArray::offset (method) cv::_InputArray (trait) . offset
+PORTED: cv::_InputArray::step (method) cv::_InputArray (trait) . step
+PORTED: cv::_InputArray::isMat (method) cv::_InputArray (trait) . isMat
+PORTED: cv::_InputArray::isUMat (method) cv::_InputArray (trait) . isUMat
+PORTED: cv::_InputArray::isMatVector (method) cv::_InputArray (trait) . isMatVector
+PORTED: cv::_InputArray::isUMatVector (method) cv::_InputArray (trait) . isUMatVector
+PORTED: cv::_InputArray::isMatx (method) cv::_InputArray (trait) . isMatx
+PORTED: cv::_InputArray::isVector (method) cv::_InputArray (trait) . isVector
+PORTED: cv::_InputArray::isGpuMat (method) cv::_InputArray (trait) . isGpuMat
+PORTED: cv::_InputArray::isGpuMatVector (method) cv::_InputArray (trait) . isGpuMatVector
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . default
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+PORTED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+PORTED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . default
+PORTED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+PORTED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+PORTED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+PORTED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+PORTED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+PORTED: cv::_OutputArray::fixedSize (method) cv::_OutputArray (trait) . fixedSize
+PORTED: cv::_OutputArray::fixedType (method) cv::_OutputArray (trait) . fixedType
+PORTED: cv::_OutputArray::needed (method) cv::_OutputArray (trait) . needed
+PORTED: cv::_OutputArray::getMatRef (method) cv::_OutputArray (trait) . getMatRef
+PORTED: cv::_OutputArray::getUMatRef (method) cv::_OutputArray (trait) . getUMatRef
+PORTED: cv::_OutputArray::create (method) cv::_OutputArray (trait) . create
+PORTED: cv::_OutputArray::create (method) cv::_OutputArray (trait) . create
+PORTED: cv::_OutputArray::create (method) cv::_OutputArray (trait) . create
+PORTED: cv::_OutputArray::createSameSize (method) cv::_OutputArray (trait) . createSameSize
+PORTED: cv::_OutputArray::release (method) cv::_OutputArray (trait) . release
+PORTED: cv::_OutputArray::clear (method) cv::_OutputArray (trait) . clear
+PORTED: cv::_OutputArray::setTo (method) cv::_OutputArray (trait) . setTo
+PORTED: cv::_OutputArray::assign (method) cv::_OutputArray (trait) . assign
+PORTED: cv::_OutputArray::assign (method) cv::_OutputArray (trait) . assign
+PORTED: cv::_OutputArray::assign (method) cv::_OutputArray (trait) . assign
+PORTED: cv::_OutputArray::assign (method) cv::_OutputArray (trait) . assign
+PORTED: cv::_OutputArray::move (method) cv::_OutputArray (trait) . move
+PORTED: cv::_OutputArray::move (method) cv::_OutputArray (trait) . move
+PORTED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . default
+PORTED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+PORTED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+PORTED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+PORTED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+PORTED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+PORTED: cv::instr::NodeData::NodeData (constructor) cv::instr::NodeData . new
+PORTED: cv::instr::NodeData::NodeData (constructor) cv::instr::NodeData . copy
+PORTED: cv::instr::NodeData::getTotalMs (method) cv::instr::NodeData . getTotalMs
+PORTED: cv::instr::NodeData::getMeanMs (method) cv::instr::NodeData . getMeanMs
+PORTED: cv::instr::NodeDataTls::NodeDataTls (constructor) cv::instr::NodeDataTls . default
+PORTED: cv::internal::WriteStructContext::WriteStructContext (constructor) cv::internal::WriteStructContext . new
+PORTED: cv::ocl::Context::Context (constructor) cv::ocl::Context . default
+PORTED: cv::ocl::Context::Context (constructor) cv::ocl::Context . new
+PORTED: cv::ocl::Context::Context (constructor) cv::ocl::Context . copy
+PORTED: cv::ocl::Context::create (method) cv::ocl::Context . create
+PORTED: cv::ocl::Context::create (method) cv::ocl::Context . create
+PORTED: cv::ocl::Context::ndevices (method) cv::ocl::Context . ndevices
+PORTED: cv::ocl::Context::device (method) cv::ocl::Context . device
+PORTED: cv::ocl::Context::ptr (method) cv::ocl::Context . ptr
+PORTED: cv::ocl::Context::useSVM (method) cv::ocl::Context . useSVM
+PORTED: cv::ocl::Context::setUseSVM (method) cv::ocl::Context . setUseSVM
+PORTED: cv::ocl::Device::Device (constructor) cv::ocl::Device . default
+PORTED: cv::ocl::Device::Device (constructor) cv::ocl::Device . new
+PORTED: cv::ocl::Device::Device (constructor) cv::ocl::Device . copy
+PORTED: cv::ocl::Device::set (method) cv::ocl::Device . set
+PORTED: cv::ocl::Device::name (method) cv::ocl::Device . name
+PORTED: cv::ocl::Device::extensions (method) cv::ocl::Device . extensions
+PORTED: cv::ocl::Device::isExtensionSupported (method) cv::ocl::Device . isExtensionSupported
+PORTED: cv::ocl::Device::version (method) cv::ocl::Device . version
+PORTED: cv::ocl::Device::vendorName (method) cv::ocl::Device . vendorName
+PORTED: cv::ocl::Device::OpenCL_C_Version (method) cv::ocl::Device . OpenCL_C_Version
+PORTED: cv::ocl::Device::OpenCLVersion (method) cv::ocl::Device . OpenCLVersion
+PORTED: cv::ocl::Device::deviceVersionMajor (method) cv::ocl::Device . deviceVersionMajor
+PORTED: cv::ocl::Device::deviceVersionMinor (method) cv::ocl::Device . deviceVersionMinor
+PORTED: cv::ocl::Device::driverVersion (method) cv::ocl::Device . driverVersion
+PORTED: cv::ocl::Device::ptr (method) cv::ocl::Device . ptr
+PORTED: cv::ocl::Device::type (method) cv::ocl::Device . type
+PORTED: cv::ocl::Device::addressBits (method) cv::ocl::Device . addressBits
+PORTED: cv::ocl::Device::available (method) cv::ocl::Device . available
+PORTED: cv::ocl::Device::compilerAvailable (method) cv::ocl::Device . compilerAvailable
+PORTED: cv::ocl::Device::linkerAvailable (method) cv::ocl::Device . linkerAvailable
+PORTED: cv::ocl::Device::doubleFPConfig (method) cv::ocl::Device . doubleFPConfig
+PORTED: cv::ocl::Device::singleFPConfig (method) cv::ocl::Device . singleFPConfig
+PORTED: cv::ocl::Device::halfFPConfig (method) cv::ocl::Device . halfFPConfig
+PORTED: cv::ocl::Device::endianLittle (method) cv::ocl::Device . endianLittle
+PORTED: cv::ocl::Device::errorCorrectionSupport (method) cv::ocl::Device . errorCorrectionSupport
+PORTED: cv::ocl::Device::executionCapabilities (method) cv::ocl::Device . executionCapabilities
+PORTED: cv::ocl::Device::globalMemCacheSize (method) cv::ocl::Device . globalMemCacheSize
+PORTED: cv::ocl::Device::globalMemCacheType (method) cv::ocl::Device . globalMemCacheType
+PORTED: cv::ocl::Device::globalMemCacheLineSize (method) cv::ocl::Device . globalMemCacheLineSize
+PORTED: cv::ocl::Device::globalMemSize (method) cv::ocl::Device . globalMemSize
+PORTED: cv::ocl::Device::localMemSize (method) cv::ocl::Device . localMemSize
+PORTED: cv::ocl::Device::localMemType (method) cv::ocl::Device . localMemType
+PORTED: cv::ocl::Device::hostUnifiedMemory (method) cv::ocl::Device . hostUnifiedMemory
+PORTED: cv::ocl::Device::imageSupport (method) cv::ocl::Device . imageSupport
+PORTED: cv::ocl::Device::imageFromBufferSupport (method) cv::ocl::Device . imageFromBufferSupport
+PORTED: cv::ocl::Device::imagePitchAlignment (method) cv::ocl::Device . imagePitchAlignment
+PORTED: cv::ocl::Device::imageBaseAddressAlignment (method) cv::ocl::Device . imageBaseAddressAlignment
+PORTED: cv::ocl::Device::intelSubgroupsSupport (method) cv::ocl::Device . intelSubgroupsSupport
+PORTED: cv::ocl::Device::image2DMaxWidth (method) cv::ocl::Device . image2DMaxWidth
+PORTED: cv::ocl::Device::image2DMaxHeight (method) cv::ocl::Device . image2DMaxHeight
+PORTED: cv::ocl::Device::image3DMaxWidth (method) cv::ocl::Device . image3DMaxWidth
+PORTED: cv::ocl::Device::image3DMaxHeight (method) cv::ocl::Device . image3DMaxHeight
+PORTED: cv::ocl::Device::image3DMaxDepth (method) cv::ocl::Device . image3DMaxDepth
+PORTED: cv::ocl::Device::imageMaxBufferSize (method) cv::ocl::Device . imageMaxBufferSize
+PORTED: cv::ocl::Device::imageMaxArraySize (method) cv::ocl::Device . imageMaxArraySize
+PORTED: cv::ocl::Device::vendorID (method) cv::ocl::Device . vendorID
+PORTED: cv::ocl::Device::isAMD (method) cv::ocl::Device . isAMD
+PORTED: cv::ocl::Device::isIntel (method) cv::ocl::Device . isIntel
+PORTED: cv::ocl::Device::isNVidia (method) cv::ocl::Device . isNVidia
+PORTED: cv::ocl::Device::maxClockFrequency (method) cv::ocl::Device . maxClockFrequency
+PORTED: cv::ocl::Device::maxComputeUnits (method) cv::ocl::Device . maxComputeUnits
+PORTED: cv::ocl::Device::maxConstantArgs (method) cv::ocl::Device . maxConstantArgs
+PORTED: cv::ocl::Device::maxConstantBufferSize (method) cv::ocl::Device . maxConstantBufferSize
+PORTED: cv::ocl::Device::maxMemAllocSize (method) cv::ocl::Device . maxMemAllocSize
+PORTED: cv::ocl::Device::maxParameterSize (method) cv::ocl::Device . maxParameterSize
+PORTED: cv::ocl::Device::maxReadImageArgs (method) cv::ocl::Device . maxReadImageArgs
+PORTED: cv::ocl::Device::maxWriteImageArgs (method) cv::ocl::Device . maxWriteImageArgs
+PORTED: cv::ocl::Device::maxSamplers (method) cv::ocl::Device . maxSamplers
+PORTED: cv::ocl::Device::maxWorkGroupSize (method) cv::ocl::Device . maxWorkGroupSize
+PORTED: cv::ocl::Device::maxWorkItemDims (method) cv::ocl::Device . maxWorkItemDims
+PORTED: cv::ocl::Device::maxWorkItemSizes (method) cv::ocl::Device . maxWorkItemSizes
+PORTED: cv::ocl::Device::memBaseAddrAlign (method) cv::ocl::Device . memBaseAddrAlign
+PORTED: cv::ocl::Device::nativeVectorWidthChar (method) cv::ocl::Device . nativeVectorWidthChar
+PORTED: cv::ocl::Device::nativeVectorWidthShort (method) cv::ocl::Device . nativeVectorWidthShort
+PORTED: cv::ocl::Device::nativeVectorWidthInt (method) cv::ocl::Device . nativeVectorWidthInt
+PORTED: cv::ocl::Device::nativeVectorWidthLong (method) cv::ocl::Device . nativeVectorWidthLong
+PORTED: cv::ocl::Device::nativeVectorWidthFloat (method) cv::ocl::Device . nativeVectorWidthFloat
+PORTED: cv::ocl::Device::nativeVectorWidthDouble (method) cv::ocl::Device . nativeVectorWidthDouble
+PORTED: cv::ocl::Device::nativeVectorWidthHalf (method) cv::ocl::Device . nativeVectorWidthHalf
+PORTED: cv::ocl::Device::preferredVectorWidthChar (method) cv::ocl::Device . preferredVectorWidthChar
+PORTED: cv::ocl::Device::preferredVectorWidthShort (method) cv::ocl::Device . preferredVectorWidthShort
+PORTED: cv::ocl::Device::preferredVectorWidthInt (method) cv::ocl::Device . preferredVectorWidthInt
+PORTED: cv::ocl::Device::preferredVectorWidthLong (method) cv::ocl::Device . preferredVectorWidthLong
+PORTED: cv::ocl::Device::preferredVectorWidthFloat (method) cv::ocl::Device . preferredVectorWidthFloat
+PORTED: cv::ocl::Device::preferredVectorWidthDouble (method) cv::ocl::Device . preferredVectorWidthDouble
+PORTED: cv::ocl::Device::preferredVectorWidthHalf (method) cv::ocl::Device . preferredVectorWidthHalf
+PORTED: cv::ocl::Device::printfBufferSize (method) cv::ocl::Device . printfBufferSize
+PORTED: cv::ocl::Device::profilingTimerResolution (method) cv::ocl::Device . profilingTimerResolution
+PORTED: cv::ocl::Device::getDefault (method) cv::ocl::Device . getDefault
+PORTED: cv::ocl::Image2D::Image2D (constructor) cv::ocl::Image2D . default
+PORTED: cv::ocl::Image2D::Image2D (constructor) cv::ocl::Image2D . new
+PORTED: cv::ocl::Image2D::Image2D (constructor) cv::ocl::Image2D . copy
+PORTED: cv::ocl::Image2D::canCreateAlias (method) cv::ocl::Image2D . canCreateAlias
+PORTED: cv::ocl::Image2D::isFormatSupported (method) cv::ocl::Image2D . isFormatSupported
+PORTED: cv::ocl::Image2D::ptr (method) cv::ocl::Image2D . ptr
+PORTED: cv::ocl::Kernel::Kernel (constructor) cv::ocl::Kernel . default
+PORTED: cv::ocl::Kernel::Kernel (constructor) cv::ocl::Kernel . copy
+PORTED: cv::ocl::Kernel::empty (method) cv::ocl::Kernel . empty
+PORTED: cv::ocl::Kernel::set (method) cv::ocl::Kernel . set
+PORTED: cv::ocl::Kernel::set (method) cv::ocl::Kernel . set
+PORTED: cv::ocl::Kernel::set (method) cv::ocl::Kernel . set
+PORTED: cv::ocl::Kernel::run (method) cv::ocl::Kernel . run
+PORTED: cv::ocl::Kernel::runTask (method) cv::ocl::Kernel . runTask
+PORTED: cv::ocl::Kernel::runProfiling (method) cv::ocl::Kernel . runProfiling
+PORTED: cv::ocl::Kernel::workGroupSize (method) cv::ocl::Kernel . workGroupSize
+PORTED: cv::ocl::Kernel::preferedWorkGroupSizeMultiple (method) cv::ocl::Kernel . preferedWorkGroupSizeMultiple
+PORTED: cv::ocl::Kernel::compileWorkGroupSize (method) cv::ocl::Kernel . compileWorkGroupSize
+PORTED: cv::ocl::Kernel::localMemSize (method) cv::ocl::Kernel . localMemSize
+PORTED: cv::ocl::Kernel::ptr (method) cv::ocl::Kernel . ptr
+PORTED: cv::ocl::KernelArg::KernelArg (constructor) cv::ocl::KernelArg . new
+PORTED: cv::ocl::KernelArg::KernelArg (constructor) cv::ocl::KernelArg . default
+PORTED: cv::ocl::KernelArg::Local (method) cv::ocl::KernelArg . Local
+PORTED: cv::ocl::KernelArg::PtrWriteOnly (method) cv::ocl::KernelArg . PtrWriteOnly
+PORTED: cv::ocl::KernelArg::PtrReadOnly (method) cv::ocl::KernelArg . PtrReadOnly
+PORTED: cv::ocl::KernelArg::PtrReadWrite (method) cv::ocl::KernelArg . PtrReadWrite
+PORTED: cv::ocl::KernelArg::ReadWrite (method) cv::ocl::KernelArg . ReadWrite
+PORTED: cv::ocl::KernelArg::ReadWriteNoSize (method) cv::ocl::KernelArg . ReadWriteNoSize
+PORTED: cv::ocl::KernelArg::ReadOnly (method) cv::ocl::KernelArg . ReadOnly
+PORTED: cv::ocl::KernelArg::WriteOnly (method) cv::ocl::KernelArg . WriteOnly
+PORTED: cv::ocl::KernelArg::ReadOnlyNoSize (method) cv::ocl::KernelArg . ReadOnlyNoSize
+PORTED: cv::ocl::KernelArg::WriteOnlyNoSize (method) cv::ocl::KernelArg . WriteOnlyNoSize
+PORTED: cv::ocl::KernelArg::Constant (method) cv::ocl::KernelArg . Constant
+PORTED: cv::ocl::Platform::Platform (constructor) cv::ocl::Platform . default
+PORTED: cv::ocl::Platform::Platform (constructor) cv::ocl::Platform . copy
+PORTED: cv::ocl::Platform::ptr (method) cv::ocl::Platform . ptr
+PORTED: cv::ocl::Platform::getDefault (method) cv::ocl::Platform . getDefault
+PORTED: cv::ocl::PlatformInfo::PlatformInfo (constructor) cv::ocl::PlatformInfo . default
+PORTED: cv::ocl::PlatformInfo::PlatformInfo (constructor) cv::ocl::PlatformInfo . new
+PORTED: cv::ocl::PlatformInfo::PlatformInfo (constructor) cv::ocl::PlatformInfo . copy
+PORTED: cv::ocl::PlatformInfo::name (method) cv::ocl::PlatformInfo . name
+PORTED: cv::ocl::PlatformInfo::vendor (method) cv::ocl::PlatformInfo . vendor
+PORTED: cv::ocl::PlatformInfo::version (method) cv::ocl::PlatformInfo . version
+PORTED: cv::ocl::PlatformInfo::deviceNumber (method) cv::ocl::PlatformInfo . deviceNumber
+PORTED: cv::ocl::PlatformInfo::getDevice (method) cv::ocl::PlatformInfo . getDevice
+PORTED: cv::ocl::Program::ptr (method) cv::ocl::Program . ptr
+PORTED: cv::ocl::Program::getBinary (method) cv::ocl::Program . getBinary
+PORTED: cv::ocl::Program::read (method) cv::ocl::Program . read
+PORTED: cv::ocl::Program::write (method) cv::ocl::Program . write
+PORTED: cv::ocl::Program::getPrefix (method) cv::ocl::Program . getPrefix
+PORTED: cv::ocl::Program::getPrefix (method) cv::ocl::Program . getPrefix
+PORTED: cv::ocl::ProgramSource::ProgramSource (constructor) cv::ocl::ProgramSource . default
+PORTED: cv::ocl::ProgramSource::ProgramSource (constructor) cv::ocl::ProgramSource . new
+PORTED: cv::ocl::ProgramSource::ProgramSource (constructor) cv::ocl::ProgramSource . new
+PORTED: cv::ocl::ProgramSource::source (method) cv::ocl::ProgramSource . source
+PORTED: cv::ocl::ProgramSource::hash (method) cv::ocl::ProgramSource . hash
+PORTED: cv::ocl::ProgramSource::fromBinary (method) cv::ocl::ProgramSource . fromBinary
+PORTED: cv::ocl::ProgramSource::fromSPIR (method) cv::ocl::ProgramSource . fromSPIR
+PORTED: cv::ocl::Queue::Queue (constructor) cv::ocl::Queue . default
+PORTED: cv::ocl::Queue::Queue (constructor) cv::ocl::Queue . new
+PORTED: cv::ocl::Queue::Queue (constructor) cv::ocl::Queue . copy
+PORTED: cv::ocl::Queue::create (method) cv::ocl::Queue . create
+PORTED: cv::ocl::Queue::finish (method) cv::ocl::Queue . finish
+PORTED: cv::ocl::Queue::ptr (method) cv::ocl::Queue . ptr
+PORTED: cv::ocl::Queue::getDefault (method) cv::ocl::Queue . getDefault
+PORTED: cv::ocl::Queue::getProfilingQueue (method) cv::ocl::Queue . getProfilingQueue
+PORTED: cv::ocl::Timer::Timer (constructor) cv::ocl::Timer . new
+PORTED: cv::ocl::Timer::start (method) cv::ocl::Timer . start
+PORTED: cv::ocl::Timer::stop (method) cv::ocl::Timer . stop
+PORTED: cv::ocl::Timer::durationNS (method) cv::ocl::Timer . durationNS
+PORTED: cv::utils::AllocatorStatisticsInterface::getCurrentUsage (method) cv::utils::AllocatorStatisticsInterface (trait) . getCurrentUsage
+PORTED: cv::utils::AllocatorStatisticsInterface::getTotalUsage (method) cv::utils::AllocatorStatisticsInterface (trait) . getTotalUsage
+PORTED: cv::utils::AllocatorStatisticsInterface::getNumberOfAllocations (method) cv::utils::AllocatorStatisticsInterface (trait) . getNumberOfAllocations
+PORTED: cv::utils::AllocatorStatisticsInterface::getPeakUsage (method) cv::utils::AllocatorStatisticsInterface (trait) . getPeakUsage
+PORTED: cv::utils::AllocatorStatisticsInterface::resetPeakUsage (method) cv::utils::AllocatorStatisticsInterface (trait) . resetPeakUsage
+PORTED: cv::utils::logging::LogTag::LogTag (constructor) cv::utils::logging::LogTag . new
+
+
+SKIPPED FUNCs: 529
+
+SKIPPED: ::Affine3 (function)
+   return type class Unknown[template<typename T>] is ignored
+
+SKIPPED: ::Affine3 (function)
+   return type class Unknown[template<typename T>] is ignored
+
+SKIPPED: ::Affine3 (function)
+   return type class Unknown[template<typename T>] is ignored
+
+SKIPPED: ::Affine3 (function)
+   return type class Unknown[template<typename T>] is ignored
+
+SKIPPED: ::Affine3 (function)
+   return type class Unknown[template<typename T>] is ignored
+
+SKIPPED: ::Affine3 (function)
+   return type class Unknown[template<typename T>] is ignored
+
+SKIPPED: _mm_deinterleave_epi16 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_deinterleave_epi16 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_deinterleave_epi16 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_deinterleave_epi8 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_deinterleave_epi8 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_deinterleave_epi8 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_deinterleave_ps (function)
+   can not map type Unknown[__m128] yet
+
+SKIPPED: _mm_deinterleave_ps (function)
+   can not map type Unknown[__m128] yet
+
+SKIPPED: _mm_deinterleave_ps (function)
+   can not map type Unknown[__m128] yet
+
+SKIPPED: _mm_interleave_epi16 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_interleave_epi16 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_interleave_epi16 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_interleave_epi8 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_interleave_epi8 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_interleave_epi8 (function)
+   can not map type Unknown[__m128i] yet
+
+SKIPPED: _mm_interleave_ps (function)
+   can not map type Unknown[__m128] yet
+
+SKIPPED: _mm_interleave_ps (function)
+   can not map type Unknown[__m128] yet
+
+SKIPPED: _mm_interleave_ps (function)
+   can not map type Unknown[__m128] yet
+
+SKIPPED: cvCeil (function)
+   can not map type Unknown[cv::softdouble] yet
+
+SKIPPED: cvCeil (function)
+   can not map type Unknown[cv::softfloat] yet
+
+SKIPPED: cvFloor (function)
+   can not map type Unknown[cv::softdouble] yet
+
+SKIPPED: cvFloor (function)
+   can not map type Unknown[cv::softfloat] yet
+
+SKIPPED: cvRound64 (function)
+   can not map type Unknown[cv::softdouble] yet
+
+SKIPPED: cvRound (function)
+   can not map type Unknown[cv::softdouble] yet
+
+SKIPPED: cvRound (function)
+   can not map type Unknown[cv::softfloat] yet
+
+SKIPPED: cvTrunc (function)
+   can not map type Unknown[cv::softdouble] yet
+
+SKIPPED: cvTrunc (function)
+   can not map type Unknown[cv::softfloat] yet
+
+SKIPPED: cv::"C" int (function)
+   return type class Unknown[extern "C" typedef] is ignored
+
+SKIPPED: cv::Vec3d operator * (function)
+   return type class RawPtr[Unknown[Vec3d operator]] is ignored
+
+SKIPPED: cv::Vec3f operator * (function)
+   return type class RawPtr[Unknown[Vec3f operator]] is ignored
+
+SKIPPED: cv::::Complex (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Complex (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point3_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point3_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point3_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point3_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point3_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Point_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Rect_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Rect_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Rect_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Rect_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Scalar_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Scalar_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Scalar_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Scalar_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Size_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Size_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Size_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Size_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::::Size_ (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::abs (function)
+   return type class Unknown[template<typename _Tp> double] is ignored
+
+SKIPPED: cv::abs (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::abs (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::addImpl (function)
+   ignored by rename table
+
+SKIPPED: cv::alignPtr (function)
+   return type class RawPtr[Unknown[template<typename _Tp> _Tp]] is ignored
+
+SKIPPED: cv::calcCovarMatrix (function)
+   ignored by rename table
+
+SKIPPED: cv::cbrt (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::cos (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::cv_abs (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::cv_abs (function)
+   ignored by rename table
+
+SKIPPED: cv::cv_abs (function)
+   ignored by rename table
+
+SKIPPED: cv::detail::check_failed_auto (function)
+   can not map type Unknown[Size_<int>] yet
+
+SKIPPED: cv::detail::check_failed_auto (function)
+   can not map type Unknown[Size_<int>] yet
+
+SKIPPED: cv::detail::depthToString_ (function)
+   ignored by rename table
+
+SKIPPED: cv::detail::typeToString_ (function)
+   ignored by rename table
+
+SKIPPED: cv::directx::convertFromD3D10Texture2D (function)
+   can not map type RawPtr[Unknown[ID3D10Texture2D]] yet
+
+SKIPPED: cv::directx::convertFromD3D11Texture2D (function)
+   can not map type RawPtr[Unknown[ID3D11Texture2D]] yet
+
+SKIPPED: cv::directx::convertFromDirect3DSurface9 (function)
+   can not map type RawPtr[Unknown[IDirect3DSurface9]] yet
+
+SKIPPED: cv::directx::convertToD3D10Texture2D (function)
+   can not map type RawPtr[Unknown[ID3D10Texture2D]] yet
+
+SKIPPED: cv::directx::convertToD3D11Texture2D (function)
+   can not map type RawPtr[Unknown[ID3D11Texture2D]] yet
+
+SKIPPED: cv::directx::convertToDirect3DSurface9 (function)
+   can not map type RawPtr[Unknown[IDirect3DSurface9]] yet
+
+SKIPPED: cv::directx::ocl::initializeContextFromD3D10Device (function)
+   return type class Unknown[Context] is ignored
+
+SKIPPED: cv::directx::ocl::initializeContextFromD3D11Device (function)
+   return type class Unknown[Context] is ignored
+
+SKIPPED: cv::directx::ocl::initializeContextFromDirect3DDevice9Ex (function)
+   return type class Unknown[Context] is ignored
+
+SKIPPED: cv::directx::ocl::initializeContextFromDirect3DDevice9 (function)
+   return type class Unknown[Context] is ignored
+
+SKIPPED: cv::error (function)
+   can not map type Unknown[Exception] yet
+
+SKIPPED: cv::exp (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::exp (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::getImpl (function)
+   ignored by rename table
+
+SKIPPED: cv::hconcat (function)
+   ignored by rename table
+
+SKIPPED: cv::instr::getTrace (function)
+   return type class RawPtr[Unknown[InstrNode]] is ignored
+
+SKIPPED: cv::ipp::setIppStatus (function)
+   can not map type Unknown[char * const] yet
+
+SKIPPED: cv::log (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::log (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::max (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::max (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::merge (function)
+   ignored by rename table
+
+SKIPPED: cv::min (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::min (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::mixChannels (function)
+   ignored by rename table
+
+SKIPPED: cv::mixChannels (function)
+   ignored by rename table
+
+SKIPPED: cv::mulAdd (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::mulAdd (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::normL2Sqr < double > (function)
+   return type class Unknown[template<> double] is ignored
+
+SKIPPED: cv::normL2Sqr < double > (function)
+   return type class Unknown[template<> double] is ignored
+
+SKIPPED: cv::normL2Sqr < double > (function)
+   return type class Unknown[template<> double] is ignored
+
+SKIPPED: cv::normL2Sqr < float > (function)
+   return type class Unknown[template<> float] is ignored
+
+SKIPPED: cv::normL2Sqr < int64 > (function)
+   return type class Unknown[template<> int64] is ignored
+
+SKIPPED: cv::normL2Sqr < int > (function)
+   return type class Unknown[template<> int] is ignored
+
+SKIPPED: cv::normL2Sqr (function)
+   return type class Unknown[template<typename _AccTp> _AccTp] is ignored
+
+SKIPPED: cv::normL2Sqr (function)
+   return type class Unknown[template<typename _AccTp> _AccTp] is ignored
+
+SKIPPED: cv::normL2Sqr (function)
+   return type class Unknown[template<typename _AccTp> _AccTp] is ignored
+
+SKIPPED: cv::normL2Sqr (function)
+   return type class Unknown[template<typename _AccTp> _AccTp] is ignored
+
+SKIPPED: cv::norm (function)
+   return type class Unknown[template<typename _Tp> double] is ignored
+
+SKIPPED: cv::norm (function)
+   return type class Unknown[template<typename _Tp> double] is ignored
+
+SKIPPED: cv::ocl::getOpenCLAllocator (function)
+   return type class RawPtr[Unknown[MatAllocator]] is ignored
+
+SKIPPED: cv::ocl::initializeContextFromHandle (function)
+   can not map type Unknown[Context] yet
+
+SKIPPED: cv::ocl::internal::isCLBuffer (function)
+   ignored by rename table
+
+SKIPPED: cv::ocl::internal::isOpenCLForced (function)
+   ignored by rename table
+
+SKIPPED: cv::ocl::internal::isPerformanceCheckBypassed (function)
+   ignored by rename table
+
+SKIPPED: cv::operator std::string (function)
+   ignored by rename table
+
+SKIPPED: cv::operator std::vector<_Tp> (function)
+   return type class Unknown[template<typename _Tp>] is ignored
+
+SKIPPED: cv::parallel_for_ (function)
+   can not map type Unknown[std::function<void(Range&)>] yet
+
+SKIPPED: cv::pow (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::pow (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::randShuffle (function)
+   can not map type RawPtr[Unknown[RNG]] yet
+
+SKIPPED: cv::rawInOut (function)
+   return type class Unknown[template<typename _Tp> _InputOutputArray] is ignored
+
+SKIPPED: cv::rawIn (function)
+   return type class Unknown[template<typename _Tp> _InputArray] is ignored
+
+SKIPPED: cv::rawOut (function)
+   return type class Unknown[template<typename _Tp> _OutputArray] is ignored
+
+SKIPPED: cv::read (function)
+   ignored by rename table
+
+SKIPPED: cv::redirectError (function)
+   return type class Unknown[ErrorCallback] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < float16_t > (function)
+   return type class Unknown[template<> float16_t] is ignored
+
+SKIPPED: cv::saturate_cast < int64 > (function)
+   return type class Unknown[template<> int64] is ignored
+
+SKIPPED: cv::saturate_cast < int64_t > (function)
+   return type class Unknown[template<> int64_t] is ignored
+
+SKIPPED: cv::saturate_cast < int64_t > (function)
+   return type class Unknown[template<> int64_t] is ignored
+
+SKIPPED: cv::saturate_cast < int > (function)
+   return type class Unknown[template<> int] is ignored
+
+SKIPPED: cv::saturate_cast < int > (function)
+   return type class Unknown[template<> int] is ignored
+
+SKIPPED: cv::saturate_cast < int > (function)
+   return type class Unknown[template<> int] is ignored
+
+SKIPPED: cv::saturate_cast < int > (function)
+   return type class Unknown[template<> int] is ignored
+
+SKIPPED: cv::saturate_cast < int > (function)
+   return type class Unknown[template<> int] is ignored
+
+SKIPPED: cv::saturate_cast < int > (function)
+   return type class Unknown[template<> int] is ignored
+
+SKIPPED: cv::saturate_cast < int > (function)
+   return type class Unknown[template<> int] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < schar > (function)
+   return type class Unknown[template<> schar] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < short > (function)
+   return type class Unknown[template<> short] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uchar > (function)
+   return type class Unknown[template<> uchar] is ignored
+
+SKIPPED: cv::saturate_cast < uint64 > (function)
+   return type class Unknown[template<> uint64] is ignored
+
+SKIPPED: cv::saturate_cast < uint64 > (function)
+   return type class Unknown[template<> uint64] is ignored
+
+SKIPPED: cv::saturate_cast < uint64 > (function)
+   return type class Unknown[template<> uint64] is ignored
+
+SKIPPED: cv::saturate_cast < uint64 > (function)
+   return type class Unknown[template<> uint64] is ignored
+
+SKIPPED: cv::saturate_cast < uint64_t > (function)
+   return type class Unknown[template<> uint64_t] is ignored
+
+SKIPPED: cv::saturate_cast < uint64_t > (function)
+   return type class Unknown[template<> uint64_t] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < unsigned > (function)
+   return type class Unknown[template<> unsigned] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast < ushort > (function)
+   return type class Unknown[template<> ushort] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::saturate_cast (function)
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::setImpl (function)
+   ignored by rename table
+
+SKIPPED: cv::setUseCollection (function)
+   ignored by rename table
+
+SKIPPED: cv::sin (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::split (function)
+   ignored by rename table
+
+SKIPPED: cv::sqrt (function)
+   return type class Unknown[softdouble] is ignored
+
+SKIPPED: cv::sqrt (function)
+   return type class Unknown[softfloat] is ignored
+
+SKIPPED: cv::theRNG (function)
+   return type class Unknown[RNG] is ignored
+
+SKIPPED: cv::useCollection (function)
+   ignored by rename table
+
+SKIPPED: cv::va_intel::ocl::initializeContextFromVA (function)
+   return type class Unknown[Context] is ignored
+
+SKIPPED: cv::vconcat (function)
+   ignored by rename table
+
+SKIPPED: cv_vrecp_f32 (function)
+   return type class Unknown[float32x2_t] is ignored
+
+SKIPPED: cv_vrecpq_f32 (function)
+   return type class Unknown[float32x4_t] is ignored
+
+SKIPPED: cv_vrnd_s32_f32 (function)
+   return type class Unknown[int32x2_t] is ignored
+
+SKIPPED: cv_vrnd_u32_f32 (function)
+   return type class Unknown[uint32x2_t] is ignored
+
+SKIPPED: cv_vrndq_s32_f32 (function)
+   return type class Unknown[int32x4_t] is ignored
+
+SKIPPED: cv_vrndq_u32_f32 (function)
+   return type class Unknown[uint32x4_t] is ignored
+
+SKIPPED: cv_vrsqrt_f32 (function)
+   return type class Unknown[float32x2_t] is ignored
+
+SKIPPED: cv_vrsqrtq_f32 (function)
+   return type class Unknown[float32x4_t] is ignored
+
+SKIPPED: cv_vsqrt_f32 (function)
+   return type class Unknown[float32x2_t] is ignored
+
+SKIPPED: cv_vsqrtq_f32 (function)
+   return type class Unknown[float32x4_t] is ignored
+
+SKIPPED: cv::write (function)
+   return type class Unknown[template<> void] is ignored
+
+SKIPPED: cv::write (function)
+   return type class Unknown[template<typename _Tp> void] is ignored
+
+SKIPPED: cv::write (function)
+   return type class Unknown[template<> void] is ignored
+
+SKIPPED: cv::write (function)
+   return type class Unknown[template<> void] is ignored
+
+SKIPPED: cv::write (function)
+   return type class Unknown[template<> void] is ignored
+
+SKIPPED: cv::Algorithm::Ptr < _Tp > read (method) cv::Algorithm (trait) . Ptr < _Tp > read
+   return type class Unknown[template<typename _Tp> static Ptr<_Tp>] is ignored
+
+SKIPPED: cv::Algorithm::Ptr < _Tp > load (method) cv::Algorithm (trait) . Ptr < _Tp > load
+   return type class Unknown[template<typename _Tp> static Ptr<_Tp>] is ignored
+
+SKIPPED: cv::Algorithm::Ptr < _Tp > loadFromString (method) cv::Algorithm (trait) . Ptr < _Tp > loadFromString
+   return type class Unknown[template<typename _Tp> static Ptr<_Tp>] is ignored
+
+SKIPPED: cv::Algorithm::clear (method) cv::Algorithm (trait) . clear
+   already there
+
+SKIPPED: cv::Algorithm::write (method) cv::Algorithm (trait) . write
+   already there
+
+SKIPPED: cv::Algorithm::write (method) cv::Algorithm (trait) . write
+   already there
+
+SKIPPED: cv::Algorithm::read (method) cv::Algorithm (trait) . read
+   already there
+
+SKIPPED: cv::Algorithm::empty (method) cv::Algorithm (trait) . empty
+   already there
+
+SKIPPED: cv::Algorithm::Ptr < _Tp > read (method) cv::Algorithm (trait) . Ptr < _Tp > read
+   return type class Unknown[template<typename _Tp> static Ptr<_Tp>] is ignored
+
+SKIPPED: cv::Algorithm::Ptr < _Tp > load (method) cv::Algorithm (trait) . Ptr < _Tp > load
+   return type class Unknown[template<typename _Tp> static Ptr<_Tp>] is ignored
+
+SKIPPED: cv::Algorithm::Ptr < _Tp > loadFromString (method) cv::Algorithm (trait) . Ptr < _Tp > loadFromString
+   return type class Unknown[template<typename _Tp> static Ptr<_Tp>] is ignored
+
+SKIPPED: cv::Algorithm::save (method) cv::Algorithm (trait) . save
+   already there
+
+SKIPPED: cv::Algorithm::getDefaultName (method) cv::Algorithm (trait) . getDefaultName
+   already there
+
+SKIPPED: cv::AsyncArray::AsyncArray (constructor) cv::AsyncArray . new
+   can not map type Unknown[AsyncArray&] yet
+
+SKIPPED: cv::AsyncArray::getFutureMat (method) cv::AsyncArray . getFutureMat
+   return type class Unknown[std::future<Mat>] is ignored
+
+SKIPPED: cv::AsyncArray::getFutureUMat (method) cv::AsyncArray . getFutureUMat
+   return type class Unknown[std::future<UMat>] is ignored
+
+SKIPPED: cv::AsyncArray::_getImpl (method) cv::AsyncArray . _getImpl
+   ignored by rename table
+
+SKIPPED: cv::CommandLineParser::CommandLineParser (constructor) cv::CommandLineParser . new
+   can not map type RawPtr[Unknown[char* const]] yet
+
+SKIPPED: cv::CommandLineParser::get (method) cv::CommandLineParser . get
+   return type class Unknown[template <typename T> T] is ignored
+
+SKIPPED: cv::CommandLineParser::get (method) cv::CommandLineParser . get
+   return type class Unknown[template <typename T> T] is ignored
+
+SKIPPED: cv::DMatch::DMatch (constructor) cv::DMatch (simple) . default
+   already there
+
+SKIPPED: cv::DMatch::DMatch (constructor) cv::DMatch (simple) . new
+   already there
+
+SKIPPED: cv::DMatch::DMatch (constructor) cv::DMatch (simple) . new
+   already there
+
+SKIPPED: cv::FileNode::begin (method) cv::FileNode . begin
+   return type class Unknown[FileNodeIterator] is ignored
+
+SKIPPED: cv::FileNode::end (method) cv::FileNode . end
+   return type class Unknown[FileNodeIterator] is ignored
+
+SKIPPED: cv::FileNodeIterator::FileNodeIterator (constructor) cv::FileNodeIterator . default
+   return type class Unknown[FileNodeIterator] is ignored
+
+SKIPPED: cv::FileNodeIterator::FileNodeIterator (constructor) cv::FileNodeIterator . new
+   return type class Unknown[FileNodeIterator] is ignored
+
+SKIPPED: cv::FileNodeIterator::FileNodeIterator (constructor) cv::FileNodeIterator . copy
+   return type class Unknown[FileNodeIterator] is ignored
+
+SKIPPED: cv::KeyPoint::KeyPoint (constructor) cv::KeyPoint (simple) . default
+   already there
+
+SKIPPED: cv::KeyPoint::KeyPoint (constructor) cv::KeyPoint (simple) . new
+   already there
+
+SKIPPED: cv::KeyPoint::KeyPoint (constructor) cv::KeyPoint (simple) . new
+   already there
+
+SKIPPED: cv::Mat::allocator (method) cv::Mat . allocator
+   return type class RawPtr[Unknown[MatAllocator]] is ignored
+
+SKIPPED: cv::Mat::u (method) cv::Mat . u
+   return type class RawPtr[Unknown[UMatData]] is ignored
+
+SKIPPED: cv::Mat::set_size (method) cv::Mat . set_size
+   ignored by rename table
+
+SKIPPED: cv::Mat::set_step (method) cv::Mat . set_step
+   ignored by rename table
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   ignored by rename table
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   ignored by rename table
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   ignored by rename table
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   ignored by rename table
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   can not map type Vector[Unknown[_Tp]] yet
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   can not map type Unknown[Point_<_Tp>] yet
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   can not map type Unknown[Point3_<_Tp>] yet
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   can not map type Unknown[MatCommaInitializer_<_Tp>] yet
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . copy
+   can not map type Unknown[cuda::GpuMat] yet
+
+SKIPPED: cv::Mat::reshape (method) cv::Mat . reshape
+   ignored by rename table
+
+SKIPPED: cv::Mat::create (method) cv::Mat . create
+   ignored by rename table
+
+SKIPPED: cv::Mat::copySize (method) cv::Mat . copySize
+   ignored by rename table
+
+SKIPPED: cv::Mat::push_back_ (method) cv::Mat . push_back_
+   ignored by rename table
+
+SKIPPED: cv::Mat::push_back (method) cv::Mat . push_back
+   return type class Unknown[template<typename _Tp> void] is ignored
+
+SKIPPED: cv::Mat::push_back (method) cv::Mat . push_back
+   return type class Unknown[template<typename _Tp> void] is ignored
+
+SKIPPED: cv::Mat::push_back (method) cv::Mat . push_back
+   return type class Unknown[template<typename _Tp> void] is ignored
+
+SKIPPED: cv::Mat::ptr (method) cv::Mat . ptr
+   already there
+
+SKIPPED: cv::Mat::ptr (method) cv::Mat . ptr
+   already there
+
+SKIPPED: cv::Mat::ptr (method) cv::Mat . ptr
+   already there
+
+SKIPPED: cv::Mat::ptr (method) cv::Mat . ptr
+   already there
+
+SKIPPED: cv::Mat::ptr (method) cv::Mat . ptr
+   already there
+
+SKIPPED: cv::Mat::ptr (method) cv::Mat . ptr
+   already there
+
+SKIPPED: cv::Mat::ptr (method) cv::Mat . ptr
+   already there
+
+SKIPPED: cv::Mat::ptr (method) cv::Mat . ptr
+   already there
+
+SKIPPED: cv::Mat::at (method) cv::Mat . at
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::Mat::at (method) cv::Mat . at
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::Mat::begin (method) cv::Mat . begin
+   return type class Unknown[template<typename _Tp> MatIterator_<_Tp>] is ignored
+
+SKIPPED: cv::Mat::begin (method) cv::Mat . begin
+   return type class Unknown[template<typename _Tp> MatConstIterator_<_Tp>] is ignored
+
+SKIPPED: cv::Mat::end (method) cv::Mat . end
+   return type class Unknown[template<typename _Tp> MatIterator_<_Tp>] is ignored
+
+SKIPPED: cv::Mat::end (method) cv::Mat . end
+   return type class Unknown[template<typename _Tp> MatConstIterator_<_Tp>] is ignored
+
+SKIPPED: cv::Mat::Mat (constructor) cv::Mat . new
+   can not map type Unknown[Mat&] yet
+
+SKIPPED: cv::Mat::getStdAllocator (method) cv::Mat . getStdAllocator
+   return type class RawPtr[Unknown[MatAllocator]] is ignored
+
+SKIPPED: cv::Mat::getDefaultAllocator (method) cv::Mat . getDefaultAllocator
+   return type class RawPtr[Unknown[MatAllocator]] is ignored
+
+SKIPPED: cv::Mat::setDefaultAllocator (method) cv::Mat . setDefaultAllocator
+   can not map type RawPtr[Unknown[MatAllocator]] yet
+
+SKIPPED: cv::NAryMatIterator::NAryMatIterator (constructor) cv::NAryMatIterator . new
+   can not map type RawPtr[RawPtr[cv::Mat (boxed)]] yet
+
+SKIPPED: cv::NAryMatIterator::NAryMatIterator (constructor) cv::NAryMatIterator . new
+   can not map type RawPtr[RawPtr[cv::Mat (boxed)]] yet
+
+SKIPPED: cv::NAryMatIterator::init (method) cv::NAryMatIterator . init
+   can not map type RawPtr[RawPtr[cv::Mat (boxed)]] yet
+
+SKIPPED: cv::ParallelLoopBodyLambdaWrapper::ParallelLoopBodyLambdaWrapper (constructor) cv::ParallelLoopBodyLambdaWrapper . new
+   can not map type Unknown[std::function<void(Range&)>] yet
+
+SKIPPED: cv::Range::Range (constructor) cv::Range . default
+   already there
+
+SKIPPED: cv::Range::Range (constructor) cv::Range . new
+   already there
+
+SKIPPED: cv::Range::size (method) cv::Range . size
+   already there
+
+SKIPPED: cv::Range::empty (method) cv::Range . empty
+   already there
+
+SKIPPED: cv::Range::all (method) cv::Range . all
+   already there
+
+SKIPPED: cv::RotatedRect::RotatedRect (constructor) cv::RotatedRect . default
+   already there
+
+SKIPPED: cv::RotatedRect::RotatedRect (constructor) cv::RotatedRect . new
+   already there
+
+SKIPPED: cv::SparseMat::ref (method) cv::SparseMat . ref
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::ref (method) cv::SparseMat . ref
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::ref (method) cv::SparseMat . ref
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::ref (method) cv::SparseMat . ref
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::value (method) cv::SparseMat . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::value (method) cv::SparseMat . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::value (method) cv::SparseMat . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::value (method) cv::SparseMat . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::find (method) cv::SparseMat . find
+   return type class RawPtr[Unknown[template<typename _Tp> _Tp]] is ignored
+
+SKIPPED: cv::SparseMat::find (method) cv::SparseMat . find
+   return type class RawPtr[Unknown[template<typename _Tp> _Tp]] is ignored
+
+SKIPPED: cv::SparseMat::find (method) cv::SparseMat . find
+   return type class RawPtr[Unknown[template<typename _Tp> _Tp]] is ignored
+
+SKIPPED: cv::SparseMat::find (method) cv::SparseMat . find
+   return type class RawPtr[Unknown[template<typename _Tp> _Tp]] is ignored
+
+SKIPPED: cv::SparseMat::begin (method) cv::SparseMat . begin
+   return type class Unknown[SparseMatIterator] is ignored
+
+SKIPPED: cv::SparseMat::begin (method) cv::SparseMat . begin
+   return type class Unknown[template<typename _Tp> SparseMatIterator_<_Tp>] is ignored
+
+SKIPPED: cv::SparseMat::begin (method) cv::SparseMat . begin
+   return type class Unknown[SparseMatConstIterator] is ignored
+
+SKIPPED: cv::SparseMat::begin (method) cv::SparseMat . begin
+   return type class Unknown[template<typename _Tp> SparseMatConstIterator_<_Tp>] is ignored
+
+SKIPPED: cv::SparseMat::end (method) cv::SparseMat . end
+   return type class Unknown[SparseMatIterator] is ignored
+
+SKIPPED: cv::SparseMat::end (method) cv::SparseMat . end
+   return type class Unknown[SparseMatConstIterator] is ignored
+
+SKIPPED: cv::SparseMat::end (method) cv::SparseMat . end
+   return type class Unknown[template<typename _Tp> SparseMatIterator_<_Tp>] is ignored
+
+SKIPPED: cv::SparseMat::end (method) cv::SparseMat . end
+   return type class Unknown[template<typename _Tp> SparseMatConstIterator_<_Tp>] is ignored
+
+SKIPPED: cv::SparseMat::value (method) cv::SparseMat . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMat::value (method) cv::SparseMat . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMatConstIterator::value (method) cv::SparseMatConstIterator (trait) . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMatConstIterator::SparseMatConstIterator (constructor) cv::SparseMatConstIterator (trait) . default
+   return type class Unknown[SparseMatConstIterator] is ignored
+
+SKIPPED: cv::SparseMatConstIterator::SparseMatConstIterator (constructor) cv::SparseMatConstIterator (trait) . new
+   return type class Unknown[SparseMatConstIterator] is ignored
+
+SKIPPED: cv::SparseMatConstIterator::SparseMatConstIterator (constructor) cv::SparseMatConstIterator (trait) . copy
+   return type class Unknown[SparseMatConstIterator] is ignored
+
+SKIPPED: cv::SparseMatConstIterator::value (method) cv::SparseMatConstIterator (trait) . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::SparseMatConstIterator::node (method) cv::SparseMatConstIterator (trait) . node
+   already there
+
+SKIPPED: cv::SparseMatConstIterator::seekEnd (method) cv::SparseMatConstIterator (trait) . seekEnd
+   already there
+
+SKIPPED: cv::SparseMatIterator::SparseMatIterator (constructor) cv::SparseMatIterator . default
+   return type class Unknown[SparseMatIterator] is ignored
+
+SKIPPED: cv::SparseMatIterator::SparseMatIterator (constructor) cv::SparseMatIterator . new
+   return type class Unknown[SparseMatIterator] is ignored
+
+SKIPPED: cv::SparseMatIterator::SparseMatIterator (constructor) cv::SparseMatIterator . new
+   return type class Unknown[SparseMatIterator] is ignored
+
+SKIPPED: cv::SparseMatIterator::SparseMatIterator (constructor) cv::SparseMatIterator . copy
+   return type class Unknown[SparseMatIterator] is ignored
+
+SKIPPED: cv::SparseMatIterator::value (method) cv::SparseMatIterator . value
+   return type class Unknown[template<typename _Tp> _Tp] is ignored
+
+SKIPPED: cv::TermCriteria::TermCriteria (constructor) cv::TermCriteria . default
+   already there
+
+SKIPPED: cv::TermCriteria::TermCriteria (constructor) cv::TermCriteria . new
+   already there
+
+SKIPPED: cv::UMat::allocator (method) cv::UMat . allocator
+   return type class RawPtr[Unknown[MatAllocator]] is ignored
+
+SKIPPED: cv::UMat::u (method) cv::UMat . u
+   return type class RawPtr[Unknown[UMatData]] is ignored
+
+SKIPPED: cv::UMat::set_size (method) cv::UMat . set_size
+   ignored by rename table
+
+SKIPPED: cv::UMat::set_step (method) cv::UMat . set_step
+   ignored by rename table
+
+SKIPPED: cv::UMat::UMat (constructor) cv::UMat . new
+   ignored by rename table
+
+SKIPPED: cv::UMat::UMat (constructor) cv::UMat . new
+   can not map type Vector[Unknown[_Tp]] yet
+
+SKIPPED: cv::UMat::UMat (constructor) cv::UMat . new
+   can not map type Unknown[Point_<_Tp>] yet
+
+SKIPPED: cv::UMat::UMat (constructor) cv::UMat . new
+   can not map type Unknown[Point3_<_Tp>] yet
+
+SKIPPED: cv::UMat::UMat (constructor) cv::UMat . new
+   can not map type Unknown[MatCommaInitializer_<_Tp>] yet
+
+SKIPPED: cv::UMat::create (method) cv::UMat . create
+   ignored by rename table
+
+SKIPPED: cv::UMat::copySize (method) cv::UMat . copySize
+   ignored by rename table
+
+SKIPPED: cv::UMat::UMat (constructor) cv::UMat . new
+   can not map type Unknown[UMat&] yet
+
+SKIPPED: cv::UMat::getStdAllocator (method) cv::UMat . getStdAllocator
+   return type class RawPtr[Unknown[MatAllocator]] is ignored
+
+SKIPPED: cv::UMatData::UMatData (constructor) cv::UMatData . new
+   return type class Unknown[UMatData] is ignored
+
+SKIPPED: cv::_InputArray::_InputArray rawIn (method) cv::_InputArray (trait) . _InputArray rawIn
+   return type class Unknown[template<typename _Tp> static _InputArray] is ignored
+
+SKIPPED: cv::_InputArray::getGpuMatVector (method) cv::_InputArray (trait) . getGpuMatVector
+   can not map type Vector[Unknown[cuda::GpuMat]] yet
+
+SKIPPED: cv::_InputArray::getGpuMat (method) cv::_InputArray (trait) . getGpuMat
+   return type class Unknown[cuda::GpuMat] is ignored
+
+SKIPPED: cv::_InputArray::getOGlBuffer (method) cv::_InputArray (trait) . getOGlBuffer
+   return type class Unknown[ogl::Buffer] is ignored
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Unknown[Mat_<_Tp>] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Vector[Unknown[_Tp]] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Vector[Vector[Unknown[_Tp]]] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Vector[Unknown[Mat_<_Tp>]] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type RawPtr[Unknown[_Tp]] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Unknown[cuda::GpuMat] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Vector[Unknown[cuda::GpuMat]] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Unknown[ogl::Buffer] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Unknown[cuda::HostMem] yet
+
+SKIPPED: cv::_InputArray::_InputArray (constructor) cv::_InputArray (trait) . new
+   can not map type Unknown[cudev::GpuMat_<_Tp>] yet
+
+SKIPPED: cv::_InputArray::_InputArray rawIn (method) cv::_InputArray (trait) . _InputArray rawIn
+   return type class Unknown[template<typename _Tp> static _InputArray] is ignored
+
+SKIPPED: cv::_InputArray::getMat (method) cv::_InputArray (trait) . getMat
+   already there
+
+SKIPPED: cv::_InputArray::getMat_ (method) cv::_InputArray (trait) . getMat_
+   already there
+
+SKIPPED: cv::_InputArray::getUMat (method) cv::_InputArray (trait) . getUMat
+   already there
+
+SKIPPED: cv::_InputArray::getMatVector (method) cv::_InputArray (trait) . getMatVector
+   already there
+
+SKIPPED: cv::_InputArray::getUMatVector (method) cv::_InputArray (trait) . getUMatVector
+   already there
+
+SKIPPED: cv::_InputArray::getGpuMatVector (method) cv::_InputArray (trait) . getGpuMatVector
+   can not map type Vector[Unknown[cuda::GpuMat]] yet
+
+SKIPPED: cv::_InputArray::getGpuMat (method) cv::_InputArray (trait) . getGpuMat
+   return type class Unknown[cuda::GpuMat] is ignored
+
+SKIPPED: cv::_InputArray::getOGlBuffer (method) cv::_InputArray (trait) . getOGlBuffer
+   return type class Unknown[ogl::Buffer] is ignored
+
+SKIPPED: cv::_InputArray::getFlags (method) cv::_InputArray (trait) . getFlags
+   already there
+
+SKIPPED: cv::_InputArray::getObj (method) cv::_InputArray (trait) . getObj
+   already there
+
+SKIPPED: cv::_InputArray::getSz (method) cv::_InputArray (trait) . getSz
+   already there
+
+SKIPPED: cv::_InputArray::kind (method) cv::_InputArray (trait) . kind
+   already there
+
+SKIPPED: cv::_InputArray::dims (method) cv::_InputArray (trait) . dims
+   already there
+
+SKIPPED: cv::_InputArray::cols (method) cv::_InputArray (trait) . cols
+   already there
+
+SKIPPED: cv::_InputArray::rows (method) cv::_InputArray (trait) . rows
+   already there
+
+SKIPPED: cv::_InputArray::size (method) cv::_InputArray (trait) . size
+   already there
+
+SKIPPED: cv::_InputArray::sizend (method) cv::_InputArray (trait) . sizend
+   already there
+
+SKIPPED: cv::_InputArray::sameSize (method) cv::_InputArray (trait) . sameSize
+   already there
+
+SKIPPED: cv::_InputArray::total (method) cv::_InputArray (trait) . total
+   already there
+
+SKIPPED: cv::_InputArray::type (method) cv::_InputArray (trait) . type
+   already there
+
+SKIPPED: cv::_InputArray::depth (method) cv::_InputArray (trait) . depth
+   already there
+
+SKIPPED: cv::_InputArray::channels (method) cv::_InputArray (trait) . channels
+   already there
+
+SKIPPED: cv::_InputArray::isContinuous (method) cv::_InputArray (trait) . isContinuous
+   already there
+
+SKIPPED: cv::_InputArray::isSubmatrix (method) cv::_InputArray (trait) . isSubmatrix
+   already there
+
+SKIPPED: cv::_InputArray::empty (method) cv::_InputArray (trait) . empty
+   already there
+
+SKIPPED: cv::_InputArray::copyTo (method) cv::_InputArray (trait) . copyTo
+   already there
+
+SKIPPED: cv::_InputArray::copyTo (method) cv::_InputArray (trait) . copyTo
+   already there
+
+SKIPPED: cv::_InputArray::offset (method) cv::_InputArray (trait) . offset
+   already there
+
+SKIPPED: cv::_InputArray::step (method) cv::_InputArray (trait) . step
+   already there
+
+SKIPPED: cv::_InputArray::isMat (method) cv::_InputArray (trait) . isMat
+   already there
+
+SKIPPED: cv::_InputArray::isUMat (method) cv::_InputArray (trait) . isUMat
+   already there
+
+SKIPPED: cv::_InputArray::isMatVector (method) cv::_InputArray (trait) . isMatVector
+   already there
+
+SKIPPED: cv::_InputArray::isUMatVector (method) cv::_InputArray (trait) . isUMatVector
+   already there
+
+SKIPPED: cv::_InputArray::isMatx (method) cv::_InputArray (trait) . isMatx
+   already there
+
+SKIPPED: cv::_InputArray::isVector (method) cv::_InputArray (trait) . isVector
+   already there
+
+SKIPPED: cv::_InputArray::isGpuMat (method) cv::_InputArray (trait) . isGpuMat
+   already there
+
+SKIPPED: cv::_InputArray::isGpuMatVector (method) cv::_InputArray (trait) . isGpuMatVector
+   already there
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray rawInOut (method) cv::_InputOutputArray (trait) . _InputOutputArray rawInOut
+   return type class Unknown[template<typename _Tp> static _InputOutputArray] is ignored
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[cuda::GpuMat] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[ogl::Buffer] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[cuda::HostMem] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[cudev::GpuMat_<_Tp>] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Vector[Unknown[_Tp]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Vector[Vector[Unknown[_Tp]]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Vector[Unknown[Mat_<_Tp>]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[Mat_<_Tp>] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type RawPtr[Unknown[_Tp]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   already there
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   already there
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[cuda::GpuMat] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Vector[Unknown[cuda::GpuMat]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[ogl::Buffer] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[cuda::HostMem] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[cudev::GpuMat_<_Tp>] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Vector[Unknown[_Tp]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Vector[Vector[Unknown[_Tp]]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Vector[Unknown[Mat_<_Tp>]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type Unknown[Mat_<_Tp>] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   can not map type RawPtr[Unknown[_Tp]] yet
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   already there
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray (constructor) cv::_InputOutputArray (trait) . new
+   already there
+
+SKIPPED: cv::_InputOutputArray::_InputOutputArray rawInOut (method) cv::_InputOutputArray (trait) . _InputOutputArray rawInOut
+   return type class Unknown[template<typename _Tp> static _InputOutputArray] is ignored
+
+SKIPPED: cv::_OutputArray::_OutputArray rawOut (method) cv::_OutputArray (trait) . _OutputArray rawOut
+   return type class Unknown[template<typename _Tp> static _OutputArray] is ignored
+
+SKIPPED: cv::_OutputArray::getGpuMatRef (method) cv::_OutputArray (trait) . getGpuMatRef
+   return type class Unknown[cuda::GpuMat] is ignored
+
+SKIPPED: cv::_OutputArray::getGpuMatVecRef (method) cv::_OutputArray (trait) . getGpuMatVecRef
+   return type class Vector[Unknown[cuda::GpuMat]] is ignored
+
+SKIPPED: cv::_OutputArray::getOGlBufferRef (method) cv::_OutputArray (trait) . getOGlBufferRef
+   return type class Unknown[ogl::Buffer] is ignored
+
+SKIPPED: cv::_OutputArray::getHostMemRef (method) cv::_OutputArray (trait) . getHostMemRef
+   return type class Unknown[cuda::HostMem] is ignored
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[cuda::GpuMat] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Vector[Unknown[cuda::GpuMat]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[ogl::Buffer] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[cuda::HostMem] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[cudev::GpuMat_<_Tp>] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Vector[Unknown[_Tp]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Vector[Vector[Unknown[_Tp]]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Vector[Unknown[Mat_<_Tp>]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[Mat_<_Tp>] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type RawPtr[Unknown[_Tp]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   already there
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   already there
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[cuda::GpuMat] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Vector[Unknown[cuda::GpuMat]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[ogl::Buffer] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[cuda::HostMem] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[cudev::GpuMat_<_Tp>] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Vector[Unknown[_Tp]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Vector[Vector[Unknown[_Tp]]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Vector[Unknown[Mat_<_Tp>]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type Unknown[Mat_<_Tp>] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   can not map type RawPtr[Unknown[_Tp]] yet
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   already there
+
+SKIPPED: cv::_OutputArray::_OutputArray (constructor) cv::_OutputArray (trait) . new
+   already there
+
+SKIPPED: cv::_OutputArray::_OutputArray rawOut (method) cv::_OutputArray (trait) . _OutputArray rawOut
+   return type class Unknown[template<typename _Tp> static _OutputArray] is ignored
+
+SKIPPED: cv::_OutputArray::fixedSize (method) cv::_OutputArray (trait) . fixedSize
+   already there
+
+SKIPPED: cv::_OutputArray::fixedType (method) cv::_OutputArray (trait) . fixedType
+   already there
+
+SKIPPED: cv::_OutputArray::needed (method) cv::_OutputArray (trait) . needed
+   already there
+
+SKIPPED: cv::_OutputArray::getMatRef (method) cv::_OutputArray (trait) . getMatRef
+   already there
+
+SKIPPED: cv::_OutputArray::getUMatRef (method) cv::_OutputArray (trait) . getUMatRef
+   already there
+
+SKIPPED: cv::_OutputArray::getGpuMatRef (method) cv::_OutputArray (trait) . getGpuMatRef
+   return type class Unknown[cuda::GpuMat] is ignored
+
+SKIPPED: cv::_OutputArray::getGpuMatVecRef (method) cv::_OutputArray (trait) . getGpuMatVecRef
+   return type class Vector[Unknown[cuda::GpuMat]] is ignored
+
+SKIPPED: cv::_OutputArray::getOGlBufferRef (method) cv::_OutputArray (trait) . getOGlBufferRef
+   return type class Unknown[ogl::Buffer] is ignored
+
+SKIPPED: cv::_OutputArray::getHostMemRef (method) cv::_OutputArray (trait) . getHostMemRef
+   return type class Unknown[cuda::HostMem] is ignored
+
+SKIPPED: cv::_OutputArray::create (method) cv::_OutputArray (trait) . create
+   already there
+
+SKIPPED: cv::_OutputArray::create (method) cv::_OutputArray (trait) . create
+   already there
+
+SKIPPED: cv::_OutputArray::create (method) cv::_OutputArray (trait) . create
+   already there
+
+SKIPPED: cv::_OutputArray::createSameSize (method) cv::_OutputArray (trait) . createSameSize
+   already there
+
+SKIPPED: cv::_OutputArray::release (method) cv::_OutputArray (trait) . release
+   already there
+
+SKIPPED: cv::_OutputArray::clear (method) cv::_OutputArray (trait) . clear
+   already there
+
+SKIPPED: cv::_OutputArray::setTo (method) cv::_OutputArray (trait) . setTo
+   already there
+
+SKIPPED: cv::_OutputArray::assign (method) cv::_OutputArray (trait) . assign
+   already there
+
+SKIPPED: cv::_OutputArray::assign (method) cv::_OutputArray (trait) . assign
+   already there
+
+SKIPPED: cv::_OutputArray::assign (method) cv::_OutputArray (trait) . assign
+   already there
+
+SKIPPED: cv::_OutputArray::assign (method) cv::_OutputArray (trait) . assign
+   already there
+
+SKIPPED: cv::_OutputArray::move (method) cv::_OutputArray (trait) . move
+   already there
+
+SKIPPED: cv::_OutputArray::move (method) cv::_OutputArray (trait) . move
+   already there
+
+SKIPPED: cv::ocl::Context::getProg (method) cv::ocl::Context . getProg
+   return type class Unknown[Program] is ignored
+
+SKIPPED: cv::ocl::Context::unloadProg (method) cv::ocl::Context . unloadProg
+   can not map type Unknown[Program] yet
+
+SKIPPED: cv::ocl::Context::getDefault (method) cv::ocl::Context . getDefault
+   return type class Unknown[Context] is ignored
+
+SKIPPED: cv::ocl::Context::void initializeContextFromHandle (method) cv::ocl::Context . void initializeContextFromHandle
+   return type class Unknown[friend void] is ignored
+
+SKIPPED: cv::ocl::Context::getImpl (method) cv::ocl::Context . getImpl
+   return type class RawPtr[Unknown[Impl]] is ignored
+
+SKIPPED: cv::ocl::Kernel::Kernel (constructor) cv::ocl::Kernel . new
+   can not map type Unknown[Program] yet
+
+SKIPPED: cv::ocl::Kernel::Kernel (constructor) cv::ocl::Kernel . new
+   can not map type Unknown[ProgramSource] yet
+
+SKIPPED: cv::ocl::Kernel::create (method) cv::ocl::Kernel . create
+   can not map type Unknown[Program] yet
+
+SKIPPED: cv::ocl::Kernel::create (method) cv::ocl::Kernel . create
+   can not map type Unknown[ProgramSource] yet
+
+SKIPPED: cv::ocl::Kernel::set (method) cv::ocl::Kernel . set
+   can not map type Unknown[Image2D] yet
+
+SKIPPED: cv::ocl::Kernel::set (method) cv::ocl::Kernel . set
+   return type class Unknown[template<typename _Tp> int] is ignored
+
+SKIPPED: cv::ocl::Kernel::args (method) cv::ocl::Kernel . args
+   return type class Unknown[template<typename... _Tps> Kernel] is ignored
+
+SKIPPED: cv::ocl::KernelArg::KernelArg Constant (method) cv::ocl::KernelArg . KernelArg Constant
+   return type class Unknown[template<typename _Tp> static KernelArg] is ignored
+
+SKIPPED: cv::ocl::Platform::void initializeContextFromHandle (method) cv::ocl::Platform . void initializeContextFromHandle
+   return type class Unknown[friend void] is ignored
+
+SKIPPED: cv::ocl::Program::Program (constructor) cv::ocl::Program . default
+   return type class Unknown[Program] is ignored
+
+SKIPPED: cv::ocl::Program::Program (constructor) cv::ocl::Program . new
+   return type class Unknown[Program] is ignored
+
+SKIPPED: cv::ocl::Program::Program (constructor) cv::ocl::Program . copy
+   return type class Unknown[Program] is ignored
+
+SKIPPED: cv::ocl::Program::create (method) cv::ocl::Program . create
+   can not map type Unknown[ProgramSource] yet
+
+SKIPPED: cv::ocl::Program::getImpl (method) cv::ocl::Program . getImpl
+   return type class RawPtr[Unknown[Impl]] is ignored
+
+SKIPPED: cv::ocl::Program::source (method) cv::ocl::Program . source
+   return type class Unknown[ProgramSource] is ignored
+
+SKIPPED: cv::ocl::ProgramSource::ProgramSource (constructor) cv::ocl::ProgramSource . new
+   ignored by rename table
+
+SKIPPED: cv::ocl::ProgramSource::ProgramSource (constructor) cv::ocl::ProgramSource . copy
+   can not map type Unknown[ProgramSource] yet
+
+SKIPPED: cv::ocl::ProgramSource::getImpl (method) cv::ocl::ProgramSource . getImpl
+   return type class RawPtr[Unknown[Impl]] is ignored
+
+SKIPPED: cv::ocl::Queue::getImpl (method) cv::ocl::Queue . getImpl
+   return type class RawPtr[Unknown[Impl]] is ignored
+

@@ -1,0 +1,488 @@
+cargo:rerun-if-changed=hdr_parser.py
+cargo:rerun-if-changed=gen_rust.py
+cargo:rerun-if-env-changed=OPENCV_PKGCONFIG_NAME
+cargo:rerun-if-env-changed=OPENCV_HEADER_DIR
+Generating module 'dpm' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dpm.hpp
+Generating module 'hdf' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/hdf.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/hdf/hdf5.hpp
+Generating module 'line_descriptor' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/line_descriptor.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/line_descriptor/descriptor.hpp
+Generating module 'highgui' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/highgui.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/highgui/highgui.hpp
+Generating module 'img_hash' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/img_hash.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/img_hash/average_hash.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/img_hash/block_mean_hash.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/img_hash/color_moment_hash.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/img_hash/img_hash_base.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/img_hash/marr_hildreth_hash.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/img_hash/phash.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/img_hash/radial_variance_hash.hpp
+Generating module 'features2d' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/features2d.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/features2d/features2d.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/features2d/hal/interface.h
+Generating module 'imgcodecs' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/imgcodecs.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/imgcodecs/imgcodecs.hpp
+Generating module 'freetype' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/freetype.hpp
+Generating module 'ml' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ml.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ml/ml.hpp
+Generating module 'fuzzy' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/fuzzy.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/fuzzy/fuzzy_F0_math.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/fuzzy/fuzzy_F1_math.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/fuzzy/fuzzy_image.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/fuzzy/types.hpp
+Generating module 'objdetect' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/objdetect.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/objdetect/detection_based_tracker.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/objdetect/objdetect.hpp
+Generating module 'stitching' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/stitching.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/stitching/warpers.hpp
+Generating module 'phase_unwrapping' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/phase_unwrapping.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/phase_unwrapping/histogramphaseunwrapping.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/phase_unwrapping/phase_unwrapping.hpp
+Generating module 'structured_light' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/structured_light.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/structured_light/graycodepattern.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/structured_light/sinusoidalpattern.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/structured_light/structured_light.hpp
+Generating module 'superres' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/superres.hpp
+Generating module 'photo' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/photo.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/photo/photo.hpp
+Generating module 'imgproc' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/imgproc.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/imgproc/hal/interface.h
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/imgproc/imgproc.hpp
+Generating module 'plot' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/plot.hpp
+Generating module 'video' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/video.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/video/background_segm.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/video/tracking.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/video/video.hpp
+Generating module 'sfm' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/conditioning.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/fundamental.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/io.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/numeric.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/projection.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/reconstruct.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/robust.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/simple_pipeline.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/sfm/triangulation.hpp
+Generating module 'videoio' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videoio.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videoio/registry.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videoio/videoio.hpp
+Generating module 'shape' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/emdL1.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/hist_cost.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/shape.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/shape_distance.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/shape/shape_transformer.hpp
+Generating module 'xfeatures2d' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xfeatures2d.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xfeatures2d/nonfree.hpp
+Generating module 'xobjdetect' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xobjdetect.hpp
+Generating module 'videostab' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/deblurring.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/fast_marching.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/fast_marching_inl.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/frame_source.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/global_motion.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/inpainting.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/log.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/motion_core.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/motion_stabilizing.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/optical_flow.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/outlier_rejection.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/ring_buffer.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/stabilizer.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videostab/wobble_suppression.hpp
+Generating module 'xphoto' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/bm3d_image_denoising.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/dct_image_denoising.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/inpainting.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/oilpainting.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/tonemap.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/xphoto/white_balance.hpp
+Generating module 'cvv' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/call_meta_data.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/cvv.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/debug_mode.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/dmatch.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/filter.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/final_show.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/cvv/show_image.hpp
+Generating module 'calib3d' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/calib3d.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/calib3d/calib3d.hpp
+Generating module 'ccalib' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ccalib.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ccalib/multicalib.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ccalib/omnidir.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/ccalib/randpattern.hpp
+Generating module 'bgsegm' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bgsegm.hpp
+Generating module 'core' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/cvdef.h
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/version.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/base.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/traits.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/matx.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/types.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/mat.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/persistence.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/affine.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/async.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/bindings_utils.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/bufferpool.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/check.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/core.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/cv_cpu_helper.h
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/directx.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/hal/interface.h
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/neon_utils.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/ocl.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/ocl_genbase.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/optim.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/ovx.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/saturate.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/simd_intrinsics.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/softfloat.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/sse_utils.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/utility.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/utils/allocator_stats.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/utils/logger.defines.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/utils/logger.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/utils/logtag.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/va_intel.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/core/vsx_utils.hpp
+Generating module 'dnn' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dnn.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dnn/all_layers.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dnn/dict.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dnn/dnn.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dnn/layer.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dnn/shape_utils.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dnn/utils/inference_engine.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/dnn/version.hpp
+Generating module 'bioinspired' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired/bioinspired.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired/retina.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired/retinafasttonemapping.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/bioinspired/transientareassegmentationmodule.hpp
+Generating module 'aruco' from headers:
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/aruco/dictionary.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/aruco.hpp
+	/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/aruco/charuco.hpp
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-apple-darwin")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/aruco.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/aruco.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/bgsegm.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/bgsegm.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/bioinspired.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/bioinspired.cpp"
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp:3760:24: warning: 'cv_DMatch_DMatch' has C-linkage specified, but returns user-defined type 'cv_return_value_DMatch' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_DMatch cv_DMatch_DMatch() {
+cargo:warning=                       ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp:3773:24: warning: 'cv_DMatch_DMatch_int_int_float' has C-linkage specified, but returns user-defined type 'cv_return_value_DMatch' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_DMatch cv_DMatch_DMatch_int_int_float(int _queryIdx, int _trainIdx, float _distance) {
+cargo:warning=                       ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp:3787:24: warning: 'cv_DMatch_DMatch_int_int_int_float' has C-linkage specified, but returns user-defined type 'cv_return_value_DMatch' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_DMatch cv_DMatch_DMatch_int_int_int_float(int _queryIdx, int _trainIdx, int _imgIdx, float _distance) {
+cargo:warning=                       ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp:4509:26: warning: 'cv_KeyPoint_KeyPoint' has C-linkage specified, but returns user-defined type 'cv_return_value_KeyPoint' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_KeyPoint cv_KeyPoint_KeyPoint() {
+cargo:warning=                         ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp:4525:26: warning: 'cv_KeyPoint_KeyPoint_Point2f_float_float_float_int_int' has C-linkage specified, but returns user-defined type 'cv_return_value_KeyPoint' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_KeyPoint cv_KeyPoint_KeyPoint_Point2f_float_float_float_int_int(Point2fWrapper _pt, float _size, float _angle, float _response, int _octave, int _class_id) {
+cargo:warning=                         ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp:4542:26: warning: 'cv_KeyPoint_KeyPoint_float_float_float_float_float_int_int' has C-linkage specified, but returns user-defined type 'cv_return_value_KeyPoint' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_KeyPoint cv_KeyPoint_KeyPoint_float_float_float_float_float_int_int(float x, float y, float _size, float _angle, float _response, int _octave, int _class_id) {
+cargo:warning=                         ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp:6736:25: warning: 'cv_Moments_Moments' has C-linkage specified, but returns user-defined type 'cv_return_value_Moments' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_Moments cv_Moments_Moments() {
+cargo:warning=                        ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.cpp:6756:25: warning: 'cv_Moments_Moments_double_double_double_double_double_double_double_double_double_double' has C-linkage specified, but returns user-defined type 'cv_return_value_Moments' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_Moments cv_Moments_Moments_double_double_double_double_double_double_double_double_double_double(double m00, double m10, double m01, double m20, double m11, double m02, double m30, double m21, double m12, double m03) {
+cargo:warning=                        ^
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/calib3d.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/calib3d.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/ccalib.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/ccalib.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/cvv.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/cvv.cpp"
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/calib3d.cpp:1305:45: warning: 'cv_CirclesGridFinderParameters_CirclesGridFinderParameters' has C-linkage specified, but returns user-defined type 'cv_return_value_CirclesGridFinderParameters' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_CirclesGridFinderParameters cv_CirclesGridFinderParameters_CirclesGridFinderParameters() {
+cargo:warning=                                            ^
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/dnn.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/dnn.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/dpm.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/dpm.cpp"
+cargo:warning=1 warning generated.
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/features2d.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/features2d.cpp"
+cargo:warning=8 warnings generated.
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/freetype.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/freetype.cpp"
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/features2d.cpp:2185:43: warning: 'cv_SimpleBlobDetector_Params_Params' has C-linkage specified, but returns user-defined type 'cv_return_value_SimpleBlobDetector_Params' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_SimpleBlobDetector_Params cv_SimpleBlobDetector_Params_Params() {
+cargo:warning=                                          ^
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/fuzzy.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/fuzzy.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/hdf.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/hdf.cpp"
+cargo:warning=1 warning generated.
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/highgui.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/highgui.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/img_hash.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/img_hash.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/imgcodecs.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/imgcodecs.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/imgproc.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/imgproc.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/line_descriptor.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/line_descriptor.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/ml.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/ml.cpp"
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/line_descriptor.cpp:480:25: warning: 'cv_line_descriptor_KeyLine_KeyLine' has C-linkage specified, but returns user-defined type 'cv_return_value_KeyLine' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_KeyLine cv_line_descriptor_KeyLine_KeyLine() {
+cargo:warning=                        ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/line_descriptor.cpp:566:26: warning: 'cv_line_descriptor_LSDParam_LSDParam' has C-linkage specified, but returns user-defined type 'cv_return_value_LSDParam' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_LSDParam cv_line_descriptor_LSDParam_LSDParam() {
+cargo:warning=                         ^
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/objdetect.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/objdetect.cpp"
+cargo:warning=2 warnings generated.
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/phase_unwrapping.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/phase_unwrapping.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/photo.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/photo.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/plot.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/plot.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/sfm.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/sfm.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/shape.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/shape.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/stitching.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/stitching.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/structured_light.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/structured_light.cpp"
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/sfm.cpp:717:47: warning: 'cv_sfm_libmv_CameraIntrinsicsOptions_libmv_CameraIntrinsicsOptions_int_double_double_double_double_double_double_double_double_double' has C-linkage specified, but returns user-defined type 'cv_return_value_libmv_CameraIntrinsicsOptions' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_libmv_CameraIntrinsicsOptions cv_sfm_libmv_CameraIntrinsicsOptions_libmv_CameraIntrinsicsOptions_int_double_double_double_double_double_double_double_double_double(int _distortion_model, double _focal_length_x, double _focal_length_y, double _principal_point_x, double _principal_point_y, double _polynomial_k1, double _polynomial_k2, double _polynomial_k3, double _polynomial_p1, double _polynomial_p2) {
+cargo:warning=                                              ^
+cargo:warning=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/sfm.cpp:732:45: warning: 'cv_sfm_libmv_ReconstructionOptions_libmv_ReconstructionOptions_int_int_int_int_int' has C-linkage specified, but returns user-defined type 'cv_return_value_libmv_ReconstructionOptions' which is incompatible with C [-Wreturn-type-c-linkage]
+cargo:warning=cv_return_value_libmv_ReconstructionOptions cv_sfm_libmv_ReconstructionOptions_libmv_ReconstructionOptions_int_int_int_int_int(int _keyframe1, int _keyframe2, int _refine_intrinsics, int _select_keyframes, int _verbosity_level) {
+cargo:warning=                                            ^
+cargo:warning=2 warnings generated.
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/superres.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/superres.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/video.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/video.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/videoio.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/videoio.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/videostab.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/videostab.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xfeatures2d.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xfeatures2d.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xobjdetect.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xobjdetect.cpp"
+exit code: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-I" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out" "-I" "." "-Wall" "-Wextra" "-std=c++11" "-fno-strict-aliasing" "-Wno-deprecated-declarations" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xphoto.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xphoto.cpp"
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "crs" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/libocvrs.a" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/core.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/aruco.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/bgsegm.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/bioinspired.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/calib3d.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/ccalib.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/cvv.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/dnn.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/dpm.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/features2d.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/freetype.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/fuzzy.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/hdf.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/highgui.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/img_hash.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/imgcodecs.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/imgproc.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/line_descriptor.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/ml.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/objdetect.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/phase_unwrapping.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/photo.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/plot.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/sfm.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/shape.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/stitching.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/structured_light.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/superres.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/video.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/videoio.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/videostab.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xfeatures2d.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xobjdetect.o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/xphoto.o"
+exit code: 0
+cargo:rustc-link-lib=static=ocvrs
+cargo:rustc-link-search=native=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out
+CXXSTDLIB_x86_64-apple-darwin = None
+CXXSTDLIB_x86_64_apple_darwin = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=c++
+cargo:rustc-link-search=native=/usr/local/Cellar/opencv/4.1.1_2/lib
+cargo:rustc-link-lib=opencv_gapi
+cargo:rustc-link-lib=opencv_stitching
+cargo:rustc-link-lib=opencv_aruco
+cargo:rustc-link-lib=opencv_bgsegm
+cargo:rustc-link-lib=opencv_bioinspired
+cargo:rustc-link-lib=opencv_ccalib
+cargo:rustc-link-lib=opencv_dnn_objdetect
+cargo:rustc-link-lib=opencv_dpm
+cargo:rustc-link-lib=opencv_face
+cargo:rustc-link-lib=opencv_freetype
+cargo:rustc-link-lib=opencv_fuzzy
+cargo:rustc-link-lib=opencv_hfs
+cargo:rustc-link-lib=opencv_img_hash
+cargo:rustc-link-lib=opencv_line_descriptor
+cargo:rustc-link-lib=opencv_quality
+cargo:rustc-link-lib=opencv_reg
+cargo:rustc-link-lib=opencv_rgbd
+cargo:rustc-link-lib=opencv_saliency
+cargo:rustc-link-lib=opencv_sfm
+cargo:rustc-link-lib=opencv_stereo
+cargo:rustc-link-lib=opencv_structured_light
+cargo:rustc-link-lib=opencv_phase_unwrapping
+cargo:rustc-link-lib=opencv_superres
+cargo:rustc-link-lib=opencv_optflow
+cargo:rustc-link-lib=opencv_surface_matching
+cargo:rustc-link-lib=opencv_tracking
+cargo:rustc-link-lib=opencv_datasets
+cargo:rustc-link-lib=opencv_text
+cargo:rustc-link-lib=opencv_highgui
+cargo:rustc-link-lib=opencv_dnn
+cargo:rustc-link-lib=opencv_plot
+cargo:rustc-link-lib=opencv_videostab
+cargo:rustc-link-lib=opencv_video
+cargo:rustc-link-lib=opencv_videoio
+cargo:rustc-link-lib=opencv_xfeatures2d
+cargo:rustc-link-lib=opencv_shape
+cargo:rustc-link-lib=opencv_ml
+cargo:rustc-link-lib=opencv_ximgproc
+cargo:rustc-link-lib=opencv_xobjdetect
+cargo:rustc-link-lib=opencv_objdetect
+cargo:rustc-link-lib=opencv_calib3d
+cargo:rustc-link-lib=opencv_imgcodecs
+cargo:rustc-link-lib=opencv_features2d
+cargo:rustc-link-lib=opencv_flann
+cargo:rustc-link-lib=opencv_xphoto
+cargo:rustc-link-lib=opencv_photo
+cargo:rustc-link-lib=opencv_imgproc
+cargo:rustc-link-lib=opencv_core
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-apple-darwin")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+CXX_x86_64-apple-darwin = None
+CXX_x86_64_apple_darwin = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-apple-darwin = None
+CXXFLAGS_x86_64_apple_darwin = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0" "-I" "/Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1" "-Wall" "-Wextra" "-fno-strict-aliasing" "-Wno-ignored-qualifiers" "-std=c++11" "-o" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/rust_cpp/cpp_closures.o" "-c" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/rust_cpp/cpp_closures.cpp"
+exit code: 0
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+running: "ar" "crs" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/librust_cpp_generated.a" "/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out/rust_cpp/cpp_closures.o"
+exit code: 0
+cargo:rustc-link-lib=static=rust_cpp_generated
+cargo:rustc-link-search=native=/Users/ianlum/Documents/prog/rob/vision-2019/target/debug/build/opencv-79a001b370676b3c/out
+CXXSTDLIB_x86_64-apple-darwin = None
+CXXSTDLIB_x86_64_apple_darwin = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=c++

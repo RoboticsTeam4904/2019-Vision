@@ -1,0 +1,19 @@
+FOUND FUNCs: 7
+
+PORTED FUNCs: 5
+
+PORTED: cv::dpm::DPMDetector::isEmpty (method) cv::dpm::DPMDetector (trait) . isEmpty
+PORTED: cv::dpm::DPMDetector::detect (method) cv::dpm::DPMDetector (trait) . detect
+PORTED: cv::dpm::DPMDetector::getClassCount (method) cv::dpm::DPMDetector (trait) . getClassCount
+PORTED: cv::dpm::DPMDetector::ObjectDetection::ObjectDetection (constructor) cv::dpm::DPMDetector::ObjectDetection . default
+PORTED: cv::dpm::DPMDetector::ObjectDetection::ObjectDetection (constructor) cv::dpm::DPMDetector::ObjectDetection . new
+
+
+SKIPPED FUNCs: 2
+
+SKIPPED: cv::dpm::DPMDetector::getClassNames (method) cv::dpm::DPMDetector (trait) . getClassNames
+   return type class Vector[Unknown[std::string> cons]] is ignored
+
+SKIPPED: cv::dpm::DPMDetector::create (method) cv::dpm::DPMDetector (trait) . create
+   return type class Unknown[cv::Ptr<DPMDetector>] is ignored
+

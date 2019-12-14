@@ -1,0 +1,337 @@
+FOUND FUNCs: 223
+
+PORTED FUNCs: 170
+
+PORTED: cv::videostab::calcBlurriness (function)
+PORTED: cv::videostab::calcFlowMask (function)
+PORTED: cv::videostab::completeFrameAccordingToFlow (function)
+PORTED: cv::videostab::ensureInclusionConstraint (function)
+PORTED: cv::videostab::estimateGlobalMotionLeastSquares (function)
+PORTED: cv::videostab::estimateOptimalTrimRatio (function)
+PORTED: cv::videostab::getMotion (function)
+PORTED: cv::videostab::ColorAverageInpainter::inpaint (method) cv::videostab::ColorAverageInpainter . inpaint
+PORTED: cv::videostab::ColorInpainter::ColorInpainter (constructor) cv::videostab::ColorInpainter . new
+PORTED: cv::videostab::ColorInpainter::inpaint (method) cv::videostab::ColorInpainter . inpaint
+PORTED: cv::videostab::ConsistentMosaicInpainter::ConsistentMosaicInpainter (constructor) cv::videostab::ConsistentMosaicInpainter . default
+PORTED: cv::videostab::ConsistentMosaicInpainter::setStdevThresh (method) cv::videostab::ConsistentMosaicInpainter . setStdevThresh
+PORTED: cv::videostab::ConsistentMosaicInpainter::stdevThresh (method) cv::videostab::ConsistentMosaicInpainter . stdevThresh
+PORTED: cv::videostab::ConsistentMosaicInpainter::inpaint (method) cv::videostab::ConsistentMosaicInpainter . inpaint
+PORTED: cv::videostab::DeblurerBase::setRadius (method) cv::videostab::DeblurerBase (trait) . setRadius
+PORTED: cv::videostab::DeblurerBase::radius (method) cv::videostab::DeblurerBase (trait) . radius
+PORTED: cv::videostab::DeblurerBase::deblur (method) cv::videostab::DeblurerBase (trait) . deblur
+PORTED: cv::videostab::DeblurerBase::setFrames (method) cv::videostab::DeblurerBase (trait) . setFrames
+PORTED: cv::videostab::DeblurerBase::frames (method) cv::videostab::DeblurerBase (trait) . frames
+PORTED: cv::videostab::DeblurerBase::setMotions (method) cv::videostab::DeblurerBase (trait) . setMotions
+PORTED: cv::videostab::DeblurerBase::motions (method) cv::videostab::DeblurerBase (trait) . motions
+PORTED: cv::videostab::DeblurerBase::setBlurrinessRates (method) cv::videostab::DeblurerBase (trait) . setBlurrinessRates
+PORTED: cv::videostab::DeblurerBase::blurrinessRates (method) cv::videostab::DeblurerBase (trait) . blurrinessRates
+PORTED: cv::videostab::FastMarchingMethod::FastMarchingMethod (constructor) cv::videostab::FastMarchingMethod . default
+PORTED: cv::videostab::FastMarchingMethod::distanceMap (method) cv::videostab::FastMarchingMethod . distanceMap
+PORTED: cv::videostab::FromFileMotionReader::FromFileMotionReader (constructor) cv::videostab::FromFileMotionReader . new
+PORTED: cv::videostab::FromFileMotionReader::estimate (method) cv::videostab::FromFileMotionReader . estimate
+PORTED: cv::videostab::GaussianMotionFilter::GaussianMotionFilter (constructor) cv::videostab::GaussianMotionFilter . new
+PORTED: cv::videostab::GaussianMotionFilter::setParams (method) cv::videostab::GaussianMotionFilter . setParams
+PORTED: cv::videostab::GaussianMotionFilter::radius (method) cv::videostab::GaussianMotionFilter . radius
+PORTED: cv::videostab::GaussianMotionFilter::stdev (method) cv::videostab::GaussianMotionFilter . stdev
+PORTED: cv::videostab::IDenseOptFlowEstimator::run (method) cv::videostab::IDenseOptFlowEstimator (trait) . run
+PORTED: cv::videostab::IFrameSource::reset (method) cv::videostab::IFrameSource (trait) . reset
+PORTED: cv::videostab::IFrameSource::nextFrame (method) cv::videostab::IFrameSource (trait) . nextFrame
+PORTED: cv::videostab::IOutlierRejector::process (method) cv::videostab::IOutlierRejector (trait) . process
+PORTED: cv::videostab::ISparseOptFlowEstimator::run (method) cv::videostab::ISparseOptFlowEstimator (trait) . run
+PORTED: cv::videostab::ImageMotionEstimatorBase::setFrameMask (method) cv::videostab::ImageMotionEstimatorBase (trait) . setFrameMask
+PORTED: cv::videostab::ImageMotionEstimatorBase::estimate (method) cv::videostab::ImageMotionEstimatorBase (trait) . estimate
+PORTED: cv::videostab::InpainterBase::setRadius (method) cv::videostab::InpainterBase (trait) . setRadius
+PORTED: cv::videostab::InpainterBase::radius (method) cv::videostab::InpainterBase (trait) . radius
+PORTED: cv::videostab::InpainterBase::inpaint (method) cv::videostab::InpainterBase (trait) . inpaint
+PORTED: cv::videostab::InpainterBase::setFrames (method) cv::videostab::InpainterBase (trait) . setFrames
+PORTED: cv::videostab::InpainterBase::frames (method) cv::videostab::InpainterBase (trait) . frames
+PORTED: cv::videostab::InpainterBase::setMotions (method) cv::videostab::InpainterBase (trait) . setMotions
+PORTED: cv::videostab::InpainterBase::motions (method) cv::videostab::InpainterBase (trait) . motions
+PORTED: cv::videostab::InpainterBase::setStabilizedFrames (method) cv::videostab::InpainterBase (trait) . setStabilizedFrames
+PORTED: cv::videostab::InpainterBase::stabilizedFrames (method) cv::videostab::InpainterBase (trait) . stabilizedFrames
+PORTED: cv::videostab::InpainterBase::setStabilizationMotions (method) cv::videostab::InpainterBase (trait) . setStabilizationMotions
+PORTED: cv::videostab::InpainterBase::stabilizationMotions (method) cv::videostab::InpainterBase (trait) . stabilizationMotions
+PORTED: cv::videostab::InpaintingPipeline::pushBack (method) cv::videostab::InpaintingPipeline . pushBack
+PORTED: cv::videostab::InpaintingPipeline::empty (method) cv::videostab::InpaintingPipeline . empty
+PORTED: cv::videostab::InpaintingPipeline::setRadius (method) cv::videostab::InpaintingPipeline . setRadius
+PORTED: cv::videostab::InpaintingPipeline::setFrames (method) cv::videostab::InpaintingPipeline . setFrames
+PORTED: cv::videostab::InpaintingPipeline::setMotions (method) cv::videostab::InpaintingPipeline . setMotions
+PORTED: cv::videostab::InpaintingPipeline::setStabilizedFrames (method) cv::videostab::InpaintingPipeline . setStabilizedFrames
+PORTED: cv::videostab::InpaintingPipeline::setStabilizationMotions (method) cv::videostab::InpaintingPipeline . setStabilizationMotions
+PORTED: cv::videostab::InpaintingPipeline::inpaint (method) cv::videostab::InpaintingPipeline . inpaint
+PORTED: cv::videostab::KeypointBasedMotionEstimator::KeypointBasedMotionEstimator (constructor) cv::videostab::KeypointBasedMotionEstimator . new
+PORTED: cv::videostab::KeypointBasedMotionEstimator::setDetector (method) cv::videostab::KeypointBasedMotionEstimator . setDetector
+PORTED: cv::videostab::KeypointBasedMotionEstimator::detector (method) cv::videostab::KeypointBasedMotionEstimator . detector
+PORTED: cv::videostab::KeypointBasedMotionEstimator::setFrameMask (method) cv::videostab::KeypointBasedMotionEstimator . setFrameMask
+PORTED: cv::videostab::KeypointBasedMotionEstimator::estimate (method) cv::videostab::KeypointBasedMotionEstimator . estimate
+PORTED: cv::videostab::KeypointBasedMotionEstimator::estimate (method) cv::videostab::KeypointBasedMotionEstimator . estimate
+PORTED: cv::videostab::LpMotionStabilizer::setFrameSize (method) cv::videostab::LpMotionStabilizer . setFrameSize
+PORTED: cv::videostab::LpMotionStabilizer::frameSize (method) cv::videostab::LpMotionStabilizer . frameSize
+PORTED: cv::videostab::LpMotionStabilizer::setTrimRatio (method) cv::videostab::LpMotionStabilizer . setTrimRatio
+PORTED: cv::videostab::LpMotionStabilizer::trimRatio (method) cv::videostab::LpMotionStabilizer . trimRatio
+PORTED: cv::videostab::LpMotionStabilizer::setWeight1 (method) cv::videostab::LpMotionStabilizer . setWeight1
+PORTED: cv::videostab::LpMotionStabilizer::weight1 (method) cv::videostab::LpMotionStabilizer . weight1
+PORTED: cv::videostab::LpMotionStabilizer::setWeight2 (method) cv::videostab::LpMotionStabilizer . setWeight2
+PORTED: cv::videostab::LpMotionStabilizer::weight2 (method) cv::videostab::LpMotionStabilizer . weight2
+PORTED: cv::videostab::LpMotionStabilizer::setWeight3 (method) cv::videostab::LpMotionStabilizer . setWeight3
+PORTED: cv::videostab::LpMotionStabilizer::weight3 (method) cv::videostab::LpMotionStabilizer . weight3
+PORTED: cv::videostab::LpMotionStabilizer::setWeight4 (method) cv::videostab::LpMotionStabilizer . setWeight4
+PORTED: cv::videostab::LpMotionStabilizer::weight4 (method) cv::videostab::LpMotionStabilizer . weight4
+PORTED: cv::videostab::MaskFrameSource::MaskFrameSource (constructor) cv::videostab::MaskFrameSource . new
+PORTED: cv::videostab::MaskFrameSource::reset (method) cv::videostab::MaskFrameSource . reset
+PORTED: cv::videostab::MaskFrameSource::nextFrame (method) cv::videostab::MaskFrameSource . nextFrame
+PORTED: cv::videostab::MoreAccurateMotionWobbleSuppressor::suppress (method) cv::videostab::MoreAccurateMotionWobbleSuppressor . suppress
+PORTED: cv::videostab::MoreAccurateMotionWobbleSuppressorBase::setPeriod (method) cv::videostab::MoreAccurateMotionWobbleSuppressorBase (trait) . setPeriod
+PORTED: cv::videostab::MoreAccurateMotionWobbleSuppressorBase::period (method) cv::videostab::MoreAccurateMotionWobbleSuppressorBase (trait) . period
+PORTED: cv::videostab::MotionEstimatorBase::estimate (method) cv::videostab::MotionEstimatorBase (trait) . estimate
+PORTED: cv::videostab::MotionEstimatorL1::estimate (method) cv::videostab::MotionEstimatorL1 . estimate
+PORTED: cv::videostab::MotionEstimatorRansacL2::setMinInlierRatio (method) cv::videostab::MotionEstimatorRansacL2 . setMinInlierRatio
+PORTED: cv::videostab::MotionEstimatorRansacL2::minInlierRatio (method) cv::videostab::MotionEstimatorRansacL2 . minInlierRatio
+PORTED: cv::videostab::MotionEstimatorRansacL2::estimate (method) cv::videostab::MotionEstimatorRansacL2 . estimate
+PORTED: cv::videostab::MotionInpainter::MotionInpainter (constructor) cv::videostab::MotionInpainter . default
+PORTED: cv::videostab::MotionInpainter::setFlowErrorThreshold (method) cv::videostab::MotionInpainter . setFlowErrorThreshold
+PORTED: cv::videostab::MotionInpainter::flowErrorThreshold (method) cv::videostab::MotionInpainter . flowErrorThreshold
+PORTED: cv::videostab::MotionInpainter::setDistThreshold (method) cv::videostab::MotionInpainter . setDistThreshold
+PORTED: cv::videostab::MotionInpainter::distThresh (method) cv::videostab::MotionInpainter . distThresh
+PORTED: cv::videostab::MotionInpainter::setBorderMode (method) cv::videostab::MotionInpainter . setBorderMode
+PORTED: cv::videostab::MotionInpainter::borderMode (method) cv::videostab::MotionInpainter . borderMode
+PORTED: cv::videostab::MotionInpainter::inpaint (method) cv::videostab::MotionInpainter . inpaint
+PORTED: cv::videostab::MotionStabilizationPipeline::pushBack (method) cv::videostab::MotionStabilizationPipeline . pushBack
+PORTED: cv::videostab::MotionStabilizationPipeline::empty (method) cv::videostab::MotionStabilizationPipeline . empty
+PORTED: cv::videostab::NullDeblurer::deblur (method) cv::videostab::NullDeblurer . deblur
+PORTED: cv::videostab::NullFrameSource::reset (method) cv::videostab::NullFrameSource . reset
+PORTED: cv::videostab::NullFrameSource::nextFrame (method) cv::videostab::NullFrameSource . nextFrame
+PORTED: cv::videostab::NullInpainter::inpaint (method) cv::videostab::NullInpainter . inpaint
+PORTED: cv::videostab::NullOutlierRejector::process (method) cv::videostab::NullOutlierRejector . process
+PORTED: cv::videostab::NullWobbleSuppressor::suppress (method) cv::videostab::NullWobbleSuppressor . suppress
+PORTED: cv::videostab::OnePassStabilizer::OnePassStabilizer (constructor) cv::videostab::OnePassStabilizer . default
+PORTED: cv::videostab::OnePassStabilizer::setMotionFilter (method) cv::videostab::OnePassStabilizer . setMotionFilter
+PORTED: cv::videostab::OnePassStabilizer::motionFilter (method) cv::videostab::OnePassStabilizer . motionFilter
+PORTED: cv::videostab::OnePassStabilizer::reset (method) cv::videostab::OnePassStabilizer . reset
+PORTED: cv::videostab::OnePassStabilizer::nextFrame (method) cv::videostab::OnePassStabilizer . nextFrame
+PORTED: cv::videostab::PyrLkOptFlowEstimatorBase::setWinSize (method) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . setWinSize
+PORTED: cv::videostab::PyrLkOptFlowEstimatorBase::winSize (method) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . winSize
+PORTED: cv::videostab::PyrLkOptFlowEstimatorBase::setMaxLevel (method) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . setMaxLevel
+PORTED: cv::videostab::PyrLkOptFlowEstimatorBase::maxLevel (method) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . maxLevel
+PORTED: cv::videostab::PyrLkOptFlowEstimatorBase::PyrLkOptFlowEstimatorBase (constructor) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . default
+PORTED: cv::videostab::RansacParams::niters (method) cv::videostab::RansacParams . niters
+PORTED: cv::videostab::SparsePyrLkOptFlowEstimator::run (method) cv::videostab::SparsePyrLkOptFlowEstimator . run
+PORTED: cv::videostab::StabilizerBase::setLog (method) cv::videostab::StabilizerBase (trait) . setLog
+PORTED: cv::videostab::StabilizerBase::log (method) cv::videostab::StabilizerBase (trait) . log
+PORTED: cv::videostab::StabilizerBase::setRadius (method) cv::videostab::StabilizerBase (trait) . setRadius
+PORTED: cv::videostab::StabilizerBase::radius (method) cv::videostab::StabilizerBase (trait) . radius
+PORTED: cv::videostab::StabilizerBase::setFrameSource (method) cv::videostab::StabilizerBase (trait) . setFrameSource
+PORTED: cv::videostab::StabilizerBase::frameSource (method) cv::videostab::StabilizerBase (trait) . frameSource
+PORTED: cv::videostab::StabilizerBase::setMaskSource (method) cv::videostab::StabilizerBase (trait) . setMaskSource
+PORTED: cv::videostab::StabilizerBase::maskSource (method) cv::videostab::StabilizerBase (trait) . maskSource
+PORTED: cv::videostab::StabilizerBase::setMotionEstimator (method) cv::videostab::StabilizerBase (trait) . setMotionEstimator
+PORTED: cv::videostab::StabilizerBase::motionEstimator (method) cv::videostab::StabilizerBase (trait) . motionEstimator
+PORTED: cv::videostab::StabilizerBase::setDeblurer (method) cv::videostab::StabilizerBase (trait) . setDeblurer
+PORTED: cv::videostab::StabilizerBase::deblurrer (method) cv::videostab::StabilizerBase (trait) . deblurrer
+PORTED: cv::videostab::StabilizerBase::setTrimRatio (method) cv::videostab::StabilizerBase (trait) . setTrimRatio
+PORTED: cv::videostab::StabilizerBase::trimRatio (method) cv::videostab::StabilizerBase (trait) . trimRatio
+PORTED: cv::videostab::StabilizerBase::setCorrectionForInclusion (method) cv::videostab::StabilizerBase (trait) . setCorrectionForInclusion
+PORTED: cv::videostab::StabilizerBase::doCorrectionForInclusion (method) cv::videostab::StabilizerBase (trait) . doCorrectionForInclusion
+PORTED: cv::videostab::StabilizerBase::setBorderMode (method) cv::videostab::StabilizerBase (trait) . setBorderMode
+PORTED: cv::videostab::StabilizerBase::borderMode (method) cv::videostab::StabilizerBase (trait) . borderMode
+PORTED: cv::videostab::StabilizerBase::setInpainter (method) cv::videostab::StabilizerBase (trait) . setInpainter
+PORTED: cv::videostab::StabilizerBase::inpainter (method) cv::videostab::StabilizerBase (trait) . inpainter
+PORTED: cv::videostab::ToFileMotionWriter::ToFileMotionWriter (constructor) cv::videostab::ToFileMotionWriter . new
+PORTED: cv::videostab::ToFileMotionWriter::setFrameMask (method) cv::videostab::ToFileMotionWriter . setFrameMask
+PORTED: cv::videostab::ToFileMotionWriter::estimate (method) cv::videostab::ToFileMotionWriter . estimate
+PORTED: cv::videostab::TranslationBasedLocalOutlierRejector::TranslationBasedLocalOutlierRejector (constructor) cv::videostab::TranslationBasedLocalOutlierRejector . default
+PORTED: cv::videostab::TranslationBasedLocalOutlierRejector::setCellSize (method) cv::videostab::TranslationBasedLocalOutlierRejector . setCellSize
+PORTED: cv::videostab::TranslationBasedLocalOutlierRejector::cellSize (method) cv::videostab::TranslationBasedLocalOutlierRejector . cellSize
+PORTED: cv::videostab::TranslationBasedLocalOutlierRejector::process (method) cv::videostab::TranslationBasedLocalOutlierRejector . process
+PORTED: cv::videostab::TwoPassStabilizer::TwoPassStabilizer (constructor) cv::videostab::TwoPassStabilizer . default
+PORTED: cv::videostab::TwoPassStabilizer::setMotionStabilizer (method) cv::videostab::TwoPassStabilizer . setMotionStabilizer
+PORTED: cv::videostab::TwoPassStabilizer::motionStabilizer (method) cv::videostab::TwoPassStabilizer . motionStabilizer
+PORTED: cv::videostab::TwoPassStabilizer::setEstimateTrimRatio (method) cv::videostab::TwoPassStabilizer . setEstimateTrimRatio
+PORTED: cv::videostab::TwoPassStabilizer::mustEstimateTrimaRatio (method) cv::videostab::TwoPassStabilizer . mustEstimateTrimaRatio
+PORTED: cv::videostab::TwoPassStabilizer::reset (method) cv::videostab::TwoPassStabilizer . reset
+PORTED: cv::videostab::TwoPassStabilizer::nextFrame (method) cv::videostab::TwoPassStabilizer . nextFrame
+PORTED: cv::videostab::VideoFileSource::VideoFileSource (constructor) cv::videostab::VideoFileSource . new
+PORTED: cv::videostab::VideoFileSource::reset (method) cv::videostab::VideoFileSource . reset
+PORTED: cv::videostab::VideoFileSource::nextFrame (method) cv::videostab::VideoFileSource . nextFrame
+PORTED: cv::videostab::VideoFileSource::width (method) cv::videostab::VideoFileSource . width
+PORTED: cv::videostab::VideoFileSource::height (method) cv::videostab::VideoFileSource . height
+PORTED: cv::videostab::VideoFileSource::count (method) cv::videostab::VideoFileSource . count
+PORTED: cv::videostab::VideoFileSource::fps (method) cv::videostab::VideoFileSource . fps
+PORTED: cv::videostab::WeightingDeblurer::WeightingDeblurer (constructor) cv::videostab::WeightingDeblurer . default
+PORTED: cv::videostab::WeightingDeblurer::setSensitivity (method) cv::videostab::WeightingDeblurer . setSensitivity
+PORTED: cv::videostab::WeightingDeblurer::sensitivity (method) cv::videostab::WeightingDeblurer . sensitivity
+PORTED: cv::videostab::WeightingDeblurer::deblur (method) cv::videostab::WeightingDeblurer . deblur
+PORTED: cv::videostab::WobbleSuppressorBase::setMotionEstimator (method) cv::videostab::WobbleSuppressorBase (trait) . setMotionEstimator
+PORTED: cv::videostab::WobbleSuppressorBase::motionEstimator (method) cv::videostab::WobbleSuppressorBase (trait) . motionEstimator
+PORTED: cv::videostab::WobbleSuppressorBase::suppress (method) cv::videostab::WobbleSuppressorBase (trait) . suppress
+PORTED: cv::videostab::WobbleSuppressorBase::setFrameCount (method) cv::videostab::WobbleSuppressorBase (trait) . setFrameCount
+PORTED: cv::videostab::WobbleSuppressorBase::frameCount (method) cv::videostab::WobbleSuppressorBase (trait) . frameCount
+PORTED: cv::videostab::WobbleSuppressorBase::setMotions (method) cv::videostab::WobbleSuppressorBase (trait) . setMotions
+PORTED: cv::videostab::WobbleSuppressorBase::motions (method) cv::videostab::WobbleSuppressorBase (trait) . motions
+PORTED: cv::videostab::WobbleSuppressorBase::setMotions2 (method) cv::videostab::WobbleSuppressorBase (trait) . setMotions2
+PORTED: cv::videostab::WobbleSuppressorBase::motions2 (method) cv::videostab::WobbleSuppressorBase (trait) . motions2
+PORTED: cv::videostab::WobbleSuppressorBase::setStabilizationMotions (method) cv::videostab::WobbleSuppressorBase (trait) . setStabilizationMotions
+PORTED: cv::videostab::WobbleSuppressorBase::stabilizationMotions (method) cv::videostab::WobbleSuppressorBase (trait) . stabilizationMotions
+
+
+SKIPPED FUNCs: 53
+
+SKIPPED: cv::videostab::estimateGlobalMotionRansac (function)
+   can not map type Unknown[RansacParams] yet
+
+SKIPPED: cv::videostab::ColorInpainter::ColorInpainter (constructor) cv::videostab::ColorInpainter . new
+   already there
+
+SKIPPED: cv::videostab::FastMarchingMethod::run (method) cv::videostab::FastMarchingMethod . run
+   return type class Unknown[template <typename Inpaint> Inpaint] is ignored
+
+SKIPPED: cv::videostab::FastMarchingMethod::run (method) cv::videostab::FastMarchingMethod . run
+   return type class Unknown[template <typename Inpaint> Inpaint] is ignored
+
+SKIPPED: cv::videostab::GaussianMotionFilter::stabilize (method) cv::videostab::GaussianMotionFilter . stabilize
+   can not map type Unknown[std::pair<intint>] yet
+
+SKIPPED: cv::videostab::GaussianMotionFilter::GaussianMotionFilter (constructor) cv::videostab::GaussianMotionFilter . new
+   already there
+
+SKIPPED: cv::videostab::ILog::print (method) cv::videostab::ILog (trait) . print
+   can not map type Unknown[...] yet
+
+SKIPPED: cv::videostab::IMotionStabilizer::stabilize (method) cv::videostab::IMotionStabilizer (trait) . stabilize
+   can not map type Unknown[std::pair<intint>] yet
+
+SKIPPED: cv::videostab::ImageMotionEstimatorBase::setMotionModel (method) cv::videostab::ImageMotionEstimatorBase (trait) . setMotionModel
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::ImageMotionEstimatorBase::motionModel (method) cv::videostab::ImageMotionEstimatorBase (trait) . motionModel
+   return type class Unknown[MotionModel] is ignored
+
+SKIPPED: cv::videostab::InpainterBase::setMotionModel (method) cv::videostab::InpainterBase (trait) . setMotionModel
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::InpainterBase::motionModel (method) cv::videostab::InpainterBase (trait) . motionModel
+   return type class Unknown[MotionModel] is ignored
+
+SKIPPED: cv::videostab::InpaintingPipeline::setMotionModel (method) cv::videostab::InpaintingPipeline . setMotionModel
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::KeypointBasedMotionEstimator::setMotionModel (method) cv::videostab::KeypointBasedMotionEstimator . setMotionModel
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::KeypointBasedMotionEstimator::motionModel (method) cv::videostab::KeypointBasedMotionEstimator . motionModel
+   return type class Unknown[MotionModel] is ignored
+
+SKIPPED: cv::videostab::KeypointBasedMotionEstimator::setOpticalFlowEstimator (method) cv::videostab::KeypointBasedMotionEstimator . setOpticalFlowEstimator
+   can not map type SmartPtr[Unknown[ISparseOptFlowEstimator]] yet
+
+SKIPPED: cv::videostab::KeypointBasedMotionEstimator::opticalFlowEstimator (method) cv::videostab::KeypointBasedMotionEstimator . opticalFlowEstimator
+   return type class SmartPtr[Unknown[ISparseOptFlowEstimator]] is ignored
+
+SKIPPED: cv::videostab::KeypointBasedMotionEstimator::setOutlierRejector (method) cv::videostab::KeypointBasedMotionEstimator . setOutlierRejector
+   can not map type SmartPtr[Unknown[IOutlierRejector]] yet
+
+SKIPPED: cv::videostab::KeypointBasedMotionEstimator::outlierRejector (method) cv::videostab::KeypointBasedMotionEstimator . outlierRejector
+   return type class SmartPtr[Unknown[IOutlierRejector]] is ignored
+
+SKIPPED: cv::videostab::LogToStdout::print (method) cv::videostab::LogToStdout . print
+   can not map type Unknown[...] yet
+
+SKIPPED: cv::videostab::LpMotionStabilizer::LpMotionStabilizer (constructor) cv::videostab::LpMotionStabilizer . new
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::LpMotionStabilizer::setMotionModel (method) cv::videostab::LpMotionStabilizer . setMotionModel
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::LpMotionStabilizer::motionModel (method) cv::videostab::LpMotionStabilizer . motionModel
+   return type class Unknown[MotionModel] is ignored
+
+SKIPPED: cv::videostab::LpMotionStabilizer::stabilize (method) cv::videostab::LpMotionStabilizer . stabilize
+   can not map type Unknown[std::pair<intint>] yet
+
+SKIPPED: cv::videostab::MaskFrameSource::setMaskCallback (method) cv::videostab::MaskFrameSource . setMaskCallback
+   can not map type Unknown[std::function<void(Mat&)>] yet
+
+SKIPPED: cv::videostab::MoreAccurateMotionWobbleSuppressorBase::setPeriod (method) cv::videostab::MoreAccurateMotionWobbleSuppressorBase (trait) . setPeriod
+   already there
+
+SKIPPED: cv::videostab::MoreAccurateMotionWobbleSuppressorBase::period (method) cv::videostab::MoreAccurateMotionWobbleSuppressorBase (trait) . period
+   already there
+
+SKIPPED: cv::videostab::MotionEstimatorBase::setMotionModel (method) cv::videostab::MotionEstimatorBase (trait) . setMotionModel
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::MotionEstimatorBase::motionModel (method) cv::videostab::MotionEstimatorBase (trait) . motionModel
+   return type class Unknown[MotionModel] is ignored
+
+SKIPPED: cv::videostab::MotionEstimatorL1::MotionEstimatorL1 (constructor) cv::videostab::MotionEstimatorL1 . new
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::MotionEstimatorRansacL2::MotionEstimatorRansacL2 (constructor) cv::videostab::MotionEstimatorRansacL2 . new
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::MotionEstimatorRansacL2::setRansacParams (method) cv::videostab::MotionEstimatorRansacL2 . setRansacParams
+   can not map type Unknown[RansacParams] yet
+
+SKIPPED: cv::videostab::MotionEstimatorRansacL2::ransacParams (method) cv::videostab::MotionEstimatorRansacL2 . ransacParams
+   return type class Unknown[RansacParams] is ignored
+
+SKIPPED: cv::videostab::MotionFilterBase::stabilize (method) cv::videostab::MotionFilterBase (trait) . stabilize
+   can not map type Unknown[std::pair<intint>] yet
+
+SKIPPED: cv::videostab::MotionFilterBase::stabilize (method) cv::videostab::MotionFilterBase (trait) . stabilize
+   can not map type Unknown[std::pair<intint>] yet
+
+SKIPPED: cv::videostab::MotionInpainter::setOptFlowEstimator (method) cv::videostab::MotionInpainter . setOptFlowEstimator
+   can not map type SmartPtr[Unknown[IDenseOptFlowEstimator]] yet
+
+SKIPPED: cv::videostab::MotionInpainter::optFlowEstimator (method) cv::videostab::MotionInpainter . optFlowEstimator
+   return type class SmartPtr[Unknown[IDenseOptFlowEstimator]] is ignored
+
+SKIPPED: cv::videostab::MotionStabilizationPipeline::stabilize (method) cv::videostab::MotionStabilizationPipeline . stabilize
+   can not map type Unknown[std::pair<intint>] yet
+
+SKIPPED: cv::videostab::NullLog::print (method) cv::videostab::NullLog . print
+   can not map type Unknown[...] yet
+
+SKIPPED: cv::videostab::PyrLkOptFlowEstimatorBase::setWinSize (method) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . setWinSize
+   already there
+
+SKIPPED: cv::videostab::PyrLkOptFlowEstimatorBase::winSize (method) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . winSize
+   already there
+
+SKIPPED: cv::videostab::PyrLkOptFlowEstimatorBase::setMaxLevel (method) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . setMaxLevel
+   already there
+
+SKIPPED: cv::videostab::PyrLkOptFlowEstimatorBase::maxLevel (method) cv::videostab::PyrLkOptFlowEstimatorBase (trait) . maxLevel
+   already there
+
+SKIPPED: cv::videostab::RansacParams::RansacParams (constructor) cv::videostab::RansacParams . default
+   return type class Unknown[RansacParams] is ignored
+
+SKIPPED: cv::videostab::RansacParams::RansacParams (constructor) cv::videostab::RansacParams . new
+   return type class Unknown[RansacParams] is ignored
+
+SKIPPED: cv::videostab::RansacParams::default2dMotion (method) cv::videostab::RansacParams . default2dMotion
+   return type class Unknown[RansacParams] is ignored
+
+SKIPPED: cv::videostab::RansacParams::RansacParams (constructor) cv::videostab::RansacParams . new
+   return type class Unknown[RansacParams] is ignored
+
+SKIPPED: cv::videostab::ToFileMotionWriter::setMotionModel (method) cv::videostab::ToFileMotionWriter . setMotionModel
+   can not map type Unknown[MotionModel] yet
+
+SKIPPED: cv::videostab::ToFileMotionWriter::motionModel (method) cv::videostab::ToFileMotionWriter . motionModel
+   return type class Unknown[MotionModel] is ignored
+
+SKIPPED: cv::videostab::TranslationBasedLocalOutlierRejector::setRansacParams (method) cv::videostab::TranslationBasedLocalOutlierRejector . setRansacParams
+   can not map type Unknown[RansacParams] yet
+
+SKIPPED: cv::videostab::TranslationBasedLocalOutlierRejector::ransacParams (method) cv::videostab::TranslationBasedLocalOutlierRejector . ransacParams
+   return type class Unknown[RansacParams] is ignored
+
+SKIPPED: cv::videostab::TwoPassStabilizer::setWobbleSuppressor (method) cv::videostab::TwoPassStabilizer . setWobbleSuppressor
+   can not map type SmartPtr[Unknown[WobbleSuppressorBase]] yet
+
+SKIPPED: cv::videostab::TwoPassStabilizer::wobbleSuppressor (method) cv::videostab::TwoPassStabilizer . wobbleSuppressor
+   return type class SmartPtr[Unknown[WobbleSuppressorBase]] is ignored
+

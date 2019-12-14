@@ -1,0 +1,863 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/structured_light.hpp ================
+
+
+Namespaces: []
+Comment: {'structured_light': ' @defgroup structured_light Structured Light API\n\nStructured light is considered one of the most effective techniques to acquire 3D models.\nThis technique is based on projecting a light pattern and capturing the illuminated scene\nfrom one or more points of view. Since the pattern is coded, correspondences between image\npoints and points of the projected pattern can be quickly found and 3D information easily\nretrieved.\n\nOne of the most commonly exploited coding strategies is based on trmatime-multiplexing. In this\ncase, a set of patterns  are successively projected onto the measuring surface.\nThe codeword for a given pixel is usually formed by  the sequence of illuminance values for that\npixel across the projected patterns. Thus, the codification is called  temporal because the bits\nof the codewords are multiplexed in time @cite pattern .\n\nIn this module a time-multiplexing coding strategy based on Gray encoding is implemented following the\n(stereo) approach described in 3DUNDERWORLD algorithm @cite UNDERWORLD .\nFor more details, see @ref tutorial_structured_light.\n\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/structured_light/graycodepattern.hpp ================
+
+
+Namespaces: ['cv', 'cv.structured_light']
+Comment: {'structured_light': ' @defgroup structured_light Structured Light API\n\nStructured light is considered one of the most effective techniques to acquire 3D models.\nThis technique is based on projecting a light pattern and capturing the illuminated scene\nfrom one or more points of view. Since the pattern is coded, correspondences between image\npoints and points of the projected pattern can be quickly found and 3D information easily\nretrieved.\n\nOne of the most commonly exploited coding strategies is based on trmatime-multiplexing. In this\ncase, a set of patterns  are successively projected onto the measuring surface.\nThe codeword for a given pixel is usually formed by  the sequence of illuminance values for that\npixel across the projected patterns. Thus, the codification is called  temporal because the bits\nof the codewords are multiplexed in time @cite pattern .\n\nIn this module a time-multiplexing coding strategy based on Gray encoding is implemented following the\n(stereo) approach described in 3DUNDERWORLD algorithm @cite UNDERWORLD .\nFor more details, see @ref tutorial_structured_light.\n\n\n'}
+
+--- Incoming ---
+[   'class cv.structured_light.GrayCodePattern',
+    ': cv::structured_light::StructuredLightPattern',
+    [],
+    [],
+    None,
+    '@brief Class implementing the Gray-code pattern, based on @cite '
+    'UNDERWORLD.\n'
+    '*\n'
+    '*  The generation of the pattern images is performed with Gray encoding '
+    'using the traditional white and black colors.\n'
+    '*\n'
+    '*  The information about the two image axes x, y is encoded separately '
+    'into two different pattern sequences.\n'
+    '*  A projector P with resolution (P_res_x, P_res_y) will result in Ncols '
+    '= log 2 (P_res_x) encoded pattern images representing the columns, and\n'
+    '*  in Nrows = log 2 (P_res_y) encoded pattern images representing the '
+    'rows.\n'
+    '*  For example a projector with resolution 1024x768 will result in Ncols '
+    '= 10 and Nrows = 10.\n'
+    '\n'
+    '*  However, the generated pattern sequence consists of both regular color '
+    'and color-inverted images: inverted pattern images are images\n'
+    '*  with the same structure as the original but with inverted colors.\n'
+    '*  This provides an effective method for easily determining the intensity '
+    'value of each pixel when it is lit (highest value) and\n'
+    '*  when it is not lit (lowest value). So for a a projector with '
+    'resolution 1024x768, the number of pattern images will be Ncols * 2 + '
+    'Nrows * 2 = 40.\n'
+    '*']
+parse_name: class cv.structured_light.GrayCodePattern with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern namespace:cv::structured_light classpath: classname: name:GrayCodePattern
+register class cv::structured_light::GrayCodePattern (['class cv.structured_light.GrayCodePattern', ': cv::structured_light::StructuredLightPattern', [], [], None, '@brief Class implementing the Gray-code pattern, based on @cite UNDERWORLD.\n*\n*  The generation of the pattern images is performed with Gray encoding using the traditional white and black colors.\n*\n*  The information about the two image axes x, y is encoded separately into two different pattern sequences.\n*  A projector P with resolution (P_res_x, P_res_y) will result in Ncols = log 2 (P_res_x) encoded pattern images representing the columns, and\n*  in Nrows = log 2 (P_res_y) encoded pattern images representing the rows.\n*  For example a projector with resolution 1024x768 will result in Ncols = 10 and Nrows = 10.\n\n*  However, the generated pattern sequence consists of both regular color and color-inverted images: inverted pattern images are images\n*  with the same structure as the original but with inverted colors.\n*  This provides an effective method for easily determining the intensity value of each pixel when it is lit (highest value) and\n*  when it is not lit (lowest value). So for a a projector with resolution 1024x768, the number of pattern images will be Ncols * 2 + Nrows * 2 = 40.\n*']) impl:cv::structured_light::StructuredLightPattern
+
+--- Incoming ---
+[   'struct cv.structured_light.GrayCodePattern.Params',
+    '',
+    [],
+    [],
+    None,
+    '@brief Parameters of StructuredLightPattern constructor.\n'
+    "*  @param width Projector's width. Default value is 1024.\n"
+    "*  @param height Projector's height. Default value is 768."]
+parse_name: struct cv.structured_light.GrayCodePattern.Params with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::Params namespace:cv::structured_light classpath:GrayCodePattern classname:GrayCodePattern name:Params
+register class cv::structured_light::GrayCodePattern::Params (['struct cv.structured_light.GrayCodePattern.Params', '', [], [], None, "@brief Parameters of StructuredLightPattern constructor.\n*  @param width Projector's width. Default value is 1024.\n*  @param height Projector's height. Default value is 768."])
+
+--- Incoming ---
+['cv.structured_light.GrayCodePattern.Params.Params', 'P', [], [], None, '']
+parse_name: cv.structured_light.GrayCodePattern.Params.Params with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::Params::Params namespace:cv::structured_light classpath:GrayCodePattern::Params classname:Params name:Params
+register (constructor) default in cv::structured_light::GrayCodePattern::Params (cv_structured_light_GrayCodePattern_Params_Params)
+
+--- Incoming ---
+[   'cv.structured_light.GrayCodePattern.create',
+    'Ptr<GrayCodePattern>',
+    ['/S'],
+    [   [   'const GrayCodePattern::Params &',
+            'parameters',
+            'GrayCodePattern::Params()',
+            []]],
+    None,
+    '@brief Constructor\n'
+    '@param parameters GrayCodePattern parameters GrayCodePattern::Params: the '
+    'width and the height of the projector.']
+parse_name: cv.structured_light.GrayCodePattern.create with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::create namespace:cv::structured_light classpath:GrayCodePattern classname:GrayCodePattern name:create
+register (method) create in cv::structured_light::GrayCodePattern (cv_structured_light_GrayCodePattern_create_Params)
+
+--- Incoming ---
+[   'cv.structured_light.GrayCodePattern.create',
+    'Ptr<GrayCodePattern>',
+    ['/S'],
+    [['int', 'width', '', []], ['int', 'height', '', []]],
+    None,
+    '']
+parse_name: cv.structured_light.GrayCodePattern.create with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::create namespace:cv::structured_light classpath:GrayCodePattern classname:GrayCodePattern name:create
+register (method) create in cv::structured_light::GrayCodePattern (cv_structured_light_GrayCodePattern_create_int_int)
+
+--- Incoming ---
+[   'cv.structured_light.GrayCodePattern.getNumberOfPatternImages',
+    'size_t',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Get the number of pattern images needed for the graycode pattern.\n'
+    '*\n'
+    '* @return The number of pattern images needed for the graycode pattern.\n'
+    '*']
+parse_name: cv.structured_light.GrayCodePattern.getNumberOfPatternImages with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::getNumberOfPatternImages namespace:cv::structured_light classpath:GrayCodePattern classname:GrayCodePattern name:getNumberOfPatternImages
+register (method) getNumberOfPatternImages in cv::structured_light::GrayCodePattern (trait) (cv_structured_light_GrayCodePattern_getNumberOfPatternImages_const)
+
+--- Incoming ---
+[   'cv.structured_light.GrayCodePattern.setWhiteThreshold',
+    'void',
+    ['/A'],
+    [['size_t', 'value', '', []]],
+    None,
+    '@brief Sets the value for white threshold, needed for decoding.\n'
+    '*\n'
+    '*  White threshold is a number between 0-255 that represents the minimum '
+    'brightness difference required for valid pixels, between the graycode '
+    'pattern and its inverse images; used in getProjPixel method.\n'
+    '*\n'
+    '*  @param value The desired white threshold value.\n'
+    '*']
+parse_name: cv.structured_light.GrayCodePattern.setWhiteThreshold with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::setWhiteThreshold namespace:cv::structured_light classpath:GrayCodePattern classname:GrayCodePattern name:setWhiteThreshold
+register (method) setWhiteThreshold in cv::structured_light::GrayCodePattern (trait) (cv_structured_light_GrayCodePattern_setWhiteThreshold_size_t)
+
+--- Incoming ---
+[   'cv.structured_light.GrayCodePattern.setBlackThreshold',
+    'void',
+    ['/A'],
+    [['size_t', 'value', '', []]],
+    None,
+    '@brief Sets the value for black threshold, needed for decoding '
+    '(shadowsmasks computation).\n'
+    '*\n'
+    '*  Black threshold is a number between 0-255 that represents the minimum '
+    'brightness difference required for valid pixels, between the fully '
+    'illuminated (white) and the not illuminated images (black); used in '
+    'computeShadowMasks method.\n'
+    '*\n'
+    '*  @param value The desired black threshold value.\n'
+    '*']
+parse_name: cv.structured_light.GrayCodePattern.setBlackThreshold with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::setBlackThreshold namespace:cv::structured_light classpath:GrayCodePattern classname:GrayCodePattern name:setBlackThreshold
+register (method) setBlackThreshold in cv::structured_light::GrayCodePattern (trait) (cv_structured_light_GrayCodePattern_setBlackThreshold_size_t)
+
+--- Incoming ---
+[   'cv.structured_light.GrayCodePattern.getImagesForShadowMasks',
+    'void',
+    ['/A', '/C'],
+    [   ['InputOutputArray', 'blackImage', '', []],
+        ['InputOutputArray', 'whiteImage', '', []]],
+    None,
+    '@brief Generates the all-black and all-white images needed for '
+    'shadowMasks computation.\n'
+    '*\n'
+    '*  To identify shadow regions, the regions of two images where the pixels '
+    "are not lit by projector's light and thus where there is not coded "
+    'information,\n'
+    '*  the 3DUNDERWORLD algorithm computes a shadow mask for the two cameras '
+    'views, starting from a white and a black images captured by each camera.\n'
+    '*  This method generates these two additional images to project.\n'
+    '*\n'
+    "*  @param blackImage The generated all-black CV_8U image, at projector's "
+    'resolution.\n'
+    "*  @param whiteImage The generated all-white CV_8U image, at projector's "
+    'resolution.']
+parse_name: cv.structured_light.GrayCodePattern.getImagesForShadowMasks with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::getImagesForShadowMasks namespace:cv::structured_light classpath:GrayCodePattern classname:GrayCodePattern name:getImagesForShadowMasks
+register (method) getImagesForShadowMasks in cv::structured_light::GrayCodePattern (trait) (cv_structured_light_GrayCodePattern_getImagesForShadowMasks_const__InputOutputArray__InputOutputArray)
+
+--- Incoming ---
+[   'cv.structured_light.GrayCodePattern.getProjPixel',
+    'bool',
+    ['/A', '/C'],
+    [   ['InputArrayOfArrays', 'patternImages', '', []],
+        ['int', 'x', '', []],
+        ['int', 'y', '', []],
+        ['Point &', 'projPix', '', []]],
+    None,
+    '@brief For a (x,y) pixel of a camera returns the corresponding projector '
+    'pixel.\n'
+    '*\n'
+    '*  The function decodes each pixel in the pattern images acquired by a '
+    'camera into their corresponding decimal numbers representing the '
+    "projector's column and row,\n"
+    "*  providing a mapping between camera's and projector's pixel.\n"
+    '*\n'
+    '*  @param patternImages The pattern images acquired by the camera, stored '
+    'in a grayscale vector < Mat >.\n'
+    '*  @param x x coordinate of the image pixel.\n'
+    '*  @param y y coordinate of the image pixel.\n'
+    "*  @param projPix Projector's pixel corresponding to the camera's pixel: "
+    "projPix.x and projPix.y are the image coordinates of the projector's "
+    'pixel corresponding to the pixel being decoded in a camera.']
+parse_name: cv.structured_light.GrayCodePattern.getProjPixel with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::GrayCodePattern::getProjPixel namespace:cv::structured_light classpath:GrayCodePattern classname:GrayCodePattern name:getProjPixel
+register (method) getProjPixel in cv::structured_light::GrayCodePattern (trait) (cv_structured_light_GrayCodePattern_getProjPixel_const__InputArray_int_int_Point)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/structured_light/sinusoidalpattern.hpp ================
+
+
+Namespaces: ['cv', 'cv.structured_light']
+Comment: {'structured_light': ' @defgroup structured_light Structured Light API\n\nStructured light is considered one of the most effective techniques to acquire 3D models.\nThis technique is based on projecting a light pattern and capturing the illuminated scene\nfrom one or more points of view. Since the pattern is coded, correspondences between image\npoints and points of the projected pattern can be quickly found and 3D information easily\nretrieved.\n\nOne of the most commonly exploited coding strategies is based on trmatime-multiplexing. In this\ncase, a set of patterns  are successively projected onto the measuring surface.\nThe codeword for a given pixel is usually formed by  the sequence of illuminance values for that\npixel across the projected patterns. Thus, the codification is called  temporal because the bits\nof the codewords are multiplexed in time @cite pattern .\n\nIn this module a time-multiplexing coding strategy based on Gray encoding is implemented following the\n(stereo) approach described in 3DUNDERWORLD algorithm @cite UNDERWORLD .\nFor more details, see @ref tutorial_structured_light.\n\n\n'}
+
+--- Incoming ---
+[   'enum cv.structured_light.<unnamed>',
+    '',
+    [],
+    [   ['const cv.structured_light.FTP', '0', [], [], None, ''],
+        ['const cv.structured_light.PSP', '1', [], [], None, ''],
+        ['const cv.structured_light.FAPS', '2', [], [], None, '']],
+    None,
+    '@addtogroup structured_light\n'
+    '@{\n'
+    'Type of sinusoidal pattern profilometry methods.']
+parse_name: const cv.structured_light.FTP with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::FTP namespace:cv::structured_light classpath: classname: name:FTP
+parse_name: const cv.structured_light.PSP with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::PSP namespace:cv::structured_light classpath: classname: name:PSP
+parse_name: const cv.structured_light.FAPS with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::FAPS namespace:cv::structured_light classpath: classname: name:FAPS
+
+--- Incoming ---
+[   'class cv.structured_light.SinusoidalPattern',
+    ': cv::structured_light::StructuredLightPattern',
+    [],
+    [],
+    None,
+    '* @brief Class implementing Fourier transform profilometry (FTP) , '
+    'phase-shifting profilometry (PSP)\n'
+    '* and Fourier-assisted phase-shifting profilometry (FAPS) based on @cite '
+    'faps.\n'
+    '\n'
+    '* This class generates sinusoidal patterns that can be used with FTP, PSP '
+    'and FAPS.']
+parse_name: class cv.structured_light.SinusoidalPattern with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern namespace:cv::structured_light classpath: classname: name:SinusoidalPattern
+register class cv::structured_light::SinusoidalPattern (['class cv.structured_light.SinusoidalPattern', ': cv::structured_light::StructuredLightPattern', [], [], None, '* @brief Class implementing Fourier transform profilometry (FTP) , phase-shifting profilometry (PSP)\n* and Fourier-assisted phase-shifting profilometry (FAPS) based on @cite faps.\n\n* This class generates sinusoidal patterns that can be used with FTP, PSP and FAPS.']) impl:cv::structured_light::StructuredLightPattern
+
+--- Incoming ---
+[   'struct cv.structured_light.SinusoidalPattern.Params',
+    '',
+    [],
+    [   ['int', 'width', '', ['/RW']],
+        ['int', 'height', '', ['/RW']],
+        ['int', 'nbrOfPeriods', '', ['/RW']],
+        ['float', 'shiftValue', '', ['/RW']],
+        ['int', 'methodId', '', ['/RW']],
+        ['int', 'nbrOfPixelsBetweenMarkers', '', ['/RW']],
+        ['bool', 'horizontal', '', ['/RW']],
+        ['bool', 'setMarkers', '', ['/RW']]],
+    None,
+    '* @brief Parameters of SinusoidalPattern constructor\n'
+    "* @param width Projector's width.\n"
+    "* @param height Projector's height.\n"
+    '* @param nbrOfPeriods Number of period along the patterns direction.\n'
+    '* @param shiftValue Phase shift between two consecutive patterns.\n'
+    '* @param methodId Allow to choose between FTP, PSP and FAPS.\n'
+    '* @param nbrOfPixelsBetweenMarkers Number of pixels between two '
+    'consecutive markers on the same row.\n'
+    '* @param setMarkers Allow to set markers on the patterns.\n'
+    '* @param markersLocation vector used to store markers location on the '
+    'patterns.']
+parse_name: struct cv.structured_light.SinusoidalPattern.Params with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params namespace:cv::structured_light classpath:SinusoidalPattern classname:SinusoidalPattern name:Params
+register class cv::structured_light::SinusoidalPattern::Params (['struct cv.structured_light.SinusoidalPattern.Params', '', [], [['int', 'width', '', ['/RW']], ['int', 'height', '', ['/RW']], ['int', 'nbrOfPeriods', '', ['/RW']], ['float', 'shiftValue', '', ['/RW']], ['int', 'methodId', '', ['/RW']], ['int', 'nbrOfPixelsBetweenMarkers', '', ['/RW']], ['bool', 'horizontal', '', ['/RW']], ['bool', 'setMarkers', '', ['/RW']]], None, "* @brief Parameters of SinusoidalPattern constructor\n* @param width Projector's width.\n* @param height Projector's height.\n* @param nbrOfPeriods Number of period along the patterns direction.\n* @param shiftValue Phase shift between two consecutive patterns.\n* @param methodId Allow to choose between FTP, PSP and FAPS.\n* @param nbrOfPixelsBetweenMarkers Number of pixels between two consecutive markers on the same row.\n* @param setMarkers Allow to set markers on the patterns.\n* @param markersLocation vector used to store markers location on the patterns."])
+parse_name: cv.structured_light.SinusoidalPattern.Params.width with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::width namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:width
+register (method) width in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_width_const)
+parse_name: cv.structured_light.SinusoidalPattern.Params.height with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::height namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:height
+register (method) height in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_height_const)
+parse_name: cv.structured_light.SinusoidalPattern.Params.nbrOfPeriods with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::nbrOfPeriods namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:nbrOfPeriods
+register (method) nbrOfPeriods in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_nbrOfPeriods_const)
+parse_name: cv.structured_light.SinusoidalPattern.Params.shiftValue with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::shiftValue namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:shiftValue
+register (method) shiftValue in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_shiftValue_const)
+parse_name: cv.structured_light.SinusoidalPattern.Params.methodId with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::methodId namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:methodId
+register (method) methodId in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_methodId_const)
+parse_name: cv.structured_light.SinusoidalPattern.Params.nbrOfPixelsBetweenMarkers with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::nbrOfPixelsBetweenMarkers namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:nbrOfPixelsBetweenMarkers
+register (method) nbrOfPixelsBetweenMarkers in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_nbrOfPixelsBetweenMarkers_const)
+parse_name: cv.structured_light.SinusoidalPattern.Params.horizontal with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::horizontal namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:horizontal
+register (method) horizontal in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_horizontal_const)
+parse_name: cv.structured_light.SinusoidalPattern.Params.setMarkers with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::setMarkers namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:setMarkers
+register (method) setMarkers in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_setMarkers_const)
+
+--- Incoming ---
+['cv.structured_light.SinusoidalPattern.Params.Params', 'P', [], [], None, '']
+parse_name: cv.structured_light.SinusoidalPattern.Params.Params with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::Params::Params namespace:cv::structured_light classpath:SinusoidalPattern::Params classname:Params name:Params
+register (constructor) default in cv::structured_light::SinusoidalPattern::Params (cv_structured_light_SinusoidalPattern_Params_Params)
+
+--- Incoming ---
+[   'cv.structured_light.SinusoidalPattern.create',
+    'Ptr<SinusoidalPattern>',
+    ['/S'],
+    [   [   'Ptr<SinusoidalPattern::Params>',
+            'parameters',
+            'makePtr<SinusoidalPattern::Params>()',
+            []]],
+    None,
+    '* @brief Constructor.\n'
+    '* @param parameters SinusoidalPattern parameters '
+    'SinusoidalPattern::Params: width, height of the projector and patterns '
+    'parameters.\n'
+    '*']
+parse_name: cv.structured_light.SinusoidalPattern.create with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::create namespace:cv::structured_light classpath:SinusoidalPattern classname:SinusoidalPattern name:create
+register (method) create in cv::structured_light::SinusoidalPattern (cv_structured_light_SinusoidalPattern_create_PtrOfParams)
+
+--- Incoming ---
+[   'cv.structured_light.SinusoidalPattern.computePhaseMap',
+    'void',
+    ['/A'],
+    [   ['InputArrayOfArrays', 'patternImages', '', []],
+        ['OutputArray', 'wrappedPhaseMap', '', []],
+        ['OutputArray', 'shadowMask', 'noArray()', []],
+        ['InputArray', 'fundamental', 'noArray()', []]],
+    None,
+    '* @brief Compute a wrapped phase map from sinusoidal patterns.\n'
+    '* @param patternImages Input data to compute the wrapped phase map.\n'
+    '* @param wrappedPhaseMap Wrapped phase map obtained through one of the '
+    'three methods.\n'
+    '* @param shadowMask Mask used to discard shadow regions.\n'
+    '* @param fundamental Fundamental matrix used to compute epipolar lines '
+    'and ease the matching step.']
+parse_name: cv.structured_light.SinusoidalPattern.computePhaseMap with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::computePhaseMap namespace:cv::structured_light classpath:SinusoidalPattern classname:SinusoidalPattern name:computePhaseMap
+register (method) computePhaseMap in cv::structured_light::SinusoidalPattern (trait) (cv_structured_light_SinusoidalPattern_computePhaseMap__InputArray__OutputArray__OutputArray__InputArray)
+
+--- Incoming ---
+[   'cv.structured_light.SinusoidalPattern.unwrapPhaseMap',
+    'void',
+    ['/A'],
+    [   ['InputArrayOfArrays', 'wrappedPhaseMap', '', []],
+        ['OutputArray', 'unwrappedPhaseMap', '', []],
+        ['cv::Size', 'camSize', '', []],
+        ['InputArray', 'shadowMask', 'noArray()', []]],
+    None,
+    '* @brief Unwrap the wrapped phase map to remove phase ambiguities.\n'
+    '* @param wrappedPhaseMap The wrapped phase map computed from the '
+    'pattern.\n'
+    '* @param unwrappedPhaseMap The unwrapped phase map used to find '
+    'correspondences between the two devices.\n'
+    '* @param camSize Resolution of the camera.\n'
+    '* @param shadowMask Mask used to discard shadow regions.']
+parse_name: cv.structured_light.SinusoidalPattern.unwrapPhaseMap with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::unwrapPhaseMap namespace:cv::structured_light classpath:SinusoidalPattern classname:SinusoidalPattern name:unwrapPhaseMap
+register (method) unwrapPhaseMap in cv::structured_light::SinusoidalPattern (trait) (cv_structured_light_SinusoidalPattern_unwrapPhaseMap__InputArray__OutputArray_Size__InputArray)
+
+--- Incoming ---
+[   'cv.structured_light.SinusoidalPattern.findProCamMatches',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'projUnwrappedPhaseMap', '', []],
+        ['InputArray', 'camUnwrappedPhaseMap', '', []],
+        ['OutputArrayOfArrays', 'matches', '', []]],
+    None,
+    '* @brief Find correspondences between the two devices thanks to unwrapped '
+    'phase maps.\n'
+    "* @param projUnwrappedPhaseMap Projector's unwrapped phase map.\n"
+    "* @param camUnwrappedPhaseMap Camera's unwrapped phase map.\n"
+    '* @param matches Images used to display correspondences map.']
+parse_name: cv.structured_light.SinusoidalPattern.findProCamMatches with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::findProCamMatches namespace:cv::structured_light classpath:SinusoidalPattern classname:SinusoidalPattern name:findProCamMatches
+register (method) findProCamMatches in cv::structured_light::SinusoidalPattern (trait) (cv_structured_light_SinusoidalPattern_findProCamMatches__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.structured_light.SinusoidalPattern.computeDataModulationTerm',
+    'void',
+    ['/A'],
+    [   ['InputArrayOfArrays', 'patternImages', '', []],
+        ['OutputArray', 'dataModulationTerm', '', []],
+        ['InputArray', 'shadowMask', '', []]],
+    None,
+    '* @brief compute the data modulation term.\n'
+    '* @param patternImages captured images with projected patterns.\n'
+    '* @param dataModulationTerm Mat where the data modulation term is saved.\n'
+    '* @param shadowMask Mask used to discard shadow regions.']
+parse_name: cv.structured_light.SinusoidalPattern.computeDataModulationTerm with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::SinusoidalPattern::computeDataModulationTerm namespace:cv::structured_light classpath:SinusoidalPattern classname:SinusoidalPattern name:computeDataModulationTerm
+register (method) computeDataModulationTerm in cv::structured_light::SinusoidalPattern (trait) (cv_structured_light_SinusoidalPattern_computeDataModulationTerm__InputArray__OutputArray__InputArray)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/structured_light/structured_light.hpp ================
+
+
+Namespaces: ['cv', 'cv.structured_light']
+Comment: {'structured_light': ' @defgroup structured_light Structured Light API\n\nStructured light is considered one of the most effective techniques to acquire 3D models.\nThis technique is based on projecting a light pattern and capturing the illuminated scene\nfrom one or more points of view. Since the pattern is coded, correspondences between image\npoints and points of the projected pattern can be quickly found and 3D information easily\nretrieved.\n\nOne of the most commonly exploited coding strategies is based on trmatime-multiplexing. In this\ncase, a set of patterns  are successively projected onto the measuring surface.\nThe codeword for a given pixel is usually formed by  the sequence of illuminance values for that\npixel across the projected patterns. Thus, the codification is called  temporal because the bits\nof the codewords are multiplexed in time @cite pattern .\n\nIn this module a time-multiplexing coding strategy based on Gray encoding is implemented following the\n(stereo) approach described in 3DUNDERWORLD algorithm @cite UNDERWORLD .\nFor more details, see @ref tutorial_structured_light.\n\n\n'}
+
+--- Incoming ---
+[   'enum cv.structured_light.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.structured_light.DECODE_3D_UNDERWORLD',
+            '0',
+            [],
+            [],
+            None,
+            'Kyriakos Herakleous, Charalambos Poullis. "3DUNDERWORLD-SLS: An '
+            'Open-Source Structured-Light Scanning System for Rapid Geometry '
+            'Acquisition", arXiv preprint arXiv:1406.6595 (2014).\n']],
+    None,
+    '@addtogroup structured_light\n@{\nType of the decoding algorithm']
+parse_name: const cv.structured_light.DECODE_3D_UNDERWORLD with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::DECODE_3D_UNDERWORLD namespace:cv::structured_light classpath: classname: name:DECODE_3D_UNDERWORLD
+
+--- Incoming ---
+[   'class cv.structured_light.StructuredLightPattern',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Abstract base class for generating and decoding structured light '
+    'patterns.']
+parse_name: class cv.structured_light.StructuredLightPattern with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::StructuredLightPattern namespace:cv::structured_light classpath: classname: name:StructuredLightPattern
+register class cv::structured_light::StructuredLightPattern (['class cv.structured_light.StructuredLightPattern', ': cv::Algorithm', [], [], None, '@brief Abstract base class for generating and decoding structured light patterns.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.structured_light.StructuredLightPattern.generate',
+    'bool',
+    ['/A'],
+    [['OutputArrayOfArrays', 'patternImages', '', []]],
+    None,
+    '@brief Generates the structured light pattern to project.\n'
+    '\n'
+    '@param patternImages The generated pattern: a vector<Mat>, in which each '
+    "image is a CV_8U Mat at projector's resolution."]
+parse_name: cv.structured_light.StructuredLightPattern.generate with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::StructuredLightPattern::generate namespace:cv::structured_light classpath:StructuredLightPattern classname:StructuredLightPattern name:generate
+register (method) generate in cv::structured_light::StructuredLightPattern (trait) (cv_structured_light_StructuredLightPattern_generate__OutputArray)
+
+--- Incoming ---
+[   'cv.structured_light.StructuredLightPattern.decode',
+    'bool',
+    ['/A', '/C'],
+    [   ['const std::vector< std::vector<Mat> >&', 'patternImages', '', []],
+        ['OutputArray', 'disparityMap', '', []],
+        ['InputArrayOfArrays', 'blackImages', 'noArray()', []],
+        ['InputArrayOfArrays', 'whiteImages', 'noArray()', []],
+        ['int', 'flags', 'DECODE_3D_UNDERWORLD', []]],
+    None,
+    '@brief Decodes the structured light pattern, generating a disparity map\n'
+    '\n'
+    '@param patternImages The acquired pattern images to decode '
+    '(vector<vector<Mat>>), loaded as grayscale and previously rectified.\n'
+    '@param disparityMap The decoding result: a CV_64F Mat at image '
+    'resolution, storing the computed disparity map.\n'
+    '@param blackImages The all-black images needed for shadowMasks '
+    'computation.\n'
+    '@param whiteImages The all-white images needed for shadowMasks '
+    'computation.\n'
+    '@param flags Flags setting decoding algorithms. Default: '
+    'DECODE_3D_UNDERWORLD.\n'
+    '@note All the images must be at the same resolution.']
+parse_name: cv.structured_light.StructuredLightPattern.decode with ['cv', 'cv::structured_light'] -> fullname:cv::structured_light::StructuredLightPattern::decode namespace:cv::structured_light classpath:StructuredLightPattern classname:StructuredLightPattern name:decode
+register (method) decode in cv::structured_light::StructuredLightPattern (trait) (cv_structured_light_StructuredLightPattern_decode_const_VectorOfVectorOfMat__OutputArray__InputArray__InputArray_int)
+
+
+===== Generating... =====
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Generating impl for trait cv::structured_light::GrayCodePattern (trait)
+Generating func cv_structured_light_GrayCodePattern_getNumberOfPatternImages_const
+Generating func cv_structured_light_GrayCodePattern_setWhiteThreshold_size_t
+Generating func cv_structured_light_GrayCodePattern_setBlackThreshold_size_t
+Generating func cv_structured_light_GrayCodePattern_getImagesForShadowMasks_const__InputOutputArray__InputOutputArray
+Generating func cv_structured_light_GrayCodePattern_getProjPixel_const__InputArray_int_int_Point
+Generating func cv_structured_light_GrayCodePattern_create_Params
+Generating func cv_structured_light_GrayCodePattern_create_int_int
+Generating box for cv::structured_light::GrayCodePattern::Params
+Generating func cv_structured_light_GrayCodePattern_Params_Params
+Generating impl for trait cv::structured_light::SinusoidalPattern (trait)
+Generating func cv_structured_light_SinusoidalPattern_computePhaseMap__InputArray__OutputArray__OutputArray__InputArray
+Generating func cv_structured_light_SinusoidalPattern_unwrapPhaseMap__InputArray__OutputArray_Size__InputArray
+Generating func cv_structured_light_SinusoidalPattern_findProCamMatches__InputArray__InputArray__OutputArray
+Generating func cv_structured_light_SinusoidalPattern_computeDataModulationTerm__InputArray__OutputArray__InputArray
+Generating func cv_structured_light_SinusoidalPattern_create_PtrOfParams
+Generating box for cv::structured_light::SinusoidalPattern::Params
+Generating func cv_structured_light_SinusoidalPattern_Params_width_const
+Generating func cv_structured_light_SinusoidalPattern_Params_height_const
+Generating func cv_structured_light_SinusoidalPattern_Params_nbrOfPeriods_const
+Generating func cv_structured_light_SinusoidalPattern_Params_shiftValue_const
+Generating func cv_structured_light_SinusoidalPattern_Params_methodId_const
+Generating func cv_structured_light_SinusoidalPattern_Params_nbrOfPixelsBetweenMarkers_const
+Generating func cv_structured_light_SinusoidalPattern_Params_horizontal_const
+Generating func cv_structured_light_SinusoidalPattern_Params_setMarkers_const
+Generating func cv_structured_light_SinusoidalPattern_Params_Params
+Generating impl for trait cv::structured_light::StructuredLightPattern (trait)
+Generating func cv_structured_light_StructuredLightPattern_generate__OutputArray
+Generating func cv_structured_light_StructuredLightPattern_decode_const_VectorOfVectorOfMat__OutputArray__InputArray__InputArray_int
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

@@ -1,0 +1,9 @@
+FOUND FUNCs: 5
+
+PORTED FUNCs: 5
+
+PORTED: cv::xobjdetect::WBDetector::read (method) cv::xobjdetect::WBDetector (trait) . read
+PORTED: cv::xobjdetect::WBDetector::write (method) cv::xobjdetect::WBDetector (trait) . write
+PORTED: cv::xobjdetect::WBDetector::train (method) cv::xobjdetect::WBDetector (trait) . train
+PORTED: cv::xobjdetect::WBDetector::detect (method) cv::xobjdetect::WBDetector (trait) . detect
+PORTED: cv::xobjdetect::WBDetector::create (method) cv::xobjdetect::WBDetector (trait) . create

@@ -1,0 +1,160 @@
+FOUND FUNCs: 78
+
+PORTED FUNCs: 41
+
+PORTED: cv::createStitcherScans (function)
+PORTED: cv::createStitcher (function)
+PORTED: cv::CompressedRectilinearPortraitWarper::CompressedRectilinearPortraitWarper (constructor) cv::CompressedRectilinearPortraitWarper . new
+PORTED: cv::CompressedRectilinearWarper::CompressedRectilinearWarper (constructor) cv::CompressedRectilinearWarper . new
+PORTED: cv::PaniniPortraitWarper::PaniniPortraitWarper (constructor) cv::PaniniPortraitWarper . new
+PORTED: cv::PaniniWarper::PaniniWarper (constructor) cv::PaniniWarper . new
+PORTED: cv::PyRotationWarper::PyRotationWarper (constructor) cv::PyRotationWarper . new
+PORTED: cv::PyRotationWarper::PyRotationWarper (constructor) cv::PyRotationWarper . default
+PORTED: cv::PyRotationWarper::warpPoint (method) cv::PyRotationWarper . warpPoint
+PORTED: cv::PyRotationWarper::buildMaps (method) cv::PyRotationWarper . buildMaps
+PORTED: cv::PyRotationWarper::warp (method) cv::PyRotationWarper . warp
+PORTED: cv::PyRotationWarper::warpBackward (method) cv::PyRotationWarper . warpBackward
+PORTED: cv::PyRotationWarper::warpRoi (method) cv::PyRotationWarper . warpRoi
+PORTED: cv::PyRotationWarper::getScale (method) cv::PyRotationWarper . getScale
+PORTED: cv::PyRotationWarper::setScale (method) cv::PyRotationWarper . setScale
+PORTED: cv::Stitcher::create (method) cv::Stitcher . create
+PORTED: cv::Stitcher::registrationResol (method) cv::Stitcher . registrationResol
+PORTED: cv::Stitcher::setRegistrationResol (method) cv::Stitcher . setRegistrationResol
+PORTED: cv::Stitcher::seamEstimationResol (method) cv::Stitcher . seamEstimationResol
+PORTED: cv::Stitcher::setSeamEstimationResol (method) cv::Stitcher . setSeamEstimationResol
+PORTED: cv::Stitcher::compositingResol (method) cv::Stitcher . compositingResol
+PORTED: cv::Stitcher::setCompositingResol (method) cv::Stitcher . setCompositingResol
+PORTED: cv::Stitcher::panoConfidenceThresh (method) cv::Stitcher . panoConfidenceThresh
+PORTED: cv::Stitcher::setPanoConfidenceThresh (method) cv::Stitcher . setPanoConfidenceThresh
+PORTED: cv::Stitcher::waveCorrection (method) cv::Stitcher . waveCorrection
+PORTED: cv::Stitcher::setWaveCorrection (method) cv::Stitcher . setWaveCorrection
+PORTED: cv::Stitcher::interpolationFlags (method) cv::Stitcher . interpolationFlags
+PORTED: cv::Stitcher::setInterpolationFlags (method) cv::Stitcher . setInterpolationFlags
+PORTED: cv::Stitcher::featuresFinder (method) cv::Stitcher . featuresFinder
+PORTED: cv::Stitcher::featuresFinder (method) cv::Stitcher . featuresFinder
+PORTED: cv::Stitcher::setFeaturesFinder (method) cv::Stitcher . setFeaturesFinder
+PORTED: cv::Stitcher::matchingMask (method) cv::Stitcher . matchingMask
+PORTED: cv::Stitcher::setMatchingMask (method) cv::Stitcher . setMatchingMask
+PORTED: cv::Stitcher::estimateTransform (method) cv::Stitcher . estimateTransform
+PORTED: cv::Stitcher::composePanorama (method) cv::Stitcher . composePanorama
+PORTED: cv::Stitcher::composePanorama (method) cv::Stitcher . composePanorama
+PORTED: cv::Stitcher::stitch (method) cv::Stitcher . stitch
+PORTED: cv::Stitcher::stitch (method) cv::Stitcher . stitch
+PORTED: cv::Stitcher::component (method) cv::Stitcher . component
+PORTED: cv::Stitcher::workScale (method) cv::Stitcher . workScale
+PORTED: cv::Stitcher::resultMask (method) cv::Stitcher . resultMask
+
+
+SKIPPED FUNCs: 37
+
+SKIPPED: cv::AffineWarper::create (method) cv::AffineWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::CompressedRectilinearPortraitWarper::create (method) cv::CompressedRectilinearPortraitWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::CompressedRectilinearWarper::create (method) cv::CompressedRectilinearWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::CylindricalWarper::create (method) cv::CylindricalWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::FisheyeWarper::create (method) cv::FisheyeWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::MercatorWarper::create (method) cv::MercatorWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::PaniniPortraitWarper::create (method) cv::PaniniPortraitWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::PaniniWarper::create (method) cv::PaniniWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::PlaneWarper::create (method) cv::PlaneWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::SphericalWarper::create (method) cv::SphericalWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::StereographicWarper::create (method) cv::StereographicWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::Stitcher::waveCorrectKind (method) cv::Stitcher . waveCorrectKind
+   return type class Unknown[detail::WaveCorrectKind] is ignored
+
+SKIPPED: cv::Stitcher::setWaveCorrectKind (method) cv::Stitcher . setWaveCorrectKind
+   can not map type Unknown[detail::WaveCorrectKind] yet
+
+SKIPPED: cv::Stitcher::featuresMatcher (method) cv::Stitcher . featuresMatcher
+   return type class SmartPtr[Unknown[detail::FeaturesMatcher]] is ignored
+
+SKIPPED: cv::Stitcher::featuresMatcher (method) cv::Stitcher . featuresMatcher
+   return type class SmartPtr[Unknown[detail::FeaturesMatcher]] is ignored
+
+SKIPPED: cv::Stitcher::setFeaturesMatcher (method) cv::Stitcher . setFeaturesMatcher
+   can not map type SmartPtr[Unknown[detail::FeaturesMatcher]] yet
+
+SKIPPED: cv::Stitcher::bundleAdjuster (method) cv::Stitcher . bundleAdjuster
+   return type class SmartPtr[Unknown[detail::BundleAdjusterBase]] is ignored
+
+SKIPPED: cv::Stitcher::bundleAdjuster (method) cv::Stitcher . bundleAdjuster
+   return type class SmartPtr[Unknown[detail::BundleAdjusterBase]] is ignored
+
+SKIPPED: cv::Stitcher::setBundleAdjuster (method) cv::Stitcher . setBundleAdjuster
+   can not map type SmartPtr[Unknown[detail::BundleAdjusterBase]] yet
+
+SKIPPED: cv::Stitcher::estimator (method) cv::Stitcher . estimator
+   return type class SmartPtr[Unknown[detail::Estimator]] is ignored
+
+SKIPPED: cv::Stitcher::estimator (method) cv::Stitcher . estimator
+   return type class SmartPtr[Unknown[detail::Estimator]] is ignored
+
+SKIPPED: cv::Stitcher::setEstimator (method) cv::Stitcher . setEstimator
+   can not map type SmartPtr[Unknown[detail::Estimator]] yet
+
+SKIPPED: cv::Stitcher::warper (method) cv::Stitcher . warper
+   return type class SmartPtr[Unknown[WarperCreator]] is ignored
+
+SKIPPED: cv::Stitcher::warper (method) cv::Stitcher . warper
+   return type class SmartPtr[Unknown[WarperCreator]] is ignored
+
+SKIPPED: cv::Stitcher::setWarper (method) cv::Stitcher . setWarper
+   can not map type SmartPtr[Unknown[WarperCreator]] yet
+
+SKIPPED: cv::Stitcher::exposureCompensator (method) cv::Stitcher . exposureCompensator
+   return type class SmartPtr[Unknown[detail::ExposureCompensator]] is ignored
+
+SKIPPED: cv::Stitcher::exposureCompensator (method) cv::Stitcher . exposureCompensator
+   return type class SmartPtr[Unknown[detail::ExposureCompensator]] is ignored
+
+SKIPPED: cv::Stitcher::setExposureCompensator (method) cv::Stitcher . setExposureCompensator
+   can not map type SmartPtr[Unknown[detail::ExposureCompensator]] yet
+
+SKIPPED: cv::Stitcher::seamFinder (method) cv::Stitcher . seamFinder
+   return type class SmartPtr[Unknown[detail::SeamFinder]] is ignored
+
+SKIPPED: cv::Stitcher::seamFinder (method) cv::Stitcher . seamFinder
+   return type class SmartPtr[Unknown[detail::SeamFinder]] is ignored
+
+SKIPPED: cv::Stitcher::setSeamFinder (method) cv::Stitcher . setSeamFinder
+   can not map type SmartPtr[Unknown[detail::SeamFinder]] yet
+
+SKIPPED: cv::Stitcher::blender (method) cv::Stitcher . blender
+   return type class SmartPtr[Unknown[detail::Blender]] is ignored
+
+SKIPPED: cv::Stitcher::blender (method) cv::Stitcher . blender
+   return type class SmartPtr[Unknown[detail::Blender]] is ignored
+
+SKIPPED: cv::Stitcher::setBlender (method) cv::Stitcher . setBlender
+   can not map type SmartPtr[Unknown[detail::Blender]] yet
+
+SKIPPED: cv::Stitcher::cameras (method) cv::Stitcher . cameras
+   return type class Vector[Unknown[detail::CameraParams]] is ignored
+
+SKIPPED: cv::TransverseMercatorWarper::create (method) cv::TransverseMercatorWarper . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+
+SKIPPED: cv::WarperCreator::create (method) cv::WarperCreator (trait) . create
+   return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+

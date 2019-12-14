@@ -1,0 +1,2680 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/video.hpp ================
+
+
+Namespaces: []
+Comment: {'video': '\n@defgroup video Video Analysis\n@{\n@defgroup video_motion Motion Analysis\n@defgroup video_track Object Tracking\n@defgroup video_c C API\n@}\n\n'}
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/video/background_segm.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'video': '\n@defgroup video Video Analysis\n@{\n@defgroup video_motion Motion Analysis\n@defgroup video_track Object Tracking\n@defgroup video_c C API\n@}\n\n'}
+
+--- Incoming ---
+[   'class cv.BackgroundSubtractor',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Base class for background/foreground segmentation. :\n'
+    '\n'
+    'The class is only used to define the common interface for the whole '
+    'family of background/foreground\n'
+    'segmentation algorithms.']
+parse_name: class cv.BackgroundSubtractor with ['cv'] -> fullname:cv::BackgroundSubtractor namespace:cv classpath: classname: name:BackgroundSubtractor
+register class cv::BackgroundSubtractor (['class cv.BackgroundSubtractor', ': cv::Algorithm', [], [], None, '@brief Base class for background/foreground segmentation. :\n\nThe class is only used to define the common interface for the whole family of background/foreground\nsegmentation algorithms.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.BackgroundSubtractor.apply',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'image', '', []],
+        ['OutputArray', 'fgmask', '', []],
+        ['double', 'learningRate', '-1', []]],
+    None,
+    '@brief Computes a foreground mask.\n'
+    '\n'
+    '@param image Next video frame.\n'
+    '@param fgmask The output foreground mask as an 8-bit binary image.\n'
+    '@param learningRate The value between 0 and 1 that indicates how fast the '
+    'background model is\n'
+    'learnt. Negative parameter value makes the algorithm to use some '
+    'automatically chosen learning\n'
+    'rate. 0 means that the background model is not updated at all, 1 means '
+    'that the background model\n'
+    'is completely reinitialized from the last frame.']
+parse_name: cv.BackgroundSubtractor.apply with ['cv'] -> fullname:cv::BackgroundSubtractor::apply namespace:cv classpath:BackgroundSubtractor classname:BackgroundSubtractor name:apply
+register (method) apply in cv::BackgroundSubtractor (trait) (cv_BackgroundSubtractor_apply__InputArray__OutputArray_double)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractor.getBackgroundImage',
+    'void',
+    ['/A', '/C'],
+    [['OutputArray', 'backgroundImage', '', []]],
+    None,
+    '@brief Computes a background image.\n'
+    '\n'
+    '@param backgroundImage The output background image.\n'
+    '\n'
+    '@note Sometimes the background image can be very blurry, as it contain '
+    'the average background\n'
+    'statistics.']
+parse_name: cv.BackgroundSubtractor.getBackgroundImage with ['cv'] -> fullname:cv::BackgroundSubtractor::getBackgroundImage namespace:cv classpath:BackgroundSubtractor classname:BackgroundSubtractor name:getBackgroundImage
+register (method) getBackgroundImage in cv::BackgroundSubtractor (trait) (cv_BackgroundSubtractor_getBackgroundImage_const__OutputArray)
+
+--- Incoming ---
+[   'class cv.BackgroundSubtractorMOG2',
+    ': cv::BackgroundSubtractor',
+    [],
+    [],
+    None,
+    '@brief Gaussian Mixture-based Background/Foreground Segmentation '
+    'Algorithm.\n'
+    '\n'
+    'The class implements the Gaussian mixture model background subtraction '
+    'described in @cite Zivkovic2004\n'
+    'and @cite Zivkovic2006 .']
+parse_name: class cv.BackgroundSubtractorMOG2 with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2 namespace:cv classpath: classname: name:BackgroundSubtractorMOG2
+register class cv::BackgroundSubtractorMOG2 (['class cv.BackgroundSubtractorMOG2', ': cv::BackgroundSubtractor', [], [], None, '@brief Gaussian Mixture-based Background/Foreground Segmentation Algorithm.\n\nThe class implements the Gaussian mixture model background subtraction described in @cite Zivkovic2004\nand @cite Zivkovic2006 .']) impl:cv::BackgroundSubtractor
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getHistory',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the number of last frames that affect the background model']
+parse_name: cv.BackgroundSubtractorMOG2.getHistory with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getHistory namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getHistory
+register (method) getHistory in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getHistory_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setHistory',
+    'void',
+    ['/A'],
+    [['int', 'history', '', []]],
+    None,
+    '@brief Sets the number of last frames that affect the background model']
+parse_name: cv.BackgroundSubtractorMOG2.setHistory with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setHistory namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setHistory
+register (method) setHistory in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setHistory_int)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getNMixtures',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the number of gaussian components in the background model']
+parse_name: cv.BackgroundSubtractorMOG2.getNMixtures with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getNMixtures namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getNMixtures
+register (method) getNMixtures in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getNMixtures_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setNMixtures',
+    'void',
+    ['/A'],
+    [['int', 'nmixtures', '', []]],
+    None,
+    '@brief Sets the number of gaussian components in the background model.\n'
+    '\n'
+    'The model needs to be reinitalized to reserve memory.']
+parse_name: cv.BackgroundSubtractorMOG2.setNMixtures with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setNMixtures namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setNMixtures
+register (method) setNMixtures in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setNMixtures_int)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getBackgroundRatio',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the "background ratio" parameter of the algorithm\n'
+    '\n'
+    'If a foreground pixel keeps semi-constant value for about '
+    "backgroundRatio\\*history frames, it's\n"
+    'considered background and added to the model as a center of a new '
+    'component. It corresponds to TB\n'
+    'parameter in the paper.']
+parse_name: cv.BackgroundSubtractorMOG2.getBackgroundRatio with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getBackgroundRatio namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getBackgroundRatio
+register (method) getBackgroundRatio in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getBackgroundRatio_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setBackgroundRatio',
+    'void',
+    ['/A'],
+    [['double', 'ratio', '', []]],
+    None,
+    '@brief Sets the "background ratio" parameter of the algorithm']
+parse_name: cv.BackgroundSubtractorMOG2.setBackgroundRatio with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setBackgroundRatio namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setBackgroundRatio
+register (method) setBackgroundRatio in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setBackgroundRatio_double)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getVarThreshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the variance threshold for the pixel-model match\n'
+    '\n'
+    'The main threshold on the squared Mahalanobis distance to decide if the '
+    'sample is well described by\n'
+    'the background model or not. Related to Cthr from the paper.']
+parse_name: cv.BackgroundSubtractorMOG2.getVarThreshold with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getVarThreshold namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getVarThreshold
+register (method) getVarThreshold in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getVarThreshold_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setVarThreshold',
+    'void',
+    ['/A'],
+    [['double', 'varThreshold', '', []]],
+    None,
+    '@brief Sets the variance threshold for the pixel-model match']
+parse_name: cv.BackgroundSubtractorMOG2.setVarThreshold with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setVarThreshold namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setVarThreshold
+register (method) setVarThreshold in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setVarThreshold_double)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getVarThresholdGen',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the variance threshold for the pixel-model match used for '
+    'new mixture component generation\n'
+    '\n'
+    'Threshold for the squared Mahalanobis distance that helps decide when a '
+    'sample is close to the\n'
+    'existing components (corresponds to Tg in the paper). If a pixel is not '
+    'close to any component, it\n'
+    'is considered foreground or added as a new component. 3 sigma =\\> '
+    'Tg=3\\*3=9 is default. A smaller Tg\n'
+    'value generates more components. A higher Tg value may result in a small '
+    'number of components but\n'
+    'they can grow too large.']
+parse_name: cv.BackgroundSubtractorMOG2.getVarThresholdGen with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getVarThresholdGen namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getVarThresholdGen
+register (method) getVarThresholdGen in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getVarThresholdGen_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setVarThresholdGen',
+    'void',
+    ['/A'],
+    [['double', 'varThresholdGen', '', []]],
+    None,
+    '@brief Sets the variance threshold for the pixel-model match used for new '
+    'mixture component generation']
+parse_name: cv.BackgroundSubtractorMOG2.setVarThresholdGen with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setVarThresholdGen namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setVarThresholdGen
+register (method) setVarThresholdGen in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setVarThresholdGen_double)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getVarInit',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the initial variance of each gaussian component']
+parse_name: cv.BackgroundSubtractorMOG2.getVarInit with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getVarInit namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getVarInit
+register (method) getVarInit in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getVarInit_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setVarInit',
+    'void',
+    ['/A'],
+    [['double', 'varInit', '', []]],
+    None,
+    '@brief Sets the initial variance of each gaussian component']
+parse_name: cv.BackgroundSubtractorMOG2.setVarInit with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setVarInit namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setVarInit
+register (method) setVarInit in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setVarInit_double)
+
+--- Incoming ---
+['cv.BackgroundSubtractorMOG2.getVarMin', 'double', ['/A', '/C'], [], None, '']
+parse_name: cv.BackgroundSubtractorMOG2.getVarMin with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getVarMin namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getVarMin
+register (method) getVarMin in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getVarMin_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setVarMin',
+    'void',
+    ['/A'],
+    [['double', 'varMin', '', []]],
+    None,
+    '']
+parse_name: cv.BackgroundSubtractorMOG2.setVarMin with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setVarMin namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setVarMin
+register (method) setVarMin in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setVarMin_double)
+
+--- Incoming ---
+['cv.BackgroundSubtractorMOG2.getVarMax', 'double', ['/A', '/C'], [], None, '']
+parse_name: cv.BackgroundSubtractorMOG2.getVarMax with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getVarMax namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getVarMax
+register (method) getVarMax in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getVarMax_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setVarMax',
+    'void',
+    ['/A'],
+    [['double', 'varMax', '', []]],
+    None,
+    '']
+parse_name: cv.BackgroundSubtractorMOG2.setVarMax with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setVarMax namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setVarMax
+register (method) setVarMax in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setVarMax_double)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getComplexityReductionThreshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the complexity reduction threshold\n'
+    '\n'
+    'This parameter defines the number of samples needed to accept to prove '
+    'the component exists. CT=0.05\n'
+    'is a default value for all the samples. By setting CT=0 you get an '
+    'algorithm very similar to the\n'
+    'standard Stauffer&Grimson algorithm.']
+parse_name: cv.BackgroundSubtractorMOG2.getComplexityReductionThreshold with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getComplexityReductionThreshold namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getComplexityReductionThreshold
+register (method) getComplexityReductionThreshold in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getComplexityReductionThreshold_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setComplexityReductionThreshold',
+    'void',
+    ['/A'],
+    [['double', 'ct', '', []]],
+    None,
+    '@brief Sets the complexity reduction threshold']
+parse_name: cv.BackgroundSubtractorMOG2.setComplexityReductionThreshold with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setComplexityReductionThreshold namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setComplexityReductionThreshold
+register (method) setComplexityReductionThreshold in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setComplexityReductionThreshold_double)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getDetectShadows',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the shadow detection flag\n'
+    '\n'
+    'If true, the algorithm detects shadows and marks them. See '
+    'createBackgroundSubtractorMOG2 for\n'
+    'details.']
+parse_name: cv.BackgroundSubtractorMOG2.getDetectShadows with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getDetectShadows namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getDetectShadows
+register (method) getDetectShadows in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getDetectShadows_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setDetectShadows',
+    'void',
+    ['/A'],
+    [['bool', 'detectShadows', '', []]],
+    None,
+    '@brief Enables or disables shadow detection']
+parse_name: cv.BackgroundSubtractorMOG2.setDetectShadows with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setDetectShadows namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setDetectShadows
+register (method) setDetectShadows in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setDetectShadows_bool)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getShadowValue',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the shadow value\n'
+    '\n'
+    'Shadow value is the value used to mark shadows in the foreground mask. '
+    'Default value is 127. Value 0\n'
+    'in the mask always means background, 255 means foreground.']
+parse_name: cv.BackgroundSubtractorMOG2.getShadowValue with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getShadowValue namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getShadowValue
+register (method) getShadowValue in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getShadowValue_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setShadowValue',
+    'void',
+    ['/A'],
+    [['int', 'value', '', []]],
+    None,
+    '@brief Sets the shadow value']
+parse_name: cv.BackgroundSubtractorMOG2.setShadowValue with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setShadowValue namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setShadowValue
+register (method) setShadowValue in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setShadowValue_int)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.getShadowThreshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the shadow threshold\n'
+    '\n'
+    'A shadow is detected if pixel is a darker version of the background. The '
+    'shadow threshold (Tau in\n'
+    'the paper) is a threshold defining how much darker the shadow can be. '
+    'Tau= 0.5 means that if a pixel\n'
+    'is more than twice darker then it is not shadow. See Prati, Mikic, '
+    'Trivedi and Cucchiara,\n'
+    '*Detecting Moving Shadows...*, IEEE PAMI,2003.']
+parse_name: cv.BackgroundSubtractorMOG2.getShadowThreshold with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::getShadowThreshold namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:getShadowThreshold
+register (method) getShadowThreshold in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_getShadowThreshold_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.setShadowThreshold',
+    'void',
+    ['/A'],
+    [['double', 'threshold', '', []]],
+    None,
+    '@brief Sets the shadow threshold']
+parse_name: cv.BackgroundSubtractorMOG2.setShadowThreshold with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::setShadowThreshold namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:setShadowThreshold
+register (method) setShadowThreshold in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_setShadowThreshold_double)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorMOG2.apply',
+    'void',
+    [],
+    [   ['InputArray', 'image', '', []],
+        ['OutputArray', 'fgmask', '', []],
+        ['double', 'learningRate', '-1', []]],
+    None,
+    '@brief Computes a foreground mask.\n'
+    '\n'
+    '@param image Next video frame. Floating point frame will be used without '
+    'scaling and should be in range \\f$[0,255]\\f$.\n'
+    '@param fgmask The output foreground mask as an 8-bit binary image.\n'
+    '@param learningRate The value between 0 and 1 that indicates how fast the '
+    'background model is\n'
+    'learnt. Negative parameter value makes the algorithm to use some '
+    'automatically chosen learning\n'
+    'rate. 0 means that the background model is not updated at all, 1 means '
+    'that the background model\n'
+    'is completely reinitialized from the last frame.']
+parse_name: cv.BackgroundSubtractorMOG2.apply with ['cv'] -> fullname:cv::BackgroundSubtractorMOG2::apply namespace:cv classpath:BackgroundSubtractorMOG2 classname:BackgroundSubtractorMOG2 name:apply
+register (method) apply in cv::BackgroundSubtractorMOG2 (trait) (cv_BackgroundSubtractorMOG2_apply__InputArray__OutputArray_double)
+
+--- Incoming ---
+[   'cv.createBackgroundSubtractorMOG2',
+    'Ptr<BackgroundSubtractorMOG2>',
+    [],
+    [   ['int', 'history', '500', []],
+        ['double', 'varThreshold', '16', []],
+        ['bool', 'detectShadows', 'true', []]],
+    None,
+    '@brief Creates MOG2 Background Subtractor\n'
+    '\n'
+    '@param history Length of the history.\n'
+    '@param varThreshold Threshold on the squared Mahalanobis distance between '
+    'the pixel and the model\n'
+    'to decide whether a pixel is well described by the background model. This '
+    'parameter does not\n'
+    'affect the background update.\n'
+    '@param detectShadows If true, the algorithm will detect shadows and mark '
+    'them. It decreases the\n'
+    'speed a bit, so if you do not need this feature, set the parameter to '
+    'false.']
+parse_name: cv.createBackgroundSubtractorMOG2 with ['cv'] -> fullname:cv::createBackgroundSubtractorMOG2 namespace:cv classpath: classname: name:createBackgroundSubtractorMOG2
+register (function) createBackgroundSubtractorMOG2 (cv_createBackgroundSubtractorMOG2_int_double_bool)
+
+--- Incoming ---
+[   'class cv.BackgroundSubtractorKNN',
+    ': cv::BackgroundSubtractor',
+    [],
+    [],
+    None,
+    '@brief K-nearest neighbours - based Background/Foreground Segmentation '
+    'Algorithm.\n'
+    '\n'
+    'The class implements the K-nearest neighbours background subtraction '
+    'described in @cite Zivkovic2006 .\n'
+    'Very efficient if number of foreground pixels is low.']
+parse_name: class cv.BackgroundSubtractorKNN with ['cv'] -> fullname:cv::BackgroundSubtractorKNN namespace:cv classpath: classname: name:BackgroundSubtractorKNN
+register class cv::BackgroundSubtractorKNN (['class cv.BackgroundSubtractorKNN', ': cv::BackgroundSubtractor', [], [], None, '@brief K-nearest neighbours - based Background/Foreground Segmentation Algorithm.\n\nThe class implements the K-nearest neighbours background subtraction described in @cite Zivkovic2006 .\nVery efficient if number of foreground pixels is low.']) impl:cv::BackgroundSubtractor
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.getHistory',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the number of last frames that affect the background model']
+parse_name: cv.BackgroundSubtractorKNN.getHistory with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::getHistory namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:getHistory
+register (method) getHistory in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_getHistory_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.setHistory',
+    'void',
+    ['/A'],
+    [['int', 'history', '', []]],
+    None,
+    '@brief Sets the number of last frames that affect the background model']
+parse_name: cv.BackgroundSubtractorKNN.setHistory with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::setHistory namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:setHistory
+register (method) setHistory in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_setHistory_int)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.getNSamples',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the number of data samples in the background model']
+parse_name: cv.BackgroundSubtractorKNN.getNSamples with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::getNSamples namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:getNSamples
+register (method) getNSamples in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_getNSamples_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.setNSamples',
+    'void',
+    ['/A'],
+    [['int', '_nN', '', []]],
+    None,
+    '@brief Sets the number of data samples in the background model.\n'
+    '\n'
+    'The model needs to be reinitalized to reserve memory.']
+parse_name: cv.BackgroundSubtractorKNN.setNSamples with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::setNSamples namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:setNSamples
+register (method) setNSamples in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_setNSamples_int)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.getDist2Threshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the threshold on the squared distance between the pixel '
+    'and the sample\n'
+    '\n'
+    'The threshold on the squared distance between the pixel and the sample to '
+    'decide whether a pixel is\n'
+    'close to a data sample.']
+parse_name: cv.BackgroundSubtractorKNN.getDist2Threshold with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::getDist2Threshold namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:getDist2Threshold
+register (method) getDist2Threshold in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_getDist2Threshold_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.setDist2Threshold',
+    'void',
+    ['/A'],
+    [['double', '_dist2Threshold', '', []]],
+    None,
+    '@brief Sets the threshold on the squared distance']
+parse_name: cv.BackgroundSubtractorKNN.setDist2Threshold with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::setDist2Threshold namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:setDist2Threshold
+register (method) setDist2Threshold in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_setDist2Threshold_double)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.getkNNSamples',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the number of neighbours, the k in the kNN.\n'
+    '\n'
+    'K is the number of samples that need to be within dist2Threshold in order '
+    'to decide that that\n'
+    'pixel is matching the kNN background model.']
+parse_name: cv.BackgroundSubtractorKNN.getkNNSamples with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::getkNNSamples namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:getkNNSamples
+register (method) getkNNSamples in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_getkNNSamples_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.setkNNSamples',
+    'void',
+    ['/A'],
+    [['int', '_nkNN', '', []]],
+    None,
+    '@brief Sets the k in the kNN. How many nearest neighbours need to match.']
+parse_name: cv.BackgroundSubtractorKNN.setkNNSamples with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::setkNNSamples namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:setkNNSamples
+register (method) setkNNSamples in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_setkNNSamples_int)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.getDetectShadows',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the shadow detection flag\n'
+    '\n'
+    'If true, the algorithm detects shadows and marks them. See '
+    'createBackgroundSubtractorKNN for\n'
+    'details.']
+parse_name: cv.BackgroundSubtractorKNN.getDetectShadows with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::getDetectShadows namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:getDetectShadows
+register (method) getDetectShadows in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_getDetectShadows_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.setDetectShadows',
+    'void',
+    ['/A'],
+    [['bool', 'detectShadows', '', []]],
+    None,
+    '@brief Enables or disables shadow detection']
+parse_name: cv.BackgroundSubtractorKNN.setDetectShadows with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::setDetectShadows namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:setDetectShadows
+register (method) setDetectShadows in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_setDetectShadows_bool)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.getShadowValue',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the shadow value\n'
+    '\n'
+    'Shadow value is the value used to mark shadows in the foreground mask. '
+    'Default value is 127. Value 0\n'
+    'in the mask always means background, 255 means foreground.']
+parse_name: cv.BackgroundSubtractorKNN.getShadowValue with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::getShadowValue namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:getShadowValue
+register (method) getShadowValue in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_getShadowValue_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.setShadowValue',
+    'void',
+    ['/A'],
+    [['int', 'value', '', []]],
+    None,
+    '@brief Sets the shadow value']
+parse_name: cv.BackgroundSubtractorKNN.setShadowValue with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::setShadowValue namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:setShadowValue
+register (method) setShadowValue in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_setShadowValue_int)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.getShadowThreshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Returns the shadow threshold\n'
+    '\n'
+    'A shadow is detected if pixel is a darker version of the background. The '
+    'shadow threshold (Tau in\n'
+    'the paper) is a threshold defining how much darker the shadow can be. '
+    'Tau= 0.5 means that if a pixel\n'
+    'is more than twice darker then it is not shadow. See Prati, Mikic, '
+    'Trivedi and Cucchiara,\n'
+    '*Detecting Moving Shadows...*, IEEE PAMI,2003.']
+parse_name: cv.BackgroundSubtractorKNN.getShadowThreshold with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::getShadowThreshold namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:getShadowThreshold
+register (method) getShadowThreshold in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_getShadowThreshold_const)
+
+--- Incoming ---
+[   'cv.BackgroundSubtractorKNN.setShadowThreshold',
+    'void',
+    ['/A'],
+    [['double', 'threshold', '', []]],
+    None,
+    '@brief Sets the shadow threshold']
+parse_name: cv.BackgroundSubtractorKNN.setShadowThreshold with ['cv'] -> fullname:cv::BackgroundSubtractorKNN::setShadowThreshold namespace:cv classpath:BackgroundSubtractorKNN classname:BackgroundSubtractorKNN name:setShadowThreshold
+register (method) setShadowThreshold in cv::BackgroundSubtractorKNN (trait) (cv_BackgroundSubtractorKNN_setShadowThreshold_double)
+
+--- Incoming ---
+[   'cv.createBackgroundSubtractorKNN',
+    'Ptr<BackgroundSubtractorKNN>',
+    [],
+    [   ['int', 'history', '500', []],
+        ['double', 'dist2Threshold', '400.0', []],
+        ['bool', 'detectShadows', 'true', []]],
+    None,
+    '@brief Creates KNN Background Subtractor\n'
+    '\n'
+    '@param history Length of the history.\n'
+    '@param dist2Threshold Threshold on the squared distance between the pixel '
+    'and the sample to decide\n'
+    'whether a pixel is close to that sample. This parameter does not affect '
+    'the background update.\n'
+    '@param detectShadows If true, the algorithm will detect shadows and mark '
+    'them. It decreases the\n'
+    'speed a bit, so if you do not need this feature, set the parameter to '
+    'false.']
+parse_name: cv.createBackgroundSubtractorKNN with ['cv'] -> fullname:cv::createBackgroundSubtractorKNN namespace:cv classpath: classname: name:createBackgroundSubtractorKNN
+register (function) createBackgroundSubtractorKNN (cv_createBackgroundSubtractorKNN_int_double_bool)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/video/tracking.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'video': '\n@defgroup video Video Analysis\n@{\n@defgroup video_motion Motion Analysis\n@defgroup video_track Object Tracking\n@defgroup video_c C API\n@}\n\n'}
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.OPTFLOW_USE_INITIAL_FLOW', '4', [], [], None, ''],
+        ['const cv.OPTFLOW_LK_GET_MIN_EIGENVALS', '8', [], [], None, ''],
+        ['const cv.OPTFLOW_FARNEBACK_GAUSSIAN', '256', [], [], None, '']],
+    None,
+    '@addtogroup video_track\n@{']
+parse_name: const cv.OPTFLOW_USE_INITIAL_FLOW with ['cv'] -> fullname:cv::OPTFLOW_USE_INITIAL_FLOW namespace:cv classpath: classname: name:OPTFLOW_USE_INITIAL_FLOW
+parse_name: const cv.OPTFLOW_LK_GET_MIN_EIGENVALS with ['cv'] -> fullname:cv::OPTFLOW_LK_GET_MIN_EIGENVALS namespace:cv classpath: classname: name:OPTFLOW_LK_GET_MIN_EIGENVALS
+parse_name: const cv.OPTFLOW_FARNEBACK_GAUSSIAN with ['cv'] -> fullname:cv::OPTFLOW_FARNEBACK_GAUSSIAN namespace:cv classpath: classname: name:OPTFLOW_FARNEBACK_GAUSSIAN
+
+--- Incoming ---
+[   'cv.CamShift',
+    'RotatedRect',
+    [],
+    [   ['InputArray', 'probImage', '', []],
+        ['Rect&', 'window', '', []],
+        ['TermCriteria', 'criteria', '', []]],
+    None,
+    '@brief Finds an object center, size, and orientation.\n'
+    '\n'
+    '@param probImage Back projection of the object histogram. See '
+    'calcBackProject.\n'
+    '@param window Initial search window.\n'
+    '@param criteria Stop criteria for the underlying meanShift.\n'
+    'returns\n'
+    '(in old interfaces) Number of iterations CAMSHIFT took to converge\n'
+    'The function implements the CAMSHIFT object tracking algorithm @cite '
+    'Bradski98 . First, it finds an\n'
+    'object center using meanShift and then adjusts the window size and finds '
+    'the optimal rotation. The\n'
+    'function returns the rotated rectangle structure that includes the object '
+    'position, size, and\n'
+    'orientation. The next position of the search window can be obtained with '
+    'RotatedRect::boundingRect()\n'
+    '\n'
+    'See the OpenCV sample camshiftdemo.c that tracks colored objects.\n'
+    '\n'
+    '@note\n'
+    '-   (Python) A sample explaining the camshift tracking algorithm can be '
+    'found at\n'
+    'opencv_source_code/samples/python/camshift.py']
+parse_name: cv.CamShift with ['cv'] -> fullname:cv::CamShift namespace:cv classpath: classname: name:CamShift
+register (function) CamShift (cv_CamShift__InputArray_Rect_TermCriteria)
+
+--- Incoming ---
+[   'cv.meanShift',
+    'int',
+    [],
+    [   ['InputArray', 'probImage', '', []],
+        ['Rect&', 'window', '', []],
+        ['TermCriteria', 'criteria', '', []]],
+    None,
+    '@brief Finds an object on a back projection image.\n'
+    '\n'
+    '@param probImage Back projection of the object histogram. See '
+    'calcBackProject for details.\n'
+    '@param window Initial search window.\n'
+    '@param criteria Stop criteria for the iterative search algorithm.\n'
+    'returns\n'
+    ':   Number of iterations CAMSHIFT took to converge.\n'
+    'The function implements the iterative object search algorithm. It takes '
+    'the input back projection of\n'
+    'an object and the initial position. The mass center in window of the back '
+    'projection image is\n'
+    'computed and the search window center shifts to the mass center. The '
+    'procedure is repeated until the\n'
+    'specified number of iterations criteria.maxCount is done or until the '
+    'window center shifts by less\n'
+    'than criteria.epsilon. The algorithm is used inside CamShift and, unlike '
+    'CamShift , the search\n'
+    'window size or orientation do not change during the search. You can '
+    'simply pass the output of\n'
+    'calcBackProject to this function. But better results can be obtained if '
+    'you pre-filter the back\n'
+    'projection and remove the noise. For example, you can do this by '
+    'retrieving connected components\n'
+    'with findContours , throwing away contours with small area ( contourArea '
+    '), and rendering the\n'
+    'remaining contours with drawContours.']
+parse_name: cv.meanShift with ['cv'] -> fullname:cv::meanShift namespace:cv classpath: classname: name:meanShift
+register (function) meanShift (cv_meanShift__InputArray_Rect_TermCriteria)
+
+--- Incoming ---
+[   'cv.buildOpticalFlowPyramid',
+    'int',
+    [],
+    [   ['InputArray', 'img', '', []],
+        ['OutputArrayOfArrays', 'pyramid', '', []],
+        ['Size', 'winSize', '', []],
+        ['int', 'maxLevel', '', []],
+        ['bool', 'withDerivatives', 'true', []],
+        ['int', 'pyrBorder', 'BORDER_REFLECT_101', []],
+        ['int', 'derivBorder', 'BORDER_CONSTANT', []],
+        ['bool', 'tryReuseInputImage', 'true', []]],
+    None,
+    '@brief Constructs the image pyramid which can be passed to '
+    'calcOpticalFlowPyrLK.\n'
+    '\n'
+    '@param img 8-bit input image.\n'
+    '@param pyramid output pyramid.\n'
+    '@param winSize window size of optical flow algorithm. Must be not less '
+    'than winSize argument of\n'
+    'calcOpticalFlowPyrLK. It is needed to calculate required padding for '
+    'pyramid levels.\n'
+    '@param maxLevel 0-based maximal pyramid level number.\n'
+    '@param withDerivatives set to precompute gradients for the every pyramid '
+    'level. If pyramid is\n'
+    'constructed without the gradients then calcOpticalFlowPyrLK will '
+    'calculate them internally.\n'
+    '@param pyrBorder the border mode for pyramid layers.\n'
+    '@param derivBorder the border mode for gradients.\n'
+    '@param tryReuseInputImage put ROI of input image into the pyramid if '
+    'possible. You can pass false\n'
+    'to force data copying.\n'
+    '@return number of levels in constructed pyramid. Can be less than '
+    'maxLevel.']
+parse_name: cv.buildOpticalFlowPyramid with ['cv'] -> fullname:cv::buildOpticalFlowPyramid namespace:cv classpath: classname: name:buildOpticalFlowPyramid
+register (function) buildOpticalFlowPyramid (cv_buildOpticalFlowPyramid__InputArray__OutputArray_Size_int_bool_int_int_bool)
+
+--- Incoming ---
+[   'cv.calcOpticalFlowPyrLK',
+    'void',
+    [],
+    [   ['InputArray', 'prevImg', '', []],
+        ['InputArray', 'nextImg', '', []],
+        ['InputArray', 'prevPts', '', []],
+        ['InputOutputArray', 'nextPts', '', []],
+        ['OutputArray', 'status', '', []],
+        ['OutputArray', 'err', '', []],
+        ['Size', 'winSize', 'Size(21,21)', []],
+        ['int', 'maxLevel', '3', []],
+        [   'TermCriteria',
+            'criteria',
+            'TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 30, 0.01)',
+            []],
+        ['int', 'flags', '0', []],
+        ['double', 'minEigThreshold', '1e-4', []]],
+    None,
+    '@brief Calculates an optical flow for a sparse feature set using the '
+    'iterative Lucas-Kanade method with\n'
+    'pyramids.\n'
+    '\n'
+    '@param prevImg first 8-bit input image or pyramid constructed by '
+    'buildOpticalFlowPyramid.\n'
+    '@param nextImg second input image or pyramid of the same size and the '
+    'same type as prevImg.\n'
+    '@param prevPts vector of 2D points for which the flow needs to be found; '
+    'point coordinates must be\n'
+    'single-precision floating-point numbers.\n'
+    '@param nextPts output vector of 2D points (with single-precision '
+    'floating-point coordinates)\n'
+    'containing the calculated new positions of input features in the second '
+    'image; when\n'
+    'OPTFLOW_USE_INITIAL_FLOW flag is passed, the vector must have the same '
+    'size as in the input.\n'
+    '@param status output status vector (of unsigned chars); each element of '
+    'the vector is set to 1 if\n'
+    'the flow for the corresponding features has been found, otherwise, it is '
+    'set to 0.\n'
+    '@param err output vector of errors; each element of the vector is set to '
+    'an error for the\n'
+    'corresponding feature, type of the error measure can be set in flags '
+    "parameter; if the flow wasn't\n"
+    'found then the error is not defined (use the status parameter to find '
+    'such cases).\n'
+    '@param winSize size of the search window at each pyramid level.\n'
+    '@param maxLevel 0-based maximal pyramid level number; if set to 0, '
+    'pyramids are not used (single\n'
+    'level), if set to 1, two levels are used, and so on; if pyramids are '
+    'passed to input then\n'
+    'algorithm will use as many levels as pyramids have but no more than '
+    'maxLevel.\n'
+    '@param criteria parameter, specifying the termination criteria of the '
+    'iterative search algorithm\n'
+    '(after the specified maximum number of iterations criteria.maxCount or '
+    'when the search window\n'
+    'moves by less than criteria.epsilon.\n'
+    '@param flags operation flags:\n'
+    '-   **OPTFLOW_USE_INITIAL_FLOW** uses initial estimations, stored in '
+    'nextPts; if the flag is\n'
+    'not set, then prevPts is copied to nextPts and is considered the initial '
+    'estimate.\n'
+    '-   **OPTFLOW_LK_GET_MIN_EIGENVALS** use minimum eigen values as an error '
+    'measure (see\n'
+    'minEigThreshold description); if the flag is not set, then L1 distance '
+    'between patches\n'
+    'around the original and a moved point, divided by number of pixels in a '
+    'window, is used as a\n'
+    'error measure.\n'
+    '@param minEigThreshold the algorithm calculates the minimum eigen value '
+    'of a 2x2 normal matrix of\n'
+    'optical flow equations (this matrix is called a spatial gradient matrix '
+    'in @cite Bouguet00), divided\n'
+    'by number of pixels in a window; if this value is less than '
+    'minEigThreshold, then a corresponding\n'
+    'feature is filtered out and its flow is not processed, so it allows to '
+    'remove bad points and get a\n'
+    'performance boost.\n'
+    '\n'
+    'The function implements a sparse iterative version of the Lucas-Kanade '
+    'optical flow in pyramids. See\n'
+    '@cite Bouguet00 . The function is parallelized with the TBB library.\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '-   An example using the Lucas-Kanade optical flow algorithm can be found '
+    'at\n'
+    'opencv_source_code/samples/cpp/lkdemo.cpp\n'
+    '-   (Python) An example using the Lucas-Kanade optical flow algorithm can '
+    'be found at\n'
+    'opencv_source_code/samples/python/lk_track.py\n'
+    '-   (Python) An example using the Lucas-Kanade tracker for homography '
+    'matching can be found at\n'
+    'opencv_source_code/samples/python/lk_homography.py']
+parse_name: cv.calcOpticalFlowPyrLK with ['cv'] -> fullname:cv::calcOpticalFlowPyrLK namespace:cv classpath: classname: name:calcOpticalFlowPyrLK
+register (function) calcOpticalFlowPyrLK (cv_calcOpticalFlowPyrLK__InputArray__InputArray__InputArray__InputOutputArray__OutputArray__OutputArray_Size_int_TermCriteria_int_double)
+
+--- Incoming ---
+[   'cv.calcOpticalFlowFarneback',
+    'void',
+    [],
+    [   ['InputArray', 'prev', '', []],
+        ['InputArray', 'next', '', []],
+        ['InputOutputArray', 'flow', '', []],
+        ['double', 'pyr_scale', '', []],
+        ['int', 'levels', '', []],
+        ['int', 'winsize', '', []],
+        ['int', 'iterations', '', []],
+        ['int', 'poly_n', '', []],
+        ['double', 'poly_sigma', '', []],
+        ['int', 'flags', '', []]],
+    None,
+    "@brief Computes a dense optical flow using the Gunnar Farneback's "
+    'algorithm.\n'
+    '\n'
+    '@param prev first 8-bit single-channel input image.\n'
+    '@param next second input image of the same size and the same type as '
+    'prev.\n'
+    '@param flow computed flow image that has the same size as prev and type '
+    'CV_32FC2.\n'
+    '@param pyr_scale parameter, specifying the image scale (\\<1) to build '
+    'pyramids for each image;\n'
+    'pyr_scale=0.5 means a classical pyramid, where each next layer is twice '
+    'smaller than the previous\n'
+    'one.\n'
+    '@param levels number of pyramid layers including the initial image; '
+    'levels=1 means that no extra\n'
+    'layers are created and only the original images are used.\n'
+    '@param winsize averaging window size; larger values increase the '
+    'algorithm robustness to image\n'
+    'noise and give more chances for fast motion detection, but yield more '
+    'blurred motion field.\n'
+    '@param iterations number of iterations the algorithm does at each pyramid '
+    'level.\n'
+    '@param poly_n size of the pixel neighborhood used to find polynomial '
+    'expansion in each pixel;\n'
+    'larger values mean that the image will be approximated with smoother '
+    'surfaces, yielding more\n'
+    'robust algorithm and more blurred motion field, typically poly_n =5 or '
+    '7.\n'
+    '@param poly_sigma standard deviation of the Gaussian that is used to '
+    'smooth derivatives used as a\n'
+    'basis for the polynomial expansion; for poly_n=5, you can set '
+    'poly_sigma=1.1, for poly_n=7, a\n'
+    'good value would be poly_sigma=1.5.\n'
+    '@param flags operation flags that can be a combination of the following:\n'
+    '-   **OPTFLOW_USE_INITIAL_FLOW** uses the input flow as an initial flow '
+    'approximation.\n'
+    '-   **OPTFLOW_FARNEBACK_GAUSSIAN** uses the Gaussian '
+    '\\f$\\texttt{winsize}\\times\\texttt{winsize}\\f$\n'
+    'filter instead of a box filter of the same size for optical flow '
+    'estimation; usually, this\n'
+    'option gives z more accurate flow than with a box filter, at the cost of '
+    'lower speed;\n'
+    'normally, winsize for a Gaussian window should be set to a larger value '
+    'to achieve the same\n'
+    'level of robustness.\n'
+    '\n'
+    'The function finds an optical flow for each prev pixel using the @cite '
+    'Farneback2003 algorithm so that\n'
+    '\n'
+    '\\f[\\texttt{prev} (y,x)  \\sim \\texttt{next} ( y + \\texttt{flow} '
+    '(y,x)[1],  x + \\texttt{flow} (y,x)[0])\\f]\n'
+    '\n'
+    '@note\n'
+    '\n'
+    '-   An example using the optical flow algorithm described by Gunnar '
+    'Farneback can be found at\n'
+    'opencv_source_code/samples/cpp/fback.cpp\n'
+    '-   (Python) An example using the optical flow algorithm described by '
+    'Gunnar Farneback can be\n'
+    'found at opencv_source_code/samples/python/opt_flow.py']
+parse_name: cv.calcOpticalFlowFarneback with ['cv'] -> fullname:cv::calcOpticalFlowFarneback namespace:cv classpath: classname: name:calcOpticalFlowFarneback
+register (function) calcOpticalFlowFarneback (cv_calcOpticalFlowFarneback__InputArray__InputArray__InputOutputArray_double_int_int_int_int_double_int)
+
+--- Incoming ---
+[   'cv.estimateRigidTransform',
+    'Mat',
+    [],
+    [   ['InputArray', 'src', '', []],
+        ['InputArray', 'dst', '', []],
+        ['bool', 'fullAffine', '', []]],
+    None,
+    '@brief Computes an optimal affine transformation between two 2D point '
+    'sets.\n'
+    '\n'
+    '@param src First input 2D point set stored in std::vector or Mat, or an '
+    'image stored in Mat.\n'
+    '@param dst Second input 2D point set of the same size and the same type '
+    'as A, or another image.\n'
+    '@param fullAffine If true, the function finds an optimal affine '
+    'transformation with no additional\n'
+    'restrictions (6 degrees of freedom). Otherwise, the class of '
+    'transformations to choose from is\n'
+    'limited to combinations of translation, rotation, and uniform scaling (4 '
+    'degrees of freedom).\n'
+    '\n'
+    'The function finds an optimal affine transform *[A|b]* (a 2 x 3 '
+    'floating-point matrix) that\n'
+    'approximates best the affine transformation between:\n'
+    '\n'
+    '*   Two point sets\n'
+    '*   Two raster images. In this case, the function first finds some '
+    'features in the src image and\n'
+    'finds the corresponding features in dst image. After that, the problem is '
+    'reduced to the first\n'
+    'case.\n'
+    'In case of point sets, the problem is formulated as follows: you need to '
+    'find a 2x2 matrix *A* and\n'
+    '2x1 vector *b* so that:\n'
+    '\n'
+    '\\f[[A^*|b^*] = arg  \\min _{[A|b]}  \\sum _i  \\| \\texttt{dst}[i] - A { '
+    '\\texttt{src}[i]}^T - b  \\| ^2\\f]\n'
+    'where src[i] and dst[i] are the i-th points in src and dst, respectively\n'
+    '\\f$[A|b]\\f$ can be either arbitrary (when fullAffine=true ) or have a '
+    'form of\n'
+    '\\f[\\begin{bmatrix} a_{11} & a_{12} & b_1  \\\\ -a_{12} & a_{11} & b_2  '
+    '\\end{bmatrix}\\f]\n'
+    'when fullAffine=false.\n'
+    '\n'
+    '@deprecated Use cv::estimateAffine2D, cv::estimateAffinePartial2D '
+    'instead. If you are using this function\n'
+    'with images, extract points using cv::calcOpticalFlowPyrLK and then use '
+    'the estimation functions.\n'
+    '\n'
+    '@sa\n'
+    'estimateAffine2D, estimateAffinePartial2D, getAffineTransform, '
+    'getPerspectiveTransform, findHomography']
+parse_name: cv.estimateRigidTransform with ['cv'] -> fullname:cv::estimateRigidTransform namespace:cv classpath: classname: name:estimateRigidTransform
+register (function) estimateRigidTransform (cv_estimateRigidTransform__InputArray__InputArray_bool)
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.MOTION_TRANSLATION', '0', [], [], None, ''],
+        ['const cv.MOTION_EUCLIDEAN', '1', [], [], None, ''],
+        ['const cv.MOTION_AFFINE', '2', [], [], None, ''],
+        ['const cv.MOTION_HOMOGRAPHY', '3', [], [], None, '']],
+    None,
+    '']
+parse_name: const cv.MOTION_TRANSLATION with ['cv'] -> fullname:cv::MOTION_TRANSLATION namespace:cv classpath: classname: name:MOTION_TRANSLATION
+parse_name: const cv.MOTION_EUCLIDEAN with ['cv'] -> fullname:cv::MOTION_EUCLIDEAN namespace:cv classpath: classname: name:MOTION_EUCLIDEAN
+parse_name: const cv.MOTION_AFFINE with ['cv'] -> fullname:cv::MOTION_AFFINE namespace:cv classpath: classname: name:MOTION_AFFINE
+parse_name: const cv.MOTION_HOMOGRAPHY with ['cv'] -> fullname:cv::MOTION_HOMOGRAPHY namespace:cv classpath: classname: name:MOTION_HOMOGRAPHY
+
+--- Incoming ---
+[   'cv.computeECC',
+    'double',
+    [],
+    [   ['InputArray', 'templateImage', '', []],
+        ['InputArray', 'inputImage', '', []],
+        ['InputArray', 'inputMask', 'noArray()', []]],
+    None,
+    '@brief Computes the Enhanced Correlation Coefficient value between two '
+    'images @cite EP08 .\n'
+    '\n'
+    '@param templateImage single-channel template image; CV_8U or CV_32F '
+    'array.\n'
+    '@param inputImage single-channel input image to be warped to provide an '
+    'image similar to\n'
+    'templateImage, same type as templateImage.\n'
+    '@param inputMask An optional mask to indicate valid values of '
+    'inputImage.\n'
+    '\n'
+    '@sa\n'
+    'findTransformECC']
+parse_name: cv.computeECC with ['cv'] -> fullname:cv::computeECC namespace:cv classpath: classname: name:computeECC
+register (function) computeECC (cv_computeECC__InputArray__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.findTransformECC',
+    'double',
+    [],
+    [   ['InputArray', 'templateImage', '', []],
+        ['InputArray', 'inputImage', '', []],
+        ['InputOutputArray', 'warpMatrix', '', []],
+        ['int', 'motionType', '', []],
+        ['TermCriteria', 'criteria', '', []],
+        ['InputArray', 'inputMask', '', []],
+        ['int', 'gaussFiltSize', '', []]],
+    None,
+    '@brief Finds the geometric transform (warp) between two images in terms '
+    'of the ECC criterion @cite EP08 .\n'
+    '\n'
+    '@param templateImage single-channel template image; CV_8U or CV_32F '
+    'array.\n'
+    '@param inputImage single-channel input image which should be warped with '
+    'the final warpMatrix in\n'
+    'order to provide an image similar to templateImage, same type as '
+    'templateImage.\n'
+    '@param warpMatrix floating-point \\f$2\\times 3\\f$ or \\f$3\\times 3\\f$ '
+    'mapping matrix (warp).\n'
+    '@param motionType parameter, specifying the type of motion:\n'
+    '-   **MOTION_TRANSLATION** sets a translational motion model; warpMatrix '
+    'is \\f$2\\times 3\\f$ with\n'
+    'the first \\f$2\\times 2\\f$ part being the unity matrix and the rest two '
+    'parameters being\n'
+    'estimated.\n'
+    '-   **MOTION_EUCLIDEAN** sets a Euclidean (rigid) transformation as '
+    'motion model; three\n'
+    'parameters are estimated; warpMatrix is \\f$2\\times 3\\f$.\n'
+    '-   **MOTION_AFFINE** sets an affine motion model (DEFAULT); six '
+    'parameters are estimated;\n'
+    'warpMatrix is \\f$2\\times 3\\f$.\n'
+    '-   **MOTION_HOMOGRAPHY** sets a homography as a motion model; eight '
+    'parameters are\n'
+    'estimated;\\`warpMatrix\\` is \\f$3\\times 3\\f$.\n'
+    '@param criteria parameter, specifying the termination criteria of the ECC '
+    'algorithm;\n'
+    'criteria.epsilon defines the threshold of the increment in the '
+    'correlation coefficient between two\n'
+    'iterations (a negative criteria.epsilon makes criteria.maxcount the only '
+    'termination criterion).\n'
+    'Default values are shown in the declaration above.\n'
+    '@param inputMask An optional mask to indicate valid values of '
+    'inputImage.\n'
+    '@param gaussFiltSize An optional value indicating size of gaussian blur '
+    'filter; (DEFAULT: 5)\n'
+    '\n'
+    'The function estimates the optimum transformation (warpMatrix) with '
+    'respect to ECC criterion\n'
+    '(@cite EP08), that is\n'
+    '\n'
+    '\\f[\\texttt{warpMatrix} = \\texttt{warpMatrix} = \\arg\\max_{W} '
+    "\\texttt{ECC}(\\texttt{templateImage}(x,y),\\texttt{inputImage}(x',y'))\\f]\n"
+    '\n'
+    'where\n'
+    '\n'
+    "\\f[\\begin{bmatrix} x' \\\\ y' \\end{bmatrix} = W \\cdot "
+    '\\begin{bmatrix} x \\\\ y \\\\ 1 \\end{bmatrix}\\f]\n'
+    '\n'
+    '(the equation holds with homogeneous coordinates for homography). It '
+    'returns the final enhanced\n'
+    'correlation coefficient, that is the correlation coefficient between the '
+    'template image and the\n'
+    'final warped input image. When a \\f$3\\times 3\\f$ matrix is given with '
+    'motionType =0, 1 or 2, the third\n'
+    'row is ignored.\n'
+    '\n'
+    'Unlike findHomography and estimateRigidTransform, the function '
+    'findTransformECC implements an\n'
+    'area-based alignment that builds on intensity similarities. In essence, '
+    'the function updates the\n'
+    'initial transformation that roughly aligns the images. If this '
+    'information is missing, the identity\n'
+    'warp (unity matrix) is used as an initialization. Note that if images '
+    'undergo strong\n'
+    'displacements/rotations, an initial transformation that roughly aligns '
+    'the images is necessary\n'
+    '(e.g., a simple euclidean/similarity transform that allows for the images '
+    'showing the same image\n'
+    'content approximately). Use inverse warping in the second image to take '
+    'an image close to the first\n'
+    'one, i.e. use the flag WARP_INVERSE_MAP with warpAffine or '
+    'warpPerspective. See also the OpenCV\n'
+    'sample image_alignment.cpp that demonstrates the use of the function. '
+    'Note that the function throws\n'
+    'an exception if algorithm does not converges.\n'
+    '\n'
+    '@sa\n'
+    'computeECC, estimateAffine2D, estimateAffinePartial2D, findHomography']
+parse_name: cv.findTransformECC with ['cv'] -> fullname:cv::findTransformECC namespace:cv classpath: classname: name:findTransformECC
+register (function) findTransformECC (cv_findTransformECC__InputArray__InputArray__InputOutputArray_int_TermCriteria__InputArray_int)
+
+--- Incoming ---
+[   'cv.findTransformECC',
+    'double',
+    [],
+    [   ['InputArray', 'templateImage', '', []],
+        ['InputArray', 'inputImage', '', []],
+        ['InputOutputArray', 'warpMatrix', '', []],
+        ['int', 'motionType', 'MOTION_AFFINE', []],
+        [   'TermCriteria',
+            'criteria',
+            'TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 50, 0.001)',
+            []],
+        ['InputArray', 'inputMask', 'noArray()', []]],
+    None,
+    '@overload']
+parse_name: cv.findTransformECC with ['cv'] -> fullname:cv::findTransformECC namespace:cv classpath: classname: name:findTransformECC
+register (function) findTransformECC (cv_findTransformECC__InputArray__InputArray__InputOutputArray_int_TermCriteria__InputArray)
+
+--- Incoming ---
+[   'class cv.KalmanFilter',
+    '',
+    [],
+    [   [   'Mat',
+            'statePre',
+            "predicted state (x'(k)): x(k)=A*x(k-1)+B*u(k)",
+            ['/RW']],
+        [   'Mat',
+            'statePost',
+            "corrected state (x(k)): x(k)=x'(k)+K(k)*(z(k)-H*x'(k))",
+            ['/RW']],
+        ['Mat', 'transitionMatrix', 'state transition matrix (A)', ['/RW']],
+        [   'Mat',
+            'controlMatrix',
+            'control matrix (B) (not used if there is no control)',
+            ['/RW']],
+        ['Mat', 'measurementMatrix', 'measurement matrix (H)', ['/RW']],
+        [   'Mat',
+            'processNoiseCov',
+            'process noise covariance matrix (Q)',
+            ['/RW']],
+        [   'Mat',
+            'measurementNoiseCov',
+            'measurement noise covariance matrix (R)',
+            ['/RW']],
+        [   'Mat',
+            'errorCovPre',
+            "priori error estimate covariance matrix (P'(k)): "
+            "P'(k)=A*P(k-1)*At + Q)*/",
+            ['/RW']],
+        [   'Mat',
+            'gain',
+            "Kalman gain matrix (K(k)): K(k)=P'(k)*Ht*inv(H*P'(k)*Ht+R)",
+            ['/RW']],
+        [   'Mat',
+            'errorCovPost',
+            'posteriori error estimate covariance matrix (P(k)): '
+            "P(k)=(I-K(k)*H)*P'(k)",
+            ['/RW']]],
+    None,
+    '@brief Kalman filter class.\n'
+    '\n'
+    'The class implements a standard Kalman filter '
+    '<http://en.wikipedia.org/wiki/Kalman_filter>,\n'
+    '@cite Welch95 . However, you can modify transitionMatrix, controlMatrix, '
+    'and measurementMatrix to get\n'
+    'an extended Kalman filter functionality.\n'
+    '@note In C API when CvKalman\\* kalmanFilter structure is not needed '
+    'anymore, it should be released\n'
+    'with cvReleaseKalman(&kalmanFilter)']
+parse_name: class cv.KalmanFilter with ['cv'] -> fullname:cv::KalmanFilter namespace:cv classpath: classname: name:KalmanFilter
+register class cv::KalmanFilter (['class cv.KalmanFilter', '', [], [['Mat', 'statePre', "predicted state (x'(k)): x(k)=A*x(k-1)+B*u(k)", ['/RW']], ['Mat', 'statePost', "corrected state (x(k)): x(k)=x'(k)+K(k)*(z(k)-H*x'(k))", ['/RW']], ['Mat', 'transitionMatrix', 'state transition matrix (A)', ['/RW']], ['Mat', 'controlMatrix', 'control matrix (B) (not used if there is no control)', ['/RW']], ['Mat', 'measurementMatrix', 'measurement matrix (H)', ['/RW']], ['Mat', 'processNoiseCov', 'process noise covariance matrix (Q)', ['/RW']], ['Mat', 'measurementNoiseCov', 'measurement noise covariance matrix (R)', ['/RW']], ['Mat', 'errorCovPre', "priori error estimate covariance matrix (P'(k)): P'(k)=A*P(k-1)*At + Q)*/", ['/RW']], ['Mat', 'gain', "Kalman gain matrix (K(k)): K(k)=P'(k)*Ht*inv(H*P'(k)*Ht+R)", ['/RW']], ['Mat', 'errorCovPost', "posteriori error estimate covariance matrix (P(k)): P(k)=(I-K(k)*H)*P'(k)", ['/RW']]], None, '@brief Kalman filter class.\n\nThe class implements a standard Kalman filter <http://en.wikipedia.org/wiki/Kalman_filter>,\n@cite Welch95 . However, you can modify transitionMatrix, controlMatrix, and measurementMatrix to get\nan extended Kalman filter functionality.\n@note In C API when CvKalman\\* kalmanFilter structure is not needed anymore, it should be released\nwith cvReleaseKalman(&kalmanFilter)'])
+parse_name: cv.KalmanFilter.statePre with ['cv'] -> fullname:cv::KalmanFilter::statePre namespace:cv classpath:KalmanFilter classname:KalmanFilter name:statePre
+register (method) statePre in cv::KalmanFilter (cv_KalmanFilter_statePre)
+parse_name: cv.KalmanFilter.set_statePre with ['cv'] -> fullname:cv::KalmanFilter::set_statePre namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_statePre
+register (method) set_statePre in cv::KalmanFilter (cv_KalmanFilter_set_statePre_Mat)
+parse_name: cv.KalmanFilter.statePost with ['cv'] -> fullname:cv::KalmanFilter::statePost namespace:cv classpath:KalmanFilter classname:KalmanFilter name:statePost
+register (method) statePost in cv::KalmanFilter (cv_KalmanFilter_statePost)
+parse_name: cv.KalmanFilter.set_statePost with ['cv'] -> fullname:cv::KalmanFilter::set_statePost namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_statePost
+register (method) set_statePost in cv::KalmanFilter (cv_KalmanFilter_set_statePost_Mat)
+parse_name: cv.KalmanFilter.transitionMatrix with ['cv'] -> fullname:cv::KalmanFilter::transitionMatrix namespace:cv classpath:KalmanFilter classname:KalmanFilter name:transitionMatrix
+register (method) transitionMatrix in cv::KalmanFilter (cv_KalmanFilter_transitionMatrix)
+parse_name: cv.KalmanFilter.set_transitionMatrix with ['cv'] -> fullname:cv::KalmanFilter::set_transitionMatrix namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_transitionMatrix
+register (method) set_transitionMatrix in cv::KalmanFilter (cv_KalmanFilter_set_transitionMatrix_Mat)
+parse_name: cv.KalmanFilter.controlMatrix with ['cv'] -> fullname:cv::KalmanFilter::controlMatrix namespace:cv classpath:KalmanFilter classname:KalmanFilter name:controlMatrix
+register (method) controlMatrix in cv::KalmanFilter (cv_KalmanFilter_controlMatrix)
+parse_name: cv.KalmanFilter.set_controlMatrix with ['cv'] -> fullname:cv::KalmanFilter::set_controlMatrix namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_controlMatrix
+register (method) set_controlMatrix in cv::KalmanFilter (cv_KalmanFilter_set_controlMatrix_Mat)
+parse_name: cv.KalmanFilter.measurementMatrix with ['cv'] -> fullname:cv::KalmanFilter::measurementMatrix namespace:cv classpath:KalmanFilter classname:KalmanFilter name:measurementMatrix
+register (method) measurementMatrix in cv::KalmanFilter (cv_KalmanFilter_measurementMatrix)
+parse_name: cv.KalmanFilter.set_measurementMatrix with ['cv'] -> fullname:cv::KalmanFilter::set_measurementMatrix namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_measurementMatrix
+register (method) set_measurementMatrix in cv::KalmanFilter (cv_KalmanFilter_set_measurementMatrix_Mat)
+parse_name: cv.KalmanFilter.processNoiseCov with ['cv'] -> fullname:cv::KalmanFilter::processNoiseCov namespace:cv classpath:KalmanFilter classname:KalmanFilter name:processNoiseCov
+register (method) processNoiseCov in cv::KalmanFilter (cv_KalmanFilter_processNoiseCov)
+parse_name: cv.KalmanFilter.set_processNoiseCov with ['cv'] -> fullname:cv::KalmanFilter::set_processNoiseCov namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_processNoiseCov
+register (method) set_processNoiseCov in cv::KalmanFilter (cv_KalmanFilter_set_processNoiseCov_Mat)
+parse_name: cv.KalmanFilter.measurementNoiseCov with ['cv'] -> fullname:cv::KalmanFilter::measurementNoiseCov namespace:cv classpath:KalmanFilter classname:KalmanFilter name:measurementNoiseCov
+register (method) measurementNoiseCov in cv::KalmanFilter (cv_KalmanFilter_measurementNoiseCov)
+parse_name: cv.KalmanFilter.set_measurementNoiseCov with ['cv'] -> fullname:cv::KalmanFilter::set_measurementNoiseCov namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_measurementNoiseCov
+register (method) set_measurementNoiseCov in cv::KalmanFilter (cv_KalmanFilter_set_measurementNoiseCov_Mat)
+parse_name: cv.KalmanFilter.errorCovPre with ['cv'] -> fullname:cv::KalmanFilter::errorCovPre namespace:cv classpath:KalmanFilter classname:KalmanFilter name:errorCovPre
+register (method) errorCovPre in cv::KalmanFilter (cv_KalmanFilter_errorCovPre)
+parse_name: cv.KalmanFilter.set_errorCovPre with ['cv'] -> fullname:cv::KalmanFilter::set_errorCovPre namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_errorCovPre
+register (method) set_errorCovPre in cv::KalmanFilter (cv_KalmanFilter_set_errorCovPre_Mat)
+parse_name: cv.KalmanFilter.gain with ['cv'] -> fullname:cv::KalmanFilter::gain namespace:cv classpath:KalmanFilter classname:KalmanFilter name:gain
+register (method) gain in cv::KalmanFilter (cv_KalmanFilter_gain)
+parse_name: cv.KalmanFilter.set_gain with ['cv'] -> fullname:cv::KalmanFilter::set_gain namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_gain
+register (method) set_gain in cv::KalmanFilter (cv_KalmanFilter_set_gain_Mat)
+parse_name: cv.KalmanFilter.errorCovPost with ['cv'] -> fullname:cv::KalmanFilter::errorCovPost namespace:cv classpath:KalmanFilter classname:KalmanFilter name:errorCovPost
+register (method) errorCovPost in cv::KalmanFilter (cv_KalmanFilter_errorCovPost)
+parse_name: cv.KalmanFilter.set_errorCovPost with ['cv'] -> fullname:cv::KalmanFilter::set_errorCovPost namespace:cv classpath:KalmanFilter classname:KalmanFilter name:set_errorCovPost
+register (method) set_errorCovPost in cv::KalmanFilter (cv_KalmanFilter_set_errorCovPost_Mat)
+
+--- Incoming ---
+['cv.KalmanFilter.KalmanFilter', 'K', [], [], None, '']
+parse_name: cv.KalmanFilter.KalmanFilter with ['cv'] -> fullname:cv::KalmanFilter::KalmanFilter namespace:cv classpath:KalmanFilter classname:KalmanFilter name:KalmanFilter
+register (constructor) default in cv::KalmanFilter (cv_KalmanFilter_KalmanFilter)
+
+--- Incoming ---
+[   'cv.KalmanFilter.KalmanFilter',
+    'K',
+    [],
+    [   ['int', 'dynamParams', '', []],
+        ['int', 'measureParams', '', []],
+        ['int', 'controlParams', '0', []],
+        ['int', 'type', 'CV_32F', []]],
+    None,
+    '@overload\n'
+    '@param dynamParams Dimensionality of the state.\n'
+    '@param measureParams Dimensionality of the measurement.\n'
+    '@param controlParams Dimensionality of the control vector.\n'
+    '@param type Type of the created matrices that should be CV_32F or CV_64F.']
+parse_name: cv.KalmanFilter.KalmanFilter with ['cv'] -> fullname:cv::KalmanFilter::KalmanFilter namespace:cv classpath:KalmanFilter classname:KalmanFilter name:KalmanFilter
+register (constructor) new in cv::KalmanFilter (cv_KalmanFilter_KalmanFilter_int_int_int_int)
+
+--- Incoming ---
+[   'cv.KalmanFilter.init',
+    'void',
+    [],
+    [   ['int', 'dynamParams', '', []],
+        ['int', 'measureParams', '', []],
+        ['int', 'controlParams', '0', []],
+        ['int', 'type', 'CV_32F', []]],
+    None,
+    '@brief Re-initializes Kalman filter. The previous content is destroyed.\n'
+    '\n'
+    '@param dynamParams Dimensionality of the state.\n'
+    '@param measureParams Dimensionality of the measurement.\n'
+    '@param controlParams Dimensionality of the control vector.\n'
+    '@param type Type of the created matrices that should be CV_32F or CV_64F.']
+parse_name: cv.KalmanFilter.init with ['cv'] -> fullname:cv::KalmanFilter::init namespace:cv classpath:KalmanFilter classname:KalmanFilter name:init
+register (method) init in cv::KalmanFilter (cv_KalmanFilter_init_int_int_int_int)
+
+--- Incoming ---
+[   'cv.KalmanFilter.predict',
+    'const Mat&',
+    [],
+    [['const Mat&', 'control', 'Mat()', []]],
+    None,
+    '@brief Computes a predicted state.\n'
+    '\n'
+    '@param control The optional input control']
+parse_name: cv.KalmanFilter.predict with ['cv'] -> fullname:cv::KalmanFilter::predict namespace:cv classpath:KalmanFilter classname:KalmanFilter name:predict
+register (method) predict in cv::KalmanFilter (cv_KalmanFilter_predict_Mat)
+
+--- Incoming ---
+[   'cv.KalmanFilter.correct',
+    'const Mat&',
+    [],
+    [['const Mat&', 'measurement', '', []]],
+    None,
+    '@brief Updates the predicted state from the measurement.\n'
+    '\n'
+    '@param measurement The measured system parameters']
+parse_name: cv.KalmanFilter.correct with ['cv'] -> fullname:cv::KalmanFilter::correct namespace:cv classpath:KalmanFilter classname:KalmanFilter name:correct
+register (method) correct in cv::KalmanFilter (cv_KalmanFilter_correct_Mat)
+
+--- Incoming ---
+[   'cv.readOpticalFlow',
+    'Mat',
+    [],
+    [['const String&', 'path', '', []]],
+    None,
+    '@brief Read a .flo file\n'
+    '\n'
+    '@param path Path to the file to be loaded\n'
+    '\n'
+    'The function readOpticalFlow loads a flow field from a file and returns '
+    'it as a single matrix.\n'
+    'Resulting Mat has a type CV_32FC2 - floating-point, 2-channel. First '
+    'channel corresponds to the\n'
+    'flow in the horizontal direction (u), second - vertical (v).']
+parse_name: cv.readOpticalFlow with ['cv'] -> fullname:cv::readOpticalFlow namespace:cv classpath: classname: name:readOpticalFlow
+register (function) readOpticalFlow (cv_readOpticalFlow_String)
+
+--- Incoming ---
+[   'cv.writeOpticalFlow',
+    'bool',
+    [],
+    [['const String&', 'path', '', []], ['InputArray', 'flow', '', []]],
+    None,
+    '@brief Write a .flo to disk\n'
+    '\n'
+    '@param path Path to the file to be written\n'
+    '@param flow Flow field to be stored\n'
+    '\n'
+    'The function stores a flow field in a file, returns true on success, '
+    'false otherwise.\n'
+    'The flow field must be a 2-channel, floating-point matrix (CV_32FC2). '
+    'First channel corresponds\n'
+    'to the flow in the horizontal direction (u), second - vertical (v).']
+parse_name: cv.writeOpticalFlow with ['cv'] -> fullname:cv::writeOpticalFlow namespace:cv classpath: classname: name:writeOpticalFlow
+register (function) writeOpticalFlow (cv_writeOpticalFlow_String__InputArray)
+
+--- Incoming ---
+[   'class cv.DenseOpticalFlow',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    'Base class for dense optical flow algorithms']
+parse_name: class cv.DenseOpticalFlow with ['cv'] -> fullname:cv::DenseOpticalFlow namespace:cv classpath: classname: name:DenseOpticalFlow
+register class cv::DenseOpticalFlow (['class cv.DenseOpticalFlow', ': cv::Algorithm', [], [], None, 'Base class for dense optical flow algorithms']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.DenseOpticalFlow.calc',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'I0', '', []],
+        ['InputArray', 'I1', '', []],
+        ['InputOutputArray', 'flow', '', []]],
+    None,
+    '@brief Calculates an optical flow.\n'
+    '\n'
+    '@param I0 first 8-bit single-channel input image.\n'
+    '@param I1 second input image of the same size and the same type as prev.\n'
+    '@param flow computed flow image that has the same size as prev and type '
+    'CV_32FC2.']
+parse_name: cv.DenseOpticalFlow.calc with ['cv'] -> fullname:cv::DenseOpticalFlow::calc namespace:cv classpath:DenseOpticalFlow classname:DenseOpticalFlow name:calc
+register (method) calc in cv::DenseOpticalFlow (trait) (cv_DenseOpticalFlow_calc__InputArray__InputArray__InputOutputArray)
+
+--- Incoming ---
+[   'cv.DenseOpticalFlow.collectGarbage',
+    'void',
+    ['/A'],
+    [],
+    None,
+    '@brief Releases all inner buffers.']
+parse_name: cv.DenseOpticalFlow.collectGarbage with ['cv'] -> fullname:cv::DenseOpticalFlow::collectGarbage namespace:cv classpath:DenseOpticalFlow classname:DenseOpticalFlow name:collectGarbage
+register (method) collectGarbage in cv::DenseOpticalFlow (trait) (cv_DenseOpticalFlow_collectGarbage)
+
+--- Incoming ---
+[   'class cv.SparseOpticalFlow',
+    ': cv::Algorithm',
+    [],
+    [],
+    None,
+    '@brief Base interface for sparse optical flow algorithms.']
+parse_name: class cv.SparseOpticalFlow with ['cv'] -> fullname:cv::SparseOpticalFlow namespace:cv classpath: classname: name:SparseOpticalFlow
+register class cv::SparseOpticalFlow (['class cv.SparseOpticalFlow', ': cv::Algorithm', [], [], None, '@brief Base interface for sparse optical flow algorithms.']) impl:cv::Algorithm
+
+--- Incoming ---
+[   'cv.SparseOpticalFlow.calc',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'prevImg', '', []],
+        ['InputArray', 'nextImg', '', []],
+        ['InputArray', 'prevPts', '', []],
+        ['InputOutputArray', 'nextPts', '', []],
+        ['OutputArray', 'status', '', []],
+        ['OutputArray', 'err', 'cv::noArray()', []]],
+    None,
+    '@brief Calculates a sparse optical flow.\n'
+    '\n'
+    '@param prevImg First input image.\n'
+    '@param nextImg Second input image of the same size and the same type as '
+    'prevImg.\n'
+    '@param prevPts Vector of 2D points for which the flow needs to be found.\n'
+    '@param nextPts Output vector of 2D points containing the calculated new '
+    'positions of input features in the second image.\n'
+    '@param status Output status vector. Each element of the vector is set to '
+    '1 if the\n'
+    'flow for the corresponding features has been found. Otherwise, it is set '
+    'to 0.\n'
+    '@param err Optional output vector that contains error response for each '
+    'point (inverse confidence).']
+parse_name: cv.SparseOpticalFlow.calc with ['cv'] -> fullname:cv::SparseOpticalFlow::calc namespace:cv classpath:SparseOpticalFlow classname:SparseOpticalFlow name:calc
+register (method) calc in cv::SparseOpticalFlow (trait) (cv_SparseOpticalFlow_calc__InputArray__InputArray__InputArray__InputOutputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'class cv.FarnebackOpticalFlow',
+    ': cv::DenseOpticalFlow',
+    [],
+    [],
+    None,
+    "@brief Class computing a dense optical flow using the Gunnar Farneback's "
+    'algorithm.']
+parse_name: class cv.FarnebackOpticalFlow with ['cv'] -> fullname:cv::FarnebackOpticalFlow namespace:cv classpath: classname: name:FarnebackOpticalFlow
+register class cv::FarnebackOpticalFlow (['class cv.FarnebackOpticalFlow', ': cv::DenseOpticalFlow', [], [], None, "@brief Class computing a dense optical flow using the Gunnar Farneback's algorithm."]) impl:cv::DenseOpticalFlow
+
+--- Incoming ---
+['cv.FarnebackOpticalFlow.getNumLevels', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.FarnebackOpticalFlow.getNumLevels with ['cv'] -> fullname:cv::FarnebackOpticalFlow::getNumLevels namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:getNumLevels
+register (method) getNumLevels in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_getNumLevels_const)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.setNumLevels',
+    'void',
+    ['/A'],
+    [['int', 'numLevels', '', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.setNumLevels with ['cv'] -> fullname:cv::FarnebackOpticalFlow::setNumLevels namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:setNumLevels
+register (method) setNumLevels in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_setNumLevels_int)
+
+--- Incoming ---
+['cv.FarnebackOpticalFlow.getPyrScale', 'double', ['/A', '/C'], [], None, '']
+parse_name: cv.FarnebackOpticalFlow.getPyrScale with ['cv'] -> fullname:cv::FarnebackOpticalFlow::getPyrScale namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:getPyrScale
+register (method) getPyrScale in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_getPyrScale_const)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.setPyrScale',
+    'void',
+    ['/A'],
+    [['double', 'pyrScale', '', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.setPyrScale with ['cv'] -> fullname:cv::FarnebackOpticalFlow::setPyrScale namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:setPyrScale
+register (method) setPyrScale in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_setPyrScale_double)
+
+--- Incoming ---
+['cv.FarnebackOpticalFlow.getFastPyramids', 'bool', ['/A', '/C'], [], None, '']
+parse_name: cv.FarnebackOpticalFlow.getFastPyramids with ['cv'] -> fullname:cv::FarnebackOpticalFlow::getFastPyramids namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:getFastPyramids
+register (method) getFastPyramids in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_getFastPyramids_const)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.setFastPyramids',
+    'void',
+    ['/A'],
+    [['bool', 'fastPyramids', '', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.setFastPyramids with ['cv'] -> fullname:cv::FarnebackOpticalFlow::setFastPyramids namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:setFastPyramids
+register (method) setFastPyramids in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_setFastPyramids_bool)
+
+--- Incoming ---
+['cv.FarnebackOpticalFlow.getWinSize', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.FarnebackOpticalFlow.getWinSize with ['cv'] -> fullname:cv::FarnebackOpticalFlow::getWinSize namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:getWinSize
+register (method) getWinSize in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_getWinSize_const)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.setWinSize',
+    'void',
+    ['/A'],
+    [['int', 'winSize', '', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.setWinSize with ['cv'] -> fullname:cv::FarnebackOpticalFlow::setWinSize namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:setWinSize
+register (method) setWinSize in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_setWinSize_int)
+
+--- Incoming ---
+['cv.FarnebackOpticalFlow.getNumIters', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.FarnebackOpticalFlow.getNumIters with ['cv'] -> fullname:cv::FarnebackOpticalFlow::getNumIters namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:getNumIters
+register (method) getNumIters in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_getNumIters_const)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.setNumIters',
+    'void',
+    ['/A'],
+    [['int', 'numIters', '', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.setNumIters with ['cv'] -> fullname:cv::FarnebackOpticalFlow::setNumIters namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:setNumIters
+register (method) setNumIters in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_setNumIters_int)
+
+--- Incoming ---
+['cv.FarnebackOpticalFlow.getPolyN', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.FarnebackOpticalFlow.getPolyN with ['cv'] -> fullname:cv::FarnebackOpticalFlow::getPolyN namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:getPolyN
+register (method) getPolyN in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_getPolyN_const)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.setPolyN',
+    'void',
+    ['/A'],
+    [['int', 'polyN', '', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.setPolyN with ['cv'] -> fullname:cv::FarnebackOpticalFlow::setPolyN namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:setPolyN
+register (method) setPolyN in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_setPolyN_int)
+
+--- Incoming ---
+['cv.FarnebackOpticalFlow.getPolySigma', 'double', ['/A', '/C'], [], None, '']
+parse_name: cv.FarnebackOpticalFlow.getPolySigma with ['cv'] -> fullname:cv::FarnebackOpticalFlow::getPolySigma namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:getPolySigma
+register (method) getPolySigma in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_getPolySigma_const)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.setPolySigma',
+    'void',
+    ['/A'],
+    [['double', 'polySigma', '', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.setPolySigma with ['cv'] -> fullname:cv::FarnebackOpticalFlow::setPolySigma namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:setPolySigma
+register (method) setPolySigma in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_setPolySigma_double)
+
+--- Incoming ---
+['cv.FarnebackOpticalFlow.getFlags', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.FarnebackOpticalFlow.getFlags with ['cv'] -> fullname:cv::FarnebackOpticalFlow::getFlags namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:getFlags
+register (method) getFlags in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_getFlags_const)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.setFlags',
+    'void',
+    ['/A'],
+    [['int', 'flags', '', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.setFlags with ['cv'] -> fullname:cv::FarnebackOpticalFlow::setFlags namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:setFlags
+register (method) setFlags in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_setFlags_int)
+
+--- Incoming ---
+[   'cv.FarnebackOpticalFlow.create',
+    'Ptr<FarnebackOpticalFlow>',
+    ['/S'],
+    [   ['int', 'numLevels', '5', []],
+        ['double', 'pyrScale', '0.5', []],
+        ['bool', 'fastPyramids', 'false', []],
+        ['int', 'winSize', '13', []],
+        ['int', 'numIters', '10', []],
+        ['int', 'polyN', '5', []],
+        ['double', 'polySigma', '1.1', []],
+        ['int', 'flags', '0', []]],
+    None,
+    '']
+parse_name: cv.FarnebackOpticalFlow.create with ['cv'] -> fullname:cv::FarnebackOpticalFlow::create namespace:cv classpath:FarnebackOpticalFlow classname:FarnebackOpticalFlow name:create
+register (method) create in cv::FarnebackOpticalFlow (trait) (cv_FarnebackOpticalFlow_create_int_double_bool_int_int_int_double_int)
+
+--- Incoming ---
+[   'class cv.VariationalRefinement',
+    ': cv::DenseOpticalFlow',
+    [],
+    [],
+    None,
+    '@brief Variational optical flow refinement\n'
+    '\n'
+    'This class implements variational refinement of the input flow field, '
+    'i.e.\n'
+    'it uses input flow to initialize the minimization of the following '
+    'functional:\n'
+    '\\f$E(U) = \\int_{\\Omega} \\delta \\Psi(E_I) + \\gamma \\Psi(E_G) + '
+    '\\alpha \\Psi(E_S) \\f$,\n'
+    'where \\f$E_I,E_G,E_S\\f$ are color constancy, gradient constancy and '
+    'smoothness terms\n'
+    'respectively. \\f$\\Psi(s^2)=\\sqrt{s^2+\\epsilon^2}\\f$ is a robust '
+    'penalizer to limit the\n'
+    'influence of outliers. A complete formulation and a description of the '
+    'minimization\n'
+    'procedure can be found in @cite Brox2004']
+parse_name: class cv.VariationalRefinement with ['cv'] -> fullname:cv::VariationalRefinement namespace:cv classpath: classname: name:VariationalRefinement
+register class cv::VariationalRefinement (['class cv.VariationalRefinement', ': cv::DenseOpticalFlow', [], [], None, '@brief Variational optical flow refinement\n\nThis class implements variational refinement of the input flow field, i.e.\nit uses input flow to initialize the minimization of the following functional:\n\\f$E(U) = \\int_{\\Omega} \\delta \\Psi(E_I) + \\gamma \\Psi(E_G) + \\alpha \\Psi(E_S) \\f$,\nwhere \\f$E_I,E_G,E_S\\f$ are color constancy, gradient constancy and smoothness terms\nrespectively. \\f$\\Psi(s^2)=\\sqrt{s^2+\\epsilon^2}\\f$ is a robust penalizer to limit the\ninfluence of outliers. A complete formulation and a description of the minimization\nprocedure can be found in @cite Brox2004']) impl:cv::DenseOpticalFlow
+
+--- Incoming ---
+[   'cv.VariationalRefinement.calcUV',
+    'void',
+    ['/A'],
+    [   ['InputArray', 'I0', '', []],
+        ['InputArray', 'I1', '', []],
+        ['InputOutputArray', 'flow_u', '', []],
+        ['InputOutputArray', 'flow_v', '', []]],
+    None,
+    '@brief @ref calc function overload to handle separate horizontal (u) and '
+    'vertical (v) flow components\n'
+    '(to avoid extra splits/merges)']
+parse_name: cv.VariationalRefinement.calcUV with ['cv'] -> fullname:cv::VariationalRefinement::calcUV namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:calcUV
+register (method) calcUV in cv::VariationalRefinement (trait) (cv_VariationalRefinement_calcUV__InputArray__InputArray__InputOutputArray__InputOutputArray)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.getFixedPointIterations',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Number of outer (fixed-point) iterations in the minimization '
+    'procedure.\n'
+    '@see setFixedPointIterations']
+parse_name: cv.VariationalRefinement.getFixedPointIterations with ['cv'] -> fullname:cv::VariationalRefinement::getFixedPointIterations namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:getFixedPointIterations
+register (method) getFixedPointIterations in cv::VariationalRefinement (trait) (cv_VariationalRefinement_getFixedPointIterations_const)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.setFixedPointIterations',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getFixedPointIterations @see getFixedPointIterations']
+parse_name: cv.VariationalRefinement.setFixedPointIterations with ['cv'] -> fullname:cv::VariationalRefinement::setFixedPointIterations namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:setFixedPointIterations
+register (method) setFixedPointIterations in cv::VariationalRefinement (trait) (cv_VariationalRefinement_setFixedPointIterations_int)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.getSorIterations',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Number of inner successive over-relaxation (SOR) iterations\n'
+    'in the minimization procedure to solve the respective linear system.\n'
+    '@see setSorIterations']
+parse_name: cv.VariationalRefinement.getSorIterations with ['cv'] -> fullname:cv::VariationalRefinement::getSorIterations namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:getSorIterations
+register (method) getSorIterations in cv::VariationalRefinement (trait) (cv_VariationalRefinement_getSorIterations_const)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.setSorIterations',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getSorIterations @see getSorIterations']
+parse_name: cv.VariationalRefinement.setSorIterations with ['cv'] -> fullname:cv::VariationalRefinement::setSorIterations namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:setSorIterations
+register (method) setSorIterations in cv::VariationalRefinement (trait) (cv_VariationalRefinement_setSorIterations_int)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.getOmega',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Relaxation factor in SOR\n@see setOmega']
+parse_name: cv.VariationalRefinement.getOmega with ['cv'] -> fullname:cv::VariationalRefinement::getOmega namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:getOmega
+register (method) getOmega in cv::VariationalRefinement (trait) (cv_VariationalRefinement_getOmega_const)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.setOmega',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getOmega @see getOmega']
+parse_name: cv.VariationalRefinement.setOmega with ['cv'] -> fullname:cv::VariationalRefinement::setOmega namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:setOmega
+register (method) setOmega in cv::VariationalRefinement (trait) (cv_VariationalRefinement_setOmega_float)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.getAlpha',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Weight of the smoothness term\n@see setAlpha']
+parse_name: cv.VariationalRefinement.getAlpha with ['cv'] -> fullname:cv::VariationalRefinement::getAlpha namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:getAlpha
+register (method) getAlpha in cv::VariationalRefinement (trait) (cv_VariationalRefinement_getAlpha_const)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.setAlpha',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getAlpha @see getAlpha']
+parse_name: cv.VariationalRefinement.setAlpha with ['cv'] -> fullname:cv::VariationalRefinement::setAlpha namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:setAlpha
+register (method) setAlpha in cv::VariationalRefinement (trait) (cv_VariationalRefinement_setAlpha_float)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.getDelta',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Weight of the color constancy term\n@see setDelta']
+parse_name: cv.VariationalRefinement.getDelta with ['cv'] -> fullname:cv::VariationalRefinement::getDelta namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:getDelta
+register (method) getDelta in cv::VariationalRefinement (trait) (cv_VariationalRefinement_getDelta_const)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.setDelta',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getDelta @see getDelta']
+parse_name: cv.VariationalRefinement.setDelta with ['cv'] -> fullname:cv::VariationalRefinement::setDelta namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:setDelta
+register (method) setDelta in cv::VariationalRefinement (trait) (cv_VariationalRefinement_setDelta_float)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.getGamma',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Weight of the gradient constancy term\n@see setGamma']
+parse_name: cv.VariationalRefinement.getGamma with ['cv'] -> fullname:cv::VariationalRefinement::getGamma namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:getGamma
+register (method) getGamma in cv::VariationalRefinement (trait) (cv_VariationalRefinement_getGamma_const)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.setGamma',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getGamma @see getGamma']
+parse_name: cv.VariationalRefinement.setGamma with ['cv'] -> fullname:cv::VariationalRefinement::setGamma namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:setGamma
+register (method) setGamma in cv::VariationalRefinement (trait) (cv_VariationalRefinement_setGamma_float)
+
+--- Incoming ---
+[   'cv.VariationalRefinement.create',
+    'Ptr<VariationalRefinement>',
+    ['/S'],
+    [],
+    None,
+    '@brief Creates an instance of VariationalRefinement']
+parse_name: cv.VariationalRefinement.create with ['cv'] -> fullname:cv::VariationalRefinement::create namespace:cv classpath:VariationalRefinement classname:VariationalRefinement name:create
+register (method) create in cv::VariationalRefinement (trait) (cv_VariationalRefinement_create)
+
+--- Incoming ---
+[   'class cv.DISOpticalFlow',
+    ': cv::DenseOpticalFlow',
+    [],
+    [],
+    None,
+    '@brief DIS optical flow algorithm.\n'
+    '\n'
+    'This class implements the Dense Inverse Search (DIS) optical flow '
+    'algorithm. More\n'
+    'details about the algorithm can be found at @cite Kroeger2016 . Includes '
+    'three presets with preselected\n'
+    'parameters to provide reasonable trade-off between speed and quality. '
+    'However, even the slowest preset is\n'
+    "still relatively fast, use DeepFlow if you need better quality and don't "
+    'care about speed.\n'
+    '\n'
+    'This implementation includes several additional features compared to the '
+    'algorithm described in the paper,\n'
+    'including spatial propagation of flow vectors (@ref '
+    'getUseSpatialPropagation), as well as an option to\n'
+    'utilize an initial flow approximation passed to @ref calc (which is, '
+    'essentially, temporal propagation,\n'
+    "if the previous frame's flow field is passed)."]
+parse_name: class cv.DISOpticalFlow with ['cv'] -> fullname:cv::DISOpticalFlow namespace:cv classpath: classname: name:DISOpticalFlow
+register class cv::DISOpticalFlow (['class cv.DISOpticalFlow', ': cv::DenseOpticalFlow', [], [], None, "@brief DIS optical flow algorithm.\n\nThis class implements the Dense Inverse Search (DIS) optical flow algorithm. More\ndetails about the algorithm can be found at @cite Kroeger2016 . Includes three presets with preselected\nparameters to provide reasonable trade-off between speed and quality. However, even the slowest preset is\nstill relatively fast, use DeepFlow if you need better quality and don't care about speed.\n\nThis implementation includes several additional features compared to the algorithm described in the paper,\nincluding spatial propagation of flow vectors (@ref getUseSpatialPropagation), as well as an option to\nutilize an initial flow approximation passed to @ref calc (which is, essentially, temporal propagation,\nif the previous frame's flow field is passed)."]) impl:cv::DenseOpticalFlow
+
+--- Incoming ---
+[   'enum cv.DISOpticalFlow.<unnamed>',
+    '',
+    [],
+    [   ['const cv.DISOpticalFlow.PRESET_ULTRAFAST', '0', [], [], None, ''],
+        ['const cv.DISOpticalFlow.PRESET_FAST', '1', [], [], None, ''],
+        ['const cv.DISOpticalFlow.PRESET_MEDIUM', '2', [], [], None, '']],
+    None,
+    '']
+parse_name: const cv.DISOpticalFlow.PRESET_ULTRAFAST with ['cv'] -> fullname:cv::DISOpticalFlow::PRESET_ULTRAFAST namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:PRESET_ULTRAFAST
+parse_name: const cv.DISOpticalFlow.PRESET_FAST with ['cv'] -> fullname:cv::DISOpticalFlow::PRESET_FAST namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:PRESET_FAST
+parse_name: const cv.DISOpticalFlow.PRESET_MEDIUM with ['cv'] -> fullname:cv::DISOpticalFlow::PRESET_MEDIUM namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:PRESET_MEDIUM
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getFinestScale',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Finest level of the Gaussian pyramid on which the flow is computed '
+    '(zero level\n'
+    'corresponds to the original image resolution). The final flow is obtained '
+    'by bilinear upscaling.\n'
+    '@see setFinestScale']
+parse_name: cv.DISOpticalFlow.getFinestScale with ['cv'] -> fullname:cv::DISOpticalFlow::getFinestScale namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getFinestScale
+register (method) getFinestScale in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getFinestScale_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setFinestScale',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getFinestScale @see getFinestScale']
+parse_name: cv.DISOpticalFlow.setFinestScale with ['cv'] -> fullname:cv::DISOpticalFlow::setFinestScale namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setFinestScale
+register (method) setFinestScale in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setFinestScale_int)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getPatchSize',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Size of an image patch for matching (in pixels). Normally, default '
+    '8x8 patches work well\n'
+    'enough in most cases.\n'
+    '@see setPatchSize']
+parse_name: cv.DISOpticalFlow.getPatchSize with ['cv'] -> fullname:cv::DISOpticalFlow::getPatchSize namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getPatchSize
+register (method) getPatchSize in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getPatchSize_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setPatchSize',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getPatchSize @see getPatchSize']
+parse_name: cv.DISOpticalFlow.setPatchSize with ['cv'] -> fullname:cv::DISOpticalFlow::setPatchSize namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setPatchSize
+register (method) setPatchSize in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setPatchSize_int)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getPatchStride',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Stride between neighbor patches. Must be less than patch size. '
+    'Lower values correspond\n'
+    'to higher flow quality.\n'
+    '@see setPatchStride']
+parse_name: cv.DISOpticalFlow.getPatchStride with ['cv'] -> fullname:cv::DISOpticalFlow::getPatchStride namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getPatchStride
+register (method) getPatchStride in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getPatchStride_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setPatchStride',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getPatchStride @see getPatchStride']
+parse_name: cv.DISOpticalFlow.setPatchStride with ['cv'] -> fullname:cv::DISOpticalFlow::setPatchStride namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setPatchStride
+register (method) setPatchStride in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setPatchStride_int)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getGradientDescentIterations',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Maximum number of gradient descent iterations in the patch inverse '
+    'search stage. Higher values\n'
+    'may improve quality in some cases.\n'
+    '@see setGradientDescentIterations']
+parse_name: cv.DISOpticalFlow.getGradientDescentIterations with ['cv'] -> fullname:cv::DISOpticalFlow::getGradientDescentIterations namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getGradientDescentIterations
+register (method) getGradientDescentIterations in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getGradientDescentIterations_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setGradientDescentIterations',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getGradientDescentIterations @see getGradientDescentIterations']
+parse_name: cv.DISOpticalFlow.setGradientDescentIterations with ['cv'] -> fullname:cv::DISOpticalFlow::setGradientDescentIterations namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setGradientDescentIterations
+register (method) setGradientDescentIterations in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setGradientDescentIterations_int)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getVariationalRefinementIterations',
+    'int',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Number of fixed point iterations of variational refinement per '
+    'scale. Set to zero to\n'
+    'disable variational refinement completely. Higher values will typically '
+    'result in more smooth and\n'
+    'high-quality flow.\n'
+    '@see setGradientDescentIterations']
+parse_name: cv.DISOpticalFlow.getVariationalRefinementIterations with ['cv'] -> fullname:cv::DISOpticalFlow::getVariationalRefinementIterations namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getVariationalRefinementIterations
+register (method) getVariationalRefinementIterations in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getVariationalRefinementIterations_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setVariationalRefinementIterations',
+    'void',
+    ['/A'],
+    [['int', 'val', '', []]],
+    None,
+    '@copybrief getGradientDescentIterations @see getGradientDescentIterations']
+parse_name: cv.DISOpticalFlow.setVariationalRefinementIterations with ['cv'] -> fullname:cv::DISOpticalFlow::setVariationalRefinementIterations namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setVariationalRefinementIterations
+register (method) setVariationalRefinementIterations in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setVariationalRefinementIterations_int)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getVariationalRefinementAlpha',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Weight of the smoothness term\n@see setVariationalRefinementAlpha']
+parse_name: cv.DISOpticalFlow.getVariationalRefinementAlpha with ['cv'] -> fullname:cv::DISOpticalFlow::getVariationalRefinementAlpha namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getVariationalRefinementAlpha
+register (method) getVariationalRefinementAlpha in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getVariationalRefinementAlpha_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setVariationalRefinementAlpha',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getVariationalRefinementAlpha @see '
+    'getVariationalRefinementAlpha']
+parse_name: cv.DISOpticalFlow.setVariationalRefinementAlpha with ['cv'] -> fullname:cv::DISOpticalFlow::setVariationalRefinementAlpha namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setVariationalRefinementAlpha
+register (method) setVariationalRefinementAlpha in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setVariationalRefinementAlpha_float)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getVariationalRefinementDelta',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Weight of the color constancy term\n'
+    '@see setVariationalRefinementDelta']
+parse_name: cv.DISOpticalFlow.getVariationalRefinementDelta with ['cv'] -> fullname:cv::DISOpticalFlow::getVariationalRefinementDelta namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getVariationalRefinementDelta
+register (method) getVariationalRefinementDelta in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getVariationalRefinementDelta_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setVariationalRefinementDelta',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getVariationalRefinementDelta @see '
+    'getVariationalRefinementDelta']
+parse_name: cv.DISOpticalFlow.setVariationalRefinementDelta with ['cv'] -> fullname:cv::DISOpticalFlow::setVariationalRefinementDelta namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setVariationalRefinementDelta
+register (method) setVariationalRefinementDelta in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setVariationalRefinementDelta_float)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getVariationalRefinementGamma',
+    'float',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Weight of the gradient constancy term\n'
+    '@see setVariationalRefinementGamma']
+parse_name: cv.DISOpticalFlow.getVariationalRefinementGamma with ['cv'] -> fullname:cv::DISOpticalFlow::getVariationalRefinementGamma namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getVariationalRefinementGamma
+register (method) getVariationalRefinementGamma in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getVariationalRefinementGamma_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setVariationalRefinementGamma',
+    'void',
+    ['/A'],
+    [['float', 'val', '', []]],
+    None,
+    '@copybrief getVariationalRefinementGamma @see '
+    'getVariationalRefinementGamma']
+parse_name: cv.DISOpticalFlow.setVariationalRefinementGamma with ['cv'] -> fullname:cv::DISOpticalFlow::setVariationalRefinementGamma namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setVariationalRefinementGamma
+register (method) setVariationalRefinementGamma in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setVariationalRefinementGamma_float)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getUseMeanNormalization',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Whether to use mean-normalization of patches when computing patch '
+    'distance. It is turned on\n'
+    'by default as it typically provides a noticeable quality boost because of '
+    'increased robustness to\n'
+    'illumination variations. Turn it off if you are certain that your '
+    "sequence doesn't contain any changes\n"
+    'in illumination.\n'
+    '@see setUseMeanNormalization']
+parse_name: cv.DISOpticalFlow.getUseMeanNormalization with ['cv'] -> fullname:cv::DISOpticalFlow::getUseMeanNormalization namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getUseMeanNormalization
+register (method) getUseMeanNormalization in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getUseMeanNormalization_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setUseMeanNormalization',
+    'void',
+    ['/A'],
+    [['bool', 'val', '', []]],
+    None,
+    '@copybrief getUseMeanNormalization @see getUseMeanNormalization']
+parse_name: cv.DISOpticalFlow.setUseMeanNormalization with ['cv'] -> fullname:cv::DISOpticalFlow::setUseMeanNormalization namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setUseMeanNormalization
+register (method) setUseMeanNormalization in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setUseMeanNormalization_bool)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.getUseSpatialPropagation',
+    'bool',
+    ['/A', '/C'],
+    [],
+    None,
+    '@brief Whether to use spatial propagation of good optical flow vectors. '
+    'This option is turned on by\n'
+    'default, as it tends to work better on average and can sometimes help '
+    'recover from major errors\n'
+    'introduced by the coarse-to-fine scheme employed by the DIS optical flow '
+    'algorithm. Turning this\n'
+    'option off can make the output flow field a bit smoother, however.\n'
+    '@see setUseSpatialPropagation']
+parse_name: cv.DISOpticalFlow.getUseSpatialPropagation with ['cv'] -> fullname:cv::DISOpticalFlow::getUseSpatialPropagation namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:getUseSpatialPropagation
+register (method) getUseSpatialPropagation in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_getUseSpatialPropagation_const)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.setUseSpatialPropagation',
+    'void',
+    ['/A'],
+    [['bool', 'val', '', []]],
+    None,
+    '@copybrief getUseSpatialPropagation @see getUseSpatialPropagation']
+parse_name: cv.DISOpticalFlow.setUseSpatialPropagation with ['cv'] -> fullname:cv::DISOpticalFlow::setUseSpatialPropagation namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:setUseSpatialPropagation
+register (method) setUseSpatialPropagation in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_setUseSpatialPropagation_bool)
+
+--- Incoming ---
+[   'cv.DISOpticalFlow.create',
+    'Ptr<DISOpticalFlow>',
+    ['/S'],
+    [['int', 'preset', 'DISOpticalFlow::PRESET_FAST', []]],
+    None,
+    '@brief Creates an instance of DISOpticalFlow\n'
+    '\n'
+    '@param preset one of PRESET_ULTRAFAST, PRESET_FAST and PRESET_MEDIUM']
+parse_name: cv.DISOpticalFlow.create with ['cv'] -> fullname:cv::DISOpticalFlow::create namespace:cv classpath:DISOpticalFlow classname:DISOpticalFlow name:create
+register (method) create in cv::DISOpticalFlow (trait) (cv_DISOpticalFlow_create_int)
+
+--- Incoming ---
+[   'class cv.SparsePyrLKOpticalFlow',
+    ': cv::SparseOpticalFlow',
+    [],
+    [],
+    None,
+    '@brief Class used for calculating a sparse optical flow.\n'
+    '\n'
+    'The class can calculate an optical flow for a sparse feature set using '
+    'the\n'
+    'iterative Lucas-Kanade method with pyramids.\n'
+    '\n'
+    '@sa calcOpticalFlowPyrLK']
+parse_name: class cv.SparsePyrLKOpticalFlow with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow namespace:cv classpath: classname: name:SparsePyrLKOpticalFlow
+register class cv::SparsePyrLKOpticalFlow (['class cv.SparsePyrLKOpticalFlow', ': cv::SparseOpticalFlow', [], [], None, '@brief Class used for calculating a sparse optical flow.\n\nThe class can calculate an optical flow for a sparse feature set using the\niterative Lucas-Kanade method with pyramids.\n\n@sa calcOpticalFlowPyrLK']) impl:cv::SparseOpticalFlow
+
+--- Incoming ---
+['cv.SparsePyrLKOpticalFlow.getWinSize', 'Size', ['/A', '/C'], [], None, '']
+parse_name: cv.SparsePyrLKOpticalFlow.getWinSize with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::getWinSize namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:getWinSize
+register (method) getWinSize in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_getWinSize_const)
+
+--- Incoming ---
+[   'cv.SparsePyrLKOpticalFlow.setWinSize',
+    'void',
+    ['/A'],
+    [['Size', 'winSize', '', []]],
+    None,
+    '']
+parse_name: cv.SparsePyrLKOpticalFlow.setWinSize with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::setWinSize namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:setWinSize
+register (method) setWinSize in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_setWinSize_Size)
+
+--- Incoming ---
+['cv.SparsePyrLKOpticalFlow.getMaxLevel', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.SparsePyrLKOpticalFlow.getMaxLevel with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::getMaxLevel namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:getMaxLevel
+register (method) getMaxLevel in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_getMaxLevel_const)
+
+--- Incoming ---
+[   'cv.SparsePyrLKOpticalFlow.setMaxLevel',
+    'void',
+    ['/A'],
+    [['int', 'maxLevel', '', []]],
+    None,
+    '']
+parse_name: cv.SparsePyrLKOpticalFlow.setMaxLevel with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::setMaxLevel namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:setMaxLevel
+register (method) setMaxLevel in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_setMaxLevel_int)
+
+--- Incoming ---
+[   'cv.SparsePyrLKOpticalFlow.getTermCriteria',
+    'TermCriteria',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.SparsePyrLKOpticalFlow.getTermCriteria with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::getTermCriteria namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:getTermCriteria
+register (method) getTermCriteria in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_getTermCriteria_const)
+
+--- Incoming ---
+[   'cv.SparsePyrLKOpticalFlow.setTermCriteria',
+    'void',
+    ['/A'],
+    [['TermCriteria&', 'crit', '', []]],
+    None,
+    '']
+parse_name: cv.SparsePyrLKOpticalFlow.setTermCriteria with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::setTermCriteria namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:setTermCriteria
+register (method) setTermCriteria in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_setTermCriteria_TermCriteria)
+
+--- Incoming ---
+['cv.SparsePyrLKOpticalFlow.getFlags', 'int', ['/A', '/C'], [], None, '']
+parse_name: cv.SparsePyrLKOpticalFlow.getFlags with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::getFlags namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:getFlags
+register (method) getFlags in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_getFlags_const)
+
+--- Incoming ---
+[   'cv.SparsePyrLKOpticalFlow.setFlags',
+    'void',
+    ['/A'],
+    [['int', 'flags', '', []]],
+    None,
+    '']
+parse_name: cv.SparsePyrLKOpticalFlow.setFlags with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::setFlags namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:setFlags
+register (method) setFlags in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_setFlags_int)
+
+--- Incoming ---
+[   'cv.SparsePyrLKOpticalFlow.getMinEigThreshold',
+    'double',
+    ['/A', '/C'],
+    [],
+    None,
+    '']
+parse_name: cv.SparsePyrLKOpticalFlow.getMinEigThreshold with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::getMinEigThreshold namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:getMinEigThreshold
+register (method) getMinEigThreshold in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_getMinEigThreshold_const)
+
+--- Incoming ---
+[   'cv.SparsePyrLKOpticalFlow.setMinEigThreshold',
+    'void',
+    ['/A'],
+    [['double', 'minEigThreshold', '', []]],
+    None,
+    '']
+parse_name: cv.SparsePyrLKOpticalFlow.setMinEigThreshold with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::setMinEigThreshold namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:setMinEigThreshold
+register (method) setMinEigThreshold in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_setMinEigThreshold_double)
+
+--- Incoming ---
+[   'cv.SparsePyrLKOpticalFlow.create',
+    'Ptr<SparsePyrLKOpticalFlow>',
+    ['/S'],
+    [   ['Size', 'winSize', 'Size(21, 21)', []],
+        ['int', 'maxLevel', '3', []],
+        [   'TermCriteria',
+            'crit',
+            'TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 30, 0.01)',
+            []],
+        ['int', 'flags', '0', []],
+        ['double', 'minEigThreshold', '1e-4', []]],
+    None,
+    '']
+parse_name: cv.SparsePyrLKOpticalFlow.create with ['cv'] -> fullname:cv::SparsePyrLKOpticalFlow::create namespace:cv classpath:SparsePyrLKOpticalFlow classname:SparsePyrLKOpticalFlow name:create
+register (method) create in cv::SparsePyrLKOpticalFlow (trait) (cv_SparsePyrLKOpticalFlow_create_Size_int_TermCriteria_int_double)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/video/video.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'video': '\n@defgroup video Video Analysis\n@{\n@defgroup video_motion Motion Analysis\n@defgroup video_track Object Tracking\n@defgroup video_c C API\n@}\n\n'}
+
+
+===== Generating... =====
+Generating func cv_CamShift__InputArray_Rect_TermCriteria
+Generating func cv_buildOpticalFlowPyramid__InputArray__OutputArray_Size_int_bool_int_int_bool
+Generating func cv_calcOpticalFlowFarneback__InputArray__InputArray__InputOutputArray_double_int_int_int_int_double_int
+Generating func cv_calcOpticalFlowPyrLK__InputArray__InputArray__InputArray__InputOutputArray__OutputArray__OutputArray_Size_int_TermCriteria_int_double
+Generating func cv_computeECC__InputArray__InputArray__InputArray
+Generating func cv_createBackgroundSubtractorKNN_int_double_bool
+Generating func cv_createBackgroundSubtractorMOG2_int_double_bool
+Generating func cv_estimateRigidTransform__InputArray__InputArray_bool
+Generating func cv_findTransformECC__InputArray__InputArray__InputOutputArray_int_TermCriteria__InputArray
+Generating func cv_findTransformECC__InputArray__InputArray__InputOutputArray_int_TermCriteria__InputArray_int
+Generating func cv_meanShift__InputArray_Rect_TermCriteria
+Generating func cv_readOpticalFlow_String
+Generating func cv_writeOpticalFlow_String__InputArray
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Generating impl for trait cv::BackgroundSubtractor (trait)
+Generating func cv_BackgroundSubtractor_apply__InputArray__OutputArray_double
+Generating func cv_BackgroundSubtractor_getBackgroundImage_const__OutputArray
+Generating impl for trait cv::BackgroundSubtractorKNN (trait)
+Generating func cv_BackgroundSubtractorKNN_getHistory_const
+Generating func cv_BackgroundSubtractorKNN_setHistory_int
+Generating func cv_BackgroundSubtractorKNN_getNSamples_const
+Generating func cv_BackgroundSubtractorKNN_setNSamples_int
+Generating func cv_BackgroundSubtractorKNN_getDist2Threshold_const
+Generating func cv_BackgroundSubtractorKNN_setDist2Threshold_double
+Generating func cv_BackgroundSubtractorKNN_getkNNSamples_const
+Generating func cv_BackgroundSubtractorKNN_setkNNSamples_int
+Generating func cv_BackgroundSubtractorKNN_getDetectShadows_const
+Generating func cv_BackgroundSubtractorKNN_setDetectShadows_bool
+Generating func cv_BackgroundSubtractorKNN_getShadowValue_const
+Generating func cv_BackgroundSubtractorKNN_setShadowValue_int
+Generating func cv_BackgroundSubtractorKNN_getShadowThreshold_const
+Generating func cv_BackgroundSubtractorKNN_setShadowThreshold_double
+Generating impl for trait cv::BackgroundSubtractorMOG2 (trait)
+Generating func cv_BackgroundSubtractorMOG2_getHistory_const
+Generating func cv_BackgroundSubtractorMOG2_setHistory_int
+Generating func cv_BackgroundSubtractorMOG2_getNMixtures_const
+Generating func cv_BackgroundSubtractorMOG2_setNMixtures_int
+Generating func cv_BackgroundSubtractorMOG2_getBackgroundRatio_const
+Generating func cv_BackgroundSubtractorMOG2_setBackgroundRatio_double
+Generating func cv_BackgroundSubtractorMOG2_getVarThreshold_const
+Generating func cv_BackgroundSubtractorMOG2_setVarThreshold_double
+Generating func cv_BackgroundSubtractorMOG2_getVarThresholdGen_const
+Generating func cv_BackgroundSubtractorMOG2_setVarThresholdGen_double
+Generating func cv_BackgroundSubtractorMOG2_getVarInit_const
+Generating func cv_BackgroundSubtractorMOG2_setVarInit_double
+Generating func cv_BackgroundSubtractorMOG2_getVarMin_const
+Generating func cv_BackgroundSubtractorMOG2_setVarMin_double
+Generating func cv_BackgroundSubtractorMOG2_getVarMax_const
+Generating func cv_BackgroundSubtractorMOG2_setVarMax_double
+Generating func cv_BackgroundSubtractorMOG2_getComplexityReductionThreshold_const
+Generating func cv_BackgroundSubtractorMOG2_setComplexityReductionThreshold_double
+Generating func cv_BackgroundSubtractorMOG2_getDetectShadows_const
+Generating func cv_BackgroundSubtractorMOG2_setDetectShadows_bool
+Generating func cv_BackgroundSubtractorMOG2_getShadowValue_const
+Generating func cv_BackgroundSubtractorMOG2_setShadowValue_int
+Generating func cv_BackgroundSubtractorMOG2_getShadowThreshold_const
+Generating func cv_BackgroundSubtractorMOG2_setShadowThreshold_double
+Generating func cv_BackgroundSubtractorMOG2_apply__InputArray__OutputArray_double
+Generating impl for trait cv::DISOpticalFlow (trait)
+Generating func cv_DISOpticalFlow_getFinestScale_const
+Generating func cv_DISOpticalFlow_setFinestScale_int
+Generating func cv_DISOpticalFlow_getPatchSize_const
+Generating func cv_DISOpticalFlow_setPatchSize_int
+Generating func cv_DISOpticalFlow_getPatchStride_const
+Generating func cv_DISOpticalFlow_setPatchStride_int
+Generating func cv_DISOpticalFlow_getGradientDescentIterations_const
+Generating func cv_DISOpticalFlow_setGradientDescentIterations_int
+Generating func cv_DISOpticalFlow_getVariationalRefinementIterations_const
+Generating func cv_DISOpticalFlow_setVariationalRefinementIterations_int
+Generating func cv_DISOpticalFlow_getVariationalRefinementAlpha_const
+Generating func cv_DISOpticalFlow_setVariationalRefinementAlpha_float
+Generating func cv_DISOpticalFlow_getVariationalRefinementDelta_const
+Generating func cv_DISOpticalFlow_setVariationalRefinementDelta_float
+Generating func cv_DISOpticalFlow_getVariationalRefinementGamma_const
+Generating func cv_DISOpticalFlow_setVariationalRefinementGamma_float
+Generating func cv_DISOpticalFlow_getUseMeanNormalization_const
+Generating func cv_DISOpticalFlow_setUseMeanNormalization_bool
+Generating func cv_DISOpticalFlow_getUseSpatialPropagation_const
+Generating func cv_DISOpticalFlow_setUseSpatialPropagation_bool
+Generating func cv_DISOpticalFlow_create_int
+Ghost class cv::DMatch (simple, ghost), ignoring
+Generating impl for trait cv::DenseOpticalFlow (trait)
+Generating func cv_DenseOpticalFlow_calc__InputArray__InputArray__InputOutputArray
+Generating func cv_DenseOpticalFlow_collectGarbage
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Generating impl for trait cv::FarnebackOpticalFlow (trait)
+Generating func cv_FarnebackOpticalFlow_getNumLevels_const
+Generating func cv_FarnebackOpticalFlow_setNumLevels_int
+Generating func cv_FarnebackOpticalFlow_getPyrScale_const
+Generating func cv_FarnebackOpticalFlow_setPyrScale_double
+Generating func cv_FarnebackOpticalFlow_getFastPyramids_const
+Generating func cv_FarnebackOpticalFlow_setFastPyramids_bool
+Generating func cv_FarnebackOpticalFlow_getWinSize_const
+Generating func cv_FarnebackOpticalFlow_setWinSize_int
+Generating func cv_FarnebackOpticalFlow_getNumIters_const
+Generating func cv_FarnebackOpticalFlow_setNumIters_int
+Generating func cv_FarnebackOpticalFlow_getPolyN_const
+Generating func cv_FarnebackOpticalFlow_setPolyN_int
+Generating func cv_FarnebackOpticalFlow_getPolySigma_const
+Generating func cv_FarnebackOpticalFlow_setPolySigma_double
+Generating func cv_FarnebackOpticalFlow_getFlags_const
+Generating func cv_FarnebackOpticalFlow_setFlags_int
+Generating func cv_FarnebackOpticalFlow_create_int_double_bool_int_int_int_double_int
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Generating box for cv::KalmanFilter
+Generating func cv_KalmanFilter_statePre
+Generating func cv_KalmanFilter_set_statePre_Mat
+Generating func cv_KalmanFilter_statePost
+Generating func cv_KalmanFilter_set_statePost_Mat
+Generating func cv_KalmanFilter_transitionMatrix
+Generating func cv_KalmanFilter_set_transitionMatrix_Mat
+Generating func cv_KalmanFilter_controlMatrix
+Generating func cv_KalmanFilter_set_controlMatrix_Mat
+Generating func cv_KalmanFilter_measurementMatrix
+Generating func cv_KalmanFilter_set_measurementMatrix_Mat
+Generating func cv_KalmanFilter_processNoiseCov
+Generating func cv_KalmanFilter_set_processNoiseCov_Mat
+Generating func cv_KalmanFilter_measurementNoiseCov
+Generating func cv_KalmanFilter_set_measurementNoiseCov_Mat
+Generating func cv_KalmanFilter_errorCovPre
+Generating func cv_KalmanFilter_set_errorCovPre_Mat
+Generating func cv_KalmanFilter_gain
+Generating func cv_KalmanFilter_set_gain_Mat
+Generating func cv_KalmanFilter_errorCovPost
+Generating func cv_KalmanFilter_set_errorCovPost_Mat
+Generating func cv_KalmanFilter_KalmanFilter
+Generating func cv_KalmanFilter_KalmanFilter_int_int_int_int
+Generating func cv_KalmanFilter_init_int_int_int_int
+Generating func cv_KalmanFilter_predict_Mat
+Generating func cv_KalmanFilter_correct_Mat
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Generating impl for trait cv::SparseOpticalFlow (trait)
+Generating func cv_SparseOpticalFlow_calc__InputArray__InputArray__InputArray__InputOutputArray__OutputArray__OutputArray
+Generating impl for trait cv::SparsePyrLKOpticalFlow (trait)
+Generating func cv_SparsePyrLKOpticalFlow_getWinSize_const
+Generating func cv_SparsePyrLKOpticalFlow_setWinSize_Size
+Generating func cv_SparsePyrLKOpticalFlow_getMaxLevel_const
+Generating func cv_SparsePyrLKOpticalFlow_setMaxLevel_int
+Generating func cv_SparsePyrLKOpticalFlow_getTermCriteria_const
+Generating func cv_SparsePyrLKOpticalFlow_setTermCriteria_TermCriteria
+Generating func cv_SparsePyrLKOpticalFlow_getFlags_const
+Generating func cv_SparsePyrLKOpticalFlow_setFlags_int
+Generating func cv_SparsePyrLKOpticalFlow_getMinEigThreshold_const
+Generating func cv_SparsePyrLKOpticalFlow_setMinEigThreshold_double
+Generating func cv_SparsePyrLKOpticalFlow_create_Size_int_TermCriteria_int_double
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Generating impl for trait cv::VariationalRefinement (trait)
+Generating func cv_VariationalRefinement_calcUV__InputArray__InputArray__InputOutputArray__InputOutputArray
+Generating func cv_VariationalRefinement_getFixedPointIterations_const
+Generating func cv_VariationalRefinement_setFixedPointIterations_int
+Generating func cv_VariationalRefinement_getSorIterations_const
+Generating func cv_VariationalRefinement_setSorIterations_int
+Generating func cv_VariationalRefinement_getOmega_const
+Generating func cv_VariationalRefinement_setOmega_float
+Generating func cv_VariationalRefinement_getAlpha_const
+Generating func cv_VariationalRefinement_setAlpha_float
+Generating func cv_VariationalRefinement_getDelta_const
+Generating func cv_VariationalRefinement_setDelta_float
+Generating func cv_VariationalRefinement_getGamma_const
+Generating func cv_VariationalRefinement_setGamma_float
+Generating func cv_VariationalRefinement_create
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

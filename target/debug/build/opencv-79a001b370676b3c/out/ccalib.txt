@@ -1,0 +1,71 @@
+FOUND FUNCs: 67
+
+PORTED FUNCs: 67
+
+PORTED: cv::omnidir::calibrate (function)
+PORTED: cv::omnidir::initUndistortRectifyMap (function)
+PORTED: cv::omnidir::internal::compose_motion (function)
+PORTED: cv::omnidir::internal::computeJacobianStereo (function)
+PORTED: cv::omnidir::internal::computeJacobian (function)
+PORTED: cv::omnidir::internal::computeMeanReproErrStereo (function)
+PORTED: cv::omnidir::internal::computeMeanReproErr (function)
+PORTED: cv::omnidir::internal::computeMeanReproErr (function)
+PORTED: cv::omnidir::internal::decodeParametersStereo (function)
+PORTED: cv::omnidir::internal::decodeParameters (function)
+PORTED: cv::omnidir::internal::encodeParametersStereo (function)
+PORTED: cv::omnidir::internal::encodeParameters (function)
+PORTED: cv::omnidir::internal::estimateUncertaintiesStereo (function)
+PORTED: cv::omnidir::internal::estimateUncertainties (function)
+PORTED: cv::omnidir::internal::fillFixedStereo (function)
+PORTED: cv::omnidir::internal::fillFixed (function)
+PORTED: cv::omnidir::internal::findMedian3 (function)
+PORTED: cv::omnidir::internal::findMedian (function)
+PORTED: cv::omnidir::internal::flags2idxStereo (function)
+PORTED: cv::omnidir::internal::flags2idx (function)
+PORTED: cv::omnidir::internal::getInterset (function)
+PORTED: cv::omnidir::internal::initializeCalibration (function)
+PORTED: cv::omnidir::internal::initializeStereoCalibration (function)
+PORTED: cv::omnidir::internal::subMatrix (function)
+PORTED: cv::omnidir::projectPoints (function)
+PORTED: cv::omnidir::stereoCalibrate (function)
+PORTED: cv::omnidir::stereoReconstruct (function)
+PORTED: cv::omnidir::stereoRectify (function)
+PORTED: cv::omnidir::undistortImage (function)
+PORTED: cv::omnidir::undistortPoints (function)
+PORTED: cv::ccalib::CustomPattern::CustomPattern (constructor) cv::ccalib::CustomPattern . default
+PORTED: cv::ccalib::CustomPattern::create (method) cv::ccalib::CustomPattern . create
+PORTED: cv::ccalib::CustomPattern::findPattern (method) cv::ccalib::CustomPattern . findPattern
+PORTED: cv::ccalib::CustomPattern::isInitialized (method) cv::ccalib::CustomPattern . isInitialized
+PORTED: cv::ccalib::CustomPattern::getPatternPoints (method) cv::ccalib::CustomPattern . getPatternPoints
+PORTED: cv::ccalib::CustomPattern::getPixelSize (method) cv::ccalib::CustomPattern . getPixelSize
+PORTED: cv::ccalib::CustomPattern::setFeatureDetector (method) cv::ccalib::CustomPattern . setFeatureDetector
+PORTED: cv::ccalib::CustomPattern::setDescriptorExtractor (method) cv::ccalib::CustomPattern . setDescriptorExtractor
+PORTED: cv::ccalib::CustomPattern::setDescriptorMatcher (method) cv::ccalib::CustomPattern . setDescriptorMatcher
+PORTED: cv::ccalib::CustomPattern::getFeatureDetector (method) cv::ccalib::CustomPattern . getFeatureDetector
+PORTED: cv::ccalib::CustomPattern::getDescriptorExtractor (method) cv::ccalib::CustomPattern . getDescriptorExtractor
+PORTED: cv::ccalib::CustomPattern::getDescriptorMatcher (method) cv::ccalib::CustomPattern . getDescriptorMatcher
+PORTED: cv::ccalib::CustomPattern::calibrate (method) cv::ccalib::CustomPattern . calibrate
+PORTED: cv::ccalib::CustomPattern::findRt (method) cv::ccalib::CustomPattern . findRt
+PORTED: cv::ccalib::CustomPattern::findRt (method) cv::ccalib::CustomPattern . findRt
+PORTED: cv::ccalib::CustomPattern::findRtRANSAC (method) cv::ccalib::CustomPattern . findRtRANSAC
+PORTED: cv::ccalib::CustomPattern::findRtRANSAC (method) cv::ccalib::CustomPattern . findRtRANSAC
+PORTED: cv::ccalib::CustomPattern::drawOrientation (method) cv::ccalib::CustomPattern . drawOrientation
+PORTED: cv::multicalib::MultiCameraCalibration::MultiCameraCalibration (constructor) cv::multicalib::MultiCameraCalibration . new
+PORTED: cv::multicalib::MultiCameraCalibration::loadImages (method) cv::multicalib::MultiCameraCalibration . loadImages
+PORTED: cv::multicalib::MultiCameraCalibration::initialize (method) cv::multicalib::MultiCameraCalibration . initialize
+PORTED: cv::multicalib::MultiCameraCalibration::optimizeExtrinsics (method) cv::multicalib::MultiCameraCalibration . optimizeExtrinsics
+PORTED: cv::multicalib::MultiCameraCalibration::run (method) cv::multicalib::MultiCameraCalibration . run
+PORTED: cv::multicalib::MultiCameraCalibration::writeParameters (method) cv::multicalib::MultiCameraCalibration . writeParameters
+PORTED: cv::multicalib::MultiCameraCalibration::edge::edge (constructor) cv::multicalib::MultiCameraCalibration::edge . new
+PORTED: cv::multicalib::MultiCameraCalibration::vertex::vertex (constructor) cv::multicalib::MultiCameraCalibration::vertex . new
+PORTED: cv::multicalib::MultiCameraCalibration::vertex::vertex (constructor) cv::multicalib::MultiCameraCalibration::vertex . default
+PORTED: cv::randpattern::RandomPatternCornerFinder::RandomPatternCornerFinder (constructor) cv::randpattern::RandomPatternCornerFinder . new
+PORTED: cv::randpattern::RandomPatternCornerFinder::loadPattern (method) cv::randpattern::RandomPatternCornerFinder . loadPattern
+PORTED: cv::randpattern::RandomPatternCornerFinder::loadPattern (method) cv::randpattern::RandomPatternCornerFinder . loadPattern
+PORTED: cv::randpattern::RandomPatternCornerFinder::computeObjectImagePoints (method) cv::randpattern::RandomPatternCornerFinder . computeObjectImagePoints
+PORTED: cv::randpattern::RandomPatternCornerFinder::computeObjectImagePointsForSingle (method) cv::randpattern::RandomPatternCornerFinder . computeObjectImagePointsForSingle
+PORTED: cv::randpattern::RandomPatternCornerFinder::getObjectPoints (method) cv::randpattern::RandomPatternCornerFinder . getObjectPoints
+PORTED: cv::randpattern::RandomPatternCornerFinder::getImagePoints (method) cv::randpattern::RandomPatternCornerFinder . getImagePoints
+PORTED: cv::randpattern::RandomPatternGenerator::RandomPatternGenerator (constructor) cv::randpattern::RandomPatternGenerator . new
+PORTED: cv::randpattern::RandomPatternGenerator::generatePattern (method) cv::randpattern::RandomPatternGenerator . generatePattern
+PORTED: cv::randpattern::RandomPatternGenerator::getPattern (method) cv::randpattern::RandomPatternGenerator . getPattern

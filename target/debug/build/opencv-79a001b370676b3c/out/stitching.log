@@ -1,0 +1,1534 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/stitching.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'stitching': "\n@defgroup stitching Images stitching\n\nThis figure illustrates the stitching module pipeline implemented in the Stitcher class. Using that\nclass it's possible to configure/remove some steps, i.e. adjust the stitching pipeline according to\nthe particular needs. All building blocks from the pipeline are available in the detail namespace,\none can combine and use them separately.\n\nThe implemented stitching pipeline is very similar to the one proposed in @cite BL07 .\n\n![stitching pipeline](StitchingPipeline.jpg)\n\nCamera models\n-------------\n\nThere are currently 2 camera models implemented in stitching pipeline.\n\n- _Homography model_ expecting perspective transformations between images\nimplemented in @ref cv::detail::BestOf2NearestMatcher cv::detail::HomographyBasedEstimator\ncv::detail::BundleAdjusterReproj cv::detail::BundleAdjusterRay\n- _Affine model_ expecting affine transformation with 6 DOF or 4 DOF implemented in\n@ref cv::detail::AffineBestOf2NearestMatcher cv::detail::AffineBasedEstimator\ncv::detail::BundleAdjusterAffine cv::detail::BundleAdjusterAffinePartial cv::AffineWarper\n\nHomography model is useful for creating photo panoramas captured by camera,\nwhile affine-based model can be used to stitch scans and object captured by\nspecialized devices. Use @ref cv::Stitcher::create to get preconfigured pipeline for one\nof those models.\n\n@note\nCertain detailed settings of @ref cv::Stitcher might not make sense. Especially\nyou should not mix classes implementing affine model and classes implementing\nHomography model, as they work with different transformations.\n\n@{\n@defgroup stitching_match Features Finding and Images Matching\n@defgroup stitching_rotation Rotation Estimation\n@defgroup stitching_autocalib Autocalibration\n@defgroup stitching_warp Images Warping\n@defgroup stitching_seam Seam Estimation\n@defgroup stitching_exposure Exposure Compensation\n@defgroup stitching_blend Image Blenders\n@}\n\n"}
+
+--- Incoming ---
+[   'class cv.Stitcher',
+    '',
+    [],
+    [],
+    None,
+    '@brief High level image stitcher.\n'
+    '\n'
+    "It's possible to use this class without being aware of the entire "
+    'stitching pipeline. However, to\n'
+    'be able to achieve higher stitching stability and quality of the final '
+    'images at least being\n'
+    'familiar with the theory is recommended.\n'
+    '\n'
+    '@note\n'
+    '-   A basic example on image stitching can be found at\n'
+    'opencv_source_code/samples/cpp/stitching.cpp\n'
+    '-   A basic example on image stitching in Python can be found at\n'
+    'opencv_source_code/samples/python/stitching.py\n'
+    '-   A detailed example on image stitching can be found at\n'
+    'opencv_source_code/samples/cpp/stitching_detailed.cpp']
+parse_name: class cv.Stitcher with ['cv'] -> fullname:cv::Stitcher namespace:cv classpath: classname: name:Stitcher
+register class cv::Stitcher (['class cv.Stitcher', '', [], [], None, "@brief High level image stitcher.\n\nIt's possible to use this class without being aware of the entire stitching pipeline. However, to\nbe able to achieve higher stitching stability and quality of the final images at least being\nfamiliar with the theory is recommended.\n\n@note\n-   A basic example on image stitching can be found at\nopencv_source_code/samples/cpp/stitching.cpp\n-   A basic example on image stitching in Python can be found at\nopencv_source_code/samples/python/stitching.py\n-   A detailed example on image stitching can be found at\nopencv_source_code/samples/cpp/stitching_detailed.cpp"])
+
+--- Incoming ---
+[   'enum cv.Stitcher.Status',
+    '',
+    [],
+    [   ['const cv.Stitcher.OK', '0', [], [], None, ''],
+        ['const cv.Stitcher.ERR_NEED_MORE_IMGS', '1', [], [], None, ''],
+        ['const cv.Stitcher.ERR_HOMOGRAPHY_EST_FAIL', '2', [], [], None, ''],
+        [   'const cv.Stitcher.ERR_CAMERA_PARAMS_ADJUST_FAIL',
+            '3',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    '']
+parse_name: const cv.Stitcher.OK with ['cv'] -> fullname:cv::Stitcher::OK namespace:cv classpath:Stitcher classname:Stitcher name:OK
+parse_name: const cv.Stitcher.ERR_NEED_MORE_IMGS with ['cv'] -> fullname:cv::Stitcher::ERR_NEED_MORE_IMGS namespace:cv classpath:Stitcher classname:Stitcher name:ERR_NEED_MORE_IMGS
+parse_name: const cv.Stitcher.ERR_HOMOGRAPHY_EST_FAIL with ['cv'] -> fullname:cv::Stitcher::ERR_HOMOGRAPHY_EST_FAIL namespace:cv classpath:Stitcher classname:Stitcher name:ERR_HOMOGRAPHY_EST_FAIL
+parse_name: const cv.Stitcher.ERR_CAMERA_PARAMS_ADJUST_FAIL with ['cv'] -> fullname:cv::Stitcher::ERR_CAMERA_PARAMS_ADJUST_FAIL namespace:cv classpath:Stitcher classname:Stitcher name:ERR_CAMERA_PARAMS_ADJUST_FAIL
+parse_name: enum cv.Stitcher.Status with ['cv'] -> fullname:cv::Stitcher::Status namespace:cv classpath:Stitcher classname:Stitcher name:Status
+parse_name: const cv.Stitcher.OK with ['cv'] -> fullname:cv::Stitcher::OK namespace:cv classpath:Stitcher classname:Stitcher name:OK
+parse_name: const cv.Stitcher.ERR_NEED_MORE_IMGS with ['cv'] -> fullname:cv::Stitcher::ERR_NEED_MORE_IMGS namespace:cv classpath:Stitcher classname:Stitcher name:ERR_NEED_MORE_IMGS
+parse_name: const cv.Stitcher.ERR_HOMOGRAPHY_EST_FAIL with ['cv'] -> fullname:cv::Stitcher::ERR_HOMOGRAPHY_EST_FAIL namespace:cv classpath:Stitcher classname:Stitcher name:ERR_HOMOGRAPHY_EST_FAIL
+parse_name: const cv.Stitcher.ERR_CAMERA_PARAMS_ADJUST_FAIL with ['cv'] -> fullname:cv::Stitcher::ERR_CAMERA_PARAMS_ADJUST_FAIL namespace:cv classpath:Stitcher classname:Stitcher name:ERR_CAMERA_PARAMS_ADJUST_FAIL
+
+--- Incoming ---
+[   'enum cv.Stitcher.Mode',
+    '',
+    [],
+    [   ['const cv.Stitcher.PANORAMA', '0', [], [], None, ''],
+        ['const cv.Stitcher.SCANS', '1', [], [], None, '']],
+    None,
+    '']
+parse_name: const cv.Stitcher.PANORAMA with ['cv'] -> fullname:cv::Stitcher::PANORAMA namespace:cv classpath:Stitcher classname:Stitcher name:PANORAMA
+parse_name: const cv.Stitcher.SCANS with ['cv'] -> fullname:cv::Stitcher::SCANS namespace:cv classpath:Stitcher classname:Stitcher name:SCANS
+parse_name: enum cv.Stitcher.Mode with ['cv'] -> fullname:cv::Stitcher::Mode namespace:cv classpath:Stitcher classname:Stitcher name:Mode
+parse_name: const cv.Stitcher.PANORAMA with ['cv'] -> fullname:cv::Stitcher::PANORAMA namespace:cv classpath:Stitcher classname:Stitcher name:PANORAMA
+parse_name: const cv.Stitcher.SCANS with ['cv'] -> fullname:cv::Stitcher::SCANS namespace:cv classpath:Stitcher classname:Stitcher name:SCANS
+
+--- Incoming ---
+[   'cv.Stitcher.create',
+    'Ptr<Stitcher>',
+    ['/S'],
+    [['Mode', 'mode', 'Stitcher::PANORAMA', []]],
+    None,
+    '@brief Creates a Stitcher configured in one of the stitching modes.\n'
+    '\n'
+    '@param mode Scenario for stitcher operation. This is usually determined '
+    'by source of images\n'
+    'to stitch and their transformation. Default parameters will be chosen for '
+    'operation in given\n'
+    'scenario.\n'
+    '@return Stitcher class instance.']
+parse_name: cv.Stitcher.create with ['cv'] -> fullname:cv::Stitcher::create namespace:cv classpath:Stitcher classname:Stitcher name:create
+register (method) create in cv::Stitcher (cv_Stitcher_create_Stitcher_Mode)
+
+--- Incoming ---
+['cv.Stitcher.registrationResol', 'double', ['/C'], [], None, '']
+parse_name: cv.Stitcher.registrationResol with ['cv'] -> fullname:cv::Stitcher::registrationResol namespace:cv classpath:Stitcher classname:Stitcher name:registrationResol
+register (method) registrationResol in cv::Stitcher (cv_Stitcher_registrationResol_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setRegistrationResol',
+    'void',
+    [],
+    [['double', 'resol_mpx', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setRegistrationResol with ['cv'] -> fullname:cv::Stitcher::setRegistrationResol namespace:cv classpath:Stitcher classname:Stitcher name:setRegistrationResol
+register (method) setRegistrationResol in cv::Stitcher (cv_Stitcher_setRegistrationResol_double)
+
+--- Incoming ---
+['cv.Stitcher.seamEstimationResol', 'double', ['/C'], [], None, '']
+parse_name: cv.Stitcher.seamEstimationResol with ['cv'] -> fullname:cv::Stitcher::seamEstimationResol namespace:cv classpath:Stitcher classname:Stitcher name:seamEstimationResol
+register (method) seamEstimationResol in cv::Stitcher (cv_Stitcher_seamEstimationResol_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setSeamEstimationResol',
+    'void',
+    [],
+    [['double', 'resol_mpx', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setSeamEstimationResol with ['cv'] -> fullname:cv::Stitcher::setSeamEstimationResol namespace:cv classpath:Stitcher classname:Stitcher name:setSeamEstimationResol
+register (method) setSeamEstimationResol in cv::Stitcher (cv_Stitcher_setSeamEstimationResol_double)
+
+--- Incoming ---
+['cv.Stitcher.compositingResol', 'double', ['/C'], [], None, '']
+parse_name: cv.Stitcher.compositingResol with ['cv'] -> fullname:cv::Stitcher::compositingResol namespace:cv classpath:Stitcher classname:Stitcher name:compositingResol
+register (method) compositingResol in cv::Stitcher (cv_Stitcher_compositingResol_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setCompositingResol',
+    'void',
+    [],
+    [['double', 'resol_mpx', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setCompositingResol with ['cv'] -> fullname:cv::Stitcher::setCompositingResol namespace:cv classpath:Stitcher classname:Stitcher name:setCompositingResol
+register (method) setCompositingResol in cv::Stitcher (cv_Stitcher_setCompositingResol_double)
+
+--- Incoming ---
+['cv.Stitcher.panoConfidenceThresh', 'double', ['/C'], [], None, '']
+parse_name: cv.Stitcher.panoConfidenceThresh with ['cv'] -> fullname:cv::Stitcher::panoConfidenceThresh namespace:cv classpath:Stitcher classname:Stitcher name:panoConfidenceThresh
+register (method) panoConfidenceThresh in cv::Stitcher (cv_Stitcher_panoConfidenceThresh_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setPanoConfidenceThresh',
+    'void',
+    [],
+    [['double', 'conf_thresh', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setPanoConfidenceThresh with ['cv'] -> fullname:cv::Stitcher::setPanoConfidenceThresh namespace:cv classpath:Stitcher classname:Stitcher name:setPanoConfidenceThresh
+register (method) setPanoConfidenceThresh in cv::Stitcher (cv_Stitcher_setPanoConfidenceThresh_double)
+
+--- Incoming ---
+['cv.Stitcher.waveCorrection', 'bool', ['/C'], [], None, '']
+parse_name: cv.Stitcher.waveCorrection with ['cv'] -> fullname:cv::Stitcher::waveCorrection namespace:cv classpath:Stitcher classname:Stitcher name:waveCorrection
+register (method) waveCorrection in cv::Stitcher (cv_Stitcher_waveCorrection_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setWaveCorrection',
+    'void',
+    [],
+    [['bool', 'flag', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setWaveCorrection with ['cv'] -> fullname:cv::Stitcher::setWaveCorrection namespace:cv classpath:Stitcher classname:Stitcher name:setWaveCorrection
+register (method) setWaveCorrection in cv::Stitcher (cv_Stitcher_setWaveCorrection_bool)
+
+--- Incoming ---
+['cv.Stitcher.interpolationFlags', 'InterpolationFlags', ['/C'], [], None, '']
+parse_name: cv.Stitcher.interpolationFlags with ['cv'] -> fullname:cv::Stitcher::interpolationFlags namespace:cv classpath:Stitcher classname:Stitcher name:interpolationFlags
+register (method) interpolationFlags in cv::Stitcher (cv_Stitcher_interpolationFlags_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setInterpolationFlags',
+    'void',
+    [],
+    [['InterpolationFlags', 'interp_flags', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setInterpolationFlags with ['cv'] -> fullname:cv::Stitcher::setInterpolationFlags namespace:cv classpath:Stitcher classname:Stitcher name:setInterpolationFlags
+register (method) setInterpolationFlags in cv::Stitcher (cv_Stitcher_setInterpolationFlags_InterpolationFlags)
+
+--- Incoming ---
+['cv.Stitcher.waveCorrectKind', 'detail::WaveCorrectKind', ['/C'], [], None, '']
+parse_name: cv.Stitcher.waveCorrectKind with ['cv'] -> fullname:cv::Stitcher::waveCorrectKind namespace:cv classpath:Stitcher classname:Stitcher name:waveCorrectKind
+Registering an unknown type: detail::WaveCorrectKind
+register (method) waveCorrectKind in cv::Stitcher (cv_Stitcher_waveCorrectKind_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setWaveCorrectKind',
+    'void',
+    [],
+    [['detail::WaveCorrectKind', 'kind', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setWaveCorrectKind with ['cv'] -> fullname:cv::Stitcher::setWaveCorrectKind namespace:cv classpath:Stitcher classname:Stitcher name:setWaveCorrectKind
+register (method) setWaveCorrectKind in cv::Stitcher (cv_Stitcher_setWaveCorrectKind_detail_WaveCorrectKind)
+
+--- Incoming ---
+['cv.Stitcher.featuresFinder', 'Ptr<Feature2D>', [], [], None, '']
+parse_name: cv.Stitcher.featuresFinder with ['cv'] -> fullname:cv::Stitcher::featuresFinder namespace:cv classpath:Stitcher classname:Stitcher name:featuresFinder
+register (method) featuresFinder in cv::Stitcher (cv_Stitcher_featuresFinder)
+
+--- Incoming ---
+['cv.Stitcher.featuresFinder', 'const Ptr<Feature2D>', ['/C'], [], None, '']
+parse_name: cv.Stitcher.featuresFinder with ['cv'] -> fullname:cv::Stitcher::featuresFinder namespace:cv classpath:Stitcher classname:Stitcher name:featuresFinder
+register (method) featuresFinder in cv::Stitcher (cv_Stitcher_featuresFinder_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setFeaturesFinder',
+    'void',
+    [],
+    [['Ptr<Feature2D>', 'features_finder', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setFeaturesFinder with ['cv'] -> fullname:cv::Stitcher::setFeaturesFinder namespace:cv classpath:Stitcher classname:Stitcher name:setFeaturesFinder
+register (method) setFeaturesFinder in cv::Stitcher (cv_Stitcher_setFeaturesFinder_PtrOfFeature2D)
+
+--- Incoming ---
+[   'cv.Stitcher.featuresMatcher',
+    'Ptr<detail::FeaturesMatcher>',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.Stitcher.featuresMatcher with ['cv'] -> fullname:cv::Stitcher::featuresMatcher namespace:cv classpath:Stitcher classname:Stitcher name:featuresMatcher
+Registering an unknown type: detail::FeaturesMatcher
+register (method) featuresMatcher in cv::Stitcher (cv_Stitcher_featuresMatcher)
+
+--- Incoming ---
+[   'cv.Stitcher.featuresMatcher',
+    'const Ptr<detail::FeaturesMatcher>',
+    ['/C'],
+    [],
+    None,
+    '']
+parse_name: cv.Stitcher.featuresMatcher with ['cv'] -> fullname:cv::Stitcher::featuresMatcher namespace:cv classpath:Stitcher classname:Stitcher name:featuresMatcher
+register (method) featuresMatcher in cv::Stitcher (cv_Stitcher_featuresMatcher_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setFeaturesMatcher',
+    'void',
+    [],
+    [['Ptr<detail::FeaturesMatcher>', 'features_matcher', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setFeaturesMatcher with ['cv'] -> fullname:cv::Stitcher::setFeaturesMatcher namespace:cv classpath:Stitcher classname:Stitcher name:setFeaturesMatcher
+register (method) setFeaturesMatcher in cv::Stitcher (cv_Stitcher_setFeaturesMatcher_Ptr<detail_FeaturesMatcher>)
+
+--- Incoming ---
+['cv.Stitcher.matchingMask', 'const cv::UMat&', ['/C'], [], None, '']
+parse_name: cv.Stitcher.matchingMask with ['cv'] -> fullname:cv::Stitcher::matchingMask namespace:cv classpath:Stitcher classname:Stitcher name:matchingMask
+register (method) matchingMask in cv::Stitcher (cv_Stitcher_matchingMask_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setMatchingMask',
+    'void',
+    [],
+    [['const cv::UMat &', 'mask', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setMatchingMask with ['cv'] -> fullname:cv::Stitcher::setMatchingMask namespace:cv classpath:Stitcher classname:Stitcher name:setMatchingMask
+register (method) setMatchingMask in cv::Stitcher (cv_Stitcher_setMatchingMask_UMat)
+
+--- Incoming ---
+[   'cv.Stitcher.bundleAdjuster',
+    'Ptr<detail::BundleAdjusterBase>',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.Stitcher.bundleAdjuster with ['cv'] -> fullname:cv::Stitcher::bundleAdjuster namespace:cv classpath:Stitcher classname:Stitcher name:bundleAdjuster
+Registering an unknown type: detail::BundleAdjusterBase
+register (method) bundleAdjuster in cv::Stitcher (cv_Stitcher_bundleAdjuster)
+
+--- Incoming ---
+[   'cv.Stitcher.bundleAdjuster',
+    'const Ptr<detail::BundleAdjusterBase>',
+    ['/C'],
+    [],
+    None,
+    '']
+parse_name: cv.Stitcher.bundleAdjuster with ['cv'] -> fullname:cv::Stitcher::bundleAdjuster namespace:cv classpath:Stitcher classname:Stitcher name:bundleAdjuster
+register (method) bundleAdjuster in cv::Stitcher (cv_Stitcher_bundleAdjuster_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setBundleAdjuster',
+    'void',
+    [],
+    [['Ptr<detail::BundleAdjusterBase>', 'bundle_adjuster', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setBundleAdjuster with ['cv'] -> fullname:cv::Stitcher::setBundleAdjuster namespace:cv classpath:Stitcher classname:Stitcher name:setBundleAdjuster
+register (method) setBundleAdjuster in cv::Stitcher (cv_Stitcher_setBundleAdjuster_Ptr<detail_BundleAdjusterBase>)
+
+--- Incoming ---
+['cv.Stitcher.estimator', 'Ptr<detail::Estimator>', [], [], None, '']
+parse_name: cv.Stitcher.estimator with ['cv'] -> fullname:cv::Stitcher::estimator namespace:cv classpath:Stitcher classname:Stitcher name:estimator
+Registering an unknown type: detail::Estimator
+register (method) estimator in cv::Stitcher (cv_Stitcher_estimator)
+
+--- Incoming ---
+['cv.Stitcher.estimator', 'const Ptr<detail::Estimator>', ['/C'], [], None, '']
+parse_name: cv.Stitcher.estimator with ['cv'] -> fullname:cv::Stitcher::estimator namespace:cv classpath:Stitcher classname:Stitcher name:estimator
+register (method) estimator in cv::Stitcher (cv_Stitcher_estimator_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setEstimator',
+    'void',
+    [],
+    [['Ptr<detail::Estimator>', 'estimator', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setEstimator with ['cv'] -> fullname:cv::Stitcher::setEstimator namespace:cv classpath:Stitcher classname:Stitcher name:setEstimator
+register (method) setEstimator in cv::Stitcher (cv_Stitcher_setEstimator_Ptr<detail_Estimator>)
+
+--- Incoming ---
+['cv.Stitcher.warper', 'Ptr<WarperCreator>', [], [], None, '']
+parse_name: cv.Stitcher.warper with ['cv'] -> fullname:cv::Stitcher::warper namespace:cv classpath:Stitcher classname:Stitcher name:warper
+Registering an unknown type: WarperCreator
+register (method) warper in cv::Stitcher (cv_Stitcher_warper)
+
+--- Incoming ---
+['cv.Stitcher.warper', 'const Ptr<WarperCreator>', ['/C'], [], None, '']
+parse_name: cv.Stitcher.warper with ['cv'] -> fullname:cv::Stitcher::warper namespace:cv classpath:Stitcher classname:Stitcher name:warper
+register (method) warper in cv::Stitcher (cv_Stitcher_warper_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setWarper',
+    'void',
+    [],
+    [['Ptr<WarperCreator>', 'creator', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setWarper with ['cv'] -> fullname:cv::Stitcher::setWarper namespace:cv classpath:Stitcher classname:Stitcher name:setWarper
+register (method) setWarper in cv::Stitcher (cv_Stitcher_setWarper_Ptr<WarperCreator>)
+
+--- Incoming ---
+[   'cv.Stitcher.exposureCompensator',
+    'Ptr<detail::ExposureCompensator>',
+    [],
+    [],
+    None,
+    '']
+parse_name: cv.Stitcher.exposureCompensator with ['cv'] -> fullname:cv::Stitcher::exposureCompensator namespace:cv classpath:Stitcher classname:Stitcher name:exposureCompensator
+Registering an unknown type: detail::ExposureCompensator
+register (method) exposureCompensator in cv::Stitcher (cv_Stitcher_exposureCompensator)
+
+--- Incoming ---
+[   'cv.Stitcher.exposureCompensator',
+    'const Ptr<detail::ExposureCompensator>',
+    ['/C'],
+    [],
+    None,
+    '']
+parse_name: cv.Stitcher.exposureCompensator with ['cv'] -> fullname:cv::Stitcher::exposureCompensator namespace:cv classpath:Stitcher classname:Stitcher name:exposureCompensator
+register (method) exposureCompensator in cv::Stitcher (cv_Stitcher_exposureCompensator_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setExposureCompensator',
+    'void',
+    [],
+    [['Ptr<detail::ExposureCompensator>', 'exposure_comp', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setExposureCompensator with ['cv'] -> fullname:cv::Stitcher::setExposureCompensator namespace:cv classpath:Stitcher classname:Stitcher name:setExposureCompensator
+register (method) setExposureCompensator in cv::Stitcher (cv_Stitcher_setExposureCompensator_Ptr<detail_ExposureCompensator>)
+
+--- Incoming ---
+['cv.Stitcher.seamFinder', 'Ptr<detail::SeamFinder>', [], [], None, '']
+parse_name: cv.Stitcher.seamFinder with ['cv'] -> fullname:cv::Stitcher::seamFinder namespace:cv classpath:Stitcher classname:Stitcher name:seamFinder
+Registering an unknown type: detail::SeamFinder
+register (method) seamFinder in cv::Stitcher (cv_Stitcher_seamFinder)
+
+--- Incoming ---
+[   'cv.Stitcher.seamFinder',
+    'const Ptr<detail::SeamFinder>',
+    ['/C'],
+    [],
+    None,
+    '']
+parse_name: cv.Stitcher.seamFinder with ['cv'] -> fullname:cv::Stitcher::seamFinder namespace:cv classpath:Stitcher classname:Stitcher name:seamFinder
+register (method) seamFinder in cv::Stitcher (cv_Stitcher_seamFinder_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setSeamFinder',
+    'void',
+    [],
+    [['Ptr<detail::SeamFinder>', 'seam_finder', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setSeamFinder with ['cv'] -> fullname:cv::Stitcher::setSeamFinder namespace:cv classpath:Stitcher classname:Stitcher name:setSeamFinder
+register (method) setSeamFinder in cv::Stitcher (cv_Stitcher_setSeamFinder_Ptr<detail_SeamFinder>)
+
+--- Incoming ---
+['cv.Stitcher.blender', 'Ptr<detail::Blender>', [], [], None, '']
+parse_name: cv.Stitcher.blender with ['cv'] -> fullname:cv::Stitcher::blender namespace:cv classpath:Stitcher classname:Stitcher name:blender
+Registering an unknown type: detail::Blender
+register (method) blender in cv::Stitcher (cv_Stitcher_blender)
+
+--- Incoming ---
+['cv.Stitcher.blender', 'const Ptr<detail::Blender>', ['/C'], [], None, '']
+parse_name: cv.Stitcher.blender with ['cv'] -> fullname:cv::Stitcher::blender namespace:cv classpath:Stitcher classname:Stitcher name:blender
+register (method) blender in cv::Stitcher (cv_Stitcher_blender_const)
+
+--- Incoming ---
+[   'cv.Stitcher.setBlender',
+    'void',
+    [],
+    [['Ptr<detail::Blender>', 'b', '', []]],
+    None,
+    '']
+parse_name: cv.Stitcher.setBlender with ['cv'] -> fullname:cv::Stitcher::setBlender namespace:cv classpath:Stitcher classname:Stitcher name:setBlender
+register (method) setBlender in cv::Stitcher (cv_Stitcher_setBlender_Ptr<detail_Blender>)
+
+--- Incoming ---
+[   'cv.Stitcher.estimateTransform',
+    'Status',
+    [],
+    [   ['InputArrayOfArrays', 'images', '', []],
+        ['InputArrayOfArrays', 'masks', 'noArray()', []]],
+    None,
+    '@brief These functions try to match the given images and to estimate '
+    'rotations of each camera.\n'
+    '\n'
+    "@note Use the functions only if you're aware of the stitching pipeline, "
+    'otherwise use\n'
+    'Stitcher::stitch.\n'
+    '\n'
+    '@param images Input images.\n'
+    '@param masks Masks for each input image specifying where to look for '
+    'keypoints (optional).\n'
+    '@return Status code.']
+parse_name: cv.Stitcher.estimateTransform with ['cv'] -> fullname:cv::Stitcher::estimateTransform namespace:cv classpath:Stitcher classname:Stitcher name:estimateTransform
+register (method) estimateTransform in cv::Stitcher (cv_Stitcher_estimateTransform__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.Stitcher.composePanorama',
+    'Status',
+    [],
+    [['OutputArray', 'pano', '', []]],
+    None,
+    '@overload']
+parse_name: cv.Stitcher.composePanorama with ['cv'] -> fullname:cv::Stitcher::composePanorama namespace:cv classpath:Stitcher classname:Stitcher name:composePanorama
+register (method) composePanorama in cv::Stitcher (cv_Stitcher_composePanorama__OutputArray)
+
+--- Incoming ---
+[   'cv.Stitcher.composePanorama',
+    'Status',
+    [],
+    [['InputArrayOfArrays', 'images', '', []], ['OutputArray', 'pano', '', []]],
+    None,
+    '@brief These functions try to compose the given images (or images stored '
+    'internally from the other function\n'
+    'calls) into the final pano under the assumption that the image '
+    'transformations were estimated\n'
+    'before.\n'
+    '\n'
+    "@note Use the functions only if you're aware of the stitching pipeline, "
+    'otherwise use\n'
+    'Stitcher::stitch.\n'
+    '\n'
+    '@param images Input images.\n'
+    '@param pano Final pano.\n'
+    '@return Status code.']
+parse_name: cv.Stitcher.composePanorama with ['cv'] -> fullname:cv::Stitcher::composePanorama namespace:cv classpath:Stitcher classname:Stitcher name:composePanorama
+register (method) composePanorama in cv::Stitcher (cv_Stitcher_composePanorama__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.Stitcher.stitch',
+    'Status',
+    [],
+    [['InputArrayOfArrays', 'images', '', []], ['OutputArray', 'pano', '', []]],
+    None,
+    '@overload']
+parse_name: cv.Stitcher.stitch with ['cv'] -> fullname:cv::Stitcher::stitch namespace:cv classpath:Stitcher classname:Stitcher name:stitch
+register (method) stitch in cv::Stitcher (cv_Stitcher_stitch__InputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.Stitcher.stitch',
+    'Status',
+    [],
+    [   ['InputArrayOfArrays', 'images', '', []],
+        ['InputArrayOfArrays', 'masks', '', []],
+        ['OutputArray', 'pano', '', []]],
+    None,
+    '@brief These functions try to stitch the given images.\n'
+    '\n'
+    '@param images Input images.\n'
+    '@param masks Masks for each input image specifying where to look for '
+    'keypoints (optional).\n'
+    '@param pano Final pano.\n'
+    '@return Status code.']
+parse_name: cv.Stitcher.stitch with ['cv'] -> fullname:cv::Stitcher::stitch namespace:cv classpath:Stitcher classname:Stitcher name:stitch
+register (method) stitch in cv::Stitcher (cv_Stitcher_stitch__InputArray__InputArray__OutputArray)
+
+--- Incoming ---
+['cv.Stitcher.component', 'std::vector<int>', ['/C'], [], None, '']
+parse_name: cv.Stitcher.component with ['cv'] -> fullname:cv::Stitcher::component namespace:cv classpath:Stitcher classname:Stitcher name:component
+register (method) component in cv::Stitcher (cv_Stitcher_component_const)
+
+--- Incoming ---
+[   'cv.Stitcher.cameras',
+    'std::vector<detail::CameraParams>',
+    ['/C'],
+    [],
+    None,
+    '']
+parse_name: cv.Stitcher.cameras with ['cv'] -> fullname:cv::Stitcher::cameras namespace:cv classpath:Stitcher classname:Stitcher name:cameras
+Registering an unknown type: detail::CameraParams
+register (method) cameras in cv::Stitcher (cv_Stitcher_cameras_const)
+
+--- Incoming ---
+['cv.Stitcher.workScale', 'double', ['/C'], [], None, '']
+parse_name: cv.Stitcher.workScale with ['cv'] -> fullname:cv::Stitcher::workScale namespace:cv classpath:Stitcher classname:Stitcher name:workScale
+register (method) workScale in cv::Stitcher (cv_Stitcher_workScale_const)
+
+--- Incoming ---
+['cv.Stitcher.resultMask', 'UMat', ['/C'], [], None, '']
+parse_name: cv.Stitcher.resultMask with ['cv'] -> fullname:cv::Stitcher::resultMask namespace:cv classpath:Stitcher classname:Stitcher name:resultMask
+register (method) resultMask in cv::Stitcher (cv_Stitcher_resultMask_const)
+
+--- Incoming ---
+[   'cv.createStitcher',
+    'Ptr<Stitcher>',
+    [],
+    [['bool', 'try_use_gpu', 'false', []]],
+    None,
+    '* @deprecated use Stitcher::create']
+parse_name: cv.createStitcher with ['cv'] -> fullname:cv::createStitcher namespace:cv classpath: classname: name:createStitcher
+register (function) createStitcher (cv_createStitcher_bool)
+
+--- Incoming ---
+[   'cv.createStitcherScans',
+    'Ptr<Stitcher>',
+    [],
+    [['bool', 'try_use_gpu', 'false', []]],
+    None,
+    '* @deprecated use Stitcher::create']
+parse_name: cv.createStitcherScans with ['cv'] -> fullname:cv::createStitcherScans namespace:cv classpath: classname: name:createStitcherScans
+register (function) createStitcherScans (cv_createStitcherScans_bool)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/stitching/warpers.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'stitching': "\n@defgroup stitching Images stitching\n\nThis figure illustrates the stitching module pipeline implemented in the Stitcher class. Using that\nclass it's possible to configure/remove some steps, i.e. adjust the stitching pipeline according to\nthe particular needs. All building blocks from the pipeline are available in the detail namespace,\none can combine and use them separately.\n\nThe implemented stitching pipeline is very similar to the one proposed in @cite BL07 .\n\n![stitching pipeline](StitchingPipeline.jpg)\n\nCamera models\n-------------\n\nThere are currently 2 camera models implemented in stitching pipeline.\n\n- _Homography model_ expecting perspective transformations between images\nimplemented in @ref cv::detail::BestOf2NearestMatcher cv::detail::HomographyBasedEstimator\ncv::detail::BundleAdjusterReproj cv::detail::BundleAdjusterRay\n- _Affine model_ expecting affine transformation with 6 DOF or 4 DOF implemented in\n@ref cv::detail::AffineBestOf2NearestMatcher cv::detail::AffineBasedEstimator\ncv::detail::BundleAdjusterAffine cv::detail::BundleAdjusterAffinePartial cv::AffineWarper\n\nHomography model is useful for creating photo panoramas captured by camera,\nwhile affine-based model can be used to stitch scans and object captured by\nspecialized devices. Use @ref cv::Stitcher::create to get preconfigured pipeline for one\nof those models.\n\n@note\nCertain detailed settings of @ref cv::Stitcher might not make sense. Especially\nyou should not mix classes implementing affine model and classes implementing\nHomography model, as they work with different transformations.\n\n@{\n@defgroup stitching_match Features Finding and Images Matching\n@defgroup stitching_rotation Rotation Estimation\n@defgroup stitching_autocalib Autocalibration\n@defgroup stitching_warp Images Warping\n@defgroup stitching_seam Seam Estimation\n@defgroup stitching_exposure Exposure Compensation\n@defgroup stitching_blend Image Blenders\n@}\n\n"}
+
+--- Incoming ---
+['class cv.PyRotationWarper', '', [], [], None, '']
+parse_name: class cv.PyRotationWarper with ['cv'] -> fullname:cv::PyRotationWarper namespace:cv classpath: classname: name:PyRotationWarper
+register class cv::PyRotationWarper (['class cv.PyRotationWarper', '', [], [], None, ''])
+
+--- Incoming ---
+[   'cv.PyRotationWarper.PyRotationWarper',
+    'P',
+    [],
+    [['String', 'type', '', []], ['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.PyRotationWarper.PyRotationWarper with ['cv'] -> fullname:cv::PyRotationWarper::PyRotationWarper namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:PyRotationWarper
+register (constructor) new in cv::PyRotationWarper (cv_PyRotationWarper_PyRotationWarper_String_float)
+
+--- Incoming ---
+['cv.PyRotationWarper.PyRotationWarper', 'P', [], [], None, '']
+parse_name: cv.PyRotationWarper.PyRotationWarper with ['cv'] -> fullname:cv::PyRotationWarper::PyRotationWarper namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:PyRotationWarper
+register (constructor) default in cv::PyRotationWarper (cv_PyRotationWarper_PyRotationWarper)
+
+--- Incoming ---
+['cv.PyRotationWarper.~PyRotationWarper', '~', [], [], None, '']
+parse_name: cv.PyRotationWarper.~PyRotationWarper with ['cv'] -> fullname:cv::PyRotationWarper::~PyRotationWarper namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:~PyRotationWarper
+Registering an unknown type: ~
+ignore destructor (method) ~PyRotationWarper in cv::PyRotationWarper
+
+--- Incoming ---
+[   'cv.PyRotationWarper.warpPoint',
+    'Point2f',
+    [],
+    [   ['const Point2f &', 'pt', '', []],
+        ['InputArray', 'K', '', []],
+        ['InputArray', 'R', '', []]],
+    None,
+    '@brief Projects the image point.\n'
+    '\n'
+    '@param pt Source point\n'
+    '@param K Camera intrinsic parameters\n'
+    '@param R Camera rotation matrix\n'
+    '@return Projected point']
+parse_name: cv.PyRotationWarper.warpPoint with ['cv'] -> fullname:cv::PyRotationWarper::warpPoint namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:warpPoint
+register (method) warpPoint in cv::PyRotationWarper (cv_PyRotationWarper_warpPoint_Point2f__InputArray__InputArray)
+
+--- Incoming ---
+[   'cv.PyRotationWarper.buildMaps',
+    'Rect',
+    [],
+    [   ['Size', 'src_size', '', []],
+        ['InputArray', 'K', '', []],
+        ['InputArray', 'R', '', []],
+        ['OutputArray', 'xmap', '', []],
+        ['OutputArray', 'ymap', '', []]],
+    None,
+    '@brief Builds the projection maps according to the given camera data.\n'
+    '\n'
+    '@param src_size Source image size\n'
+    '@param K Camera intrinsic parameters\n'
+    '@param R Camera rotation matrix\n'
+    '@param xmap Projection map for the x axis\n'
+    '@param ymap Projection map for the y axis\n'
+    '@return Projected image minimum bounding box']
+parse_name: cv.PyRotationWarper.buildMaps with ['cv'] -> fullname:cv::PyRotationWarper::buildMaps namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:buildMaps
+register (method) buildMaps in cv::PyRotationWarper (cv_PyRotationWarper_buildMaps_Size__InputArray__InputArray__OutputArray__OutputArray)
+
+--- Incoming ---
+[   'cv.PyRotationWarper.warp',
+    'Point',
+    [],
+    [   ['InputArray', 'src', '', []],
+        ['InputArray', 'K', '', []],
+        ['InputArray', 'R', '', []],
+        ['int', 'interp_mode', '', []],
+        ['int', 'border_mode', '', []],
+        ['OutputArray', 'dst', '', []]],
+    None,
+    '@brief Projects the image.\n'
+    '\n'
+    '@param src Source image\n'
+    '@param K Camera intrinsic parameters\n'
+    '@param R Camera rotation matrix\n'
+    '@param interp_mode Interpolation mode\n'
+    '@param border_mode Border extrapolation mode\n'
+    '@param dst Projected image\n'
+    '@return Project image top-left corner']
+parse_name: cv.PyRotationWarper.warp with ['cv'] -> fullname:cv::PyRotationWarper::warp namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:warp
+register (method) warp in cv::PyRotationWarper (cv_PyRotationWarper_warp__InputArray__InputArray__InputArray_int_int__OutputArray)
+
+--- Incoming ---
+[   'cv.PyRotationWarper.warpBackward',
+    'void',
+    [],
+    [   ['InputArray', 'src', '', []],
+        ['InputArray', 'K', '', []],
+        ['InputArray', 'R', '', []],
+        ['int', 'interp_mode', '', []],
+        ['int', 'border_mode', '', []],
+        ['Size', 'dst_size', '', []],
+        ['OutputArray', 'dst', '', []]],
+    None,
+    '@brief Projects the image backward.\n'
+    '\n'
+    '@param src Projected image\n'
+    '@param K Camera intrinsic parameters\n'
+    '@param R Camera rotation matrix\n'
+    '@param interp_mode Interpolation mode\n'
+    '@param border_mode Border extrapolation mode\n'
+    '@param dst_size Backward-projected image size\n'
+    '@param dst Backward-projected image']
+parse_name: cv.PyRotationWarper.warpBackward with ['cv'] -> fullname:cv::PyRotationWarper::warpBackward namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:warpBackward
+register (method) warpBackward in cv::PyRotationWarper (cv_PyRotationWarper_warpBackward__InputArray__InputArray__InputArray_int_int_Size__OutputArray)
+
+--- Incoming ---
+[   'cv.PyRotationWarper.warpRoi',
+    'Rect',
+    [],
+    [   ['Size', 'src_size', '', []],
+        ['InputArray', 'K', '', []],
+        ['InputArray', 'R', '', []]],
+    None,
+    '@param src_size Source image bounding box\n'
+    '@param K Camera intrinsic parameters\n'
+    '@param R Camera rotation matrix\n'
+    '@return Projected image minimum bounding box']
+parse_name: cv.PyRotationWarper.warpRoi with ['cv'] -> fullname:cv::PyRotationWarper::warpRoi namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:warpRoi
+register (method) warpRoi in cv::PyRotationWarper (cv_PyRotationWarper_warpRoi_Size__InputArray__InputArray)
+
+--- Incoming ---
+['cv.PyRotationWarper.getScale', 'float', ['/C'], [], None, '']
+parse_name: cv.PyRotationWarper.getScale with ['cv'] -> fullname:cv::PyRotationWarper::getScale namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:getScale
+register (method) getScale in cv::PyRotationWarper (cv_PyRotationWarper_getScale_const)
+
+--- Incoming ---
+['cv.PyRotationWarper.setScale', 'void', [], [['float', '', '', []]], None, '']
+parse_name: cv.PyRotationWarper.setScale with ['cv'] -> fullname:cv::PyRotationWarper::setScale namespace:cv classpath:PyRotationWarper classname:PyRotationWarper name:setScale
+register (method) setScale in cv::PyRotationWarper (cv_PyRotationWarper_setScale_float)
+
+--- Incoming ---
+[   'class cv.WarperCreator',
+    '',
+    [],
+    [],
+    None,
+    '@brief Image warper factories base class.']
+parse_name: class cv.WarperCreator with ['cv'] -> fullname:cv::WarperCreator namespace:cv classpath: classname: name:WarperCreator
+register class cv::WarperCreator (['class cv.WarperCreator', '', [], [], None, '@brief Image warper factories base class.'])
+
+--- Incoming ---
+['cv.WarperCreator.~WarperCreator', '~', [], [], None, '']
+parse_name: cv.WarperCreator.~WarperCreator with ['cv'] -> fullname:cv::WarperCreator::~WarperCreator namespace:cv classpath:WarperCreator classname:WarperCreator name:~WarperCreator
+ignore destructor (method) ~WarperCreator in cv::WarperCreator
+
+--- Incoming ---
+[   'cv.WarperCreator.create',
+    'Ptr<detail::RotationWarper>',
+    ['/A', '/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.WarperCreator.create with ['cv'] -> fullname:cv::WarperCreator::create namespace:cv classpath:WarperCreator classname:WarperCreator name:create
+Registering an unknown type: detail::RotationWarper
+register (method) create in cv::WarperCreator (trait) (cv_WarperCreator_create_const_float)
+
+--- Incoming ---
+[   'class cv.PlaneWarper',
+    ': cv::WarperCreator',
+    [],
+    [],
+    None,
+    '@brief Plane warper factory class.\n@sa detail::PlaneWarper']
+parse_name: class cv.PlaneWarper with ['cv'] -> fullname:cv::PlaneWarper namespace:cv classpath: classname: name:PlaneWarper
+register class cv::PlaneWarper (['class cv.PlaneWarper', ': cv::WarperCreator', [], [], None, '@brief Plane warper factory class.\n@sa detail::PlaneWarper']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.PlaneWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.PlaneWarper.create with ['cv'] -> fullname:cv::PlaneWarper::create namespace:cv classpath:PlaneWarper classname:PlaneWarper name:create
+register (method) create in cv::PlaneWarper (cv_PlaneWarper_create_const_float)
+
+--- Incoming ---
+[   'class cv.AffineWarper',
+    ': cv::WarperCreator',
+    [],
+    [],
+    None,
+    '@brief Affine warper factory class.\n@sa detail::AffineWarper']
+parse_name: class cv.AffineWarper with ['cv'] -> fullname:cv::AffineWarper namespace:cv classpath: classname: name:AffineWarper
+register class cv::AffineWarper (['class cv.AffineWarper', ': cv::WarperCreator', [], [], None, '@brief Affine warper factory class.\n@sa detail::AffineWarper']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.AffineWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.AffineWarper.create with ['cv'] -> fullname:cv::AffineWarper::create namespace:cv classpath:AffineWarper classname:AffineWarper name:create
+register (method) create in cv::AffineWarper (cv_AffineWarper_create_const_float)
+
+--- Incoming ---
+[   'class cv.CylindricalWarper',
+    ': cv::WarperCreator',
+    [],
+    [],
+    None,
+    '@brief Cylindrical warper factory class.\n@sa detail::CylindricalWarper']
+parse_name: class cv.CylindricalWarper with ['cv'] -> fullname:cv::CylindricalWarper namespace:cv classpath: classname: name:CylindricalWarper
+register class cv::CylindricalWarper (['class cv.CylindricalWarper', ': cv::WarperCreator', [], [], None, '@brief Cylindrical warper factory class.\n@sa detail::CylindricalWarper']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.CylindricalWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.CylindricalWarper.create with ['cv'] -> fullname:cv::CylindricalWarper::create namespace:cv classpath:CylindricalWarper classname:CylindricalWarper name:create
+register (method) create in cv::CylindricalWarper (cv_CylindricalWarper_create_const_float)
+
+--- Incoming ---
+[   'class cv.SphericalWarper',
+    ': cv::WarperCreator',
+    [],
+    [],
+    None,
+    '@brief Spherical warper factory class']
+parse_name: class cv.SphericalWarper with ['cv'] -> fullname:cv::SphericalWarper namespace:cv classpath: classname: name:SphericalWarper
+register class cv::SphericalWarper (['class cv.SphericalWarper', ': cv::WarperCreator', [], [], None, '@brief Spherical warper factory class']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.SphericalWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.SphericalWarper.create with ['cv'] -> fullname:cv::SphericalWarper::create namespace:cv classpath:SphericalWarper classname:SphericalWarper name:create
+register (method) create in cv::SphericalWarper (cv_SphericalWarper_create_const_float)
+
+--- Incoming ---
+['class cv.FisheyeWarper', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.FisheyeWarper with ['cv'] -> fullname:cv::FisheyeWarper namespace:cv classpath: classname: name:FisheyeWarper
+register class cv::FisheyeWarper (['class cv.FisheyeWarper', ': cv::WarperCreator', [], [], None, '']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.FisheyeWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.FisheyeWarper.create with ['cv'] -> fullname:cv::FisheyeWarper::create namespace:cv classpath:FisheyeWarper classname:FisheyeWarper name:create
+register (method) create in cv::FisheyeWarper (cv_FisheyeWarper_create_const_float)
+
+--- Incoming ---
+['class cv.StereographicWarper', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.StereographicWarper with ['cv'] -> fullname:cv::StereographicWarper namespace:cv classpath: classname: name:StereographicWarper
+register class cv::StereographicWarper (['class cv.StereographicWarper', ': cv::WarperCreator', [], [], None, '']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.StereographicWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.StereographicWarper.create with ['cv'] -> fullname:cv::StereographicWarper::create namespace:cv classpath:StereographicWarper classname:StereographicWarper name:create
+register (method) create in cv::StereographicWarper (cv_StereographicWarper_create_const_float)
+
+--- Incoming ---
+[   'class cv.CompressedRectilinearWarper',
+    ': cv::WarperCreator',
+    [],
+    [],
+    None,
+    '']
+parse_name: class cv.CompressedRectilinearWarper with ['cv'] -> fullname:cv::CompressedRectilinearWarper namespace:cv classpath: classname: name:CompressedRectilinearWarper
+register class cv::CompressedRectilinearWarper (['class cv.CompressedRectilinearWarper', ': cv::WarperCreator', [], [], None, '']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.CompressedRectilinearWarper.CompressedRectilinearWarper',
+    'C',
+    [],
+    [['float', 'A', '1', []], ['float', 'B', '1', []]],
+    None,
+    '']
+parse_name: cv.CompressedRectilinearWarper.CompressedRectilinearWarper with ['cv'] -> fullname:cv::CompressedRectilinearWarper::CompressedRectilinearWarper namespace:cv classpath:CompressedRectilinearWarper classname:CompressedRectilinearWarper name:CompressedRectilinearWarper
+register (constructor) new in cv::CompressedRectilinearWarper (cv_CompressedRectilinearWarper_CompressedRectilinearWarper_float_float)
+
+--- Incoming ---
+[   'cv.CompressedRectilinearWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.CompressedRectilinearWarper.create with ['cv'] -> fullname:cv::CompressedRectilinearWarper::create namespace:cv classpath:CompressedRectilinearWarper classname:CompressedRectilinearWarper name:create
+register (method) create in cv::CompressedRectilinearWarper (cv_CompressedRectilinearWarper_create_const_float)
+
+--- Incoming ---
+[   'class cv.CompressedRectilinearPortraitWarper',
+    ': cv::WarperCreator',
+    [],
+    [],
+    None,
+    '']
+parse_name: class cv.CompressedRectilinearPortraitWarper with ['cv'] -> fullname:cv::CompressedRectilinearPortraitWarper namespace:cv classpath: classname: name:CompressedRectilinearPortraitWarper
+register class cv::CompressedRectilinearPortraitWarper (['class cv.CompressedRectilinearPortraitWarper', ': cv::WarperCreator', [], [], None, '']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.CompressedRectilinearPortraitWarper.CompressedRectilinearPortraitWarper',
+    'C',
+    [],
+    [['float', 'A', '1', []], ['float', 'B', '1', []]],
+    None,
+    '']
+parse_name: cv.CompressedRectilinearPortraitWarper.CompressedRectilinearPortraitWarper with ['cv'] -> fullname:cv::CompressedRectilinearPortraitWarper::CompressedRectilinearPortraitWarper namespace:cv classpath:CompressedRectilinearPortraitWarper classname:CompressedRectilinearPortraitWarper name:CompressedRectilinearPortraitWarper
+register (constructor) new in cv::CompressedRectilinearPortraitWarper (cv_CompressedRectilinearPortraitWarper_CompressedRectilinearPortraitWarper_float_float)
+
+--- Incoming ---
+[   'cv.CompressedRectilinearPortraitWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.CompressedRectilinearPortraitWarper.create with ['cv'] -> fullname:cv::CompressedRectilinearPortraitWarper::create namespace:cv classpath:CompressedRectilinearPortraitWarper classname:CompressedRectilinearPortraitWarper name:create
+register (method) create in cv::CompressedRectilinearPortraitWarper (cv_CompressedRectilinearPortraitWarper_create_const_float)
+
+--- Incoming ---
+['class cv.PaniniWarper', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.PaniniWarper with ['cv'] -> fullname:cv::PaniniWarper namespace:cv classpath: classname: name:PaniniWarper
+register class cv::PaniniWarper (['class cv.PaniniWarper', ': cv::WarperCreator', [], [], None, '']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.PaniniWarper.PaniniWarper',
+    'P',
+    [],
+    [['float', 'A', '1', []], ['float', 'B', '1', []]],
+    None,
+    '']
+parse_name: cv.PaniniWarper.PaniniWarper with ['cv'] -> fullname:cv::PaniniWarper::PaniniWarper namespace:cv classpath:PaniniWarper classname:PaniniWarper name:PaniniWarper
+register (constructor) new in cv::PaniniWarper (cv_PaniniWarper_PaniniWarper_float_float)
+
+--- Incoming ---
+[   'cv.PaniniWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.PaniniWarper.create with ['cv'] -> fullname:cv::PaniniWarper::create namespace:cv classpath:PaniniWarper classname:PaniniWarper name:create
+register (method) create in cv::PaniniWarper (cv_PaniniWarper_create_const_float)
+
+--- Incoming ---
+['class cv.PaniniPortraitWarper', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.PaniniPortraitWarper with ['cv'] -> fullname:cv::PaniniPortraitWarper namespace:cv classpath: classname: name:PaniniPortraitWarper
+register class cv::PaniniPortraitWarper (['class cv.PaniniPortraitWarper', ': cv::WarperCreator', [], [], None, '']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.PaniniPortraitWarper.PaniniPortraitWarper',
+    'P',
+    [],
+    [['float', 'A', '1', []], ['float', 'B', '1', []]],
+    None,
+    '']
+parse_name: cv.PaniniPortraitWarper.PaniniPortraitWarper with ['cv'] -> fullname:cv::PaniniPortraitWarper::PaniniPortraitWarper namespace:cv classpath:PaniniPortraitWarper classname:PaniniPortraitWarper name:PaniniPortraitWarper
+register (constructor) new in cv::PaniniPortraitWarper (cv_PaniniPortraitWarper_PaniniPortraitWarper_float_float)
+
+--- Incoming ---
+[   'cv.PaniniPortraitWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.PaniniPortraitWarper.create with ['cv'] -> fullname:cv::PaniniPortraitWarper::create namespace:cv classpath:PaniniPortraitWarper classname:PaniniPortraitWarper name:create
+register (method) create in cv::PaniniPortraitWarper (cv_PaniniPortraitWarper_create_const_float)
+
+--- Incoming ---
+['class cv.MercatorWarper', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.MercatorWarper with ['cv'] -> fullname:cv::MercatorWarper namespace:cv classpath: classname: name:MercatorWarper
+register class cv::MercatorWarper (['class cv.MercatorWarper', ': cv::WarperCreator', [], [], None, '']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.MercatorWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.MercatorWarper.create with ['cv'] -> fullname:cv::MercatorWarper::create namespace:cv classpath:MercatorWarper classname:MercatorWarper name:create
+register (method) create in cv::MercatorWarper (cv_MercatorWarper_create_const_float)
+
+--- Incoming ---
+['class cv.TransverseMercatorWarper', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.TransverseMercatorWarper with ['cv'] -> fullname:cv::TransverseMercatorWarper namespace:cv classpath: classname: name:TransverseMercatorWarper
+register class cv::TransverseMercatorWarper (['class cv.TransverseMercatorWarper', ': cv::WarperCreator', [], [], None, '']) impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.TransverseMercatorWarper.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.TransverseMercatorWarper.create with ['cv'] -> fullname:cv::TransverseMercatorWarper::create namespace:cv classpath:TransverseMercatorWarper classname:TransverseMercatorWarper name:create
+register (method) create in cv::TransverseMercatorWarper (cv_TransverseMercatorWarper_create_const_float)
+
+--- Incoming ---
+['class cv.PlaneWarperGpu', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.PlaneWarperGpu with ['cv'] -> fullname:cv::PlaneWarperGpu namespace:cv classpath: classname: name:PlaneWarperGpu
+register class cv::PlaneWarperGpu (['class cv.PlaneWarperGpu', ': cv::WarperCreator', [], [], None, '']) [ignored] impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.PlaneWarperGpu.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.PlaneWarperGpu.create with ['cv'] -> fullname:cv::PlaneWarperGpu::create namespace:cv classpath:PlaneWarperGpu classname:PlaneWarperGpu name:create
+register (method) create in cv::PlaneWarperGpu (ignored) (cv_PlaneWarperGpu_create_const_float)
+
+--- Incoming ---
+['class cv.CylindricalWarperGpu', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.CylindricalWarperGpu with ['cv'] -> fullname:cv::CylindricalWarperGpu namespace:cv classpath: classname: name:CylindricalWarperGpu
+register class cv::CylindricalWarperGpu (['class cv.CylindricalWarperGpu', ': cv::WarperCreator', [], [], None, '']) [ignored] impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.CylindricalWarperGpu.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.CylindricalWarperGpu.create with ['cv'] -> fullname:cv::CylindricalWarperGpu::create namespace:cv classpath:CylindricalWarperGpu classname:CylindricalWarperGpu name:create
+register (method) create in cv::CylindricalWarperGpu (ignored) (cv_CylindricalWarperGpu_create_const_float)
+
+--- Incoming ---
+['class cv.SphericalWarperGpu', ': cv::WarperCreator', [], [], None, '']
+parse_name: class cv.SphericalWarperGpu with ['cv'] -> fullname:cv::SphericalWarperGpu namespace:cv classpath: classname: name:SphericalWarperGpu
+register class cv::SphericalWarperGpu (['class cv.SphericalWarperGpu', ': cv::WarperCreator', [], [], None, '']) [ignored] impl:cv::WarperCreator
+
+--- Incoming ---
+[   'cv.SphericalWarperGpu.create',
+    'Ptr<detail::RotationWarper>',
+    ['/C'],
+    [['float', 'scale', '', []]],
+    None,
+    '']
+parse_name: cv.SphericalWarperGpu.create with ['cv'] -> fullname:cv::SphericalWarperGpu::create namespace:cv classpath:SphericalWarperGpu classname:SphericalWarperGpu name:create
+register (method) create in cv::SphericalWarperGpu (ignored) (cv_SphericalWarperGpu_create_const_float)
+
+
+===== Generating... =====
+Generating func cv_createStitcherScans_bool
+Generating func cv_createStitcher_bool
+Generating box for cv::AffineWarper
+Generating func cv_AffineWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Generating box for cv::CompressedRectilinearPortraitWarper
+Generating func cv_CompressedRectilinearPortraitWarper_CompressedRectilinearPortraitWarper_float_float
+Generating func cv_CompressedRectilinearPortraitWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Generating box for cv::CompressedRectilinearWarper
+Generating func cv_CompressedRectilinearWarper_CompressedRectilinearWarper_float_float
+Generating func cv_CompressedRectilinearWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Generating box for cv::CylindricalWarper
+Generating func cv_CylindricalWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Manual ignore class cv::CylindricalWarperGpu (ignored)
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Generating box for cv::FisheyeWarper
+Generating func cv_FisheyeWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Generating box for cv::MercatorWarper
+Generating func cv_MercatorWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Generating box for cv::PaniniPortraitWarper
+Generating func cv_PaniniPortraitWarper_PaniniPortraitWarper_float_float
+Generating func cv_PaniniPortraitWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Generating box for cv::PaniniWarper
+Generating func cv_PaniniWarper_PaniniWarper_float_float
+Generating func cv_PaniniWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Generating box for cv::PlaneWarper
+Generating func cv_PlaneWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Manual ignore class cv::PlaneWarperGpu (ignored)
+Generating box for cv::PyRotationWarper
+Generating func cv_PyRotationWarper_PyRotationWarper_String_float
+Generating func cv_PyRotationWarper_PyRotationWarper
+Generating func cv_PyRotationWarper_warpPoint_Point2f__InputArray__InputArray
+Generating func cv_PyRotationWarper_buildMaps_Size__InputArray__InputArray__OutputArray__OutputArray
+Generating func cv_PyRotationWarper_warp__InputArray__InputArray__InputArray_int_int__OutputArray
+Generating func cv_PyRotationWarper_warpBackward__InputArray__InputArray__InputArray_int_int_Size__OutputArray
+Generating func cv_PyRotationWarper_warpRoi_Size__InputArray__InputArray
+Generating func cv_PyRotationWarper_getScale_const
+Generating func cv_PyRotationWarper_setScale_float
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Generating box for cv::SphericalWarper
+Generating func cv_SphericalWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Manual ignore class cv::SphericalWarperGpu (ignored)
+Generating box for cv::StereographicWarper
+Generating func cv_StereographicWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Generating box for cv::Stitcher
+Generating func cv_Stitcher_create_Stitcher_Mode
+Generating func cv_Stitcher_registrationResol_const
+Generating func cv_Stitcher_setRegistrationResol_double
+Generating func cv_Stitcher_seamEstimationResol_const
+Generating func cv_Stitcher_setSeamEstimationResol_double
+Generating func cv_Stitcher_compositingResol_const
+Generating func cv_Stitcher_setCompositingResol_double
+Generating func cv_Stitcher_panoConfidenceThresh_const
+Generating func cv_Stitcher_setPanoConfidenceThresh_double
+Generating func cv_Stitcher_waveCorrection_const
+Generating func cv_Stitcher_setWaveCorrection_bool
+Generating func cv_Stitcher_interpolationFlags_const
+Generating func cv_Stitcher_setInterpolationFlags_InterpolationFlags
+Generating func cv_Stitcher_waveCorrectKind_const
+  ignored: return type class Unknown[detail::WaveCorrectKind] is ignored
+Generating func cv_Stitcher_setWaveCorrectKind_detail_WaveCorrectKind
+  ignored: can not map type Unknown[detail::WaveCorrectKind] yet
+Generating func cv_Stitcher_featuresFinder
+Generating func cv_Stitcher_featuresFinder_const
+Generating func cv_Stitcher_setFeaturesFinder_PtrOfFeature2D
+Generating func cv_Stitcher_featuresMatcher
+  ignored: return type class SmartPtr[Unknown[detail::FeaturesMatcher]] is ignored
+Generating func cv_Stitcher_featuresMatcher_const
+  ignored: return type class SmartPtr[Unknown[detail::FeaturesMatcher]] is ignored
+Generating func cv_Stitcher_setFeaturesMatcher_Ptr<detail_FeaturesMatcher>
+  ignored: can not map type SmartPtr[Unknown[detail::FeaturesMatcher]] yet
+Generating func cv_Stitcher_matchingMask_const
+Generating func cv_Stitcher_setMatchingMask_UMat
+Generating func cv_Stitcher_bundleAdjuster
+  ignored: return type class SmartPtr[Unknown[detail::BundleAdjusterBase]] is ignored
+Generating func cv_Stitcher_bundleAdjuster_const
+  ignored: return type class SmartPtr[Unknown[detail::BundleAdjusterBase]] is ignored
+Generating func cv_Stitcher_setBundleAdjuster_Ptr<detail_BundleAdjusterBase>
+  ignored: can not map type SmartPtr[Unknown[detail::BundleAdjusterBase]] yet
+Generating func cv_Stitcher_estimator
+  ignored: return type class SmartPtr[Unknown[detail::Estimator]] is ignored
+Generating func cv_Stitcher_estimator_const
+  ignored: return type class SmartPtr[Unknown[detail::Estimator]] is ignored
+Generating func cv_Stitcher_setEstimator_Ptr<detail_Estimator>
+  ignored: can not map type SmartPtr[Unknown[detail::Estimator]] yet
+Generating func cv_Stitcher_warper
+  ignored: return type class SmartPtr[Unknown[WarperCreator]] is ignored
+Generating func cv_Stitcher_warper_const
+  ignored: return type class SmartPtr[Unknown[WarperCreator]] is ignored
+Generating func cv_Stitcher_setWarper_Ptr<WarperCreator>
+  ignored: can not map type SmartPtr[Unknown[WarperCreator]] yet
+Generating func cv_Stitcher_exposureCompensator
+  ignored: return type class SmartPtr[Unknown[detail::ExposureCompensator]] is ignored
+Generating func cv_Stitcher_exposureCompensator_const
+  ignored: return type class SmartPtr[Unknown[detail::ExposureCompensator]] is ignored
+Generating func cv_Stitcher_setExposureCompensator_Ptr<detail_ExposureCompensator>
+  ignored: can not map type SmartPtr[Unknown[detail::ExposureCompensator]] yet
+Generating func cv_Stitcher_seamFinder
+  ignored: return type class SmartPtr[Unknown[detail::SeamFinder]] is ignored
+Generating func cv_Stitcher_seamFinder_const
+  ignored: return type class SmartPtr[Unknown[detail::SeamFinder]] is ignored
+Generating func cv_Stitcher_setSeamFinder_Ptr<detail_SeamFinder>
+  ignored: can not map type SmartPtr[Unknown[detail::SeamFinder]] yet
+Generating func cv_Stitcher_blender
+  ignored: return type class SmartPtr[Unknown[detail::Blender]] is ignored
+Generating func cv_Stitcher_blender_const
+  ignored: return type class SmartPtr[Unknown[detail::Blender]] is ignored
+Generating func cv_Stitcher_setBlender_Ptr<detail_Blender>
+  ignored: can not map type SmartPtr[Unknown[detail::Blender]] yet
+Generating func cv_Stitcher_estimateTransform__InputArray__InputArray
+Generating func cv_Stitcher_composePanorama__OutputArray
+Generating func cv_Stitcher_composePanorama__InputArray__OutputArray
+Generating func cv_Stitcher_stitch__InputArray__OutputArray
+Generating func cv_Stitcher_stitch__InputArray__InputArray__OutputArray
+Generating func cv_Stitcher_component_const
+Generating func cv_Stitcher_cameras_const
+  ignored: return type class Vector[Unknown[detail::CameraParams]] is ignored
+Generating func cv_Stitcher_workScale_const
+Generating func cv_Stitcher_resultMask_const
+Ghost class cv::TermCriteria (ghost), ignoring
+Generating box for cv::TransverseMercatorWarper
+Generating func cv_TransverseMercatorWarper_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Ghost class cv::UMat (ghost), ignoring
+Generating impl for trait cv::WarperCreator (trait)
+Generating func cv_WarperCreator_create_const_float
+  ignored: return type class SmartPtr[Unknown[detail::RotationWarper]] is ignored
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

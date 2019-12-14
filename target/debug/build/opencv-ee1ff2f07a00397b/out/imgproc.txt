@@ -1,0 +1,246 @@
+FOUND FUNCs: 214
+
+PORTED FUNCs: 202
+
+PORTED: cv::Canny (function)
+PORTED: cv::Canny (function)
+PORTED: cv::EMD (function)
+PORTED: cv::GaussianBlur (function)
+PORTED: cv::HoughCircles (function)
+PORTED: cv::HoughLinesP (function)
+PORTED: cv::HoughLinesPointSet (function)
+PORTED: cv::HoughLines (function)
+PORTED: cv::Laplacian (function)
+PORTED: cv::Scharr (function)
+PORTED: cv::Sobel (function)
+PORTED: cv::accumulateProduct (function)
+PORTED: cv::accumulateSquare (function)
+PORTED: cv::accumulateWeighted (function)
+PORTED: cv::accumulate (function)
+PORTED: cv::adaptiveThreshold (function)
+PORTED: cv::applyColorMap (function)
+PORTED: cv::applyColorMap (function)
+PORTED: cv::approxPolyDP (function)
+PORTED: cv::arcLength (function)
+PORTED: cv::arrowedLine (function)
+PORTED: cv::bilateralFilter (function)
+PORTED: cv::blendLinear (function)
+PORTED: cv::blur (function)
+PORTED: cv::boundingRect (function)
+PORTED: cv::boxFilter (function)
+PORTED: cv::boxPoints (function)
+PORTED: cv::buildPyramid (function)
+PORTED: cv::calcBackProject (function)
+PORTED: cv::calcHist (function)
+PORTED: cv::circle (function)
+PORTED: cv::clipLine (function)
+PORTED: cv::clipLine (function)
+PORTED: cv::clipLine (function)
+PORTED: cv::compareHist (function)
+PORTED: cv::connectedComponentsWithStats (function)
+PORTED: cv::connectedComponentsWithStats (function)
+PORTED: cv::connectedComponents (function)
+PORTED: cv::connectedComponents (function)
+PORTED: cv::contourArea (function)
+PORTED: cv::convertMaps (function)
+PORTED: cv::convexHull (function)
+PORTED: cv::convexityDefects (function)
+PORTED: cv::cornerEigenValsAndVecs (function)
+PORTED: cv::cornerHarris (function)
+PORTED: cv::cornerMinEigenVal (function)
+PORTED: cv::cornerSubPix (function)
+PORTED: cv::createCLAHE (function)
+PORTED: cv::createGeneralizedHoughBallard (function)
+PORTED: cv::createGeneralizedHoughGuil (function)
+PORTED: cv::createHanningWindow (function)
+PORTED: cv::createLineSegmentDetector (function)
+PORTED: cv::cvtColorTwoPlane (function)
+PORTED: cv::cvtColor (function)
+PORTED: cv::demosaicing (function)
+PORTED: cv::dilate (function)
+PORTED: cv::distanceTransform (function)
+PORTED: cv::distanceTransform (function)
+PORTED: cv::drawContours (function)
+PORTED: cv::drawMarker (function)
+PORTED: cv::ellipse2Poly (function)
+PORTED: cv::ellipse2Poly (function)
+PORTED: cv::ellipse (function)
+PORTED: cv::ellipse (function)
+PORTED: cv::equalizeHist (function)
+PORTED: cv::erode (function)
+PORTED: cv::fillConvexPoly (function)
+PORTED: cv::fillPoly (function)
+PORTED: cv::filter2D (function)
+PORTED: cv::findContours (function)
+PORTED: cv::findContours (function)
+PORTED: cv::fitEllipseAMS (function)
+PORTED: cv::fitEllipseDirect (function)
+PORTED: cv::fitEllipse (function)
+PORTED: cv::fitLine (function)
+PORTED: cv::floodFill (function)
+PORTED: cv::floodFill (function)
+PORTED: cv::getAffineTransform (function)
+PORTED: cv::getAffineTransform (function)
+PORTED: cv::getDerivKernels (function)
+PORTED: cv::getFontScaleFromHeight (function)
+PORTED: cv::getGaborKernel (function)
+PORTED: cv::getGaussianKernel (function)
+PORTED: cv::getPerspectiveTransform (function)
+PORTED: cv::getPerspectiveTransform (function)
+PORTED: cv::getRectSubPix (function)
+PORTED: cv::getRotationMatrix2D (function)
+PORTED: cv::getStructuringElement (function)
+PORTED: cv::getTextSize (function)
+PORTED: cv::goodFeaturesToTrack (function)
+PORTED: cv::goodFeaturesToTrack (function)
+PORTED: cv::grabCut (function)
+PORTED: cv::integral (function)
+PORTED: cv::integral (function)
+PORTED: cv::integral (function)
+PORTED: cv::intersectConvexConvex (function)
+PORTED: cv::invertAffineTransform (function)
+PORTED: cv::isContourConvex (function)
+PORTED: cv::line (function)
+PORTED: cv::linearPolar (function)
+PORTED: cv::logPolar (function)
+PORTED: cv::matchShapes (function)
+PORTED: cv::matchTemplate (function)
+PORTED: cv::medianBlur (function)
+PORTED: cv::minAreaRect (function)
+PORTED: cv::minEnclosingCircle (function)
+PORTED: cv::minEnclosingTriangle (function)
+PORTED: cv::morphologyDefaultBorderValue (function)
+PORTED: cv::morphologyEx (function)
+PORTED: cv::phaseCorrelate (function)
+PORTED: cv::pointPolygonTest (function)
+PORTED: cv::polylines (function)
+PORTED: cv::preCornerDetect (function)
+PORTED: cv::putText (function)
+PORTED: cv::pyrDown (function)
+PORTED: cv::pyrMeanShiftFiltering (function)
+PORTED: cv::pyrUp (function)
+PORTED: cv::rectangle (function)
+PORTED: cv::rectangle (function)
+PORTED: cv::remap (function)
+PORTED: cv::resize (function)
+PORTED: cv::rotatedRectangleIntersection (function)
+PORTED: cv::sepFilter2D (function)
+PORTED: cv::spatialGradient (function)
+PORTED: cv::sqrBoxFilter (function)
+PORTED: cv::threshold (function)
+PORTED: cv::warpAffine (function)
+PORTED: cv::warpPerspective (function)
+PORTED: cv::warpPolar (function)
+PORTED: cv::watershed (function)
+PORTED: cv::wrapperEMD (function)
+PORTED: cv::CLAHE::apply (method) cv::CLAHE (trait) . apply
+PORTED: cv::CLAHE::setClipLimit (method) cv::CLAHE (trait) . setClipLimit
+PORTED: cv::CLAHE::getClipLimit (method) cv::CLAHE (trait) . getClipLimit
+PORTED: cv::CLAHE::setTilesGridSize (method) cv::CLAHE (trait) . setTilesGridSize
+PORTED: cv::CLAHE::getTilesGridSize (method) cv::CLAHE (trait) . getTilesGridSize
+PORTED: cv::CLAHE::collectGarbage (method) cv::CLAHE (trait) . collectGarbage
+PORTED: cv::GeneralizedHough::setTemplate (method) cv::GeneralizedHough (trait) . setTemplate
+PORTED: cv::GeneralizedHough::setTemplate (method) cv::GeneralizedHough (trait) . setTemplate
+PORTED: cv::GeneralizedHough::detect (method) cv::GeneralizedHough (trait) . detect
+PORTED: cv::GeneralizedHough::detect (method) cv::GeneralizedHough (trait) . detect
+PORTED: cv::GeneralizedHough::setCannyLowThresh (method) cv::GeneralizedHough (trait) . setCannyLowThresh
+PORTED: cv::GeneralizedHough::getCannyLowThresh (method) cv::GeneralizedHough (trait) . getCannyLowThresh
+PORTED: cv::GeneralizedHough::setCannyHighThresh (method) cv::GeneralizedHough (trait) . setCannyHighThresh
+PORTED: cv::GeneralizedHough::getCannyHighThresh (method) cv::GeneralizedHough (trait) . getCannyHighThresh
+PORTED: cv::GeneralizedHough::setMinDist (method) cv::GeneralizedHough (trait) . setMinDist
+PORTED: cv::GeneralizedHough::getMinDist (method) cv::GeneralizedHough (trait) . getMinDist
+PORTED: cv::GeneralizedHough::setDp (method) cv::GeneralizedHough (trait) . setDp
+PORTED: cv::GeneralizedHough::getDp (method) cv::GeneralizedHough (trait) . getDp
+PORTED: cv::GeneralizedHough::setMaxBufferSize (method) cv::GeneralizedHough (trait) . setMaxBufferSize
+PORTED: cv::GeneralizedHough::getMaxBufferSize (method) cv::GeneralizedHough (trait) . getMaxBufferSize
+PORTED: cv::GeneralizedHoughBallard::setLevels (method) cv::GeneralizedHoughBallard (trait) . setLevels
+PORTED: cv::GeneralizedHoughBallard::getLevels (method) cv::GeneralizedHoughBallard (trait) . getLevels
+PORTED: cv::GeneralizedHoughBallard::setVotesThreshold (method) cv::GeneralizedHoughBallard (trait) . setVotesThreshold
+PORTED: cv::GeneralizedHoughBallard::getVotesThreshold (method) cv::GeneralizedHoughBallard (trait) . getVotesThreshold
+PORTED: cv::GeneralizedHoughGuil::setXi (method) cv::GeneralizedHoughGuil (trait) . setXi
+PORTED: cv::GeneralizedHoughGuil::getXi (method) cv::GeneralizedHoughGuil (trait) . getXi
+PORTED: cv::GeneralizedHoughGuil::setLevels (method) cv::GeneralizedHoughGuil (trait) . setLevels
+PORTED: cv::GeneralizedHoughGuil::getLevels (method) cv::GeneralizedHoughGuil (trait) . getLevels
+PORTED: cv::GeneralizedHoughGuil::setAngleEpsilon (method) cv::GeneralizedHoughGuil (trait) . setAngleEpsilon
+PORTED: cv::GeneralizedHoughGuil::getAngleEpsilon (method) cv::GeneralizedHoughGuil (trait) . getAngleEpsilon
+PORTED: cv::GeneralizedHoughGuil::setMinAngle (method) cv::GeneralizedHoughGuil (trait) . setMinAngle
+PORTED: cv::GeneralizedHoughGuil::getMinAngle (method) cv::GeneralizedHoughGuil (trait) . getMinAngle
+PORTED: cv::GeneralizedHoughGuil::setMaxAngle (method) cv::GeneralizedHoughGuil (trait) . setMaxAngle
+PORTED: cv::GeneralizedHoughGuil::getMaxAngle (method) cv::GeneralizedHoughGuil (trait) . getMaxAngle
+PORTED: cv::GeneralizedHoughGuil::setAngleStep (method) cv::GeneralizedHoughGuil (trait) . setAngleStep
+PORTED: cv::GeneralizedHoughGuil::getAngleStep (method) cv::GeneralizedHoughGuil (trait) . getAngleStep
+PORTED: cv::GeneralizedHoughGuil::setAngleThresh (method) cv::GeneralizedHoughGuil (trait) . setAngleThresh
+PORTED: cv::GeneralizedHoughGuil::getAngleThresh (method) cv::GeneralizedHoughGuil (trait) . getAngleThresh
+PORTED: cv::GeneralizedHoughGuil::setMinScale (method) cv::GeneralizedHoughGuil (trait) . setMinScale
+PORTED: cv::GeneralizedHoughGuil::getMinScale (method) cv::GeneralizedHoughGuil (trait) . getMinScale
+PORTED: cv::GeneralizedHoughGuil::setMaxScale (method) cv::GeneralizedHoughGuil (trait) . setMaxScale
+PORTED: cv::GeneralizedHoughGuil::getMaxScale (method) cv::GeneralizedHoughGuil (trait) . getMaxScale
+PORTED: cv::GeneralizedHoughGuil::setScaleStep (method) cv::GeneralizedHoughGuil (trait) . setScaleStep
+PORTED: cv::GeneralizedHoughGuil::getScaleStep (method) cv::GeneralizedHoughGuil (trait) . getScaleStep
+PORTED: cv::GeneralizedHoughGuil::setScaleThresh (method) cv::GeneralizedHoughGuil (trait) . setScaleThresh
+PORTED: cv::GeneralizedHoughGuil::getScaleThresh (method) cv::GeneralizedHoughGuil (trait) . getScaleThresh
+PORTED: cv::GeneralizedHoughGuil::setPosThresh (method) cv::GeneralizedHoughGuil (trait) . setPosThresh
+PORTED: cv::GeneralizedHoughGuil::getPosThresh (method) cv::GeneralizedHoughGuil (trait) . getPosThresh
+PORTED: cv::LineIterator::LineIterator (constructor) cv::LineIterator . new
+PORTED: cv::LineIterator::pos (method) cv::LineIterator . pos
+PORTED: cv::LineSegmentDetector::detect (method) cv::LineSegmentDetector (trait) . detect
+PORTED: cv::LineSegmentDetector::drawSegments (method) cv::LineSegmentDetector (trait) . drawSegments
+PORTED: cv::LineSegmentDetector::compareSegments (method) cv::LineSegmentDetector (trait) . compareSegments
+PORTED: cv::Subdiv2D::Subdiv2D (constructor) cv::Subdiv2D . default
+PORTED: cv::Subdiv2D::Subdiv2D (constructor) cv::Subdiv2D . new
+PORTED: cv::Subdiv2D::initDelaunay (method) cv::Subdiv2D . initDelaunay
+PORTED: cv::Subdiv2D::insert (method) cv::Subdiv2D . insert
+PORTED: cv::Subdiv2D::insert (method) cv::Subdiv2D . insert
+PORTED: cv::Subdiv2D::locate (method) cv::Subdiv2D . locate
+PORTED: cv::Subdiv2D::findNearest (method) cv::Subdiv2D . findNearest
+PORTED: cv::Subdiv2D::getEdgeList (method) cv::Subdiv2D . getEdgeList
+PORTED: cv::Subdiv2D::getLeadingEdgeList (method) cv::Subdiv2D . getLeadingEdgeList
+PORTED: cv::Subdiv2D::getTriangleList (method) cv::Subdiv2D . getTriangleList
+PORTED: cv::Subdiv2D::getVoronoiFacetList (method) cv::Subdiv2D . getVoronoiFacetList
+PORTED: cv::Subdiv2D::getVertex (method) cv::Subdiv2D . getVertex
+PORTED: cv::Subdiv2D::getEdge (method) cv::Subdiv2D . getEdge
+PORTED: cv::Subdiv2D::nextEdge (method) cv::Subdiv2D . nextEdge
+PORTED: cv::Subdiv2D::rotateEdge (method) cv::Subdiv2D . rotateEdge
+PORTED: cv::Subdiv2D::symEdge (method) cv::Subdiv2D . symEdge
+PORTED: cv::Subdiv2D::edgeOrg (method) cv::Subdiv2D . edgeOrg
+PORTED: cv::Subdiv2D::edgeDst (method) cv::Subdiv2D . edgeDst
+
+
+SKIPPED FUNCs: 12
+
+SKIPPED: cv::HuMoments (function)
+   can not map type Unknown[Moments] yet
+
+SKIPPED: cv::HuMoments (function)
+   can not map type Unknown[Moments] yet
+
+SKIPPED: cv::calcBackProject (function)
+   can not map type Unknown[SparseMat] yet
+
+SKIPPED: cv::calcBackProject (function)
+   can not map type RawPtr[RawPtr[Primitive(float)]] yet
+
+SKIPPED: cv::calcHist (function)
+   can not map type Unknown[SparseMat] yet
+
+SKIPPED: cv::calcHist (function)
+   can not map type RawPtr[RawPtr[Primitive(float)]] yet
+
+SKIPPED: cv::compareHist (function)
+   can not map type Unknown[SparseMat] yet
+
+SKIPPED: cv::fillConvexPoly (function)
+   ignored by rename table
+
+SKIPPED: cv::fillPoly (function)
+   can not map type RawPtr[RawPtr[cv::Point (simple)]] yet
+
+SKIPPED: cv::moments (function)
+   return type class Unknown[Moments] is ignored
+
+SKIPPED: cv::polylines (function)
+   can not map type RawPtr[Unknown[Point* const]] yet
+
+SKIPPED: cv::LineIterator::pos (method) cv::LineIterator . pos
+   already there
+

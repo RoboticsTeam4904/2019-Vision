@@ -1,0 +1,37 @@
+FOUND FUNCs: 33
+
+PORTED FUNCs: 33
+
+PORTED: cv::videoio_registry::getBackendName (function)
+PORTED: cv::videoio_registry::getBackends (function)
+PORTED: cv::videoio_registry::getCameraBackends (function)
+PORTED: cv::videoio_registry::getStreamBackends (function)
+PORTED: cv::videoio_registry::getWriterBackends (function)
+PORTED: cv::videoio_registry::hasBackend (function)
+PORTED: cv::VideoCapture::VideoCapture (constructor) cv::VideoCapture . default
+PORTED: cv::VideoCapture::VideoCapture (constructor) cv::VideoCapture . new
+PORTED: cv::VideoCapture::VideoCapture (constructor) cv::VideoCapture . new
+PORTED: cv::VideoCapture::open (method) cv::VideoCapture . open
+PORTED: cv::VideoCapture::open (method) cv::VideoCapture . open
+PORTED: cv::VideoCapture::isOpened (method) cv::VideoCapture . isOpened
+PORTED: cv::VideoCapture::release (method) cv::VideoCapture . release
+PORTED: cv::VideoCapture::grab (method) cv::VideoCapture . grab
+PORTED: cv::VideoCapture::retrieve (method) cv::VideoCapture . retrieve
+PORTED: cv::VideoCapture::read (method) cv::VideoCapture . read
+PORTED: cv::VideoCapture::set (method) cv::VideoCapture . set
+PORTED: cv::VideoCapture::get (method) cv::VideoCapture . get
+PORTED: cv::VideoCapture::getBackendName (method) cv::VideoCapture . getBackendName
+PORTED: cv::VideoCapture::setExceptionMode (method) cv::VideoCapture . setExceptionMode
+PORTED: cv::VideoCapture::getExceptionMode (method) cv::VideoCapture . getExceptionMode
+PORTED: cv::VideoWriter::VideoWriter (constructor) cv::VideoWriter . default
+PORTED: cv::VideoWriter::VideoWriter (constructor) cv::VideoWriter . new
+PORTED: cv::VideoWriter::VideoWriter (constructor) cv::VideoWriter . new
+PORTED: cv::VideoWriter::open (method) cv::VideoWriter . open
+PORTED: cv::VideoWriter::open (method) cv::VideoWriter . open
+PORTED: cv::VideoWriter::isOpened (method) cv::VideoWriter . isOpened
+PORTED: cv::VideoWriter::release (method) cv::VideoWriter . release
+PORTED: cv::VideoWriter::write (method) cv::VideoWriter . write
+PORTED: cv::VideoWriter::set (method) cv::VideoWriter . set
+PORTED: cv::VideoWriter::get (method) cv::VideoWriter . get
+PORTED: cv::VideoWriter::fourcc (method) cv::VideoWriter . fourcc
+PORTED: cv::VideoWriter::getBackendName (method) cv::VideoWriter . getBackendName

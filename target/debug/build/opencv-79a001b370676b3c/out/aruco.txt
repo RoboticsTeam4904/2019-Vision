@@ -1,0 +1,106 @@
+FOUND FUNCs: 86
+
+PORTED FUNCs: 80
+
+PORTED: cv::aruco::_drawPlanarBoardImpl (function)
+PORTED: cv::aruco::calibrateCameraAruco (function)
+PORTED: cv::aruco::calibrateCameraAruco (function)
+PORTED: cv::aruco::calibrateCameraCharuco (function)
+PORTED: cv::aruco::calibrateCameraCharuco (function)
+PORTED: cv::aruco::detectCharucoDiamond (function)
+PORTED: cv::aruco::detectMarkers (function)
+PORTED: cv::aruco::drawAxis (function)
+PORTED: cv::aruco::drawCharucoDiamond (function)
+PORTED: cv::aruco::drawDetectedCornersCharuco (function)
+PORTED: cv::aruco::drawDetectedDiamonds (function)
+PORTED: cv::aruco::drawDetectedMarkers (function)
+PORTED: cv::aruco::drawMarker (function)
+PORTED: cv::aruco::drawPlanarBoard (function)
+PORTED: cv::aruco::estimatePoseBoard (function)
+PORTED: cv::aruco::estimatePoseCharucoBoard (function)
+PORTED: cv::aruco::estimatePoseSingleMarkers (function)
+PORTED: cv::aruco::generateCustomDictionary (function)
+PORTED: cv::aruco::generateCustomDictionary (function)
+PORTED: cv::aruco::getBoardObjectAndImagePoints (function)
+PORTED: cv::aruco::getPredefinedDictionary (function)
+PORTED: cv::aruco::getPredefinedDictionary (function)
+PORTED: cv::aruco::interpolateCornersCharuco (function)
+PORTED: cv::aruco::refineDetectedMarkers (function)
+PORTED: cv::aruco::Board::create (method) cv::aruco::Board (trait) . create
+PORTED: cv::aruco::CharucoBoard::draw (method) cv::aruco::CharucoBoard . draw
+PORTED: cv::aruco::CharucoBoard::create (method) cv::aruco::CharucoBoard . create
+PORTED: cv::aruco::CharucoBoard::getChessboardSize (method) cv::aruco::CharucoBoard . getChessboardSize
+PORTED: cv::aruco::CharucoBoard::getSquareLength (method) cv::aruco::CharucoBoard . getSquareLength
+PORTED: cv::aruco::CharucoBoard::getMarkerLength (method) cv::aruco::CharucoBoard . getMarkerLength
+PORTED: cv::aruco::DetectorParameters::adaptiveThreshWinSizeMin (method) cv::aruco::DetectorParameters . adaptiveThreshWinSizeMin
+PORTED: cv::aruco::DetectorParameters::adaptiveThreshWinSizeMax (method) cv::aruco::DetectorParameters . adaptiveThreshWinSizeMax
+PORTED: cv::aruco::DetectorParameters::adaptiveThreshWinSizeStep (method) cv::aruco::DetectorParameters . adaptiveThreshWinSizeStep
+PORTED: cv::aruco::DetectorParameters::adaptiveThreshConstant (method) cv::aruco::DetectorParameters . adaptiveThreshConstant
+PORTED: cv::aruco::DetectorParameters::minMarkerPerimeterRate (method) cv::aruco::DetectorParameters . minMarkerPerimeterRate
+PORTED: cv::aruco::DetectorParameters::maxMarkerPerimeterRate (method) cv::aruco::DetectorParameters . maxMarkerPerimeterRate
+PORTED: cv::aruco::DetectorParameters::polygonalApproxAccuracyRate (method) cv::aruco::DetectorParameters . polygonalApproxAccuracyRate
+PORTED: cv::aruco::DetectorParameters::minCornerDistanceRate (method) cv::aruco::DetectorParameters . minCornerDistanceRate
+PORTED: cv::aruco::DetectorParameters::minDistanceToBorder (method) cv::aruco::DetectorParameters . minDistanceToBorder
+PORTED: cv::aruco::DetectorParameters::minMarkerDistanceRate (method) cv::aruco::DetectorParameters . minMarkerDistanceRate
+PORTED: cv::aruco::DetectorParameters::cornerRefinementMethod (method) cv::aruco::DetectorParameters . cornerRefinementMethod
+PORTED: cv::aruco::DetectorParameters::cornerRefinementWinSize (method) cv::aruco::DetectorParameters . cornerRefinementWinSize
+PORTED: cv::aruco::DetectorParameters::cornerRefinementMaxIterations (method) cv::aruco::DetectorParameters . cornerRefinementMaxIterations
+PORTED: cv::aruco::DetectorParameters::cornerRefinementMinAccuracy (method) cv::aruco::DetectorParameters . cornerRefinementMinAccuracy
+PORTED: cv::aruco::DetectorParameters::markerBorderBits (method) cv::aruco::DetectorParameters . markerBorderBits
+PORTED: cv::aruco::DetectorParameters::perspectiveRemovePixelPerCell (method) cv::aruco::DetectorParameters . perspectiveRemovePixelPerCell
+PORTED: cv::aruco::DetectorParameters::perspectiveRemoveIgnoredMarginPerCell (method) cv::aruco::DetectorParameters . perspectiveRemoveIgnoredMarginPerCell
+PORTED: cv::aruco::DetectorParameters::maxErroneousBitsInBorderRate (method) cv::aruco::DetectorParameters . maxErroneousBitsInBorderRate
+PORTED: cv::aruco::DetectorParameters::minOtsuStdDev (method) cv::aruco::DetectorParameters . minOtsuStdDev
+PORTED: cv::aruco::DetectorParameters::errorCorrectionRate (method) cv::aruco::DetectorParameters . errorCorrectionRate
+PORTED: cv::aruco::DetectorParameters::aprilTagQuadDecimate (method) cv::aruco::DetectorParameters . aprilTagQuadDecimate
+PORTED: cv::aruco::DetectorParameters::aprilTagQuadSigma (method) cv::aruco::DetectorParameters . aprilTagQuadSigma
+PORTED: cv::aruco::DetectorParameters::aprilTagMinClusterPixels (method) cv::aruco::DetectorParameters . aprilTagMinClusterPixels
+PORTED: cv::aruco::DetectorParameters::aprilTagMaxNmaxima (method) cv::aruco::DetectorParameters . aprilTagMaxNmaxima
+PORTED: cv::aruco::DetectorParameters::aprilTagCriticalRad (method) cv::aruco::DetectorParameters . aprilTagCriticalRad
+PORTED: cv::aruco::DetectorParameters::aprilTagMaxLineFitMse (method) cv::aruco::DetectorParameters . aprilTagMaxLineFitMse
+PORTED: cv::aruco::DetectorParameters::aprilTagMinWhiteBlackDiff (method) cv::aruco::DetectorParameters . aprilTagMinWhiteBlackDiff
+PORTED: cv::aruco::DetectorParameters::aprilTagDeglitch (method) cv::aruco::DetectorParameters . aprilTagDeglitch
+PORTED: cv::aruco::DetectorParameters::detectInvertedMarker (method) cv::aruco::DetectorParameters . detectInvertedMarker
+PORTED: cv::aruco::DetectorParameters::DetectorParameters (constructor) cv::aruco::DetectorParameters . default
+PORTED: cv::aruco::DetectorParameters::create (method) cv::aruco::DetectorParameters . create
+PORTED: cv::aruco::Dictionary::bytesList (method) cv::aruco::Dictionary . bytesList
+PORTED: cv::aruco::Dictionary::set_bytesList (method) cv::aruco::Dictionary . set_bytesList
+PORTED: cv::aruco::Dictionary::markerSize (method) cv::aruco::Dictionary . markerSize
+PORTED: cv::aruco::Dictionary::maxCorrectionBits (method) cv::aruco::Dictionary . maxCorrectionBits
+PORTED: cv::aruco::Dictionary::Dictionary (constructor) cv::aruco::Dictionary . new
+PORTED: cv::aruco::Dictionary::Dictionary (constructor) cv::aruco::Dictionary . new
+PORTED: cv::aruco::Dictionary::create (method) cv::aruco::Dictionary . create
+PORTED: cv::aruco::Dictionary::create (method) cv::aruco::Dictionary . create
+PORTED: cv::aruco::Dictionary::get (method) cv::aruco::Dictionary . get
+PORTED: cv::aruco::Dictionary::identify (method) cv::aruco::Dictionary . identify
+PORTED: cv::aruco::Dictionary::getDistanceToId (method) cv::aruco::Dictionary . getDistanceToId
+PORTED: cv::aruco::Dictionary::drawMarker (method) cv::aruco::Dictionary . drawMarker
+PORTED: cv::aruco::Dictionary::getByteListFromBits (method) cv::aruco::Dictionary . getByteListFromBits
+PORTED: cv::aruco::Dictionary::getBitsFromByteList (method) cv::aruco::Dictionary . getBitsFromByteList
+PORTED: cv::aruco::GridBoard::draw (method) cv::aruco::GridBoard . draw
+PORTED: cv::aruco::GridBoard::create (method) cv::aruco::GridBoard . create
+PORTED: cv::aruco::GridBoard::getGridSize (method) cv::aruco::GridBoard . getGridSize
+PORTED: cv::aruco::GridBoard::getMarkerLength (method) cv::aruco::GridBoard . getMarkerLength
+PORTED: cv::aruco::GridBoard::getMarkerSeparation (method) cv::aruco::GridBoard . getMarkerSeparation
+
+
+SKIPPED FUNCs: 6
+
+SKIPPED: cv::aruco::Board::objPoints (method) cv::aruco::Board (trait) . objPoints
+   return type class Unknown[vector_vector_Point3f] is ignored
+
+SKIPPED: cv::aruco::Board::dictionary (method) cv::aruco::Board (trait) . dictionary
+   return type class Unknown[Ptr_Dictionary] is ignored
+
+SKIPPED: cv::aruco::Board::ids (method) cv::aruco::Board (trait) . ids
+   return type class Unknown[vector_int] is ignored
+
+SKIPPED: cv::aruco::CharucoBoard::chessboardCorners (method) cv::aruco::CharucoBoard . chessboardCorners
+   return type class Unknown[vector_Point3f] is ignored
+
+SKIPPED: cv::aruco::CharucoBoard::nearestMarkerIdx (method) cv::aruco::CharucoBoard . nearestMarkerIdx
+   return type class Unknown[vector_vector_int] is ignored
+
+SKIPPED: cv::aruco::CharucoBoard::nearestMarkerCorners (method) cv::aruco::CharucoBoard . nearestMarkerCorners
+   return type class Unknown[vector_vector_int] is ignored
+

@@ -1,0 +1,3526 @@
+
+--- Manual ---
+('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']])
+parse_name: class cv.Vec8i with ['cv'] -> fullname:cv::Vec8i namespace:cv classpath: classname: name:Vec8i
+register class cv::Vec8i (('class cv.Vec8i', '', ['/Simple'], [['int', 'data[8]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6d with ['cv'] -> fullname:cv::Vec6d namespace:cv classpath: classname: name:Vec6d
+register class cv::Vec6d (('class cv.Vec6d', '', ['/Simple'], [['double', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6f with ['cv'] -> fullname:cv::Vec6f namespace:cv classpath: classname: name:Vec6f
+register class cv::Vec6f (('class cv.Vec6f', '', ['/Simple'], [['float', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']])
+parse_name: class cv.Vec6i with ['cv'] -> fullname:cv::Vec6i namespace:cv classpath: classname: name:Vec6i
+register class cv::Vec6i (('class cv.Vec6i', '', ['/Simple'], [['int', 'data[6]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4d with ['cv'] -> fullname:cv::Vec4d namespace:cv classpath: classname: name:Vec4d
+register class cv::Vec4d (('class cv.Vec4d', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4f with ['cv'] -> fullname:cv::Vec4f namespace:cv classpath: classname: name:Vec4f
+register class cv::Vec4f (('class cv.Vec4f', '', ['/Simple'], [['float', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4i with ['cv'] -> fullname:cv::Vec4i namespace:cv classpath: classname: name:Vec4i
+register class cv::Vec4i (('class cv.Vec4i', '', ['/Simple'], [['int', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4w with ['cv'] -> fullname:cv::Vec4w namespace:cv classpath: classname: name:Vec4w
+register class cv::Vec4w (('class cv.Vec4w', '', ['/Simple'], [['unsigned short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4s with ['cv'] -> fullname:cv::Vec4s namespace:cv classpath: classname: name:Vec4s
+register class cv::Vec4s (('class cv.Vec4s', '', ['/Simple'], [['short', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']])
+parse_name: class cv.Vec4b with ['cv'] -> fullname:cv::Vec4b namespace:cv classpath: classname: name:Vec4b
+register class cv::Vec4b (('class cv.Vec4b', '', ['/Simple'], [['unsigned char', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3d with ['cv'] -> fullname:cv::Vec3d namespace:cv classpath: classname: name:Vec3d
+register class cv::Vec3d (('class cv.Vec3d', '', ['/Simple'], [['double', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3f with ['cv'] -> fullname:cv::Vec3f namespace:cv classpath: classname: name:Vec3f
+register class cv::Vec3f (('class cv.Vec3f', '', ['/Simple'], [['float', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3i with ['cv'] -> fullname:cv::Vec3i namespace:cv classpath: classname: name:Vec3i
+register class cv::Vec3i (('class cv.Vec3i', '', ['/Simple'], [['int', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3w with ['cv'] -> fullname:cv::Vec3w namespace:cv classpath: classname: name:Vec3w
+register class cv::Vec3w (('class cv.Vec3w', '', ['/Simple'], [['unsigned short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3s with ['cv'] -> fullname:cv::Vec3s namespace:cv classpath: classname: name:Vec3s
+register class cv::Vec3s (('class cv.Vec3s', '', ['/Simple'], [['short', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']])
+parse_name: class cv.Vec3b with ['cv'] -> fullname:cv::Vec3b namespace:cv classpath: classname: name:Vec3b
+register class cv::Vec3b (('class cv.Vec3b', '', ['/Simple'], [['unsigned char', 'data[3]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2d with ['cv'] -> fullname:cv::Vec2d namespace:cv classpath: classname: name:Vec2d
+register class cv::Vec2d (('class cv.Vec2d', '', ['/Simple'], [['double', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2d',
+    '',
+    ['/Simple'],
+    [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']])
+parse_name: class cv.Size2d with ['cv'] -> fullname:cv::Size2d namespace:cv classpath: classname: name:Size2d
+register class cv::Size2d (('class cv.Size2d', '', ['/Simple'], [['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2d',
+    '',
+    ['/Simple'],
+    [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']])
+parse_name: class cv.Point2d with ['cv'] -> fullname:cv::Point2d namespace:cv classpath: classname: name:Point2d
+register class cv::Point2d (('class cv.Point2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2d',
+    '',
+    ['/Simple'],
+    [   ['double', 'x', '', '/RW'],
+        ['double', 'y', '', '/RW'],
+        ['double', 'width', '', '/RW'],
+        ['double', 'height', '', '/RW']])
+parse_name: class cv.Rect2d with ['cv'] -> fullname:cv::Rect2d namespace:cv classpath: classname: name:Rect2d
+register class cv::Rect2d (('class cv.Rect2d', '', ['/Simple'], [['double', 'x', '', '/RW'], ['double', 'y', '', '/RW'], ['double', 'width', '', '/RW'], ['double', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2f with ['cv'] -> fullname:cv::Vec2f namespace:cv classpath: classname: name:Vec2f
+register class cv::Vec2f (('class cv.Vec2f', '', ['/Simple'], [['float', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2f',
+    '',
+    ['/Simple'],
+    [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']])
+parse_name: class cv.Size2f with ['cv'] -> fullname:cv::Size2f namespace:cv classpath: classname: name:Size2f
+register class cv::Size2f (('class cv.Size2f', '', ['/Simple'], [['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2f',
+    '',
+    ['/Simple'],
+    [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']])
+parse_name: class cv.Point2f with ['cv'] -> fullname:cv::Point2f namespace:cv classpath: classname: name:Point2f
+register class cv::Point2f (('class cv.Point2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2f',
+    '',
+    ['/Simple'],
+    [   ['float', 'x', '', '/RW'],
+        ['float', 'y', '', '/RW'],
+        ['float', 'width', '', '/RW'],
+        ['float', 'height', '', '/RW']])
+parse_name: class cv.Rect2f with ['cv'] -> fullname:cv::Rect2f namespace:cv classpath: classname: name:Rect2f
+register class cv::Rect2f (('class cv.Rect2f', '', ['/Simple'], [['float', 'x', '', '/RW'], ['float', 'y', '', '/RW'], ['float', 'width', '', '/RW'], ['float', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2l',
+    '',
+    ['/Simple'],
+    [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']])
+parse_name: class cv.Size2l with ['cv'] -> fullname:cv::Size2l namespace:cv classpath: classname: name:Size2l
+register class cv::Size2l (('class cv.Size2l', '', ['/Simple'], [['int64', 'width', '', '/RW'], ['int64', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2l',
+    '',
+    ['/Simple'],
+    [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']])
+parse_name: class cv.Point2l with ['cv'] -> fullname:cv::Point2l namespace:cv classpath: classname: name:Point2l
+register class cv::Point2l (('class cv.Point2l', '', ['/Simple'], [['int64', 'x', '', '/RW'], ['int64', 'y', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2i with ['cv'] -> fullname:cv::Vec2i namespace:cv classpath: classname: name:Vec2i
+register class cv::Vec2i (('class cv.Vec2i', '', ['/Simple'], [['int', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size2i',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size2i with ['cv'] -> fullname:cv::Size2i namespace:cv classpath: classname: name:Size2i
+register class cv::Size2i (('class cv.Size2i', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point2i',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point2i with ['cv'] -> fullname:cv::Point2i namespace:cv classpath: classname: name:Point2i
+register class cv::Point2i (('class cv.Point2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect2i',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect2i with ['cv'] -> fullname:cv::Rect2i namespace:cv classpath: classname: name:Rect2i
+register class cv::Rect2i (('class cv.Rect2i', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Size',
+    '',
+    ['/Simple'],
+    [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']])
+parse_name: class cv.Size with ['cv'] -> fullname:cv::Size namespace:cv classpath: classname: name:Size
+register class cv::Size (('class cv.Size', '', ['/Simple'], [['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Point',
+    '',
+    ['/Simple'],
+    [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']])
+parse_name: class cv.Point with ['cv'] -> fullname:cv::Point namespace:cv classpath: classname: name:Point
+register class cv::Point (('class cv.Point', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW']]))
+
+--- Manual ---
+(   'class cv.Rect',
+    '',
+    ['/Simple'],
+    [   ['int', 'x', '', '/RW'],
+        ['int', 'y', '', '/RW'],
+        ['int', 'width', '', '/RW'],
+        ['int', 'height', '', '/RW']])
+parse_name: class cv.Rect with ['cv'] -> fullname:cv::Rect namespace:cv classpath: classname: name:Rect
+register class cv::Rect (('class cv.Rect', '', ['/Simple'], [['int', 'x', '', '/RW'], ['int', 'y', '', '/RW'], ['int', 'width', '', '/RW'], ['int', 'height', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2w with ['cv'] -> fullname:cv::Vec2w namespace:cv classpath: classname: name:Vec2w
+register class cv::Vec2w (('class cv.Vec2w', '', ['/Simple'], [['unsigned short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2s with ['cv'] -> fullname:cv::Vec2s namespace:cv classpath: classname: name:Vec2s
+register class cv::Vec2s (('class cv.Vec2s', '', ['/Simple'], [['short', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']])
+parse_name: class cv.Vec2b with ['cv'] -> fullname:cv::Vec2b namespace:cv classpath: classname: name:Vec2b
+register class cv::Vec2b (('class cv.Vec2b', '', ['/Simple'], [['unsigned char', 'data[2]', '', '/RW']]))
+
+--- Manual ---
+('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']])
+parse_name: class cv.Scalar with ['cv'] -> fullname:cv::Scalar namespace:cv classpath: classname: name:Scalar
+register class cv::Scalar (('class cv.Scalar', '', ['/Simple'], [['double', 'data[4]', '', '/RW']]))
+
+--- Manual ---
+('class cv._InputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputArray with ['cv'] -> fullname:cv::_InputArray namespace:cv classpath: classname: name:_InputArray
+register class cv::_InputArray (('class cv._InputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputArray', 'const _InputArray&', [], [])
+parse_name: typedef cv.InputArray with ['cv'] -> fullname:cv::InputArray namespace:cv classpath: classname: name:InputArray
+Registering an unknown type: InputArray
+
+--- Manual ---
+('class cv._OutputArray', '', ['/Ghost'], [])
+parse_name: class cv._OutputArray with ['cv'] -> fullname:cv::_OutputArray namespace:cv classpath: classname: name:_OutputArray
+register class cv::_OutputArray (('class cv._OutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.OutputArray', '_OutputArray&', [], [])
+parse_name: typedef cv.OutputArray with ['cv'] -> fullname:cv::OutputArray namespace:cv classpath: classname: name:OutputArray
+Registering an unknown type: OutputArray
+
+--- Manual ---
+('class cv._InputOutputArray', '', ['/Ghost'], [])
+parse_name: class cv._InputOutputArray with ['cv'] -> fullname:cv::_InputOutputArray namespace:cv classpath: classname: name:_InputOutputArray
+register class cv::_InputOutputArray (('class cv._InputOutputArray', '', ['/Ghost'], []))
+
+--- Manual ---
+('typedef cv.InputOutputArray', '_InputOutputArray&', [], [])
+parse_name: typedef cv.InputOutputArray with ['cv'] -> fullname:cv::InputOutputArray namespace:cv classpath: classname: name:InputOutputArray
+Registering an unknown type: InputOutputArray
+
+--- Manual ---
+('typedef cv.InputArrayOfArrays', 'InputArray', [], [])
+parse_name: typedef cv.InputArrayOfArrays with ['cv'] -> fullname:cv::InputArrayOfArrays namespace:cv classpath: classname: name:InputArrayOfArrays
+Registering an unknown type: InputArrayOfArrays
+
+--- Manual ---
+('typedef cv.OutputArrayOfArrays', 'OutputArray', [], [])
+parse_name: typedef cv.OutputArrayOfArrays with ['cv'] -> fullname:cv::OutputArrayOfArrays namespace:cv classpath: classname: name:OutputArrayOfArrays
+Registering an unknown type: OutputArrayOfArrays
+
+--- Manual ---
+('typedef cv.InputOutputArrayOfArrays', 'InputOutputArray', [], [])
+parse_name: typedef cv.InputOutputArrayOfArrays with ['cv'] -> fullname:cv::InputOutputArrayOfArrays namespace:cv classpath: classname: name:InputOutputArrayOfArrays
+Registering an unknown type: InputOutputArrayOfArrays
+
+--- Manual ---
+('class cv.Range', '', ['/Ghost'], [])
+parse_name: class cv.Range with ['cv'] -> fullname:cv::Range namespace:cv classpath: classname: name:Range
+register class cv::Range (('class cv.Range', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.MatExpr', '', ['/Ghost'], [])
+parse_name: class cv.MatExpr with ['cv'] -> fullname:cv::MatExpr namespace:cv classpath: classname: name:MatExpr
+register class cv::MatExpr (('class cv.MatExpr', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Mat', '', ['/Ghost'], [])
+parse_name: class cv.Mat with ['cv'] -> fullname:cv::Mat namespace:cv classpath: classname: name:Mat
+register class cv::Mat (('class cv.Mat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.UMat', '', ['/Ghost'], [])
+parse_name: class cv.UMat with ['cv'] -> fullname:cv::UMat namespace:cv classpath: classname: name:UMat
+register class cv::UMat (('class cv.UMat', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Algorithm', '', ['/Ghost'], [])
+parse_name: class cv.Algorithm with ['cv'] -> fullname:cv::Algorithm namespace:cv classpath: classname: name:Algorithm
+register class cv::Algorithm (('class cv.Algorithm', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.DMatch', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.DMatch with ['cv'] -> fullname:cv::DMatch namespace:cv classpath: classname: name:DMatch
+register class cv::DMatch (('class cv.DMatch', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.KeyPoint', '', ['/Ghost', '/Simple'], [])
+parse_name: class cv.KeyPoint with ['cv'] -> fullname:cv::KeyPoint namespace:cv classpath: classname: name:KeyPoint
+register class cv::KeyPoint (('class cv.KeyPoint', '', ['/Ghost', '/Simple'], []))
+
+--- Manual ---
+('class cv.RotatedRect', '', ['/Ghost'], [])
+parse_name: class cv.RotatedRect with ['cv'] -> fullname:cv::RotatedRect namespace:cv classpath: classname: name:RotatedRect
+register class cv::RotatedRect (('class cv.RotatedRect', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.TermCriteria', '', ['/Ghost'], [])
+parse_name: class cv.TermCriteria with ['cv'] -> fullname:cv::TermCriteria namespace:cv classpath: classname: name:TermCriteria
+register class cv::TermCriteria (('class cv.TermCriteria', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.utils.logging.LogTag', '', ['/Ghost'], [])
+parse_name: class cv.utils.logging.LogTag with ['cv'] -> fullname:cv::utils::logging::LogTag namespace:cv classpath:utils::logging classname:logging name:LogTag
+register class cv::utils::logging::LogTag (('class cv.utils.logging.LogTag', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileNode', '', ['/Ghost'], [])
+parse_name: class cv.FileNode with ['cv'] -> fullname:cv::FileNode namespace:cv classpath: classname: name:FileNode
+register class cv::FileNode (('class cv.FileNode', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.FileStorage', '', ['/Ghost'], [])
+parse_name: class cv.FileStorage with ['cv'] -> fullname:cv::FileStorage namespace:cv classpath: classname: name:FileStorage
+register class cv::FileStorage (('class cv.FileStorage', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.LayerParams', '', ['/Ghost'], [])
+parse_name: class cv.dnn.LayerParams with ['cv'] -> fullname:cv::dnn::LayerParams namespace:cv classpath:dnn classname:dnn name:LayerParams
+register class cv::dnn::LayerParams (('class cv.dnn.LayerParams', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.dnn.Layer', '', ['/Ghost'], [])
+parse_name: class cv.dnn.Layer with ['cv'] -> fullname:cv::dnn::Layer namespace:cv classpath:dnn classname:dnn name:Layer
+register class cv::dnn::Layer (('class cv.dnn.Layer', '', ['/Ghost'], []))
+
+--- Manual ---
+('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])
+parse_name: class cv.Feature2D with ['cv'] -> fullname:cv::Feature2D namespace:cv classpath: classname: name:Feature2D
+register class cv::Feature2D (('class cv.Feature2D', ': cv::Algorithm', ['/Ghost'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])
+parse_name: class cv.DescriptorMatcher with ['cv'] -> fullname:cv::DescriptorMatcher namespace:cv classpath: classname: name:DescriptorMatcher
+register class cv::DescriptorMatcher (('class cv.DescriptorMatcher', ': cv::Algorithm', ['/Ghost', '/A'], [])) impl:cv::Algorithm
+
+--- Manual ---
+('typedef cv.FeatureDetector', 'Feature2D', [], [])
+parse_name: typedef cv.FeatureDetector with ['cv'] -> fullname:cv::FeatureDetector namespace:cv classpath: classname: name:FeatureDetector
+Registering an unknown type: FeatureDetector
+
+--- Manual ---
+('typedef cv.DescriptorExtractor', 'Feature2D', [], [])
+parse_name: typedef cv.DescriptorExtractor with ['cv'] -> fullname:cv::DescriptorExtractor namespace:cv classpath: classname: name:DescriptorExtractor
+Registering an unknown type: DescriptorExtractor
+
+--- Manual ---
+('enum cv.InterpolationFlags', '', ['/Ghost'], [])
+parse_name: enum cv.InterpolationFlags with ['cv'] -> fullname:cv::InterpolationFlags namespace:cv classpath: classname: name:InterpolationFlags
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videoio.hpp ================
+
+
+Namespaces: ['cv']
+Comment: {'videoio': '\n@defgroup videoio Video I/O\n\n@brief Read and write video or images sequence with OpenCV\n\n### See also:\n- @ref videoio_overview\n- Tutorials: @ref tutorial_table_of_content_videoio\n@{\n@defgroup videoio_flags_base Flags for video I/O\n@defgroup videoio_flags_others Additional flags for video I/O API backends\n@defgroup videoio_c C API for video I/O\n@defgroup videoio_ios iOS glue for video I/O\n@defgroup videoio_winrt WinRT glue for video I/O\n@defgroup videoio_registry Query I/O API backends registry\n@}\n\n'}
+
+--- Incoming ---
+[   'typedef CvCapture',
+    'struct CvCapture',
+    '',
+    [],
+    None,
+    '@defgroup videoio Video I/O\n'
+    '\n'
+    '@brief Read and write video or images sequence with OpenCV\n'
+    '\n'
+    '### See also:\n'
+    '- @ref videoio_overview\n'
+    '- Tutorials: @ref tutorial_table_of_content_videoio\n'
+    '@{\n'
+    '@defgroup videoio_flags_base Flags for video I/O\n'
+    '@defgroup videoio_flags_others Additional flags for video I/O API '
+    'backends\n'
+    '@defgroup videoio_c C API for video I/O\n'
+    '@defgroup videoio_ios iOS glue for video I/O\n'
+    '@defgroup videoio_winrt WinRT glue for video I/O\n'
+    '@defgroup videoio_registry Query I/O API backends registry\n'
+    '@}']
+parse_name: typedef CvCapture with ['cv'] -> fullname:CvCapture namespace: classpath: classname: name:CvCapture
+Registering an unknown type: struct CvCapture
+
+--- Incoming ---
+['typedef CvVideoWriter', 'struct CvVideoWriter', '', [], None, '']
+parse_name: typedef CvVideoWriter with ['cv'] -> fullname:CvVideoWriter namespace: classpath: classname: name:CvVideoWriter
+Registering an unknown type: struct CvVideoWriter
+
+--- Incoming ---
+[   'enum cv.VideoCaptureAPIs',
+    '',
+    [],
+    [   ['const cv.CAP_ANY', '0', [], [], None, 'Auto detect == 0\n'],
+        [   'const cv.CAP_VFW',
+            '200',
+            [],
+            [],
+            None,
+            'Video For Windows (obsolete, removed)\n'],
+        [   'const cv.CAP_V4L',
+            '200',
+            [],
+            [],
+            None,
+            'V4L/V4L2 capturing support\n'],
+        ['const cv.CAP_V4L2', 'CAP_V4L', [], [], None, 'Same as CAP_V4L\n'],
+        ['const cv.CAP_FIREWIRE', '300', [], [], None, 'IEEE 1394 drivers\n'],
+        [   'const cv.CAP_FIREWARE',
+            'CAP_FIREWIRE',
+            [],
+            [],
+            None,
+            'Same value as CAP_FIREWIRE\n'],
+        [   'const cv.CAP_IEEE1394',
+            'CAP_FIREWIRE',
+            [],
+            [],
+            None,
+            'Same value as CAP_FIREWIRE\n'],
+        [   'const cv.CAP_DC1394',
+            'CAP_FIREWIRE',
+            [],
+            [],
+            None,
+            'Same value as CAP_FIREWIRE\n'],
+        [   'const cv.CAP_CMU1394',
+            'CAP_FIREWIRE',
+            [],
+            [],
+            None,
+            'Same value as CAP_FIREWIRE\n'],
+        [   'const cv.CAP_QT',
+            '500',
+            [],
+            [],
+            None,
+            'QuickTime (obsolete, removed)\n'],
+        [   'const cv.CAP_UNICAP',
+            '600',
+            [],
+            [],
+            None,
+            'Unicap drivers (obsolete, removed)\n'],
+        [   'const cv.CAP_DSHOW',
+            '700',
+            [],
+            [],
+            None,
+            'DirectShow (via videoInput)\n'],
+        [   'const cv.CAP_PVAPI',
+            '800',
+            [],
+            [],
+            None,
+            'PvAPI, Prosilica GigE SDK\n'],
+        ['const cv.CAP_OPENNI', '900', [], [], None, 'OpenNI (for Kinect)\n'],
+        [   'const cv.CAP_OPENNI_ASUS',
+            '910',
+            [],
+            [],
+            None,
+            'OpenNI (for Asus Xtion)\n'],
+        ['const cv.CAP_ANDROID', '1000', [], [], None, 'Android - not used\n'],
+        ['const cv.CAP_XIAPI', '1100', [], [], None, 'XIMEA Camera API\n'],
+        [   'const cv.CAP_AVFOUNDATION',
+            '1200',
+            [],
+            [],
+            None,
+            'AVFoundation framework for iOS (OS X Lion will have the same '
+            'API)\n'],
+        [   'const cv.CAP_GIGANETIX',
+            '1300',
+            [],
+            [],
+            None,
+            'Smartek Giganetix GigEVisionSDK\n'],
+        [   'const cv.CAP_MSMF',
+            '1400',
+            [],
+            [],
+            None,
+            'Microsoft Media Foundation (via videoInput)\n'],
+        [   'const cv.CAP_WINRT',
+            '1410',
+            [],
+            [],
+            None,
+            'Microsoft Windows Runtime using Media Foundation\n'],
+        [   'const cv.CAP_INTELPERC',
+            '1500',
+            [],
+            [],
+            None,
+            'RealSense (former Intel Perceptual Computing SDK)\n'],
+        [   'const cv.CAP_REALSENSE',
+            '1500',
+            [],
+            [],
+            None,
+            'Synonym for CAP_INTELPERC\n'],
+        [   'const cv.CAP_OPENNI2',
+            '1600',
+            [],
+            [],
+            None,
+            'OpenNI2 (for Kinect)\n'],
+        [   'const cv.CAP_OPENNI2_ASUS',
+            '1610',
+            [],
+            [],
+            None,
+            'OpenNI2 (for Asus Xtion and Occipital Structure sensors)\n'],
+        ['const cv.CAP_GPHOTO2', '1700', [], [], None, 'gPhoto2 connection\n'],
+        ['const cv.CAP_GSTREAMER', '1800', [], [], None, 'GStreamer\n'],
+        [   'const cv.CAP_FFMPEG',
+            '1900',
+            [],
+            [],
+            None,
+            'Open and record video file or stream using the FFMPEG library\n'],
+        [   'const cv.CAP_IMAGES',
+            '2000',
+            [],
+            [],
+            None,
+            'OpenCV Image Sequence (e.g. img_%02d.jpg)\n'],
+        ['const cv.CAP_ARAVIS', '2100', [], [], None, 'Aravis SDK\n'],
+        [   'const cv.CAP_OPENCV_MJPEG',
+            '2200',
+            [],
+            [],
+            None,
+            'Built-in OpenCV MotionJPEG codec\n'],
+        ['const cv.CAP_INTEL_MFX', '2300', [], [], None, 'Intel MediaSDK\n'],
+        ['const cv.CAP_XINE', '2400', [], [], None, 'XINE engine (Linux)\n']],
+    None,
+    '@brief %VideoCapture API backends identifier.\n'
+    '\n'
+    'Select preferred API for a capture object.\n'
+    'To be used in the VideoCapture::VideoCapture() constructor or '
+    'VideoCapture::open()\n'
+    '\n'
+    '@note Backends are available only if they have been built with your '
+    'OpenCV binaries.\n'
+    'See @ref videoio_overview for more information.']
+parse_name: const cv.CAP_ANY with ['cv'] -> fullname:cv::CAP_ANY namespace:cv classpath: classname: name:CAP_ANY
+parse_name: const cv.CAP_VFW with ['cv'] -> fullname:cv::CAP_VFW namespace:cv classpath: classname: name:CAP_VFW
+parse_name: const cv.CAP_V4L with ['cv'] -> fullname:cv::CAP_V4L namespace:cv classpath: classname: name:CAP_V4L
+parse_name: const cv.CAP_V4L2 with ['cv'] -> fullname:cv::CAP_V4L2 namespace:cv classpath: classname: name:CAP_V4L2
+parse_name: const cv.CAP_FIREWIRE with ['cv'] -> fullname:cv::CAP_FIREWIRE namespace:cv classpath: classname: name:CAP_FIREWIRE
+parse_name: const cv.CAP_FIREWARE with ['cv'] -> fullname:cv::CAP_FIREWARE namespace:cv classpath: classname: name:CAP_FIREWARE
+parse_name: const cv.CAP_IEEE1394 with ['cv'] -> fullname:cv::CAP_IEEE1394 namespace:cv classpath: classname: name:CAP_IEEE1394
+parse_name: const cv.CAP_DC1394 with ['cv'] -> fullname:cv::CAP_DC1394 namespace:cv classpath: classname: name:CAP_DC1394
+parse_name: const cv.CAP_CMU1394 with ['cv'] -> fullname:cv::CAP_CMU1394 namespace:cv classpath: classname: name:CAP_CMU1394
+parse_name: const cv.CAP_QT with ['cv'] -> fullname:cv::CAP_QT namespace:cv classpath: classname: name:CAP_QT
+parse_name: const cv.CAP_UNICAP with ['cv'] -> fullname:cv::CAP_UNICAP namespace:cv classpath: classname: name:CAP_UNICAP
+parse_name: const cv.CAP_DSHOW with ['cv'] -> fullname:cv::CAP_DSHOW namespace:cv classpath: classname: name:CAP_DSHOW
+parse_name: const cv.CAP_PVAPI with ['cv'] -> fullname:cv::CAP_PVAPI namespace:cv classpath: classname: name:CAP_PVAPI
+parse_name: const cv.CAP_OPENNI with ['cv'] -> fullname:cv::CAP_OPENNI namespace:cv classpath: classname: name:CAP_OPENNI
+parse_name: const cv.CAP_OPENNI_ASUS with ['cv'] -> fullname:cv::CAP_OPENNI_ASUS namespace:cv classpath: classname: name:CAP_OPENNI_ASUS
+parse_name: const cv.CAP_ANDROID with ['cv'] -> fullname:cv::CAP_ANDROID namespace:cv classpath: classname: name:CAP_ANDROID
+parse_name: const cv.CAP_XIAPI with ['cv'] -> fullname:cv::CAP_XIAPI namespace:cv classpath: classname: name:CAP_XIAPI
+parse_name: const cv.CAP_AVFOUNDATION with ['cv'] -> fullname:cv::CAP_AVFOUNDATION namespace:cv classpath: classname: name:CAP_AVFOUNDATION
+parse_name: const cv.CAP_GIGANETIX with ['cv'] -> fullname:cv::CAP_GIGANETIX namespace:cv classpath: classname: name:CAP_GIGANETIX
+parse_name: const cv.CAP_MSMF with ['cv'] -> fullname:cv::CAP_MSMF namespace:cv classpath: classname: name:CAP_MSMF
+parse_name: const cv.CAP_WINRT with ['cv'] -> fullname:cv::CAP_WINRT namespace:cv classpath: classname: name:CAP_WINRT
+parse_name: const cv.CAP_INTELPERC with ['cv'] -> fullname:cv::CAP_INTELPERC namespace:cv classpath: classname: name:CAP_INTELPERC
+parse_name: const cv.CAP_REALSENSE with ['cv'] -> fullname:cv::CAP_REALSENSE namespace:cv classpath: classname: name:CAP_REALSENSE
+parse_name: const cv.CAP_OPENNI2 with ['cv'] -> fullname:cv::CAP_OPENNI2 namespace:cv classpath: classname: name:CAP_OPENNI2
+parse_name: const cv.CAP_OPENNI2_ASUS with ['cv'] -> fullname:cv::CAP_OPENNI2_ASUS namespace:cv classpath: classname: name:CAP_OPENNI2_ASUS
+parse_name: const cv.CAP_GPHOTO2 with ['cv'] -> fullname:cv::CAP_GPHOTO2 namespace:cv classpath: classname: name:CAP_GPHOTO2
+parse_name: const cv.CAP_GSTREAMER with ['cv'] -> fullname:cv::CAP_GSTREAMER namespace:cv classpath: classname: name:CAP_GSTREAMER
+parse_name: const cv.CAP_FFMPEG with ['cv'] -> fullname:cv::CAP_FFMPEG namespace:cv classpath: classname: name:CAP_FFMPEG
+parse_name: const cv.CAP_IMAGES with ['cv'] -> fullname:cv::CAP_IMAGES namespace:cv classpath: classname: name:CAP_IMAGES
+parse_name: const cv.CAP_ARAVIS with ['cv'] -> fullname:cv::CAP_ARAVIS namespace:cv classpath: classname: name:CAP_ARAVIS
+parse_name: const cv.CAP_OPENCV_MJPEG with ['cv'] -> fullname:cv::CAP_OPENCV_MJPEG namespace:cv classpath: classname: name:CAP_OPENCV_MJPEG
+parse_name: const cv.CAP_INTEL_MFX with ['cv'] -> fullname:cv::CAP_INTEL_MFX namespace:cv classpath: classname: name:CAP_INTEL_MFX
+parse_name: const cv.CAP_XINE with ['cv'] -> fullname:cv::CAP_XINE namespace:cv classpath: classname: name:CAP_XINE
+parse_name: enum cv.VideoCaptureAPIs with ['cv'] -> fullname:cv::VideoCaptureAPIs namespace:cv classpath: classname: name:VideoCaptureAPIs
+parse_name: const cv.CAP_ANY with ['cv'] -> fullname:cv::CAP_ANY namespace:cv classpath: classname: name:CAP_ANY
+parse_name: const cv.CAP_VFW with ['cv'] -> fullname:cv::CAP_VFW namespace:cv classpath: classname: name:CAP_VFW
+parse_name: const cv.CAP_V4L with ['cv'] -> fullname:cv::CAP_V4L namespace:cv classpath: classname: name:CAP_V4L
+parse_name: const cv.CAP_V4L2 with ['cv'] -> fullname:cv::CAP_V4L2 namespace:cv classpath: classname: name:CAP_V4L2
+parse_name: const cv.CAP_FIREWIRE with ['cv'] -> fullname:cv::CAP_FIREWIRE namespace:cv classpath: classname: name:CAP_FIREWIRE
+parse_name: const cv.CAP_FIREWARE with ['cv'] -> fullname:cv::CAP_FIREWARE namespace:cv classpath: classname: name:CAP_FIREWARE
+parse_name: const cv.CAP_IEEE1394 with ['cv'] -> fullname:cv::CAP_IEEE1394 namespace:cv classpath: classname: name:CAP_IEEE1394
+parse_name: const cv.CAP_DC1394 with ['cv'] -> fullname:cv::CAP_DC1394 namespace:cv classpath: classname: name:CAP_DC1394
+parse_name: const cv.CAP_CMU1394 with ['cv'] -> fullname:cv::CAP_CMU1394 namespace:cv classpath: classname: name:CAP_CMU1394
+parse_name: const cv.CAP_QT with ['cv'] -> fullname:cv::CAP_QT namespace:cv classpath: classname: name:CAP_QT
+parse_name: const cv.CAP_UNICAP with ['cv'] -> fullname:cv::CAP_UNICAP namespace:cv classpath: classname: name:CAP_UNICAP
+parse_name: const cv.CAP_DSHOW with ['cv'] -> fullname:cv::CAP_DSHOW namespace:cv classpath: classname: name:CAP_DSHOW
+parse_name: const cv.CAP_PVAPI with ['cv'] -> fullname:cv::CAP_PVAPI namespace:cv classpath: classname: name:CAP_PVAPI
+parse_name: const cv.CAP_OPENNI with ['cv'] -> fullname:cv::CAP_OPENNI namespace:cv classpath: classname: name:CAP_OPENNI
+parse_name: const cv.CAP_OPENNI_ASUS with ['cv'] -> fullname:cv::CAP_OPENNI_ASUS namespace:cv classpath: classname: name:CAP_OPENNI_ASUS
+parse_name: const cv.CAP_ANDROID with ['cv'] -> fullname:cv::CAP_ANDROID namespace:cv classpath: classname: name:CAP_ANDROID
+parse_name: const cv.CAP_XIAPI with ['cv'] -> fullname:cv::CAP_XIAPI namespace:cv classpath: classname: name:CAP_XIAPI
+parse_name: const cv.CAP_AVFOUNDATION with ['cv'] -> fullname:cv::CAP_AVFOUNDATION namespace:cv classpath: classname: name:CAP_AVFOUNDATION
+parse_name: const cv.CAP_GIGANETIX with ['cv'] -> fullname:cv::CAP_GIGANETIX namespace:cv classpath: classname: name:CAP_GIGANETIX
+parse_name: const cv.CAP_MSMF with ['cv'] -> fullname:cv::CAP_MSMF namespace:cv classpath: classname: name:CAP_MSMF
+parse_name: const cv.CAP_WINRT with ['cv'] -> fullname:cv::CAP_WINRT namespace:cv classpath: classname: name:CAP_WINRT
+parse_name: const cv.CAP_INTELPERC with ['cv'] -> fullname:cv::CAP_INTELPERC namespace:cv classpath: classname: name:CAP_INTELPERC
+parse_name: const cv.CAP_REALSENSE with ['cv'] -> fullname:cv::CAP_REALSENSE namespace:cv classpath: classname: name:CAP_REALSENSE
+parse_name: const cv.CAP_OPENNI2 with ['cv'] -> fullname:cv::CAP_OPENNI2 namespace:cv classpath: classname: name:CAP_OPENNI2
+parse_name: const cv.CAP_OPENNI2_ASUS with ['cv'] -> fullname:cv::CAP_OPENNI2_ASUS namespace:cv classpath: classname: name:CAP_OPENNI2_ASUS
+parse_name: const cv.CAP_GPHOTO2 with ['cv'] -> fullname:cv::CAP_GPHOTO2 namespace:cv classpath: classname: name:CAP_GPHOTO2
+parse_name: const cv.CAP_GSTREAMER with ['cv'] -> fullname:cv::CAP_GSTREAMER namespace:cv classpath: classname: name:CAP_GSTREAMER
+parse_name: const cv.CAP_FFMPEG with ['cv'] -> fullname:cv::CAP_FFMPEG namespace:cv classpath: classname: name:CAP_FFMPEG
+parse_name: const cv.CAP_IMAGES with ['cv'] -> fullname:cv::CAP_IMAGES namespace:cv classpath: classname: name:CAP_IMAGES
+parse_name: const cv.CAP_ARAVIS with ['cv'] -> fullname:cv::CAP_ARAVIS namespace:cv classpath: classname: name:CAP_ARAVIS
+parse_name: const cv.CAP_OPENCV_MJPEG with ['cv'] -> fullname:cv::CAP_OPENCV_MJPEG namespace:cv classpath: classname: name:CAP_OPENCV_MJPEG
+parse_name: const cv.CAP_INTEL_MFX with ['cv'] -> fullname:cv::CAP_INTEL_MFX namespace:cv classpath: classname: name:CAP_INTEL_MFX
+parse_name: const cv.CAP_XINE with ['cv'] -> fullname:cv::CAP_XINE namespace:cv classpath: classname: name:CAP_XINE
+
+--- Incoming ---
+[   'enum cv.VideoCaptureProperties',
+    '',
+    [],
+    [   [   'const cv.CAP_PROP_POS_MSEC',
+            '0',
+            [],
+            [],
+            None,
+            'Current position of the video file in milliseconds.\n'],
+        [   'const cv.CAP_PROP_POS_FRAMES',
+            '1',
+            [],
+            [],
+            None,
+            '0-based index of the frame to be decoded/captured next.\n'],
+        [   'const cv.CAP_PROP_POS_AVI_RATIO',
+            '2',
+            [],
+            [],
+            None,
+            'Relative position of the video file: 0=start of the film, 1=end '
+            'of the film.\n'],
+        [   'const cv.CAP_PROP_FRAME_WIDTH',
+            '3',
+            [],
+            [],
+            None,
+            'Width of the frames in the video stream.\n'],
+        [   'const cv.CAP_PROP_FRAME_HEIGHT',
+            '4',
+            [],
+            [],
+            None,
+            'Height of the frames in the video stream.\n'],
+        ['const cv.CAP_PROP_FPS', '5', [], [], None, 'Frame rate.\n'],
+        [   'const cv.CAP_PROP_FOURCC',
+            '6',
+            [],
+            [],
+            None,
+            '4-character code of codec. see VideoWriter::fourcc .\n'],
+        [   'const cv.CAP_PROP_FRAME_COUNT',
+            '7',
+            [],
+            [],
+            None,
+            'Number of frames in the video file.\n'],
+        [   'const cv.CAP_PROP_FORMAT',
+            '8',
+            [],
+            [],
+            None,
+            'Format of the %Mat objects returned by '
+            'VideoCapture::retrieve().\n'],
+        [   'const cv.CAP_PROP_MODE',
+            '9',
+            [],
+            [],
+            None,
+            'Backend-specific value indicating the current capture mode.\n'],
+        [   'const cv.CAP_PROP_BRIGHTNESS',
+            '10',
+            [],
+            [],
+            None,
+            'Brightness of the image (only for those cameras that support).\n'],
+        [   'const cv.CAP_PROP_CONTRAST',
+            '11',
+            [],
+            [],
+            None,
+            'Contrast of the image (only for cameras).\n'],
+        [   'const cv.CAP_PROP_SATURATION',
+            '12',
+            [],
+            [],
+            None,
+            'Saturation of the image (only for cameras).\n'],
+        [   'const cv.CAP_PROP_HUE',
+            '13',
+            [],
+            [],
+            None,
+            'Hue of the image (only for cameras).\n'],
+        [   'const cv.CAP_PROP_GAIN',
+            '14',
+            [],
+            [],
+            None,
+            'Gain of the image (only for those cameras that support).\n'],
+        [   'const cv.CAP_PROP_EXPOSURE',
+            '15',
+            [],
+            [],
+            None,
+            'Exposure (only for those cameras that support).\n'],
+        [   'const cv.CAP_PROP_CONVERT_RGB',
+            '16',
+            [],
+            [],
+            None,
+            'Boolean flags indicating whether images should be converted to '
+            'RGB.\n'],
+        [   'const cv.CAP_PROP_WHITE_BALANCE_BLUE_U',
+            '17',
+            [],
+            [],
+            None,
+            'Currently unsupported.\n'],
+        [   'const cv.CAP_PROP_RECTIFICATION',
+            '18',
+            [],
+            [],
+            None,
+            'Rectification flag for stereo cameras (note: only supported by '
+            'DC1394 v 2.x backend currently).\n'],
+        ['const cv.CAP_PROP_MONOCHROME', '19', [], [], None, ''],
+        ['const cv.CAP_PROP_SHARPNESS', '20', [], [], None, ''],
+        [   'const cv.CAP_PROP_AUTO_EXPOSURE',
+            '21',
+            [],
+            [],
+            None,
+            'DC1394: exposure control done by camera, user can adjust '
+            'reference level using this feature.\n'],
+        ['const cv.CAP_PROP_GAMMA', '22', [], [], None, ''],
+        ['const cv.CAP_PROP_TEMPERATURE', '23', [], [], None, ''],
+        ['const cv.CAP_PROP_TRIGGER', '24', [], [], None, ''],
+        ['const cv.CAP_PROP_TRIGGER_DELAY', '25', [], [], None, ''],
+        ['const cv.CAP_PROP_WHITE_BALANCE_RED_V', '26', [], [], None, ''],
+        ['const cv.CAP_PROP_ZOOM', '27', [], [], None, ''],
+        ['const cv.CAP_PROP_FOCUS', '28', [], [], None, ''],
+        ['const cv.CAP_PROP_GUID', '29', [], [], None, ''],
+        ['const cv.CAP_PROP_ISO_SPEED', '30', [], [], None, ''],
+        ['const cv.CAP_PROP_BACKLIGHT', '32', [], [], None, ''],
+        ['const cv.CAP_PROP_PAN', '33', [], [], None, ''],
+        ['const cv.CAP_PROP_TILT', '34', [], [], None, ''],
+        ['const cv.CAP_PROP_ROLL', '35', [], [], None, ''],
+        ['const cv.CAP_PROP_IRIS', '36', [], [], None, ''],
+        [   'const cv.CAP_PROP_SETTINGS',
+            '37',
+            [],
+            [],
+            None,
+            'Pop up video/camera filter dialog (note: only supported by DSHOW '
+            'backend currently. The property value is ignored)\n'],
+        ['const cv.CAP_PROP_BUFFERSIZE', '38', [], [], None, ''],
+        ['const cv.CAP_PROP_AUTOFOCUS', '39', [], [], None, ''],
+        [   'const cv.CAP_PROP_SAR_NUM',
+            '40',
+            [],
+            [],
+            None,
+            'Sample aspect ratio: num/den (num)\n'],
+        [   'const cv.CAP_PROP_SAR_DEN',
+            '41',
+            [],
+            [],
+            None,
+            'Sample aspect ratio: num/den (den)\n'],
+        [   'const cv.CAP_PROP_BACKEND',
+            '42',
+            [],
+            [],
+            None,
+            'Current backend (enum VideoCaptureAPIs). Read-only property\n'],
+        [   'const cv.CAP_PROP_CHANNEL',
+            '43',
+            [],
+            [],
+            None,
+            'Video input or Channel Number (only for those cameras that '
+            'support)\n'],
+        [   'const cv.CAP_PROP_AUTO_WB',
+            '44',
+            [],
+            [],
+            None,
+            'enable/ disable auto white-balance\n'],
+        [   'const cv.CAP_PROP_WB_TEMPERATURE',
+            '45',
+            [],
+            [],
+            None,
+            'white-balance color temperature\n']],
+    None,
+    '@brief %VideoCapture generic properties identifier.\n'
+    '\n'
+    'Reading / writing properties involves many layers. Some unexpected result '
+    'might happens along this chain.\n'
+    'Effective behaviour depends from device hardware, driver and API '
+    'Backend.\n'
+    '@sa videoio_flags_others, VideoCapture::get(), VideoCapture::set()']
+parse_name: const cv.CAP_PROP_POS_MSEC with ['cv'] -> fullname:cv::CAP_PROP_POS_MSEC namespace:cv classpath: classname: name:CAP_PROP_POS_MSEC
+parse_name: const cv.CAP_PROP_POS_FRAMES with ['cv'] -> fullname:cv::CAP_PROP_POS_FRAMES namespace:cv classpath: classname: name:CAP_PROP_POS_FRAMES
+parse_name: const cv.CAP_PROP_POS_AVI_RATIO with ['cv'] -> fullname:cv::CAP_PROP_POS_AVI_RATIO namespace:cv classpath: classname: name:CAP_PROP_POS_AVI_RATIO
+parse_name: const cv.CAP_PROP_FRAME_WIDTH with ['cv'] -> fullname:cv::CAP_PROP_FRAME_WIDTH namespace:cv classpath: classname: name:CAP_PROP_FRAME_WIDTH
+parse_name: const cv.CAP_PROP_FRAME_HEIGHT with ['cv'] -> fullname:cv::CAP_PROP_FRAME_HEIGHT namespace:cv classpath: classname: name:CAP_PROP_FRAME_HEIGHT
+parse_name: const cv.CAP_PROP_FPS with ['cv'] -> fullname:cv::CAP_PROP_FPS namespace:cv classpath: classname: name:CAP_PROP_FPS
+parse_name: const cv.CAP_PROP_FOURCC with ['cv'] -> fullname:cv::CAP_PROP_FOURCC namespace:cv classpath: classname: name:CAP_PROP_FOURCC
+parse_name: const cv.CAP_PROP_FRAME_COUNT with ['cv'] -> fullname:cv::CAP_PROP_FRAME_COUNT namespace:cv classpath: classname: name:CAP_PROP_FRAME_COUNT
+parse_name: const cv.CAP_PROP_FORMAT with ['cv'] -> fullname:cv::CAP_PROP_FORMAT namespace:cv classpath: classname: name:CAP_PROP_FORMAT
+parse_name: const cv.CAP_PROP_MODE with ['cv'] -> fullname:cv::CAP_PROP_MODE namespace:cv classpath: classname: name:CAP_PROP_MODE
+parse_name: const cv.CAP_PROP_BRIGHTNESS with ['cv'] -> fullname:cv::CAP_PROP_BRIGHTNESS namespace:cv classpath: classname: name:CAP_PROP_BRIGHTNESS
+parse_name: const cv.CAP_PROP_CONTRAST with ['cv'] -> fullname:cv::CAP_PROP_CONTRAST namespace:cv classpath: classname: name:CAP_PROP_CONTRAST
+parse_name: const cv.CAP_PROP_SATURATION with ['cv'] -> fullname:cv::CAP_PROP_SATURATION namespace:cv classpath: classname: name:CAP_PROP_SATURATION
+parse_name: const cv.CAP_PROP_HUE with ['cv'] -> fullname:cv::CAP_PROP_HUE namespace:cv classpath: classname: name:CAP_PROP_HUE
+parse_name: const cv.CAP_PROP_GAIN with ['cv'] -> fullname:cv::CAP_PROP_GAIN namespace:cv classpath: classname: name:CAP_PROP_GAIN
+parse_name: const cv.CAP_PROP_EXPOSURE with ['cv'] -> fullname:cv::CAP_PROP_EXPOSURE namespace:cv classpath: classname: name:CAP_PROP_EXPOSURE
+parse_name: const cv.CAP_PROP_CONVERT_RGB with ['cv'] -> fullname:cv::CAP_PROP_CONVERT_RGB namespace:cv classpath: classname: name:CAP_PROP_CONVERT_RGB
+parse_name: const cv.CAP_PROP_WHITE_BALANCE_BLUE_U with ['cv'] -> fullname:cv::CAP_PROP_WHITE_BALANCE_BLUE_U namespace:cv classpath: classname: name:CAP_PROP_WHITE_BALANCE_BLUE_U
+parse_name: const cv.CAP_PROP_RECTIFICATION with ['cv'] -> fullname:cv::CAP_PROP_RECTIFICATION namespace:cv classpath: classname: name:CAP_PROP_RECTIFICATION
+parse_name: const cv.CAP_PROP_MONOCHROME with ['cv'] -> fullname:cv::CAP_PROP_MONOCHROME namespace:cv classpath: classname: name:CAP_PROP_MONOCHROME
+parse_name: const cv.CAP_PROP_SHARPNESS with ['cv'] -> fullname:cv::CAP_PROP_SHARPNESS namespace:cv classpath: classname: name:CAP_PROP_SHARPNESS
+parse_name: const cv.CAP_PROP_AUTO_EXPOSURE with ['cv'] -> fullname:cv::CAP_PROP_AUTO_EXPOSURE namespace:cv classpath: classname: name:CAP_PROP_AUTO_EXPOSURE
+parse_name: const cv.CAP_PROP_GAMMA with ['cv'] -> fullname:cv::CAP_PROP_GAMMA namespace:cv classpath: classname: name:CAP_PROP_GAMMA
+parse_name: const cv.CAP_PROP_TEMPERATURE with ['cv'] -> fullname:cv::CAP_PROP_TEMPERATURE namespace:cv classpath: classname: name:CAP_PROP_TEMPERATURE
+parse_name: const cv.CAP_PROP_TRIGGER with ['cv'] -> fullname:cv::CAP_PROP_TRIGGER namespace:cv classpath: classname: name:CAP_PROP_TRIGGER
+parse_name: const cv.CAP_PROP_TRIGGER_DELAY with ['cv'] -> fullname:cv::CAP_PROP_TRIGGER_DELAY namespace:cv classpath: classname: name:CAP_PROP_TRIGGER_DELAY
+parse_name: const cv.CAP_PROP_WHITE_BALANCE_RED_V with ['cv'] -> fullname:cv::CAP_PROP_WHITE_BALANCE_RED_V namespace:cv classpath: classname: name:CAP_PROP_WHITE_BALANCE_RED_V
+parse_name: const cv.CAP_PROP_ZOOM with ['cv'] -> fullname:cv::CAP_PROP_ZOOM namespace:cv classpath: classname: name:CAP_PROP_ZOOM
+parse_name: const cv.CAP_PROP_FOCUS with ['cv'] -> fullname:cv::CAP_PROP_FOCUS namespace:cv classpath: classname: name:CAP_PROP_FOCUS
+parse_name: const cv.CAP_PROP_GUID with ['cv'] -> fullname:cv::CAP_PROP_GUID namespace:cv classpath: classname: name:CAP_PROP_GUID
+parse_name: const cv.CAP_PROP_ISO_SPEED with ['cv'] -> fullname:cv::CAP_PROP_ISO_SPEED namespace:cv classpath: classname: name:CAP_PROP_ISO_SPEED
+parse_name: const cv.CAP_PROP_BACKLIGHT with ['cv'] -> fullname:cv::CAP_PROP_BACKLIGHT namespace:cv classpath: classname: name:CAP_PROP_BACKLIGHT
+parse_name: const cv.CAP_PROP_PAN with ['cv'] -> fullname:cv::CAP_PROP_PAN namespace:cv classpath: classname: name:CAP_PROP_PAN
+parse_name: const cv.CAP_PROP_TILT with ['cv'] -> fullname:cv::CAP_PROP_TILT namespace:cv classpath: classname: name:CAP_PROP_TILT
+parse_name: const cv.CAP_PROP_ROLL with ['cv'] -> fullname:cv::CAP_PROP_ROLL namespace:cv classpath: classname: name:CAP_PROP_ROLL
+parse_name: const cv.CAP_PROP_IRIS with ['cv'] -> fullname:cv::CAP_PROP_IRIS namespace:cv classpath: classname: name:CAP_PROP_IRIS
+parse_name: const cv.CAP_PROP_SETTINGS with ['cv'] -> fullname:cv::CAP_PROP_SETTINGS namespace:cv classpath: classname: name:CAP_PROP_SETTINGS
+parse_name: const cv.CAP_PROP_BUFFERSIZE with ['cv'] -> fullname:cv::CAP_PROP_BUFFERSIZE namespace:cv classpath: classname: name:CAP_PROP_BUFFERSIZE
+parse_name: const cv.CAP_PROP_AUTOFOCUS with ['cv'] -> fullname:cv::CAP_PROP_AUTOFOCUS namespace:cv classpath: classname: name:CAP_PROP_AUTOFOCUS
+parse_name: const cv.CAP_PROP_SAR_NUM with ['cv'] -> fullname:cv::CAP_PROP_SAR_NUM namespace:cv classpath: classname: name:CAP_PROP_SAR_NUM
+parse_name: const cv.CAP_PROP_SAR_DEN with ['cv'] -> fullname:cv::CAP_PROP_SAR_DEN namespace:cv classpath: classname: name:CAP_PROP_SAR_DEN
+parse_name: const cv.CAP_PROP_BACKEND with ['cv'] -> fullname:cv::CAP_PROP_BACKEND namespace:cv classpath: classname: name:CAP_PROP_BACKEND
+parse_name: const cv.CAP_PROP_CHANNEL with ['cv'] -> fullname:cv::CAP_PROP_CHANNEL namespace:cv classpath: classname: name:CAP_PROP_CHANNEL
+parse_name: const cv.CAP_PROP_AUTO_WB with ['cv'] -> fullname:cv::CAP_PROP_AUTO_WB namespace:cv classpath: classname: name:CAP_PROP_AUTO_WB
+parse_name: const cv.CAP_PROP_WB_TEMPERATURE with ['cv'] -> fullname:cv::CAP_PROP_WB_TEMPERATURE namespace:cv classpath: classname: name:CAP_PROP_WB_TEMPERATURE
+parse_name: enum cv.VideoCaptureProperties with ['cv'] -> fullname:cv::VideoCaptureProperties namespace:cv classpath: classname: name:VideoCaptureProperties
+parse_name: const cv.CAP_PROP_POS_MSEC with ['cv'] -> fullname:cv::CAP_PROP_POS_MSEC namespace:cv classpath: classname: name:CAP_PROP_POS_MSEC
+parse_name: const cv.CAP_PROP_POS_FRAMES with ['cv'] -> fullname:cv::CAP_PROP_POS_FRAMES namespace:cv classpath: classname: name:CAP_PROP_POS_FRAMES
+parse_name: const cv.CAP_PROP_POS_AVI_RATIO with ['cv'] -> fullname:cv::CAP_PROP_POS_AVI_RATIO namespace:cv classpath: classname: name:CAP_PROP_POS_AVI_RATIO
+parse_name: const cv.CAP_PROP_FRAME_WIDTH with ['cv'] -> fullname:cv::CAP_PROP_FRAME_WIDTH namespace:cv classpath: classname: name:CAP_PROP_FRAME_WIDTH
+parse_name: const cv.CAP_PROP_FRAME_HEIGHT with ['cv'] -> fullname:cv::CAP_PROP_FRAME_HEIGHT namespace:cv classpath: classname: name:CAP_PROP_FRAME_HEIGHT
+parse_name: const cv.CAP_PROP_FPS with ['cv'] -> fullname:cv::CAP_PROP_FPS namespace:cv classpath: classname: name:CAP_PROP_FPS
+parse_name: const cv.CAP_PROP_FOURCC with ['cv'] -> fullname:cv::CAP_PROP_FOURCC namespace:cv classpath: classname: name:CAP_PROP_FOURCC
+parse_name: const cv.CAP_PROP_FRAME_COUNT with ['cv'] -> fullname:cv::CAP_PROP_FRAME_COUNT namespace:cv classpath: classname: name:CAP_PROP_FRAME_COUNT
+parse_name: const cv.CAP_PROP_FORMAT with ['cv'] -> fullname:cv::CAP_PROP_FORMAT namespace:cv classpath: classname: name:CAP_PROP_FORMAT
+parse_name: const cv.CAP_PROP_MODE with ['cv'] -> fullname:cv::CAP_PROP_MODE namespace:cv classpath: classname: name:CAP_PROP_MODE
+parse_name: const cv.CAP_PROP_BRIGHTNESS with ['cv'] -> fullname:cv::CAP_PROP_BRIGHTNESS namespace:cv classpath: classname: name:CAP_PROP_BRIGHTNESS
+parse_name: const cv.CAP_PROP_CONTRAST with ['cv'] -> fullname:cv::CAP_PROP_CONTRAST namespace:cv classpath: classname: name:CAP_PROP_CONTRAST
+parse_name: const cv.CAP_PROP_SATURATION with ['cv'] -> fullname:cv::CAP_PROP_SATURATION namespace:cv classpath: classname: name:CAP_PROP_SATURATION
+parse_name: const cv.CAP_PROP_HUE with ['cv'] -> fullname:cv::CAP_PROP_HUE namespace:cv classpath: classname: name:CAP_PROP_HUE
+parse_name: const cv.CAP_PROP_GAIN with ['cv'] -> fullname:cv::CAP_PROP_GAIN namespace:cv classpath: classname: name:CAP_PROP_GAIN
+parse_name: const cv.CAP_PROP_EXPOSURE with ['cv'] -> fullname:cv::CAP_PROP_EXPOSURE namespace:cv classpath: classname: name:CAP_PROP_EXPOSURE
+parse_name: const cv.CAP_PROP_CONVERT_RGB with ['cv'] -> fullname:cv::CAP_PROP_CONVERT_RGB namespace:cv classpath: classname: name:CAP_PROP_CONVERT_RGB
+parse_name: const cv.CAP_PROP_WHITE_BALANCE_BLUE_U with ['cv'] -> fullname:cv::CAP_PROP_WHITE_BALANCE_BLUE_U namespace:cv classpath: classname: name:CAP_PROP_WHITE_BALANCE_BLUE_U
+parse_name: const cv.CAP_PROP_RECTIFICATION with ['cv'] -> fullname:cv::CAP_PROP_RECTIFICATION namespace:cv classpath: classname: name:CAP_PROP_RECTIFICATION
+parse_name: const cv.CAP_PROP_MONOCHROME with ['cv'] -> fullname:cv::CAP_PROP_MONOCHROME namespace:cv classpath: classname: name:CAP_PROP_MONOCHROME
+parse_name: const cv.CAP_PROP_SHARPNESS with ['cv'] -> fullname:cv::CAP_PROP_SHARPNESS namespace:cv classpath: classname: name:CAP_PROP_SHARPNESS
+parse_name: const cv.CAP_PROP_AUTO_EXPOSURE with ['cv'] -> fullname:cv::CAP_PROP_AUTO_EXPOSURE namespace:cv classpath: classname: name:CAP_PROP_AUTO_EXPOSURE
+parse_name: const cv.CAP_PROP_GAMMA with ['cv'] -> fullname:cv::CAP_PROP_GAMMA namespace:cv classpath: classname: name:CAP_PROP_GAMMA
+parse_name: const cv.CAP_PROP_TEMPERATURE with ['cv'] -> fullname:cv::CAP_PROP_TEMPERATURE namespace:cv classpath: classname: name:CAP_PROP_TEMPERATURE
+parse_name: const cv.CAP_PROP_TRIGGER with ['cv'] -> fullname:cv::CAP_PROP_TRIGGER namespace:cv classpath: classname: name:CAP_PROP_TRIGGER
+parse_name: const cv.CAP_PROP_TRIGGER_DELAY with ['cv'] -> fullname:cv::CAP_PROP_TRIGGER_DELAY namespace:cv classpath: classname: name:CAP_PROP_TRIGGER_DELAY
+parse_name: const cv.CAP_PROP_WHITE_BALANCE_RED_V with ['cv'] -> fullname:cv::CAP_PROP_WHITE_BALANCE_RED_V namespace:cv classpath: classname: name:CAP_PROP_WHITE_BALANCE_RED_V
+parse_name: const cv.CAP_PROP_ZOOM with ['cv'] -> fullname:cv::CAP_PROP_ZOOM namespace:cv classpath: classname: name:CAP_PROP_ZOOM
+parse_name: const cv.CAP_PROP_FOCUS with ['cv'] -> fullname:cv::CAP_PROP_FOCUS namespace:cv classpath: classname: name:CAP_PROP_FOCUS
+parse_name: const cv.CAP_PROP_GUID with ['cv'] -> fullname:cv::CAP_PROP_GUID namespace:cv classpath: classname: name:CAP_PROP_GUID
+parse_name: const cv.CAP_PROP_ISO_SPEED with ['cv'] -> fullname:cv::CAP_PROP_ISO_SPEED namespace:cv classpath: classname: name:CAP_PROP_ISO_SPEED
+parse_name: const cv.CAP_PROP_BACKLIGHT with ['cv'] -> fullname:cv::CAP_PROP_BACKLIGHT namespace:cv classpath: classname: name:CAP_PROP_BACKLIGHT
+parse_name: const cv.CAP_PROP_PAN with ['cv'] -> fullname:cv::CAP_PROP_PAN namespace:cv classpath: classname: name:CAP_PROP_PAN
+parse_name: const cv.CAP_PROP_TILT with ['cv'] -> fullname:cv::CAP_PROP_TILT namespace:cv classpath: classname: name:CAP_PROP_TILT
+parse_name: const cv.CAP_PROP_ROLL with ['cv'] -> fullname:cv::CAP_PROP_ROLL namespace:cv classpath: classname: name:CAP_PROP_ROLL
+parse_name: const cv.CAP_PROP_IRIS with ['cv'] -> fullname:cv::CAP_PROP_IRIS namespace:cv classpath: classname: name:CAP_PROP_IRIS
+parse_name: const cv.CAP_PROP_SETTINGS with ['cv'] -> fullname:cv::CAP_PROP_SETTINGS namespace:cv classpath: classname: name:CAP_PROP_SETTINGS
+parse_name: const cv.CAP_PROP_BUFFERSIZE with ['cv'] -> fullname:cv::CAP_PROP_BUFFERSIZE namespace:cv classpath: classname: name:CAP_PROP_BUFFERSIZE
+parse_name: const cv.CAP_PROP_AUTOFOCUS with ['cv'] -> fullname:cv::CAP_PROP_AUTOFOCUS namespace:cv classpath: classname: name:CAP_PROP_AUTOFOCUS
+parse_name: const cv.CAP_PROP_SAR_NUM with ['cv'] -> fullname:cv::CAP_PROP_SAR_NUM namespace:cv classpath: classname: name:CAP_PROP_SAR_NUM
+parse_name: const cv.CAP_PROP_SAR_DEN with ['cv'] -> fullname:cv::CAP_PROP_SAR_DEN namespace:cv classpath: classname: name:CAP_PROP_SAR_DEN
+parse_name: const cv.CAP_PROP_BACKEND with ['cv'] -> fullname:cv::CAP_PROP_BACKEND namespace:cv classpath: classname: name:CAP_PROP_BACKEND
+parse_name: const cv.CAP_PROP_CHANNEL with ['cv'] -> fullname:cv::CAP_PROP_CHANNEL namespace:cv classpath: classname: name:CAP_PROP_CHANNEL
+parse_name: const cv.CAP_PROP_AUTO_WB with ['cv'] -> fullname:cv::CAP_PROP_AUTO_WB namespace:cv classpath: classname: name:CAP_PROP_AUTO_WB
+parse_name: const cv.CAP_PROP_WB_TEMPERATURE with ['cv'] -> fullname:cv::CAP_PROP_WB_TEMPERATURE namespace:cv classpath: classname: name:CAP_PROP_WB_TEMPERATURE
+
+--- Incoming ---
+[   'enum cv.VideoWriterProperties',
+    '',
+    [],
+    [   [   'const cv.VIDEOWRITER_PROP_QUALITY',
+            '1',
+            [],
+            [],
+            None,
+            'Current quality (0..100%) of the encoded videostream. Can be '
+            'adjusted dynamically in some codecs.\n'],
+        [   'const cv.VIDEOWRITER_PROP_FRAMEBYTES',
+            '2',
+            [],
+            [],
+            None,
+            '(Read-only): Size of just encoded video frame. Note that the '
+            'encoding order may be different from representation order.\n'],
+        [   'const cv.VIDEOWRITER_PROP_NSTRIPES',
+            '3',
+            [],
+            [],
+            None,
+            'Number of stripes for parallel encoding. -1 for auto '
+            'detection.\n']],
+    None,
+    '@brief %VideoWriter generic properties identifier.\n'
+    '@sa VideoWriter::get(), VideoWriter::set()']
+parse_name: const cv.VIDEOWRITER_PROP_QUALITY with ['cv'] -> fullname:cv::VIDEOWRITER_PROP_QUALITY namespace:cv classpath: classname: name:VIDEOWRITER_PROP_QUALITY
+parse_name: const cv.VIDEOWRITER_PROP_FRAMEBYTES with ['cv'] -> fullname:cv::VIDEOWRITER_PROP_FRAMEBYTES namespace:cv classpath: classname: name:VIDEOWRITER_PROP_FRAMEBYTES
+parse_name: const cv.VIDEOWRITER_PROP_NSTRIPES with ['cv'] -> fullname:cv::VIDEOWRITER_PROP_NSTRIPES namespace:cv classpath: classname: name:VIDEOWRITER_PROP_NSTRIPES
+parse_name: enum cv.VideoWriterProperties with ['cv'] -> fullname:cv::VideoWriterProperties namespace:cv classpath: classname: name:VideoWriterProperties
+parse_name: const cv.VIDEOWRITER_PROP_QUALITY with ['cv'] -> fullname:cv::VIDEOWRITER_PROP_QUALITY namespace:cv classpath: classname: name:VIDEOWRITER_PROP_QUALITY
+parse_name: const cv.VIDEOWRITER_PROP_FRAMEBYTES with ['cv'] -> fullname:cv::VIDEOWRITER_PROP_FRAMEBYTES namespace:cv classpath: classname: name:VIDEOWRITER_PROP_FRAMEBYTES
+parse_name: const cv.VIDEOWRITER_PROP_NSTRIPES with ['cv'] -> fullname:cv::VIDEOWRITER_PROP_NSTRIPES namespace:cv classpath: classname: name:VIDEOWRITER_PROP_NSTRIPES
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_PROP_DC1394_OFF',
+            '-4',
+            [],
+            [],
+            None,
+            'turn the feature off (not controlled manually nor '
+            'automatically).\n'],
+        [   'const cv.CAP_PROP_DC1394_MODE_MANUAL',
+            '-3',
+            [],
+            [],
+            None,
+            'set automatically when a value of the feature is set by the '
+            'user.\n'],
+        ['const cv.CAP_PROP_DC1394_MODE_AUTO', '-2', [], [], None, ''],
+        ['const cv.CAP_PROP_DC1394_MODE_ONE_PUSH_AUTO', '-1', [], [], None, ''],
+        ['const cv.CAP_PROP_DC1394_MAX', '31', [], [], None, '']],
+    None,
+    '@brief Modes of the IEEE 1394 controlling registers\n'
+    '(can be: auto, manual, auto single push, absolute Latter allowed with any '
+    'other mode)\n'
+    'every feature can have only one mode turned on at a time']
+parse_name: const cv.CAP_PROP_DC1394_OFF with ['cv'] -> fullname:cv::CAP_PROP_DC1394_OFF namespace:cv classpath: classname: name:CAP_PROP_DC1394_OFF
+parse_name: const cv.CAP_PROP_DC1394_MODE_MANUAL with ['cv'] -> fullname:cv::CAP_PROP_DC1394_MODE_MANUAL namespace:cv classpath: classname: name:CAP_PROP_DC1394_MODE_MANUAL
+parse_name: const cv.CAP_PROP_DC1394_MODE_AUTO with ['cv'] -> fullname:cv::CAP_PROP_DC1394_MODE_AUTO namespace:cv classpath: classname: name:CAP_PROP_DC1394_MODE_AUTO
+parse_name: const cv.CAP_PROP_DC1394_MODE_ONE_PUSH_AUTO with ['cv'] -> fullname:cv::CAP_PROP_DC1394_MODE_ONE_PUSH_AUTO namespace:cv classpath: classname: name:CAP_PROP_DC1394_MODE_ONE_PUSH_AUTO
+parse_name: const cv.CAP_PROP_DC1394_MAX with ['cv'] -> fullname:cv::CAP_PROP_DC1394_MAX namespace:cv classpath: classname: name:CAP_PROP_DC1394_MAX
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_OPENNI_DEPTH_GENERATOR', '1 << 31', [], [], None, ''],
+        ['const cv.CAP_OPENNI_IMAGE_GENERATOR', '1 << 30', [], [], None, ''],
+        ['const cv.CAP_OPENNI_IR_GENERATOR', '1 << 29', [], [], None, ''],
+        [   'const cv.CAP_OPENNI_GENERATORS_MASK',
+            'CAP_OPENNI_DEPTH_GENERATOR + CAP_OPENNI_IMAGE_GENERATOR + '
+            'CAP_OPENNI_IR_GENERATOR',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    '@name OpenNI (for Kinect)\n@{\n\nOpenNI map generators']
+parse_name: const cv.CAP_OPENNI_DEPTH_GENERATOR with ['cv'] -> fullname:cv::CAP_OPENNI_DEPTH_GENERATOR namespace:cv classpath: classname: name:CAP_OPENNI_DEPTH_GENERATOR
+parse_name: const cv.CAP_OPENNI_IMAGE_GENERATOR with ['cv'] -> fullname:cv::CAP_OPENNI_IMAGE_GENERATOR namespace:cv classpath: classname: name:CAP_OPENNI_IMAGE_GENERATOR
+parse_name: const cv.CAP_OPENNI_IR_GENERATOR with ['cv'] -> fullname:cv::CAP_OPENNI_IR_GENERATOR namespace:cv classpath: classname: name:CAP_OPENNI_IR_GENERATOR
+parse_name: const cv.CAP_OPENNI_GENERATORS_MASK with ['cv'] -> fullname:cv::CAP_OPENNI_GENERATORS_MASK namespace:cv classpath: classname: name:CAP_OPENNI_GENERATORS_MASK
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_PROP_OPENNI_OUTPUT_MODE', '100', [], [], None, ''],
+        [   'const cv.CAP_PROP_OPENNI_FRAME_MAX_DEPTH',
+            '101',
+            [],
+            [],
+            None,
+            'In mm\n'],
+        ['const cv.CAP_PROP_OPENNI_BASELINE', '102', [], [], None, 'In mm\n'],
+        [   'const cv.CAP_PROP_OPENNI_FOCAL_LENGTH',
+            '103',
+            [],
+            [],
+            None,
+            'In pixels\n'],
+        [   'const cv.CAP_PROP_OPENNI_REGISTRATION',
+            '104',
+            [],
+            [],
+            None,
+            'Flag that synchronizes the remapping depth map to image map\n'],
+        [   'const cv.CAP_PROP_OPENNI_REGISTRATION_ON',
+            'CAP_PROP_OPENNI_REGISTRATION',
+            [],
+            [],
+            None,
+            ''],
+        ['const cv.CAP_PROP_OPENNI_APPROX_FRAME_SYNC', '105', [], [], None, ''],
+        ['const cv.CAP_PROP_OPENNI_MAX_BUFFER_SIZE', '106', [], [], None, ''],
+        ['const cv.CAP_PROP_OPENNI_CIRCLE_BUFFER', '107', [], [], None, ''],
+        ['const cv.CAP_PROP_OPENNI_MAX_TIME_DURATION', '108', [], [], None, ''],
+        ['const cv.CAP_PROP_OPENNI_GENERATOR_PRESENT', '109', [], [], None, ''],
+        ['const cv.CAP_PROP_OPENNI2_SYNC', '110', [], [], None, ''],
+        ['const cv.CAP_PROP_OPENNI2_MIRROR', '111', [], [], None, '']],
+    None,
+    'Properties of cameras available through OpenNI backend']
+parse_name: const cv.CAP_PROP_OPENNI_OUTPUT_MODE with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_OUTPUT_MODE namespace:cv classpath: classname: name:CAP_PROP_OPENNI_OUTPUT_MODE
+parse_name: const cv.CAP_PROP_OPENNI_FRAME_MAX_DEPTH with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_FRAME_MAX_DEPTH namespace:cv classpath: classname: name:CAP_PROP_OPENNI_FRAME_MAX_DEPTH
+parse_name: const cv.CAP_PROP_OPENNI_BASELINE with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_BASELINE namespace:cv classpath: classname: name:CAP_PROP_OPENNI_BASELINE
+parse_name: const cv.CAP_PROP_OPENNI_FOCAL_LENGTH with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_FOCAL_LENGTH namespace:cv classpath: classname: name:CAP_PROP_OPENNI_FOCAL_LENGTH
+parse_name: const cv.CAP_PROP_OPENNI_REGISTRATION with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_REGISTRATION namespace:cv classpath: classname: name:CAP_PROP_OPENNI_REGISTRATION
+parse_name: const cv.CAP_PROP_OPENNI_REGISTRATION_ON with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_REGISTRATION_ON namespace:cv classpath: classname: name:CAP_PROP_OPENNI_REGISTRATION_ON
+parse_name: const cv.CAP_PROP_OPENNI_APPROX_FRAME_SYNC with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_APPROX_FRAME_SYNC namespace:cv classpath: classname: name:CAP_PROP_OPENNI_APPROX_FRAME_SYNC
+parse_name: const cv.CAP_PROP_OPENNI_MAX_BUFFER_SIZE with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_MAX_BUFFER_SIZE namespace:cv classpath: classname: name:CAP_PROP_OPENNI_MAX_BUFFER_SIZE
+parse_name: const cv.CAP_PROP_OPENNI_CIRCLE_BUFFER with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_CIRCLE_BUFFER namespace:cv classpath: classname: name:CAP_PROP_OPENNI_CIRCLE_BUFFER
+parse_name: const cv.CAP_PROP_OPENNI_MAX_TIME_DURATION with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_MAX_TIME_DURATION namespace:cv classpath: classname: name:CAP_PROP_OPENNI_MAX_TIME_DURATION
+parse_name: const cv.CAP_PROP_OPENNI_GENERATOR_PRESENT with ['cv'] -> fullname:cv::CAP_PROP_OPENNI_GENERATOR_PRESENT namespace:cv classpath: classname: name:CAP_PROP_OPENNI_GENERATOR_PRESENT
+parse_name: const cv.CAP_PROP_OPENNI2_SYNC with ['cv'] -> fullname:cv::CAP_PROP_OPENNI2_SYNC namespace:cv classpath: classname: name:CAP_PROP_OPENNI2_SYNC
+parse_name: const cv.CAP_PROP_OPENNI2_MIRROR with ['cv'] -> fullname:cv::CAP_PROP_OPENNI2_MIRROR namespace:cv classpath: classname: name:CAP_PROP_OPENNI2_MIRROR
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_OPENNI_IMAGE_GENERATOR_PRESENT',
+            'CAP_OPENNI_IMAGE_GENERATOR + CAP_PROP_OPENNI_GENERATOR_PRESENT',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_OPENNI_IMAGE_GENERATOR_OUTPUT_MODE',
+            'CAP_OPENNI_IMAGE_GENERATOR + CAP_PROP_OPENNI_OUTPUT_MODE',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_OPENNI_DEPTH_GENERATOR_PRESENT',
+            'CAP_OPENNI_DEPTH_GENERATOR + CAP_PROP_OPENNI_GENERATOR_PRESENT',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_OPENNI_DEPTH_GENERATOR_BASELINE',
+            'CAP_OPENNI_DEPTH_GENERATOR + CAP_PROP_OPENNI_BASELINE',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_OPENNI_DEPTH_GENERATOR_FOCAL_LENGTH',
+            'CAP_OPENNI_DEPTH_GENERATOR + CAP_PROP_OPENNI_FOCAL_LENGTH',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION',
+            'CAP_OPENNI_DEPTH_GENERATOR + CAP_PROP_OPENNI_REGISTRATION',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION_ON',
+            'CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_OPENNI_IR_GENERATOR_PRESENT',
+            'CAP_OPENNI_IR_GENERATOR + CAP_PROP_OPENNI_GENERATOR_PRESENT',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    'OpenNI shortcuts']
+parse_name: const cv.CAP_OPENNI_IMAGE_GENERATOR_PRESENT with ['cv'] -> fullname:cv::CAP_OPENNI_IMAGE_GENERATOR_PRESENT namespace:cv classpath: classname: name:CAP_OPENNI_IMAGE_GENERATOR_PRESENT
+parse_name: const cv.CAP_OPENNI_IMAGE_GENERATOR_OUTPUT_MODE with ['cv'] -> fullname:cv::CAP_OPENNI_IMAGE_GENERATOR_OUTPUT_MODE namespace:cv classpath: classname: name:CAP_OPENNI_IMAGE_GENERATOR_OUTPUT_MODE
+parse_name: const cv.CAP_OPENNI_DEPTH_GENERATOR_PRESENT with ['cv'] -> fullname:cv::CAP_OPENNI_DEPTH_GENERATOR_PRESENT namespace:cv classpath: classname: name:CAP_OPENNI_DEPTH_GENERATOR_PRESENT
+parse_name: const cv.CAP_OPENNI_DEPTH_GENERATOR_BASELINE with ['cv'] -> fullname:cv::CAP_OPENNI_DEPTH_GENERATOR_BASELINE namespace:cv classpath: classname: name:CAP_OPENNI_DEPTH_GENERATOR_BASELINE
+parse_name: const cv.CAP_OPENNI_DEPTH_GENERATOR_FOCAL_LENGTH with ['cv'] -> fullname:cv::CAP_OPENNI_DEPTH_GENERATOR_FOCAL_LENGTH namespace:cv classpath: classname: name:CAP_OPENNI_DEPTH_GENERATOR_FOCAL_LENGTH
+parse_name: const cv.CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION with ['cv'] -> fullname:cv::CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION namespace:cv classpath: classname: name:CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION
+parse_name: const cv.CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION_ON with ['cv'] -> fullname:cv::CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION_ON namespace:cv classpath: classname: name:CAP_OPENNI_DEPTH_GENERATOR_REGISTRATION_ON
+parse_name: const cv.CAP_OPENNI_IR_GENERATOR_PRESENT with ['cv'] -> fullname:cv::CAP_OPENNI_IR_GENERATOR_PRESENT namespace:cv classpath: classname: name:CAP_OPENNI_IR_GENERATOR_PRESENT
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_OPENNI_DEPTH_MAP',
+            '0',
+            [],
+            [],
+            None,
+            'Depth values in mm (CV_16UC1)\n'],
+        [   'const cv.CAP_OPENNI_POINT_CLOUD_MAP',
+            '1',
+            [],
+            [],
+            None,
+            'XYZ in meters (CV_32FC3)\n'],
+        [   'const cv.CAP_OPENNI_DISPARITY_MAP',
+            '2',
+            [],
+            [],
+            None,
+            'Disparity in pixels (CV_8UC1)\n'],
+        [   'const cv.CAP_OPENNI_DISPARITY_MAP_32F',
+            '3',
+            [],
+            [],
+            None,
+            'Disparity in pixels (CV_32FC1)\n'],
+        [   'const cv.CAP_OPENNI_VALID_DEPTH_MASK',
+            '4',
+            [],
+            [],
+            None,
+            'CV_8UC1\n'],
+        [   'const cv.CAP_OPENNI_BGR_IMAGE',
+            '5',
+            [],
+            [],
+            None,
+            'Data given from RGB image generator\n'],
+        [   'const cv.CAP_OPENNI_GRAY_IMAGE',
+            '6',
+            [],
+            [],
+            None,
+            'Data given from RGB image generator\n'],
+        [   'const cv.CAP_OPENNI_IR_IMAGE',
+            '7',
+            [],
+            [],
+            None,
+            'Data given from IR image generator\n']],
+    None,
+    'OpenNI data given from depth generator']
+parse_name: const cv.CAP_OPENNI_DEPTH_MAP with ['cv'] -> fullname:cv::CAP_OPENNI_DEPTH_MAP namespace:cv classpath: classname: name:CAP_OPENNI_DEPTH_MAP
+parse_name: const cv.CAP_OPENNI_POINT_CLOUD_MAP with ['cv'] -> fullname:cv::CAP_OPENNI_POINT_CLOUD_MAP namespace:cv classpath: classname: name:CAP_OPENNI_POINT_CLOUD_MAP
+parse_name: const cv.CAP_OPENNI_DISPARITY_MAP with ['cv'] -> fullname:cv::CAP_OPENNI_DISPARITY_MAP namespace:cv classpath: classname: name:CAP_OPENNI_DISPARITY_MAP
+parse_name: const cv.CAP_OPENNI_DISPARITY_MAP_32F with ['cv'] -> fullname:cv::CAP_OPENNI_DISPARITY_MAP_32F namespace:cv classpath: classname: name:CAP_OPENNI_DISPARITY_MAP_32F
+parse_name: const cv.CAP_OPENNI_VALID_DEPTH_MASK with ['cv'] -> fullname:cv::CAP_OPENNI_VALID_DEPTH_MASK namespace:cv classpath: classname: name:CAP_OPENNI_VALID_DEPTH_MASK
+parse_name: const cv.CAP_OPENNI_BGR_IMAGE with ['cv'] -> fullname:cv::CAP_OPENNI_BGR_IMAGE namespace:cv classpath: classname: name:CAP_OPENNI_BGR_IMAGE
+parse_name: const cv.CAP_OPENNI_GRAY_IMAGE with ['cv'] -> fullname:cv::CAP_OPENNI_GRAY_IMAGE namespace:cv classpath: classname: name:CAP_OPENNI_GRAY_IMAGE
+parse_name: const cv.CAP_OPENNI_IR_IMAGE with ['cv'] -> fullname:cv::CAP_OPENNI_IR_IMAGE namespace:cv classpath: classname: name:CAP_OPENNI_IR_IMAGE
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_OPENNI_VGA_30HZ', '0', [], [], None, ''],
+        ['const cv.CAP_OPENNI_SXGA_15HZ', '1', [], [], None, ''],
+        ['const cv.CAP_OPENNI_SXGA_30HZ', '2', [], [], None, ''],
+        ['const cv.CAP_OPENNI_QVGA_30HZ', '3', [], [], None, ''],
+        ['const cv.CAP_OPENNI_QVGA_60HZ', '4', [], [], None, '']],
+    None,
+    'Supported output modes of OpenNI image generator']
+parse_name: const cv.CAP_OPENNI_VGA_30HZ with ['cv'] -> fullname:cv::CAP_OPENNI_VGA_30HZ namespace:cv classpath: classname: name:CAP_OPENNI_VGA_30HZ
+parse_name: const cv.CAP_OPENNI_SXGA_15HZ with ['cv'] -> fullname:cv::CAP_OPENNI_SXGA_15HZ namespace:cv classpath: classname: name:CAP_OPENNI_SXGA_15HZ
+parse_name: const cv.CAP_OPENNI_SXGA_30HZ with ['cv'] -> fullname:cv::CAP_OPENNI_SXGA_30HZ namespace:cv classpath: classname: name:CAP_OPENNI_SXGA_30HZ
+parse_name: const cv.CAP_OPENNI_QVGA_30HZ with ['cv'] -> fullname:cv::CAP_OPENNI_QVGA_30HZ namespace:cv classpath: classname: name:CAP_OPENNI_QVGA_30HZ
+parse_name: const cv.CAP_OPENNI_QVGA_60HZ with ['cv'] -> fullname:cv::CAP_OPENNI_QVGA_60HZ namespace:cv classpath: classname: name:CAP_OPENNI_QVGA_60HZ
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_PROP_GSTREAMER_QUEUE_LENGTH',
+            '200',
+            [],
+            [],
+            None,
+            'Default is 1\n']],
+    None,
+    '@name GStreamer\n@{']
+parse_name: const cv.CAP_PROP_GSTREAMER_QUEUE_LENGTH with ['cv'] -> fullname:cv::CAP_PROP_GSTREAMER_QUEUE_LENGTH namespace:cv classpath: classname: name:CAP_PROP_GSTREAMER_QUEUE_LENGTH
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_PROP_PVAPI_MULTICASTIP',
+            '300',
+            [],
+            [],
+            None,
+            'IP for enable multicast master mode. 0 for disable multicast.\n'],
+        [   'const cv.CAP_PROP_PVAPI_FRAMESTARTTRIGGERMODE',
+            '301',
+            [],
+            [],
+            None,
+            'FrameStartTriggerMode: Determines how a frame is initiated.\n'],
+        [   'const cv.CAP_PROP_PVAPI_DECIMATIONHORIZONTAL',
+            '302',
+            [],
+            [],
+            None,
+            'Horizontal sub-sampling of the image.\n'],
+        [   'const cv.CAP_PROP_PVAPI_DECIMATIONVERTICAL',
+            '303',
+            [],
+            [],
+            None,
+            'Vertical sub-sampling of the image.\n'],
+        [   'const cv.CAP_PROP_PVAPI_BINNINGX',
+            '304',
+            [],
+            [],
+            None,
+            'Horizontal binning factor.\n'],
+        [   'const cv.CAP_PROP_PVAPI_BINNINGY',
+            '305',
+            [],
+            [],
+            None,
+            'Vertical binning factor.\n'],
+        [   'const cv.CAP_PROP_PVAPI_PIXELFORMAT',
+            '306',
+            [],
+            [],
+            None,
+            'Pixel format.\n']],
+    None,
+    '@name PvAPI, Prosilica GigE SDK\n@{\n\nPVAPI']
+parse_name: const cv.CAP_PROP_PVAPI_MULTICASTIP with ['cv'] -> fullname:cv::CAP_PROP_PVAPI_MULTICASTIP namespace:cv classpath: classname: name:CAP_PROP_PVAPI_MULTICASTIP
+parse_name: const cv.CAP_PROP_PVAPI_FRAMESTARTTRIGGERMODE with ['cv'] -> fullname:cv::CAP_PROP_PVAPI_FRAMESTARTTRIGGERMODE namespace:cv classpath: classname: name:CAP_PROP_PVAPI_FRAMESTARTTRIGGERMODE
+parse_name: const cv.CAP_PROP_PVAPI_DECIMATIONHORIZONTAL with ['cv'] -> fullname:cv::CAP_PROP_PVAPI_DECIMATIONHORIZONTAL namespace:cv classpath: classname: name:CAP_PROP_PVAPI_DECIMATIONHORIZONTAL
+parse_name: const cv.CAP_PROP_PVAPI_DECIMATIONVERTICAL with ['cv'] -> fullname:cv::CAP_PROP_PVAPI_DECIMATIONVERTICAL namespace:cv classpath: classname: name:CAP_PROP_PVAPI_DECIMATIONVERTICAL
+parse_name: const cv.CAP_PROP_PVAPI_BINNINGX with ['cv'] -> fullname:cv::CAP_PROP_PVAPI_BINNINGX namespace:cv classpath: classname: name:CAP_PROP_PVAPI_BINNINGX
+parse_name: const cv.CAP_PROP_PVAPI_BINNINGY with ['cv'] -> fullname:cv::CAP_PROP_PVAPI_BINNINGY namespace:cv classpath: classname: name:CAP_PROP_PVAPI_BINNINGY
+parse_name: const cv.CAP_PROP_PVAPI_PIXELFORMAT with ['cv'] -> fullname:cv::CAP_PROP_PVAPI_PIXELFORMAT namespace:cv classpath: classname: name:CAP_PROP_PVAPI_PIXELFORMAT
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_PVAPI_FSTRIGMODE_FREERUN',
+            '0',
+            [],
+            [],
+            None,
+            'Freerun\n'],
+        [   'const cv.CAP_PVAPI_FSTRIGMODE_SYNCIN1',
+            '1',
+            [],
+            [],
+            None,
+            'SyncIn1\n'],
+        [   'const cv.CAP_PVAPI_FSTRIGMODE_SYNCIN2',
+            '2',
+            [],
+            [],
+            None,
+            'SyncIn2\n'],
+        [   'const cv.CAP_PVAPI_FSTRIGMODE_FIXEDRATE',
+            '3',
+            [],
+            [],
+            None,
+            'FixedRate\n'],
+        [   'const cv.CAP_PVAPI_FSTRIGMODE_SOFTWARE',
+            '4',
+            [],
+            [],
+            None,
+            'Software\n']],
+    None,
+    'PVAPI: FrameStartTriggerMode']
+parse_name: const cv.CAP_PVAPI_FSTRIGMODE_FREERUN with ['cv'] -> fullname:cv::CAP_PVAPI_FSTRIGMODE_FREERUN namespace:cv classpath: classname: name:CAP_PVAPI_FSTRIGMODE_FREERUN
+parse_name: const cv.CAP_PVAPI_FSTRIGMODE_SYNCIN1 with ['cv'] -> fullname:cv::CAP_PVAPI_FSTRIGMODE_SYNCIN1 namespace:cv classpath: classname: name:CAP_PVAPI_FSTRIGMODE_SYNCIN1
+parse_name: const cv.CAP_PVAPI_FSTRIGMODE_SYNCIN2 with ['cv'] -> fullname:cv::CAP_PVAPI_FSTRIGMODE_SYNCIN2 namespace:cv classpath: classname: name:CAP_PVAPI_FSTRIGMODE_SYNCIN2
+parse_name: const cv.CAP_PVAPI_FSTRIGMODE_FIXEDRATE with ['cv'] -> fullname:cv::CAP_PVAPI_FSTRIGMODE_FIXEDRATE namespace:cv classpath: classname: name:CAP_PVAPI_FSTRIGMODE_FIXEDRATE
+parse_name: const cv.CAP_PVAPI_FSTRIGMODE_SOFTWARE with ['cv'] -> fullname:cv::CAP_PVAPI_FSTRIGMODE_SOFTWARE namespace:cv classpath: classname: name:CAP_PVAPI_FSTRIGMODE_SOFTWARE
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_PVAPI_DECIMATION_OFF', '1', [], [], None, 'Off\n'],
+        [   'const cv.CAP_PVAPI_DECIMATION_2OUTOF4',
+            '2',
+            [],
+            [],
+            None,
+            '2 out of 4 decimation\n'],
+        [   'const cv.CAP_PVAPI_DECIMATION_2OUTOF8',
+            '4',
+            [],
+            [],
+            None,
+            '2 out of 8 decimation\n'],
+        [   'const cv.CAP_PVAPI_DECIMATION_2OUTOF16',
+            '8',
+            [],
+            [],
+            None,
+            '2 out of 16 decimation\n']],
+    None,
+    'PVAPI: DecimationHorizontal, DecimationVertical']
+parse_name: const cv.CAP_PVAPI_DECIMATION_OFF with ['cv'] -> fullname:cv::CAP_PVAPI_DECIMATION_OFF namespace:cv classpath: classname: name:CAP_PVAPI_DECIMATION_OFF
+parse_name: const cv.CAP_PVAPI_DECIMATION_2OUTOF4 with ['cv'] -> fullname:cv::CAP_PVAPI_DECIMATION_2OUTOF4 namespace:cv classpath: classname: name:CAP_PVAPI_DECIMATION_2OUTOF4
+parse_name: const cv.CAP_PVAPI_DECIMATION_2OUTOF8 with ['cv'] -> fullname:cv::CAP_PVAPI_DECIMATION_2OUTOF8 namespace:cv classpath: classname: name:CAP_PVAPI_DECIMATION_2OUTOF8
+parse_name: const cv.CAP_PVAPI_DECIMATION_2OUTOF16 with ['cv'] -> fullname:cv::CAP_PVAPI_DECIMATION_2OUTOF16 namespace:cv classpath: classname: name:CAP_PVAPI_DECIMATION_2OUTOF16
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_PVAPI_PIXELFORMAT_MONO8', '1', [], [], None, 'Mono8\n'],
+        [   'const cv.CAP_PVAPI_PIXELFORMAT_MONO16',
+            '2',
+            [],
+            [],
+            None,
+            'Mono16\n'],
+        [   'const cv.CAP_PVAPI_PIXELFORMAT_BAYER8',
+            '3',
+            [],
+            [],
+            None,
+            'Bayer8\n'],
+        [   'const cv.CAP_PVAPI_PIXELFORMAT_BAYER16',
+            '4',
+            [],
+            [],
+            None,
+            'Bayer16\n'],
+        ['const cv.CAP_PVAPI_PIXELFORMAT_RGB24', '5', [], [], None, 'Rgb24\n'],
+        ['const cv.CAP_PVAPI_PIXELFORMAT_BGR24', '6', [], [], None, 'Bgr24\n'],
+        [   'const cv.CAP_PVAPI_PIXELFORMAT_RGBA32',
+            '7',
+            [],
+            [],
+            None,
+            'Rgba32\n'],
+        [   'const cv.CAP_PVAPI_PIXELFORMAT_BGRA32',
+            '8',
+            [],
+            [],
+            None,
+            'Bgra32\n']],
+    None,
+    'PVAPI: PixelFormat']
+parse_name: const cv.CAP_PVAPI_PIXELFORMAT_MONO8 with ['cv'] -> fullname:cv::CAP_PVAPI_PIXELFORMAT_MONO8 namespace:cv classpath: classname: name:CAP_PVAPI_PIXELFORMAT_MONO8
+parse_name: const cv.CAP_PVAPI_PIXELFORMAT_MONO16 with ['cv'] -> fullname:cv::CAP_PVAPI_PIXELFORMAT_MONO16 namespace:cv classpath: classname: name:CAP_PVAPI_PIXELFORMAT_MONO16
+parse_name: const cv.CAP_PVAPI_PIXELFORMAT_BAYER8 with ['cv'] -> fullname:cv::CAP_PVAPI_PIXELFORMAT_BAYER8 namespace:cv classpath: classname: name:CAP_PVAPI_PIXELFORMAT_BAYER8
+parse_name: const cv.CAP_PVAPI_PIXELFORMAT_BAYER16 with ['cv'] -> fullname:cv::CAP_PVAPI_PIXELFORMAT_BAYER16 namespace:cv classpath: classname: name:CAP_PVAPI_PIXELFORMAT_BAYER16
+parse_name: const cv.CAP_PVAPI_PIXELFORMAT_RGB24 with ['cv'] -> fullname:cv::CAP_PVAPI_PIXELFORMAT_RGB24 namespace:cv classpath: classname: name:CAP_PVAPI_PIXELFORMAT_RGB24
+parse_name: const cv.CAP_PVAPI_PIXELFORMAT_BGR24 with ['cv'] -> fullname:cv::CAP_PVAPI_PIXELFORMAT_BGR24 namespace:cv classpath: classname: name:CAP_PVAPI_PIXELFORMAT_BGR24
+parse_name: const cv.CAP_PVAPI_PIXELFORMAT_RGBA32 with ['cv'] -> fullname:cv::CAP_PVAPI_PIXELFORMAT_RGBA32 namespace:cv classpath: classname: name:CAP_PVAPI_PIXELFORMAT_RGBA32
+parse_name: const cv.CAP_PVAPI_PIXELFORMAT_BGRA32 with ['cv'] -> fullname:cv::CAP_PVAPI_PIXELFORMAT_BGRA32 namespace:cv classpath: classname: name:CAP_PVAPI_PIXELFORMAT_BGRA32
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_PROP_XI_DOWNSAMPLING',
+            '400',
+            [],
+            [],
+            None,
+            'Change image resolution by binning or skipping.\n'],
+        [   'const cv.CAP_PROP_XI_DATA_FORMAT',
+            '401',
+            [],
+            [],
+            None,
+            'Output data format.\n'],
+        [   'const cv.CAP_PROP_XI_OFFSET_X',
+            '402',
+            [],
+            [],
+            None,
+            'Horizontal offset from the origin to the area of interest (in '
+            'pixels).\n'],
+        [   'const cv.CAP_PROP_XI_OFFSET_Y',
+            '403',
+            [],
+            [],
+            None,
+            'Vertical offset from the origin to the area of interest (in '
+            'pixels).\n'],
+        [   'const cv.CAP_PROP_XI_TRG_SOURCE',
+            '404',
+            [],
+            [],
+            None,
+            'Defines source of trigger.\n'],
+        [   'const cv.CAP_PROP_XI_TRG_SOFTWARE',
+            '405',
+            [],
+            [],
+            None,
+            'Generates an internal trigger. PRM_TRG_SOURCE must be set to '
+            'TRG_SOFTWARE.\n'],
+        [   'const cv.CAP_PROP_XI_GPI_SELECTOR',
+            '406',
+            [],
+            [],
+            None,
+            'Selects general purpose input.\n'],
+        [   'const cv.CAP_PROP_XI_GPI_MODE',
+            '407',
+            [],
+            [],
+            None,
+            'Set general purpose input mode.\n'],
+        [   'const cv.CAP_PROP_XI_GPI_LEVEL',
+            '408',
+            [],
+            [],
+            None,
+            'Get general purpose level.\n'],
+        [   'const cv.CAP_PROP_XI_GPO_SELECTOR',
+            '409',
+            [],
+            [],
+            None,
+            'Selects general purpose output.\n'],
+        [   'const cv.CAP_PROP_XI_GPO_MODE',
+            '410',
+            [],
+            [],
+            None,
+            'Set general purpose output mode.\n'],
+        [   'const cv.CAP_PROP_XI_LED_SELECTOR',
+            '411',
+            [],
+            [],
+            None,
+            'Selects camera signalling LED.\n'],
+        [   'const cv.CAP_PROP_XI_LED_MODE',
+            '412',
+            [],
+            [],
+            None,
+            'Define camera signalling LED functionality.\n'],
+        [   'const cv.CAP_PROP_XI_MANUAL_WB',
+            '413',
+            [],
+            [],
+            None,
+            'Calculates White Balance(must be called during acquisition).\n'],
+        [   'const cv.CAP_PROP_XI_AUTO_WB',
+            '414',
+            [],
+            [],
+            None,
+            'Automatic white balance.\n'],
+        [   'const cv.CAP_PROP_XI_AEAG',
+            '415',
+            [],
+            [],
+            None,
+            'Automatic exposure/gain.\n'],
+        [   'const cv.CAP_PROP_XI_EXP_PRIORITY',
+            '416',
+            [],
+            [],
+            None,
+            'Exposure priority (0.5 - exposure 50%, gain 50%).\n'],
+        [   'const cv.CAP_PROP_XI_AE_MAX_LIMIT',
+            '417',
+            [],
+            [],
+            None,
+            'Maximum limit of exposure in AEAG procedure.\n'],
+        [   'const cv.CAP_PROP_XI_AG_MAX_LIMIT',
+            '418',
+            [],
+            [],
+            None,
+            'Maximum limit of gain in AEAG procedure.\n'],
+        [   'const cv.CAP_PROP_XI_AEAG_LEVEL',
+            '419',
+            [],
+            [],
+            None,
+            'Average intensity of output signal AEAG should achieve(in %).\n'],
+        [   'const cv.CAP_PROP_XI_TIMEOUT',
+            '420',
+            [],
+            [],
+            None,
+            'Image capture timeout in milliseconds.\n'],
+        [   'const cv.CAP_PROP_XI_EXPOSURE',
+            '421',
+            [],
+            [],
+            None,
+            'Exposure time in microseconds.\n'],
+        [   'const cv.CAP_PROP_XI_EXPOSURE_BURST_COUNT',
+            '422',
+            [],
+            [],
+            None,
+            'Sets the number of times of exposure in one frame.\n'],
+        [   'const cv.CAP_PROP_XI_GAIN_SELECTOR',
+            '423',
+            [],
+            [],
+            None,
+            'Gain selector for parameter Gain allows to select different type '
+            'of gains.\n'],
+        ['const cv.CAP_PROP_XI_GAIN', '424', [], [], None, 'Gain in dB.\n'],
+        [   'const cv.CAP_PROP_XI_DOWNSAMPLING_TYPE',
+            '426',
+            [],
+            [],
+            None,
+            'Change image downsampling type.\n'],
+        [   'const cv.CAP_PROP_XI_BINNING_SELECTOR',
+            '427',
+            [],
+            [],
+            None,
+            'Binning engine selector.\n'],
+        [   'const cv.CAP_PROP_XI_BINNING_VERTICAL',
+            '428',
+            [],
+            [],
+            None,
+            'Vertical Binning - number of vertical photo-sensitive cells to '
+            'combine together.\n'],
+        [   'const cv.CAP_PROP_XI_BINNING_HORIZONTAL',
+            '429',
+            [],
+            [],
+            None,
+            'Horizontal Binning - number of horizontal photo-sensitive cells '
+            'to combine together.\n'],
+        [   'const cv.CAP_PROP_XI_BINNING_PATTERN',
+            '430',
+            [],
+            [],
+            None,
+            'Binning pattern type.\n'],
+        [   'const cv.CAP_PROP_XI_DECIMATION_SELECTOR',
+            '431',
+            [],
+            [],
+            None,
+            'Decimation engine selector.\n'],
+        [   'const cv.CAP_PROP_XI_DECIMATION_VERTICAL',
+            '432',
+            [],
+            [],
+            None,
+            'Vertical Decimation - vertical sub-sampling of the image - '
+            'reduces the vertical resolution of the image by the specified '
+            'vertical decimation factor.\n'],
+        [   'const cv.CAP_PROP_XI_DECIMATION_HORIZONTAL',
+            '433',
+            [],
+            [],
+            None,
+            'Horizontal Decimation - horizontal sub-sampling of the image - '
+            'reduces the horizontal resolution of the image by the specified '
+            'vertical decimation factor.\n'],
+        [   'const cv.CAP_PROP_XI_DECIMATION_PATTERN',
+            '434',
+            [],
+            [],
+            None,
+            'Decimation pattern type.\n'],
+        [   'const cv.CAP_PROP_XI_TEST_PATTERN_GENERATOR_SELECTOR',
+            '587',
+            [],
+            [],
+            None,
+            'Selects which test pattern generator is controlled by the '
+            'TestPattern feature.\n'],
+        [   'const cv.CAP_PROP_XI_TEST_PATTERN',
+            '588',
+            [],
+            [],
+            None,
+            'Selects which test pattern type is generated by the selected '
+            'generator.\n'],
+        [   'const cv.CAP_PROP_XI_IMAGE_DATA_FORMAT',
+            '435',
+            [],
+            [],
+            None,
+            'Output data format.\n'],
+        [   'const cv.CAP_PROP_XI_SHUTTER_TYPE',
+            '436',
+            [],
+            [],
+            None,
+            'Change sensor shutter type(CMOS sensor).\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_TAPS',
+            '437',
+            [],
+            [],
+            None,
+            'Number of taps.\n'],
+        [   'const cv.CAP_PROP_XI_AEAG_ROI_OFFSET_X',
+            '439',
+            [],
+            [],
+            None,
+            'Automatic exposure/gain ROI offset X.\n'],
+        [   'const cv.CAP_PROP_XI_AEAG_ROI_OFFSET_Y',
+            '440',
+            [],
+            [],
+            None,
+            'Automatic exposure/gain ROI offset Y.\n'],
+        [   'const cv.CAP_PROP_XI_AEAG_ROI_WIDTH',
+            '441',
+            [],
+            [],
+            None,
+            'Automatic exposure/gain ROI Width.\n'],
+        [   'const cv.CAP_PROP_XI_AEAG_ROI_HEIGHT',
+            '442',
+            [],
+            [],
+            None,
+            'Automatic exposure/gain ROI Height.\n'],
+        [   'const cv.CAP_PROP_XI_BPC',
+            '445',
+            [],
+            [],
+            None,
+            'Correction of bad pixels.\n'],
+        [   'const cv.CAP_PROP_XI_WB_KR',
+            '448',
+            [],
+            [],
+            None,
+            'White balance red coefficient.\n'],
+        [   'const cv.CAP_PROP_XI_WB_KG',
+            '449',
+            [],
+            [],
+            None,
+            'White balance green coefficient.\n'],
+        [   'const cv.CAP_PROP_XI_WB_KB',
+            '450',
+            [],
+            [],
+            None,
+            'White balance blue coefficient.\n'],
+        [   'const cv.CAP_PROP_XI_WIDTH',
+            '451',
+            [],
+            [],
+            None,
+            'Width of the Image provided by the device (in pixels).\n'],
+        [   'const cv.CAP_PROP_XI_HEIGHT',
+            '452',
+            [],
+            [],
+            None,
+            'Height of the Image provided by the device (in pixels).\n'],
+        [   'const cv.CAP_PROP_XI_REGION_SELECTOR',
+            '589',
+            [],
+            [],
+            None,
+            'Selects Region in Multiple ROI which parameters are set by width, '
+            'height, ... ,region mode.\n'],
+        [   'const cv.CAP_PROP_XI_REGION_MODE',
+            '595',
+            [],
+            [],
+            None,
+            'Activates/deactivates Region selected by Region Selector.\n'],
+        [   'const cv.CAP_PROP_XI_LIMIT_BANDWIDTH',
+            '459',
+            [],
+            [],
+            None,
+            'Set/get bandwidth(datarate)(in Megabits).\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_DATA_BIT_DEPTH',
+            '460',
+            [],
+            [],
+            None,
+            'Sensor output data bit depth.\n'],
+        [   'const cv.CAP_PROP_XI_OUTPUT_DATA_BIT_DEPTH',
+            '461',
+            [],
+            [],
+            None,
+            'Device output data bit depth.\n'],
+        [   'const cv.CAP_PROP_XI_IMAGE_DATA_BIT_DEPTH',
+            '462',
+            [],
+            [],
+            None,
+            'bitdepth of data returned by function xiGetImage.\n'],
+        [   'const cv.CAP_PROP_XI_OUTPUT_DATA_PACKING',
+            '463',
+            [],
+            [],
+            None,
+            'Device output data packing (or grouping) enabled. Packing could '
+            'be enabled if output_data_bit_depth > 8 and packing capability is '
+            'available.\n'],
+        [   'const cv.CAP_PROP_XI_OUTPUT_DATA_PACKING_TYPE',
+            '464',
+            [],
+            [],
+            None,
+            'Data packing type. Some cameras supports only specific packing '
+            'type.\n'],
+        [   'const cv.CAP_PROP_XI_IS_COOLED',
+            '465',
+            [],
+            [],
+            None,
+            'Returns 1 for cameras that support cooling.\n'],
+        [   'const cv.CAP_PROP_XI_COOLING',
+            '466',
+            [],
+            [],
+            None,
+            'Start camera cooling.\n'],
+        [   'const cv.CAP_PROP_XI_TARGET_TEMP',
+            '467',
+            [],
+            [],
+            None,
+            'Set sensor target temperature for cooling.\n'],
+        [   'const cv.CAP_PROP_XI_CHIP_TEMP',
+            '468',
+            [],
+            [],
+            None,
+            'Camera sensor temperature.\n'],
+        [   'const cv.CAP_PROP_XI_HOUS_TEMP',
+            '469',
+            [],
+            [],
+            None,
+            'Camera housing temperature.\n'],
+        [   'const cv.CAP_PROP_XI_HOUS_BACK_SIDE_TEMP',
+            '590',
+            [],
+            [],
+            None,
+            'Camera housing back side temperature.\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_BOARD_TEMP',
+            '596',
+            [],
+            [],
+            None,
+            'Camera sensor board temperature.\n'],
+        [   'const cv.CAP_PROP_XI_CMS',
+            '470',
+            [],
+            [],
+            None,
+            'Mode of color management system.\n'],
+        [   'const cv.CAP_PROP_XI_APPLY_CMS',
+            '471',
+            [],
+            [],
+            None,
+            'Enable applying of CMS profiles to xiGetImage (see '
+            'XI_PRM_INPUT_CMS_PROFILE, XI_PRM_OUTPUT_CMS_PROFILE).\n'],
+        [   'const cv.CAP_PROP_XI_IMAGE_IS_COLOR',
+            '474',
+            [],
+            [],
+            None,
+            'Returns 1 for color cameras.\n'],
+        [   'const cv.CAP_PROP_XI_COLOR_FILTER_ARRAY',
+            '475',
+            [],
+            [],
+            None,
+            'Returns color filter array type of RAW data.\n'],
+        [   'const cv.CAP_PROP_XI_GAMMAY',
+            '476',
+            [],
+            [],
+            None,
+            'Luminosity gamma.\n'],
+        [   'const cv.CAP_PROP_XI_GAMMAC',
+            '477',
+            [],
+            [],
+            None,
+            'Chromaticity gamma.\n'],
+        [   'const cv.CAP_PROP_XI_SHARPNESS',
+            '478',
+            [],
+            [],
+            None,
+            'Sharpness Strength.\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_00',
+            '479',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [0][0].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_01',
+            '480',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [0][1].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_02',
+            '481',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [0][2].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_03',
+            '482',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [0][3].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_10',
+            '483',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [1][0].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_11',
+            '484',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [1][1].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_12',
+            '485',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [1][2].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_13',
+            '486',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [1][3].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_20',
+            '487',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [2][0].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_21',
+            '488',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [2][1].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_22',
+            '489',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [2][2].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_23',
+            '490',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [2][3].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_30',
+            '491',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [3][0].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_31',
+            '492',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [3][1].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_32',
+            '493',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [3][2].\n'],
+        [   'const cv.CAP_PROP_XI_CC_MATRIX_33',
+            '494',
+            [],
+            [],
+            None,
+            'Color Correction Matrix element [3][3].\n'],
+        [   'const cv.CAP_PROP_XI_DEFAULT_CC_MATRIX',
+            '495',
+            [],
+            [],
+            None,
+            'Set default Color Correction Matrix.\n'],
+        [   'const cv.CAP_PROP_XI_TRG_SELECTOR',
+            '498',
+            [],
+            [],
+            None,
+            'Selects the type of trigger.\n'],
+        [   'const cv.CAP_PROP_XI_ACQ_FRAME_BURST_COUNT',
+            '499',
+            [],
+            [],
+            None,
+            'Sets number of frames acquired by burst. This burst is used only '
+            'if trigger is set to FrameBurstStart.\n'],
+        [   'const cv.CAP_PROP_XI_DEBOUNCE_EN',
+            '507',
+            [],
+            [],
+            None,
+            'Enable/Disable debounce to selected GPI.\n'],
+        [   'const cv.CAP_PROP_XI_DEBOUNCE_T0',
+            '508',
+            [],
+            [],
+            None,
+            'Debounce time (x * 10us).\n'],
+        [   'const cv.CAP_PROP_XI_DEBOUNCE_T1',
+            '509',
+            [],
+            [],
+            None,
+            'Debounce time (x * 10us).\n'],
+        [   'const cv.CAP_PROP_XI_DEBOUNCE_POL',
+            '510',
+            [],
+            [],
+            None,
+            'Debounce polarity (pol = 1 t0 - falling edge, t1 - rising '
+            'edge).\n'],
+        [   'const cv.CAP_PROP_XI_LENS_MODE',
+            '511',
+            [],
+            [],
+            None,
+            'Status of lens control interface. This shall be set to XI_ON '
+            'before any Lens operations.\n'],
+        [   'const cv.CAP_PROP_XI_LENS_APERTURE_VALUE',
+            '512',
+            [],
+            [],
+            None,
+            'Current lens aperture value in stops. Examples: 2.8, 4, 5.6, 8, '
+            '11.\n'],
+        [   'const cv.CAP_PROP_XI_LENS_FOCUS_MOVEMENT_VALUE',
+            '513',
+            [],
+            [],
+            None,
+            'Lens current focus movement value to be used by '
+            'XI_PRM_LENS_FOCUS_MOVE in motor steps.\n'],
+        [   'const cv.CAP_PROP_XI_LENS_FOCUS_MOVE',
+            '514',
+            [],
+            [],
+            None,
+            'Moves lens focus motor by steps set in '
+            'XI_PRM_LENS_FOCUS_MOVEMENT_VALUE.\n'],
+        [   'const cv.CAP_PROP_XI_LENS_FOCUS_DISTANCE',
+            '515',
+            [],
+            [],
+            None,
+            'Lens focus distance in cm.\n'],
+        [   'const cv.CAP_PROP_XI_LENS_FOCAL_LENGTH',
+            '516',
+            [],
+            [],
+            None,
+            'Lens focal distance in mm.\n'],
+        [   'const cv.CAP_PROP_XI_LENS_FEATURE_SELECTOR',
+            '517',
+            [],
+            [],
+            None,
+            'Selects the current feature which is accessible by '
+            'XI_PRM_LENS_FEATURE.\n'],
+        [   'const cv.CAP_PROP_XI_LENS_FEATURE',
+            '518',
+            [],
+            [],
+            None,
+            'Allows access to lens feature value currently selected by '
+            'XI_PRM_LENS_FEATURE_SELECTOR.\n'],
+        [   'const cv.CAP_PROP_XI_DEVICE_MODEL_ID',
+            '521',
+            [],
+            [],
+            None,
+            'Returns device model id.\n'],
+        [   'const cv.CAP_PROP_XI_DEVICE_SN',
+            '522',
+            [],
+            [],
+            None,
+            'Returns device serial number.\n'],
+        [   'const cv.CAP_PROP_XI_IMAGE_DATA_FORMAT_RGB32_ALPHA',
+            '529',
+            [],
+            [],
+            None,
+            'The alpha channel of RGB32 output image format.\n'],
+        [   'const cv.CAP_PROP_XI_IMAGE_PAYLOAD_SIZE',
+            '530',
+            [],
+            [],
+            None,
+            'Buffer size in bytes sufficient for output image returned by '
+            'xiGetImage.\n'],
+        [   'const cv.CAP_PROP_XI_TRANSPORT_PIXEL_FORMAT',
+            '531',
+            [],
+            [],
+            None,
+            'Current format of pixels on transport layer.\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_CLOCK_FREQ_HZ',
+            '532',
+            [],
+            [],
+            None,
+            'Sensor clock frequency in Hz.\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_CLOCK_FREQ_INDEX',
+            '533',
+            [],
+            [],
+            None,
+            'Sensor clock frequency index. Sensor with selected frequencies '
+            'have possibility to set the frequency only by this index.\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_OUTPUT_CHANNEL_COUNT',
+            '534',
+            [],
+            [],
+            None,
+            'Number of output channels from sensor used for data transfer.\n'],
+        [   'const cv.CAP_PROP_XI_FRAMERATE',
+            '535',
+            [],
+            [],
+            None,
+            'Define framerate in Hz.\n'],
+        [   'const cv.CAP_PROP_XI_COUNTER_SELECTOR',
+            '536',
+            [],
+            [],
+            None,
+            'Select counter.\n'],
+        [   'const cv.CAP_PROP_XI_COUNTER_VALUE',
+            '537',
+            [],
+            [],
+            None,
+            'Counter status.\n'],
+        [   'const cv.CAP_PROP_XI_ACQ_TIMING_MODE',
+            '538',
+            [],
+            [],
+            None,
+            'Type of sensor frames timing.\n'],
+        [   'const cv.CAP_PROP_XI_AVAILABLE_BANDWIDTH',
+            '539',
+            [],
+            [],
+            None,
+            'Calculate and returns available interface bandwidth(int '
+            'Megabits).\n'],
+        [   'const cv.CAP_PROP_XI_BUFFER_POLICY',
+            '540',
+            [],
+            [],
+            None,
+            'Data move policy.\n'],
+        [   'const cv.CAP_PROP_XI_LUT_EN',
+            '541',
+            [],
+            [],
+            None,
+            'Activates LUT.\n'],
+        [   'const cv.CAP_PROP_XI_LUT_INDEX',
+            '542',
+            [],
+            [],
+            None,
+            'Control the index (offset) of the coefficient to access in the '
+            'LUT.\n'],
+        [   'const cv.CAP_PROP_XI_LUT_VALUE',
+            '543',
+            [],
+            [],
+            None,
+            'Value at entry LUTIndex of the LUT.\n'],
+        [   'const cv.CAP_PROP_XI_TRG_DELAY',
+            '544',
+            [],
+            [],
+            None,
+            'Specifies the delay in microseconds (us) to apply after the '
+            'trigger reception before activating it.\n'],
+        [   'const cv.CAP_PROP_XI_TS_RST_MODE',
+            '545',
+            [],
+            [],
+            None,
+            'Defines how time stamp reset engine will be armed.\n'],
+        [   'const cv.CAP_PROP_XI_TS_RST_SOURCE',
+            '546',
+            [],
+            [],
+            None,
+            'Defines which source will be used for timestamp reset. Writing '
+            'this parameter will trigger settings of engine (arming).\n'],
+        [   'const cv.CAP_PROP_XI_IS_DEVICE_EXIST',
+            '547',
+            [],
+            [],
+            None,
+            'Returns 1 if camera connected and works properly.\n'],
+        [   'const cv.CAP_PROP_XI_ACQ_BUFFER_SIZE',
+            '548',
+            [],
+            [],
+            None,
+            'Acquisition buffer size in buffer_size_unit. Default bytes.\n'],
+        [   'const cv.CAP_PROP_XI_ACQ_BUFFER_SIZE_UNIT',
+            '549',
+            [],
+            [],
+            None,
+            'Acquisition buffer size unit in bytes. Default 1. E.g. Value 1024 '
+            'means that buffer_size is in KiBytes.\n'],
+        [   'const cv.CAP_PROP_XI_ACQ_TRANSPORT_BUFFER_SIZE',
+            '550',
+            [],
+            [],
+            None,
+            'Acquisition transport buffer size in bytes.\n'],
+        [   'const cv.CAP_PROP_XI_BUFFERS_QUEUE_SIZE',
+            '551',
+            [],
+            [],
+            None,
+            'Queue of field/frame buffers.\n'],
+        [   'const cv.CAP_PROP_XI_ACQ_TRANSPORT_BUFFER_COMMIT',
+            '552',
+            [],
+            [],
+            None,
+            'Number of buffers to commit to low level.\n'],
+        [   'const cv.CAP_PROP_XI_RECENT_FRAME',
+            '553',
+            [],
+            [],
+            None,
+            'GetImage returns most recent frame.\n'],
+        [   'const cv.CAP_PROP_XI_DEVICE_RESET',
+            '554',
+            [],
+            [],
+            None,
+            'Resets the camera to default state.\n'],
+        [   'const cv.CAP_PROP_XI_COLUMN_FPN_CORRECTION',
+            '555',
+            [],
+            [],
+            None,
+            'Correction of column FPN.\n'],
+        [   'const cv.CAP_PROP_XI_ROW_FPN_CORRECTION',
+            '591',
+            [],
+            [],
+            None,
+            'Correction of row FPN.\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_MODE',
+            '558',
+            [],
+            [],
+            None,
+            'Current sensor mode. Allows to select sensor mode by one integer. '
+            'Setting of this parameter affects: image dimensions and '
+            'downsampling.\n'],
+        [   'const cv.CAP_PROP_XI_HDR',
+            '559',
+            [],
+            [],
+            None,
+            'Enable High Dynamic Range feature.\n'],
+        [   'const cv.CAP_PROP_XI_HDR_KNEEPOINT_COUNT',
+            '560',
+            [],
+            [],
+            None,
+            'The number of kneepoints in the PWLR.\n'],
+        [   'const cv.CAP_PROP_XI_HDR_T1',
+            '561',
+            [],
+            [],
+            None,
+            'Position of first kneepoint(in % of XI_PRM_EXPOSURE).\n'],
+        [   'const cv.CAP_PROP_XI_HDR_T2',
+            '562',
+            [],
+            [],
+            None,
+            'Position of second kneepoint (in % of XI_PRM_EXPOSURE).\n'],
+        [   'const cv.CAP_PROP_XI_KNEEPOINT1',
+            '563',
+            [],
+            [],
+            None,
+            'Value of first kneepoint (% of sensor saturation).\n'],
+        [   'const cv.CAP_PROP_XI_KNEEPOINT2',
+            '564',
+            [],
+            [],
+            None,
+            'Value of second kneepoint (% of sensor saturation).\n'],
+        [   'const cv.CAP_PROP_XI_IMAGE_BLACK_LEVEL',
+            '565',
+            [],
+            [],
+            None,
+            'Last image black level counts. Can be used for Offline processing '
+            'to recall it.\n'],
+        [   'const cv.CAP_PROP_XI_HW_REVISION',
+            '571',
+            [],
+            [],
+            None,
+            'Returns hardware revision number.\n'],
+        [   'const cv.CAP_PROP_XI_DEBUG_LEVEL',
+            '572',
+            [],
+            [],
+            None,
+            'Set debug level.\n'],
+        [   'const cv.CAP_PROP_XI_AUTO_BANDWIDTH_CALCULATION',
+            '573',
+            [],
+            [],
+            None,
+            'Automatic bandwidth calculation.\n'],
+        [   'const cv.CAP_PROP_XI_FFS_FILE_ID',
+            '594',
+            [],
+            [],
+            None,
+            'File number.\n'],
+        [   'const cv.CAP_PROP_XI_FFS_FILE_SIZE',
+            '580',
+            [],
+            [],
+            None,
+            'Size of file.\n'],
+        [   'const cv.CAP_PROP_XI_FREE_FFS_SIZE',
+            '581',
+            [],
+            [],
+            None,
+            'Size of free camera FFS.\n'],
+        [   'const cv.CAP_PROP_XI_USED_FFS_SIZE',
+            '582',
+            [],
+            [],
+            None,
+            'Size of used camera FFS.\n'],
+        [   'const cv.CAP_PROP_XI_FFS_ACCESS_KEY',
+            '583',
+            [],
+            [],
+            None,
+            'Setting of key enables file operations on some cameras.\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_FEATURE_SELECTOR',
+            '585',
+            [],
+            [],
+            None,
+            'Selects the current feature which is accessible by '
+            'XI_PRM_SENSOR_FEATURE_VALUE.\n'],
+        [   'const cv.CAP_PROP_XI_SENSOR_FEATURE_VALUE',
+            '586',
+            [],
+            [],
+            None,
+            'Allows access to sensor feature value currently selected by '
+            'XI_PRM_SENSOR_FEATURE_SELECTOR.\n']],
+    None,
+    '@name XIMEA Camera API\n'
+    '@{\n'
+    '\n'
+    'Properties of cameras available through XIMEA SDK backend']
+parse_name: const cv.CAP_PROP_XI_DOWNSAMPLING with ['cv'] -> fullname:cv::CAP_PROP_XI_DOWNSAMPLING namespace:cv classpath: classname: name:CAP_PROP_XI_DOWNSAMPLING
+parse_name: const cv.CAP_PROP_XI_DATA_FORMAT with ['cv'] -> fullname:cv::CAP_PROP_XI_DATA_FORMAT namespace:cv classpath: classname: name:CAP_PROP_XI_DATA_FORMAT
+parse_name: const cv.CAP_PROP_XI_OFFSET_X with ['cv'] -> fullname:cv::CAP_PROP_XI_OFFSET_X namespace:cv classpath: classname: name:CAP_PROP_XI_OFFSET_X
+parse_name: const cv.CAP_PROP_XI_OFFSET_Y with ['cv'] -> fullname:cv::CAP_PROP_XI_OFFSET_Y namespace:cv classpath: classname: name:CAP_PROP_XI_OFFSET_Y
+parse_name: const cv.CAP_PROP_XI_TRG_SOURCE with ['cv'] -> fullname:cv::CAP_PROP_XI_TRG_SOURCE namespace:cv classpath: classname: name:CAP_PROP_XI_TRG_SOURCE
+parse_name: const cv.CAP_PROP_XI_TRG_SOFTWARE with ['cv'] -> fullname:cv::CAP_PROP_XI_TRG_SOFTWARE namespace:cv classpath: classname: name:CAP_PROP_XI_TRG_SOFTWARE
+parse_name: const cv.CAP_PROP_XI_GPI_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_GPI_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_GPI_SELECTOR
+parse_name: const cv.CAP_PROP_XI_GPI_MODE with ['cv'] -> fullname:cv::CAP_PROP_XI_GPI_MODE namespace:cv classpath: classname: name:CAP_PROP_XI_GPI_MODE
+parse_name: const cv.CAP_PROP_XI_GPI_LEVEL with ['cv'] -> fullname:cv::CAP_PROP_XI_GPI_LEVEL namespace:cv classpath: classname: name:CAP_PROP_XI_GPI_LEVEL
+parse_name: const cv.CAP_PROP_XI_GPO_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_GPO_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_GPO_SELECTOR
+parse_name: const cv.CAP_PROP_XI_GPO_MODE with ['cv'] -> fullname:cv::CAP_PROP_XI_GPO_MODE namespace:cv classpath: classname: name:CAP_PROP_XI_GPO_MODE
+parse_name: const cv.CAP_PROP_XI_LED_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_LED_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_LED_SELECTOR
+parse_name: const cv.CAP_PROP_XI_LED_MODE with ['cv'] -> fullname:cv::CAP_PROP_XI_LED_MODE namespace:cv classpath: classname: name:CAP_PROP_XI_LED_MODE
+parse_name: const cv.CAP_PROP_XI_MANUAL_WB with ['cv'] -> fullname:cv::CAP_PROP_XI_MANUAL_WB namespace:cv classpath: classname: name:CAP_PROP_XI_MANUAL_WB
+parse_name: const cv.CAP_PROP_XI_AUTO_WB with ['cv'] -> fullname:cv::CAP_PROP_XI_AUTO_WB namespace:cv classpath: classname: name:CAP_PROP_XI_AUTO_WB
+parse_name: const cv.CAP_PROP_XI_AEAG with ['cv'] -> fullname:cv::CAP_PROP_XI_AEAG namespace:cv classpath: classname: name:CAP_PROP_XI_AEAG
+parse_name: const cv.CAP_PROP_XI_EXP_PRIORITY with ['cv'] -> fullname:cv::CAP_PROP_XI_EXP_PRIORITY namespace:cv classpath: classname: name:CAP_PROP_XI_EXP_PRIORITY
+parse_name: const cv.CAP_PROP_XI_AE_MAX_LIMIT with ['cv'] -> fullname:cv::CAP_PROP_XI_AE_MAX_LIMIT namespace:cv classpath: classname: name:CAP_PROP_XI_AE_MAX_LIMIT
+parse_name: const cv.CAP_PROP_XI_AG_MAX_LIMIT with ['cv'] -> fullname:cv::CAP_PROP_XI_AG_MAX_LIMIT namespace:cv classpath: classname: name:CAP_PROP_XI_AG_MAX_LIMIT
+parse_name: const cv.CAP_PROP_XI_AEAG_LEVEL with ['cv'] -> fullname:cv::CAP_PROP_XI_AEAG_LEVEL namespace:cv classpath: classname: name:CAP_PROP_XI_AEAG_LEVEL
+parse_name: const cv.CAP_PROP_XI_TIMEOUT with ['cv'] -> fullname:cv::CAP_PROP_XI_TIMEOUT namespace:cv classpath: classname: name:CAP_PROP_XI_TIMEOUT
+parse_name: const cv.CAP_PROP_XI_EXPOSURE with ['cv'] -> fullname:cv::CAP_PROP_XI_EXPOSURE namespace:cv classpath: classname: name:CAP_PROP_XI_EXPOSURE
+parse_name: const cv.CAP_PROP_XI_EXPOSURE_BURST_COUNT with ['cv'] -> fullname:cv::CAP_PROP_XI_EXPOSURE_BURST_COUNT namespace:cv classpath: classname: name:CAP_PROP_XI_EXPOSURE_BURST_COUNT
+parse_name: const cv.CAP_PROP_XI_GAIN_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_GAIN_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_GAIN_SELECTOR
+parse_name: const cv.CAP_PROP_XI_GAIN with ['cv'] -> fullname:cv::CAP_PROP_XI_GAIN namespace:cv classpath: classname: name:CAP_PROP_XI_GAIN
+parse_name: const cv.CAP_PROP_XI_DOWNSAMPLING_TYPE with ['cv'] -> fullname:cv::CAP_PROP_XI_DOWNSAMPLING_TYPE namespace:cv classpath: classname: name:CAP_PROP_XI_DOWNSAMPLING_TYPE
+parse_name: const cv.CAP_PROP_XI_BINNING_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_BINNING_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_BINNING_SELECTOR
+parse_name: const cv.CAP_PROP_XI_BINNING_VERTICAL with ['cv'] -> fullname:cv::CAP_PROP_XI_BINNING_VERTICAL namespace:cv classpath: classname: name:CAP_PROP_XI_BINNING_VERTICAL
+parse_name: const cv.CAP_PROP_XI_BINNING_HORIZONTAL with ['cv'] -> fullname:cv::CAP_PROP_XI_BINNING_HORIZONTAL namespace:cv classpath: classname: name:CAP_PROP_XI_BINNING_HORIZONTAL
+parse_name: const cv.CAP_PROP_XI_BINNING_PATTERN with ['cv'] -> fullname:cv::CAP_PROP_XI_BINNING_PATTERN namespace:cv classpath: classname: name:CAP_PROP_XI_BINNING_PATTERN
+parse_name: const cv.CAP_PROP_XI_DECIMATION_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_DECIMATION_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_DECIMATION_SELECTOR
+parse_name: const cv.CAP_PROP_XI_DECIMATION_VERTICAL with ['cv'] -> fullname:cv::CAP_PROP_XI_DECIMATION_VERTICAL namespace:cv classpath: classname: name:CAP_PROP_XI_DECIMATION_VERTICAL
+parse_name: const cv.CAP_PROP_XI_DECIMATION_HORIZONTAL with ['cv'] -> fullname:cv::CAP_PROP_XI_DECIMATION_HORIZONTAL namespace:cv classpath: classname: name:CAP_PROP_XI_DECIMATION_HORIZONTAL
+parse_name: const cv.CAP_PROP_XI_DECIMATION_PATTERN with ['cv'] -> fullname:cv::CAP_PROP_XI_DECIMATION_PATTERN namespace:cv classpath: classname: name:CAP_PROP_XI_DECIMATION_PATTERN
+parse_name: const cv.CAP_PROP_XI_TEST_PATTERN_GENERATOR_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_TEST_PATTERN_GENERATOR_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_TEST_PATTERN_GENERATOR_SELECTOR
+parse_name: const cv.CAP_PROP_XI_TEST_PATTERN with ['cv'] -> fullname:cv::CAP_PROP_XI_TEST_PATTERN namespace:cv classpath: classname: name:CAP_PROP_XI_TEST_PATTERN
+parse_name: const cv.CAP_PROP_XI_IMAGE_DATA_FORMAT with ['cv'] -> fullname:cv::CAP_PROP_XI_IMAGE_DATA_FORMAT namespace:cv classpath: classname: name:CAP_PROP_XI_IMAGE_DATA_FORMAT
+parse_name: const cv.CAP_PROP_XI_SHUTTER_TYPE with ['cv'] -> fullname:cv::CAP_PROP_XI_SHUTTER_TYPE namespace:cv classpath: classname: name:CAP_PROP_XI_SHUTTER_TYPE
+parse_name: const cv.CAP_PROP_XI_SENSOR_TAPS with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_TAPS namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_TAPS
+parse_name: const cv.CAP_PROP_XI_AEAG_ROI_OFFSET_X with ['cv'] -> fullname:cv::CAP_PROP_XI_AEAG_ROI_OFFSET_X namespace:cv classpath: classname: name:CAP_PROP_XI_AEAG_ROI_OFFSET_X
+parse_name: const cv.CAP_PROP_XI_AEAG_ROI_OFFSET_Y with ['cv'] -> fullname:cv::CAP_PROP_XI_AEAG_ROI_OFFSET_Y namespace:cv classpath: classname: name:CAP_PROP_XI_AEAG_ROI_OFFSET_Y
+parse_name: const cv.CAP_PROP_XI_AEAG_ROI_WIDTH with ['cv'] -> fullname:cv::CAP_PROP_XI_AEAG_ROI_WIDTH namespace:cv classpath: classname: name:CAP_PROP_XI_AEAG_ROI_WIDTH
+parse_name: const cv.CAP_PROP_XI_AEAG_ROI_HEIGHT with ['cv'] -> fullname:cv::CAP_PROP_XI_AEAG_ROI_HEIGHT namespace:cv classpath: classname: name:CAP_PROP_XI_AEAG_ROI_HEIGHT
+parse_name: const cv.CAP_PROP_XI_BPC with ['cv'] -> fullname:cv::CAP_PROP_XI_BPC namespace:cv classpath: classname: name:CAP_PROP_XI_BPC
+parse_name: const cv.CAP_PROP_XI_WB_KR with ['cv'] -> fullname:cv::CAP_PROP_XI_WB_KR namespace:cv classpath: classname: name:CAP_PROP_XI_WB_KR
+parse_name: const cv.CAP_PROP_XI_WB_KG with ['cv'] -> fullname:cv::CAP_PROP_XI_WB_KG namespace:cv classpath: classname: name:CAP_PROP_XI_WB_KG
+parse_name: const cv.CAP_PROP_XI_WB_KB with ['cv'] -> fullname:cv::CAP_PROP_XI_WB_KB namespace:cv classpath: classname: name:CAP_PROP_XI_WB_KB
+parse_name: const cv.CAP_PROP_XI_WIDTH with ['cv'] -> fullname:cv::CAP_PROP_XI_WIDTH namespace:cv classpath: classname: name:CAP_PROP_XI_WIDTH
+parse_name: const cv.CAP_PROP_XI_HEIGHT with ['cv'] -> fullname:cv::CAP_PROP_XI_HEIGHT namespace:cv classpath: classname: name:CAP_PROP_XI_HEIGHT
+parse_name: const cv.CAP_PROP_XI_REGION_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_REGION_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_REGION_SELECTOR
+parse_name: const cv.CAP_PROP_XI_REGION_MODE with ['cv'] -> fullname:cv::CAP_PROP_XI_REGION_MODE namespace:cv classpath: classname: name:CAP_PROP_XI_REGION_MODE
+parse_name: const cv.CAP_PROP_XI_LIMIT_BANDWIDTH with ['cv'] -> fullname:cv::CAP_PROP_XI_LIMIT_BANDWIDTH namespace:cv classpath: classname: name:CAP_PROP_XI_LIMIT_BANDWIDTH
+parse_name: const cv.CAP_PROP_XI_SENSOR_DATA_BIT_DEPTH with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_DATA_BIT_DEPTH namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_DATA_BIT_DEPTH
+parse_name: const cv.CAP_PROP_XI_OUTPUT_DATA_BIT_DEPTH with ['cv'] -> fullname:cv::CAP_PROP_XI_OUTPUT_DATA_BIT_DEPTH namespace:cv classpath: classname: name:CAP_PROP_XI_OUTPUT_DATA_BIT_DEPTH
+parse_name: const cv.CAP_PROP_XI_IMAGE_DATA_BIT_DEPTH with ['cv'] -> fullname:cv::CAP_PROP_XI_IMAGE_DATA_BIT_DEPTH namespace:cv classpath: classname: name:CAP_PROP_XI_IMAGE_DATA_BIT_DEPTH
+parse_name: const cv.CAP_PROP_XI_OUTPUT_DATA_PACKING with ['cv'] -> fullname:cv::CAP_PROP_XI_OUTPUT_DATA_PACKING namespace:cv classpath: classname: name:CAP_PROP_XI_OUTPUT_DATA_PACKING
+parse_name: const cv.CAP_PROP_XI_OUTPUT_DATA_PACKING_TYPE with ['cv'] -> fullname:cv::CAP_PROP_XI_OUTPUT_DATA_PACKING_TYPE namespace:cv classpath: classname: name:CAP_PROP_XI_OUTPUT_DATA_PACKING_TYPE
+parse_name: const cv.CAP_PROP_XI_IS_COOLED with ['cv'] -> fullname:cv::CAP_PROP_XI_IS_COOLED namespace:cv classpath: classname: name:CAP_PROP_XI_IS_COOLED
+parse_name: const cv.CAP_PROP_XI_COOLING with ['cv'] -> fullname:cv::CAP_PROP_XI_COOLING namespace:cv classpath: classname: name:CAP_PROP_XI_COOLING
+parse_name: const cv.CAP_PROP_XI_TARGET_TEMP with ['cv'] -> fullname:cv::CAP_PROP_XI_TARGET_TEMP namespace:cv classpath: classname: name:CAP_PROP_XI_TARGET_TEMP
+parse_name: const cv.CAP_PROP_XI_CHIP_TEMP with ['cv'] -> fullname:cv::CAP_PROP_XI_CHIP_TEMP namespace:cv classpath: classname: name:CAP_PROP_XI_CHIP_TEMP
+parse_name: const cv.CAP_PROP_XI_HOUS_TEMP with ['cv'] -> fullname:cv::CAP_PROP_XI_HOUS_TEMP namespace:cv classpath: classname: name:CAP_PROP_XI_HOUS_TEMP
+parse_name: const cv.CAP_PROP_XI_HOUS_BACK_SIDE_TEMP with ['cv'] -> fullname:cv::CAP_PROP_XI_HOUS_BACK_SIDE_TEMP namespace:cv classpath: classname: name:CAP_PROP_XI_HOUS_BACK_SIDE_TEMP
+parse_name: const cv.CAP_PROP_XI_SENSOR_BOARD_TEMP with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_BOARD_TEMP namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_BOARD_TEMP
+parse_name: const cv.CAP_PROP_XI_CMS with ['cv'] -> fullname:cv::CAP_PROP_XI_CMS namespace:cv classpath: classname: name:CAP_PROP_XI_CMS
+parse_name: const cv.CAP_PROP_XI_APPLY_CMS with ['cv'] -> fullname:cv::CAP_PROP_XI_APPLY_CMS namespace:cv classpath: classname: name:CAP_PROP_XI_APPLY_CMS
+parse_name: const cv.CAP_PROP_XI_IMAGE_IS_COLOR with ['cv'] -> fullname:cv::CAP_PROP_XI_IMAGE_IS_COLOR namespace:cv classpath: classname: name:CAP_PROP_XI_IMAGE_IS_COLOR
+parse_name: const cv.CAP_PROP_XI_COLOR_FILTER_ARRAY with ['cv'] -> fullname:cv::CAP_PROP_XI_COLOR_FILTER_ARRAY namespace:cv classpath: classname: name:CAP_PROP_XI_COLOR_FILTER_ARRAY
+parse_name: const cv.CAP_PROP_XI_GAMMAY with ['cv'] -> fullname:cv::CAP_PROP_XI_GAMMAY namespace:cv classpath: classname: name:CAP_PROP_XI_GAMMAY
+parse_name: const cv.CAP_PROP_XI_GAMMAC with ['cv'] -> fullname:cv::CAP_PROP_XI_GAMMAC namespace:cv classpath: classname: name:CAP_PROP_XI_GAMMAC
+parse_name: const cv.CAP_PROP_XI_SHARPNESS with ['cv'] -> fullname:cv::CAP_PROP_XI_SHARPNESS namespace:cv classpath: classname: name:CAP_PROP_XI_SHARPNESS
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_00 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_00 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_00
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_01 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_01 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_01
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_02 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_02 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_02
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_03 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_03 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_03
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_10 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_10 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_10
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_11 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_11 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_11
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_12 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_12 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_12
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_13 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_13 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_13
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_20 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_20 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_20
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_21 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_21 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_21
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_22 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_22 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_22
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_23 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_23 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_23
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_30 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_30 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_30
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_31 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_31 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_31
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_32 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_32 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_32
+parse_name: const cv.CAP_PROP_XI_CC_MATRIX_33 with ['cv'] -> fullname:cv::CAP_PROP_XI_CC_MATRIX_33 namespace:cv classpath: classname: name:CAP_PROP_XI_CC_MATRIX_33
+parse_name: const cv.CAP_PROP_XI_DEFAULT_CC_MATRIX with ['cv'] -> fullname:cv::CAP_PROP_XI_DEFAULT_CC_MATRIX namespace:cv classpath: classname: name:CAP_PROP_XI_DEFAULT_CC_MATRIX
+parse_name: const cv.CAP_PROP_XI_TRG_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_TRG_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_TRG_SELECTOR
+parse_name: const cv.CAP_PROP_XI_ACQ_FRAME_BURST_COUNT with ['cv'] -> fullname:cv::CAP_PROP_XI_ACQ_FRAME_BURST_COUNT namespace:cv classpath: classname: name:CAP_PROP_XI_ACQ_FRAME_BURST_COUNT
+parse_name: const cv.CAP_PROP_XI_DEBOUNCE_EN with ['cv'] -> fullname:cv::CAP_PROP_XI_DEBOUNCE_EN namespace:cv classpath: classname: name:CAP_PROP_XI_DEBOUNCE_EN
+parse_name: const cv.CAP_PROP_XI_DEBOUNCE_T0 with ['cv'] -> fullname:cv::CAP_PROP_XI_DEBOUNCE_T0 namespace:cv classpath: classname: name:CAP_PROP_XI_DEBOUNCE_T0
+parse_name: const cv.CAP_PROP_XI_DEBOUNCE_T1 with ['cv'] -> fullname:cv::CAP_PROP_XI_DEBOUNCE_T1 namespace:cv classpath: classname: name:CAP_PROP_XI_DEBOUNCE_T1
+parse_name: const cv.CAP_PROP_XI_DEBOUNCE_POL with ['cv'] -> fullname:cv::CAP_PROP_XI_DEBOUNCE_POL namespace:cv classpath: classname: name:CAP_PROP_XI_DEBOUNCE_POL
+parse_name: const cv.CAP_PROP_XI_LENS_MODE with ['cv'] -> fullname:cv::CAP_PROP_XI_LENS_MODE namespace:cv classpath: classname: name:CAP_PROP_XI_LENS_MODE
+parse_name: const cv.CAP_PROP_XI_LENS_APERTURE_VALUE with ['cv'] -> fullname:cv::CAP_PROP_XI_LENS_APERTURE_VALUE namespace:cv classpath: classname: name:CAP_PROP_XI_LENS_APERTURE_VALUE
+parse_name: const cv.CAP_PROP_XI_LENS_FOCUS_MOVEMENT_VALUE with ['cv'] -> fullname:cv::CAP_PROP_XI_LENS_FOCUS_MOVEMENT_VALUE namespace:cv classpath: classname: name:CAP_PROP_XI_LENS_FOCUS_MOVEMENT_VALUE
+parse_name: const cv.CAP_PROP_XI_LENS_FOCUS_MOVE with ['cv'] -> fullname:cv::CAP_PROP_XI_LENS_FOCUS_MOVE namespace:cv classpath: classname: name:CAP_PROP_XI_LENS_FOCUS_MOVE
+parse_name: const cv.CAP_PROP_XI_LENS_FOCUS_DISTANCE with ['cv'] -> fullname:cv::CAP_PROP_XI_LENS_FOCUS_DISTANCE namespace:cv classpath: classname: name:CAP_PROP_XI_LENS_FOCUS_DISTANCE
+parse_name: const cv.CAP_PROP_XI_LENS_FOCAL_LENGTH with ['cv'] -> fullname:cv::CAP_PROP_XI_LENS_FOCAL_LENGTH namespace:cv classpath: classname: name:CAP_PROP_XI_LENS_FOCAL_LENGTH
+parse_name: const cv.CAP_PROP_XI_LENS_FEATURE_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_LENS_FEATURE_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_LENS_FEATURE_SELECTOR
+parse_name: const cv.CAP_PROP_XI_LENS_FEATURE with ['cv'] -> fullname:cv::CAP_PROP_XI_LENS_FEATURE namespace:cv classpath: classname: name:CAP_PROP_XI_LENS_FEATURE
+parse_name: const cv.CAP_PROP_XI_DEVICE_MODEL_ID with ['cv'] -> fullname:cv::CAP_PROP_XI_DEVICE_MODEL_ID namespace:cv classpath: classname: name:CAP_PROP_XI_DEVICE_MODEL_ID
+parse_name: const cv.CAP_PROP_XI_DEVICE_SN with ['cv'] -> fullname:cv::CAP_PROP_XI_DEVICE_SN namespace:cv classpath: classname: name:CAP_PROP_XI_DEVICE_SN
+parse_name: const cv.CAP_PROP_XI_IMAGE_DATA_FORMAT_RGB32_ALPHA with ['cv'] -> fullname:cv::CAP_PROP_XI_IMAGE_DATA_FORMAT_RGB32_ALPHA namespace:cv classpath: classname: name:CAP_PROP_XI_IMAGE_DATA_FORMAT_RGB32_ALPHA
+parse_name: const cv.CAP_PROP_XI_IMAGE_PAYLOAD_SIZE with ['cv'] -> fullname:cv::CAP_PROP_XI_IMAGE_PAYLOAD_SIZE namespace:cv classpath: classname: name:CAP_PROP_XI_IMAGE_PAYLOAD_SIZE
+parse_name: const cv.CAP_PROP_XI_TRANSPORT_PIXEL_FORMAT with ['cv'] -> fullname:cv::CAP_PROP_XI_TRANSPORT_PIXEL_FORMAT namespace:cv classpath: classname: name:CAP_PROP_XI_TRANSPORT_PIXEL_FORMAT
+parse_name: const cv.CAP_PROP_XI_SENSOR_CLOCK_FREQ_HZ with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_CLOCK_FREQ_HZ namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_CLOCK_FREQ_HZ
+parse_name: const cv.CAP_PROP_XI_SENSOR_CLOCK_FREQ_INDEX with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_CLOCK_FREQ_INDEX namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_CLOCK_FREQ_INDEX
+parse_name: const cv.CAP_PROP_XI_SENSOR_OUTPUT_CHANNEL_COUNT with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_OUTPUT_CHANNEL_COUNT namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_OUTPUT_CHANNEL_COUNT
+parse_name: const cv.CAP_PROP_XI_FRAMERATE with ['cv'] -> fullname:cv::CAP_PROP_XI_FRAMERATE namespace:cv classpath: classname: name:CAP_PROP_XI_FRAMERATE
+parse_name: const cv.CAP_PROP_XI_COUNTER_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_COUNTER_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_COUNTER_SELECTOR
+parse_name: const cv.CAP_PROP_XI_COUNTER_VALUE with ['cv'] -> fullname:cv::CAP_PROP_XI_COUNTER_VALUE namespace:cv classpath: classname: name:CAP_PROP_XI_COUNTER_VALUE
+parse_name: const cv.CAP_PROP_XI_ACQ_TIMING_MODE with ['cv'] -> fullname:cv::CAP_PROP_XI_ACQ_TIMING_MODE namespace:cv classpath: classname: name:CAP_PROP_XI_ACQ_TIMING_MODE
+parse_name: const cv.CAP_PROP_XI_AVAILABLE_BANDWIDTH with ['cv'] -> fullname:cv::CAP_PROP_XI_AVAILABLE_BANDWIDTH namespace:cv classpath: classname: name:CAP_PROP_XI_AVAILABLE_BANDWIDTH
+parse_name: const cv.CAP_PROP_XI_BUFFER_POLICY with ['cv'] -> fullname:cv::CAP_PROP_XI_BUFFER_POLICY namespace:cv classpath: classname: name:CAP_PROP_XI_BUFFER_POLICY
+parse_name: const cv.CAP_PROP_XI_LUT_EN with ['cv'] -> fullname:cv::CAP_PROP_XI_LUT_EN namespace:cv classpath: classname: name:CAP_PROP_XI_LUT_EN
+parse_name: const cv.CAP_PROP_XI_LUT_INDEX with ['cv'] -> fullname:cv::CAP_PROP_XI_LUT_INDEX namespace:cv classpath: classname: name:CAP_PROP_XI_LUT_INDEX
+parse_name: const cv.CAP_PROP_XI_LUT_VALUE with ['cv'] -> fullname:cv::CAP_PROP_XI_LUT_VALUE namespace:cv classpath: classname: name:CAP_PROP_XI_LUT_VALUE
+parse_name: const cv.CAP_PROP_XI_TRG_DELAY with ['cv'] -> fullname:cv::CAP_PROP_XI_TRG_DELAY namespace:cv classpath: classname: name:CAP_PROP_XI_TRG_DELAY
+parse_name: const cv.CAP_PROP_XI_TS_RST_MODE with ['cv'] -> fullname:cv::CAP_PROP_XI_TS_RST_MODE namespace:cv classpath: classname: name:CAP_PROP_XI_TS_RST_MODE
+parse_name: const cv.CAP_PROP_XI_TS_RST_SOURCE with ['cv'] -> fullname:cv::CAP_PROP_XI_TS_RST_SOURCE namespace:cv classpath: classname: name:CAP_PROP_XI_TS_RST_SOURCE
+parse_name: const cv.CAP_PROP_XI_IS_DEVICE_EXIST with ['cv'] -> fullname:cv::CAP_PROP_XI_IS_DEVICE_EXIST namespace:cv classpath: classname: name:CAP_PROP_XI_IS_DEVICE_EXIST
+parse_name: const cv.CAP_PROP_XI_ACQ_BUFFER_SIZE with ['cv'] -> fullname:cv::CAP_PROP_XI_ACQ_BUFFER_SIZE namespace:cv classpath: classname: name:CAP_PROP_XI_ACQ_BUFFER_SIZE
+parse_name: const cv.CAP_PROP_XI_ACQ_BUFFER_SIZE_UNIT with ['cv'] -> fullname:cv::CAP_PROP_XI_ACQ_BUFFER_SIZE_UNIT namespace:cv classpath: classname: name:CAP_PROP_XI_ACQ_BUFFER_SIZE_UNIT
+parse_name: const cv.CAP_PROP_XI_ACQ_TRANSPORT_BUFFER_SIZE with ['cv'] -> fullname:cv::CAP_PROP_XI_ACQ_TRANSPORT_BUFFER_SIZE namespace:cv classpath: classname: name:CAP_PROP_XI_ACQ_TRANSPORT_BUFFER_SIZE
+parse_name: const cv.CAP_PROP_XI_BUFFERS_QUEUE_SIZE with ['cv'] -> fullname:cv::CAP_PROP_XI_BUFFERS_QUEUE_SIZE namespace:cv classpath: classname: name:CAP_PROP_XI_BUFFERS_QUEUE_SIZE
+parse_name: const cv.CAP_PROP_XI_ACQ_TRANSPORT_BUFFER_COMMIT with ['cv'] -> fullname:cv::CAP_PROP_XI_ACQ_TRANSPORT_BUFFER_COMMIT namespace:cv classpath: classname: name:CAP_PROP_XI_ACQ_TRANSPORT_BUFFER_COMMIT
+parse_name: const cv.CAP_PROP_XI_RECENT_FRAME with ['cv'] -> fullname:cv::CAP_PROP_XI_RECENT_FRAME namespace:cv classpath: classname: name:CAP_PROP_XI_RECENT_FRAME
+parse_name: const cv.CAP_PROP_XI_DEVICE_RESET with ['cv'] -> fullname:cv::CAP_PROP_XI_DEVICE_RESET namespace:cv classpath: classname: name:CAP_PROP_XI_DEVICE_RESET
+parse_name: const cv.CAP_PROP_XI_COLUMN_FPN_CORRECTION with ['cv'] -> fullname:cv::CAP_PROP_XI_COLUMN_FPN_CORRECTION namespace:cv classpath: classname: name:CAP_PROP_XI_COLUMN_FPN_CORRECTION
+parse_name: const cv.CAP_PROP_XI_ROW_FPN_CORRECTION with ['cv'] -> fullname:cv::CAP_PROP_XI_ROW_FPN_CORRECTION namespace:cv classpath: classname: name:CAP_PROP_XI_ROW_FPN_CORRECTION
+parse_name: const cv.CAP_PROP_XI_SENSOR_MODE with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_MODE namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_MODE
+parse_name: const cv.CAP_PROP_XI_HDR with ['cv'] -> fullname:cv::CAP_PROP_XI_HDR namespace:cv classpath: classname: name:CAP_PROP_XI_HDR
+parse_name: const cv.CAP_PROP_XI_HDR_KNEEPOINT_COUNT with ['cv'] -> fullname:cv::CAP_PROP_XI_HDR_KNEEPOINT_COUNT namespace:cv classpath: classname: name:CAP_PROP_XI_HDR_KNEEPOINT_COUNT
+parse_name: const cv.CAP_PROP_XI_HDR_T1 with ['cv'] -> fullname:cv::CAP_PROP_XI_HDR_T1 namespace:cv classpath: classname: name:CAP_PROP_XI_HDR_T1
+parse_name: const cv.CAP_PROP_XI_HDR_T2 with ['cv'] -> fullname:cv::CAP_PROP_XI_HDR_T2 namespace:cv classpath: classname: name:CAP_PROP_XI_HDR_T2
+parse_name: const cv.CAP_PROP_XI_KNEEPOINT1 with ['cv'] -> fullname:cv::CAP_PROP_XI_KNEEPOINT1 namespace:cv classpath: classname: name:CAP_PROP_XI_KNEEPOINT1
+parse_name: const cv.CAP_PROP_XI_KNEEPOINT2 with ['cv'] -> fullname:cv::CAP_PROP_XI_KNEEPOINT2 namespace:cv classpath: classname: name:CAP_PROP_XI_KNEEPOINT2
+parse_name: const cv.CAP_PROP_XI_IMAGE_BLACK_LEVEL with ['cv'] -> fullname:cv::CAP_PROP_XI_IMAGE_BLACK_LEVEL namespace:cv classpath: classname: name:CAP_PROP_XI_IMAGE_BLACK_LEVEL
+parse_name: const cv.CAP_PROP_XI_HW_REVISION with ['cv'] -> fullname:cv::CAP_PROP_XI_HW_REVISION namespace:cv classpath: classname: name:CAP_PROP_XI_HW_REVISION
+parse_name: const cv.CAP_PROP_XI_DEBUG_LEVEL with ['cv'] -> fullname:cv::CAP_PROP_XI_DEBUG_LEVEL namespace:cv classpath: classname: name:CAP_PROP_XI_DEBUG_LEVEL
+parse_name: const cv.CAP_PROP_XI_AUTO_BANDWIDTH_CALCULATION with ['cv'] -> fullname:cv::CAP_PROP_XI_AUTO_BANDWIDTH_CALCULATION namespace:cv classpath: classname: name:CAP_PROP_XI_AUTO_BANDWIDTH_CALCULATION
+parse_name: const cv.CAP_PROP_XI_FFS_FILE_ID with ['cv'] -> fullname:cv::CAP_PROP_XI_FFS_FILE_ID namespace:cv classpath: classname: name:CAP_PROP_XI_FFS_FILE_ID
+parse_name: const cv.CAP_PROP_XI_FFS_FILE_SIZE with ['cv'] -> fullname:cv::CAP_PROP_XI_FFS_FILE_SIZE namespace:cv classpath: classname: name:CAP_PROP_XI_FFS_FILE_SIZE
+parse_name: const cv.CAP_PROP_XI_FREE_FFS_SIZE with ['cv'] -> fullname:cv::CAP_PROP_XI_FREE_FFS_SIZE namespace:cv classpath: classname: name:CAP_PROP_XI_FREE_FFS_SIZE
+parse_name: const cv.CAP_PROP_XI_USED_FFS_SIZE with ['cv'] -> fullname:cv::CAP_PROP_XI_USED_FFS_SIZE namespace:cv classpath: classname: name:CAP_PROP_XI_USED_FFS_SIZE
+parse_name: const cv.CAP_PROP_XI_FFS_ACCESS_KEY with ['cv'] -> fullname:cv::CAP_PROP_XI_FFS_ACCESS_KEY namespace:cv classpath: classname: name:CAP_PROP_XI_FFS_ACCESS_KEY
+parse_name: const cv.CAP_PROP_XI_SENSOR_FEATURE_SELECTOR with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_FEATURE_SELECTOR namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_FEATURE_SELECTOR
+parse_name: const cv.CAP_PROP_XI_SENSOR_FEATURE_VALUE with ['cv'] -> fullname:cv::CAP_PROP_XI_SENSOR_FEATURE_VALUE namespace:cv classpath: classname: name:CAP_PROP_XI_SENSOR_FEATURE_VALUE
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_PROP_IOS_DEVICE_FOCUS', '9001', [], [], None, ''],
+        ['const cv.CAP_PROP_IOS_DEVICE_EXPOSURE', '9002', [], [], None, ''],
+        ['const cv.CAP_PROP_IOS_DEVICE_FLASH', '9003', [], [], None, ''],
+        ['const cv.CAP_PROP_IOS_DEVICE_WHITEBALANCE', '9004', [], [], None, ''],
+        ['const cv.CAP_PROP_IOS_DEVICE_TORCH', '9005', [], [], None, '']],
+    None,
+    '@name AVFoundation framework for iOS\n'
+    'OS X Lion will have the same API\n'
+    '@{\n'
+    '\n'
+    'Properties of cameras available through AVFOUNDATION backend']
+parse_name: const cv.CAP_PROP_IOS_DEVICE_FOCUS with ['cv'] -> fullname:cv::CAP_PROP_IOS_DEVICE_FOCUS namespace:cv classpath: classname: name:CAP_PROP_IOS_DEVICE_FOCUS
+parse_name: const cv.CAP_PROP_IOS_DEVICE_EXPOSURE with ['cv'] -> fullname:cv::CAP_PROP_IOS_DEVICE_EXPOSURE namespace:cv classpath: classname: name:CAP_PROP_IOS_DEVICE_EXPOSURE
+parse_name: const cv.CAP_PROP_IOS_DEVICE_FLASH with ['cv'] -> fullname:cv::CAP_PROP_IOS_DEVICE_FLASH namespace:cv classpath: classname: name:CAP_PROP_IOS_DEVICE_FLASH
+parse_name: const cv.CAP_PROP_IOS_DEVICE_WHITEBALANCE with ['cv'] -> fullname:cv::CAP_PROP_IOS_DEVICE_WHITEBALANCE namespace:cv classpath: classname: name:CAP_PROP_IOS_DEVICE_WHITEBALANCE
+parse_name: const cv.CAP_PROP_IOS_DEVICE_TORCH with ['cv'] -> fullname:cv::CAP_PROP_IOS_DEVICE_TORCH namespace:cv classpath: classname: name:CAP_PROP_IOS_DEVICE_TORCH
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_PROP_GIGA_FRAME_OFFSET_X', '10001', [], [], None, ''],
+        ['const cv.CAP_PROP_GIGA_FRAME_OFFSET_Y', '10002', [], [], None, ''],
+        ['const cv.CAP_PROP_GIGA_FRAME_WIDTH_MAX', '10003', [], [], None, ''],
+        ['const cv.CAP_PROP_GIGA_FRAME_HEIGH_MAX', '10004', [], [], None, ''],
+        ['const cv.CAP_PROP_GIGA_FRAME_SENS_WIDTH', '10005', [], [], None, ''],
+        ['const cv.CAP_PROP_GIGA_FRAME_SENS_HEIGH', '10006', [], [], None, '']],
+    None,
+    '@name Smartek Giganetix GigEVisionSDK\n'
+    '@{\n'
+    '\n'
+    'Properties of cameras available through Smartek Giganetix Ethernet Vision '
+    'backend']
+parse_name: const cv.CAP_PROP_GIGA_FRAME_OFFSET_X with ['cv'] -> fullname:cv::CAP_PROP_GIGA_FRAME_OFFSET_X namespace:cv classpath: classname: name:CAP_PROP_GIGA_FRAME_OFFSET_X
+parse_name: const cv.CAP_PROP_GIGA_FRAME_OFFSET_Y with ['cv'] -> fullname:cv::CAP_PROP_GIGA_FRAME_OFFSET_Y namespace:cv classpath: classname: name:CAP_PROP_GIGA_FRAME_OFFSET_Y
+parse_name: const cv.CAP_PROP_GIGA_FRAME_WIDTH_MAX with ['cv'] -> fullname:cv::CAP_PROP_GIGA_FRAME_WIDTH_MAX namespace:cv classpath: classname: name:CAP_PROP_GIGA_FRAME_WIDTH_MAX
+parse_name: const cv.CAP_PROP_GIGA_FRAME_HEIGH_MAX with ['cv'] -> fullname:cv::CAP_PROP_GIGA_FRAME_HEIGH_MAX namespace:cv classpath: classname: name:CAP_PROP_GIGA_FRAME_HEIGH_MAX
+parse_name: const cv.CAP_PROP_GIGA_FRAME_SENS_WIDTH with ['cv'] -> fullname:cv::CAP_PROP_GIGA_FRAME_SENS_WIDTH namespace:cv classpath: classname: name:CAP_PROP_GIGA_FRAME_SENS_WIDTH
+parse_name: const cv.CAP_PROP_GIGA_FRAME_SENS_HEIGH with ['cv'] -> fullname:cv::CAP_PROP_GIGA_FRAME_SENS_HEIGH namespace:cv classpath: classname: name:CAP_PROP_GIGA_FRAME_SENS_HEIGH
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_PROP_INTELPERC_PROFILE_COUNT',
+            '11001',
+            [],
+            [],
+            None,
+            ''],
+        ['const cv.CAP_PROP_INTELPERC_PROFILE_IDX', '11002', [], [], None, ''],
+        [   'const cv.CAP_PROP_INTELPERC_DEPTH_LOW_CONFIDENCE_VALUE',
+            '11003',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_PROP_INTELPERC_DEPTH_SATURATION_VALUE',
+            '11004',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_PROP_INTELPERC_DEPTH_CONFIDENCE_THRESHOLD',
+            '11005',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_PROP_INTELPERC_DEPTH_FOCAL_LENGTH_HORZ',
+            '11006',
+            [],
+            [],
+            None,
+            ''],
+        [   'const cv.CAP_PROP_INTELPERC_DEPTH_FOCAL_LENGTH_VERT',
+            '11007',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    '@name Intel Perceptual Computing SDK\n@{']
+parse_name: const cv.CAP_PROP_INTELPERC_PROFILE_COUNT with ['cv'] -> fullname:cv::CAP_PROP_INTELPERC_PROFILE_COUNT namespace:cv classpath: classname: name:CAP_PROP_INTELPERC_PROFILE_COUNT
+parse_name: const cv.CAP_PROP_INTELPERC_PROFILE_IDX with ['cv'] -> fullname:cv::CAP_PROP_INTELPERC_PROFILE_IDX namespace:cv classpath: classname: name:CAP_PROP_INTELPERC_PROFILE_IDX
+parse_name: const cv.CAP_PROP_INTELPERC_DEPTH_LOW_CONFIDENCE_VALUE with ['cv'] -> fullname:cv::CAP_PROP_INTELPERC_DEPTH_LOW_CONFIDENCE_VALUE namespace:cv classpath: classname: name:CAP_PROP_INTELPERC_DEPTH_LOW_CONFIDENCE_VALUE
+parse_name: const cv.CAP_PROP_INTELPERC_DEPTH_SATURATION_VALUE with ['cv'] -> fullname:cv::CAP_PROP_INTELPERC_DEPTH_SATURATION_VALUE namespace:cv classpath: classname: name:CAP_PROP_INTELPERC_DEPTH_SATURATION_VALUE
+parse_name: const cv.CAP_PROP_INTELPERC_DEPTH_CONFIDENCE_THRESHOLD with ['cv'] -> fullname:cv::CAP_PROP_INTELPERC_DEPTH_CONFIDENCE_THRESHOLD namespace:cv classpath: classname: name:CAP_PROP_INTELPERC_DEPTH_CONFIDENCE_THRESHOLD
+parse_name: const cv.CAP_PROP_INTELPERC_DEPTH_FOCAL_LENGTH_HORZ with ['cv'] -> fullname:cv::CAP_PROP_INTELPERC_DEPTH_FOCAL_LENGTH_HORZ namespace:cv classpath: classname: name:CAP_PROP_INTELPERC_DEPTH_FOCAL_LENGTH_HORZ
+parse_name: const cv.CAP_PROP_INTELPERC_DEPTH_FOCAL_LENGTH_VERT with ['cv'] -> fullname:cv::CAP_PROP_INTELPERC_DEPTH_FOCAL_LENGTH_VERT namespace:cv classpath: classname: name:CAP_PROP_INTELPERC_DEPTH_FOCAL_LENGTH_VERT
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_INTELPERC_DEPTH_GENERATOR', '1 << 29', [], [], None, ''],
+        ['const cv.CAP_INTELPERC_IMAGE_GENERATOR', '1 << 28', [], [], None, ''],
+        ['const cv.CAP_INTELPERC_IR_GENERATOR', '1 << 27', [], [], None, ''],
+        [   'const cv.CAP_INTELPERC_GENERATORS_MASK',
+            'CAP_INTELPERC_DEPTH_GENERATOR + CAP_INTELPERC_IMAGE_GENERATOR + '
+            'CAP_INTELPERC_IR_GENERATOR',
+            [],
+            [],
+            None,
+            '']],
+    None,
+    'Intel Perceptual Streams']
+parse_name: const cv.CAP_INTELPERC_DEPTH_GENERATOR with ['cv'] -> fullname:cv::CAP_INTELPERC_DEPTH_GENERATOR namespace:cv classpath: classname: name:CAP_INTELPERC_DEPTH_GENERATOR
+parse_name: const cv.CAP_INTELPERC_IMAGE_GENERATOR with ['cv'] -> fullname:cv::CAP_INTELPERC_IMAGE_GENERATOR namespace:cv classpath: classname: name:CAP_INTELPERC_IMAGE_GENERATOR
+parse_name: const cv.CAP_INTELPERC_IR_GENERATOR with ['cv'] -> fullname:cv::CAP_INTELPERC_IR_GENERATOR namespace:cv classpath: classname: name:CAP_INTELPERC_IR_GENERATOR
+parse_name: const cv.CAP_INTELPERC_GENERATORS_MASK with ['cv'] -> fullname:cv::CAP_INTELPERC_GENERATORS_MASK namespace:cv classpath: classname: name:CAP_INTELPERC_GENERATORS_MASK
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_INTELPERC_DEPTH_MAP',
+            '0',
+            [],
+            [],
+            None,
+            'Each pixel is a 16-bit integer. The value indicates the distance '
+            "from an object to the camera's XY plane or the Cartesian "
+            'depth.\n'],
+        [   'const cv.CAP_INTELPERC_UVDEPTH_MAP',
+            '1',
+            [],
+            [],
+            None,
+            'Each pixel contains two 32-bit floating point values in the range '
+            'of 0-1, representing the mapping of depth coordinates to the '
+            'color coordinates.\n'],
+        [   'const cv.CAP_INTELPERC_IR_MAP',
+            '2',
+            [],
+            [],
+            None,
+            'Each pixel is a 16-bit integer. The value indicates the intensity '
+            'of the reflected laser beam.\n'],
+        ['const cv.CAP_INTELPERC_IMAGE', '3', [], [], None, '']],
+    None,
+    '']
+parse_name: const cv.CAP_INTELPERC_DEPTH_MAP with ['cv'] -> fullname:cv::CAP_INTELPERC_DEPTH_MAP namespace:cv classpath: classname: name:CAP_INTELPERC_DEPTH_MAP
+parse_name: const cv.CAP_INTELPERC_UVDEPTH_MAP with ['cv'] -> fullname:cv::CAP_INTELPERC_UVDEPTH_MAP namespace:cv classpath: classname: name:CAP_INTELPERC_UVDEPTH_MAP
+parse_name: const cv.CAP_INTELPERC_IR_MAP with ['cv'] -> fullname:cv::CAP_INTELPERC_IR_MAP namespace:cv classpath: classname: name:CAP_INTELPERC_IR_MAP
+parse_name: const cv.CAP_INTELPERC_IMAGE with ['cv'] -> fullname:cv::CAP_INTELPERC_IMAGE namespace:cv classpath: classname: name:CAP_INTELPERC_IMAGE
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   [   'const cv.CAP_PROP_GPHOTO2_PREVIEW',
+            '17001',
+            [],
+            [],
+            None,
+            'Capture only preview from liveview mode.\n'],
+        [   'const cv.CAP_PROP_GPHOTO2_WIDGET_ENUMERATE',
+            '17002',
+            [],
+            [],
+            None,
+            'Readonly, returns (const char *).\n'],
+        [   'const cv.CAP_PROP_GPHOTO2_RELOAD_CONFIG',
+            '17003',
+            [],
+            [],
+            None,
+            'Trigger, only by set. Reload camera settings.\n'],
+        [   'const cv.CAP_PROP_GPHOTO2_RELOAD_ON_CHANGE',
+            '17004',
+            [],
+            [],
+            None,
+            'Reload all settings on set.\n'],
+        [   'const cv.CAP_PROP_GPHOTO2_COLLECT_MSGS',
+            '17005',
+            [],
+            [],
+            None,
+            'Collect messages with details.\n'],
+        [   'const cv.CAP_PROP_GPHOTO2_FLUSH_MSGS',
+            '17006',
+            [],
+            [],
+            None,
+            'Readonly, returns (const char *).\n'],
+        [   'const cv.CAP_PROP_SPEED',
+            '17007',
+            [],
+            [],
+            None,
+            'Exposure speed. Can be readonly, depends on camera program.\n'],
+        [   'const cv.CAP_PROP_APERTURE',
+            '17008',
+            [],
+            [],
+            None,
+            'Aperture. Can be readonly, depends on camera program.\n'],
+        [   'const cv.CAP_PROP_EXPOSUREPROGRAM',
+            '17009',
+            [],
+            [],
+            None,
+            'Camera exposure program.\n'],
+        [   'const cv.CAP_PROP_VIEWFINDER',
+            '17010',
+            [],
+            [],
+            None,
+            'Enter liveview mode.\n']],
+    None,
+    '@brief gPhoto2 properties\n'
+    '\n'
+    'If `propertyId` is less than 0 then work on widget with that __additive '
+    'inversed__ camera setting ID\n'
+    'Get IDs by using CAP_PROP_GPHOTO2_WIDGET_ENUMERATE.\n'
+    '@see CvCaptureCAM_GPHOTO2 for more info']
+parse_name: const cv.CAP_PROP_GPHOTO2_PREVIEW with ['cv'] -> fullname:cv::CAP_PROP_GPHOTO2_PREVIEW namespace:cv classpath: classname: name:CAP_PROP_GPHOTO2_PREVIEW
+parse_name: const cv.CAP_PROP_GPHOTO2_WIDGET_ENUMERATE with ['cv'] -> fullname:cv::CAP_PROP_GPHOTO2_WIDGET_ENUMERATE namespace:cv classpath: classname: name:CAP_PROP_GPHOTO2_WIDGET_ENUMERATE
+parse_name: const cv.CAP_PROP_GPHOTO2_RELOAD_CONFIG with ['cv'] -> fullname:cv::CAP_PROP_GPHOTO2_RELOAD_CONFIG namespace:cv classpath: classname: name:CAP_PROP_GPHOTO2_RELOAD_CONFIG
+parse_name: const cv.CAP_PROP_GPHOTO2_RELOAD_ON_CHANGE with ['cv'] -> fullname:cv::CAP_PROP_GPHOTO2_RELOAD_ON_CHANGE namespace:cv classpath: classname: name:CAP_PROP_GPHOTO2_RELOAD_ON_CHANGE
+parse_name: const cv.CAP_PROP_GPHOTO2_COLLECT_MSGS with ['cv'] -> fullname:cv::CAP_PROP_GPHOTO2_COLLECT_MSGS namespace:cv classpath: classname: name:CAP_PROP_GPHOTO2_COLLECT_MSGS
+parse_name: const cv.CAP_PROP_GPHOTO2_FLUSH_MSGS with ['cv'] -> fullname:cv::CAP_PROP_GPHOTO2_FLUSH_MSGS namespace:cv classpath: classname: name:CAP_PROP_GPHOTO2_FLUSH_MSGS
+parse_name: const cv.CAP_PROP_SPEED with ['cv'] -> fullname:cv::CAP_PROP_SPEED namespace:cv classpath: classname: name:CAP_PROP_SPEED
+parse_name: const cv.CAP_PROP_APERTURE with ['cv'] -> fullname:cv::CAP_PROP_APERTURE namespace:cv classpath: classname: name:CAP_PROP_APERTURE
+parse_name: const cv.CAP_PROP_EXPOSUREPROGRAM with ['cv'] -> fullname:cv::CAP_PROP_EXPOSUREPROGRAM namespace:cv classpath: classname: name:CAP_PROP_EXPOSUREPROGRAM
+parse_name: const cv.CAP_PROP_VIEWFINDER with ['cv'] -> fullname:cv::CAP_PROP_VIEWFINDER namespace:cv classpath: classname: name:CAP_PROP_VIEWFINDER
+
+--- Incoming ---
+[   'enum cv.<unnamed>',
+    '',
+    [],
+    [   ['const cv.CAP_PROP_IMAGES_BASE', '18000', [], [], None, ''],
+        ['const cv.CAP_PROP_IMAGES_LAST', '19000', [], [], None, '']],
+    None,
+    '@brief Images backend properties']
+parse_name: const cv.CAP_PROP_IMAGES_BASE with ['cv'] -> fullname:cv::CAP_PROP_IMAGES_BASE namespace:cv classpath: classname: name:CAP_PROP_IMAGES_BASE
+parse_name: const cv.CAP_PROP_IMAGES_LAST with ['cv'] -> fullname:cv::CAP_PROP_IMAGES_LAST namespace:cv classpath: classname: name:CAP_PROP_IMAGES_LAST
+
+--- Incoming ---
+[   'class cv.VideoCapture',
+    '',
+    [],
+    [],
+    None,
+    '@brief Class for video capturing from video files, image sequences or '
+    'cameras.\n'
+    '\n'
+    'The class provides C++ API for capturing video from cameras or for '
+    'reading video files and image sequences.\n'
+    '\n'
+    'Here is how the class can be used:\n'
+    '@include samples/cpp/videocapture_basic.cpp\n'
+    '\n'
+    '@note In @ref videoio_c "C API" the black-box structure `CvCapture` is '
+    'used instead of %VideoCapture.\n'
+    '@note\n'
+    '-   (C++) A basic sample on using the %VideoCapture interface can be '
+    'found at\n'
+    '`OPENCV_SOURCE_CODE/samples/cpp/videocapture_starter.cpp`\n'
+    '-   (Python) A basic sample on using the %VideoCapture interface can be '
+    'found at\n'
+    '`OPENCV_SOURCE_CODE/samples/python/video.py`\n'
+    '-   (Python) A multi threaded video processing sample can be found at\n'
+    '`OPENCV_SOURCE_CODE/samples/python/video_threaded.py`\n'
+    '-   (Python) %VideoCapture sample showcasing some features of the '
+    'Video4Linux2 backend\n'
+    '`OPENCV_SOURCE_CODE/samples/python/video_v4l2.py`']
+parse_name: class cv.VideoCapture with ['cv'] -> fullname:cv::VideoCapture namespace:cv classpath: classname: name:VideoCapture
+register class cv::VideoCapture (['class cv.VideoCapture', '', [], [], None, '@brief Class for video capturing from video files, image sequences or cameras.\n\nThe class provides C++ API for capturing video from cameras or for reading video files and image sequences.\n\nHere is how the class can be used:\n@include samples/cpp/videocapture_basic.cpp\n\n@note In @ref videoio_c "C API" the black-box structure `CvCapture` is used instead of %VideoCapture.\n@note\n-   (C++) A basic sample on using the %VideoCapture interface can be found at\n`OPENCV_SOURCE_CODE/samples/cpp/videocapture_starter.cpp`\n-   (Python) A basic sample on using the %VideoCapture interface can be found at\n`OPENCV_SOURCE_CODE/samples/python/video.py`\n-   (Python) A multi threaded video processing sample can be found at\n`OPENCV_SOURCE_CODE/samples/python/video_threaded.py`\n-   (Python) %VideoCapture sample showcasing some features of the Video4Linux2 backend\n`OPENCV_SOURCE_CODE/samples/python/video_v4l2.py`'])
+
+--- Incoming ---
+[   'cv.VideoCapture.VideoCapture',
+    'V',
+    [],
+    [],
+    None,
+    '@brief Default constructor\n'
+    '@note In @ref videoio_c "C API", when you finished working with video, '
+    'release CvCapture structure with\n'
+    'cvReleaseCapture(), or use Ptr\\<CvCapture\\> that calls '
+    'cvReleaseCapture() automatically in the\n'
+    'destructor.']
+parse_name: cv.VideoCapture.VideoCapture with ['cv'] -> fullname:cv::VideoCapture::VideoCapture namespace:cv classpath:VideoCapture classname:VideoCapture name:VideoCapture
+register (constructor) default in cv::VideoCapture (cv_VideoCapture_VideoCapture)
+
+--- Incoming ---
+[   'cv.VideoCapture.VideoCapture',
+    'V',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['int', 'apiPreference', 'CAP_ANY', []]],
+    None,
+    '@overload\n'
+    '@brief  Opens a video file or a capturing device or an IP video stream '
+    'for video capturing with API Preference\n'
+    '\n'
+    '@param filename it can be:\n'
+    '- name of video file (eg. `video.avi`)\n'
+    '- or image sequence (eg. `img_%02d.jpg`, which will read samples like '
+    '`img_00.jpg, img_01.jpg, img_02.jpg, ...`)\n'
+    '- or URL of video stream (eg. '
+    '`protocol://host:port/script_name?script_params|auth`).\n'
+    'Note that each video stream or IP camera feed has its own URL scheme. '
+    'Please refer to the\n'
+    'documentation of source stream to know the right URL.\n'
+    '@param apiPreference preferred Capture API backends to use. Can be used '
+    'to enforce a specific reader\n'
+    'implementation if multiple are available: e.g. cv::CAP_FFMPEG or '
+    'cv::CAP_IMAGES or cv::CAP_DSHOW.\n'
+    '@sa The list of supported API backends cv::VideoCaptureAPIs']
+parse_name: cv.VideoCapture.VideoCapture with ['cv'] -> fullname:cv::VideoCapture::VideoCapture namespace:cv classpath:VideoCapture classname:VideoCapture name:VideoCapture
+register (constructor) new in cv::VideoCapture (cv_VideoCapture_VideoCapture_String_int)
+
+--- Incoming ---
+[   'cv.VideoCapture.VideoCapture',
+    'V',
+    [],
+    [['int', 'index', '', []], ['int', 'apiPreference', 'CAP_ANY', []]],
+    None,
+    '@overload\n'
+    '@brief  Opens a camera for video capturing\n'
+    '\n'
+    '@param index id of the video capturing device to open. To open default '
+    'camera using default backend just pass 0.\n'
+    '(to backward compatibility usage of camera_id + domain_offset (CAP_*) is '
+    'valid when apiPreference is CAP_ANY)\n'
+    '@param apiPreference preferred Capture API backends to use. Can be used '
+    'to enforce a specific reader\n'
+    'implementation if multiple are available: e.g. cv::CAP_DSHOW or '
+    'cv::CAP_MSMF or cv::CAP_V4L.\n'
+    '\n'
+    '@sa The list of supported API backends cv::VideoCaptureAPIs']
+parse_name: cv.VideoCapture.VideoCapture with ['cv'] -> fullname:cv::VideoCapture::VideoCapture namespace:cv classpath:VideoCapture classname:VideoCapture name:VideoCapture
+register (constructor) new in cv::VideoCapture (cv_VideoCapture_VideoCapture_int_int)
+
+--- Incoming ---
+[   'cv.VideoCapture.~VideoCapture',
+    '~',
+    [],
+    [],
+    None,
+    '@brief Default destructor\n'
+    '\n'
+    'The method first calls VideoCapture::release to close the already opened '
+    'file or camera.']
+parse_name: cv.VideoCapture.~VideoCapture with ['cv'] -> fullname:cv::VideoCapture::~VideoCapture namespace:cv classpath:VideoCapture classname:VideoCapture name:~VideoCapture
+Registering an unknown type: ~
+ignore destructor (method) ~VideoCapture in cv::VideoCapture
+
+--- Incoming ---
+[   'cv.VideoCapture.open',
+    'bool',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['int', 'apiPreference', 'CAP_ANY', []]],
+    None,
+    '@brief  Opens a video file or a capturing device or an IP video stream '
+    'for video capturing.\n'
+    '\n'
+    '@overload\n'
+    '\n'
+    'Parameters are same as the constructor VideoCapture(const String& '
+    'filename, int apiPreference = CAP_ANY)\n'
+    '@return `true` if the file has been successfully opened\n'
+    '\n'
+    'The method first calls VideoCapture::release to close the already opened '
+    'file or camera.']
+parse_name: cv.VideoCapture.open with ['cv'] -> fullname:cv::VideoCapture::open namespace:cv classpath:VideoCapture classname:VideoCapture name:open
+register (method) open in cv::VideoCapture (cv_VideoCapture_open_String_int)
+
+--- Incoming ---
+[   'cv.VideoCapture.open',
+    'bool',
+    [],
+    [['int', 'index', '', []], ['int', 'apiPreference', 'CAP_ANY', []]],
+    None,
+    '@brief  Opens a camera for video capturing\n'
+    '\n'
+    '@overload\n'
+    '\n'
+    'Parameters are same as the constructor VideoCapture(int index, int '
+    'apiPreference = CAP_ANY)\n'
+    '@return `true` if the camera has been successfully opened.\n'
+    '\n'
+    'The method first calls VideoCapture::release to close the already opened '
+    'file or camera.']
+parse_name: cv.VideoCapture.open with ['cv'] -> fullname:cv::VideoCapture::open namespace:cv classpath:VideoCapture classname:VideoCapture name:open
+register (method) open in cv::VideoCapture (cv_VideoCapture_open_int_int)
+
+--- Incoming ---
+[   'cv.VideoCapture.isOpened',
+    'bool',
+    ['/C'],
+    [],
+    None,
+    '@brief Returns true if video capturing has been initialized already.\n'
+    '\n'
+    'If the previous call to VideoCapture constructor or VideoCapture::open() '
+    'succeeded, the method returns\n'
+    'true.']
+parse_name: cv.VideoCapture.isOpened with ['cv'] -> fullname:cv::VideoCapture::isOpened namespace:cv classpath:VideoCapture classname:VideoCapture name:isOpened
+register (method) isOpened in cv::VideoCapture (cv_VideoCapture_isOpened_const)
+
+--- Incoming ---
+[   'cv.VideoCapture.release',
+    'void',
+    [],
+    [],
+    None,
+    '@brief Closes video file or capturing device.\n'
+    '\n'
+    'The method is automatically called by subsequent VideoCapture::open and '
+    'by VideoCapture\n'
+    'destructor.\n'
+    '\n'
+    'The C function also deallocates memory and clears \\*capture pointer.']
+parse_name: cv.VideoCapture.release with ['cv'] -> fullname:cv::VideoCapture::release namespace:cv classpath:VideoCapture classname:VideoCapture name:release
+register (method) release in cv::VideoCapture (cv_VideoCapture_release)
+
+--- Incoming ---
+[   'cv.VideoCapture.grab',
+    'bool',
+    [],
+    [],
+    None,
+    '@brief Grabs the next frame from video file or capturing device.\n'
+    '\n'
+    '@return `true` (non-zero) in the case of success.\n'
+    '\n'
+    'The method/function grabs the next frame from video file or camera and '
+    'returns true (non-zero) in\n'
+    'the case of success.\n'
+    '\n'
+    'The primary use of the function is in multi-camera environments, '
+    'especially when the cameras do not\n'
+    'have hardware synchronization. That is, you call VideoCapture::grab() for '
+    'each camera and after that\n'
+    'call the slower method VideoCapture::retrieve() to decode and get frame '
+    'from each camera. This way\n'
+    'the overhead on demosaicing or motion jpeg decompression etc. is '
+    'eliminated and the retrieved frames\n'
+    'from different cameras will be closer in time.\n'
+    '\n'
+    'Also, when a connected camera is multi-head (for example, a stereo camera '
+    'or a Kinect device), the\n'
+    'correct way of retrieving data from it is to call VideoCapture::grab() '
+    'first and then call\n'
+    'VideoCapture::retrieve() one or more times with different values of the '
+    'channel parameter.\n'
+    '\n'
+    '@ref tutorial_kinect_openni']
+parse_name: cv.VideoCapture.grab with ['cv'] -> fullname:cv::VideoCapture::grab namespace:cv classpath:VideoCapture classname:VideoCapture name:grab
+register (method) grab in cv::VideoCapture (cv_VideoCapture_grab)
+
+--- Incoming ---
+[   'cv.VideoCapture.retrieve',
+    'bool',
+    [],
+    [['OutputArray', 'image', '', []], ['int', 'flag', '0', []]],
+    None,
+    '@brief Decodes and returns the grabbed video frame.\n'
+    '\n'
+    '@param [out] image the video frame is returned here. If no frames has '
+    'been grabbed the image will be empty.\n'
+    '@param flag it could be a frame index or a driver specific flag\n'
+    '@return `false` if no frames has been grabbed\n'
+    '\n'
+    'The method decodes and returns the just grabbed frame. If no frames has '
+    'been grabbed\n'
+    '(camera has been disconnected, or there are no more frames in video '
+    'file), the method returns false\n'
+    'and the function returns an empty image (with %cv::Mat, test it with '
+    'Mat::empty()).\n'
+    '\n'
+    '@sa read()\n'
+    '\n'
+    '@note In @ref videoio_c "C API", functions cvRetrieveFrame() and '
+    'cv.RetrieveFrame() return image stored inside the video\n'
+    'capturing structure. It is not allowed to modify or release the image! '
+    'You can copy the frame using\n'
+    'cvCloneImage and then do whatever you want with the copy.']
+parse_name: cv.VideoCapture.retrieve with ['cv'] -> fullname:cv::VideoCapture::retrieve namespace:cv classpath:VideoCapture classname:VideoCapture name:retrieve
+register (method) retrieve in cv::VideoCapture (cv_VideoCapture_retrieve__OutputArray_int)
+
+--- Incoming ---
+[   'cv.VideoCapture.operator >>',
+    'VideoCapture&',
+    [],
+    [['Mat&', 'image', '', []]],
+    None,
+    '@brief Stream operator to read the next video frame.\n@sa read()']
+parse_name: cv.VideoCapture.operator >> with ['cv'] -> fullname:cv::VideoCapture::operator >> namespace:cv classpath:VideoCapture classname:VideoCapture name:operator >>
+ignore (method) operator >> in cv::VideoCapture
+
+--- Incoming ---
+[   'cv.VideoCapture.operator >>',
+    'VideoCapture&',
+    [],
+    [['UMat&', 'image', '', []]],
+    None,
+    '@overload\n@sa read()']
+parse_name: cv.VideoCapture.operator >> with ['cv'] -> fullname:cv::VideoCapture::operator >> namespace:cv classpath:VideoCapture classname:VideoCapture name:operator >>
+ignore (method) operator >> in cv::VideoCapture
+
+--- Incoming ---
+[   'cv.VideoCapture.read',
+    'bool',
+    [],
+    [['OutputArray', 'image', '', []]],
+    None,
+    '@brief Grabs, decodes and returns the next video frame.\n'
+    '\n'
+    '@param [out] image the video frame is returned here. If no frames has '
+    'been grabbed the image will be empty.\n'
+    '@return `false` if no frames has been grabbed\n'
+    '\n'
+    'The method/function combines VideoCapture::grab() and '
+    'VideoCapture::retrieve() in one call. This is the\n'
+    'most convenient method for reading video files or capturing data from '
+    'decode and returns the just\n'
+    'grabbed frame. If no frames has been grabbed (camera has been '
+    'disconnected, or there are no more\n'
+    'frames in video file), the method returns false and the function returns '
+    'empty image (with %cv::Mat, test it with Mat::empty()).\n'
+    '\n'
+    '@note In @ref videoio_c "C API", functions cvRetrieveFrame() and '
+    'cv.RetrieveFrame() return image stored inside the video\n'
+    'capturing structure. It is not allowed to modify or release the image! '
+    'You can copy the frame using\n'
+    'cvCloneImage and then do whatever you want with the copy.']
+parse_name: cv.VideoCapture.read with ['cv'] -> fullname:cv::VideoCapture::read namespace:cv classpath:VideoCapture classname:VideoCapture name:read
+register (method) read in cv::VideoCapture (cv_VideoCapture_read__OutputArray)
+
+--- Incoming ---
+[   'cv.VideoCapture.set',
+    'bool',
+    [],
+    [['int', 'propId', '', []], ['double', 'value', '', []]],
+    None,
+    '@brief Sets a property in the VideoCapture.\n'
+    '\n'
+    '@param propId Property identifier from cv::VideoCaptureProperties (eg. '
+    'cv::CAP_PROP_POS_MSEC, cv::CAP_PROP_POS_FRAMES, ...)\n'
+    'or one from @ref videoio_flags_others\n'
+    '@param value Value of the property.\n'
+    '@return `true` if the property is supported by backend used by the '
+    'VideoCapture instance.\n'
+    "@note Even if it returns `true` this doesn't ensure that the property\n"
+    'value has been accepted by the capture device. See note in '
+    'VideoCapture::get()']
+parse_name: cv.VideoCapture.set with ['cv'] -> fullname:cv::VideoCapture::set namespace:cv classpath:VideoCapture classname:VideoCapture name:set
+register (method) set in cv::VideoCapture (cv_VideoCapture_set_int_double)
+
+--- Incoming ---
+[   'cv.VideoCapture.get',
+    'double',
+    ['/C'],
+    [['int', 'propId', '', []]],
+    None,
+    '@brief Returns the specified VideoCapture property\n'
+    '\n'
+    '@param propId Property identifier from cv::VideoCaptureProperties (eg. '
+    'cv::CAP_PROP_POS_MSEC, cv::CAP_PROP_POS_FRAMES, ...)\n'
+    'or one from @ref videoio_flags_others\n'
+    '@return Value for the specified property. Value 0 is returned when '
+    'querying a property that is\n'
+    'not supported by the backend used by the VideoCapture instance.\n'
+    '\n'
+    '@note Reading / writing properties involves many layers. Some unexpected '
+    'result might happens\n'
+    'along this chain.\n'
+    '@code{.txt}\n'
+    'VideoCapture -> API Backend -> Operating System -> Device Driver -> '
+    'Device Hardware\n'
+    '@endcode\n'
+    'The returned value might be different from what really used by the device '
+    'or it could be encoded\n'
+    'using device dependent rules (eg. steps or percentage). Effective '
+    'behaviour depends from device\n'
+    'driver and API Backend']
+parse_name: cv.VideoCapture.get with ['cv'] -> fullname:cv::VideoCapture::get namespace:cv classpath:VideoCapture classname:VideoCapture name:get
+register (method) get in cv::VideoCapture (cv_VideoCapture_get_const_int)
+
+--- Incoming ---
+[   'cv.VideoCapture.getBackendName',
+    'String',
+    ['/C'],
+    [],
+    None,
+    '@brief Returns used backend API name\n\n@note Stream should be opened.']
+parse_name: cv.VideoCapture.getBackendName with ['cv'] -> fullname:cv::VideoCapture::getBackendName namespace:cv classpath:VideoCapture classname:VideoCapture name:getBackendName
+register (method) getBackendName in cv::VideoCapture (cv_VideoCapture_getBackendName_const)
+
+--- Incoming ---
+[   'cv.VideoCapture.setExceptionMode',
+    'void',
+    [],
+    [['bool', 'enable', '', []]],
+    None,
+    'Switches exceptions mode\n'
+    '*\n'
+    '* methods raise exceptions if not successful instead of returning an '
+    'error code']
+parse_name: cv.VideoCapture.setExceptionMode with ['cv'] -> fullname:cv::VideoCapture::setExceptionMode namespace:cv classpath:VideoCapture classname:VideoCapture name:setExceptionMode
+register (method) setExceptionMode in cv::VideoCapture (cv_VideoCapture_setExceptionMode_bool)
+
+--- Incoming ---
+['cv.VideoCapture.getExceptionMode', 'bool', [], [], None, '']
+parse_name: cv.VideoCapture.getExceptionMode with ['cv'] -> fullname:cv::VideoCapture::getExceptionMode namespace:cv classpath:VideoCapture classname:VideoCapture name:getExceptionMode
+register (method) getExceptionMode in cv::VideoCapture (cv_VideoCapture_getExceptionMode)
+
+--- Incoming ---
+[   'class cv.VideoWriter',
+    '',
+    [],
+    [],
+    None,
+    '@brief Video writer class.\n'
+    '\n'
+    'The class provides C++ API for writing video files or image sequences.']
+parse_name: class cv.VideoWriter with ['cv'] -> fullname:cv::VideoWriter namespace:cv classpath: classname: name:VideoWriter
+register class cv::VideoWriter (['class cv.VideoWriter', '', [], [], None, '@brief Video writer class.\n\nThe class provides C++ API for writing video files or image sequences.'])
+
+--- Incoming ---
+[   'cv.VideoWriter.VideoWriter',
+    'V',
+    [],
+    [],
+    None,
+    '@brief Default constructors\n'
+    '\n'
+    'The constructors/functions initialize video writers.\n'
+    '-   On Linux FFMPEG is used to write videos;\n'
+    '-   On Windows FFMPEG or MSWF or DSHOW is used;\n'
+    '-   On MacOSX AVFoundation is used.']
+parse_name: cv.VideoWriter.VideoWriter with ['cv'] -> fullname:cv::VideoWriter::VideoWriter namespace:cv classpath:VideoWriter classname:VideoWriter name:VideoWriter
+register (constructor) default in cv::VideoWriter (cv_VideoWriter_VideoWriter)
+
+--- Incoming ---
+[   'cv.VideoWriter.VideoWriter',
+    'V',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['int', 'fourcc', '', []],
+        ['double', 'fps', '', []],
+        ['Size', 'frameSize', '', []],
+        ['bool', 'isColor', 'true', []]],
+    None,
+    '@overload\n'
+    '@param filename Name of the output video file.\n'
+    '@param fourcc 4-character code of codec used to compress the frames. For '
+    'example,\n'
+    "VideoWriter::fourcc('P','I','M','1') is a MPEG-1 codec, "
+    "VideoWriter::fourcc('M','J','P','G') is a\n"
+    'motion-jpeg codec etc. List of codes can be obtained at [Video Codecs by\n'
+    'FOURCC](http://www.fourcc.org/codecs.php) page. FFMPEG backend with MP4 '
+    'container natively uses\n'
+    'other values as fourcc code: see '
+    '[ObjectType](http://www.mp4ra.org/codecs.html),\n'
+    'so you may receive a warning message from OpenCV about fourcc code '
+    'conversion.\n'
+    '@param fps Framerate of the created video stream.\n'
+    '@param frameSize Size of the video frames.\n'
+    '@param isColor If it is not zero, the encoder will expect and encode '
+    'color frames, otherwise it\n'
+    'will work with grayscale frames (the flag is currently supported on '
+    'Windows only).\n'
+    '\n'
+    '@b Tips:\n'
+    '- With some backends `fourcc=-1` pops up the codec selection dialog from '
+    'the system.\n'
+    '- To save image sequence use a proper filename (eg. `img_%02d.jpg`) and '
+    '`fourcc=0`\n'
+    'OR `fps=0`. Use uncompressed image format (eg. `img_%02d.BMP`) to save '
+    'raw frames.\n'
+    '- Most codecs are lossy. If you want lossless video file you need to use '
+    'a lossless codecs\n'
+    '(eg. FFMPEG FFV1, Huffman HFYU, Lagarith LAGS, etc...)\n'
+    '- If FFMPEG is enabled, using `codec=0; fps=0;` you can create an '
+    'uncompressed (raw) video file.']
+parse_name: cv.VideoWriter.VideoWriter with ['cv'] -> fullname:cv::VideoWriter::VideoWriter namespace:cv classpath:VideoWriter classname:VideoWriter name:VideoWriter
+register (constructor) new in cv::VideoWriter (cv_VideoWriter_VideoWriter_String_int_double_Size_bool)
+
+--- Incoming ---
+[   'cv.VideoWriter.VideoWriter',
+    'V',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['int', 'apiPreference', '', []],
+        ['int', 'fourcc', '', []],
+        ['double', 'fps', '', []],
+        ['Size', 'frameSize', '', []],
+        ['bool', 'isColor', 'true', []]],
+    None,
+    '@overload\n'
+    'The `apiPreference` parameter allows to specify API backends to use. Can '
+    'be used to enforce a specific reader implementation\n'
+    'if multiple are available: e.g. cv::CAP_FFMPEG or cv::CAP_GSTREAMER.']
+parse_name: cv.VideoWriter.VideoWriter with ['cv'] -> fullname:cv::VideoWriter::VideoWriter namespace:cv classpath:VideoWriter classname:VideoWriter name:VideoWriter
+register (constructor) new in cv::VideoWriter (cv_VideoWriter_VideoWriter_String_int_int_double_Size_bool)
+
+--- Incoming ---
+[   'cv.VideoWriter.~VideoWriter',
+    '~',
+    [],
+    [],
+    None,
+    '@brief Default destructor\n'
+    '\n'
+    'The method first calls VideoWriter::release to close the already opened '
+    'file.']
+parse_name: cv.VideoWriter.~VideoWriter with ['cv'] -> fullname:cv::VideoWriter::~VideoWriter namespace:cv classpath:VideoWriter classname:VideoWriter name:~VideoWriter
+ignore destructor (method) ~VideoWriter in cv::VideoWriter
+
+--- Incoming ---
+[   'cv.VideoWriter.open',
+    'bool',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['int', 'fourcc', '', []],
+        ['double', 'fps', '', []],
+        ['Size', 'frameSize', '', []],
+        ['bool', 'isColor', 'true', []]],
+    None,
+    '@brief Initializes or reinitializes video writer.\n'
+    '\n'
+    'The method opens video writer. Parameters are the same as in the '
+    'constructor\n'
+    'VideoWriter::VideoWriter.\n'
+    '@return `true` if video writer has been successfully initialized\n'
+    '\n'
+    'The method first calls VideoWriter::release to close the already opened '
+    'file.']
+parse_name: cv.VideoWriter.open with ['cv'] -> fullname:cv::VideoWriter::open namespace:cv classpath:VideoWriter classname:VideoWriter name:open
+register (method) open in cv::VideoWriter (cv_VideoWriter_open_String_int_double_Size_bool)
+
+--- Incoming ---
+[   'cv.VideoWriter.open',
+    'bool',
+    [],
+    [   ['const String&', 'filename', '', []],
+        ['int', 'apiPreference', '', []],
+        ['int', 'fourcc', '', []],
+        ['double', 'fps', '', []],
+        ['Size', 'frameSize', '', []],
+        ['bool', 'isColor', 'true', []]],
+    None,
+    '@overload']
+parse_name: cv.VideoWriter.open with ['cv'] -> fullname:cv::VideoWriter::open namespace:cv classpath:VideoWriter classname:VideoWriter name:open
+register (method) open in cv::VideoWriter (cv_VideoWriter_open_String_int_int_double_Size_bool)
+
+--- Incoming ---
+[   'cv.VideoWriter.isOpened',
+    'bool',
+    ['/C'],
+    [],
+    None,
+    '@brief Returns true if video writer has been successfully initialized.']
+parse_name: cv.VideoWriter.isOpened with ['cv'] -> fullname:cv::VideoWriter::isOpened namespace:cv classpath:VideoWriter classname:VideoWriter name:isOpened
+register (method) isOpened in cv::VideoWriter (cv_VideoWriter_isOpened_const)
+
+--- Incoming ---
+[   'cv.VideoWriter.release',
+    'void',
+    [],
+    [],
+    None,
+    '@brief Closes the video writer.\n'
+    '\n'
+    'The method is automatically called by subsequent VideoWriter::open and by '
+    'the VideoWriter\n'
+    'destructor.']
+parse_name: cv.VideoWriter.release with ['cv'] -> fullname:cv::VideoWriter::release namespace:cv classpath:VideoWriter classname:VideoWriter name:release
+register (method) release in cv::VideoWriter (cv_VideoWriter_release)
+
+--- Incoming ---
+[   'cv.VideoWriter.operator <<',
+    'VideoWriter&',
+    [],
+    [['const Mat&', 'image', '', []]],
+    None,
+    '@brief Stream operator to write the next video frame.\n@sa write']
+parse_name: cv.VideoWriter.operator << with ['cv'] -> fullname:cv::VideoWriter::operator << namespace:cv classpath:VideoWriter classname:VideoWriter name:operator <<
+ignore (method) operator << in cv::VideoWriter
+
+--- Incoming ---
+[   'cv.VideoWriter.operator <<',
+    'VideoWriter&',
+    [],
+    [['const UMat&', 'image', '', []]],
+    None,
+    '@overload\n@sa write']
+parse_name: cv.VideoWriter.operator << with ['cv'] -> fullname:cv::VideoWriter::operator << namespace:cv classpath:VideoWriter classname:VideoWriter name:operator <<
+ignore (method) operator << in cv::VideoWriter
+
+--- Incoming ---
+[   'cv.VideoWriter.write',
+    'void',
+    [],
+    [['InputArray', 'image', '', []]],
+    None,
+    '@brief Writes the next video frame\n'
+    '\n'
+    '@param image The written frame. In general, color images are expected in '
+    'BGR format.\n'
+    '\n'
+    'The function/method writes the specified image to video file. It must '
+    'have the same size as has\n'
+    'been specified when opening the video writer.']
+parse_name: cv.VideoWriter.write with ['cv'] -> fullname:cv::VideoWriter::write namespace:cv classpath:VideoWriter classname:VideoWriter name:write
+register (method) write in cv::VideoWriter (cv_VideoWriter_write__InputArray)
+
+--- Incoming ---
+[   'cv.VideoWriter.set',
+    'bool',
+    [],
+    [['int', 'propId', '', []], ['double', 'value', '', []]],
+    None,
+    '@brief Sets a property in the VideoWriter.\n'
+    '\n'
+    '@param propId Property identifier from cv::VideoWriterProperties (eg. '
+    'cv::VIDEOWRITER_PROP_QUALITY)\n'
+    'or one of @ref videoio_flags_others\n'
+    '\n'
+    '@param value Value of the property.\n'
+    '@return  `true` if the property is supported by the backend used by the '
+    'VideoWriter instance.']
+parse_name: cv.VideoWriter.set with ['cv'] -> fullname:cv::VideoWriter::set namespace:cv classpath:VideoWriter classname:VideoWriter name:set
+register (method) set in cv::VideoWriter (cv_VideoWriter_set_int_double)
+
+--- Incoming ---
+[   'cv.VideoWriter.get',
+    'double',
+    ['/C'],
+    [['int', 'propId', '', []]],
+    None,
+    '@brief Returns the specified VideoWriter property\n'
+    '\n'
+    '@param propId Property identifier from cv::VideoWriterProperties (eg. '
+    'cv::VIDEOWRITER_PROP_QUALITY)\n'
+    'or one of @ref videoio_flags_others\n'
+    '\n'
+    '@return Value for the specified property. Value 0 is returned when '
+    'querying a property that is\n'
+    'not supported by the backend used by the VideoWriter instance.']
+parse_name: cv.VideoWriter.get with ['cv'] -> fullname:cv::VideoWriter::get namespace:cv classpath:VideoWriter classname:VideoWriter name:get
+register (method) get in cv::VideoWriter (cv_VideoWriter_get_const_int)
+
+--- Incoming ---
+[   'cv.VideoWriter.fourcc',
+    'int',
+    ['/S'],
+    [   ['char', 'c1', '', []],
+        ['char', 'c2', '', []],
+        ['char', 'c3', '', []],
+        ['char', 'c4', '', []]],
+    None,
+    '@brief Concatenates 4 chars to a fourcc code\n'
+    '\n'
+    '@return a fourcc code\n'
+    '\n'
+    'This static method constructs the fourcc code of the codec to be used in '
+    'the constructor\n'
+    'VideoWriter::VideoWriter or VideoWriter::open.']
+parse_name: cv.VideoWriter.fourcc with ['cv'] -> fullname:cv::VideoWriter::fourcc namespace:cv classpath:VideoWriter classname:VideoWriter name:fourcc
+register (method) fourcc in cv::VideoWriter (cv_VideoWriter_fourcc_char_char_char_char)
+
+--- Incoming ---
+[   'cv.VideoWriter.getBackendName',
+    'String',
+    ['/C'],
+    [],
+    None,
+    '@brief Returns used backend API name\n\n@note Stream should be opened.']
+parse_name: cv.VideoWriter.getBackendName with ['cv'] -> fullname:cv::VideoWriter::getBackendName namespace:cv classpath:VideoWriter classname:VideoWriter name:getBackendName
+register (method) getBackendName in cv::VideoWriter (cv_VideoWriter_getBackendName_const)
+
+--- Incoming ---
+[   'cv.VideoWriter.create',
+    'Ptr<IVideoWriter>',
+    ['/S', '/H'],
+    [   ['const String&', 'filename', '', []],
+        ['int', 'fourcc', '', []],
+        ['double', 'fps', '', []],
+        ['Size', 'frameSize', '', []],
+        ['bool', 'isColor', 'true', []]],
+    None,
+    '']
+parse_name: cv.VideoWriter.create with ['cv'] -> fullname:cv::VideoWriter::create namespace:cv classpath:VideoWriter classname:VideoWriter name:create
+Registering an unknown type: IVideoWriter
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videoio/registry.hpp ================
+
+
+Namespaces: ['cv', 'cv.videoio_registry']
+Comment: {'videoio': '\n@defgroup videoio Video I/O\n\n@brief Read and write video or images sequence with OpenCV\n\n### See also:\n- @ref videoio_overview\n- Tutorials: @ref tutorial_table_of_content_videoio\n@{\n@defgroup videoio_flags_base Flags for video I/O\n@defgroup videoio_flags_others Additional flags for video I/O API backends\n@defgroup videoio_c C API for video I/O\n@defgroup videoio_ios iOS glue for video I/O\n@defgroup videoio_winrt WinRT glue for video I/O\n@defgroup videoio_registry Query I/O API backends registry\n@}\n\n'}
+
+--- Incoming ---
+[   'cv.videoio_registry.getBackendName',
+    'cv::String',
+    [],
+    [['VideoCaptureAPIs', 'api', '', []]],
+    None,
+    '@brief Returns backend API name or "UnknownVideoAPI(xxx)"\n'
+    '@param api backend ID (#VideoCaptureAPIs)']
+parse_name: cv.videoio_registry.getBackendName with ['cv', 'cv::videoio_registry'] -> fullname:cv::videoio_registry::getBackendName namespace:cv::videoio_registry classpath: classname: name:getBackendName
+register (function) getBackendName (cv_videoio_registry_getBackendName_VideoCaptureAPIs)
+
+--- Incoming ---
+[   'cv.videoio_registry.getBackends',
+    'std::vector<VideoCaptureAPIs>',
+    [],
+    [],
+    None,
+    '@brief Returns list of all available backends']
+parse_name: cv.videoio_registry.getBackends with ['cv', 'cv::videoio_registry'] -> fullname:cv::videoio_registry::getBackends namespace:cv::videoio_registry classpath: classname: name:getBackends
+register (function) getBackends (cv_videoio_registry_getBackends)
+
+--- Incoming ---
+[   'cv.videoio_registry.getCameraBackends',
+    'std::vector<VideoCaptureAPIs>',
+    [],
+    [],
+    None,
+    '@brief Returns list of available backends which works via '
+    '`cv::VideoCapture(int index)`']
+parse_name: cv.videoio_registry.getCameraBackends with ['cv', 'cv::videoio_registry'] -> fullname:cv::videoio_registry::getCameraBackends namespace:cv::videoio_registry classpath: classname: name:getCameraBackends
+register (function) getCameraBackends (cv_videoio_registry_getCameraBackends)
+
+--- Incoming ---
+[   'cv.videoio_registry.getStreamBackends',
+    'std::vector<VideoCaptureAPIs>',
+    [],
+    [],
+    None,
+    '@brief Returns list of available backends which works via '
+    '`cv::VideoCapture(filename)`']
+parse_name: cv.videoio_registry.getStreamBackends with ['cv', 'cv::videoio_registry'] -> fullname:cv::videoio_registry::getStreamBackends namespace:cv::videoio_registry classpath: classname: name:getStreamBackends
+register (function) getStreamBackends (cv_videoio_registry_getStreamBackends)
+
+--- Incoming ---
+[   'cv.videoio_registry.getWriterBackends',
+    'std::vector<VideoCaptureAPIs>',
+    [],
+    [],
+    None,
+    '@brief Returns list of available backends which works via '
+    '`cv::VideoWriter()`']
+parse_name: cv.videoio_registry.getWriterBackends with ['cv', 'cv::videoio_registry'] -> fullname:cv::videoio_registry::getWriterBackends namespace:cv::videoio_registry classpath: classname: name:getWriterBackends
+register (function) getWriterBackends (cv_videoio_registry_getWriterBackends)
+
+--- Incoming ---
+[   'cv.videoio_registry.hasBackend',
+    'bool',
+    [],
+    [['VideoCaptureAPIs', 'api', '', []]],
+    None,
+    '@brief Returns true if backend is available']
+parse_name: cv.videoio_registry.hasBackend with ['cv', 'cv::videoio_registry'] -> fullname:cv::videoio_registry::hasBackend namespace:cv::videoio_registry classpath: classname: name:hasBackend
+register (function) hasBackend (cv_videoio_registry_hasBackend_VideoCaptureAPIs)
+
+
+=============== Header: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2/videoio/videoio.hpp ================
+
+
+Namespaces: ['cv', 'cv.videoio_registry']
+Comment: {'videoio': '\n@defgroup videoio Video I/O\n\n@brief Read and write video or images sequence with OpenCV\n\n### See also:\n- @ref videoio_overview\n- Tutorials: @ref tutorial_table_of_content_videoio\n@{\n@defgroup videoio_flags_base Flags for video I/O\n@defgroup videoio_flags_others Additional flags for video I/O API backends\n@defgroup videoio_c C API for video I/O\n@defgroup videoio_ios iOS glue for video I/O\n@defgroup videoio_winrt WinRT glue for video I/O\n@defgroup videoio_registry Query I/O API backends registry\n@}\n\n'}
+
+
+===== Generating... =====
+Generating func cv_videoio_registry_getBackendName_VideoCaptureAPIs
+Generating func cv_videoio_registry_getBackends
+Generating func cv_videoio_registry_getCameraBackends
+Generating func cv_videoio_registry_getStreamBackends
+Generating func cv_videoio_registry_getWriterBackends
+Generating func cv_videoio_registry_hasBackend_VideoCaptureAPIs
+Ghost class cv::Algorithm (ghost, trait), ignoring
+Ghost class cv::DMatch (simple, ghost), ignoring
+Ghost class cv::DescriptorMatcher (ghost, trait), ignoring
+Ghost class cv::Feature2D (ghost, trait), ignoring
+Ghost class cv::FileNode (ghost), ignoring
+Ghost class cv::FileStorage (ghost), ignoring
+Ghost class cv::KeyPoint (simple, ghost), ignoring
+Ghost class cv::Mat (ghost), ignoring
+Ghost class cv::MatExpr (ghost), ignoring
+Ghost class cv::Range (ghost), ignoring
+Ghost class cv::RotatedRect (ghost), ignoring
+Ghost class cv::TermCriteria (ghost), ignoring
+Ghost class cv::UMat (ghost), ignoring
+Generating box for cv::VideoCapture
+Generating func cv_VideoCapture_VideoCapture
+Generating func cv_VideoCapture_VideoCapture_String_int
+Generating func cv_VideoCapture_VideoCapture_int_int
+Generating func cv_VideoCapture_open_String_int
+Generating func cv_VideoCapture_open_int_int
+Generating func cv_VideoCapture_isOpened_const
+Generating func cv_VideoCapture_release
+Generating func cv_VideoCapture_grab
+Generating func cv_VideoCapture_retrieve__OutputArray_int
+Generating func cv_VideoCapture_read__OutputArray
+Generating func cv_VideoCapture_set_int_double
+Generating func cv_VideoCapture_get_const_int
+Generating func cv_VideoCapture_getBackendName_const
+Generating func cv_VideoCapture_setExceptionMode_bool
+Generating func cv_VideoCapture_getExceptionMode
+Generating box for cv::VideoWriter
+Generating func cv_VideoWriter_VideoWriter
+Generating func cv_VideoWriter_VideoWriter_String_int_double_Size_bool
+Generating func cv_VideoWriter_VideoWriter_String_int_int_double_Size_bool
+Generating func cv_VideoWriter_open_String_int_double_Size_bool
+Generating func cv_VideoWriter_open_String_int_int_double_Size_bool
+Generating func cv_VideoWriter_isOpened_const
+Generating func cv_VideoWriter_release
+Generating func cv_VideoWriter_write__InputArray
+Generating func cv_VideoWriter_set_int_double
+Generating func cv_VideoWriter_get_const_int
+Generating func cv_VideoWriter_fourcc_char_char_char_char
+Generating func cv_VideoWriter_getBackendName_const
+Ghost class cv::_InputArray (ghost, trait), ignoring
+Ghost class cv::_InputOutputArray (ghost, trait), ignoring
+Ghost class cv::_OutputArray (ghost, trait), ignoring
+Ghost class cv::dnn::Layer (ghost, trait), ignoring
+Ghost class cv::dnn::LayerParams (ghost), ignoring
+Ghost class cv::utils::logging::LogTag (ghost), ignoring

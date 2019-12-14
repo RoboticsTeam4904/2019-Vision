@@ -1,0 +1,3 @@
+=== Using OpenCV headers from: /Users/ianlum/.cargo/registry/src/github.com-1ecc6299db9ec823/opencv-0.23.0/headers/4.1/opencv2
+=== Generating code in: /Users/ianlum/Documents/prog/rob/2019-Vision/vision-2019/target/debug/build/opencv-033f7be858c824a1/out
+=== Using OpenCV library version: 4.1.1 from: /usr/local/Cellar/opencv/4.1.1_2/lib
