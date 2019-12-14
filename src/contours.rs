@@ -1,7 +1,7 @@
-use opencv::prelude::*;
 use opencv::core::{in_range, Mat, Point, Scalar};
 use opencv::imgproc::{self, CHAIN_APPROX_SIMPLE, COLOR_BGR2HSV, RETR_EXTERNAL};
-use opencv::types::VectorOfPoint;
+use opencv::prelude::*;
+use opencv::types::{VectorOfPoint, VectorOfVectorOfPoint};
 use standard_vision::traits::ContourExtractor;
 use standard_vision::types::{Contour, Image};
 use std::ops::Range;
@@ -59,7 +59,7 @@ impl RFTapeCountourExtractor {
 }
 
 impl<'a> ContourExtractor for RFTapeCountourExtractor {
-    fn extract_from(&self, image: &Image<'_>) -> Vec<Contour<'_>> {
+    fn extract_from<'b>(&self, image: &Image<'b>) -> Vec<Contour> {
         let mut image_mat = Mat::default().unwrap();
         let mut hsv = Mat::default().unwrap();
         let mut thresh = Mat::default().unwrap();
@@ -83,17 +83,23 @@ impl<'a> ContourExtractor for RFTapeCountourExtractor {
             offset,
         ); // get contours
 
-        let contours = contours_mat.to_vec_2d::<Point>().unwrap();
-        let filtered_contours = VectorOfPoint::from_iter(contours.iter())
+        let contours = VectorOfVectorOfPoint::from_iter(
+            contours_mat.to_vec_2d::<Point>().unwrap()
+                .into_iter()
+                .map(|points| VectorOfPoint::from_iter(points))
+                .collect::<Vec<VectorOfPoint>>(),
+        );
+        let filtered_contours = contours
             .iter()
             .filter(|contour| Self::is_contour_viable(contour)); // convert Vec<Point> to VecOfPoint
 
-        return filtered_contours.map(|contour| Contour {
-            image: image,
-            points: contour
-                .iter()
-                .map(|point| (point.x as u32, point.y as u32))
-                .collect(),
-        });
+        filtered_contours
+            .map(|contour| Contour {
+                points: contour
+                    .iter()
+                    .map(|point| (point.x as u32, point.y as u32))
+                    .collect(),
+            })
+            .collect()
     }
 }
